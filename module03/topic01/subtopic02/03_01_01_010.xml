@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Defining Culture</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Is Culture?&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="374" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">"Culture can be seen as an inherited 'lens' through which the individual perceives and understands the world that he inhabits and learns how to live within it."</content>
+		</text>
+		<text id="text02" x="347" y="120.8" width="382" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Culture: a system of beliefs and behaviors shared by people who also share a common history or common factors.</content>
+		</text>
+		<text id="text03" x="347" y="212.8" width="330" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">These factors can include geography, ethnicity, race, religion, economic background, gender roles, and child-rearing practices.</content>
+		</text>
+		<text id="text04" x="347" y="60" width="367" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">In most instances, parenting is influenced by cultural practices and interpretations handed down from a previous generation.</content>
+		</text>
+		<text id="text05" x="347" y="459.2" width="378" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Every family is a new family with new goals, values, and beliefs to parent a child.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Parents create their child's culture. &lt;/P&gt;</content>
+		</text>
+		<text id="text06" x="" y="" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="435" y="50" width="" height="" style="GRAPHIC" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="73495" play="false" start_frame="1">03_01_01_010_05.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;File #: 16391239&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" placeholder="true" start_frame="1"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic03" x="435" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1" bytes="92858">03_01_01_010_04.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;grandmother and child istock File #: 8062002&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic04" x="25" y="150" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" placeholder="true" start_frame="1"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="74967" duration="219" start_frame="1">a_03_01_01_010_01.swf</file>
+			<transcript translate="true">Cecil Helman states that, "Culture can be seen as an inherited 'lens' through which the individual perceives and understands the world that he inhabits and learns how to live within it." Definitions of culture from the fields of anthropology, psychology, history, and medicine all define culture as</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="29379" duration="86" start_frame="1">a_03_01_01_010_02.swf</file>
+			<transcript translate="true">a system of beliefs and behaviors shared by people who also share a common history or common factors.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="41459" duration="122" start_frame="1">a_03_01_01_010_03.swf</file>
+			<transcript translate="true">These factors can include geography, ethnicity, race, religion, economic background, gender roles, and child-rearing practices.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" bytes="49963" duration="146" start_frame="1">a_03_01_01_010_04.swf</file>
+			<transcript translate="true">In most instances, parenting is influenced by cultural practices and interpretations handed down from a previous generation. However, it is also shaped by the person's individual values or beliefs.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file start_frame="1" play="false" bytes="82939" duration="242">a_03_01_01_010_05.swf</file>
+			<transcript translate="true">Every family is a new family with new goals, values, and beliefs to parent a child. This means that every child is raised with a unique system of shared meaning in which their parents bring together what they consider to be the best of the past with their hopes for the future. In doing so, they create that child's culture. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration06">
+			<file start_frame="1" play="false"/>
+			<transcript/>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<graphic id="ref_icon01" x="197" y="188" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+		<file bytes="1704" play="false" duration="1" start_frame="1">rstar_sizeable.swf</file>
+		<eventlist>
+			<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+		</eventlist>
+	</graphic>
+	<graphic id="ref_icon02" x="242" y="326" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+		<file bytes="1704" play="false" duration="1" start_frame="1">rstar_sizeable.swf</file>
+		<eventlist>
+			<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+		</eventlist>
+	</graphic>
+	<graphic id="ref_icon03" x="277" y="82" width="15" height="15" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+		<file bytes="1704" play="false" duration="1" start_frame="1">rstar_sizeable.swf</file>
+		<eventlist>
+			<event type="CLICK" result="SHOW" target="reference03" result_param=""/>
+		</eventlist>
+	</graphic>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" start_frame="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Brink, P. J., &amp; Saunders, J. M. (Eds.). (1976). &lt;I&gt;Transcultural nursing: A book of reading.&lt;/I&gt; Toronto, ON: Prentice-Hall.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" start_frame="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Pirak, C. &amp; Gottman, J. (2007). &lt;I&gt;Creating a shared family legacy&lt;/I&gt;. Seattle, WA: Relationship Research Institute.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference03" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" start_frame="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Helman, C. G. (2000). &lt;I&gt;Culture, health and illness &lt;/I&gt;(4th ed.). Oxford, UK: Butterworth-Heinemann.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

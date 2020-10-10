@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_expand">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programming-options"/>
+		<notes id="search-terms"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="BOOLEAN" value="false"/>
+		<settings id="orderIndependent" datatype="BOOLEAN" value="false"/>
+		<settings id="persistInitGfx" datatype="BOOLEAN" value="true"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+		<eventlist>
+			<event type="INIT" result="CALL_FUNCTION" target="SHELL" result_param="loadPageNote(expand01.input);"/>
+			<event type="INIT" result="CALL_FUNCTION" target="SHELL" result_param="loadPageNote(expand02.input);"/>
+			<event type="INIT" result="CALL_FUNCTION" target="SHELL" result_param="loadPageNote(expand03.input);"/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Family Situations</content>
+	</text>
+	<text id="nav_text" x="33" y="425" width="736" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt;, or click the &lt;B&gt;Conclusion&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="51" width="696" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Thinking about the families you work with, consider the role that family structure, diversity, and extended family play in their lives. Make a few notes by answering the following questions.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="698" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;question&lt;/B&gt; to enter your notes in the space provided, then click &lt;B&gt;Save&lt;/B&gt;.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="483" y="130" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1" bytes="85280">a_04_04_03_010_01.jpg</file>
+			<notes id="description">large, diverse family enjoying time together</notes>
+		</graphic>
+		<audio id="initial_audio">
+			<file start_frame="1" play="true" duration="212" bytes="72699">a_04_04_03_010_01.swf</file>
+			<transcript translate="true">Thinking about the families you work with, consider the role that family structure, diversity, and extended family play in their lives. Make a few notes by answering the following questions. Click each question to enter your notes in the space provided, when finished click Save to save your comments in My Teaching Notes.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="list_items" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="link01" name="question01" x="25" y="130" width="416" height="24" autosize="H" style="LINK" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;How has family structure influenced your life?&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+		<text id="link02" name="question02" x="10" y="18" width="416" height="24" autosize="H" style="LINK" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;How will you teach parents about the influence of family structure?&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+		<text id="link03" name="question02" x="10" y="18" width="416" height="24" autosize="H" style="LINK" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<content translate="true">What types of family structure do you see in the parents with whom you work?</content>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="submit" result_param=""/>
+			</eventlist>
+		</text>
+	</section>
+	<section id="expand_content" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="expand01" behavior="LOCK_SIZE" x="25" y="171.2" visible="false" fx="EXPAND_SHOW" hidefx="EXPAND_HIDE" style="">
+			<text id="text" x="0" y="0" width="395" height="" autosize="H" style="SWAP" visible="true" fx="">
+				<content/>
+			</text>
+			<input id="input" name="answer01" x="0" y="0" width="405" height="100" maxchars="1000" password="false" multiline="true" focus="true" restrict="" style="TEXT_ENTRY" visible="true" fx="" scroll="ON" case="M">
+				<content/>
+				<configuration>
+					<settings id="noteTitle" datatype="STRING" value="Teaching Parents About Family Structure"/>
+				</configuration>
+			</input>
+			<graphic id="graphic_compare" x="500" y="10" width="" height="" style="LINK_SWF" visible="true" fx="">
+				<file play="false" start_frame="1" placeholder="true"/>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="popup01" result_param=""/>
+				</eventlist>
+			</graphic>
+			<graphic id="spacer" x="0" y="100" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" start_frame="1"/>
+			</graphic>
+		</container>
+		<container id="expand02" behavior="LOCK_SIZE" x="25" y="222.4" visible="false" fx="EXPAND_SHOW" hidefx="EXPAND_HIDE" style="">
+			<text id="text" x="0" y="0" width="395" height="" autosize="H" style="SWAP" visible="true" fx="">
+				<content/>
+			</text>
+			<input id="input" name="answer02" x="0" y="0" width="405" height="100" maxchars="1000" password="false" multiline="true" focus="true" restrict="" style="TEXT_ENTRY" visible="true" fx="" scroll="ON" case="M">
+				<content/>
+				<configuration>
+					<settings id="noteTitle" datatype="STRING" value="Types of Family Structure of Clients"/>
+				</configuration>
+			</input>
+			<graphic id="graphic_compare" x="0" y="0" width="" height="" style="LINK_SWF" visible="true" fx="">
+				<file play="false" start_frame="1" placeholder="true"/>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="popup02" result_param=""/>
+				</eventlist>
+			</graphic>
+			<graphic id="spacer" x="0" y="100" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" start_frame="1"/>
+			</graphic>
+		</container>
+		<container id="expand03" behavior="LOCK_SIZE" x="25" y="273.6" visible="false" fx="EXPAND_SHOW" hidefx="EXPAND_HIDE" style="">
+			<text id="text" x="0" y="0" width="395" height="" autosize="H" style="SWAP" visible="true" fx="">
+				<content/>
+			</text>
+			<input id="input" name="answer02" x="0" y="0" width="405" height="100" maxchars="1000" password="false" multiline="true" focus="true" restrict="" style="TEXT_ENTRY" visible="true" fx="" scroll="ON" case="M">
+				<content/>
+				<configuration>
+					<settings id="noteTitle" datatype="STRING" value="Types of Family Structure of Clients"/>
+				</configuration>
+			</input>
+			<graphic id="graphic_compare" x="0" y="0" width="" height="" style="LINK_SWF" visible="true" fx="">
+				<file play="false" start_frame="1" placeholder="true"/>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="popup02" result_param=""/>
+				</eventlist>
+			</graphic>
+			<graphic id="spacer" x="0" y="100" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" start_frame="1"/>
+			</graphic>
+		</container>
+	</section>
+	<section id="buttons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="submit" behavior="STRICT|LOCK_SIZE" x="339" y="380" visible="false" fx="SUBMIT_SHOW" hidefx="SUBMIT_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SUBMIT" visible="true">
+				<file play="false" bytes="2583" duration="35" start_frame="1">std_control.swf</file>
+			</graphic>
+			<text id="text" x="8" y="8" width="101" height="18" autosize="" style="CONTROLS" visible="true">
+				<content translate="true">Save</content>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="CALL_FUNCTION" target="SHELL" result_param="savePageNotes(expand01.input,expand02.input,expand03.input);"/>
+				<event type="CLICK" result="SHOW" target="misc_text01" result_param=""/>
+			</eventlist>
+		</container>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="24" y="412" width="415" height="" autosize="H" style="FEEDBACK_BLUE" visible="false" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">These notes are now saved in &lt;B&gt;My Teaching Notes&lt;/B&gt;.</content>
+		</text>
+	</section>
+</template>

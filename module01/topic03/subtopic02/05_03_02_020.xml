@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_floatpanels" view="view_floatpanels">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Teaching Tools</content>
+	</text>
+	<text id="nav_text" x="158" y="425" width="613" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; to learn more about &lt;B&gt;Teaching Resources&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="713" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;B&gt;Teaching Tools&lt;/B&gt; contains printable PDFs of helpful teaching resources. Some of the resources to look for include objectives and key messages, lesson outlines, and handouts.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="372" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click the &lt;B&gt;photo&lt;/B&gt; below to hear a professional's comments.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<audio id="initial_audio">
+			<file play="true" bytes="76147" duration="222" start_frame="1">a_05_03_02_020_01.swf</file>
+			<transcript translate="true">Teaching Tools contains printable PDFs of helpful teaching resources. Some of the resources to look for include objectives and key messages, lesson outlines, and handouts. Let's listen to how one professional was able to use these resources to help teach a workshop. Click the photo below to hear her comments.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="60" y="128" width="" height="" style="LINK_3" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="51991">05_03_02_020_01.jpg</file>
+			<notes id="description">professional talking</notes>
+			<eventlist>
+				<event type="CLICK" result="PLAY" target="misc_audio01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="misc_graphic02" x="387" y="129" width="322" height="266" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="54">clear.gif</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="395" y="140" width="316" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;"Last month I was teaching a workshop on praise to young parents in the community so I decided to look through the Parenting Counts Teaching Tools to see if they could help me in my planning. I found the objectives and key messages to be very helpful in guiding my goals for the workshop and in helping me recognize the key points I wanted my learners to take home. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;"The lesson outline helped me cover the content effectively within my time frame, and the parents loved the handouts and activities because they had something to take home with them as a reminder of the new parenting skills they learned."&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;—Marla&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="miscellaneous_audio" expanded="true">
+		<audio id="misc_audio01">
+			<file start_frame="1" play="false" bytes="133919" duration="391">a_05_03_02_020_02.swf</file>
+			<transcript translate="true">Last month I was teaching a workshop on Praise to young parents in the community so I decided to look through the Parenting Counts Teaching Tools to see if they could help me in my planning. I found the objectives and key messages to be very helpful in guiding my goals for the workshop and in helping me recognize the key points I wanted my learners to take home. The lesson outline helped me cover the content effectively within my time frame, and the parents loved the handouts and activities because they had something to take home with them as a reminder of the new parenting skills they learned.</transcript>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text01" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+			<notes id="mentor-character">Professional 1:</notes>
+		</audio>
+	</section>
+</template>

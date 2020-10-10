@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_video" view="view_video">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+		<eventlist>
+			<event type="COMPLETION" result="NAVIGATE_FORWARD" target="" result_param=""/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="-50" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Who We Are</content>
+	</text>
+	<text id="nav_text" x="188" y="425" width="585" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content/>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="375" y="60" width="371" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Let's watch a video that will introduce you to Talaris and explain our interest in parenting.</content>
+		</text>
+		<text id="text02" x="375" y="60" width="359" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Parenting Counts supports families by:&lt;/P&gt;&lt;LI&gt;Providing research-based information in simple and practical ways&lt;/LI&gt;&lt;LI&gt;Helping them make the most of their everyday moments to create loving and lasting relationships&lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="69" bytes="23351" start_frame="1">a_01_030_01.swf</file>
+			<transcript translate="true">Let's watch a video that will introduce you to Talaris and explain our interest in parenting.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="video" result_param="REWIND"/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="video" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="HIDE" target="text01" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="HIDE" target="misc_graphic01" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="HIDE" target="misc_text01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="61707" duration="180" start_frame="1">a_01_030_02.swf</file>
+			<transcript translate="true">We hope that through watching this video you see that Parenting Counts is designed to support families by providing research-based information in simple and practical ways, and helping them make the most of their everyday moments to create loving and lasting relationships.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="presentation_video" expanded="true">
+		<video id="video" behavior="" x="-50" y="44" width="640" height="360" visible="false" fx="VIDEO_SHOW" hidefx="VIDEO_HIDE" style="DEFAULT">
+			<file play="false" autorewind="true" buffer="15" preload="10" volume="100" bytes="25144859" start_frame="0">Image_ 640x360.mov</file>
+			<transcript/>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="misc_graphic01" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="HIDE" target="video" result_param=""/>
+			</eventlist>
+		</video>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="515" y="419" width="163" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="-50" y="60" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="151592">01_020_01.jpg</file>
+			<notes id="description">talaris campus</notes>
+		</graphic>
+	</section>
+</template>

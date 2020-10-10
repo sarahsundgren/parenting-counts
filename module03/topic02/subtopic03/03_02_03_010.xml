@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Parenting Beliefs</content>
+	</text>
+	<text id="nav_text" x="282" y="425" width="485" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt;, or click a new&lt;B&gt; Topic.&lt;/B&gt;</content>
+	</text>
+	<graphic id="misc_graphic08" x="290" y="128" width="450" height="191" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+		<file startpos="1" play="false" bytes="54">clear.gif</file>
+	</graphic>
+	<graphic id="misc_graphic09" x="25" y="100" width="" height="" style="" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+		<file startpos="1" play="false" placeholder="true"/>
+	</graphic>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="707" height="" autosize="H" style="DEFAULT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">It is important to consider the culture of the parents with whom you work. Below are a few questions you can ask yourself as you prepare for interactions with parents.</content>
+		</text>
+		<text id="text02" x="25" y="92" width="669" height="" autosize="H" style="DIRECTIONS" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Click each &lt;B&gt;question mark&lt;/B&gt;, then write your ideas in&lt;B&gt; My Teaching Notes.&lt;/B&gt;</content>
+		</text>
+		<text id="text03" x="300" y="135" width="424" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="32"&gt;What are the common beliefs about parenting?&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="text04" x="300" y="175" width="417" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="32"&gt;What cultural rituals or practices are important?&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="text05" x="300" y="215" width="440" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="32"&gt;What are the roles of parent and child?&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="text06" x="300" y="255" width="430" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="32"&gt;How do parents express affection towards children?&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="text07" x="300" y="295" width="416" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;What values do parents have for their children?&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="text08" x="300" y="291" width="418" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content/>
+		</text>
+		<text id="text09" x="300" y="332" width="443" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content/>
+		</text>
+		<text id="text10" x="300" y="374" width="429" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content/>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="25" y="128" width="" height="" style="GRAPHIC" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="67036" startpos="1" play="false">03_02_03_010_01.jpg</file>
+			<notes id="description">Professional talking with parent in classroom</notes>
+		</graphic>
+		<graphic id="graphic02" x="290" y="100" width="" height="" style="GRAPHIC" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic03" x="430" y="50" width="" height="" style="" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic04" x="370" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+		</graphic>
+		<graphic id="graphic05" x="370" y="49" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="56975" startpos="1" duration="167">a_03_02_03_010_01.swf</file>
+			<transcript translate="true">It is important to consider the culture of the parents with whom you work. Below are a few questions you can ask yourself as you prepare for interactions with parents. Click each question mark to read the questions, then write your ideas in My Teaching Notes.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_graphic09" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" startpos="1"/>
+			<transcript/>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" startpos="1"/>
+			<transcript/>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<section id="miscellaneous_graphics" expanded="true">
+			<graphic id="misc_graphic01" x="300" y="135" width="" height="" style="LINK_3" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+				<file startpos="1" play="false" bytes="12337">03_02_03_010_02.jpg</file>
+				<notes id="description">"?"</notes>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="text03" result_param=""/>
+				</eventlist>
+			</graphic>
+			<graphic id="misc_graphic02" x="300" y="175" width="" height="" style="LINK_3" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+				<file startpos="1" play="false" bytes="12733">03_02_03_010_03.jpg</file>
+				<notes id="description">"?"</notes>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="text04" result_param=""/>
+				</eventlist>
+			</graphic>
+			<graphic id="misc_graphic03" x="300" y="215" width="" height="" style="LINK_3" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+				<file startpos="1" play="false" bytes="13129">03_02_03_010_04.jpg</file>
+				<notes id="description">"?"</notes>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="text05" result_param=""/>
+				</eventlist>
+			</graphic>
+			<graphic id="misc_graphic04" x="300" y="255" width="" height="" style="LINK_3" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+				<file startpos="1" play="false" bytes="13525">03_02_03_010_05.jpg</file>
+				<notes id="description">"?"</notes>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="text06" result_param=""/>
+				</eventlist>
+			</graphic>
+			<graphic id="misc_graphic05" x="300" y="295" width="" height="" style="LINK_3" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+				<file startpos="1" play="false" bytes="13921">03_02_03_010_06.jpg</file>
+				<notes id="description">"?"</notes>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="text07" result_param=""/>
+					<event type="CLICK" result="CONTENT_COMPLETE" target="" result_param=""/>
+				</eventlist>
+			</graphic>
+		</section>
+		<section id="miscellaneous_audio" expanded="true"/>
+	</section>
+</template>

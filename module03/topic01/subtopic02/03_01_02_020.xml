@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programming-options"/>
+		<notes id="search-terms"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="BOOLEAN" value="false"/>
+		<settings id="orderIndependent" datatype="BOOLEAN" value="false"/>
+		<settings id="persistInitGfx" datatype="BOOLEAN" value="true"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Culture and Professionals</content>
+	</text>
+	<text id="nav_text" x="35" y="425" width="736" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Is Culture?&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="51" width="694" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Experts on diversity and parenting suggest the following steps for understanding different cultural approaches between professionals and parents, and working toward the shared goal of raising a healthy and happy child.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="350" height="" autosize="H" style="DIRECTIONS" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Click each &lt;B&gt;number&lt;/B&gt; to learn about these steps.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="90" y="145" width="" height="" style="GRAPHIC" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" bytes="104585">03_01_02_020_07.jpg</file>
+			<notes id="description">professional smiling at desk</notes>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" startpos="1" duration="170" bytes="58155">a_03_01_02_020_01.swf</file>
+			<transcript translate="true">Experts on diversity and parenting suggest the following steps for understanding different cultural approaches between professionals and parents, and working toward the shared goal of raising a healthy and happy child. Click each number to learn about these steps.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="list_items" align="LEFT" spacing="0x20" autospace="true" columns="0" expanded="true">
+		<graphic id="link01" x="25" y="145" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" startpos="1" bytes="4046">03_01_02_020_01.jpg</file>
+			<notes id="description">number 1 in circle button</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="initial_graphic" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link02" x="" y="" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" startpos="1" bytes="13970">03_01_02_020_02.jpg</file>
+			<notes id="description">number 2 in cirlce button</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link03" x="" y="" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" startpos="1" bytes="4486">03_01_02_020_03.jpg</file>
+			<notes id="description">number 3 in circle button</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="swap_graphic01" x="90" y="145" width="" height="" style="GRAPHIC" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" bytes="57646">03_01_02_020_04.jpg</file>
+			<notes id="description">A woman contemplating istock File #: 12520331</notes>
+		</graphic>
+		<graphic id="swap_graphic02" x="" y="" width="" height="" style="GRAPHIC" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" bytes="122037">03_01_02_020_05.jpg</file>
+			<notes id="description">Preschool class istock File #: 13705964</notes>
+		</graphic>
+		<graphic id="swap_graphic03" x="" y="" width="" height="" style="GRAPHIC" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" bytes="106569">03_01_02_020_06.jpg</file>
+			<notes id="description">community of different cultures helping each other</notes>
+		</graphic>
+	</section>
+	<section id="swap_text" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="500" y="145" width="252" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Step 1: Personal Assessment&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Begin with an honest assessment of your own values, beliefs, and biases. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Assess your willingness to accept the importance of cultural values to families that are different from your own.&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text02" x="" y="" width="263" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Step 2: Creating an Open Environment&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Create an environment in which &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;culture can be openly discussed and family values and beliefs can be &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;better understood.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Make your environment inviting and comfortable for all cultures.&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text03" x="" y="" width="261" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Step 3: Accepting Cultural Differences&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Celebrate how cultural differences help to create richness and diversity, rather than seeing these differences as roadblocks or issues.&lt;/P&gt;</content>
+		</text>
+	</section>
+	<graphic id="ref_icon01" x="635" y="224" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+		<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+		<eventlist>
+			<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+		</eventlist>
+	</graphic>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="432" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Pulido-Tobiassen, D., &amp; Gonzalez-Mena, J. (1999). Teaching diversity: A place to begin. &lt;I&gt;Scholastic Early Childhood Today&lt;/I&gt;, 45–57.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

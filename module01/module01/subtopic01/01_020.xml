@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="738" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">About this Program</content>
+	</text>
+	<text id="nav_text" x="409.35" y="425" width="365.15" height="" autosize="R" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">To continue, click a&lt;B&gt; Lesson &lt;/B&gt;in the left panel to learn more&lt;B&gt;.&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="688" height="" autosize="H" style="INTRO" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content/>
+		</text>
+		<text id="text02" x="26" y="377" width="686" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">This program is composed of 25 modules designed to teach the Parenting Counts curriculum in a straight-forward yet interactive way. The modules include brief videos, interactive lessons, and application-based activities to help you not only learn, but prepare to teach parents this foundational material.</content>
+		</text>
+		<text id="text03" x="165" y="425.2" width="395" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="text04" x="33" y="-11.2" width="385" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Modules&lt;/B&gt;</content>
+		</text>
+		<text id="text05" x="438" y="402.8" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Topics&lt;/B&gt;</content>
+		</text>
+		<text id="text06" x="17" y="129.4" width="161" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Lessons and Activities&lt;/B&gt;</content>
+		</text>
+		<text id="text07" x="664" y="-4" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="text08" x="25" y="227.6" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="text09" x="25" y="257.2" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="text10" x="25" y="286.8" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="text11" x="25" y="316.4" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="text12" x="0" y="0" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="text13" x="0" y="0" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="text20" x="25" y="50" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Here is a sample sentence with a reference star.</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="-120" y="-97" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1"/>
+			<notes id="description">mock-up of left panel</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="48" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="188119">01_020_02.jpg</file>
+			<notes id="description">Graphic of the four pillars along with the Get Started and Wrap-up Sections.</notes>
+		</graphic>
+		<graphic id="graphic03" x="138" y="-72" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="4921">arrow_180.png</file>
+		</graphic>
+		<graphic id="graphic04" x="-2" y="-16" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="3145">arrow_up.png</file>
+		</graphic>
+		<graphic id="graphic05" x="405" y="335" width="" height="" style="GRAPHIC" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="3162">arrow_down.png</file>
+		</graphic>
+		<graphic id="graphic06" x="-3" y="150" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="3133">arrow_left.png</file>
+		</graphic>
+		<graphic id="graphic07" x="703" y="-15" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="3145">arrow_up.png</file>
+		</graphic>
+		<graphic id="graphic08" x="758" y="-16" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="3145">arrow_up.png</file>
+		</graphic>
+		<graphic id="graphic09" x="827" y="-16" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="3145">arrow_up.png</file>
+		</graphic>
+		<graphic id="graphic10" x="691" y="-25" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="4370">arrow_45.png</file>
+		</graphic>
+		<graphic id="graphic11" x="-125" y="29" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false"/>
+		</graphic>
+		<graphic id="graphic12" x="668" y="74" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="442">arrow2.png</file>
+		</graphic>
+		<graphic id="graphic13" x="25" y="15" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="171117">01_020_12.jpg</file>
+			<notes id="description">Screen Capture of My Teaching Notes</notes>
+		</graphic>
+		<graphic id="graphic14" x="669" y="187" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="442">arrow2.png</file>
+		</graphic>
+		<graphic id="graphic15" x="25" y="15" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="83965">01_020_14.jpg</file>
+			<notes id="description">screen capture of Teaching Tools</notes>
+		</graphic>
+		<graphic id="graphic16" x="671" y="314" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="442">arrow2.png</file>
+		</graphic>
+		<graphic id="graphic17" x="25" y="15" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="283756">01_020_16.jpg</file>
+			<notes id="description">screen capture of Resource Center</notes>
+		</graphic>
+		<graphic id="graphic18" x="9" y="420" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="3393">icon_pro.png</file>
+		</graphic>
+		<graphic id="graphic19" x="1" y="235" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false"/>
+		</graphic>
+		<graphic id="graphic20" x="328" y="51" width="15" height="15" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="1704" duration="1">rstar_sizeable.swf</file>
+		</graphic>
+		<graphic id="graphic21" x="294" y="3" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false"/>
+		</graphic>
+		<graphic id="graphic22" x="106" y="82" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="75741">01_020_21.jpg</file>
+			<notes id="description">picture of woman at a computer</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="66567" duration="195" start_frame="1">a_01_02_01.swf</file>
+			<transcript translate="true">The Parenting Counts Program is divided into Get Started, the Four Pillars, and Wrap-up. The four pillars are: Physical and Brain Development, Social and Emotional Development, Learning and Cognitive Development, and Communication and Language Development.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="CALL_FUNCTION" target="SHELL" result_param="swapPageAndMenus(true);"/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" start_frame="1" bytes="128735" duration="375">a_01_02_02.swf</file>
+			<transcript translate="true">Within these areas, this program is composed of 25 modules designed to teach the Parenting Counts curriculum in a straight-forward yet interactive way. The modules include brief videos, interactive lessons, and application-based activities to help you not only learn, but prepare to teach parents this foundational material. From this point forward, you will be able to explore this program at your own pace and according to your own interests. To help you enjoy this experience, let's quickly go over the basics of navigating this program.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" start_frame="1" bytes="47383" duration="139">a_01_02_02a.swf</file>
+			<transcript translate="true">The title at the top of the screen indicates which section you are in. Currently you are in the Get Started section of this program. Once you've finished, you may access the four pillars by returning to the portal.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic02" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" start_frame="1" bytes="71947" duration="210">a_01_02_03.swf</file>
+			<transcript translate="true">Each pillar is divided into modules. You will see the modules listed at the top of the screen next to a star. The highlighted star represents the module you are currently in.  To navigate to  these modules, click the name of the module you wish to go to. Right now, you are completing the Introduction module.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic03" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration05">
+			<file start_frame="1" play="false" bytes="46955" duration="138">a_01_02_04.swf</file>
+			<transcript translate="true">Each module is divided into several topics. These topics can be found along the bottom of the screen. Each module typically includes an Introduction, 2 to 4 topics, and a Conclusion.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic04" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text04" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration06">
+			<file start_frame="1" play="false" bytes="62355" duration="182">a_01_02_05.swf</file>
+			<transcript translate="true">Finally, topics include lessons and activities that correspond to that topic. Click in the left side panel to move between the lessons and activities. As you complete each lesson, activity, and topic, red checkmarks will appear next to the title to indicate completion.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic05" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text05" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration07">
+			<file start_frame="1" play="false" bytes="37571" duration="110">a_01_02_06.swf</file>
+			<transcript translate="true">In the top right corner of the screen you can control several other helpful options. For example, by clicking the Replay button, you can replay the current page.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic06" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text06" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="CALL_FUNCTION" target="SHELL" result_param="highlightReplayBtn(true);"/>
+			</eventlist>
+		</audio>
+		<audio id="narration08">
+			<file start_frame="1" play="false" bytes="25295" duration="75">a_01_02_07.swf</file>
+			<transcript translate="true">By clicking Pause, you can temporarily stop the audio. To resume the audio, click this button again.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic07" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="CALL_FUNCTION" target="SHELL" result_param="highlightReplayBtn(false);"/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="CALL_FUNCTION" target="SHELL" result_param="highlightPauseBtn(true);"/>
+			</eventlist>
+		</audio>
+		<audio id="narration09">
+			<file start_frame="1" play="false" bytes="48135" duration="141">a_01_02_08.swf</file>
+			<transcript translate="true">Additionally, if you would like to read a full transcript of all the audio, click Transcript On to access the text in a pop-up window. If the transcript does not appear, check the pop-up settings in your browser.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic08" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="CALL_FUNCTION" target="SHELL" result_param="highlightPauseBtn(false);"/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="CALL_FUNCTION" target="SHELL" result_param="highlightTranscriptBtn(true);"/>
+			</eventlist>
+		</audio>
+		<audio id="narration10">
+			<file start_frame="1" play="false" bytes="46515" duration="136">a_01_02_09.swf</file>
+			<transcript translate="true">You may exit the course at any time by clicking Exit in the top right hand corner. When you return to the course, your settings are saved so you will automatically return to the last page you were on when you exited.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic09" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="CALL_FUNCTION" target="SHELL" result_param="highlightTranscriptBtn(false);"/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="CALL_FUNCTION" target="SHELL" result_param="highlightExitBtn(true);"/>
+			</eventlist>
+		</audio>
+		<audio id="narration11">
+			<file start_frame="1" play="false" bytes="16987" duration="50">a_01_02_10.swf</file>
+			<transcript translate="true">To review these instructions at any point during the program, click Help.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic09" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="graphic08" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic10" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="CALL_FUNCTION" target="SHELL" result_param="highlightExitBtn(false);"/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="CALL_FUNCTION" target="SHELL" result_param="highlightHelpBtn(true);"/>
+			</eventlist>
+		</audio>
+		<audio id="narration12">
+			<file start_frame="1" play="false" bytes="45867" duration="134">a_01_02_11.swf</file>
+			<transcript translate="true">As a bonus feature of these on-line courses, Talaris has provided several tools and resources that are available in the right hand panel of your screen. The first tool is called My Teaching Notes.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic08" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="CALL_FUNCTION" target="SHELL" result_param="highlightHelpBtn(false);"/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="CALL_FUNCTION" target="SHELL" result_param="highlightNotesBtn(true);"/>
+			</eventlist>
+		</audio>
+		<audio id="narration13">
+			<file start_frame="1" play="false" bytes="113335" duration="331">a_01_02_11a.swf</file>
+			<transcript translate="true">Click My Teaching Notes to access a wizard that contains several tools, such as a complete list of reference citations, printable activities to use with parents, and a place to record information about your objectives, learners, and teaching thoughts. Please keep in mind that this tool is only meant for your personal use and the information you store here will not be shared with anyone else. To learn more about this wizard, click the link on the bottom left side of the screen.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic12" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="270" result="SHOW" target="misc_graphic01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration14">
+			<file start_frame="1" play="false" bytes="33475" duration="98">a_01_02_12.swf</file>
+			<transcript translate="true">Click Teaching Tools to access Module Objectives, Teaching Tips, and other helpful teaching resources in PDF format.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic13" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="misc_graphic01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="CALL_FUNCTION" target="SHELL" result_param="highlightNotesBtn(false);"/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="CALL_FUNCTION" target="SHELL" result_param="highlightToolsBtn(true);"/>
+			</eventlist>
+		</audio>
+		<audio id="narration15">
+			<file start_frame="1" play="false" bytes="34771" duration="102">a_01_02_13.swf</file>
+			<transcript translate="true">These PDFs are specific to each section of the course. Here is an example of the Teaching Tools available for the Learning and Cognitive Development Pillar.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic14" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration16">
+			<file start_frame="1" play="false" duration="111" bytes="37895">a_01_02_14.swf</file>
+			<transcript translate="true">Click the Resource Center to access more information and links to Talaris products such as books, DVDs, teaching kits, and brochures for parents.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic15" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="CALL_FUNCTION" target="SHELL" result_param="highlightToolsBtn(false);"/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="CALL_FUNCTION" target="SHELL" result_param="highlightResourcesBtn(true);"/>
+			</eventlist>
+		</audio>
+		<audio id="narration17">
+			<file start_frame="1" play="false" duration="122" bytes="41667">a_01_02_15.swf</file>
+			<transcript translate="true">Similar to the Teaching Tools, the Resource Center offers information unique to each section. This is an example of the Resource Center for the Social and Emotional Development Pillar.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic16" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration18">
+			<file start_frame="1" play="false" duration="141" bytes="48239">a_01_02_16.swf</file>
+			<transcript translate="true">Before you move on, please consider two unique icons that you will see throughout the courses. The first is called the Professional Icon. This icon will appear at the bottom left area of the screen.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic17" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_graphic02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="CALL_FUNCTION" target="SHELL" result_param="highlightResourcesBtn(false);"/>
+			</eventlist>
+		</audio>
+		<audio id="narration19">
+			<file start_frame="1" play="false" bytes="50403" duration="148">a_01_02_17.swf</file>
+			<transcript translate="true">Click this icon to obtain specific tips and suggestions for how to address parents with each topic. At the Conclusion of each module, these icons also allow you to quickly reference the Goals specific to each module.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration20">
+			<file start_frame="1" play="false" bytes="16987" duration="50">a_01_02_18.swf</file>
+			<transcript translate="true">Finally, the other icon you'll see throughout the courses is a reference star.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic18" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="reference01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="misc_graphic02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_graphic03" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="CALL_FUNCTION" target="SHELL" result_param="swapPageAndMenus(false);"/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text14" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration21">
+			<file start_frame="1" play="false" bytes="21199" duration="63">a_01_02_19.swf</file>
+			<transcript translate="true">Click on this star to see the full citation for the research referred to on the page.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="reference02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="misc_graphic03" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration22">
+			<file start_frame="1" play="false" bytes="22807" duration="67">a_01_02_20.swf</file>
+			<transcript translate="true">If you'd like to review this information again, click Replay in the top right corner of the screen.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic20" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="reference02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="graphic07" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text20" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration23">
+			<file start_frame="1" play="false" bytes="15055" duration="45">a_01_02_21.swf</file>
+			<transcript translate="true">If you're ready to move on, click a Lesson in the left panel.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="graphic06" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="54" y="366" width="682" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text02" x="0" y="0" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+	<section id="reference_icons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="ref_icon01" x="401" y="52" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<file bytes="1704" play="false" duration="1" start_frame="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="1" y="235" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" start_frame="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="45" width="422" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;I&gt;Sample Professional Tip&lt;/I&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Suggest to parents that they pick one to focus on and make a part of their routine. The whole list can take years to build. Reassure parents that the long period of time necessary for developing these skills is normal.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" start_frame="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="40" width="419" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Sample Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Gottman, J. M. &amp; Talaris Institute (2004). &lt;I&gt;What am I feeling? &lt;/I&gt;Seattle, WA: Parenting Press.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="94" y="143" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="3152">arrow_2.png</file>
+		</graphic>
+		<graphic id="misc_graphic02" x="65" y="419" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="3133">arrow_left.png</file>
+		</graphic>
+		<graphic id="misc_graphic03" x="318" y="69" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="3145">arrow_up.png</file>
+		</graphic>
+	</section>
+</template>

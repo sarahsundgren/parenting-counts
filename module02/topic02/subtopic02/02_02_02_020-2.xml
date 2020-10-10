@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_animationsequence" view="view_animationsequence">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="ON_AUDIO_COMPLETE"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Be Attuned</content>
+	</text>
+	<text id="nav_text" x="180" y="425" width="590" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Tools for Successful Parenting&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="740" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Attunement is defined as the ability to respond with sensitivity to a child's communications and needs. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Let's look at a situation in which a father is attuned to his child's needs. &lt;/P&gt;</content>
+		</text>
+		<text id="directions" x="25" y="77" width="350" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click &lt;B&gt;Play&lt;/B&gt; to begin.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="25" y="120" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="43947" play="false" start_frame="1">02_02_020_015.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;beautiful baby under blanket  File #: 6973128&lt;/P&gt;</notes>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" bytes="95331" duration="278" start_frame="1">a_02_02_02_020_015.swf</file>
+			<transcript translate="true">Another tool used in successful parenting is attunement. Attunement is defined as the ability to respond with sensitivity to a child's communications and needs. While attachment between parent and child typically occurs in the first year, attunement continues on throughout childhood. Let's look at a situation in which a father is attuned to his child's needs.  Click Play to begin.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="controls" expanded="true">
+		<graphic id="animation_controls" x="25" y="370" width="" height="" style="ANIMCONTROLS" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file bytes="4053" play="false" duration="1" start_frame="1">placeholder_animationcontrols.swf</file>
+		</graphic>
+	</section>
+	<section id="animation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="364" y="120" width="380" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Scenario: &lt;/B&gt;A father plays with his 6-month-old son by making clicking sounds. The father and child enjoy the interchange. However, the son soon becomes overstimulated and looks away. Rather than continue the game, the father has learned that this cue means his child needs a break so he stops the clicking. </content>
+		</text>
+		<text id="text02" x="357" y="227.6" width="408" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="text03" x="357" y="241.6" width="398" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="text04" x="364" y="230" width="382" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">To become attuned with their child, parents need to observe, monitor, and pay attention to the child's environment.</content>
+		</text>
+		<text id="text05" x="364" y="277" width="381" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">As parents become acquainted with their child, they become more responsive and able to anticipate their child's needs.</content>
+		</text>
+	</section>
+	<section id="animation_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="25" y="120" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="59874" play="false" start_frame="1">02_02_020_01.jpg</file>
+			<notes id="description">father clicking his tongue to entertain his 6-month-old</notes>
+		</graphic>
+		<graphic id="graphic02" x="" y="" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="58562" play="false" start_frame="1">02_02_020_02.jpg</file>
+			<notes id="description">same son and father from graphic01, but now son it looking away and not very happy</notes>
+		</graphic>
+		<graphic id="graphic03" x="" y="" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="59255" play="false" start_frame="1">02_02_020_03.jpg</file>
+			<notes id="description">same son and father from graphic 01 and 02, but father is now looking away from son to give his son a break</notes>
+		</graphic>
+		<graphic id="graphic04" x="" y="" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1" placeholder="true"/>
+		</graphic>
+		<graphic id="graphic05" x="" y="" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1" placeholder="true"/>
+		</graphic>
+	</section>
+	<section id="animation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="false" duration="86" bytes="29379" start_frame="1">a_02_02_020_02.swf</file>
+			<transcript translate="true">A father plays with his 6-month-old son by making clicking sounds. The father and child enjoy the interchange.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="initial_graphic" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="50" bytes="16987" start_frame="1">a_02_02_020_03.swf</file>
+			<transcript translate="true">However, the son soon becomes overstimulated and looks away.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" duration="76" bytes="25931" start_frame="1">a_02_02_020_04.swf</file>
+			<transcript translate="true">Rather than continue the game, the father has learned that this cue means his child needs a break so he stops the clicking.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" duration="166" bytes="56755" start_frame="1">a_02_02_020_05.swf</file>
+			<transcript translate="true">To become attuned with their child, parents need to observe, monitor, and pay attention to the child's environment. Through observation, parents are able to learn their child's temperament and recognize his or her likes and dislikes.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" duration="139" bytes="47383" start_frame="1">a_02_02_020_06.swf</file>
+			<transcript translate="true">As parents become acquainted with their child through active and involved participation, they learn the child's non-verbal and verbal cues and become more responsive and able to anticipate their child's needs.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+</template>

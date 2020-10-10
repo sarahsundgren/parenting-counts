@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_video" view="view_video">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Respect Emotions</content>
+	</text>
+	<text id="nav_text" x="188" y="425" width="585" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Tools for Successful Parenting.&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="390" y="60" width="380" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Children experience many emotions, but each child expresses his or her emotions in his or her own unique way.</content>
+		</text>
+		<text id="text02" x="" y="" width="348" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;As you saw from the video, children experience a broad range of emotions which at times may be difficult to understand. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Emotion Coaching is a five-step approach to helping children learn to manage their emotions.&lt;/P&gt;</content>
+		</text>
+		<text id="text03" x="" y="" width="365" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">You will be helping parents to recognize that they are teachers, mentors, and models in guiding children to understand and respond to their wide range of feelings and emotions.</content>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="137" bytes="46839" start_frame="1">a_02_02_020_030_01.swf</file>
+			<transcript translate="true">Children experience many emotions, but each child expresses his or her emotions in his or her own unique way. Let's take a look at the video to see how three parents describe their children's emotions.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="video" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="59555" duration="174" start_frame="1">a_02_02_020_030_02.swf</file>
+			<transcript translate="true">As you saw from the video, children experience a broad range of emotions which at times may be difficult to understand. To help with this, the Parenting Counts Program will introduce Emotion Coaching, a five-step approach to helping children learn to manage their emotions. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration03" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="50611" start_frame="1" duration="148">a_02_02_020_030_03.swf</file>
+			<transcript translate="true">As you teach parents the Emotion Coaching technique you will be helping parents to recognize that they are teachers, mentors, and models in guiding children to understand and respond to their wide range of feelings and emotions.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text03" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="presentation_video" expanded="true">
+		<video id="video" behavior="" x="25" y="60" width="340" height="180" visible="true" fx="VIDEO_SHOW" hidefx="VIDEO_HIDE" style="DEFAULT">
+			<file play="false" autorewind="true" buffer="15" preload="10" volume="100" bytes="7456596" start_frame="0">LW Preschooler Clips_320x180.mov</file>
+			<transcript/>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="text02" result_param=""/>
+			</eventlist>
+		</video>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="100" y="286" width="175.7" height="" autosize="C" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;I&gt;Life with Preschoolers DVD&lt;/I&gt;</content>
+		</text>
+	</section>
+</template>

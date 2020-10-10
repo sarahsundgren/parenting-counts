@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<graphic id="background" x="-220" y="0" width="1014" height="493" behavior="LOCK_XY" style="PLAIN" visible="true" fx="SHOW" hidefx="HIDE" disabled="true">
+		<file play="false" bytes="5827" startpos="1">wizard.jpg</file>
+		<eventlist>
+			<event type="CLICK" result="DISABLE" target="_self" result_param=""/>
+		</eventlist>
+	</graphic>
+	<graphic id="captivate" x="-218" y="-19" width="" height="" behavior="" style="" visible="true" fx="SHOW" hidefx="HIDE">
+		<file play="true" startpos="1">..\resources\wizard_demo.swf</file>
+	</graphic>
+	<graphic id="button_cover01" x="714" y="14" width="66" height="36" behavior="" style="" visible="true" fx="SHOW" hidefx="HIDE">
+		<file play="false" bytes="683" startpos="1">whitecover.jpg</file>
+	</graphic>
+	<graphic id="button_cover02" x="631" y="459" width="183" height="35" behavior="" style="" visible="true" fx="SHOW" hidefx="HIDE" disabled="true">
+		<file play="false" bytes="683" startpos="1">whitecover.jpg</file>
+		<eventlist>
+			<event type="CLICK" result="" target="" result_param=""/>
+		</eventlist>
+	</graphic>
+	<text id="close_label" x="672" y="471" width="79" height="19" autosize="" style="CLOSE_BTN_TEXT" visible="true" fx="SHOW" hidefx="HIDE">
+		<content translate="true">Close video</content>
+	</text>
+	<graphic id="close" x="714" y="462" width="" height="" style="CONTROLS" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+		<file play="false" bytes="4369" startpos="1" duration="23">btn_xclose.swf</file>
+		<eventlist>
+			<event type="CLICK" result="CALL_FUNCTION" target="PAGE" result_param="stopDemo(true);"/>
+		</eventlist>
+	</graphic>
+</template>
