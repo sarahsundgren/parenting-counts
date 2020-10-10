@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="true"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+		<eventlist>
+			<event type="COMPLETION" result="PLAY" target="narration01" result_param=""/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Step 4: Name Emotions</content>
+	</text>
+	<text id="nav_text" x="219" y="425" width="553" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;The Five Steps of Emotion Coaching&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x5" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="51" width="660" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Parents can help their child identify and name emotions.  Feelings happen naturally for children.  However, children often lack the basic vocabulary necessary to describe how they feel.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="492" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;photo&lt;/B&gt; to learn more about why it is important to identify emotions.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="202" y="122" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE"/>
+		<audio id="initial_audio">
+			<file play="true" bytes="66775" startpos="1" duration="195">a_04_02_02_080_01.swf</file>
+			<transcript translate="true">Parents can help their child identify and name emotions. Feelings happen naturally for children. However, children often lack the basic vocabulary necessary to describe how they feel. Click each photo to learn more about why it is important to identify emotions.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="list_items" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<graphic id="link01" x="25" y="125" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="14716" play="false" startpos="1">04_02_02_080_01.jpg</file>
+			<notes id="description">picture of happy child with the words "Labeling Emotions" on a color strip at bottom</notes>
+			<eventlist>
+				<event type="CLICK" result="VISUAL_FX" target="ref_icon01" result_param="GRAPHIC_SHOW"/>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="swap_text02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="swap_text03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link02" x="25" y="231" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="15401" play="false" startpos="1">04_02_02_080_02.jpg</file>
+			<notes id="description">picture of a happy child, words "The Nervous System" on a color strip across the bottom</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="swap_text01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="swap_text03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link03" x="25" y="337" width="200" height="80" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="17123" play="false" startpos="1">04_02_02_080_03.jpg</file>
+			<notes id="description">picture of happy child, words "Managing Mixed Emotions" on color strip across the bottom.</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="nav_text" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="swap_text01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="swap_text02" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="swap_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="swap_graphic01" x="261" y="125" width="406" height="225" style="SHADING" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="54">clear.gif</file>
+		</graphic>
+		<graphic id="swap_graphic02" x="261" y="125" width="406" height="225" style="SHADING" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="54">clear.gif</file>
+		</graphic>
+		<graphic id="swap_graphic03" x="261" y="125" width="406" height="225" style="SHADING" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="54">clear.gif</file>
+		</graphic>
+	</section>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="swap_text01" x="270" y="140" width="388" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Labeling Emotions&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;LI&gt;Putting a name to an emotion helps children make sense of what they are feeling, and helps them show empathy for others. &lt;/LI&gt;&lt;LI&gt;Labeling an emotion not only gives children a word for what they are feeling, it shows that they are understood.&lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Example:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;If you see your child becoming frustrated, give your child a word to describe the emotion he is feeling. This may help him identify and communicate his feelings next time.&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text02" x="270" y="140" width="387" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;The Nervous System&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Studies show that the act of naming an emotion has a quieting effect on the nervous system, which may in turn help children recover faster from emotional stress.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Example:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;If your child becomes sad when a parent leaves for work in the morning, you can help her identify her feelings. This way, the next time her parent leaves for work, she can expect how she'll feel, and recover more quickly from it.&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text03" x="270" y="140" width="384" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Managing Mixed Emotions&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Labeling emotions seems simple, but sometimes it is not as easy as it sounds. Like adults, children can experience mixed emotions.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Example:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Your child feels excited about having a new baby brother on the way, but he also feels anxious about the way life at home will change. By talking with him about his emotions, you can help him develop an accurate vocabulary for his emotions that will help him learn how to manage them.&lt;/P&gt;</content>
+		</text>
+	</section>
+	<graphic id="ref_icon01" x="553" y="201" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+		<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+		<eventlist>
+			<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+		</eventlist>
+	</graphic>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480.95" height="184.55" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Gottman, J., &amp; DeClaire, J. (1997).&lt;I&gt; Raising an emotionally intelligent child: The heart of parenting&lt;/I&gt;. New York, NY: Fireside. &lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

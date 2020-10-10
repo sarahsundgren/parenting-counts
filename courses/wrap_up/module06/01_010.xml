@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="-58" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Introduction</content>
+	</text>
+	<text id="nav_text" x="35" y="425" width="738" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click &lt;B&gt;Next Steps&lt;/B&gt; to continue.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="-57" y="50" width="584" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Congratulations on completing the Parenting Counts Professional Training!</content>
+		</text>
+		<text id="text02" x="350" y="167.6" width="746" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">By completing this program, you have joined a growing team of professionals that will teach the information presented in the Parenting Counts Program to families in their community.</content>
+		</text>
+		<text id="text03" x="350" y="197" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="text04" x="350" y="226" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="text05" x="350" y="283" width="375" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="-56" y="145" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="152334" play="false" start_frame="1">01_010_03.jpg</file>
+			<notes id="description">image of baby, toddler, 3-year-old, and 5-year-old all smiling and excited </notes>
+		</graphic>
+		<graphic id="graphic02" x="-50" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic03" x="-50" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic04" x="-50" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic05" x="-50" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1"/>
+			<notes id="description"/>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="54" bytes="18179" start_frame="1">a_01_010_01.swf</file>
+			<transcript translate="true">Congratulations on completing the Parenting Counts Professional Training!</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="174" bytes="59555" start_frame="1">a_01_010_02.swf</file>
+			<transcript translate="true">By completing this program, you have joined a growing team of professionals that will teach the information presented in the Parenting Counts Program to families in their community. In this module we'll talk about the next steps and ways you can stay connected with Talaris.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" start_frame="1"/>
+			<transcript/>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" start_frame="1"/>
+			<transcript/>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" start_frame="1"/>
+			<transcript/>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+</template>

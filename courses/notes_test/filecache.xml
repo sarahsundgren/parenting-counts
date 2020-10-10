@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cache version="3.2">
+	<preload pages="1">
+		<file>flash/library_components.swf</file>
+		<file>flash/templates_03.swf</file>
+		<file>graphics/placeholder_bullet.swf</file>
+		<file>video/skins/ArcticExternalAll.swf</file>
+	</preload>
+		<!-- resources -->
+	<page id="{TEACHINGTOOLS}">
+		<file>graphics/resources_bg.swf</file>
+		<file>graphics/btn_close.swf</file>
+		<file>graphics/clear.swf</file>
+		<file>graphics/pdf_icon.swf</file>
+	</page>
+	<page id="{RESOURCES}">
+		<file>graphics/resources_bg.swf</file>
+		<file>graphics/btn_close.swf</file>
+		<file>graphics/clear.swf</file>
+		<file>graphics/pdf_icon.swf</file>
+	</page>
+	<page id="{HELP}">
+		<file>graphics/purple_help.jpg</file>
+		<file>graphics/btn_close.swf</file>
+		<file>graphics/arrow_45.png</file>
+		<file>graphics/arrow2.png</file>
+		<file>graphics/arrow_left.png</file>
+		<file>graphics/arrow_down.png</file>
+		<file>graphics/arrow_60.png</file>
+		<file>graphics/arrow_up.png</file>
+	</page>
+		<!-- resources -->
+	<page id="{TEACHING-NOTES}">
+		<file>graphics/../flash/code_wizard.swf</file>
+		<file>graphics/resources_bg.swf</file>
+		<file>graphics/dummy_wizard_menu.jpg</file>
+		<file>graphics/print_logo.png</file>
+		<file>graphics/btn_addnote2.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+	<page id="{WIZ-AUDIENCE}">
+		<file>graphics/wizard.jpg</file>
+		<file>graphics/btn_print.swf</file>
+	</page>
+	<page id="{WIZ-ADDNOTE}">
+		<file>graphics/wizard.jpg</file>
+		<file>graphics/btn_print.swf</file>
+		<file>graphics/btn_save.swf</file>
+		<file>graphics/btn_delete.swf</file>
+		<file>graphics/btn_addnote2.swf</file>
+	</page>
+	<page id="{WIZ-NOTES}">
+		<file>graphics/wizard.jpg</file>
+		<file>graphics/btn_print.swf</file>
+	</page>
+	<page id="{WIZ-MATERIAL01}">
+		<file>graphics/wizard.jpg</file>
+		<file>graphics/btn_print.swf</file>
+	</page>
+	<page id="{WIZ-MATERIAL02}">
+		<file>graphics/wizard.jpg</file>
+		<file>graphics/btn_print.swf</file>
+	</page>
+	<page id="{WIZ-MATERIAL03}">
+		<file>graphics/wizard.jpg</file>
+		<file>graphics/btn_print.swf</file>
+	</page>
+	<page id="{WIZ-MATERIAL04}">
+		<file>graphics/wizard.jpg</file>
+		<file>graphics/btn_print.swf</file>
+	</page>
+	<page id="{WIZ-REFERENCES}">
+		<file>graphics/wizard.jpg</file>
+		<file>graphics/btn_print.swf</file>
+	</page>
+	<page id="{WIZ-HELP}">
+		<file>graphics/wizard.jpg</file>
+		<file>graphics/../resources/wizard_demo.swf</file>
+		<file>graphics/whitecover.jpg</file>
+		<file>graphics/btn_xclose.swf</file>
+	</page>
+		<!-- module01 -->
+	<page id="{B9F3B018-4DDE-44AA-8660-DB1E0C817DB5}">
+		<file>graphics/01_010_01.jpg</file>
+		<file>graphics/01_010_02.jpg</file>
+		<file>graphics/01_010_03.jpg</file>
+		<file>audio/a_01_010_01.swf</file>
+		<file>audio/a_01_010_02.swf</file>
+		<file>audio/a_01_010_03.swf</file>
+		<file>audio/a_01_010_04.swf</file>
+		<file>graphics/icon_pro.png</file>
+		<file>graphics/pro_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+		<!-- module01\topic01\01_01_02 -->
+	<page id="{0FF7251B-B77E-4515-9688-32CB656734D4}">
+		<file>audio/a_01_01_010_00.swf</file>
+		<file>graphics/01_01_010_02.jpg</file>
+		<file>graphics/01_01_010_03.jpg</file>
+		<file>graphics/01_01_010_04.jpg</file>
+		<file>graphics/01_01_010_05.jpg</file>
+		<file>graphics/01_01_010_06.jpg</file>
+		<file>graphics/01_01_010_07.jpg</file>
+		<file>audio/a_01_01_021_01.swf</file>
+	</page>
+	<page id="{4BF382C1-DF56-442E-BCB7-CF19A8CBA5AD}">
+		<file>audio/a_01_01_020_01.swf</file>
+		<file>audio/a_01_01_020_02.swf</file>
+	</page>
+	<page id="{C35D1B5A-DF05-43FE-821F-CDD74FF0E3D2}">
+		<file>graphics/01_01_01_030_01.jpg</file>
+		<file>graphics/01_01_01_030_03.jpg</file>
+		<file>graphics/01_01_01_030_04.jpg</file>
+		<file>audio/a_01_01_030_01.swf</file>
+		<file>audio/a_01_01_030_02.swf</file>
+		<file>audio/a_01_01_030_03.swf</file>
+		<file>audio/a_01_01_030_04.swf</file>
+	</page>
+	<page id="{E41B6500-E274-4662-9FF8-8FAC1D81DA6E}">
+		<file>audio/a_01_01_03_01.swf</file>
+		<file>audio/a_01_01_03_02.swf</file>
+	</page>
+		<!-- module01\topic01\subtopic03 -->
+	<page id="{E58AEBBD-C262-434A-B6CF-3E1D020E5712}">
+		<file>graphics/01_01_050_01.jpg</file>
+		<file>audio/a_01_04_03_020_00.swf</file>
+		<file>graphics/placeholder_animationcontrols.swf</file>
+		<file>graphics/01_01_050_02.jpg</file>
+		<file>graphics/01_01_050_03.jpg</file>
+		<file>audio/a_01_01_050_01.swf</file>
+		<file>audio/a_01_01_050_02.swf</file>
+	</page>
+	<page id="{52AF39EF-CABC-4163-82A2-3B1C9186285A}">
+		<file>audio/a_01_04_020a_00.swf</file>
+		<file>graphics/placeholder_mcoption.swf</file>
+	</page>
+		<!-- module01\topic02\subtopic02 -->
+	<page id="{13DCD973-81A8-4409-B9C9-BE20B436D48F}">
+		<file>graphics/01_02_010_00.jpg</file>
+		<file>audio/a_01_02_011_00.swf</file>
+		<file>graphics/mc_slider_next.swf</file>
+		<file>graphics/mc_slider_back.swf</file>
+		<file>graphics/clear.gif</file>
+		<file>graphics/01_02_010_01.jpg</file>
+		<file>graphics/01_02_010_02.jpg</file>
+		<file>graphics/rstar_sizeable.swf</file>
+		<file>graphics/01_02_010_03.jpg</file>
+		<file>graphics/01_02_010_04.jpg</file>
+		<file>graphics/01_02_010_05.jpg</file>
+		<file>graphics/01_02_010_06.jpg</file>
+		<file>graphics/01_02_010_07.jpg</file>
+		<file>graphics/button_slide_link.swf</file>
+		<file>graphics/01_02_010_00_01.png</file>
+		<file>graphics/01_02_010_00_02.png</file>
+		<file>graphics/01_02_010_00_03.png</file>
+		<file>graphics/01_02_010_00_04.png</file>
+		<file>graphics/01_02_010_00_05.png</file>
+		<file>graphics/01_02_010_00_06.png</file>
+		<file>graphics/rstar_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+		<file>graphics/icon_pro.png</file>
+		<file>graphics/pro_popup_sizeable.swf</file>
+	</page>
+	<page id="{465B17F2-EB95-4C27-9B6E-AECA07435FCB}">
+		<file>graphics/01_02_010_00.jpg</file>
+		<file>audio/a_01_02_010_00.swf</file>
+		<file>graphics/mc_slider_next.swf</file>
+		<file>graphics/mc_slider_back.swf</file>
+		<file>graphics/clear.gif</file>
+		<file>graphics/01_02_020_01.jpg</file>
+		<file>graphics/01_02_020_02.jpg</file>
+		<file>graphics/rstar_sizeable.swf</file>
+		<file>graphics/01_02_020_03.jpg</file>
+		<file>graphics/01_02_020_04.jpg</file>
+		<file>graphics/01_02_020_05.jpg</file>
+		<file>graphics/01_02_020_06.jpg</file>
+		<file>graphics/01_02_020_07.jpg</file>
+		<file>graphics/button_slide_link.swf</file>
+		<file>graphics/01_02_010_00_01.png</file>
+		<file>graphics/01_02_010_00_02.png</file>
+		<file>graphics/01_02_010_00_03.png</file>
+		<file>graphics/01_02_010_00_04.png</file>
+		<file>graphics/01_02_010_00_05.png</file>
+		<file>graphics/01_02_010_00_06.png</file>
+		<file>graphics/rstar_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+	<page id="{A5A3CF1E-9E19-46F7-90B8-66D7F97FDAD6}">
+		<file>graphics/01_02_010_00.jpg</file>
+		<file>audio/a_01_02_030_00.swf</file>
+		<file>graphics/mc_slider_next.swf</file>
+		<file>graphics/mc_slider_back.swf</file>
+		<file>graphics/clear.gif</file>
+		<file>graphics/01_02_030_01.jpg</file>
+		<file>graphics/01_02_030_02.jpg</file>
+		<file>graphics/rstar_sizeable.swf</file>
+		<file>graphics/01_02_030_03.jpg</file>
+		<file>graphics/01_02_030_04.jpg</file>
+		<file>graphics/01_02_030_05.jpg</file>
+		<file>graphics/01_02_030_06.jpg</file>
+		<file>graphics/01_02_030_07.jpg</file>
+		<file>graphics/button_slide_link.swf</file>
+		<file>graphics/01_02_010_00_01.png</file>
+		<file>graphics/01_02_010_00_02.png</file>
+		<file>graphics/01_02_010_00_03.png</file>
+		<file>graphics/01_02_010_00_04.png</file>
+		<file>graphics/01_02_010_00_05.png</file>
+		<file>graphics/01_02_010_00_06.png</file>
+		<file>graphics/rstar_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+		<!-- module01\topic02\subtopic03 -->
+	<page id="{4150FC9C-9531-406F-B118-BB8A025DB405}">
+		<file>graphics/01_02_04_00.png</file>
+		<file>audio/a_01_02_03_010_01.swf</file>
+		<file>graphics/clear.swf</file>
+		<file>graphics/clear.gif</file>
+	</page>
+		<!-- module01\topic03\subtopic02 -->
+	<page id="{A56AC4A8-03B2-4F4D-BD92-233513F7105C}">
+		<file>graphics/01_03_010_01.jpg</file>
+		<file>graphics/01_03_010_02.png</file>
+		<file>graphics/01_03_010_01.png</file>
+		<file>graphics/01_03_010_03.png</file>
+		<file>audio/a_01_03_010_01.swf</file>
+		<file>audio/a_01_03_010_02.swf</file>
+		<file>audio/a_01_03_010_04.swf</file>
+		<file>audio/a_01_03_010_03.swf</file>
+		<file>audio/a_01_03_010_05.swf</file>
+	</page>
+		<!-- module01\topic03\subtopic03 -->
+	<page id="{DDA7DF3F-ED26-4332-94F5-DA5D0CD03D8F}">
+		<file>graphics/clear.swf</file>
+		<file>audio/a_01_03_020_00.swf</file>
+		<file>graphics/btn_yes.swf</file>
+		<file>graphics/btn_no.swf</file>
+	</page>
+	<page id="{CCD25F6A-C82A-4534-BA19-A862E0E173C6}">
+		<file>graphics/01_020_01.jpg</file>
+		<file>graphics/01_020_02.png</file>
+		<file>graphics/01_020_03.jpg</file>
+		<file>audio/a_01_020_01.swf</file>
+		<file>audio/a_01_020_06.swf</file>
+		<file>audio/a_01_020_02.swf</file>
+		<file>audio/a_01_020_03.swf</file>
+		<file>audio/a_01_020_04.swf</file>
+		<file>audio/a_01_020_05.swf</file>
+		<file>audio/a_01_020_07.swf</file>
+		<file>audio/a_01_020_08.swf</file>
+		<file>graphics/icon_pro.png</file>
+		<file>graphics/pro_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+		<!-- module02 -->
+	<page id="{2A69CE6F-6706-4E53-BB5F-6EED8B7A3873}">
+		<file>graphics/02_010_01.jpg</file>
+		<file>graphics/02_010_02.jpg</file>
+		<file>graphics/02_010_03.jpg</file>
+		<file>audio/a_02_010_01.swf</file>
+		<file>audio/a_02_010_02.swf</file>
+		<file>audio/a_02_010_03.swf</file>
+		<file>audio/a_02_010_04.swf</file>
+		<file>graphics/icon_pro.png</file>
+		<file>graphics/pro_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+		<!-- module02\topic01\subtopic01 -->
+	<page id="{0401D6F8-FD88-4E32-A6F2-008B76D43354}">
+		<file>audio/a_02_01_01_010_01.swf</file>
+		<file>audio/a_02_01_01_010_02.swf</file>
+		<file>audio/a_02_01_01_010_03.swf</file>
+		<file>audio/a_02_01_01_010_04.swf</file>
+		<file>audio/a_02_01_01_010_05.swf</file>
+		<file>graphics/rstar_sizeable.swf</file>
+		<file>graphics/rstar_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+		<!-- module02\topic01\subtopic02 -->
+	<page id="{DA6E532F-57F0-4F01-A3FD-B8490CA20831}">
+		<file>audio/a_02_01_02_010_01.swf</file>
+		<file>graphics/02_01_02_010_01.jpg</file>
+		<file>graphics/02_01_02_010_02.jpg</file>
+		<file>graphics/02_01_02_010_03.jpg</file>
+	</page>
+		<!-- module02\topic01\subtopic03 -->
+	<page id="{065133B0-0752-49AC-BA10-937C6BE8857C}">
+		<file>graphics/placeholder_200x200_01.jpg</file>
+		<file>audio/a_02_01_03_010_01.swf</file>
+		<file>graphics/04_01_03_010_01.jpg</file>
+		<file>graphics/04_01_03_010__05.jpg</file>
+		<file>graphics/rstar_sizeable.swf</file>
+		<file>graphics/rstar_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+		<!-- module02\topic02\subtopic01 -->
+	<page id="{D5EFFEC0-46ED-4827-A0E1-DC88E139E915}">
+		<file>graphics/02_02_01_010_01.jpg</file>
+		<file>graphics/02_02_01_010_02.jpg</file>
+		<file>audio/a_02_02_01_010_01.swf</file>
+		<file>audio/a_02_02_01_010_02.swf</file>
+		<file>audio/a_02_02_01_010_03.swf</file>
+	</page>
+		<!-- module02\topic02\subtopic02 -->
+	<page id="{39CF24FF-30C6-46E7-9949-6EDC7AAC0C37}">
+		<file>audio/a_02_02_02_010_01.swf</file>
+		<file>graphics/std_control.swf</file>
+		<file>graphics/right_arrow.png</file>
+		<file>graphics/left_arrow.png</file>
+		<file>graphics/02_02_02_010_01.jpg</file>
+		<file>graphics/02_02_02_010_02.jpg</file>
+		<file>graphics/02_02_02_010_03.jpg</file>
+		<file>graphics/02_02_02_010_04.jpg</file>
+		<file>graphics/02_02_02_010_05.jpg</file>
+		<file>graphics/02_02_02_010_06.jpg</file>
+		<file>graphics/02_02_02_010_07.jpg</file>
+		<file>graphics/clear.gif</file>
+	</page>
+	<page id="{45EDDDD5-AB80-4528-933C-986B92EFF0F3}">
+		<file>audio/a_02_02_02_020_01.swf</file>
+		<file>graphics/clear.swf</file>
+		<file>graphics/placeholder_mcoption.swf</file>
+	</page>
+		<!-- module02\topic02\subtopic03 -->
+	<page id="{A0FBF3F4-EBF1-4013-8AFD-4CD39EE85018}">
+		<file>graphics/clear.swf</file>
+		<file>audio/a_02_02_03_010_01.swf</file>
+		<file>graphics/placeholder_mcoption.swf</file>
+		<file>graphics/std_control.swf</file>
+		<file>audio/a_02_02_03_010_02.swf</file>
+		<file>audio/a_02_02_03_010_03.swf</file>
+	</page>
+		<!-- module02\topic03\subtopic01 -->
+	<page id="{F9CF75A7-F305-4BA1-B16D-F8528B7876A6}">
+		<file>graphics/02_03_01_010_01.jpg</file>
+		<file>graphics/02_03_01_010_02.jpg</file>
+		<file>graphics/02_03_01_010_03.jpg</file>
+		<file>audio/a_02_03_01_010_01.swf</file>
+		<file>audio/a_02_03_01_010_02.swf</file>
+		<file>audio/a_02_03_01_010_03.swf</file>
+		<file>audio/a_02_03_01_010_04.swf</file>
+		<file>graphics/rstar_sizeable.swf</file>
+		<file>graphics/rstar_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+		<file>graphics/icon_pro.png</file>
+		<file>graphics/pro_popup_sizeable.swf</file>
+	</page>
+		<!-- module02\topic03\subtopic02 -->
+	<page id="{07136D66-087E-419C-930C-C386466F5D15}">
+		<file>graphics/02_03_02_010_01.jpg</file>
+		<file>audio/a_02_03_02_010_01.swf</file>
+		<file>graphics/clear.swf</file>
+		<file>graphics/02_03_02_010_02.jpg</file>
+		<file>graphics/02_03_02_010_03.jpg</file>
+		<file>graphics/02_03_02_010_04.jpg</file>
+		<file>graphics/02_03_02_010_05.jpg</file>
+		<file>graphics/02_03_02_010_06.jpg</file>
+		<file>graphics/02_03_02_010_07.jpg</file>
+	</page>
+	<page id="{E345369A-AC4A-4842-8E8D-4C5A94D75980}">
+		<file>audio/a_02_03_02_020_01.swf</file>
+		<file>graphics/mc_slider_next.swf</file>
+		<file>graphics/mc_slider_back.swf</file>
+		<file>graphics/02_03_02_020_01.jpg</file>
+		<file>graphics/clear.swf</file>
+		<file>graphics/02_03_02_020_02.jpg</file>
+		<file>graphics/02_03_02_020_03.jpg</file>
+		<file>graphics/02_03_02_020_04.jpg</file>
+		<file>graphics/button_slide_link.swf</file>
+	</page>
+		<!-- module02\topic03\subtopic03 -->
+	<page id="{184EC372-D0FF-431E-967E-29927F00424A}">
+		<file>audio/a_02_03_03_010_01.swf</file>
+		<file>graphics/02_03_03_010_01.jpg</file>
+		<file>graphics/02_03_03_010_05.jpg</file>
+		<file>graphics/icon_pro.png</file>
+		<file>graphics/pro_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+	<page id="{8636C24D-7E7B-4822-909A-A02C9CEE8BF8}">
+		<file>graphics/02_020_01.jpg</file>
+		<file>graphics/02_020_02.jpg</file>
+		<file>graphics/02_020_03.jpg</file>
+		<file>audio/a_02_020_01.swf</file>
+		<file>audio/a_02_020_02.swf</file>
+		<file>audio/a_02_020_03.swf</file>
+		<file>audio/a_02_020_04.swf</file>
+		<file>audio/a_02_020_05.swf</file>
+		<file>graphics/icon_pro.png</file>
+		<file>graphics/pro_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+		<!-- module03 -->
+	<page id="{1602EB9E-C432-420C-A573-6961C5370CB9}">
+		<file>graphics/03_010_01.jpg</file>
+		<file>graphics/03_010_02.jpg</file>
+		<file>graphics/03_010_03.jpg</file>
+		<file>audio/a_03_010_01.swf</file>
+		<file>audio/a_03_010_02.swf</file>
+		<file>audio/a_03_010_03.swf</file>
+		<file>graphics/icon_pro.png</file>
+		<file>graphics/pro_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+		<!-- module03\topic01\subtopic01 -->
+	<page id="{18F18574-AAFB-4976-9D56-81C340EAA4AD}">
+		<file>graphics/03_01_01_010_01.jpg</file>
+		<file>graphics/03_01_01_010_03.jpg</file>
+		<file>graphics/03_01_01_010_05.jpg</file>
+		<file>graphics/03_01_01_010_07.jpg</file>
+		<file>audio/a_03_01_01_010_01.swf</file>
+		<file>audio/a_03_01_01_010_02.swf</file>
+		<file>audio/a_03_01_01_010_03.swf</file>
+		<file>audio/a_03_01_01_010_04.swf</file>
+		<file>audio/a_03_01_01_010_05.swf</file>
+		<file>audio/a_03_01_01_010_06.swf</file>
+		<file>audio/a_03_01_01_010_07.swf</file>
+	</page>
+		<!-- module03\topic01\subtopic02 -->
+	<page id="{8B518820-72F5-46D7-A325-E2B043C906E2}">
+		<file>audio/a_03_03_01_02_010.swf</file>
+		<file>graphics/mc_slider_next.swf</file>
+		<file>graphics/mc_slider_back.swf</file>
+		<file>graphics/clear.gif</file>
+		<file>graphics/03_01_02_010_01.jpg</file>
+		<file>graphics/03_01_02_010_02.jpg</file>
+		<file>graphics/03_01_02_010_03.jpg</file>
+		<file>graphics/rstar_sizeable.swf</file>
+		<file>graphics/03_01_02_010_04.jpg</file>
+		<file>graphics/button_slide_link.swf</file>
+		<file>graphics/rstar_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+	<page id="{185606D7-17D6-4CB5-A9D2-4537310856AB}">
+		<file>graphics/03_01_02_020_01.jpg</file>
+		<file>audio/a_03_01_02_020_01.swf</file>
+		<file>graphics/04_01_02_010_02.png</file>
+		<file>graphics/04_01_02_010_03.png</file>
+		<file>graphics/04_01_02_010_04.png</file>
+		<file>graphics/04_01_02_010_05.png</file>
+	</page>
+	<page id="{6326C62D-C78E-469E-83C4-A5F5AD2E04CA}">
+		<file>audio/a_03_01_02_030_01.swf</file>
+		<file>graphics/03_01_02_030_01a.jpg</file>
+		<file>graphics/03_01_02_030_02a.jpg</file>
+		<file>graphics/03_01_02_030_03a.jpg</file>
+		<file>graphics/clear.gif</file>
+		<file>graphics/03_01_02_030_01.jpg</file>
+		<file>graphics/03_01_02_030_02.jpg</file>
+		<file>graphics/03_01_02_030_03.jpg</file>
+	</page>
+	<page id="{5D87EA92-14F4-4276-9D78-93B091C2DA90}">
+		<file>graphics/03_01_02_040_01.jpg</file>
+		<file>audio/a_03_01_02_040_01.swf</file>
+		<file>audio/a_03_01_02_040_02.swf</file>
+		<file>audio/a_03_01_02_040_03.swf</file>
+		<file>audio/a_03_01_02_040_04.swf</file>
+		<file>audio/a_03_01_02_040_05.swf</file>
+		<file>audio/a_03_01_02_040_06.swf</file>
+		<file>audio/a_03_01_02_040_07.swf</file>
+		<file>audio/a_03_01_02_040_08.swf</file>
+		<file>audio/a_03_01_02_040_09.swf</file>
+		<file>audio/a_03_01_02_040_10.swf</file>
+		<file>audio/a_03_01_02_040_11.swf</file>
+		<file>audio/a_03_01_02_040_12.swf</file>
+	</page>
+		<!-- module03\topic01\subtopic03 -->
+	<page id="{3FE61756-C8ED-4A9B-A3C0-2F5902932537}">
+		<file>audio/a_03_01_03_010_01.swf</file>
+		<file>graphics/clear.gif</file>
+		<file>graphics/thought_bubble.png</file>
+		<file>graphics/03_01_03_010_01.png</file>
+		<file>graphics/03_01_03_010_02.png</file>
+		<file>graphics/03_01_03_010_03.png</file>
+	</page>
+		<!-- module03\topic02\subtopic01 -->
+	<page id="{026D5543-88F6-42CA-B45C-5AEDAFCAC24A}">
+		<file>graphics/03_02_01_010_01.jpg</file>
+		<file>graphics/03_02_01_010_02.jpg</file>
+		<file>graphics/03_02_01_010_03.jpg</file>
+		<file>graphics/03_02_01_010_04.jpg</file>
+		<file>audio/a_03_02_01_010_01.swf</file>
+		<file>audio/a_03_02_01_010_02.swf</file>
+		<file>audio/a_03_02_01_010_03.swf</file>
+		<file>audio/a_03_02_01_010_04.swf</file>
+		<file>audio/a_03_02_01_010_06.swf</file>
+		<file>audio/a_03_02_01_010_05.swf</file>
+	</page>
+		<!-- module03\topic02\subtopic02 -->
+	<page id="{5FD9DF84-19E3-476E-9019-8E0314516813}">
+		<file>audio/a_03_02_02_010_00.swf</file>
+		<file>graphics/03_02_02_010_01.jpg</file>
+		<file>graphics/03_02_02_010_02.jpg</file>
+		<file>graphics/03_02_02_010_03.jpg</file>
+		<file>graphics/03_02_02_010_04.jpg</file>
+		<file>graphics/03_02_02_010_05.jpg</file>
+		<file>graphics/03_02_02_010_06.jpg</file>
+		<file>graphics/rstar_sizeable.swf</file>
+		<file>graphics/rstar_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+		<!-- module03\topic02\subtopic03 -->
+	<page id="{76D32C85-2604-4647-8AFA-7A7DBBC4D1D0}">
+		<file>audio/a_03_02_03_010_01.swf</file>
+		<file>graphics/03_02_03_010_01.jpg</file>
+		<file>graphics/placeholder_mcoption.swf</file>
+		<file>graphics/std_control.swf</file>
+	</page>
+		<!-- module03\topic03\subtopic01 -->
+	<page id="{381208EF-E3C8-4B3D-95B2-FC2A70F995FE}">
+		<file>graphics/03_03_01_010_01a.jpg</file>
+		<file>graphics/03_03_01_010_02a.jpg</file>
+		<file>graphics/03_03_01_010_03a.jpg</file>
+		<file>graphics/03_03_01_010_04a.jpg</file>
+		<file>graphics/03_03_01_010_01.jpg</file>
+		<file>graphics/03_03_01_010_02.jpg</file>
+		<file>graphics/03_03_01_010_03.jpg</file>
+		<file>graphics/03_03_01_010_04.jpg</file>
+		<file>audio/a_03_03_01_010_01.swf</file>
+		<file>audio/a_03_03_01_010_02.swf</file>
+		<file>audio/a_03_03_01_010_03.swf</file>
+		<file>audio/a_03_03_01_010_04.swf</file>
+		<file>audio/a_03_03_01_010_05.swf</file>
+	</page>
+		<!-- module03\topic03\subtopic02 -->
+	<page id="{2535A0E7-D974-4752-82F4-98C0B2E23927}">
+		<file>audio/a_03_03_02_010_01.swf</file>
+		<file>graphics/mc_slider_next.swf</file>
+		<file>graphics/mc_slider_back.swf</file>
+		<file>graphics/clear.gif</file>
+		<file>graphics/03_03_02_010_01.jpg</file>
+		<file>graphics/03_03_02_010_02.jpg</file>
+		<file>graphics/03_03_02_010_03.jpg</file>
+		<file>graphics/03_03_02_010_04.jpg</file>
+		<file>graphics/button_slide_link.swf</file>
+		<file>graphics/icon_pro.png</file>
+		<file>graphics/pro_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+		<!-- module03\topic03\subtopic03 -->
+	<page id="{C68807DA-E90E-4BBD-BD17-F281D9CD3DA2}">
+		<file>audio/a_03_03_03_020_00.swf</file>
+		<file>graphics/placeholder_mcoption.swf</file>
+		<file>graphics/std_control.swf</file>
+	</page>
+	<page id="{C8B382AD-3409-4753-933E-6E3B28705CC2}">
+		<file>audio/a_03_03_03_010_01a.swf</file>
+		<file>graphics/03_03_03_010_00a.jpg</file>
+		<file>graphics/03_03_03_010_01.jpg</file>
+		<file>graphics/placeholder_mcoption.swf</file>
+		<file>graphics/std_control.swf</file>
+		<file>audio/a_03_03_03_01_02.swf</file>
+		<file>audio/a_03_03_03_01_03.swf</file>
+	</page>
+	<page id="{AF688A3E-9E73-4778-BC95-AFDD1AC09B71}">
+		<file>graphics/03_020_01.jpg</file>
+		<file>graphics/03_020_02.jpg</file>
+		<file>graphics/03_020_03.jpg</file>
+		<file>graphics/03_020_04.jpg</file>
+		<file>graphics/03_020_05.jpg</file>
+		<file>audio/a_03_020_01.swf</file>
+		<file>audio/a_03_020_02.swf</file>
+		<file>audio/a_03_020_03.swf</file>
+		<file>audio/a_03_020_04.swf</file>
+		<file>audio/a_03_020_06.swf</file>
+		<file>graphics/icon_pro.png</file>
+		<file>graphics/pro_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+		<!-- module04 -->
+	<page id="{59C26E25-5461-4741-9577-9A04C21DF0B4}">
+		<file>graphics/04_010_01.jpg</file>
+		<file>audio/a_04_010_01.swf</file>
+		<file>audio/a_04_010_02.swf</file>
+		<file>audio/a_04_010_03.swf</file>
+		<file>graphics/icon_pro.png</file>
+		<file>graphics/pro_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+		<!-- module04\topic01\subtopic01 -->
+	<page id="{AA3F0461-38D2-4C06-92FD-00AAC038B9E2}">
+		<file>graphics/04_01_01_010_01.jpg</file>
+		<file>audio/a_04_01_01_010_01.swf</file>
+		<file>audio/a_04_01_01_010_02.swf</file>
+		<file>audio/a_04_01_01_010_03.swf</file>
+		<file>audio/a_04_01_01_010_05.swf</file>
+		<file>graphics/icon_pro.png</file>
+		<file>graphics/pro_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+		<!-- module04\topic01\subtopic02 -->
+	<page id="{C1A199E0-CC3B-4BE1-8472-FE11996C393C}">
+		<file>graphics/04_01_02_010_01.jpg</file>
+		<file>graphics/04_01_02_010_02.jpg</file>
+		<file>audio/a_04_01_02_010_01.swf</file>
+		<file>graphics/icon_pro.png</file>
+		<file>graphics/rstar_sizeable.swf</file>
+		<file>graphics/rstar_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+		<file>graphics/pro_popup_sizeable.swf</file>
+	</page>
+	<page id="{E896CF04-AD2B-44CF-8D16-C735209049B7}">
+		<file>graphics/04_01_02_020_02.jpg</file>
+		<file>graphics/04_01_02_020_01.jpg</file>
+		<file>audio/a_04_01_02_010_02.swf</file>
+		<file>graphics/icon_pro.png</file>
+		<file>graphics/pro_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+		<!-- module04\topic01\subtopic03 -->
+	<page id="{51364351-C993-4714-BEAC-55C1CEFD4918}">
+		<file>audio/a_04_01_03_010_01.swf</file>
+		<file>graphics/placeholder_dragball2.swf</file>
+		<file>graphics/placeholder_draganchor.swf</file>
+		<file>graphics/placeholder_dragtarget.swf</file>
+	</page>
+		<!-- module04\topic02\subtopic01 -->
+	<page id="{3FD90AA6-EA53-42B8-9B23-58CF73316906}">
+		<file>graphics/04_02_01_010_01.jpg</file>
+		<file>audio/a_04_02_01_010_01.swf</file>
+		<file>audio/a_04_02_01_01_02.swf</file>
+		<file>audio/a_04_02_01_01_05.swf</file>
+	</page>
+		<!-- module04\topic02\subtopic02 -->
+	<page id="{51277899-0A5B-4F31-9158-5975F2B6A0AE}">
+		<file>audio/a_04_02_02_010_01.swf</file>
+		<file>graphics/04_02_02_010_01.jpg</file>
+		<file>graphics/04_02_02_010_02.jpg</file>
+		<file>graphics/04_02_02_010_03.jpg</file>
+		<file>graphics/clear.gif</file>
+		<file>graphics/rstar_sizeable.swf</file>
+		<file>graphics/rstar_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+	<page id="{37FEE0BE-0B5E-4D85-88F0-8BD80A3756A7}">
+		<file>graphics/04_02_02_020_01.jpg</file>
+		<file>audio/a_04_02_02_020_01.swf</file>
+		<file>audio/a_04_02_02_020_02.swf</file>
+		<file>audio/a_04_02_02_020_06.swf</file>
+		<file>audio/a_04_02_02_020_03.swf</file>
+		<file>audio/a_04_02_02_020_04.swf</file>
+		<file>audio/a_04_02_02_020_05.swf</file>
+		<file>graphics/rstar_sizeable.swf</file>
+		<file>graphics/rstar_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+		<file>graphics/04_02_02_020_02.jpg</file>
+	</page>
+	<page id="{A045A592-48FD-4884-BF99-601876BEA63D}">
+		<file>graphics/placeholder_200x200_01.jpg</file>
+		<file>audio/a_04_02_02_030_01.swf</file>
+		<file>graphics/04_02_02_011_05.png</file>
+		<file>graphics/04_02_02_011_06.png</file>
+		<file>graphics/04_02_02_011_07.png</file>
+		<file>graphics/04_02_02_011_08.png</file>
+		<file>graphics/04_02_02_030_01.jpg</file>
+		<file>graphics/04_02_02_030_02.jpg</file>
+		<file>graphics/04_02_02_030_03.jpg</file>
+		<file>graphics/04_02_02_030_04.jpg</file>
+		<file>graphics/rstar_sizeable.swf</file>
+		<file>graphics/rstar_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+		<!-- module04\topic02\subtopic03 -->
+	<page id="{1FB6DD9D-1ADC-44EA-920F-9AFAC726E32C}">
+		<file>audio/a_04_02_03_010_01.swf</file>
+		<file>graphics/clear.gif</file>
+		<file>graphics/04_02_03_010_01.jpg</file>
+		<file>graphics/04_02_03_010_02.jpg</file>
+		<file>graphics/04_02_03_010_03.jpg</file>
+	</page>
+		<!-- module04\topic03\subtopic01 -->
+	<page id="{A513F96F-97E8-4417-92F9-83B57E71D933}">
+		<file>graphics/04_03_01_010_01.jpg</file>
+		<file>audio/a_04_03_01_010_01.swf</file>
+		<file>audio/a_04_03_01_01_02.swf</file>
+	</page>
+		<!-- module04\topic03\suptopic02 -->
+	<page id="{755A6602-9043-462D-AADA-1BC3C964F9C0}">
+		<file>audio/a_04_03_02_01_010.swf</file>
+		<file>graphics/clear.gif</file>
+		<file>graphics/04_03_02_010_01.jpg</file>
+		<file>graphics/04_03_02_010_045.jpg</file>
+		<file>graphics/04_03_02_010_025.jpg</file>
+		<file>graphics/04_03_02_010_03.jpg</file>
+		<file>graphics/04_03_02_010_04.jpg</file>
+		<file>graphics/button_slide_link.swf</file>
+		<file>graphics/std_control.swf</file>
+		<file>graphics/left_arrow.png</file>
+		<file>graphics/right_arrow.png</file>
+	</page>
+	<page id="{F2A379FE-E792-4308-A2F5-133C3A591F9A}">
+		<file>graphics/04_03_02_020_01.jpg</file>
+		<file>audio/a_04_03_02_020_01.swf</file>
+		<file>audio/a_04_03_02_020_02.swf</file>
+		<file>audio/a_04_03_02_020_03.swf</file>
+		<file>audio/a_04_03_02_020_04.swf</file>
+		<file>audio/a_04_03_02_020_05.swf</file>
+		<file>graphics/icon_pro.png</file>
+		<file>graphics/pro_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+	<page id="{A044541A-E25F-46C9-B7EE-43E33740798A}">
+		<file>audio/a_04_03_02_030_01.swf</file>
+		<file>audio/a_04_03_02_030_02.swf</file>
+		<file>audio/a_04_03_02_030_03.swf</file>
+		<file>graphics/icon_pro.png</file>
+		<file>graphics/pro_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+		<!-- module04\topic03\subtopic03 -->
+	<page id="{B5BAAE1F-CC13-4404-AAB5-D4F6CD0651C6}">
+		<file>graphics/clear.swf</file>
+		<file>audio/a_04_03_03_010_01.swf</file>
+		<file>graphics/placeholder_mcoption.swf</file>
+		<file>graphics/std_control.swf</file>
+		<file>audio/a_04_03_03_010_02.swf</file>
+		<file>audio/a_04_03_03_010_03.swf</file>
+	</page>
+	<page id="{E99BED4D-E078-4734-9D4A-10441781D845}">
+		<file>audio/a_03_03_03_010_01.swf</file>
+		<file>graphics/03_03_03_010_00.jpg</file>
+		<file>graphics/placeholder_mcoption.swf</file>
+		<file>graphics/std_control.swf</file>
+	</page>
+		<!-- module04\topic04\subtopic01 -->
+	<page id="{E9C1AE08-843E-413F-8E4D-9577BBEB66E1}">
+		<file>graphics/04_04_01_010_01.jpg</file>
+		<file>audio/a_04_04_01_010_01.swf</file>
+		<file>audio/a_04_04_01_010_02.swf</file>
+		<file>audio/a_04_04_01_010_03.swf</file>
+		<file>graphics/rstar_sizeable.swf</file>
+		<file>graphics/rstar_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+		<!-- module04\topic04\subtopic02 -->
+	<page id="{244F1D72-33B6-457C-975A-1F1DC27DBD23}">
+		<file>audio/a_04_04_02_010_01.swf</file>
+		<file>graphics/04_04_02_010_01.jpg</file>
+		<file>graphics/04_04_02_010_03.jpg</file>
+		<file>graphics/rstar_sizeable.swf</file>
+		<file>graphics/rstar_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+	<page id="{9083BB82-23A1-422F-9F24-BD9632C959F6}">
+		<file>audio/a_04_04_02_020_01.swf</file>
+		<file>graphics/std_control.swf</file>
+		<file>graphics/right_arrow.png</file>
+		<file>graphics/left_arrow.png</file>
+		<file>graphics/clear.gif</file>
+		<file>graphics/04_04_02_020_00.jpg</file>
+		<file>graphics/04_04_02_020_01.jpg</file>
+		<file>graphics/04_04_02_020_02.jpg</file>
+		<file>graphics/04_04_02_020_03.jpg</file>
+		<file>graphics/04_04_02_020_04.jpg</file>
+		<file>graphics/04_04_02_020_05.jpg</file>
+		<file>graphics/rstar_sizeable.swf</file>
+		<file>graphics/04_04_02_020_06.jpg</file>
+		<file>graphics/04_04_02_020_07.jpg</file>
+		<file>graphics/04_04_02_020_08.jpg</file>
+		<file>graphics/rstar_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+		<!-- module04\topic04\subtopic03 -->
+	<page id="{AF87E594-13E8-4708-B7A9-09718FD81576}">
+		<file>audio/a_04_04_03_010_01.swf</file>
+		<file>graphics/04_04_03_010_01.png</file>
+		<file>graphics/04_04_03_010_02.png</file>
+		<file>graphics/04_04_03_010_03.png</file>
+		<file>graphics/clear.gif</file>
+		<file>graphics/04_04_03_010_04.jpg</file>
+		<file>graphics/04_04_03_010_05.jpg</file>
+		<file>graphics/04_04_03_010_06.jpg</file>
+		<file>graphics/rstar_sizeable.swf</file>
+		<file>graphics/rstar_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+	</page>
+	<page id="{C06D9055-F5D6-41D3-BBC4-F7B58CD6D4DF}">
+		<file>graphics/04_020_01.jpg</file>
+		<file>audio/a_04_020_01.swf</file>
+		<file>audio/a_04_020_02.swf</file>
+		<file>audio/a_04_020_03.swf</file>
+		<file>audio/a_04_020_04.swf</file>
+		<file>audio/a_04_020_05.swf</file>
+		<file>audio/a_04_020_06.swf</file>
+		<file>graphics/pro_popup_sizeable.swf</file>
+		<file>graphics/btn_close.swf</file>
+		<file>graphics/icon_pro.png</file>
+		<file>audio/a_04_020_09.swf</file>
+	</page>
+</cache>

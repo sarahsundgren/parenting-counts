@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Step 2: Connect with Your Child</content>
+	</text>
+	<text id="nav_text" x="218" y="425" width="562" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;The Five Steps of Emotion Coaching&lt;/B&gt;.&lt;/P&gt;</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="388" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Parents can use emotional moments as opportunities to connect with their child. Many parents can share a child's happiness when they have learned a new skill.</content>
+		</text>
+		<text id="text02" x="25" y="110.8" width="365" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">These emotional moments are when children need to turn to adults and caregivers for guidance.</content>
+		</text>
+		<text id="text03" x="25" y="156" width="362" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Suggestions for connecting:&lt;LI&gt;Talk to your child at eye level.&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="25" y="186" width="387" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Explain your mistakes, repair the interaction, and reconnect with the child.&lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="25" y="230" width="387" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Children's emotions offer parents important opportunities to: &lt;LI&gt;Understand the child &lt;/LI&gt;&lt;LI&gt;Build a deeper and more trusting relationship &lt;/LI&gt;&lt;LI&gt;Teach children about feelings &lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="425" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="52448" startpos="1" play="false">04_02_02_040_01.jpg</file>
+			<notes id="description">girl smiling photo found in talaris photos&amp;gt; used&amp;gt; social emotional&amp;gt; emotion coaching  shannon happy</notes>
+		</graphic>
+		<graphic id="graphic02" x="336" y="93" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic03" x="425" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="52270" startpos="1" play="false">04_02_02_040_02.jpg</file>
+			<notes id="description">mother talking to son who is pouting,  picture found in talaris photos&amp;gt; used&amp;gt; social and emotional&amp;gt;emotion coaching     Kristin and Son</notes>
+		</graphic>
+		<graphic id="graphic04" x="370" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic05" x="425" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="60370">04_02_02_040_03.jpg</file>
+			<notes id="description">parent and child smiling</notes>
+		</graphic>
+		<graphic id="graphic06" x="370" y="49" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="171" bytes="58583" startpos="1">a_04_02_02_040_01.swf</file>
+			<transcript translate="true">Parents can use emotional moments as opportunities to connect with their child. Many parents can share a child's happiness when they have learned a new skill. However, it can be hard not to feel frustrated with a child who throws a tantrum in the grocery store.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="135" bytes="45983" startpos="1">a_04_02_02_040_02.swf</file>
+			<transcript translate="true">These emotional moments are when children need to turn to adults and caregivers for guidance. The response they receive from a trusted caregiver can have a dramatic effect on the way they behave.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" duration="88" bytes="29819" startpos="1">a_04_02_02_040_03.swf</file>
+			<transcript translate="true">One great way to connect is to talk to your child at eye level. Get down on your knees and speak to them while looking at them.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" duration="131" bytes="44687" startpos="1">a_04_02_02_040_04.swf</file>
+			<transcript translate="true">Parents aren't perfect so it is common for parents to make mistakes in their interactions with children. Explain your mistakes, repair the interaction, and reconnect with the child.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" duration="158" bytes="54059" startpos="1">a_04_02_02_040_05.swf</file>
+			<transcript translate="true">Whether happy or sad, children's emotions offer parents three very important opportunities: To understand the child. To build a deeper and more trusting relationship. And to teach children about feelings.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="nav_text" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="-35" y="140" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+</template>

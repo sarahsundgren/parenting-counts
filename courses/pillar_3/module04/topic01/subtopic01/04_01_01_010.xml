@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Why Play Matters</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Why Play Matters&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="677" height="" autosize="H" style="DEFAULT" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">A child's brain development is influenced by their experiences with the world around them. Through play, children experience, explore, and learn.</content>
+		</text>
+		<text id="text02" x="355" y="90" width="380" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Scientists define play as:&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;"A distinct motivational/behavioral system that evolved as a pathway through which young individuals learn about their environments, establish relationships with others, and create or refine skills needed for success in later life."&lt;/P&gt;</content>
+		</text>
+		<text id="text03" x="355" y="180" width="384" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Play is important because it: &lt;LI&gt;Encourages brain development &lt;/LI&gt;&lt;LI&gt;Helps children learn important social skills &lt;/LI&gt;&lt;LI&gt;Increases communication skills &lt;/LI&gt;&lt;LI&gt;Stimulates the brain and promotes brain growth &lt;/LI&gt;</content>
+			<eventlist>
+				<event type="" result="" target="" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="text04" x="355" y="270" width="382" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Key Messages&lt;/B&gt; &lt;LI&gt;Play encourages brain development, social skills, communication and language skills&lt;/LI&gt;&lt;LI&gt;Play promotes self-confidence and self-esteem&lt;/LI&gt;&lt;LI&gt;Play supports healthy child development and can provide the opportunity to develop strong parent-child bonds&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="25" y="90" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="92417" startpos="1" play="false">04_01_01_010_01.jpg</file>
+			<notes id="description">A mom and dad at the park with son on top of dad's shoulders playing in the park. istock photo 1558562</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic03" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic04" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" startpos="1" bytes="87255" duration="255">a_04_01_01_010_01.swf</file>
+			<transcript translate="true">Most parents recognize that play is fun; however, not all realize that it is an essential component of a child's healthy growth and development. As explained for example in the overview of the cognitive pillar, a child's brain development is influenced by their experiences with the world around them. Through play, children experience, explore and learn.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" startpos="1" bytes="91559" duration="267">a_04_01_01_010_02.swf</file>
+			<transcript translate="true">One popular definition of play provides additional insights about why play matters. According to this definition, play is "a distinct motivational or behavioral system that evolved as a pathway through which young individuals learn about their environments, establish relationships with others, and create or refine skills needed for success in later life."</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" startpos="1" bytes="75187" duration="220">a_04_01_01_010_03.swf</file>
+			<transcript translate="true">Researchers like Parten, Golinkoff, Gottman and others believe that play is important because it encourages brain development, helps children learn important social skills, increases communication skills, and stimulates the brain which creates important connections that impact future development.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon03" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" startpos="1" bytes="77663" duration="227">a_04_01_01_010_04.swf</file>
+			<transcript translate="true">In this topic, the Key Messages are that play: has many benefits including encouraging brain development, social skills, communication and language skills, and promoting self-confidence and self-esteem. Play also promotes healthy child development and can provide the opportunity to develop strong parent-child bonds.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="650" y="155" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon02" x="656" y="210" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon03" x="692" y="242" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference03" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480.95" height="184.55" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Haight, W., &amp; Black, J. (2001). A comparative approach to play: Cross-species and cross cultural perspectives of play in development. &lt;I&gt;Human Development, 44&lt;/I&gt;(4), 228-234.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480.95" height="184.55" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Whitebread, D., Coltman, P., Jameson, H., &amp; Lander, R. (2009). Play, cognition and self-regulation: What exactly are children learning when they learn through play? &lt;I&gt;Educational and Child Psychology, 26&lt;/I&gt;(2), 40-52.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference03" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480.95" height="184.55" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;American Academy of Pediatrics. (2007). The importance of play in promoting healthy child development and maintaining strong parent-child bonds. &lt;I&gt;Pediatrics, 119&lt;/I&gt;(1).&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

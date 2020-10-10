@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="-50" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Conclusion</content>
+	</text>
+	<text id="nav_text" x="98" y="425" width="674" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">To continue, click another &lt;B&gt;Module &lt;/B&gt;from the top menu, or click &lt;B&gt;Exit&lt;/B&gt; to leave Get Started and select a &lt;B&gt;Pillar&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x8" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="280" y="50" width="446" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Congratulations! You have completed the Parenting Today module.</content>
+		</text>
+		<text id="text02" x="-3" y="112" width="426" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">In your work, you see the complexities faced by families every day in a changing world.</content>
+		</text>
+		<text id="text03" x="-3" y="139" width="425" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">You've heard from a number of real parents in this module, and much of what you've heard is probably similar to what you hear every day in your work.</content>
+		</text>
+		<text id="text04" x="-7" y="166" width="451" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Remember that there is no one most important factor affecting families.</content>
+		</text>
+		<text id="text05" x="-6" y="208" width="440" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">As an educator, you can assist each family in dealing with their unique blend of challenges and triumphs.</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="misc_graphic01" x="-50" y="50" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" name="graphic01">
+			<file play="false" bytes="117548" start_frame="1">04_020_01.jpg</file>
+			<notes id="description">two generations of a family, non traditional</notes>
+		</graphic>
+		<graphic id="graphic01" x="448" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic02" x="5" y="209" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1"/>
+			<notes id="description">graphic icon</notes>
+		</graphic>
+		<graphic id="graphic03" x="5" y="233" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1"/>
+			<notes id="description">graphic icon</notes>
+		</graphic>
+		<graphic id="graphic04" x="5" y="271" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1"/>
+			<notes id="description">graphic icon</notes>
+		</graphic>
+		<graphic id="graphic05" x="0" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="19255" duration="57" start_frame="1">a_04_020_01.swf</file>
+			<transcript translate="true">Congratulations! You have completed the Parenting Today module.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="21199" duration="63" start_frame="1">a_04_020_02.swf</file>
+			<transcript translate="true">In your work, you see the complexities faced by families every day in a changing world.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="30247" duration="89" start_frame="1">a_04_020_03.swf</file>
+			<transcript translate="true">You've heard from a number of real parents in this module, and much of what you've heard is probably similar to what you hear every day in your work.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" bytes="33695" duration="99" start_frame="1">a_04_020_04.swf</file>
+			<transcript translate="true">Whether we're talking about technology, family life, or family structure, remember that there is no one most important factor affecting families.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" bytes="25503" duration="75" start_frame="1">a_04_020_05.swf</file>
+			<transcript translate="true">As an educator, you can assist each family in dealing with their unique blend of challenges and triumphs.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="misc_audio01" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="misc_text01" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="miscellaneous_audio" expanded="true">
+		<audio id="misc_audio01">
+			<file start_frame="1" play="false" bytes="62147" duration="182">a_04_020_06.swf</file>
+			<transcript translate="true">To continue, click another Module from the top menu. If you have completed Get Started, click Exit in the top right corner of the screen to leave this course and return to the Parenting Counts Portal. You can access the four pillars from the Parenting Counts Portal.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="280" y="250" width="458" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;If you have completed Get Started, click &lt;B&gt;Exit&lt;/B&gt; in the top right corner of the screen to leave this course and return to the Parenting Count Portal. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;You can access the four pillars from the Parenting Counts Portal.&lt;/P&gt;</content>
+		</text>
+	</section>
+</template>

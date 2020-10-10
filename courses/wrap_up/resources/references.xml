@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<graphic id="background" x="0" y="0" width="795" height="533" behavior="LOCK_XY|LOCK_SIZE" style="PLAIN" visible="true" fx="SHOW" hidefx="HIDE" disabled="true">
+		<file play="false" bytes="5827" startpos="1">wizard.jpg</file>
+		<eventlist>
+			<event type="CLICK" result="DISABLE" target="_self" result_param=""/>
+		</eventlist>
+	</graphic>
+	<text id="title" x="37" y="35" width="456" height="" autosize="H" style="WIZARD_TITLE" visible="true" fx="SHOW" hidefx="HIDE">
+		<content translate="true">Reference Citations</content>
+	</text>
+	<text id="references" x="37" y="65" width="697" height="352" autosize="" style="WIZARD_TEXT" visible="true" fx="SHOW" hidefx="HIDE" scroll="AUTO">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;American Academy of Pediatrics. (2007). The importance of play in promoting healthy child development and maintaining strong parent-child bonds. &lt;I&gt;Pediatrics, 119&lt;/I&gt;(1).&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Bergen, D. (2002). The role of pretend play in children’s cognitive development. &lt;I&gt;Early Childhood Research and Practice, 4&lt;/I&gt;(1), 2-15.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Berk, L.E., Mann, T.D., &amp; Ogan, A.T. (2006). Make-believe play: Wellspring for the development of self-regulation. In D.G. Singer, R. Golinkoff, &amp; K. Hirsh-Pasek (Eds.), &lt;I&gt;Play = learning: How play motivates and enhances children’s cognitive and social-emotional growth &lt;/I&gt;(pp. 74-100). New York, NY: Oxford University Press.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Elkind, D. (2001). The hurried child. &lt;I&gt;Reading&lt;/I&gt;, MA: Addison-Wesley.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Ginsburg, K.R., Committee on Communications, &amp; Committee on Psychosocial Aspects of Child and Family Health. (2007). The importance of play in promoting healthy child development and maintaining strong parent-child bonds. &lt;I&gt;Pediatrics, 119&lt;/I&gt;(1), 182-191. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Haight, W., &amp; Black, J. (2001). A comparative approach to play: Cross-species and cross cultural perspectives of play in development. &lt;I&gt;Human Development, 44&lt;/I&gt;(4), 228-234.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Hirsh-Pasek, K., &amp; Golinkoff, R.M. (2003). &lt;I&gt;Einstein never used flash cards: How our children really learn and why they need to play more and memorize less&lt;/I&gt;. Emmaus, PA: Rodale Books.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Hirsh-Pasek, K., Golinkoff, R., Berk, L. &amp; Singer, D. (2009). &lt;I&gt;A mandate for playful learning in preschool.&lt;/I&gt; (In-Press). New York, NY: Oxford University Press.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Santrock, J.W. (2007). Parten's classic study of play. &lt;I&gt;A topical approach to life-span development&lt;/I&gt; (3rd ed.). (p. 573). New York, NY: McGraw Hill. (Original work published in 2002).&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Singer, D., Golinkoff, R.M., &amp; Hirsh-Pasek, K. (Eds.). (2006). &lt;I&gt;Play=Learning: How play motivates and enhances children's cognitive and social-emotional growth.&lt;/I&gt; New York, NY: Oxford University Press.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Vandewater, E.A., Rideout, V.J., Wartella, E.A., Huang, X., Lee, J.H., &amp; Shim, M. (2007). Digital childhood: Electronic media and technology use among infants, toddlers, and preschoolers. &lt;I&gt;Pediatrics, 119,&lt;/I&gt; e1006-e1015. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Whitebread, D., Coltman, P., Jameson, H., &amp; Lander, R. (2009). Play, cognition and self-regulation: What exactly are children learning when they learn through play? &lt;I&gt;Educational and Child Psychology, 26&lt;/I&gt;(2), 40-52.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+	</text>
+	<graphic id="print" x="647" y="430" width="" height="" behavior="" style="CONTROLS" visible="true" fx="SHOW" hidefx="HIDE">
+		<file play="false" bytes="3602" startpos="1" duration="23">btn_print.swf</file>
+		<eventlist>
+			<event type="CLICK" result="CALL_FUNCTION" target="PAGE" result_param="printWizard();"/>
+		</eventlist>
+	</graphic>
+</template>

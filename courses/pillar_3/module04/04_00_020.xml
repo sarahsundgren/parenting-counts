@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_video" view="view_video">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<text id="title" x="-50" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Introduction</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">To begin, click a &lt;B&gt;Topic&lt;/B&gt;.</content>
+	</text>
+	<text id="intro_text" x="350" y="61" width="367" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+		<content translate="true">Welcome to the Play module. Let's begin by watching a brief video clip that shows the importance of play for children ages 0 to 5.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="350" y="120" width="367" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">The video you just watched highlights how play helps young children experience, explore, and learn.</content>
+		</text>
+		<text id="text02" x="380" y="61" width="337" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Educator Training Goals:&lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;1. Describe six different types of play that &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="48"&gt;&lt;P ALIGN="LEFT"&gt;encourage learning&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;2. Explain the benefits and function of play in &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="48"&gt;&lt;P ALIGN="LEFT"&gt;the developing child&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;3. Provide guidance for parents and caregivers &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="48"&gt;&lt;P ALIGN="LEFT"&gt;for age-appropriate play&lt;/P&gt;&lt;/TEXTFORMAT&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="text03" x="380" y="61" width="383" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;To find a teaching outline and a complete set of module objectives, click the &lt;B&gt;Teaching Tools&lt;/B&gt; icon in the right panel. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;The Play video featured on this page is available in the &lt;B&gt;Resource Center&lt;/B&gt;.&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="99" bytes="33591" start_frame="1">a_04_00_020_00.swf</file>
+			<transcript translate="true">Welcome to the Play module. Let's begin by watching a brief video clip that shows the importance of play for children ages 0 to 5.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="video" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="243" bytes="83159" start_frame="1">a_04_00_020_01.swf</file>
+			<transcript translate="true">The video you just watched highlights how play helps young children experience, explore, and learn. In the module that follows, we'll look more carefully at the connection between play and the four development pillars; why play matters; the different types of play; and finally the ways that professionals and parents can encourage their children to play.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration03" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" duration="215" bytes="73671" start_frame="1">a_04_00_020_02.swf</file>
+			<transcript translate="true">After completing this module you will be able to: 1) Describe six different types of play that encourage learning, 2) Explain the benefits and function of play in the developing child, and 3) Provide guidance for parents and caregivers for age appropriate play.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text03" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration04" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" duration="176" bytes="60203" start_frame="1">a_04_00_020_03.swf</file>
+			<transcript translate="true">To find a teaching outline and a complete set of module objectives, click the Teaching Tools icon in the right panel. The Play video featured on this page is available in the Resource Center. To begin, click a topic.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text03" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="presentation_video" expanded="true">
+		<video id="video" behavior="" x="-50" y="61" width="340" height="180" visible="true" fx="VIDEO_SHOW" hidefx="VIDEO_HIDE" style="DEFAULT">
+			<file play="false" autorewind="true" buffer="15" preload="10" volume="100" bytes="4650076" start_frame="0">Play Introduction.mov</file>
+			<transcript/>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="0" result="CALL_FUNCTION" target="" result_param="$stopAudio();"/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="text01" result_param=""/>
+			</eventlist>
+		</video>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="1" y="371" width="350" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text02" x="-35" y="286" width="309" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">From Talaris' &lt;B&gt;&lt;I&gt;Experience, Explore, Learn&lt;/I&gt;&lt;/B&gt; DVD</content>
+		</text>
+	</section>
+</template>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="-50" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Introduction</content>
+	</text>
+	<text id="nav_text" x="625" y="425" width="300" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;To begin, click a &lt;B&gt;Topic&lt;/B&gt;.&lt;B&gt; &lt;/B&gt;&lt;/P&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="-50" y="50" width="378" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Welcome to the Emotion Coaching module. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;This module is designed to help professionals teach parents about the five steps of Emotion Coaching and the benefits it has on both children and parents.&lt;/P&gt;</content>
+		</text>
+		<text id="text02" x="2" y="237" width="362" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Educator Training Goals:&lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Present research findings on the Emotion Coaching parenting style.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Explain the five steps of Emotion Coaching.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Describe ways to use Emotion Coaching in the parent-child relationship. &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Communicate how Emotion Coaching helps children learn how to manage their feelings and improve parenting outcomes.&lt;/P&gt;&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="text03" x="0" y="82" width="387" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;/TEXTFORMAT&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="370" y="50" width="300" height="300" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="83805" startpos="1" play="false">04_010_01.jpg</file>
+			<notes id="description">picture of parent and child smiling at each other</notes>
+		</graphic>
+		<graphic id="graphic02" x="370" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="91303">04_010_02.jpg</file>
+			<notes id="description"> child sitting with parent, photo found in talaris photos&amp;gt; used&amp;gt; social and emotional&amp;gt; emotion coaching    Newcomer_Caley_Julie_Smile_Couch_2</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="230" bytes="78843" startpos="1">a_04_010_01.swf</file>
+			<transcript translate="true">Welcome to the Emotion Coaching module. This module is designed to help professionals teach parents about the five steps of Emotion Coaching and the benefits it has on both children and parents. As we go through this module, Emotion Coaching will be presented in a similar way that professionals can present it to parents.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="330" bytes="113219" startpos="1">a_04_010_03.swf</file>
+			<transcript translate="true">Before we begin discussing Emotion Coaching in depth, let's cover the Educator Training Goals for this module. They are: 1. Present research findings on the Emotion Coaching parenting style. 2. Explain the five steps of Emotion Coaching. 3. Describe ways to use Emotion Coaching in the parent-child relationship. And 4. Communicate how Emotion Coaching helps children learn how to manage their feelings and improve parenting outcomes.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text01" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="nav_text" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="-35" y="157" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;1.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;2.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;3.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;4.&lt;/P&gt;</content>
+		</text>
+	</section>
+</template>

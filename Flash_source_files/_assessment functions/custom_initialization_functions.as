@@ -1,0 +1,9 @@
+﻿///////////////////////////////////////////////////////////////////////////////////////////////////
+// CUSTOM SHELL INITIALIZATION FUNCTIONALITY
+//
+// @author    Allen Communication Learning Services
+// @version   3.2
+// @comments  The ActionScript within this document comprises customizations to the core
+//			  initialization functionality. Core variables and functions are prefixed with '$'.
+///////////////////////////////////////////////////////////////////////////////////////////////////
+

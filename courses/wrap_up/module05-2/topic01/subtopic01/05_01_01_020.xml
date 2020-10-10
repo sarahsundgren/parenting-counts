@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_slider" view="view_hslider_links">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="useControls" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="20" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Understanding Your Audience</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Preparing to Teach&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="20" y="50" width="751" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">To begin, start with a careful assessment of your audience. Parents typically attend parenting workshops or learn parenting information not because they believe they need knowledge about themselves, but because they want the best for their child.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="350" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click the&lt;B&gt; buttons&lt;/B&gt; to learn more.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="-2" y="316" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_HIDE" hidefx="GRAPHIC_HIDE">
+			<file play="false" placeholder="true" start_frame="1"/>
+			<notes id="description">general timeline image with footprints</notes>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" duration="340" bytes="116459" start_frame="1">a_05_01_01_020_01.swf</file>
+			<transcript translate="true">To begin, start with a careful assessment of your audience. Parents typically attend parenting workshops or learn parenting information not because they believe they need knowledge about themselves, but because they want the best for their child. Yet, the research on the success of parent education programs shows that one of the best ways to help children achieve optimal outcomes is to help parents improve their parenting skills. Click the buttons to learn more about the types of groups you may anticipate.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="dev_assets" expanded="true">
+		<area id="panel_mask" behavior="" x="0" y="133" width="770" height="285" visible="false" fx=""/>
+	</section>
+	<section id="buttons" align="TOP" spacing="0" autospace="false" exclusive="false" expanded="true">
+		<container id="forward_button" behavior="STRICT|LOCK_SIZE" x="916" y="228" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="false">
+				<file play="false" bytes="1755" duration="30" start_frame="1">mc_slider_next.swf</file>
+			</graphic>
+			<text id="text" x="0" y="0" width="1" height="1" autosize="" style="CONTROLS" visible="false">
+				<content/>
+			</text>
+		</container>
+		<container id="reverse_button" behavior="STRICT|LOCK_SIZE" x="20" y="225" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="false">
+				<file play="false" bytes="1810" duration="30" start_frame="1">mc_slider_back.swf</file>
+			</graphic>
+			<text id="text" x="0" y="0" width="1" height="1" autosize="" style="CONTROLS" visible="false">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="panels" expanded="true">
+		<container id="panel01" behavior="LOCK_SIZE" x="110" y="170" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="550" height="216" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" start_frame="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="110821" start_frame="1">05_01_01_020_01.jpg</file>
+				<notes id="description">Interview  File #: 6492382</notes>
+			</graphic>
+			<text id="header" x="320" y="55" width="100" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content/>
+			</text>
+			<text id="text" x="320" y="80" width="100" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel02" behavior="LOCK_SIZE" x="499.8" y="209.3" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="549" height="215" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="54" start_frame="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="216" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="58474" start_frame="1">05_01_01_020_02.jpg</file>
+				<notes id="description">Couple getting consulted File #: 12401349</notes>
+			</graphic>
+			<text id="header" x="260" y="15" width="200" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Willing Learner</content>
+			</text>
+			<text id="text" x="260" y="40" width="279" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Willing learners are parents who are &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;motivated to make changes in their parenting. These learners are actively engaged in the learning experience.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;For this learner you will need to: &lt;/B&gt;&lt;/P&gt;&lt;LI&gt;Encourage their willingness to participate&lt;/LI&gt;&lt;LI&gt;Help learners apply the information to their specific child or experience&lt;/LI&gt;</content>
+			</text>
+		</container>
+		<container id="panel03" behavior="LOCK_SIZE" x="472.55" y="243.2" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="549" height="215" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="54" start_frame="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="250" height="216" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="52518" start_frame="1">05_01_01_020_03.jpg</file>
+				<notes id="description">Woman Yawning at a Group Presentation  File #: 13602616</notes>
+			</graphic>
+			<text id="header" x="260" y="15" width="200" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Neutral Learner</content>
+			</text>
+			<text id="text" x="260" y="40" width="283" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Neutral learners are those who are not yet engaged in the value of the learning opportunity.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;For these learners you will need to:&lt;/B&gt;&lt;/P&gt;&lt;LI&gt;Convince them that the information presented is relevant for their situation&lt;/LI&gt;&lt;LI&gt;Keep them engaged in the content&lt;/LI&gt;</content>
+			</text>
+		</container>
+		<container id="panel04" behavior="LOCK_SIZE" x="472.55" y="243.2" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="549" height="215" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="54" start_frame="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="250" height="216" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="71880" start_frame="1">05_01_01_020_04.jpg</file>
+				<notes id="description">Relationship Problems File #: 14175486</notes>
+			</graphic>
+			<text id="header" x="260" y="15" width="200" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Unwilling Learner</content>
+			</text>
+			<text id="text" x="260" y="40" width="271" height="200" autosize="" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Unwilling learners are parents who are not interested in the information and do not want to attend. They are often forced to participate as part of a treatment program, custody case, or school situation. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;For these learners you will need to:&lt;/B&gt;&lt;/P&gt;&lt;LI&gt;Build rapport and trust prior to            giving information&lt;/LI&gt;&lt;LI&gt;Help them understand how the information will benefit their child&lt;/LI&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="panel_shortcuts" align="TOP" spacing="120x0" autospace="true" columns="0" expanded="true">
+		<graphic id="link01" x="120" y="130" width="" height="" style="LINK_SWF" visible="false" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" duration="40" start_frame="1">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link02" x="300" y="94" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" duration="40" start_frame="1">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link03" x="" y="" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" duration="40" start_frame="1">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link04" x="" y="" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" duration="40" start_frame="1">button_slide_link.swf</file>
+		</graphic>
+	</section>
+	<section id="swap_audio" expanded="true"/>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="188" y="370" width="46" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text02" x="297" y="125" width="82" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Willing Learner</content>
+		</text>
+		<text id="misc_text03" x="443" y="125" width="80" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Neutral Learner</content>
+		</text>
+		<text id="misc_text04" x="587" y="125" width="90" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Unwilling Learner</content>
+		</text>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="10" y="420" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" start_frame="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="1" y="235" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" start_frame="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="417" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">To prepare for your specific audience, click the &lt;B&gt;My Teaching Notes&lt;/B&gt; icon in the right panel and then &lt;B&gt;Audience and Objectives&lt;/B&gt;. This form leads you through a series of questions that help you think about your audience in more detail. The form can then be saved within &lt;B&gt;My Teaching Notes&lt;/B&gt; for later review or revision.</content>
+			</text>
+		</container>
+	</section>
+</template>

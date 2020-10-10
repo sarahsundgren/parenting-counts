@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Why Is It Important to Understand Emotion?</content>
+	</text>
+	<text id="nav_text" x="180" y="425" width="590" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Emotions&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="370" y="60" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;When children are emotionally competent, they:&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;LI&gt;Have confidence&lt;/LI&gt;&lt;LI&gt;Stay on task to complete projects&lt;/LI&gt;&lt;LI&gt;Follow directions&lt;/LI&gt;&lt;LI&gt;Develop friendships&lt;/LI&gt;&lt;LI&gt;Name their emotions&lt;/LI&gt;&lt;LI&gt;Manage strong feelings&lt;/LI&gt;</content>
+		</text>
+		<text id="text02" x="370" y="198.8" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Children able to express their emotions have:&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Decreased levels of stress hormones&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="370" y="245" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Lower resting heart rates&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="370" y="261" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Fewer infectious illnesses like colds and flu&lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="370" y="277" width="384" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Improved learning outcomes&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="102485" play="false" startpos="1">01_01_02_020_01.jpg</file>
+			<notes id="description">Picture of dad with sad daughter talking together</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="35324" play="false" startpos="1">01_01_02_020_02.jpg</file>
+			<notes id="description">A happy infant playing</notes>
+		</graphic>
+		<graphic id="graphic03" x="25" y="140" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" placeholder="true"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;A toddler eating breakfast with family&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic04" x="25" y="169" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="33482" play="false" startpos="1">01_01_02_020_04.jpg</file>
+			<notes id="description">A child sick in bed</notes>
+		</graphic>
+		<graphic id="graphic05" x="25" y="278" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="35933">01_01_02_020_05.jpg</file>
+			<notes id="description">A child sitting at a desk</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="243" bytes="83159" startpos="1">a_01_01_02_020_01.swf</file>
+			<transcript translate="true">The goal of understanding emotions is to help children become socially and emotionally healthy. What does this mean? When children are emotionally competent, they have confidence, stay on task to complete projects,  follow directions, develop friendships, name their emotions, and manage strong feelings. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="101" bytes="34551" startpos="1">a_01_01_02_020_02.swf</file>
+			<transcript translate="true">Research shows that children who are raised in an environment in which they are able to express their emotion have decreased levels of stress hormones,</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" duration="26" bytes="8691" startpos="1">a_01_01_02_020_03.swf</file>
+			<transcript translate="true">lower resting heart rates,</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" duration="41" bytes="13863" startpos="1">a_01_01_02_020_04.swf</file>
+			<transcript translate="true">fewer infectious illnesses like colds and flu,</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" startpos="1" bytes="41667" duration="122">a_01_01_02_020_05.swf</file>
+			<transcript translate="true">and improved learning outcomes such as better preparation for learning, stronger peer relationships, and an increased ability to recover from stress and teasing.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon02" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration06">
+			<file play="false" startpos="1" bytes="51363" duration="150">a_01_01_02_020_06.swf</file>
+			<transcript translate="true">Based on these research findings, parents should be encouraged to allow children to express their emotions and help them work through them. Specific ways to do this will be discussed in the Emotion Coaching module.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="9" y="420" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon02" x="587" y="279" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="1" y="235" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Many parents want to understand the physical implications of social-emotional well-being. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Help parents recognize how the stressors in their family life have an impact on their children. When children are able to talk about their feelings regarding these stressors, they are better able to regulate their emotions.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Gottman, J., Guralnick, M., Wilson, B., &amp; Swanson, C. (1997). What should the focus of emotion regulation in children? A nonlinear dynamic mathematical model of children's peer interaction in groups.&lt;I&gt; Development and Psychopathology, 9&lt;/I&gt;(2), 421-452.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

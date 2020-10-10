@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_cardswap" view="view_cardswap">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programming-options"/>
+		<notes id="search-terms"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="persistInitGfx" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+		<settings id="perspectiveEdges" datatype="BOOLEAN" value="true"/>
+		<settings id="exclusiveCards" datatype="BOOLEAN" value="false"/>
+		<settings id="allowFlipBack" datatype="BOOLEAN" value="true"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW">
+		<content translate="true">Parental Response</content>
+	</text>
+	<text id="nav_text" x="35" y="425" width="735" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW">
+		<content translate="true">Click a&lt;B&gt; Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Is Communication?&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="729" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">A parent's response to their child's language attempts is very important. Just as children appear to enter the world programmed to communicate and learn language, most parents seem to instinctively know how to encourage their children's communication growth.</content>
+		</text>
+		<text id="directions" x="25" y="55" width="850" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;card&lt;/B&gt; to learn more.</content>
+		</text>
+	</section>
+	<section id="presentation_media" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="initial_graphic" x="630" y="15" width="" height="" style="DEFAULT" visible="true" fx="SHOW" graphic_style="DEFAULT">
+			<file play="false" startpos="1"/>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" startpos="1" duration="242" bytes="82939">01_01_02_020_01.swf</file>
+			<transcript translate="true">A parent's response to their child's language attempts is very important. Just as children appear to enter the world programmed to communicate and learn language, most parents seem to instinctively know how to encourage their children's communication growth. In other words, parents seem designed to help babies learn. Click each photo to learn more.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="list_items" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<graphic id="link01" x="95" y="135" width="250" height="150" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="55184" play="false" startpos="1">01_01_02_020_04.jpg</file>
+			<notes id="description"/>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="swap_text01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link02" x="445" y="135" width="250" height="150" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="57610" play="false" startpos="1">01_01_02_020_05.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;father and son in kitchen: istock#: 11983626&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="swap_text02" result_param=""/>
+				<event type="CLICK" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="swap_text01" x="95" y="295" width="300" height="" autosize="H" style="SWAP" visible="false" fx="SHOW">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Holding and Cuddling&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;It is very natural for parents to know how to hold and cuddle their babies. These tender moments between parents and children are laying the foundation for the children's lifelong language acquisition and communication skills. &lt;/P&gt;</content>
+		</text>
+		<text id="swap_text02" x="445" y="295" width="304" height="" autosize="H" style="SWAP" visible="false" fx="SHOW">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Singing, Talking, and Smiling&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Parents delight in loving interactions such as singing, talking, and smiling that are critical for a baby's development. In turn, a parent's pleasure in his or her child's blossoming skills encourages the child to continue to find new and different ways to communicate.&lt;/P&gt;</content>
+		</text>
+	</section>
+</template>

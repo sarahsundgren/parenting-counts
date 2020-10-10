@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_video" view="view_video">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<text id="title" x="-50" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Introduction</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">To begin, click a &lt;B&gt;Topic&lt;/B&gt;.</content>
+	</text>
+	<text id="intro_text" x="330" y="61" width="402" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+		<content translate="true">Welcome to the Why Parenting Counts module. This module is designed to help you expand your knowledge and skills in early child development, and understand the significance of developing positive parent-child relationships. </content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="330" y="137" width="415" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">The video you just watched explained how parenting is often filled with questions and concerns. </content>
+		</text>
+		<text id="text02" x="380" y="61" width="415" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Giving parents the information they need, delivered in the right way, and at the right time can make a positive impact on the families and children you serve. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;By teaching the Parenting Counts Program in your community, you will help make a difference in children's and parents' lives.&lt;/P&gt;</content>
+		</text>
+		<text id="text03" x="380" y="61" width="415" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Professional Goals:&lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Explain why parenting plays a critical role in fostering a child's development.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Give parents the information and tools they need to best support their child's healthy growth and development.&lt;/P&gt;&lt;/TEXTFORMAT&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="" result_param=""/>
+			</eventlist>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="296" bytes="101267" start_frame="1">a_02_010_01.swf</file>
+			<transcript translate="true">Welcome to the Why Parenting Counts module. This module is designed to help you expand your knowledge and skills in early child development, and understand the significance of developing positive parent-child relationships. It teaches the importance of supporting parents and caregivers in raising socially and emotionally healthy children by supporting their child's development. Let's begin by watching a brief video that introduces why parenting counts.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="video" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="68" bytes="22923" start_frame="1">a_02_010_02.swf</file>
+			<transcript translate="true">The video you just watched explained how parenting is often filled with questions and concerns. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration03" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" duration="182" bytes="62355" start_frame="1">a_02_010_03.swf</file>
+			<transcript translate="true">Giving parents the information they need, delivered in the right way, and at the right time can make a positive impact on the families and children you serve. By teaching the Parenting Counts Program in your community, you will help make a difference in children's and parents' lives.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration04" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" duration="221" bytes="75511" start_frame="1">a_02_010_04.swf</file>
+			<transcript translate="true">The goals of the Parenting Counts module are to help you to 1) Explain why parenting plays a critical role in fostering a child's development. And 2) Give parents the information and tools they need to best support their child's healthy growth and development. To begin, click a topic in the bottom menu.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text03" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text01" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="presentation_video" expanded="true">
+		<video id="video" behavior="" x="-50" y="61" width="340" height="180" visible="true" fx="VIDEO_SHOW" hidefx="VIDEO_HIDE" style="DEFAULT">
+			<file play="false" autorewind="true" buffer="15" preload="10" volume="100" bytes="11242395" start_frame="0">why_parenting_counts.mov</file>
+			<transcript/>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="0" result="CALL_FUNCTION" target="" result_param="$stopAudio();"/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="text01" result_param=""/>
+			</eventlist>
+		</video>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="340" y="305" width="20" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;1.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;2.&lt;/P&gt;</content>
+		</text>
+		<text id="misc_text02" x="-45" y="286" width="335" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="CENTER"&gt;From Talaris' &lt;B&gt;&lt;I&gt;Life with Newborn&lt;/I&gt;&lt;/B&gt; DVD&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="-95" y="440" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" start_frame="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="-95" y="255" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" start_frame="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="55" width="412" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">This module can be a very effective way to introduce workshops and presentations. The time allotted for this content is flexible and can be presented in the form of a one-on-one interaction, a group discussion, a lecture, or an activity. The intent is to bring  participants together around a common theme—the importance of parenting.</content>
+			</text>
+		</container>
+	</section>
+</template>

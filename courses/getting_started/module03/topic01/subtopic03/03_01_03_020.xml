@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_cardswap" view="view_cardswap">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programming-options"/>
+		<notes id="search-terms"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="persistInitGfx" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+		<settings id="perspectiveEdges" datatype="BOOLEAN" value="true"/>
+		<settings id="exclusiveCards" datatype="BOOLEAN" value="true"/>
+		<settings id="allowFlipBack" datatype="BOOLEAN" value="true"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW">
+		<content translate="true">Culture Activity</content>
+	</text>
+	<text id="nav_text" x="35" y="425" width="735" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt;, or click a new &lt;B&gt;Topic&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<text id="introduction" x="25" y="51" width="741" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Your own cultural background, upbringing, and beliefs have a major impact on how you interpret another's behavior. As a professional, it's important to recognize your own beliefs, values, and biases, and to realize how they might influence your interactions with and assumptions about parents.</content>
+		</text>
+		<text id="directions" x="25" y="155" width="850" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;photo&lt;/B&gt; to hear examples.</content>
+		</text>
+	</section>
+	<section id="presentation_media" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="initial_graphic" x="630" y="15" width="" height="" style="DEFAULT" visible="true" fx="SHOW" graphic_style="DEFAULT">
+			<file play="false" start_frame="1"/>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" duration="199" bytes="68071" start_frame="1">a_03_01_03_020_01.swf</file>
+			<transcript translate="true">Your own cultural background, upbringing, and beliefs have a major impact on how you interpret another's behavior. As a professional, it's important to recognize your own beliefs, values, and biases, and to realize how they might influence your interactions with and assumptions about parents.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="misc_audio01" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="swap_text" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="338" y="190" width="421" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;"When I was growing up, both of my parents worked full-time jobs, so being the older sister, I had a lot of responsibilities. This taught me how to be very independent.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;"Some of the children I work with constantly need help. They are very dependent on me to help them accomplish their tasks. I have to remind myself that they are growing up in a completely different environment than I did, and are being taught to depend on others more than I am used to."&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;—Tonya&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text02" x="25" y="120" width="421" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;"My family and I are not very close, so I use the Internet to find new parenting ideas for my daycare class. Some of the parents that I work with seem to have outdated ideas about parenting, but claim they will only take their mother's advice.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;"I have to remind myself that not every new parenting idea the Internet offers is the best way to parent, and that others have their own opinions that I need to respect."&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;—Eila&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="miscellaneous_audio" expanded="true">
+		<audio id="misc_audio01">
+			<file start_frame="1" play="false" bytes="87903" duration="257">a_03_01_03_020_02.swf</file>
+			<transcript translate="true">Think about how your cultural background has shaped your beliefs about parenting. Also consider how culture impacts the population you work with. This could include the way they view physical affection versus verbal expression and interdependence versus independence. Make a note of your experience in My Teaching Notes. If you need a few ideas, click each photo below to hear examples.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="25" y="112" width="719" height="" autosize="H" style="DEFAULT" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Think about how your cultural background has shaped your beliefs about parenting. Also consider how culture impacts the population you work with. Make a note of your experience in &lt;B&gt;My Teaching Notes&lt;/B&gt;. </content>
+		</text>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="25" y="190" width="" height="" style="LINK_3" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="24490">03_01_03_020_01.jpg</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="misc_graphic02" result_param=""/>
+				<event type="CLICK" result="SHOW" target="swap_text01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="swap_text02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic04" result_param=""/>
+				<event type="CLICK" result="PLAY" target="swap_audio01" result_param=""/>
+			</eventlist>
+			<notes id="description">professional talking</notes>
+		</graphic>
+		<graphic id="misc_graphic02" x="153" y="190" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="49936">03_01_03_020_03.jpg</file>
+			<notes id="description">same photo as card back01</notes>
+		</graphic>
+		<graphic id="misc_graphic03" x="25" y="290" width="" height="" style="LINK_3" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="25305">03_01_03_020_02.jpg</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="misc_graphic04" result_param=""/>
+				<event type="CLICK" result="SHOW" target="swap_text02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="swap_text01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic02" result_param=""/>
+				<event type="CLICK" result="PLAY" target="swap_audio02" result_param=""/>
+				<event type="CLICK" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+			<notes id="description">Indian professional talking</notes>
+		</graphic>
+		<graphic id="misc_graphic04" x="153" y="190" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="42181">03_01_03_020_04.jpg</file>
+			<notes id="description">same photo as card back02</notes>
+		</graphic>
+	</section>
+	<section id="swap_audio" expanded="true">
+		<audio id="swap_audio01">
+			<file start_frame="1" play="false" bytes="101151" duration="295">a_03_01_03_020_03.swf</file>
+			<transcript translate="true">When I was growing up, both of my parents worked full-time jobs, so being the older sister, I had a lot of responsibilities. This taught me how to be very independent. Some of the children I work with constantly need help. They are very dependent on me to help them accomplish their tasks. I have to remind myself that they are growing up in a completely different environment than I did, and are being taught to depend on others more than I am used to.</transcript>
+			<notes id="mentor-character">Professional 1:</notes>
+		</audio>
+		<audio id="swap_audio02">
+			<file start_frame="1" play="false" bytes="100827" duration="294">a_03_01_03_020_04.swf</file>
+			<transcript translate="true">My family and I are not very close, so I use the Internet to find new parenting ideas for my daycare class. Some of the parents that I work with seem to have outdated ideas about parenting, but claim they will only take their mother's advice. I have to remind myself that not every new parenting idea the Internet offers is the best way to parent, and that others have their own opinions that I need to respect.</transcript>
+			<notes id="mentor-character">Professional 2:</notes>
+		</audio>
+	</section>
+</template>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Chronic Stress</content>
+	</text>
+	<text id="nav_text" x="207" y="425" width="564" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity &lt;/B&gt;to learn more about &lt;B&gt;Why Stress Matters&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="350" y="60" width="395" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Many parents wonder what happens if their child is stressed for an extended period of time. </content>
+		</text>
+		<text id="text02" x="350" y="85.2" width="380" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">While the optimal scenario is to identify the stressor and make a repair attempt, or teach the child techniques for managing stress, sometimes the situation is beyond the parent or child's control. In these instances, the support and care of a trusted adult is the best buffer against the negative effects of stress. </content>
+		</text>
+		<text id="text03" x="350" y="85.2" width="380" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Romanian Orphanages Research Spotlight:</content>
+		</text>
+		<text id="text04" x="350" y="114.8" width="395" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;The longer the children lived in these conditions, the less well-regulated their stress response system was.&lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="350" y="160" width="395" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Children who had alternating caretakers and who had been in the orphanage for longer than six months demonstrated lower cognitive scores.&lt;/LI&gt;</content>
+		</text>
+		<text id="text06" x="350" y="160" width="395" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;The longer the child had lived in the institution, the more slowly the ability to regulate stress occurred.&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="105008" startpos="1" play="false">04_02_02_020_01.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;boy and teddybear in bed  File #: 11289393&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic03" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic04" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" startpos="1" bytes="50403" duration="148">a_04_02_02_020_01.swf</file>
+			<transcript translate="true">Many parents wonder what happens if their child is stressed for an extended period of time. Sometimes this happens as a result of a family situation, an illness, poverty, or an unexpected circumstance.  </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" startpos="1" bytes="103627" duration="302">a_04_02_02_020_02.swf</file>
+			<transcript translate="true">While the optimal scenario is to identify the stressor and make a repair attempt or teach the child techniques for managing stress, sometimes the situation is beyond the parent or child's control. In these instances, the support and care of a trusted adult is the best buffer against the negative effects of stress. This becomes more apparent when compared to a situation in which chronically stressed children did not receive supportive care. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" startpos="1" bytes="53203" duration="156">a_04_02_02_020_06.swf</file>
+			<transcript translate="true">For example, a study looked at children adopted from Romanian orphanages, who had been living in reportedly harsh conditions including a lack of individual care, affectionate soothing, or caregiver interaction.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" startpos="1" bytes="29599" duration="87">a_04_02_02_020_03.swf</file>
+			<transcript translate="true">The study found that the longer the children lived in these conditions, the less well-regulated their stress response system was.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" startpos="1" bytes="32515" duration="96">a_04_02_02_020_04.swf</file>
+			<transcript translate="true">Children who had alternating caretakers and who had been in the orphanage for longer than six months demonstrated lower cognitive scores.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration06">
+			<file play="false" startpos="1" bytes="82407" duration="241">a_04_02_02_020_05.swf</file>
+			<transcript translate="true">Although some children adopted into families improved in their physiological stress regulation over time, the longer the child had lived in the institution, the more slowly the ability to regulate stress occurred. To avoid these effects, it is important to understand the effects of chronic stress on children and begin to look for signs or symptoms. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="626" y="214" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480.95" height="184.55" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="50" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Adam, E., Klimes-Dougan, B., &amp; Gunnar, M. (2007). Social regulation of the adrenocortical response to stress in infants, children, and adolescents: Implications for psychopathology and education. &lt;I&gt;Human behavior, learning, and the developing brain: Atypical development,&lt;/I&gt; 264-304. New York, NY: Guilford Press.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="8006" placeholder="true">04_02_02_020_02.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;African Orphanage File #: 1821784&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+</template>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_cascade" view="view_cascade_right">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="forceFirstPanel" datatype="LIST" value="ANIMATE"/>
+		<settings id="panelDirection" datatype="LIST" value="REVERSE"/>
+		<settings id="disablePanels" datatype="LIST" value="DEFAULT"/>
+		<settings id="useControls" datatype="LIST" value="ALWAYS_VISIBLE"/>
+		<settings id="setComplete" datatype="LIST" value="ON_ALL_PANELS_VISITED"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Imitation and Media</content>
+	</text>
+	<text id="nav_text" x="35" y="425" width="735" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Why Imitation Matters&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="720" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Albert Bandura studied patterns of behavior associated with aggression through his Bobo doll experiments. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;When young children saw the video of an adult hitting the doll, they were more likely to hit the doll when they saw it. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;This demonstrated that aggression appears to be learned through observing and imitating others.&lt;/P&gt;</content>
+		</text>
+		<text id="directions" x="" y="" width="536" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click &lt;B&gt;Forward&lt;/B&gt; to read more about the research found on how media affects imitation.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<audio id="initial_audio">
+			<file start_frame="1" play="true" bytes="122163" duration="356">a_02_02_02_030_01.swf</file>
+			<transcript translate="true">Albert Bandura studied patterns of behavior associated with aggression through his Bobo doll experiments. When young children saw the video of an adult hitting the doll, they were more likely to hit the doll when they saw it. They also kicked, punched, and pretended to shoot the doll. Children who hadn't seen the video weren't aggressive toward the doll. This demonstrated that aggression appears to be learned through observing and imitating others. Click forward to read more about the research found on how media affects imitation.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<graphic id="initial_graphic" behavior="" x="28" y="160" width="" height="" style="DEFAULT" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE">
+		<file start_frame="1" play="false" bytes="40093">02_02_02_030_01.jpg</file>
+		<notes id="description">Baby watching television</notes>
+	</graphic>
+	<section id="dev_assets" expanded="true">
+		<area id="vanish_point" behavior="LOCK_SIZE" x="298" y="134" width="24" height="24" visible="false" fx=""/>
+	</section>
+	<section id="progress_markers" align="TOP" spacing="15x0" autospace="true" exclusive="false" expanded="true">
+		<graphic id="marker01" x="126" y="420" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file start_frame="1" play="false" bytes="1615" duration="30">progress_dot.swf</file>
+		</graphic>
+		<graphic id="marker02" x="" y="" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file start_frame="1" play="false" bytes="1615" duration="30">progress_dot.swf</file>
+		</graphic>
+		<graphic id="marker03" x="" y="" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file start_frame="1" play="false" bytes="1615" duration="30">progress_dot.swf</file>
+		</graphic>
+		<graphic id="marker04" x="" y="" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file start_frame="1" play="false" bytes="1615" duration="30">progress_dot.swf</file>
+		</graphic>
+	</section>
+	<section id="panels" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="panel01" behavior="" x="28" y="206" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="GRAPHIC" visible="true" fx="">
+				<file start_frame="1" play="false" bytes="42943">02_02_02_030_02.jpg</file>
+				<notes id="description">toddler holding a video cassette</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel02" behavior="" x="96" y="170" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="300" height="200" style="GRAPHIC" visible="true" fx="">
+				<file start_frame="1" play="false" bytes="40447">02_02_02_030_03.jpg</file>
+				<notes id="description">child facing away from camera staring at TV age 2</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel03" behavior="" x="163" y="158" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="300" height="200" style="GRAPHIC" visible="true" fx="">
+				<file start_frame="1" play="false" bytes="68274">02_02_02_030_04.jpg</file>
+				<notes id="description">Toddler age 14 mos imitating a show he is watching</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel04" behavior="STRICT|LOCK_XY|LOCK_SIZE" x="" y="" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="300" height="200" style="GRAPHIC" visible="true">
+				<file start_frame="1" play="false" bytes="68276">02_02_02_030_05.jpg</file>
+				<notes id="description">Children playing with parent </notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="swap_text" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="370" y="206" width="333" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Researchers have found that:&lt;/B&gt;&lt;LI&gt;Children gather information from many different sources. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;In today's media-saturated culture, children are exposed to television and movies at increasingly younger ages. &lt;/LI&gt;</content>
+		</text>
+		<text id="swap_text02" x="" y="" width="353" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Researchers have found that:&lt;/B&gt;&lt;LI&gt;61% of children below age 2 watched over an hour of television or video in an average day.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;This kind of exposure may have detrimental effects on sleep, cognition, and behavior.&lt;/LI&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon05" result_param=""/>
+				<event type="HIDEFX_COMPLETE" result="HIDE" target="ref_icon05" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="swap_text03" x="" y="" width="370" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Researchers have found that:&lt;/B&gt;&lt;LI&gt;Children as young as 14 months old are able to imitate things they see on television. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;TV and DVD viewing by children younger than 2 appears to negatively impact language development.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;There was a high correlation found in boys who watched violence on television between ages 2–5, and exhibited violent behavior in school between ages 7–10.&lt;/LI&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon04" result_param=""/>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon03" result_param=""/>
+				<event type="HIDEFX_COMPLETE" result="HIDE" target="ref_icon03" result_param=""/>
+				<event type="HIDEFX_COMPLETE" result="HIDE" target="ref_icon04" result_param=""/>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon06" result_param=""/>
+				<event type="HIDEFX_COMPLETE" result="HIDE" target="ref_icon06" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="swap_text04" x="0" y="0" width="347" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;The American Academy of Pediatrics suggests:&lt;/B&gt;&lt;LI&gt;Parents and caregivers should monitor the amount of time children spend watching television and engage in other types of media-related activities.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;For children under the age of 2, talking, singing, reading, listening to music, or playing is far more important to development than any TV show.&lt;/LI&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon07" result_param=""/>
+				<event type="HIDEFX_COMPLETE" result="HIDE" target="ref_icon07" result_param=""/>
+			</eventlist>
+		</text>
+	</section>
+	<section id="buttons" align="" spacing="0" autospace="false" exclusive="false" expanded="true">
+		<container id="start_button" behavior="STRICT|LOCK_SIZE" x="521" y="159" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="116" height="32" style="CONTROLS" visible="true">
+				<file start_frame="1" play="false" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="85" y="10" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="212">right_arrow.png</file>
+			</graphic>
+			<text id="text" x="25" y="7" width="88" height="18" autosize="" style="DEFAULT" visible="true">
+				<content translate="true">Forward</content>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="initial_graphic" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="reverse_button" behavior="STRICT|LOCK_SIZE" x="386" y="159" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="35" y="10" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="223">left_arrow.png</file>
+			</graphic>
+			<text id="text" x="45" y="8" width="89" height="18" autosize="" style="DEFAULT" visible="true">
+				<content translate="true">Back</content>
+			</text>
+		</container>
+		<container id="forward_button" behavior="STRICT|LOCK_SIZE" x="521" y="159" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="85" y="10" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="212">right_arrow.png</file>
+			</graphic>
+			<text id="text" x="25" y="7" width="88" height="18" autosize="" style="DEFAULT" visible="true">
+				<content translate="true">Forward</content>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="initial_graphic" result_param=""/>
+			</eventlist>
+		</container>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="9" y="420" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon02" x="631" y="95" width="15" height="15" style="LINK_SWF" visible="true" fx="">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon03" x="635" y="237" width="15" height="15" style="LINK_SWF" visible="false" fx="">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon04" x="738" y="285" width="15" height="15" style="LINK_SWF" visible="false" fx="">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference04" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon06" x="490" y="362" width="15" height="15" style="LINK_SWF" visible="false" fx="">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference06" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon07" x="688" y="330" width="15" height="15" style="LINK_SWF" visible="false" fx="">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference07" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="1" y="235" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="483" height="180" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="55" width="423" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;B&gt;For children over the age of 2, parents should:&lt;/B&gt;&lt;LI&gt;Choose television shows, movies, and video games that they would feel comfortable having their child imitate&lt;/LI&gt;&lt;LI&gt;Help their child learn what behavior is acceptable and unacceptable by explaining why the behavior was acceptable or unacceptable&lt;/LI&gt;</content>
+			</text>
+		</container>
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="435" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Bandura, A., Ross, D., &amp; Ross, S. A. (1961). Transmission of aggression through imitation of aggressive models. &lt;I&gt;Journal of Abnormal and Social Psychology&lt;/I&gt;,&lt;I&gt; 63&lt;/I&gt;, 575-582.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference03" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="433" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Barr, R., &amp; Hayne, H. (1999). Developmental changes in imitation from television during infancy. &lt;I&gt;Child Development&lt;/I&gt;,&lt;I&gt; 70&lt;/I&gt;, 1067-1081.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference04" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="430" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Zimmerman, F. J., Christakis, D. A., Meltzoff, A. N. (2007). Associations between media viewing and language development among children under 2 years old. &lt;I&gt;Journal of Pediatrics&lt;/I&gt;,&lt;I&gt; 151&lt;/I&gt;(4), 364-368.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference06" behavior="STRICT|LOCK_SIZE" x="295" y="6" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="450" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Zimmerman, F. J., &amp; Christakis, D. A. (2007). Associations between content types of early media exposure and subsequent attentional problems. &lt;I&gt;PEDIATRICS&lt;/I&gt;,&lt;I&gt; 120&lt;/I&gt;(5), 986-992.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference07" behavior="STRICT|LOCK_SIZE" x="295" y="6" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="450" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;American Academy of Pediatrics. (2006, December 1). &lt;I&gt;TV and Toddlers&lt;/I&gt;. Retrieved from http://www.aap.org/sections/media/ToddlersTV.htm&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

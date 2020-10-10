@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">What Parents Need to Know</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Parents Can Do&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="701" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Parents play a key role in developing their children’s emotional well-being. Parents need to know that the most important thing they can do is recognize that emotions matter and pay attention to them.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="433" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;number &lt;/B&gt;to learn more.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="500" y="140" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" bytes="49292" play="false">01_04_02_010_01.jpg</file>
+			<notes id="description">Anna Acuest from Attachment Folder in Social Emotional</notes>
+		</graphic>
+		<audio id="initial_audio">
+			<file start_frame="1" play="true" bytes="66995" duration="196">a_01_04_02_011_01.swf</file>
+			<transcript translate="true">Parents play a key role in developing their children’s emotional well-being. Parents need to know that the most important thing they can do is recognize that emotions matter and pay attention to them. Click each number to learn more about what parents and caregivers need to know.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="list_items" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<graphic id="link01" x="5" y="130" width="" height="60" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file start_frame="1" bytes="6605" play="false">04_01_02_010_02.png</file>
+			<notes id="description">ONE</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link02" x="30" y="190" width="" height="60" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file start_frame="1" bytes="7264" play="false">04_01_02_010_03.png</file>
+			<notes id="description">TWO</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link03" x="5" y="248" width="" height="60" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file start_frame="1" bytes="7588" play="false">04_01_02_010_04.png</file>
+			<notes id="description">THREE</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="SHOW" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link04" x="30" y="306" width="" height="60" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file start_frame="1" bytes="7170" play="false">04_01_02_010_05.png</file>
+			<notes id="description">FOUR</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+				<event type="CLICK" result="SHOW" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link05" x="5" y="368" width="" height="60" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file start_frame="1" bytes="7920" play="false">04_01_02_010_06.png</file>
+			<notes id="description">FIVE</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+				<event type="CLICK" result="SHOW" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference03" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="swap_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="swap_graphic01" x="500" y="140" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" bytes="55636" play="false">01_04_02_010_02.jpg</file>
+			<notes id="description">Page 47 - Ian and dad from Discipline folder in Social Emotional</notes>
+		</graphic>
+		<graphic id="swap_graphic02" x="500" y="140" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" bytes="56167" play="false">01_04_02_010_03.jpg</file>
+			<notes id="description">Two children playing together outside</notes>
+		</graphic>
+		<graphic id="swap_graphic03" x="500" y="140" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" bytes="65590" play="false">01_04_02_010_04.jpg</file>
+			<notes id="description">BringBabyHomeDSC_7620 in Attachment Folder in Social Emotional Dev. (Grandma holding an infant)</notes>
+		</graphic>
+		<graphic id="swap_graphic04" x="500" y="140" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" bytes="55123" play="false">01_04_02_010_05.jpg</file>
+			<notes id="description">BringBabyHomeDSC_7104 from Stress in Physical Dev. (woman resting head on her arms)</notes>
+		</graphic>
+		<graphic id="swap_graphic05" x="500" y="140" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" bytes="62352" play="false">01_04_02_010_06.jpg</file>
+			<notes id="description">WK1O2838 from Learning Language in Communication Dev. (picture of father reading to his two children)</notes>
+		</graphic>
+	</section>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="75" y="137" width="390" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Recognize that one of the most important things for a child’s future outcomes is a strong relationship with his or her parent.</content>
+		</text>
+		<text id="swap_text02" x="100" y="195" width="380" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Help parents understand why it is important for children to interact with others.</content>
+		</text>
+		<text id="swap_text03" x="75" y="255" width="370" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Encourage parents to provide opportunities for their child to develop strong, supportive relationships with other children and adults.</content>
+		</text>
+		<text id="swap_text04" x="100" y="313" width="378" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Recognize how a parent's own feelings about emotions will impact his or her parenting style.</content>
+		</text>
+		<text id="swap_text05" x="75" y="373" width="378" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Be aware of the emotional climate within the home and recognize that this impacts developing children.</content>
+		</text>
+	</section>
+</template>

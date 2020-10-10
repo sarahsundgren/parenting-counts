@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_animationsequence" view="view_animationsequence">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Step 3: Listen to Your Child</content>
+	</text>
+	<text id="nav_text" x="174" y="425" width="596" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity &lt;/B&gt;to learn more about &lt;B&gt;The Five Steps of Emotion Coaching&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="24" y="50" width="721" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Parents can respect their child's feelings by taking time to listen carefully. Knowing that an adult will listen and try to understand what they are feeling can be just the kind of comfort they need.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="653" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click the &lt;B&gt;photo&lt;/B&gt; to hear an example of how a parent can show his or her child that feelings are important.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="25" y="120" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" bytes="103627" duration="302" startpos="1">a_04_02_02_060.swf</file>
+			<transcript translate="true">Parents can respect their child's feelings by taking time to listen carefully. Listening with empathy and validating your child's feelings are two of the most important steps to take in order to help children learn to succeed with emotions. Knowing that an adult will listen and try to understand what they are feeling can be just the kind of comfort they need. Click the photo to hear an example of how a parent can show his or her child that feelings are important.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="animation_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="25" y="133" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="42511" startpos="1" play="false">04_02_02_060_02.jpg</file>
+			<notes id="description">photo found on istock File #: 14478358 pic of pouting girl at birthday</notes>
+		</graphic>
+		<graphic id="graphic02" x="" y="" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="miscellaneous_audio" expanded="true">
+		<audio id="misc_audio01">
+			<file play="false" startpos="1" bytes="99427" duration="290">a_04_02_02_060_02.swf</file>
+			<transcript translate="true">Ben's daughter Sophia begins crying at her friend's birthday party when she sees her friend opening presents. Ben knows that Sophia is sad that the presents are not for her. He knows that simply explaining to Sophia that she will get presents on her birthday would not be effective Emotion Coaching. Instead he decides to take Sophia aside to ask her about her feelings. Ben is careful to stop and listen to her response.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="misc_audio02" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="misc_audio02">
+			<file play="false" startpos="1" duration="154" bytes="52763">a_04_02_02_060_03.swf</file>
+			<transcript translate="true">Parents can tend to explain too much to a child, for too long. This can lead the child to miss the information that the parent is trying to communicate and, as a result, feel disconnected emotionally from the parent.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="nav_text" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="306" y="134" width="381" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Example:&lt;/B&gt;&lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;P ALIGN="LEFT"&gt;Ben's daughter Sophia begins crying at her friend's birthday party when she sees her friend opening presents. &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;P ALIGN="LEFT"&gt;He knows that simply explaining to Sophia that she will get presents on her birthday would not be effective Emotion Coaching. &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;P ALIGN="LEFT"&gt;He decides to take Sophia aside to ask her about her feelings. Ben is careful to stop and listen to her response.&lt;/P&gt;&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="misc_text02" x="306" y="305" width="408" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Parents can tend to explain too much to a child, for too long. This can lead the child to miss the information that the parent is trying to communicate and, as a result, feel disconnected emotionally from the parent.</content>
+		</text>
+	</section>
+	<section>
+		<graphic id="link01" x="25" y="133" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="55479" play="false" startpos="1">04_02_02_060_01.jpg</file>
+			<notes id="description">birthday party, photo found on istock File #: 10900950</notes>
+			<eventlist>
+				<event type="CLICK" result="PLAY" target="misc_audio01" result_param=""/>
+				<event type="CLICK" result="SHOW" target="misc_text01" result_param=""/>
+				<event type="CLICK" result="SHOW" target="graphic01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="link01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="swap_text01" x="475" y="133" width="178" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+</template>

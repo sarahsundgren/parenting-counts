@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+		<settings id="curriculumTitle" datatype="STRING" value="Parenting Counts"/>
+	</configuration>
+	<graphic id="code" x="-120" y="-19" width="1014" height="533" behavior="LOCK_XY|LOCK_SIZE|LOCK_FILE" style="PLAIN" visible="false" fx="HIDE" hidefx="HIDE">
+		<file play="true" startpos="1" duration="1">../flash/code_wizard.swf</file>
+	</graphic>
+	<graphic id="background" x="-120" y="-19" width="1014" height="533" behavior="LOCK_XY|LOCK_SIZE" style="PLAIN" visible="true" fx="WIZARD_PANEL_SHOW" hidefx="GRAPHIC_HIDE" disabled="true">
+		<file play="false" bytes="7297" startpos="1" duration="1">resources_bg.swf</file>
+	</graphic>
+	<graphic id="menu_bkg" x="-121" y="-19" width="" height="" style="PLAIN" behavior="LOCK_XY|LOCK_SIZE" visible="true" fx="WIZARD_PANEL_SHOW" hidefx="GRAPHIC_HIDE">
+		<file play="false" bytes="10214" startpos="1">dummy_wizard_menu.jpg</file>
+	</graphic>
+	<section id="printing">
+		<graphic id="print_logo" x="136" y="0" width="" height="" behavior="LOCK_XY|LOCK_SIZE" style="" visible="false" fx="HIDE" hidefx="HIDE">
+			<file play="false" bytes="3510" startpos="1">print_logo.png</file>
+		</graphic>
+		<text id="print_header" x="136" y="60" width="456" height="" behavior="LOCK_XY|LOCK_SIZE" autosize="H" style="WIZARD_PRINT_HEADER" visible="false" fx="HIDE" hidefx="HIDE">
+			<content translate="true">{Curriculum Title}</content>
+		</text>
+		<text id="print_title" x="136" y="75" width="456" height="" behavior="LOCK_XY|LOCK_SIZE" autosize="H" style="WIZARD_PRINT_TEXT" visible="false" fx="HIDE" hidefx="HIDE">
+			<content translate="true">{Course Title}</content>
+		</text>
+		<text id="print_body" x="136" y="100" width="456" height="" behavior="LOCK_XY|LOCK_SIZE" autosize="H" style="WIZARD_PRINT_TEXT" visible="false" fx="HIDE" hidefx="HIDE">
+			<content translate="true">{Body}</content>
+		</text>
+	</section>
+	<section id="menu" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true" controls="true">
+		<text id="header" x="-105" y="-2" width="200" height="" autosize="H" style="WIZARD_TITLE" visible="true" fx="WIZARD_SELECTION_SHOW" hidefx="TITLE_HIDE">
+			<content translate="true">My Teaching Notes</content>
+		</text>
+		<text id="selection01" x="-104" y="23" width="135.15" height="" autosize="L" style="WIZARD_SELECTION" visible="true" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+			<content translate="true">Audience &amp; Objectives</content>
+			<eventlist>
+				<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="showAudienceObj();"/>
+			</eventlist>
+		</text>
+		<text id="selection02" x="-104" y="49" width="58.35" height="" autosize="L" style="WIZARD_SELECTION" visible="true" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+			<content translate="true">My Notes</content>
+			<eventlist>
+				<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="showNotes();"/>
+			</eventlist>
+		</text>
+		<graphic id="add_note" x="-35" y="39" width="" height="" behavior="" style="CONTROLS" visible="true" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+			<file play="false" bytes="3137" startpos="1" duration="23">btn_addnote2.swf</file>
+			<eventlist>
+				<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="showAddNote();"/>
+			</eventlist>
+		</graphic>
+		<container id="selection02_submenu" behavior="LOCK_SIZE" x="-84" y="73" style="" visible="true" fx="SHOW" hidefx="HIDE">
+			<text id="selection01" x="0" y="0" width="174" height="18.5" autosize="" style="WIZARD_SELECTION" visible="false" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+				<content translate="true">Note 01</content>
+				<eventlist>
+					<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="editNote(1);"/>
+				</eventlist>
+			</text>
+			<text id="selection02" x="0" y="19" width="174" height="18.5" autosize="" style="WIZARD_SELECTION" visible="false" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+				<content translate="true">Note 02</content>
+				<eventlist>
+					<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="editNote(2);"/>
+				</eventlist>
+			</text>
+			<text id="selection03" x="0" y="38" width="174" height="18.5" autosize="" style="WIZARD_SELECTION" visible="false" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+				<content translate="true">Note 03</content>
+				<eventlist>
+					<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="editNote(3);"/>
+				</eventlist>
+			</text>
+			<text id="selection04" x="0" y="57" width="174" height="18.5" autosize="" style="WIZARD_SELECTION" visible="false" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+				<content translate="true">Note 04</content>
+				<eventlist>
+					<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="editNote(4);"/>
+				</eventlist>
+			</text>
+			<text id="selection05" x="0" y="76" width="174" height="18.5" autosize="" style="WIZARD_SELECTION" visible="false" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+				<content translate="true">Note 05</content>
+				<eventlist>
+					<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="editNote(5);"/>
+				</eventlist>
+			</text>
+			<text id="selection06" x="0" y="95" width="174" height="18.5" autosize="" style="WIZARD_SELECTION" visible="false" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+				<content translate="true">Note 06</content>
+				<eventlist>
+					<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="editNote(6);"/>
+				</eventlist>
+			</text>
+			<text id="selection07" x="0" y="114" width="174" height="18.5" autosize="" style="WIZARD_SELECTION" visible="false" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+				<content translate="true">Note 07</content>
+				<eventlist>
+					<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="editNote(7);"/>
+				</eventlist>
+			</text>
+			<text id="selection08" x="0" y="133" width="174" height="18.5" autosize="" style="WIZARD_SELECTION" visible="false" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+				<content translate="true">Note 08</content>
+				<eventlist>
+					<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="editNote(8);"/>
+				</eventlist>
+			</text>
+			<text id="selection09" x="0" y="152" width="174" height="18.5" autosize="" style="WIZARD_SELECTION" visible="false" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+				<content translate="true">Note 09</content>
+				<eventlist>
+					<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="editNote(9);"/>
+				</eventlist>
+			</text>
+			<text id="selection10" x="0" y="171" width="174" height="18.5" autosize="" style="WIZARD_SELECTION" visible="false" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+				<content translate="true">Note 10</content>
+				<eventlist>
+					<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="editNote(10);"/>
+				</eventlist>
+			</text>
+		</container>
+		<text id="selection03" x="-104" y="75" width="102.45" height="" autosize="L" style="WIZARD_SELECTION" visible="true" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+			<content translate="true">Lesson Materials</content>
+		</text>
+		<container id="selection03_submenu" behavior="LOCK_SIZE" x="-84" y="95" style="" visible="true" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+			<text id="selection01" x="0" y="0" width="173" height="" autosize="H" style="WIZARD_SELECTION" visible="true" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+				<content translate="true">Understanding a Child’s Perspective</content>
+				<eventlist>
+					<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="showLessonMaterial(1);"/>
+				</eventlist>
+			</text>
+			<text id="selection02" x="0" y="33" width="173" height="" autosize="H" style="WIZARD_SELECTION" visible="true" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+				<content translate="true">Recognizing Attachment</content>
+				<eventlist>
+					<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="showLessonMaterial(2);"/>
+				</eventlist>
+			</text>
+			<text id="selection03" x="0" y="52" width="173" height="" autosize="H" style="WIZARD_SELECTION" visible="true" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+				<content translate="true">Parenting Styles</content>
+				<eventlist>
+					<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="showLessonMaterial(3);"/>
+				</eventlist>
+			</text>
+			<text id="selection04" x="0" y="71" width="173" height="" autosize="H" style="WIZARD_SELECTION" visible="true" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+				<content translate="true">Applying Emotion Coaching</content>
+				<eventlist>
+					<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="showLessonMaterial(4);"/>
+				</eventlist>
+			</text>
+			<text id="selection05" x="0" y="90" width="173" height="" autosize="H" style="WIZARD_SELECTION" visible="true" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+				<content translate="true">Rating Praise</content>
+				<eventlist>
+					<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="showLessonMaterial(5);"/>
+				</eventlist>
+			</text>
+			<text id="selection06" x="0" y="109" width="173" height="" autosize="H" style="WIZARD_SELECTION" visible="true" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+				<content translate="true">Discipline Methods</content>
+				<eventlist>
+					<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="showLessonMaterial(6);"/>
+				</eventlist>
+			</text>
+			<text id="selection07" x="0" y="128" width="173" height="" autosize="H" style="WIZARD_SELECTION" visible="true" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE">
+				<content translate="true">Tantrums Happen</content>
+				<eventlist>
+					<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="showLessonMaterial(7);"/>
+				</eventlist>
+			</text>
+		</container>
+		<text id="selection04" width="117.75" height="" autosize="L" style="WIZARD_SELECTION" visible="true" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE" x="-104" y="247">
+			<content translate="true">Reference Citations</content>
+			<eventlist>
+				<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="showReferences();"/>
+			</eventlist>
+		</text>
+		<text id="selection05" width="73.7" height="" autosize="L" style="WIZARD_SELECTION" visible="true" fx="WIZARD_SELECTION_SHOW" hidefx="HIDE" x="-104" y="273">
+			<content translate="true">Wizard Help</content>
+			<eventlist>
+				<event type="RADIOCLICK" result="CALL_FUNCTION" target="PAGE" result_param="showDemo();"/>
+			</eventlist>
+		</text>
+	</section>
+	<text id="title" x="136" y="15" width="456" height="" autosize="H" style="WIZARD_TITLE" visible="true" fx="WIZARD_PANEL_SHOW" hidefx="HIDE">
+		<content translate="true">My Teaching Notes Overview</content>
+	</text>
+	<text id="directions" x="135" y="74" width="630" height="" autosize="H" style="WIZARD_TEXT" visible="true" fx="WIZARD_PANEL_SHOW" hidefx="HIDE">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;This feature allows you to personalize your experience with the course. For example, you may add notes, print out selected lesson materials, and access a complete list of reference citations for each pillar. The information below decribes each tool in the wizard.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Audience and Objectives: &lt;/B&gt;Because the characteristics of learners make a big difference in the way lessons are taught, this feature allows you to describe your learners and helps you focus on their specific needs.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;My Notes:&lt;/B&gt; This feature allows you to capture your own teaching ideas and thoughts. These notes are organized by pillar. To add a note, click the "&lt;B&gt;+&lt;/B&gt;" button. To print out a list of all your notes, click My Notes.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Lesson Materials:&lt;/B&gt; This section contains one lesson or activity per module that you can print and use in your lessons.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference Citations:&lt;/B&gt; This feature compiles the reference citations for the pillar. &lt;/P&gt;</content>
+	</text>
+	<section id="sub_pages" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<subpage id="subpage_audience" behavior="" preload="true" play="false" x="99" y="-19" width="" height="" visible="false" fx="WIZARD_PANEL_SHOW" hidefx="HIDE" name="Audience &amp; Objectives"/>
+		<subpage id="subpage_newnote" behavior="" preload="true" play="false" x="80" y="0" width="" height="" visible="false" fx="WIZARD_PANEL_SHOW" hidefx="HIDE" name="Add Note"/>
+		<subpage id="subpage_notes" behavior="" preload="true" play="false" x="80" y="0" width="" height="" visible="false" fx="WIZARD_PANEL_SHOW" hidefx="HIDE" name="My Notes"/>
+		<subpage id="subpage_material01" behavior="" preload="true" play="false" x="80" y="0" width="" height="" visible="false" fx="WIZARD_PANEL_SHOW" hidefx="HIDE" name="Lesson materials 1"/>
+		<subpage id="subpage_material02" behavior="" preload="true" play="false" x="80" y="0" width="" height="" visible="false" fx="WIZARD_PANEL_SHOW" hidefx="HIDE" name="Lesson materials 2"/>
+		<subpage id="subpage_material03" behavior="" preload="true" play="false" x="80" y="0" width="" height="" visible="false" fx="WIZARD_PANEL_SHOW" hidefx="HIDE" name="Lesson materials 3"/>
+		<subpage id="subpage_material04" behavior="" preload="true" play="false" x="80" y="0" width="" height="" visible="false" fx="WIZARD_PANEL_SHOW" hidefx="HIDE" name="Lesson materials 4"/>
+		<subpage id="subpage_material05" behavior="" preload="true" play="false" x="80" y="0" width="" height="" visible="false" fx="WIZARD_PANEL_SHOW" hidefx="HIDE" name="Lesson materials 5"/>
+		<subpage id="subpage_material06" behavior="" preload="true" play="false" x="80" y="0" width="" height="" visible="false" fx="WIZARD_PANEL_SHOW" hidefx="HIDE" name="Lesson materials 6"/>
+		<subpage id="subpage_material07" behavior="" preload="true" play="false" x="80" y="0" width="" height="" visible="false" fx="WIZARD_PANEL_SHOW" hidefx="HIDE" name="Lesson materials 7"/>
+		<subpage id="subpage_references" behavior="" preload="true" play="false" x="80" y="0" width="" height="" visible="false" fx="WIZARD_PANEL_SHOW" hidefx="HIDE" name="Reference Citations"/>
+		<subpage id="subpage_help" behavior="" preload="false" play="false" x="0" y="0" width="" height="" visible="false" fx="WIZARD_PANEL_SHOW" hidefx="HIDE" name="Wizard Help">
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="CALL_FUNCTION" target="PAGE" result_param="onDemoLoad();"/>
+			</eventlist>
+		</subpage>
+	</section>
+	<graphic id="close" x="812" y="-3" width="" height="" style="CONTROLS" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+		<file play="false" bytes="4380" startpos="1" duration="23">btn_close.swf</file>
+		<eventlist>
+			<event type="CLICK" result="CALL_FUNCTION" target="SHELL" result_param="showWizard(false);"/>
+		</eventlist>
+	</graphic>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="134" y="45" width="350" height="" autosize="H" style="DIRECTIONS" visible="true" fx="WIZARD_PANEL_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">To access a tool, click its title in the left menu.</content>
+		</text>
+	</section>
+</template>

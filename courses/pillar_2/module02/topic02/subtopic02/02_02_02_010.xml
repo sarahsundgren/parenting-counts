@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_floatpanels" view="view_floatpanels">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Types of Attachment</content>
+	</text>
+	<text id="nav_text" x="158" y="425" width="613" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about the&lt;B&gt; Types of Attachment&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="51" width="713" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Over many years, researchers have identified four types of attachment in early childhood. In addition, some researchers have studied chronic problems with attachment.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="479" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;photo&lt;/B&gt; to learn more about the different types of attachment.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<audio id="initial_audio">
+			<file play="true" startpos="1" bytes="58155" duration="170">a_02_02_02_010_01.swf</file>
+			<transcript translate="true">Over many years, researchers have identified four types of attachment in early childhood. In addition, some researchers have studied chronic problems with attachment. Click each photo to learn more about the different types of attachment.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="dev_assets" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<area id="target01" behavior="" x="25" y="120" width="75" height="75" visible="false" fx=""/>
+		<area id="target02" behavior="" x="25" y="223" width="75" height="75" visible="false" fx=""/>
+		<area id="target03" behavior="" x="25" y="326" width="75" height="75" visible="false" fx=""/>
+	</section>
+	<section id="float_panels" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="panel01" behavior="" x="54" y="130" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="150" height="150" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="32415" startpos="1">02_02_02_010_05.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;same pic as content panel01   Grandfather smiling as his grandson hugs him 12 mo. old&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="0" y="130" width="150" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="SHOW" target="ref_icon02" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="panel02" behavior="" x="224" y="170" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="150" height="150" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="35534" startpos="1">02_02_02_010_06.jpg</file>
+				<notes id="description">same as content panel 02  picture of toddler with sad face as her parent holds her. picture found in talaris photos&amp;gt; social and emotional&amp;gt; attachment    #94 18 mo. Teirney - 51-17  </notes>
+			</graphic>
+			<text id="text" x="20" y="0" width="100" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="panel03" behavior="" x="396" y="210" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="150" height="150" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="25016" startpos="1">02_02_02_010_07.jpg</file>
+				<notes id="description">same pic as content panel03  10 mo. old shying her face away as dad holds her</notes>
+			</graphic>
+			<text id="text" x="9" y="0" width="100" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="panel04" behavior="" x="567" y="250" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="150" height="150" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="22348" startpos="1">02_02_02_010_08.jpg</file>
+				<notes id="description">same as content panel04  Baby 6 mo. sitting alone looking around room for someone, has concerned look on his face</notes>
+			</graphic>
+			<text id="text" x="9" y="0" width="100" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+			</eventlist>
+		</container>
+	</section>
+	<section id="content_panels" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="content_panel01" behavior="" x="168" y="98" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="CONTENT_PANEL">
+			<graphic id="background" behavior="" x="0" y="0" width="600" height="300" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="0" y="58" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="49499" startpos="1">02_02_02_010_01.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Grandfather smiling as his grandson hugs him 12 mo. old&lt;/P&gt;</notes>
+			</graphic>
+			<text id="header" x="220" y="57" width="311" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Secure Attachment</content>
+			</text>
+			<text id="text" x="220" y="73" width="360" height="" autosize="H" style="PANEL_TEXT" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;Develops out of normal caregiving behaviors that are sensitive to an infant's experience&lt;/LI&gt;&lt;LI&gt;Starts in infancy and develops over the first years of life &lt;/LI&gt;&lt;LI&gt;Helps children have an easier time regulating their emotions and understanding others' emotions&lt;/LI&gt;&lt;LI&gt;Predicts better social competence, good problem-solving abilities, and fewer internalizing and externalizing behaviors&lt;/LI&gt;</content>
+			</text>
+		</container>
+		<container id="content_panel02" behavior="" x="168" y="98" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="CONTENT_PANEL">
+			<graphic id="background" behavior="" x="0" y="0" width="600" height="300" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="0" y="57" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="46872" startpos="1">02_02_02_010_02.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;picture of toddler with sad face as her parent holds her. picture found in talaris photos&amp;gt; social and emotional&amp;gt; attachment    #94 18 mo. Teirney - 51-17&lt;/P&gt;</notes>
+			</graphic>
+			<text id="header" x="227" y="57" width="311" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Insecure Attachment</content>
+			</text>
+			<text id="text" x="220" y="73" width="347" height="" autosize="H" style="PANEL_TEXT" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;Is divided into two types: Avoidant and Ambivalent. Avoidant children have learned to be less expressive of their needs, while Ambivalent children become highly upset by any seperation and find it difficult to explore or play.&lt;/LI&gt;&lt;LI&gt;Reflects a different strategy for keeping the parent close and does not support development as effectively as secure attachment does&lt;/LI&gt;&lt;LI&gt;Develops when an infant does not experience having their needs met repeatedly by a consistent caregiver&lt;/LI&gt;&lt;LI&gt;Does not mean a child's outcomes are doomed, but it may indicate less than optimal social-emotional outcome&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;</content>
+			</text>
+		</container>
+		<container id="content_panel03" behavior="" x="168" y="98" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="CONTENT_PANEL">
+			<graphic id="background" behavior="" x="0" y="0" width="600" height="300" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="0" y="57" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="37306" startpos="1">02_02_02_010_03.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;10 mo. old shying her face away as dad holds her&lt;/P&gt;</notes>
+			</graphic>
+			<text id="header" x="227" y="57" width="311" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Disorganized Attachment</content>
+			</text>
+			<text id="text" x="220" y="73" width="361" height="" autosize="H" style="PANEL_TEXT" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;Tends to occur when caregiving is so disorganized and upredictable that the child cannot develop a dependable attachment strategy&lt;/LI&gt;&lt;LI&gt;Makes it extemely difficult for a young child to focus on exploring and learning because the way their caregiver interacts with them is always changing&lt;/LI&gt;&lt;LI&gt;May cause the child to show evidence of fear or confusion around a caregiver&lt;/LI&gt;</content>
+			</text>
+		</container>
+		<container id="content_panel04" behavior="" x="168" y="98" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="CONTENT_PANEL">
+			<graphic id="background" behavior="" x="0" y="0" width="600" height="300" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="0" y="57" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="32662" startpos="1">02_02_02_010_04.jpg</file>
+				<notes id="description">Baby 6 mo. sitting alone looking around room for someone, has concerned look on his face</notes>
+			</graphic>
+			<text id="header" x="227" y="57" width="311" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Reactive Attachment Disorder (RAD)</content>
+			</text>
+			<text id="text" x="220" y="73" width="353" height="" autosize="H" style="PANEL_TEXT" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;Not an attachment type, but rather a rare disorder that manifests itself as an extreme lack of ability to form attachments&lt;/LI&gt;&lt;LI&gt;Often associated with an early history of ongoing abandonment or maltreatment&lt;/LI&gt;&lt;LI&gt;Must be distinguished from other psychological and physiological issues that may also be associated with early trauma&lt;/LI&gt;&lt;LI&gt;Needs to be diagnosed by a professional or medical provider&lt;/LI&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="711" y="249" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true"/>
+	<section id="reference_links" expanded="true"/>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="436" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Howes, C. &amp; Matheson, C. C. (1992). Sequences in the development of competent play with peers: Social and social pretend play. &lt;I&gt;Developmental Psychology&lt;/I&gt;,&lt;I&gt; 28,&lt;/I&gt; 961-974.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon02" x="572" y="296" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true"/>
+	<section id="reference_links" expanded="true"/>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="30" width="440" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;References:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Lyons-Ruth, K. (1996). Attachment relationships among children with aggressive behavior problems: The role of disorganized early attachment patterns. &lt;I&gt;Journal of Consulting and Clinical Psychology&lt;/I&gt;,&lt;I&gt; 64&lt;/I&gt;, 32-40. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Sroufe, L. A. (1989). &lt;I&gt;Attachment Theory and the Aftermath of Divorce&lt;/I&gt;.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

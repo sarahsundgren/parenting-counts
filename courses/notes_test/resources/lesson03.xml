@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<graphic id="background" x="0" y="0" width="795" height="533" behavior="LOCK_XY|LOCK_SIZE" style="PLAIN" visible="true" fx="SHOW" hidefx="HIDE" disabled="true">
+		<file play="false" bytes="5827" startpos="1">wizard.jpg</file>
+		<eventlist>
+			<event type="CLICK" result="DISABLE" target="_self" result_param=""/>
+		</eventlist>
+	</graphic>
+	<text id="title" x="37" y="35" width="456" height="" autosize="H" style="WIZARD_TITLE" visible="true" fx="SHOW" hidefx="HIDE">
+		<content translate="true">Advising Parents and Caregivers</content>
+	</text>
+	<text id="material" x="37" y="65" width="697" height="346" autosize="" style="WIZARD_TEXT" visible="true" fx="SHOW" hidefx="HIDE" scroll="AUTO">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Discussion Topic&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;In day-to-day activities, parents will encounter many opportunities to teach children strategies to self-regulate.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Read the scenario and decide what would be best to do in this situation. In workding with parents, you may want to leave the question open-ended, or provide them options from which to choose.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Scenario&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;3-year-old Zachary is sitting at the dinner table. He quickly finishes his dinner and then says, “I am going to play.” Zachary’s mother wants him to stay at the table until everyone is finished. What should she do?&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Sample Responses&lt;/B&gt;&lt;/P&gt;&lt;LI&gt;Tell Zachary that if he doesn’t stay at the table, he will have a time-out. (Incorrect)&lt;/LI&gt;&lt;LI&gt;Let him go play, but tell him that next time he will have to stay at the table. (Incorrect)&lt;/LI&gt;&lt;LI&gt;Ignore the circumstance. (Incorrect)&lt;/LI&gt;&lt;LI&gt;Explain to Zachary why he has to stay at the table and ask him to stay. (Correct)&lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Sample Feedback&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Zachary's mom could say: “It is a rule in our family that everyone stay at the table until we are all finished eating. This makes each person feel like an important part of the family.” &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;The goal for developing self-regulation is not to force the child to comply with external rules but to help them develop internal control for understanding and respecting guidelines.&lt;/P&gt;</content>
+	</text>
+	<graphic id="print" x="647" y="430" width="" height="" behavior="" style="CONTROLS" visible="true" fx="SHOW" hidefx="HIDE">
+		<file play="false" bytes="3602" startpos="1" duration="23">btn_print.swf</file>
+		<eventlist>
+			<event type="CLICK" result="CALL_FUNCTION" target="PAGE" result_param="printWizard();"/>
+		</eventlist>
+	</graphic>
+</template>

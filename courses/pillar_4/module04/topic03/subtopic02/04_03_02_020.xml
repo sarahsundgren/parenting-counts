@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programming-options"/>
+		<notes id="search-terms"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="BOOLEAN" value="false"/>
+		<settings id="orderIndependent" datatype="BOOLEAN" value="false"/>
+		<settings id="persistInitGfx" datatype="BOOLEAN" value="true"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Emergent Writing</content>
+	</text>
+	<text id="nav_text" x="33" y="425" width="736" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Reading and Writing&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x5" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="51" width="670" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Through emergent reading, preschool-aged children discover that words and language can be written down as well as spoken.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="442" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;photo&lt;/B&gt; below to learn more.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="15" y="310" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1"/>
+		</graphic>
+		<audio id="initial_audio">
+			<file start_frame="1" play="true" duration="110" bytes="37571">a_04_03_02_020_01.swf</file>
+			<transcript translate="true">Through emergent reading, preschool-aged children discover that words and language can be written down as well as spoken. Click each photo below to learn more.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="list_items" align="TOP" spacing="20x0" autospace="true" columns="0" expanded="true">
+		<graphic id="link01" x="27" y="115" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" start_frame="1" bytes="43219">04_03_02_020_03.jpg</file>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+			</eventlist>
+			<notes id="description">Little girl in a school desk: istock#: 3931917</notes>
+		</graphic>
+		<graphic id="link02" x="" y="" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" start_frame="1" bytes="43607">04_03_02_020_01.jpg</file>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+			</eventlist>
+			<notes id="description">Learning to Write istock#: 5504427</notes>
+		</graphic>
+		<graphic id="link03" x="" y="" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" start_frame="1" bytes="42721">04_03_02_020_02.jpg</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;child writing istock#11634673&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="swap_text" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="47" y="286" width="503" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Early Writing&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Early writing activities tend to be more visible than early reading activities because they involve making something, usually marks on a paper. Just as they understand that people are capable of using spoken language, preschool children also realize that people, including themselves, are capable of producing written language. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text02" x="" y="" width="503" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Pre-writing&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Children ages 3 and 4 years old experiment with writing in a variety of ways. The earliest attempts at creating written markings on a page generally result in scribbles and lines before transitioning to letter-like forms and random strings of letters. Letter-like forms are the children’s attempt to form the letters of the alphabet, and these forms of writing eventually develop into standard letters. &lt;/P&gt;</content>
+		</text>
+		<text id="swap_text03" x="" y="" width="517" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Emergent Writers&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;As children get a bit older, they also begin to use “mock handwriting” or wavy scribbles in an attempt to imitate adult cursive writing. When using different forms of writing, preschoolers usually have some kind of intended meaning attached to the markings, and will often “read” their printed messages using language that sounds like reading. &lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="swap_graphics" align="TOP" spacing="20x0" autospace="true" columns="0" exclusive="true">
+		<graphic id="swap_graphic01" x="25" y="266" width="" height="" style="PHOTO" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1"/>
+		</graphic>
+		<graphic id="swap_graphic02" x="" y="" width="" height="" style="PHOTO" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1"/>
+		</graphic>
+		<graphic id="swap_graphic03" x="" y="" width="" height="" style="PHOTO" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1"/>
+		</graphic>
+	</section>
+	<section id="reference_icons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="ref_icon01" x="176" y="380.6" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<file bytes="1716" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="40" width="438" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;McLane, J. B. &amp; McNamee, G. D. (1990). &lt;I&gt;Early Literacy.&lt;/I&gt; Cambridge, MA: Harvard University Press. &lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

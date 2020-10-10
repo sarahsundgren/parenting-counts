@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stylesheet>
+	<constants/>
+	<fonts>
+		<font id="DEFAULT" face="Arial" size="13" color="000000"/>
+	</fonts>
+	<visual_filters>
+		<section id="common">
+			<filter id="DROPSHADOW" type="DROPSHADOW" distance="5" angle="45" color="000000" alpha=".5" blurX="10" blurY="10" strength="1" quality="3" inner="false" knockout="false" hide="false"/>
+			<filter id="INPUTSHADOW1" type="DROPSHADOW" distance="2" angle="45" color="505050" alpha=".5" blurX="10" blurY="10" strength="1" quality="3" inner="true" knockout="false" hide="false"/>
+			<filter id="INPUTSHADOW2" type="DROPSHADOW" distance="3" angle="225" color="BBBBBB" alpha=".4" blurX="10" blurY="10" strength="1" quality="3" inner="true" knockout="false" hide="false"/>
+			<filter id="PLACEHOLDERSHADOW" type="DROPSHADOW" distance="5" angle="35" color="000000" alpha=".64" blurX="4" blurY="4" strength="1" quality="3" inner="false" knockout="false" hide="false"/>
+			<filter id="INPUTDROPSHADOW" type="DROPSHADOW" distance="3" angle="135" color="000000" alpha=".64" blurX="4" blurY="4" strength="1" quality="3" inner="false" knockout="false" hide="false"/>
+			<filter id="POPUP_SHADOW" type="DROPSHADOW" distance="5" angle="45" color="000000" alpha=".5" blurX="10" blurY="10" strength="1" quality="3" inner="false" knockout="false" hide="false"/>
+			<filter id="MENU_SHADOWL" type="DROPSHADOW" distance="5" angle="180" color="666666" alpha="1" blurX="10" blurY="0" strength="1" quality="3" inner="false" knockout="false" hide="false"/>
+			<filter id="MENU_SHADOWR" type="DROPSHADOW" distance="5" angle="0" color="666666" alpha="1" blurX="10" blurY="0" strength="1" quality="3" inner="false" knockout="false" hide="false"/>
+			<filter id="WHITEGLOW" type="GLOW" color="FFFFFF" alpha=".8" blurX="2" blurY="2" strength="2" quality="3" inner="false" knockout="false"/>
+			<filter id="DARKER" type="COLORMATRIX" red="1,-.025,-.025,0,-25" green="-.025,1,-.025,0,-25" blue="-.025,-.025,1,0,-25" alpha="0,0,0,1,0"/>
+			<filter id="REFLECTION" type="REFLECTION" height="60" distance="10" alpha="60,20,0" ratio="0,100,255"/>
+			<filter id="DESATURATE" type="COLORMATRIX" red=".80,.125,.125,0,0" green=".125,.80,.125,0,0" blue=".125,.125,.80,0,0" alpha="0,0,0,1,0"/>
+			<filter id="DESATURATE2" type="COLORMATRIX" red="0.0191,0.0645,0.0065,0,0" green="0.0900,0.3028,0.0305,0,0" blue="0.1426,0.4795,0.0483,0,0" alpha="0,0,0,1,0"/>
+			<filter id="GRAYSCALE" type="COLORMATRIX" red="0.3086,0.6094,0.082,0,0" green="0.3086,0.6094,0.082,0,0" blue="0.3086,0.6094,0.082,0,0" alpha="0,0,0,1,0"/>
+			<filter id="GFXBORDER" type="BEVEL" distance="1" angle="0" highlightColor="666666" highlightAlpha=".75" shadowColor="666666" shadowAlpha="1" blurX="0" blurY="0" strength=".5" quality=".5" mode="full" knockout="false"/>
+			<filter id="GFXBORDER2" type="BEVEL" distance="1" angle="90" highlightColor="666666" highlightAlpha=".75" shadowColor="666666" shadowAlpha="1" blurX="0" blurY="0" strength=".5" quality=".5" mode="full" knockout="false"/>
+			<filter id="THIN_DROPSHADOW" type="DROPSHADOW" distance="2" angle="45" color="999999" alpha=".5" blurX="2" blurY="2" strength="1" quality="3" inner="false" knockout="false" hide="false"/>
+		</section>
+		<section id="template_cardswap">
+			<filter id="CARD_GLOW" type="GLOW" color="000000" alpha=".8" blurX="2" blurY="2" strength="3" quality="3" inner="false" knockout="false"/>
+			<filter id="CARD_BORDER" type="BEVEL" distance="1" angle="45" highlightColor="202020" highlightAlpha=".8" shadowColor="000000" shadowAlpha=".8" blurX="1" blurY="1" strength="5" quality="3" mode="inner" knockout="false"/>
+			<filter id="DROPSHADOW" type="DROPSHADOW" distance="5" angle="45" color="000000" alpha=".5" blurX="10" blurY="10" strength="1" quality="3" inner="false" knockout="false" hide="false"/>
+		</section>
+		<section id="template_carousel">
+			<filter id="REFLECTION" type="REFLECTION" height="60" distance="10" alpha="60,20,0" ratio="0,100,255"/>
+		</section>
+	</visual_filters>
+	<shapes>
+		<section id="common">
+			<shape id="CONTROLSBOX" type="BOX" filled="SOLID" fillColor="000000" fillAlpha="50" fillRatio="0" fillRotation="0" radialOrigin="0" spread="" interpolation="" leftMargin="6" rightMargin="6" topMargin="7" bottomMargin="7" cornerRounding="5"/>
+			<shape id="PLACEHOLDERBOX" type="BOX" filled="LINEAR" fillColor="CCCCCC,FFFFFF" fillAlpha="100,100" fillRatio="0,255" fillRotation="90" radialOrigin="50,50" spread="" interpolation="" borderColor="000000" borderSize="1" leftMargin="5" rightMargin="5" topMargin="6" bottomMargin="2" cornerRounding="5"/>
+			<shape id="BUTTON_BKG" type="BOX" filled="true" fillColor="FFFFFF" borderColor="255E7B" borderSize="2" leftMargin="0" rightMargin="0" topMargin="5" bottomMargin="4" cornerRounding="16"/>
+			<shape id="FEEDBACK" type="BOX" filled="LINEAR" fillColor="ffffff,ffffff" fillAlpha="100,100" fillRatio="0,255" fillRotation="90" radialOrigin="50,50" spread="" interpolation="" borderColor="303030" borderSize="1" leftMargin="5" rightMargin="5" topMargin="6" bottomMargin="2" cornerRounding="5"/>
+			<shape id="FEEDBACK2" type="BOX" filled="LINEAR" fillColor="ffffff,ffffff" fillAlpha="0,0" fillRatio="0,255" fillRotation="90" radialOrigin="50,50" spread="" interpolation="" borderColor="" borderSize="" leftMargin="5" rightMargin="5" topMargin="6" bottomMargin="2" cornerRounding="5"/>
+			<shape id="SLIDER_PANEL_WHITE" type="BOX" filled="LINEAR" fillColor="FFFFFF,FFFFFF" fillAlpha="100,100" fillRatio="0,255" fillRotation="90" borderColor="044A64" borderSize="1" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" cornerRounding="10"/>
+		</section>
+		<section id="template_listswap">
+			<shape id="EXPAND_SPINE" type="BOX" filled="LINEAR" fillColor="2a6377,0b191f" fillAlpha="100,100" fillRatio="0,255" fillRotation="90" radialOrigin="50,50" spread="" interpolation="" borderColor="2a6377" borderSize="0" leftMargin="5" rightMargin="5" topMargin="3" bottomMargin="3" cornerRounding="6"/>
+			<shape id="EXPAND" type="BOX" filled="LINEAR" fillColor="E6E6E6,9D9D9D" fillAlpha="100,100" fillRatio="0,255" fillRotation="90" borderColor="979FA2" borderSize="1" leftMargin="5" rightMargin="5" topMargin="0" bottomMargin="0" cornerRounding="6"/>
+		</section>
+		<section id="template_carousel">
+			<shape id="PANEL" type="BOX" filled="LINEAR" fillColor="CCCCCC,FFFFFF" fillAlpha="100,100" fillRatio="0,255" fillRotation="90" radialOrigin="50,50" spread="" interpolation="" borderColor="666666" borderSize="2" leftMargin="5" rightMargin="5" topMargin="5" bottomMargin="5" cornerRounding="10"/>
+			<shape id="PANEL_SELECTED" type="BOX" filled="LINEAR" fillColor="CCCCCC,FFFFFF" fillAlpha="100,100" fillRatio="0,255" fillRotation="90" radialOrigin="50,50" spread="" interpolation="" borderColor="666666" borderSize="2" leftMargin="5" rightMargin="5" topMargin="5" bottomMargin="5" cornerRounding="10"/>
+		</section>
+	</shapes>
+	<masks>
+		<section id="common">
+			<mask id="GFXROUNDED" type="BOX" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" cornerRounding="12"/>
+		</section>
+	</masks>
+	<sound_fx/>
+	<text_styles>
+		<section id="menu">
+			<style id="MENU_TITLE"/>
+			<style id="MENU_TEXT" color="FFFFFF" alpha="50" bold="true"/>
+			<style id="MENU_TEXT.rollover" color="FFFFFF" alpha="100"/>
+			<style id="MENU_TEXT.selected" color="FFFFFF" alpha="100"/>
+			<style id="MENU_TEXT.disabled" color="FFFFFF" alpha="30"/>
+		</section>
+		<section id="left_menu">
+			<style id="MENU_TITLE"/>
+			<style id="MENU_HEADER" color="044A64" size="13" bold="true"/>
+			<style id="MENU_TEXT" color="044A64" alpha="100" size="13" bold="true"/>
+			<style id="MENU_TEXT.rollover" color="DD962C" alpha="100"/>
+			<style id="MENU_TEXT.selected" color="DD962C" alpha="100"/>
+			<style id="MENU_TEXT.disabled" color="044A64" alpha="30"/>
+			<style id="MENU_L2TEXT" color="044A64" alpha="100" size="11"/>
+			<style id="MENU_L2TEXT.rollover" color="DD962C" alpha="100"/>
+			<style id="MENU_L2TEXT.selected" color="DD962C" alpha="100"/>
+			<style id="MENU_L2TEXT.disabled" color="044A64" alpha="30"/>
+		</section>
+		<section id="bottom_menu">
+			<style id="MENU_TITLE"/>
+			<style id="MENU_TEXT" color="9F9F9F" alpha="100" size="12" bold="true" align="center"/>
+			<style id="MENU_TEXT.rollover" color="044A64" alpha="100"/>
+			<style id="MENU_TEXT.selected" color="044A64" alpha="100"/>
+			<style id="MENU_TEXT.disabled" color="9F9F9F" alpha="60"/>
+		</section>
+		<section id="shell">
+			<style id="TITLE" color="4E2E0F" size="20"/>
+			<style id="TIP_TEXT" color="4D4D4D" shape="TEXTBOX"/>
+		</section>
+		<section id="common">
+			<style id="PLACEHOLDER_NOTES" color="101010" size="11" shape="PLACEHOLDERBOX" exclusiveFilters="PLACEHOLDERSHADOW"/>
+			<style id="TITLE" color="FFFFFF" size="20"/>
+			<style id="TITLE_2" color="044A64" size="20"/>
+			<style id="WIZARD_TITLE" color="044A64" size="15" bold="true"/>
+			<style id="WIZARD_PRINT_HEADER" color="000000" size="15" bold="true" leftMargin="112"/>
+			<style id="WIZARD_PRINT_TEXT" color="000000" size="14"/>
+			<style id="WIZARD_TEXT" color="044A64" size="14"/>
+			<style id="WIZARD_SELECTABLE_TEXT" color="044A64" size="14" selectable="true"/>
+			<style id="CLOSE_BTN_TEXT" color="044A64" size="13" bold="true"/>
+			<style id="PROMPT" color="303030" size="14" align="right"/>
+			<style id="DEFAULT" color="FFFFFF" size="14"/>
+			<style id="DEFAULT_2" color="044A64" size="14"/>
+			<style id="INPUT" color="000000" size="12" borderSize="1" borderColor="A3A3A3" backgroundColor="F1F1F1" exclusiveFilters="INPUTSHADOW1,INPUTSHADOW2" leftMargin="1" rightMargin="2" leading="2"/>
+			<style id="INTRO" color="FFFFFF" size="14"/>
+			<style id="DIRECTIONS" color="303030" size="14"/>
+			<style id="REFERENCE" color="044A64" size="14"/>
+			<style id="LINK" color="044A64" size="14" alpha="100"/>
+			<style id="LINK.visited" color="DD962C" alpha="100"/>
+			<style id="LINK.rollover" color="DD962C" alpha="100"/>
+			<style id="LINK.selected" color="DD962C" alpha="100"/>
+			<style id="LINK.disabled" color="013C8A" alpha="30"/>
+			<style id="LINK_2" color="303030" size="14" alpha="100"/>
+			<style id="LINK_2.visited" color="DD962C" alpha="100"/>
+			<style id="WIZARD_SELECTION" color="044A64" size="13" alpha="100" bold="true"/>
+			<style id="WIZARD_SELECTION.rollover" color="DD962C" alpha="100"/>
+			<style id="WIZARD_SELECTION.selected" color="DD962C" alpha="100"/>
+			<style id="WIZARD_SELECTION.disabled" color="044A64" alpha="30"/>
+			<style id="SWAP" color="FFFFFF" size="14" align="left"/>
+			<style id="CONTROLS" color="FFFFFF" size="13" align="center" leading="0" alpha="100" bold="true"/>
+			<style id="CONTROLS.rollover" color="013C8A" alpha="100"/>
+			<style id="CONTROLS.disabled" color="FFFFFF" alpha="70"/>
+			<style id="QUESTION" color="FFFFFF" size="14"/>
+			<style id="SUBMIT" color="FFFFFF" size="14" align="left" backgroundColor="013C8A" borderColor="013C8A" leftMargin="3" rightMargin="3" leading="0"/>
+			<style id="SUBMIT.rollover" color="013C8A" backgroundColor="D1A800" borderColor="D1A800"/>
+			<style id="CORRECT_FEEDBACK" shape="FEEDBACK" color="003300" size="14"/>
+			<style id="CORRECT_FEEDBACK_2" shape="FEEDBACK2" color="003300" size="14"/>
+			<style id="INCORRECT_FEEDBACK" shape="FEEDBACK" color="6f3635" size="14"/>
+			<style id="INCORRECT_FEEDBACK_2" shape="FEEDBACK2" color="6f3635" size="14"/>
+			<style id="RESOURCE_TITLE" color="044A64" size="40"/>
+			<style id="RESOURCE_HEADER" color="044A64" size="11"/>
+			<style id="RESOURCE_LINK" color="044A64" size="12"/>
+			<style id="RESOURCE_LINK.rollover" color="DD962C"/>
+			<style id="RESOURCE_LINK.visited" color="DD962C"/>
+			<style id="PANEL" color="044A64" size="14" align="center"/>
+			<style id="PANEL_HEADER" color="044A64" size="14" bold="true"/>
+			<style id="OPTION" color="474747" size="14"/>
+			<style id="OPTION.rollover" color="000000"/>
+			<style id="OPTION.selected" color="FFFFFF"/>
+			<style id="SUBMIT.down" color="999999" leftMargin="6" rightMargin="6" shape="BTN_DOWN" exclusiveFilters="BTN_BEVEL,BTN_DROPSHADOW"/>
+			<style id="POPUP" color="FFFFFF" size="14" leading="2"/>
+			<style id="TEXT_ENTRY" color="044A64" size="13" align="left" borderSize="2" borderColor="666666" backgroundColor="FFFFFF" leftMargin="2" rightMargin="2" alpha="100" exclusiveFilters="INPUTDROPSHADOW"/>
+			<corestyle id="TITLE.rollover" color="990000"/>
+		</section>
+		<section id="view_listswap_accordion" super="template_listswap">
+			<style id="LINK" size="14" color="FFFFFF" shape="EXPAND_SPINE"/>
+			<style id="LINK.rollover" color="FFFFFF" shape="EXPAND_SPINE"/>
+			<style id="LINK.selected" color="FFFFFF" shape="EXPAND_SPINE"/>
+			<style id="LINK.visited" color="D0D0D0" shape="EXPAND_SPINE"/>
+			<style id="SWAP" color="000000" size="14" align="left"/>
+			<style id="SWAP_HEADER" color="000000" size="14" align="left" bold="true"/>
+		</section>
+		<section id="view_listswap_expand" super="template_listswap">
+			<style id="LINK" size="14" color="FFFFFF" shape="EXPAND_SPINE"/>
+			<style id="LINK.rollover" color="FFFFFF" shape="EXPAND_SPINE"/>
+			<style id="LINK.selected" color="FFFFFF" shape="EXPAND_SPINE"/>
+			<style id="LINK.visited" color="D0D0D0" shape="EXPAND_SPINE"/>
+			<style id="EXPAND" size="14" color="044A64"/>
+		</section>
+		<section id="template_cardswap">
+			<style id="CARD_BACK" color="000000" size="14" align="center"/>
+			<style id="CARD_FRONT" color="000000" size="14" align="center"/>
+		</section>
+		<section id="template_carousel">
+			<style id="PANEL" color="044A64" size="14" align="center"/>
+			<style id="PANEL_HEADER" color="044A64" size="14" bold="true"/>
+		</section>
+		<section id="template_floatpanels">
+			<style id="PANEL" color="000000" size="14" align="left"/>
+			<style id="PANEL_TEXT" color="FFFFFF" size="14" align="left"/>
+			<style id="PANEL_HEADER" color="FFFFFF" size="15" bold="true"/>
+			<style id="CLOSE_PANEL" color="1F5C79" size="14" width="85" height="18" align="center" leftMargin="1" rightMargin="1" leading="0" shape="BUTTON_BKG" exclusiveFilters="DROPSHADOW"/>
+		</section>
+		<section id="template_multiplechoice">
+			<style id="OPTION" color="FFFFFF" size="14"/>
+			<style id="OPTION.rollover" color="FFFFFF"/>
+			<style id="OPTION.selected" color="FFFFFF"/>
+		</section>
+		<section id="template_slider">
+			<style id="PANEL" color="044A64" size="13" align="left"/>
+			<style id="PANEL_HEADER" color="044A64" size="18" bold="true"/>
+			<style id="CONTROLS" label="_up" alpha="100"/>
+			<style id="CONTROLS.rollover" label="_over" alpha="100"/>
+			<style id="CONTROLS.selected" label="_over" alpha="100"/>
+			<style id="CONTROLS.disabled" label="_disabled" alpha="70"/>
+		</section>
+		<section id="template_cascade">
+			<style id="PANEL" color="FFFFFF" size="13" align="center"/>
+		</section>
+		<section id="template_cube">
+			<style id="SIDE" color="000000" size="13" align="center"/>
+		</section>
+	</text_styles>
+	<graphic_styles>
+		<section id="menu">
+			<style id="MENU_BKG" label="_normal"/>
+			<style id="MENU_BKG.rollover" label="_over"/>
+			<style id="MENU_BKG.selected" label="_selected"/>
+			<style id="MENU_BKG.disabled" label="_disabled"/>
+			<style id="MENU_CLOSE" label="_normal"/>
+			<style id="MENU_CLOSE.rollover" label="_over"/>
+		</section>
+		<section id="left_menu">
+			<style id="MENU_BKG" label="_normal" alpha="50"/>
+			<style id="MENU_BKG.rollover" label="_over" alpha="100"/>
+			<style id="MENU_BKG.selected" label="_over" alpha="100"/>
+			<style id="MENU_BKG.disabled" label="_disabled" alpha="30"/>
+			<style id="MENU_CLOSE" label="_normal"/>
+			<style id="MENU_CLOSE.rollover" label="_over"/>
+		</section>
+		<section id="bottom_menu">
+			<style id="MENU_BKG" label="_normal" alpha="100" exclusiveFilters="GRAYSCALE,MENU_SHADOWL,MENU_SHADOWR"/>
+			<style id="MENU_BKG.rollover" label="_over" alpha="100" exclusiveFilters="MENU_SHADOWL,MENU_SHADOWR"/>
+			<style id="MENU_BKG.selected" label="_over" alpha="100" exclusiveFilters="MENU_SHADOWL,MENU_SHADOWR"/>
+			<style id="MENU_BKG.disabled" label="_disabled" alpha="50" exclusiveFilters="GRAYSCALE,MENU_SHADOWL,MENU_SHADOWR"/>
+			<style id="MENU_CLOSE" label="_normal"/>
+			<style id="MENU_CLOSE.rollover" label="_over"/>
+		</section>
+		<section id="shell">
+			<style id="BACKGROUND"/>
+		</section>
+		<section id="common">
+			<style id="PLAIN"/>
+			<style id="ANIMCONTROLS" shape="CONTROLSBOX"/>
+			<style id="DEFAULT" exclusiveFilters="GFXBORDER,GFXBORDER2" mask="GFXROUNDED"/>
+			<style id="SWAP" exclusiveFilters="GFXBORDER,GFXBORDER2" mask="GFXROUNDED"/>
+			<style id="GRAPHIC" exclusiveFilters="GFXBORDER,GFXBORDER2" mask="GFXROUNDED"/>
+			<style id="ROUNDED" mask="GFXROUNDED"/>
+			<style id="CONTROLS" label="_normal" alpha="100"/>
+			<style id="CONTROLS.rollover" label="_over" alpha="100"/>
+			<style id="CONTROLS.disabled" label="_disabled" alpha="70"/>
+			<style id="SHADING" shape="PLACEHOLDERBOX"/>
+			<style id="QUESTION" label="_normal"/>
+			<style id="SUBMIT" label="_normal"/>
+			<style id="SUBMIT.rollover" label="_over"/>
+			<style id="BULLET"/>
+			<style id="LINK" alpha="100" exclusiveFilters="DESATURATE,DROPSHADOW" borderSize="0"/>
+			<style id="LINK.rollover" alpha="100" exclusiveFilters="DROPSHADOW"/>
+			<style id="LINK.selected" alpha="100" exclusiveFilters="DROPSHADOW"/>
+			<style id="LINK.visited" alpha="100" exclusiveFilters="DARKER,DROPSHADOW"/>
+			<style id="LINK.disabled" alpha="70" exclusiveFilters="DROPSHADOW"/>
+			<style id="LINK_2" alpha="100" exclusiveFilters="DESATURATE" borderSize="0"/>
+			<style id="LINK_2.visited" alpha="100" exclusiveFilters="DARKER"/>
+			<style id="PHOTO" alpha="100" exclusiveFilters="DESATURATE" borderSize="0"/>
+			<style id="PHOTO.rollover" alpha="100" exclusiveFilters=""/>
+			<style id="PHOTO.selected" alpha="100" exclusiveFilters=""/>
+			<style id="PHOTO.visited" alpha="100" tint="FFFFFF10"/>
+			<style id="PHOTO.disabled" alpha="70" exclusiveFilters=""/>
+			<style id="LINK_SWF" label="_normal" alpha="100"/>
+			<style id="LINK_SWF.rollover" label="_over" alpha="100"/>
+			<style id="LINK_SWF.selected" label="_selected" alpha="100"/>
+			<style id="LINK_SWF.visited" label="_visited" alpha="100"/>
+			<style id="LINK_SWF.disabled" label="_disabled" alpha="70"/>
+			<style id="TOGGLE_BTN" label="_normal" alpha="100"/>
+			<style id="TOGGLE_BTN.rollover" label="_over" alpha="100"/>
+			<style id="TOGGLE_BTN.selected" label="_selected" alpha="100"/>
+			<style id="TOGGLE_BTN.disabled" label="_disabled" alpha="70"/>
+			<style id="LINE" color="044A64" height="1"/>
+			<style id="PROGRESS_DOT" label="_normal"/>
+			<style id="PROGRESS_DOT.selected" label="_selected"/>
+			<style id="PROGRESS_DOT.visited" label="_visited"/>
+			<style id="LINK_3" alpha="100" exclusiveFilters="DESATURATE,DROPSHADOW,GFXBORDER,GFXBORDER2" mask="GFXROUNDED"/>
+			<style id="LINK_3.rollover" alpha="100" exclusiveFilters="DROPSHADOW,GFXBORDER,GFXBORDER2" mask="GFXROUNDED"/>
+			<style id="LINK_3.selected" alpha="100" exclusiveFilters="DROPSHADOW,GFXBORDER,GFXBORDER2" mask="GFXROUNDED"/>
+			<style id="LINK_3.visited" alpha="100" exclusiveFilters="DARKER,DROPSHADOW,GFXBORDER,GFXBORDER2" mask="GFXROUNDED"/>
+			<style id="LINK_3.disabled" alpha="70" exclusiveFilters="DROPSHADOW,GFXBORDER,GFXBORDER2" mask="GFXROUNDED"/>
+			<style id="LINK_4" alpha="100" exclusiveFilters="GRAYSCALE,DROPSHADOW,GFXBORDER,GFXBORDER2" mask="GFXROUNDED"/>
+			<style id="LINK_4.rollover" alpha="100" exclusiveFilters="DROPSHADOW,WHITEGLOW" mask="GFXROUNDED"/>
+			<style id="LINK_4.selected" alpha="100" exclusiveFilters="DROPSHADOW,WHITEGLOW" mask="GFXROUNDED"/>
+			<style id="LINK_4.selected" alpha="100" exclusiveFilters="DROPSHADOW,WHITEGLOW" mask="GFXROUNDED"/>
+			<style id="LINK_4.visited" alpha="100" exclusiveFilters="DESATURATE,DESATURATE,DROPSHADOW" mask="GFXROUNDED"/>
+			<style id="OPTION_GRAPHIC"/>
+			<style id="OPTION" label="_normal" exclusiveFilters="THIN_DROPSHADOW"/>
+			<style id="OPTION.rollover" label="_over"/>
+			<style id="OPTION.selected" label="_selected"/>
+			<style id="OPTION.disabled" alpha="80"/>
+			<style id="DROPSHADOW" exclusiveFilters="DROPSHADOW"/>
+		</section>
+		<section id="template_listswap">
+			<style id="EXPAND" label="_closed"/>
+			<style id="EXPAND.selected" label="_open"/>
+			<style id="BULLET" file="placeholder_bullet.swf" label="_normal"/>
+			<style id="BULLET.rollover" label="_over"/>
+			<style id="BULLET.selected" label="_selected"/>
+			<style id="BULLET.visited" label="_visited"/>
+			<style id="BULLET.disabled" label="_disabled"/>
+		</section>
+		<section id="view_listswap_accordion" super="template_listswap">
+			<style id="EXPAND"/>
+		</section>
+		<section id="view_listswap_expand" super="template_listswap">
+			<style id="EXPAND_SHAPE" shape="EXPAND"/>
+		</section>
+		<section id="template_cardswap">
+			<style id="CARD_BACK"/>
+			<style id="CARD_FRONT" alpha="100" exclusiveFilters="DESATURATE"/>
+			<style id="CARD_FRONT2" alpha="100" exclusiveFilters="DESATURATE" tint="FFFFFF200"/>
+			<style id="CARD.visited" shape="CARD" exclusiveFilters="DESATURATE"/>
+		</section>
+		<section id="template_carousel">
+			<style id="PANEL" shape="PANEL" exclusiveFilters=""/>
+			<style id="PANEL.selected" shape="PANEL_SELECTED" exclusiveFilters=""/>
+			<style id="PANEL.visited" shape="PANEL" exclusiveFilters="DARKER"/>
+		</section>
+		<section id="view_carousel_large" super="template_carousel">
+			<style id="PANEL" shape="PANEL" exclusiveFilters=""/>
+			<style id="PANEL.selected" shape="PANEL" exclusiveFilters=""/>
+			<style id="PANEL.visited" shape="PANEL" exclusiveFilters="DARKER"/>
+		</section>
+		<section id="template_floatpanels">
+			<style id="PANEL" alpha="100" exclusiveFilters="DROPSHADOW"/>
+			<style id="PANEL.rollover" alpha="100" exclusiveFilters="DROPSHADOW"/>
+			<style id="PANEL.visited" alpha="45" exclusiveFilters="DROPSHADOW"/>
+		</section>
+		<section id="template_multiplechoice">
+			<style id="QUESTION"/>
+			<style id="OPTION_GRAPHIC"/>
+			<style id="OPTION" label="_normal" exclusiveFilters="DROPSHADOW"/>
+			<style id="OPTION.rollover" label="_over"/>
+			<style id="OPTION.selected" label="_selected"/>
+			<style id="OPTION.disabled" alpha="80"/>
+		</section>
+		<section id="template_slider">
+			<style id="PANEL"/>
+		</section>
+		<section id="template_presentation">
+			<style id="MENTOR"/>
+		</section>
+		<section id="template_slider">
+			<style id="LINK_SWF" label="_normal" exclusiveFilters="DROPSHADOW"/>
+			<style id="LINK_SWF.rollover" label="_over"/>
+			<style id="LINK_SWF.selected" label="_selected"/>
+			<style id="LINK_SWF.visited" label="_visited"/>
+			<style id="LINK_SWF.disabled" label="_disabled"/>
+			<style id="CONTROLS" label="_normal" exclusiveFilters="DROPSHADOW"/>
+			<style id="CONTROLS.rollover" label="_over"/>
+			<style id="CONTROLS.disabled" label="_disabled"/>
+			<style id="PANEL_SHAPE_WHITE" shape="SLIDER_PANEL_WHITE"/>
+		</section>
+	</graphic_styles>
+	<video_styles>
+		<section id="common">
+			<style id="DEFAULT" autoHideSkin="false" skin="skins/ArcticExternalAll.swf"/>
+		</section>
+	</video_styles>
+	<component_styles>
+		<section id="shell">
+			<style id="SHELL_BTN" tint="" label="_normal" alpha="60"/>
+			<style id="SHELL_BTN.rollover" label="_over" alpha="100"/>
+			<style id="SHELL_BTN.down" label="_down" alpha="100"/>
+			<style id="SHELL_BTN.disabled" label="_disabled" alpha="30"/>
+			<style id="LABEL_BTN"/>
+			<style id="SHELL_BTN2" label="_normal" alpha="100"/>
+			<style id="SHELL_BTN2.rollover" label="_over" alpha="100"/>
+			<style id="SHELL_BTN2.down" label="_down" alpha="100"/>
+			<style id="SHELL_BTN2.disabled" label="_disabled" alpha="30"/>
+		</section>
+	</component_styles>
+	<container_styles>
+		<section id="template_cardswap">
+			<style id="CARD" exclusiveFilters="CARD_GLOW,CARD_BORDER"/>
+		</section>
+		<section id="view_floatpanels" super="template_floatpanels">
+			<style id="CONTENT_PANEL"/>
+		</section>
+	</container_styles>
+	<visual_fx>
+		<section id="common">
+			<fx id="SHOW" visibility="SHOW"/>
+			<fx id="HIDE" visibility="HIDE"/>
+			<fx id="TITLE_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="TITLE_HIDE" visibility="HIDE"/>
+			<fx id="PROMPT_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+				<tween property="X" function="Regular.easeIn" start="+30" end="" duration=".5"/>
+			</fx>
+			<fx id="WIZARD_PANEL_SHOW" visibility="SHOW" play="ALWAYS">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".35"/>
+			</fx>
+			<fx id="WIZARD_SELECTION_SHOW" visibility="SHOW" play="ALWAYS">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".35"/>
+			</fx>
+			<fx id="PROMPT_HIDE" visibility="HIDE"/>
+			<fx id="TEXT_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".75"/>
+				<tween property="X" function="Regular.easeIn" start="+30" end="" duration=".75"/>
+			</fx>
+			<fx id="TEXT_HIDE" visibility="HIDE"/>
+			<fx id="GRAPHIC_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="GRAPHIC_HIDE" visibility="HIDE"/>
+			<fx id="INTRO_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="INTRO_HIDE" visibility="HIDE"/>
+			<fx id="DIRECTIONS_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="DIRECTIONS_HIDE" visibility="HIDE"/>
+			<fx id="LINK_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="LINK_HIDE" visibility="HIDE"/>
+			<fx id="CONTROLS_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="CONTROLS_HIDE" visibility="HIDE"/>
+			<fx id="VIDEO_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="VIDEO_HIDE" visibility="HIDE"/>
+			<fx id="QUESTION_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="QUESTION_HIDE" visibility="HIDE"/>
+			<fx id="FEEDBACK_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="FEEDBACK_HIDE" visibility="HIDE"/>
+			<fx id="SUBMIT_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".75"/>
+				<tween property="X" function="Regular.easeIn" start="+30" end="" duration=".75"/>
+			</fx>
+			<fx id="SUBMIT_HIDE" visibility="HIDE"/>
+		</section>
+		<section id="menu">
+			<fx id="MENU_SELECTIONSHOW" visibility="SHOW"/>
+			<fx id="MENU_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".25"/>
+			</fx>
+			<fx id="MENU_HIDE">
+				<tween property="Alpha" function="Strong.easeIn" start="100" end="0" duration=".25"/>
+			</fx>
+		</section>
+		<section id="left_menu">
+			<fx id="MENU_SELECTIONSHOW" visibility="SHOW"/>
+			<fx id="MENU_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".25"/>
+			</fx>
+			<fx id="MENU_HIDE">
+				<tween property="Alpha" function="Strong.easeIn" start="100" end="0" duration=".1"/>
+			</fx>
+		</section>
+		<section id="right_menu">
+			<fx id="MENU_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".35"/>
+			</fx>
+			<fx id="MENU_HIDE">
+				<tween property="Alpha" function="Strong.easeIn" start="100" end="0" duration=".1"/>
+			</fx>
+		</section>
+		<section id="bottom_menu">
+			<fx id="MENU_SELECTIONSHOW" visibility="SHOW"/>
+			<fx id="MENU_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".35"/>
+			</fx>
+			<fx id="MENU_HIDE">
+				<tween property="Alpha" function="Strong.easeIn" start="100" end="0" duration=".1"/>
+			</fx>
+		</section>
+		<section id="template_listswap">
+			<fx id="EXPAND_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeOut" start="1" end="100" duration=".5"/>
+				<tween property="ScaleX" function="Strong.easeInOut" start="1" end="100" duration=".5"/>
+			</fx>
+			<fx id="EXPAND_HIDE" visibility="HIDE"/>
+			<fx id="event.EXPAND">
+				<tween duration="0.5" function="Regular.easeOut"/>
+			</fx>
+			<fx id="SWAP_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="SWAP_HIDE" visibility="HIDE">
+				<tween property="Alpha" function="Strong.easeOut" start="100" end="0" duration=".5"/>
+			</fx>
+		</section>
+		<section id="view_listswap_accordion" super="template_listswap">
+			<fx id="EXPAND_SHOW" visibility="SHOW">
+				<transition type="SWING" direction="Down" mode="In" function="Strong.easeOut" duration="1"/>
+			</fx>
+			<fx id="LINK_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="LINK_HIDE" visibility="HIDE">
+				<transition type="SWING" direction="Down" mode="Out" function="Strong.easeOut" duration="1"/>
+			</fx>
+			<fx id="SWAP_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="SWAP_HIDE" visibility="HIDE"/>
+			<fx id="event.EXPAND">
+				<tween duration="0.5" function="Regular.easeOut"/>
+			</fx>
+		</section>
+		<section id="template_cardswap">
+			<fx id="event.FLIP">
+				<tween id="Card Flip" duration="1.75" function="Strong.easeOut"/>
+			</fx>
+			<fx id="CARD_SHOW" visibility="SHOW">
+				<tween id="Fade in" property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="CARD_HIDE" visibility="HIDE"/>
+		</section>
+		<section id="template_carousel">
+			<fx id="PANEL_SHOW" visibility="SHOW"/>
+			<fx id="PANEL_HIDE" visibility="HIDE"/>
+			<fx id="event.PANEL_MOVEMENT" visibility="SHOW">
+				<tween property="" function="Regular.easeInOut" start="" end="" duration="2"/>
+			</fx>
+		</section>
+		<section id="template_floatpanels">
+			<fx id="PANEL_SHOW" visibility="SHOW">
+				<tween property="ALPHA" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="PANEL_HIDE" visibility="HIDE"/>
+		</section>
+		<section id="template_multiplechoice">
+			<fx id="OPTIONS_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="OPTIONS_HIDE" visibility="HIDE"/>
+		</section>
+		<section id="template_animationsequence">
+			<fx id="GRAPHIC_SHOW" visibility="SHOW">
+				<tween property="ALPHA" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+		</section>
+		<section id="template_presentation">
+			<fx id="MENTOR_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="MENTOR_HIDE" visibility="HIDE"/>
+		</section>
+		<section id="template_slider">
+			<fx id="PANEL_SHOW" visibility="true">
+				<tween property="ALPHA" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="PANEL_HIDE" visibility="false"/>
+			<fx id="event.PANEL_MOVEMENT" visibility="true">
+				<tween property="" function="Regular.easeIn" start="" end="" duration="0.5"/>
+			</fx>
+		</section>
+		<section id="template_cascade">
+			<fx id="PANEL_SHOW" visibility="SHOW">
+				<tween property="ALPHA" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="PANEL_HIDE" visibility="HIDE"/>
+			<fx id="event.PANEL_MOVEMENT" visibility="SHOW">
+				<tween property="" function="Back.easeInOut" start="" end="" duration="2"/>
+			</fx>
+		</section>
+		<section id="template_cube">
+			<fx id="event.CUBE_INTRO_ROTATION" duration="1.5"/>
+			<fx id="event.CUBE_ROTATION" duration=".5"/>
+		</section>
+	</visual_fx>
+</stylesheet>

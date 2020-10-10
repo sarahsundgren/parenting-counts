@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+		<eventlist>
+			<event type="COMPLETION" result="CONTENT_COMPLETE" target="" result_param=""/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Differences Between Cultures</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Parenting Across Cultures&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="25" y="134" width="" height="" style="GRAPHIC" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="160382" play="false" start_frame="1">03_02_02_020_01.jpg</file>
+			<notes id="description">Map of the USA</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="350" width="723" height="55" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="54" start_frame="1">clear.gif</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;light blue box similar of color of map&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic03" x="165" y="163" width="" height="" style="LINK_3" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="5119" start_frame="1">03_02_02_020_03.png</file>
+			<notes id="description">red push pin</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="text02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="text03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="text04" result_param=""/>
+				<event type="CLICK" result="HIDE" target="text05" result_param=""/>
+				<event type="CLICK" result="PLAY" target="misc_audio01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon02" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="graphic04" x="25" y="295" width="" height="" style="" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" placeholder="true" start_frame="1"/>
+		</graphic>
+		<graphic id="graphic05" x="265" y="193" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" placeholder="true" start_frame="1"/>
+		</graphic>
+		<graphic id="graphic06" x="236" y="236" width="" height="" style="LINK_3" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="5119" start_frame="1">03_02_02_020_03.png</file>
+			<notes id="description">red push pin</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="text03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="text02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="text04" result_param=""/>
+				<event type="CLICK" result="HIDE" target="text05" result_param=""/>
+				<event type="CLICK" result="PLAY" target="misc_audio02" result_param=""/>
+				<event type="CLICK" result="SHOW" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon02" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="graphic07" x="384" y="172" width="" height="" style="LINK_3" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="5119" start_frame="1">03_02_02_020_03.png</file>
+			<notes id="description">red push pin</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="text04" result_param=""/>
+				<event type="CLICK" result="HIDE" target="text02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="text03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="text05" result_param=""/>
+				<event type="CLICK" result="PLAY" target="misc_audio03" result_param=""/>
+				<event type="CLICK" result="SHOW" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="graphic08" x="608" y="175" width="" height="" style="LINK_3" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="5119" start_frame="1">03_02_02_020_03.png</file>
+			<notes id="description">red push pin</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="text05" result_param=""/>
+				<event type="CLICK" result="HIDE" target="text02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="text03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="text04" result_param=""/>
+				<event type="CLICK" result="PLAY" target="misc_audio04" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon02" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="720" height="" autosize="H" style="DEFAULT" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">The ways that parents work towards their goals of providing what their child needs differs between cultures. It depends on the geographical region in which the child is raised, the religion, the family practices, or the variances that result from the family's ethnicity.</content>
+		</text>
+		<text id="text02" x="30" y="358" width="717" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Each family makes parenting decisions based on cultural values, available resources, and social norms. For instance, in one culture it may be acceptable for a child to disagree with the opinion of an elder family member, whereas the same disagreement may be seen as disrespectful in another culture.</content>
+		</text>
+		<text id="text03" x="30" y="358" width="716" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Subtle parenting differences can affect a child's development. For example, how a child responds to eye contact, touch, or verbal cues can vary depending on the child's experiences and interactions with caregivers.</content>
+		</text>
+		<text id="text04" x="30" y="358" width="723" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">In many communities, discipline, nutrition, and sleep practices are based on the parents' cultural beliefs and expectations. For example, the way that a parent disciplines their child might be based on the way that other families in the same community approach discipline with their children.</content>
+		</text>
+		<text id="text05" x="30" y="358" width="723" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">By understanding a family's culture and beliefs, a professional can support parents in achieving the best possible outcomes by recommending research-based practices within the context of the family's belief system.</content>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="66995" duration="196" start_frame="1">a_03_02_02_020_01.swf</file>
+			<transcript translate="true">The ways that parents work towards their goals of providing what their child needs differs between cultures. It depends on the geographical region in which the child is raised, the religion, the family practices, or the variances that result from the family's ethnicity. Click each pin to learn more</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<graphic id="ref_icon01" x="659" y="374" width="15" height="15" style="LINK_SWF" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+		<file bytes="1704" play="false" duration="1" start_frame="1">rstar_sizeable.swf</file>
+		<eventlist>
+			<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+		</eventlist>
+	</graphic>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" start_frame="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Field, T. (1999). &lt;I&gt;Touch Therapy&lt;/I&gt;. Miami, FL: Churchill-Livingstone.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+	<graphic id="ref_icon02" x="468" y="388" width="15" height="15" style="LINK_SWF" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+		<file bytes="1704" play="false" duration="1" start_frame="1">rstar_sizeable.swf</file>
+		<eventlist>
+			<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+		</eventlist>
+	</graphic>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" start_frame="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="40" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Bradley, R. (2007). Parenting in the breach: How parents help children cope with developmentally challenging circumstances. &lt;I&gt;Parenting: Science and Practice, 7&lt;/I&gt;(2), 99-148.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Bradley, R. (2009). &lt;I&gt;Handbook of cultural developmental science.&lt;/I&gt; Philadelphia, PA: Psychology Press.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="miscellaneous_audio" expanded="true">
+		<audio id="misc_audio01">
+			<file start_frame="1" play="false" bytes="71519" duration="209">a_03_02_02_020_02.swf</file>
+			<transcript translate="true">Each family makes parenting decisions based on cultural values, available resources, and social norms. For instance, in one culture it may be acceptable for a child to disagree with the opinion of an elder family member, whereas the same disagreement may be seen as disrespectful in another culture.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="misc_audio02">
+			<file start_frame="1" play="false" bytes="84131" duration="246">a_03_02_02_020_03.swf</file>
+			<transcript translate="true">Subtle parenting differences can affect a child's development. For example, how a child responds to eye contact, touch, or verbal cues can vary depending on the child's experiences and interactions with caregivers. In a culture such as the United States, where physical affection and touch are more limited, children are raised to express affection verbally rather than physically.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="misc_audio03">
+			<file start_frame="1" play="false" bytes="100295" duration="293">a_03_02_02_020_04.swf</file>
+			<transcript translate="true">In many communities, discipline, nutrition, and sleep practices are based on the parents' cultural beliefs and expectations. For example, the way that a parent discipline's their child might be based on the way that other families in the same community approach discipline with their children. However, certain research-based findings still apply—for instance, extreme and persistent physical punishment or rejection results in universal adverse consequences for development.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="misc_audio04">
+			<file start_frame="1" play="false" bytes="45867" duration="134">a_03_02_02_020_05.swf</file>
+			<transcript translate="true">By understanding a family's culture and beliefs, a professional can support parents in achieving the best possible outcomes by recommending research based practices within the context of the family's belief system.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="25" y="111" width="350" height="" autosize="H" style="DIRECTIONS" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Click each &lt;B&gt;pin&lt;/B&gt; to learn more.</content>
+		</text>
+	</section>
+</template>

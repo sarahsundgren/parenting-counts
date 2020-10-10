@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">What Is Self-Regulation?</content>
+	</text>
+	<text id="nav_text" x="298" y="425" width="477" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Is&lt;/B&gt; &lt;B&gt;Self-Regulation&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="375" y="60" width="387" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Self-regulation:</content>
+		</text>
+		<text id="text02" x="375" y="89.6" width="379" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Is a child's ability to control his or her behavior&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="375" y="119.2" width="387" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Comes over time and is related to many aspects of social, emotional, and cognitive development&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="375" y="164.35" width="387" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Is the successful integration of emotion and cognition resulting in developmentally appropriate behavior&lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="375" y="209.55" width="387" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Helps children develop strategies to self-soothe, problem-solve, and manage their emotions&lt;/LI&gt;</content>
+		</text>
+		<text id="text06" x="375" y="254.75" width="387" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Encompasses the deliberate control of thoughts, feelings, attention, and actions&lt;/LI&gt;</content>
+		</text>
+		<text id="text07" x="375" y="300" width="387" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Key Messages:&lt;/B&gt;&lt;LI&gt;Self-regulation has two components: a child's ability to control his or her impulses and the capacity to do something even if he or she doesn't want to.&lt;/LI&gt;&lt;LI&gt;Self-regulation requires that a child understands his or her feelings and effectively manages his or her emotions.&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="67700" startpos="1" play="false">03_01_01_010_01.jpg</file>
+			<notes id="description">Photo 1 from Self-Regulation folder in Physical Dev.</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE"/>
+		<graphic id="graphic03" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="102283" startpos="1" play="false">03_01_01_010_03.jpg</file>
+			<notes id="description">Rob listens to girl from Self-Regulation folder in Physical Dev.</notes>
+		</graphic>
+		<graphic id="graphic04" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE"/>
+		<graphic id="graphic05" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="81017" startpos="1" play="false">03_01_01_010_05.jpg</file>
+			<notes id="description">BringBabyHomeDSC_7698 from Self-Regulation folder in Physical Dev.</notes>
+		</graphic>
+		<graphic id="graphic06" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE"/>
+		<graphic id="graphic07" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="51072" startpos="1" play="false">03_01_01_010_07.jpg</file>
+			<notes id="description">Photo 2 from Temperament folder in Physical Dev.</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="25399" startpos="1" duration="75">a_03_01_01_010_01.swf</file>
+			<transcript translate="true">Self-regulation is often described as one of the most important skills that children develop, but what is it?</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="40371" startpos="1" duration="118">a_03_01_01_010_02.swf</file>
+			<transcript translate="true">Though there are a variety of definitions that experts use to describe the concept, it basically comes down to a child's ability to control his or her behavior.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="36067" startpos="1" duration="106">a_03_01_01_010_03.swf</file>
+			<transcript translate="true">Its emergence, which comes over time, both requires and affects many aspects of social, emotional, and cognitive development.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" bytes="52451" startpos="1" duration="154">a_03_01_01_010_04.swf</file>
+			<transcript translate="true">It can also be thought of as the successful integration of emotion (what a child feels) and cognition (what a child knows or can do), resulting in developmentally appropriate behavior.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" bytes="30467" startpos="1" duration="90">a_03_01_01_010_05.swf</file>
+			<transcript translate="true">Self-regulation helps children develop strategies to self-soothe, problem-solve, and manage their emotions.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration06">
+			<file play="false" bytes="49859" startpos="1" duration="146">a_03_01_01_010_06.swf</file>
+			<transcript translate="true">At the same time, it is more than just "controlling your emotions." It encompasses the deliberate control not just of thoughts and feelings, but of attention and actions as well.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration07">
+			<file play="false" bytes="88551" startpos="1" duration="259">a_03_01_01_010_07.swf</file>
+			<transcript translate="true">In this topic, we'll highlight the Key Messages which are that self-regulation has two components: a child's ability to control his or her impulses, and the capacity to do something even if he or she doesn't want to. Self-regulation also requires that a child understands his or her feelings and effectively manages his or her emotions.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true"/>
+</template>

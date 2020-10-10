@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="-50" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Introduction</content>
+	</text>
+	<text id="nav_text" x="625" y="425" width="300" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;To begin, click a &lt;B&gt;Topic&lt;/B&gt;.&lt;/P&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="-50" y="50" width="375" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Welcome to the Exploration module.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;The purpose of this module is to help you teach parents how young children explore the world around them and learn through their interactions with the environment.&lt;/P&gt;</content>
+		</text>
+		<text id="text02" x="93" y="127" width="400" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Exploration is how children use the information gathered by their senses to learn about the world. These processes start during infancy and become more sophisticated as children get older and new neural circuits build on old ones.</content>
+		</text>
+		<text id="text03" x="0" y="79.6" width="375" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Educator Training Goals:&lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Present research that defines the concept of exploration and explains why exploration is an important tool in cognitive learning.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Describe how young children test their environment.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Provide parents with information about how children test their hypotheses, gather evidence, and use these experiences to understand their world.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="TOP|LEFT" spacing="0" autospace="true" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="380" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="92342" startpos="1" play="false">03_010_01.jpg</file>
+			<notes id="description">#21 6 mo. Noel - 6-40 from Exploration folder in Learning &amp; Cognition</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="74082" startpos="1" play="false">03_010_02.jpg</file>
+			<notes id="description">#25 17 mo. Shea Qin - 67-128 from Exploration folder in Learning &amp; Cognition</notes>
+		</graphic>
+		<graphic id="graphic03" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="97956" startpos="1" play="false">03_010_03.jpg</file>
+			<notes id="description">Page 11 - Taylor in plant from Exploration folder in Learning &amp; Cognition</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="135" bytes="46087" startpos="1">a_03_010_01.swf</file>
+			<transcript translate="true">Welcome to the Exploration module. The purpose of this module is to help you teach parents how young children explore the world around them and learn through their interactions with the environment.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="65167" startpos="1" duration="191">a_03_010_02.swf</file>
+			<transcript translate="true">In this module, you'll learn that exploration is how children use the information gathered by their senses to learn about the world. These processes start during infancy and become more sophisticated as children get older and new neural circuits build on old ones.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="121411" startpos="1" duration="354">a_03_010_03.swf</file>
+			<transcript translate="true">After completing this module, you will be able to 1) Present research that defines the concept of exploration and explains why exploration is an important tool in cognitive learning. 2) Describe how young children test their environment. And 3) provide parents with information about how children test their hypotheses, gather evidence, and use these experiences to understand their world. To begin, click a Topic in the bottom menu.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text01" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="-35" y="218.4" width="50" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;1.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;2.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;3.&lt;/P&gt;</content>
+		</text>
+	</section>
+</template>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_multiplechoice" view="view_multiplechoice">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="showAnswerMarks" datatype="LIST" value="DEFAULT"/>
+		<settings id="markAnswers" datatype="LIST" value="DEFAULT"/>
+		<settings id="markFinalAnswers" datatype="LIST" value="DEFAULT"/>
+		<settings id="submitBtn" datatype="LIST" value="DEFAULT"/>
+		<settings id="enableSubmit" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Observing Play</content>
+	</text>
+	<text id="nav_text" x="185" y="425" width="588" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity,&lt;/B&gt; or click the &lt;B&gt;Conclusion&lt;/B&gt;.</content>
+	</text>
+	<section id="question_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="question" x="25" y="50" width="730" height="" autosize="H" style="DEFAULT" visible="true" fx="QUESTION_SHOW" hidefx="QUESTION_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Parents have the unique opportunity to learn more about their children through observing them play. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Which of the following things can a parent learn through observing a child's play?&lt;/P&gt;</content>
+		</text>
+		<text id="directions" x="" y="" width="730" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click the correct answers, then click &lt;B&gt;Submit&lt;/B&gt;.</content>
+		</text>
+	</section>
+	<section id="question_media" expanded="true">
+		<audio id="narration">
+			<file play="true" duration="158" bytes="54059" startpos="1">a_04_04_03_020_09.swf</file>
+			<transcript translate="true">Parents have the unique opportunity to learn more about their children through observing them play. Which of the following things can a parent learn through observing a child's play? Click the correct answer or answers, then click Submit.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<graphic id="question_graphic" x="25" y="120" width="" height="" style="QUESTION" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" placeholder="true"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;#81 2 yrs. Brielle - 49-59 from Talaris play photos folder (mom playing with daughter)&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="options" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<container id="option01" behavior="STRICT|LOCK_SIZE" x="390" y="130" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="350" height="38" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="9" width="285" height="" autosize="H" style="OPTION" visible="true">
+				<content translate="true">A child's likes and dislikes</content>
+			</text>
+		</container>
+		<container id="option02" behavior="STRICT|LOCK_SIZE" x="390" y="200" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="350" height="38" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="9" width="285" height="" autosize="H" style="OPTION" visible="true">
+				<content translate="true">A child's view of their world</content>
+			</text>
+		</container>
+		<container id="option03" behavior="STRICT|LOCK_SIZE" x="25" y="130" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="350" height="38" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="9" width="285" height="" autosize="H" style="OPTION" visible="true">
+				<content translate="true">Activities that increase the child's intelligence</content>
+			</text>
+		</container>
+		<container id="option04" behavior="STRICT|LOCK_SIZE" x="25" y="200" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="350" height="38" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="9" width="285" height="" autosize="H" style="OPTION" visible="true">
+				<content translate="true">Events that trigger frustration</content>
+			</text>
+		</container>
+	</section>
+	<section id="buttons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="submit" behavior="STRICT|LOCK_SIZE" x="613" y="393" visible="false" fx="SUBMIT_SHOW" hidefx="SUBMIT_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SUBMIT" visible="true">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<text id="text" x="8" y="8" width="101" height="18" autosize="" style="CONTROLS" visible="true">
+				<content translate="true">Submit</content>
+			</text>
+		</container>
+	</section>
+	<answeranalysis id="answer_analysis" type="MULTIPLE_ANSWER" max_attempts="1">
+		<answer id="correct" correct="true" attempt="ANY" comparison="option01,option02,option04">
+			<feedback>
+				<text id="feedback" x="25" y="264" width="689" height="" autosize="H" style="CORRECT_FEEDBACK" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content translate="true">Correct. As parents observe and interact with their children through play, the parent-child bond grows stronger, providing a solid foundation for building lifelong positive relationships. Although the learning outcome may not be outwardly apparent, all types of play provide rich opportunities for learning and development. For children, play is learning, even when the observer may not be able to see what or how the child is learning.</content>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" duration="309" bytes="105791" startpos="1">a_04_04_03_020_02.swf</file>
+					<transcript translate="true">Correct. As parents observe and interact with their children through play, the parent-child bond grows stronger, providing a solid foundation for building lifelong positive relationships. Although the learning outcome may not be outwardly apparent, all types of play provide rich opportunities for learning and development. For children, play is learning, even when the observer may not be able to see what or how the child is learning.</transcript>
+					<notes id="mentor-character">Narrator:</notes>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect1" correct="false" attempt="1" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="25" y="264" width="689" height="" autosize="H" style="INCORRECT_FEEDBACK" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content translate="true">Not quite. As parents observe and interact with their children through play, the parent-child bond grows stronger, providing a solid foundation for building lifelong positive relationships. Although the learning outcome may not be outwardly apparent, all types of play provide rich opportunities for learning and development. For children, play is learning, even when the observer may not be able to see what or how the child is learning.</content>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" duration="313" bytes="107191" startpos="1">a_04_04_03_020_03.swf</file>
+					<transcript translate="true">Not quite. As parents observe and interact with their children through play, the parent-child bond grows stronger, providing a solid foundation for building lifelong positive relationships. Although the learning outcome may not be outwardly apparent, all types of play provide rich opportunities for learning and development. For children, play is learning, even when the observer may not be able to see what or how the child is learning.</transcript>
+					<notes id="mentor-character">Narrator:</notes>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect2" correct="false" attempt="ANY" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="25" y="376" width="550" height="" autosize="H" style="INCORRECT_FEEDBACK" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content/>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+				</audio>
+			</feedback>
+		</answer>
+	</answeranalysis>
+</template>

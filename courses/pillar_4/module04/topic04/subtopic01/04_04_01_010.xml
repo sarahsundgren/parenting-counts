@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Role of Early Childhood Professionals</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Supporting Emerging Literacy&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="385" y="60" width="363" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Learning to read and write is:&lt;LI&gt;Critical to a child's success in school and later in life&lt;/LI&gt;&lt;LI&gt;Most important during the Early Childhood period&lt;/LI&gt;</content>
+		</text>
+		<text id="text02" x="385" y="110" width="329" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Help parents understand the importance of their preschool-age children’s exposure to oral and written language.</content>
+		</text>
+		<text id="text03" x="385" y="155" width="334" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Words and the ability to use language aren't acquired through passive listening.</content>
+		</text>
+		<text id="text04" x="385" y="275" width="335" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Key Messages &lt;/B&gt;&lt;LI&gt;Studies show that parents play a critical role in helping to support young children’s emerging literacy skills. &lt;/LI&gt;&lt;LI&gt;There are many ways to support young children’s literacy and learning through everyday activities and interactions.&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="95200" startpos="1" play="false">04_04_01_010_01.jpg</file>
+			<notes id="description">professional: istock:4518529</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">Two boys playing. One boy plays with blocks. The other boy plays with cars.</notes>
+		</graphic>
+		<graphic id="graphic03" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">Image of a child learning through Skill Mastery Play.</notes>
+		</graphic>
+		<graphic id="graphic04" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="108545">04_04_01_010_04.jpg</file>
+			<notes id="description">WK1O0217 from Communication, preliteracy skills folder (mom pointing out something on a store window to her daughter)</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="95331" startpos="1" duration="278">a_04_04_01_010_01.swf</file>
+			<transcript translate="true">In a joint position statement of the International Reading Association and the National Association for the Education of Young Children, learning to read and write is said to be "critical to a child's success in school and later in life" and that "although reading and writing abilities continue to develop throughout the lifespan, the early childhood years - from birth through age eight -are the most important period for literacy development." </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="62355" startpos="1" duration="182">a_04_04_01_010_02.swf</file>
+			<transcript translate="true">As trusted childhood advocates, early childhood professionals can help parents understand the importance of their preschool-age children's exposure to oral and written language, and how these experiences will impact their literacy and learning success as they continue to grow.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="76911" startpos="1" duration="225">a_04_04_01_010_03.swf</file>
+			<transcript translate="true">Words and the ability to use language aren't acquired through passive listening alone; rather, language is supported through and dependent upon verbal interactions and experiences with others. Parents and caregivers play a significant role in both the quantity and quality of language interactions and communication with their young children.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" bytes="67747" startpos="1" duration="198">a_04_04_01_010_04.swf</file>
+			<transcript translate="true">As you proceed through this topic, keep in mind the following Key Messages: Studies show that parents play a critical role in helping to support young children's emerging literacy skills, and that there are many ways to support young children's literacy and learning through everyday activities and interactions.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="729" y="92" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1716" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;National Institute of Child Health and Human Development. (2000). &lt;I&gt;Report of the National Reading Panel: Teaching Children to read: An evidence-based assessment of the scientific research literature on reading and its implications for reading instruction.&lt;/I&gt; Washington, DC: U.S. Government Printing Office.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

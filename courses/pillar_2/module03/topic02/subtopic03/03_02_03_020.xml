@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_animationsequence" view="view_animationsequence">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="ON_INIT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Example 1</content>
+	</text>
+	<text id="nav_text" x="180" y="425" width="590" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">&lt;P ALIGN="RIGHT"&gt;Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt;, or click a new &lt;B&gt;Topic&lt;/B&gt;.&lt;/P&gt;&lt;P ALIGN="RIGHT"&gt;&lt;/P&gt;&lt;P ALIGN="RIGHT"&gt;&lt;/P&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="714" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Let's explore another example of parenting styles. Listen to this scenario and try to identify the type of parenting style demonstrated.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Scenario:&lt;/B&gt; 3-year-old Toby is getting teased by his older brother. He runs to his mom and declares that he hates his brother. &lt;/P&gt;</content>
+		</text>
+		<text id="directions" x="25" y="77" width="350" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click the &lt;B&gt;photo&lt;/B&gt; to hear the response.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="25" y="120" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" bytes="33695" duration="99" startpos="1">a_03_02_03_020_01.swf</file>
+			<transcript translate="true">Let's explore another example of parenting styles. Listen to this scenario and try to identify the type of parenting style demonstrated. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="misc_audio01" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="animation_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="25" y="175" width="" height="" style="GRAPHIC" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="51732" startpos="1" play="false">03_02_03_020_02.jpg</file>
+			<notes id="description">Boy being poked by his older brother.</notes>
+		</graphic>
+		<graphic id="graphic02" x="" y="" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="miscellaneous_audio" expanded="true">
+		<audio id="misc_audio01">
+			<file play="false" startpos="1" bytes="40591" duration="119">a_03_02_03_020_02.swf</file>
+			<transcript translate="true">Three-year-old Toby is getting teased by his older brother. He runs to his mom and declares that he hates his brother. Click the photo to hear how she responds. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="HIDE" target="graphic01" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="link01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="misc_audio02">
+			<file play="false" startpos="1" duration="75" bytes="25399">a_03_02_03_020_03.swf</file>
+			<transcript translate="true">"Oh, I'm sorry you're sad. It's okay, I love you no matter what."</transcript>
+			<notes id="mentor-character">Mother:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="link01" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="subpage" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="HIDE" target="misc_text01" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="HIDE" target="misc_text02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="subpage" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="300" y="116" width="408" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text02" x="300" y="172" width="347" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Mother&lt;/B&gt;: Oh, I'm sorry you're sad. It's okay. I love you no matter what.</content>
+			<eventlist>
+				<event type="" result="" target="" result_param=""/>
+			</eventlist>
+		</text>
+	</section>
+	<section>
+		<graphic id="link01" x="25" y="170" width="" height="" style="LINK_3" visible="false" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="126473" play="false" startpos="1">03_02_03_020_01.png</file>
+			<notes id="description">cut out of mom responding</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="misc_text02" result_param=""/>
+				<event type="CLICK" result="PLAY" target="misc_audio02" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="swap_text01" x="475" y="133" width="178" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+	<section id="sub_pages" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<subpage id="subpage" behavior="" preload="true" play="true" x="350" y="0" width="" height="" visible="false" fx="SHOW" hidefx="HIDE" name="True_False">
+			<eventlist>
+				<event type="" result="" target="" result_param=""/>
+			</eventlist>
+		</subpage>
+	</section>
+</template>

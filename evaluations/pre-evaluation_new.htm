@@ -1,0 +1,750 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<html>
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<title>Talaris | Pre-evaluation</title>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.js"></script>
+<style type="text/css">
+    a, body, input, textarea, option, select, table, td, tr, h1
+    {
+	    font-family:Helvetica,Arial;
+	    font-size:11pt;
+	    font-weight:normal;
+	    color:#000000;
+    }
+    
+    h1
+    {
+    	font-size:18px;
+    	font-weight:900;
+    }
+    
+    h2
+    {
+    	font-size:12px;
+    	font-weight:900;
+    }
+    
+    .question_table
+    {
+	    width:100%;
+    }
+
+    .question_table tr
+    {
+	    padding-bottom: 10px;
+	    line-height: 150%;
+    }
+    
+    #section1, #section2, #section3, #section4
+    {
+    	display:none;
+    }
+</style>
+
+<script type="text/javascript">
+var divID = '';
+var submitBttn = parent.document.getElementById('_btnSubmit');
+
+function init()
+{
+    $('#section1').show();
+    $('#_btnSubmit').hide();
+    $(submitBttn).hide();
+}
+function nav(sDivID, hDivID)
+{
+    var showID = sDivID;
+    var hideID = hDivID;
+    
+    $('#'+hideID).hide();
+    $('#'+showID).show();
+    
+    showSubmit(sDivID);
+    parent.resizeIframe('myframe');    
+    window.scroll(0,0);    
+}
+
+function showSubmit(sDivID)
+{
+    if(sDivID == 'section4')
+        $(submitBttn).show();
+    else        
+        $(submitBttn).hide();        
+}
+
+</script>
+    
+</head>
+<body style="margin:0px;" onload="init()">
+<div id="top" style="width:100%;height:120px;padding-top:10px;background:#0057A7;">
+	<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;">
+		<tr>
+			<td width="200px">
+				<div style="padding-left:40px;">
+				    <!--logo-->
+				</div>
+			</td>
+			<td align="center" valign="bottom">
+			    <div>
+				    <div style="color:#FFFFFF;font-size:12pt;font-weight:bold;">
+				        Pre-Program Self Evaluation <br />
+				    </div>
+				    <div style="color:#FFFFFF;font-size:10pt; text-align:left; padding-top:5px; padding-bottom:15px;">
+				        It is our goal to ensure that the Parenting Counts Professional Program helps professionals increase  their knowledge, confidence and change positive parenting behaviors in a variety of communities.  To achieve this goal, we have created a Pre-Test and Post-Test to accompany the Parenting Counts Online Training.  Please complete the following questions.  You will not receive a score as this is not a test of your learning.  Your answers will be anonymous and will be used for data collection purposes only.  This Evaluation is not part of the Continuing Education Assessments that are required at the end of each Pillar.
+				    </div>
+				</div>
+			</td>
+			<td width="200px">
+				&nbsp;
+			</td>
+		</tr>
+	</table>
+</div>
+<div style="width:100%;height:5px;background:#F6BC13;overflow:hidden;">&nbsp;</div>
+<!--section1-->
+<div id="section1" style="margin:20px;width:820px;">
+    <div style="width:100%; background-color:#dedede; height:75px;">
+	    <h1 style="padding-left: 10px; padding-top:10px;">Physical Pillar</h1>  
+	    <h2 style="padding-left: 10px;">All Questions are Required</h2> 
+	</div>
+	
+	<br />	
+	<h1 style="padding-top:15px; margin-left:20px;">Knowledge</h1>
+	<hr />
+	<br />
+	<table border="0" cellpadding="0" cellspacing="0" class="question_table" style="border-collapse: collapse;">
+		<tr valign="bottom">
+			<td width="20" valign="top">&nbsp;</td>
+			<td width="400">&nbsp;</td>
+			<td width="40" align="center" valign="bottom"><b>Correct Statement</b></td>
+			<td width="40" align="center" valign="bottom"><b>Incorrect Statement</b></td>
+			<td width="40" align="center" valign="bottom"><b>Not Sure</b></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">1. </td>
+			<td width="400" valign="top">Genetics, environment, and relationships all determine how the brain will develop in the first three years of life. </td>
+			<td width="40" align="center"><input id="questionA_1_1" name="questionA_1" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionA_1_2" name="questionA_1" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionA_1_3" name="questionA_1" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">2. </td>
+			<td width="400" valign="top">Emotions, cognition, and language develop independently of each other.</td>
+			<td width="40" align="center"><input id="questionA_2_1" name="questionA_2" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionA_2_2" name="questionA_2" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionA_2_3" name="questionA_2" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">3. </td>
+			<td width="400" valign="top">Newborn babies who cry and get upset easily may have learned to manipulate their parents.</td>
+			<td width="40" align="center"><input id="questionA_3_1" name="questionA_3" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionA_3_2" name="questionA_3" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionA_3_3" name="questionA_3" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">4. </td>
+			<td width="400" valign="top">A child is born with a temperament that is based on his or her biology.</td>
+			<td width="40" align="center"><input id="questionA_4_1" name="questionA_4" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionA_4_2" name="questionA_4" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionA_4_3" name="questionA_4" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">5. </td>
+			<td width="400" valign="top">The best way for parents to react to their child’s unique temperament is to understand and support it, not to try to change it.</td>
+			<td width="40" align="center"><input id="questionA_5_1" name="questionA_5" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionA_5_2" name="questionA_5" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionA_5_3" name="questionA_5" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">6. </td>
+			<td width="400" valign="top">The ability to self-regulate increases as children get older.</td>
+			<td width="40" align="center"><input id="questionA_6_1" name="questionA_6" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionA_6_2" name="questionA_6" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionA_6_3" name="questionA_6" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">7. </td>
+			<td width="400" valign="top">"Stress" is the way an individual responds physically to stressors in their environment. What causes stress varies for different people.</td>
+			<td width="40" align="center"><input id="questionA_7_1" name="questionA_7" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionA_7_2" name="questionA_7" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionA_7_3" name="questionA_7" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">8. </td>
+			<td width="400" valign="top">Infants are too young to experience stress.</td>
+			<td width="40" align="center"><input id="questionA_8_1" name="questionA_8" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionA_8_2" name="questionA_8" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionA_8_3" name="questionA_8" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">9. </td>
+			<td width="400" valign="top">Some stress is normal or even positive, while other stress is "toxic".</td>
+			<td width="40" align="center"><input id="questionA_9_1" name="questionA_9" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionA_9_2" name="questionA_9" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionA_9_3" name="questionA_9" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">10. </td>
+			<td width="400" valign="top">Children learn to manage stress from their parents and caregivers.</td>
+			<td width="40" align="center"><input id="questionA_10_1" name="questionA_10" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionA_10_2" name="questionA_10" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionA_10_3" name="questionA_10" type="radio" value="0" /></td>
+		</tr>
+	</table>
+	<br />			
+	<h1 style="padding-top:15px; margin-left:20px;">Behavior</h1>
+	<hr />
+	<br />
+	<table border="0" cellpadding="0" cellspacing="0" class="question_table" style="border-collapse: collapse;">
+		<tr valign="bottom">
+			<td width="20" valign="top">&nbsp;</td>
+			<td width="400">&nbsp;</td>
+			<td width="40" align="center" valign="bottom"><b>Definitely Disagree</b></td>
+			<td width="40" align="center" valign="bottom"><b>Probably Disagree</b></td>
+			<td width="40" align="center" valign="bottom"><b>Probably Agree</b></td>
+			<td width="40" align="center" valign="bottom"><b>Definitely Agree</b></td>
+			<td width="40" align="center" valign="bottom"><b>Not Sure</b></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">11. </td>
+			<td width="400" valign="top">In my interactions with parents I talk about brain development.</td>
+			<td width="40" align="center"><input id="questionA_11_1" name="questionA_11" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionA_11_2" name="questionA_11" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionA_11_3" name="questionA_11" type="radio" value="3" /></td>
+			<td width="40" align="center"><input id="questionA_11_4" name="questionA_11" type="radio" value="4" /></td>
+			<td width="40" align="center"><input id="questionA_11_5" name="questionA_11" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">12. </td>
+			<td width="400" valign="top">In my interactions with parents I talk about temperament.</td>
+			<td width="40" align="center"><input id="questionA_12_1" name="questionA_12" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionA_12_2" name="questionA_12" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionA_12_3" name="questionA_12" type="radio" value="3" /></td>
+			<td width="40" align="center"><input id="questionA_12_4" name="questionA_12" type="radio" value="4" /></td>
+			<td width="40" align="center"><input id="questionA_12_5" name="questionA_12" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">13. </td>
+			<td width="400" valign="top">In my interactions with parents I talk about stress.</td>
+			<td width="40" align="center"><input id="questionA_13_1" name="questionA_13" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionA_13_2" name="questionA_13" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionA_13_3" name="questionA_13" type="radio" value="3" /></td>
+			<td width="40" align="center"><input id="questionA_13_4" name="questionA_13" type="radio" value="4" /></td>
+			<td width="40" align="center"><input id="questionA_13_5" name="questionA_13" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">14. </td>
+			<td width="400" valign="top">I am comfortable helping or referring a parent for help when the stressors in their life are impacting their parenting.</td>
+			<td width="40" align="center"><input id="questionA_14_1" name="questionA_14" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionA_14_2" name="questionA_14" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionA_14_3" name="questionA_14" type="radio" value="3" /></td>
+			<td width="40" align="center"><input id="questionA_14_4" name="questionA_14" type="radio" value="4" /></td>
+			<td width="40" align="center"><input id="questionA_14_5" name="questionA_14" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">15. </td>
+			<td width="400" valign="top">I feel confident talking to parents about physical and brain development.</td>
+			<td width="40" align="center"><input id="questionA_15_1" name="questionA_15" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionA_15_2" name="questionA_15" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionA_15_3" name="questionA_15" type="radio" value="3" /></td>
+			<td width="40" align="center"><input id="questionA_15_4" name="questionA_15" type="radio" value="4" /></td>
+			<td width="40" align="center"><input id="questionA_15_5" name="questionA_15" type="radio" value="0" /></td>
+		</tr>
+	</table>
+    <div style="width:100%">
+        <div style="float:right">
+            <button type="button" onclick="javascript:nav('section2', 'section1');">Next</button>
+        </div>
+    </div>
+</div>
+
+<!--section2-->
+<div id="section2" style="margin:20px;width:820px;">
+    <div style="width:100%; background-color:#dedede; height:75px;">
+	    <h1 style="padding-left: 10px; padding-top:10px;">Social Emotional Development</h1>
+	    <h2 style="padding-left: 10px;">All Questions are Required</h2>
+	</div>
+	
+	<br />	
+	<h1 style="padding-top:15px; margin-left:20px;">Knowledge</h1>
+	<hr />
+	<br />
+	<table border="0" cellpadding="0" cellspacing="0" class="question_table" style="border-collapse: collapse;">
+		<tr valign="bottom">
+			<td width="20" valign="top">&nbsp;</td>
+			<td width="400">&nbsp;</td>
+			<td width="40" align="center" valign="bottom"><b>Correct Statement</b></td>
+			<td width="40" align="center" valign="bottom"><b>Incorrect Statement</b></td>
+			<td width="40" align="center" valign="bottom"><b>Not Sure</b></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">1. </td>
+			<td width="400" valign="top">Parents can help their babies learn to self-regulate by letting them cry until they stop on their own.</td>
+			<td width="40" align="center"><input id="questionB_1_1" name="questionB_1" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionB_1_2" name="questionB_1" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionB_1_3" name="questionB_1" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">2. </td>
+			<td width="400" valign="top">Toddlers cannot deliberately control their emotional reactions the way older children or adults can.</td>
+			<td width="40" align="center"><input id="questionB_2_1" name="questionB_2" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionB_2_2" name="questionB_2" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionB_2_3" name="questionB_2" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">3. </td>
+			<td width="400" valign="top">Social and emotional development starts at birth.</td>
+			<td width="40" align="center"><input id="questionB_3_1" name="questionB_3" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionB_3_2" name="questionB_3" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionB_3_3" name="questionB_3" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">4. </td>
+			<td width="400" valign="top">Attachment starts to develop after 6-months of age.</td>
+			<td width="40" align="center"><input id="questionB_4_1" name="questionB_4" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionB_4_2" name="questionB_4" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionB_4_3" name="questionB_4" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">5. </td>
+			<td width="400" valign="top">Babies form a secure attachment to their caregivers by having their needs met consistently and sensitively.</td>
+			<td width="40" align="center"><input id="questionB_5_1" name="questionB_5" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionB_5_2" name="questionB_5" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionB_5_3" name="questionB_5" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">6. </td>
+			<td width="400" valign="top">Once babies form a secure attachment to a caregiver, they can’t become attached to anyone else.</td>
+			<td width="40" align="center"><input id="questionB_6_1" name="questionB_6" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionB_6_2" name="questionB_6" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionB_6_3" name="questionB_6" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">7. </td>
+			<td width="400" valign="top">Attunement is a parent’s awareness of his or her child’s non-verbal expressions of emotions and needs.</td>
+			<td width="40" align="center"><input id="questionB_7_1" name="questionB_7" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionB_7_2" name="questionB_7" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionB_7_3" name="questionB_7" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">8. </td>
+			<td width="400" valign="top">Young children  learn to manage their emotions by being corrected when they react inappropriately.</td>
+			<td width="40" align="center"><input id="questionB_8_1" name="questionB_8" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionB_8_2" name="questionB_8" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionB_8_3" name="questionB_8" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">9. </td>
+			<td width="400" valign="top">The five steps of emotion coaching are: Be aware of emotions, Connect with your child, Listen to your child, Name emotions, and Find solutions.</td>
+			<td width="40" align="center"><input id="questionB_9_1" name="questionB_9" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionB_9_2" name="questionB_9" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionB_9_3" name="questionB_9" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">10. </td>
+			<td width="400" valign="top">It is helpful to tell a young child which emotions are OK and which emotions are not OK.</td>
+			<td width="40" align="center"><input id="questionB_10_1" name="questionB_10" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionB_10_2" name="questionB_10" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionB_10_3" name="questionB_10" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">11. </td>
+			<td width="400" valign="top">Frequently telling children they are the smartest and best helps to build their self-esteem.</td>
+			<td width="40" align="center"><input id="questionB_11_1" name="questionB_11" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionB_11_2" name="questionB_11" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionB_11_3" name="questionB_11" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">12. </td>
+			<td width="400" valign="top">Discipline means punishing bad behavior.</td>
+			<td width="40" align="center"><input id="questionB_12_1" name="questionB_12" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionB_12_2" name="questionB_12" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionB_12_3" name="questionB_12" type="radio" value="0" /></td>
+		</tr>
+	</table>
+	<br />		
+	<h1 style="padding-top:15px; margin-left:20px;">Behavior</h1>
+	<hr />	
+	<br />
+	<table border="0" cellpadding="0" cellspacing="0" class="question_table" style="border-collapse: collapse;">
+		<tr valign="bottom">
+			<td width="20" valign="top">&nbsp;</td>
+			<td width="400">&nbsp;</td>
+			<td width="40" align="center" valign="bottom"><b>Definitely Disagree</b></td>
+			<td width="40" align="center" valign="bottom"><b>Probably Disagree</b></td>
+			<td width="40" align="center" valign="bottom"><b>Not Sure</b></td>
+			<td width="40" align="center" valign="bottom"><b>Probably Agree</b></td>
+			<td width="40" align="center" valign="bottom"><b>Definitely Agree</b></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">13. </td>
+			<td width="400" valign="top">In my interactions with parents I talk about secure attachment.</td>
+			<td width="40" align="center"><input id="questionB_13_1" name="questionB_13" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionB_13_2" name="questionB_13" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionB_13_3" name="questionB_13" type="radio" value="0" /></td>
+			<td width="40" align="center"><input id="questionB_13_4" name="questionB_13" type="radio" value="3" /></td>
+			<td width="40" align="center"><input id="questionB_13_5" name="questionB_13" type="radio" value="4" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">14. </td>
+			<td width="400" valign="top">I feel confident coaching parents about temper tantrums and discipline.</td>
+			<td width="40" align="center"><input id="questionB_14_1" name="questionB_14" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionB_14_2" name="questionB_14" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionB_14_3" name="questionB_14" type="radio" value="0" /></td>
+			<td width="40" align="center"><input id="questionB_14_4" name="questionB_14" type="radio" value="3" /></td>
+			<td width="40" align="center"><input id="questionB_14_5" name="questionB_14" type="radio" value="4" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">15. </td>
+			<td width="400" valign="top">In my interactions with parents I encourage praising children for their efforts.</td>
+			<td width="40" align="center"><input id="questionB_15_1" name="questionB_15" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionB_15_2" name="questionB_15" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionB_15_3" name="questionB_15" type="radio" value="0" /></td>
+			<td width="40" align="center"><input id="questionB_15_4" name="questionB_15" type="radio" value="3" /></td>
+			<td width="40" align="center"><input id="questionB_15_5" name="questionB_15" type="radio" value="4" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">16. </td>
+			<td width="400" valign="top">In my interactions with parents I talk about emotion coaching.</td>
+			<td width="40" align="center"><input id="questionB_16_1" name="questionB_16" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionB_16_2" name="questionB_16" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionB_16_3" name="questionB_16" type="radio" value="0" /></td>
+			<td width="40" align="center"><input id="questionB_16_4" name="questionB_16" type="radio" value="3" /></td>
+			<td width="40" align="center"><input id="questionB_16_5" name="questionB_16" type="radio" value="4" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">17. </td>
+			<td width="400" valign="top">I feel confident talking to parents about social and emotional development.</td>
+			<td width="40" align="center"><input id="questionB_17_1" name="questionB_17" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionB_17_2" name="questionB_17" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionB_17_3" name="questionB_17" type="radio" value="0" /></td>
+			<td width="40" align="center"><input id="questionB_17_4" name="questionB_17" type="radio" value="3" /></td>
+			<td width="40" align="center"><input id="questionB_17_5" name="questionB_17" type="radio" value="4" /></td>
+		</tr>
+	</table>	
+    <div style="width:100%">
+        <div style="float:right">
+            <button type="button" onclick="javascript:nav('section1', 'section2');">Back</button>
+            <button type="button" onclick="javascript:nav('section3', 'section2');">Next</button>
+        </div>
+    </div>
+</div>
+
+<!--section3-->
+<div id="section3" style="margin:20px;width:820px;">
+    <div style="width:100%; background-color:#dedede; height:75px;">
+	    <h1 style="padding-left: 10px; padding-top:10px;">Learning and Cognitive Development</h1>
+	    <h2 style="padding-left: 10px;">All Questions are Required</h2>
+	</div>
+	
+	<br />	
+	<h1 style="margin-left:20px;">Knowledge</h1>
+	<hr />
+	<br />
+	<table border="0" cellpadding="0" cellspacing="0" class="question_table" style="border-collapse: collapse;">
+		<tr valign="bottom">
+			<td width="20" valign="top">&nbsp;</td>
+			<td width="400">&nbsp;</td>
+			<td width="40" align="center" valign="bottom"><b>Correct Statement</b></td>
+			<td width="40" align="center" valign="bottom"><b>Incorrect Statement</b></td>
+			<td width="40" align="center" valign="bottom"><b>Not Sure</b></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">1. </td>
+			<td width="400" valign="top">Parents can support cognitive development by supporting their children's secure attachment.</td>
+			<td width="40" align="center"><input id="questionC_1_1" name="questionC_1" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionC_1_2" name="questionC_1" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionC_1_3" name="questionC_1" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">2. </td>
+			<td width="400" valign="top">New learning builds on prior learning.</td>
+			<td width="40" align="center"><input id="questionC_2_1" name="questionC_2" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionC_2_2" name="questionC_2" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionC_2_3" name="questionC_2" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">3. </td>
+			<td width="400" valign="top">Infants are not affected by what happens around them because they can’t remember it.</td>
+			<td width="40" align="center"><input id="questionC_3_1" name="questionC_3" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionC_3_2" name="questionC_3" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionC_3_3" name="questionC_3" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">4. </td>
+			<td width="400" valign="top">Sounds, smells, emotions, and feeling safe or unsafe are part of how memories are encoded in early childhood.</td>
+			<td width="40" align="center"><input id="questionC_4_1" name="questionC_4" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionC_4_2" name="questionC_4" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionC_4_3" name="questionC_4" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">5. </td>
+			<td width="400" valign="top">Children learn best by interacting with other people.</td>
+			<td width="40" align="center"><input id="questionC_5_1" name="questionC_5" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionC_5_2" name="questionC_5" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionC_5_3" name="questionC_5" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">6. </td>
+			<td width="400" valign="top">Researchers believe that a class of neuron in the brain called "mirror neurons" may play an important role in early imitation.</td>
+			<td width="40" align="center"><input id="questionC_6_1" name="questionC_6" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionC_6_2" name="questionC_6" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionC_6_3" name="questionC_6" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">7. </td>
+			<td width="400" valign="top">If a toddler repeats the same activity over and over (such as filling and emptying a container) he or she should be moved to a new activity.</td>
+			<td width="40" align="center"><input id="questionC_7_1" name="questionC_7" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionC_7_2" name="questionC_7" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionC_7_3" name="questionC_7" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">8. </td>
+			<td width="400" valign="top">Infants and young children use exploration and all of their senses as ways to learn.</td>
+			<td width="40" align="center"><input id="questionC_8_1" name="questionC_8" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionC_8_2" name="questionC_8" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionC_8_3" name="questionC_8" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">9. </td>
+			<td width="400" valign="top">Teaching colors, letters, and other academic skills early is the best way to get a child ready for kindergarten.</td>
+			<td width="40" align="center"><input id="questionC_9_1" name="questionC_9" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionC_9_2" name="questionC_9" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionC_9_3" name="questionC_9" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">10. </td>
+			<td width="400" valign="top">Back-and-forth interactions with infants help them learn about language, relationships, and emotions.</td>
+			<td width="40" align="center"><input id="questionC_10_1" name="questionC_10" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionC_10_2" name="questionC_10" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionC_10_3" name="questionC_10" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">11. </td>
+			<td width="400" valign="top">Instructional television or DVD’s are a good way to help an infant or toddler learn language and reading.</td>
+			<td width="40" align="center"><input id="questionC_11_1" name="questionC_11" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionC_11_2" name="questionC_11" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionC_11_3" name="questionC_11" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">12. </td>
+			<td width="400" valign="top">An 18-month old can be expected to share his or her toys during play.</td>
+			<td width="40" align="center"><input id="questionC_12_1" name="questionC_12" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionC_12_2" name="questionC_12" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionC_12_3" name="questionC_12" type="radio" value="0" /></td>
+		</tr>
+	</table>
+	<br />			
+	<h1 style="padding-top:15px; margin-left:20px;">Behavior</h1>
+	<hr />
+	<br />
+	<table border="0" cellpadding="0" cellspacing="0" class="question_table" style="border-collapse: collapse;">
+		<tr valign="bottom">
+			<td width="20" valign="top">&nbsp;</td>
+			<td width="400">&nbsp;</td>
+			<td width="40" align="center" valign="bottom"><b>Definitely Disagree</b></td>
+			<td width="40" align="center" valign="bottom"><b>Probably Disagree</b></td>
+			<td width="40" align="center" valign="bottom"><b>Not Sure</b></td>
+			<td width="40" align="center" valign="bottom"><b>Probably Agree</b></td>
+			<td width="40" align="center" valign="bottom"><b>Definitely Agree</b></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">13. </td>
+			<td width="400" valign="top">In my interactions with parents I talk about the benefits of play.</td>
+			<td width="40" align="center"><input id="questionC_13_1" name="questionC_13" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionC_13_2" name="questionC_13" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionC_13_3" name="questionC_13" type="radio" value="0" /></td>
+			<td width="40" align="center"><input id="questionC_13_4" name="questionC_13" type="radio" value="3" /></td>
+			<td width="40" align="center"><input id="questionC_13_5" name="questionC_13" type="radio" value="4" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">14. </td>
+			<td width="400" valign="top">In my interactions with parents I share ideas about how to play and interact with their child at different ages.</td>
+			<td width="40" align="center"><input id="questionC_14_1" name="questionC_14" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionC_14_2" name="questionC_14" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionC_14_3" name="questionC_14" type="radio" value="0" /></td>
+			<td width="40" align="center"><input id="questionC_14_4" name="questionC_14" type="radio" value="3" /></td>
+			<td width="40" align="center"><input id="questionC_14_5" name="questionC_14" type="radio" value="4" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">15. </td>
+			<td width="400" valign="top">I feel confident talking with parents about cognitive development and learning.</td>
+			<td width="40" align="center"><input id="questionC_15_1" name="questionC_15" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionC_15_2" name="questionC_15" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionC_15_3" name="questionC_15" type="radio" value="0" /></td>
+			<td width="40" align="center"><input id="questionC_15_4" name="questionC_15" type="radio" value="3" /></td>
+			<td width="40" align="center"><input id="questionC_15_5" name="questionC_15" type="radio" value="4" /></td>
+		</tr>
+	</table>
+    <div style="width:100%">
+        <div style="float:right">
+            <button type="button" onclick="javascript:nav('section2', 'section3');">Back</button>
+            <button type="button" onclick="javascript:nav('section4', 'section3');">Next</button>
+        </div>
+    </div>
+</div>
+
+<!--section4-->
+<div id="section4" style="margin:20px;width:820px;">
+    <div style="width:100%; background-color:#dedede; height:75px;">
+	    <h1 style="padding-left: 10px; padding-top:10px;">Communication and Language Development</h1>
+	    <h2 style="padding-left: 10px;">All Questions are Required</h2>
+	</div>
+	
+	<br />	
+	<h1 style="margin-left:20px;">Knowledge</h1>
+	<hr />
+	<br />
+	<table border="0" cellpadding="0" cellspacing="0" class="question_table" style="border-collapse: collapse;">
+		<tr valign="bottom">
+			<td width="20" valign="top">&nbsp;</td>
+			<td width="400">&nbsp;</td>
+			<td width="40" align="center" valign="bottom"><b>Correct Statement</b></td>
+			<td width="40" align="center" valign="bottom"><b>Incorrect Statement</b></td>
+			<td width="40" align="center" valign="bottom"><b>Not Sure</b></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">1. </td>
+			<td width="400" valign="top">How much language young children hear in their homes does not affect their language development.</td>
+			<td width="40" align="center"><input id="questionD_1_1" name="questionD_1" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionD_1_2" name="questionD_1" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionD_1_3" name="questionD_1" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">2. </td>
+			<td width="400" valign="top">Infants communicate with their parents before they can talk.</td>
+			<td width="40" align="center"><input id="questionD_2_1" name="questionD_2" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionD_2_2" name="questionD_2" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionD_2_3" name="questionD_2" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">3. </td>
+			<td width="400" valign="top">Talking to an infant encourages  language development.</td>
+			<td width="40" align="center"><input id="questionD_3_1" name="questionD_3" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionD_3_2" name="questionD_3" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionD_3_3" name="questionD_3" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">4. </td>
+			<td width="400" valign="top">Reading to an infant supports the development of early communication when the infant points, makes sounds and helps to turn the pages.</td>
+			<td width="40" align="center"><input id="questionD_4_1" name="questionD_4" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionD_4_2" name="questionD_4" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionD_4_3" name="questionD_4" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">5. </td>
+			<td width="400" valign="top">The only way a child learns to read is by looking at books.</td>
+			<td width="40" align="center"><input id="questionD_5_1" name="questionD_5" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionD_5_2" name="questionD_5" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionD_5_3" name="questionD_5" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">6. </td>
+			<td width="400" valign="top">When children feel stressed, upset, or tired they are not able to learn as well.</td>
+			<td width="40" align="center"><input id="questionD_6_1" name="questionD_6" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionD_6_2" name="questionD_6" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionD_6_3" name="questionD_6" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">7. </td>
+			<td width="400" valign="top">Every infant has his or her own unique cues.</td>
+			<td width="40" align="center"><input id="questionD_7_1" name="questionD_7" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionD_7_2" name="questionD_7" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionD_7_3" name="questionD_7" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">8. </td>
+			<td width="400" valign="top">Early communication and verbal development are related, but not the same thing.</td>
+			<td width="40" align="center"><input id="questionD_8_1" name="questionD_8" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionD_8_2" name="questionD_8" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionD_8_3" name="questionD_8" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">9. </td>
+			<td width="400" valign="top">Emergent literacy is another term for reading.</td>
+			<td width="40" align="center"><input id="questionD_9_1" name="questionD_9" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionD_9_2" name="questionD_9" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionD_9_3" name="questionD_9" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">10. </td>
+			<td width="400" valign="top">It is important to wait until a child can sit still for a short story before you start reading to them, to avoid frustration.</td>
+			<td width="40" align="center"><input id="questionD_10_1" name="questionD_10" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionD_10_2" name="questionD_10" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionD_10_3" name="questionD_10" type="radio" value="0" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">11. </td>
+			<td width="400" valign="top">Reading together should be a pleasant and enjoyable time for a child.</td>
+			<td width="40" align="center"><input id="questionD_11_1" name="questionD_11" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionD_11_2" name="questionD_11" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionD_11_3" name="questionD_11" type="radio" value="0" /></td>
+		</tr>
+	</table>
+	<br />			
+	<h1 style="padding-top:15px; margin-left:20px;">Behavior</h1>
+	<hr />
+	<br />
+	<table border="0" cellpadding="0" cellspacing="0" class="question_table" style="border-collapse: collapse;">
+		<tr valign="bottom">
+			<td width="20" valign="top">&nbsp;</td>
+			<td width="400">&nbsp;</td>
+			<td width="40" align="center" valign="bottom"><b>Definitely Disagree</b></td>
+			<td width="40" align="center" valign="bottom"><b>Probably Disagree</b></td>
+			<td width="40" align="center" valign="bottom"><b>Not Sure</b></td>
+			<td width="40" align="center" valign="bottom"><b>Probably Agree</b></td>
+			<td width="40" align="center" valign="bottom"><b>Definitely Agree</b></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">12. </td>
+			<td width="400" valign="top">In my interactions with parents I encourage parents to talk to their child and allow their child time to respond, verbally or non-verbally.</td>
+			<td width="40" align="center"><input id="questionD_12_1" name="questionD_12" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionD_12_2" name="questionD_12" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionD_12_3" name="questionD_12" type="radio" value="0" /></td>
+			<td width="40" align="center"><input id="questionD_12_4" name="questionD_12" type="radio" value="3" /></td>
+			<td width="40" align="center"><input id="questionD_12_5" name="questionD_12" type="radio" value="4" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">13. </td>
+			<td width="400" valign="top">In my interactions with parents I talk about how to understand their baby’s cues.</td>
+			<td width="40" align="center"><input id="questionD_13_1" name="questionD_13" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionD_13_2" name="questionD_13" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionD_13_3" name="questionD_13" type="radio" value="0" /></td>
+			<td width="40" align="center"><input id="questionD_13_4" name="questionD_13" type="radio" value="3" /></td>
+			<td width="40" align="center"><input id="questionD_13_5" name="questionD_13" type="radio" value="4" /></td>
+		</tr>
+		<tr>
+			<td width="20" valign="top">14. </td>
+			<td width="400" valign="top">I feel confident talking with parents about communication and language.</td>
+			<td width="40" align="center"><input id="questionD_14_1" name="questionD_14" type="radio" value="1" /></td>
+			<td width="40" align="center"><input id="questionD_14_2" name="questionD_14" type="radio" value="2" /></td>
+			<td width="40" align="center"><input id="questionD_14_3" name="questionD_14" type="radio" value="0" /></td>
+			<td width="40" align="center"><input id="questionD_14_4" name="questionD_14" type="radio" value="3" /></td>
+			<td width="40" align="center"><input id="questionD_14_5" name="questionD_14" type="radio" value="4" /></td>
+		</tr>
+	</table>
+    <div style="width:100%">
+        <div style="float:right">
+            <button type="button" onclick="javascript:nav('section3', 'section4');">Back</button>
+        </div>
+    </div>
+</div>
+
+<div style="width:100%;height:5px;background:#F6BC13;overflow:hidden;">&nbsp;</div>
+<div style="width:100%;height:60px;padding-top:10px;background:#0057A7;">
+	<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;">
+		<tr>
+			<td align="right">
+				<div style="padding-right:40px;">
+					<!--logo-->
+				</div>
+			</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_slider" view="view_hslider_links">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="useControls" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Infant Milestones</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Physical Milestones&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="51" width="733" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Let's learn more about the physical development of infants.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="367" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click the &lt;B&gt;milestones&lt;/B&gt; below.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="-3" y="305" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" bytes="84543">01_02_010_00.jpg</file>
+			<notes id="description">general timeline image with infant on left side</notes>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" duration="86" bytes="29275" startpos="1">a_01_02_011_00.swf</file>
+			<transcript translate="true">Let's learn more about the physical development of infants. To see some of the highlights, click the milestones below.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="dev_assets" expanded="true">
+		<area id="panel_mask" behavior="" x="7" y="109" width="768" height="185" visible="false" fx=""/>
+	</section>
+	<section id="buttons" align="TOP" spacing="0" autospace="false" exclusive="false" expanded="true">
+		<container id="forward_button" behavior="STRICT|LOCK_SIZE" x="916" y="228" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="false">
+				<file play="false" bytes="1755" startpos="1" duration="30">mc_slider_next.swf</file>
+			</graphic>
+			<text id="text" x="0" y="0" width="1" height="1" autosize="" style="CONTROLS" visible="false">
+				<content/>
+			</text>
+		</container>
+		<container id="reverse_button" behavior="STRICT|LOCK_SIZE" x="20" y="225" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="false">
+				<file play="false" bytes="1810" startpos="1" duration="30">mc_slider_back.swf</file>
+			</graphic>
+			<text id="text" x="0" y="0" width="1" height="1" autosize="" style="CONTROLS" visible="false">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="panels" expanded="true">
+		<container id="panel01" behavior="LOCK_SIZE" x="25" y="110" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="724" height="180" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="126226" startpos="1">01_02_010_01.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;group of infants- maybe a collage of the photos in the coming slides&lt;/P&gt;</notes>
+			</graphic>
+			<text id="header" x="320" y="55" width="225" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content/>
+			</text>
+			<text id="text" x="320" y="80" width="270" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel02" behavior="LOCK_SIZE" x="499.8" y="209.3" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="724" height="180" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="58129" startpos="1">01_02_010_02.jpg</file>
+				<notes id="description">Talaris image 142</notes>
+			</graphic>
+			<text id="header" x="290" y="15" width="225" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Hearing</content>
+			</text>
+			<text id="text" x="290" y="40" width="408" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Overview:&lt;/B&gt; Display well-developed hearing (at birth) &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Description:&lt;/B&gt; Even before birth, babies have been shown to respond to sound stimuli within a limited range of sound frequencies. At birth, most babies hear quite well with the exception of very quiet sounds. &lt;/P&gt;</content>
+			</text>
+			<graphic id="ref_icon01" x="682" y="98" width="15" height="15" style="LINK_SWF" visible="true" fx="">
+				<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+		<container id="panel03" behavior="LOCK_SIZE" x="472.55" y="243.2" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="724" height="180" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="44341" startpos="1">01_02_010_03.jpg</file>
+				<notes id="description">Talaris image 143</notes>
+			</graphic>
+			<text id="header" x="290" y="15" width="300" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Smell</content>
+			</text>
+			<text id="text" x="290" y="40" width="410" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Overview: &lt;/B&gt;Prefer sweet smells over bitter or acidic smells (0–3 months)&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Description:&lt;/B&gt; Newborns are attracted to the smell of breastmilk, and experiments show that they will vigorously turn away from bitter or acidic smells such as vinegar, ammonia, or rotten eggs.&lt;/P&gt;</content>
+			</text>
+			<graphic id="ref_icon02" x="613" y="112" width="15" height="15" style="LINK_SWF" visible="true" fx="">
+				<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+		<container id="panel04" behavior="LOCK_SIZE" x="390.05" y="252.5" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="724" height="180" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="180" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="58353" startpos="1">01_02_010_04.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;istock 3158746  (baby under green blanket)&lt;/P&gt;</notes>
+			</graphic>
+			<text id="header" x="290" y="15" width="225" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Vision</content>
+			</text>
+			<text id="text" x="290" y="40" width="410" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Overview:&lt;/B&gt; Develop full color vision (4–7 months)&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Description: &lt;/B&gt;Color vision doesn't fully develop until about four months. After four months, babies are able to distinguish between even closely related colors such as green and turquoise.&lt;/P&gt;</content>
+			</text>
+			<graphic id="ref_icon03" x="618" y="97" width="15" height="15" style="LINK_SWF" visible="true" fx="">
+				<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference03" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+		<container id="panel05" behavior="LOCK_SIZE" x="296.4" y="252.5" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="724" height="180" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="180" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="28183" startpos="1">01_02_010_05.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;R:\ActiveProjects\Talaris\_parentingcounts\_design\Screencaps  picture of girl baby in pink with toy in mouth&lt;/P&gt;</notes>
+			</graphic>
+			<text id="header" x="290" y="15" width="225" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Touch</content>
+			</text>
+			<text id="text" x="290" y="40" width="410" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Overview:&lt;/B&gt; Can distinguish between lumpy and smooth objects with mouth (1–7 months)&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Description:&lt;/B&gt; Within their first few months, babies are capable of integrating some types of sensory information. One experiment showed that babies are able to match the information they receive through their mouths (touch) with visual information. &lt;/P&gt;</content>
+			</text>
+			<graphic id="ref_icon04" x="592" y="127" width="15" height="15" style="LINK_SWF" visible="true" fx="">
+				<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference04" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+		<container id="panel06" behavior="LOCK_SIZE" x="25" y="200" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="724" height="180" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="260" height="180" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="41901" startpos="1">01_02_010_06.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;R:\ActiveProjects\Talaris\_parentingcounts\_design\Screencaps  picture of infant boy in seat reaching for toys&lt;/P&gt;</notes>
+			</graphic>
+			<text id="header" x="290" y="15" width="225" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Grasping</content>
+			</text>
+			<text id="text" x="290" y="40" width="410" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Overview:&lt;/B&gt; Can reach out and grasp moving objects (5–8 months)&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Description: &lt;/B&gt;At around five months, most babies become more skilled in their reaching and grasping attempts. This includes the ability to grasp moving objects. Babies' growing curiosity and abilities lead them to try new things, so parents and caregivers should arrange the environment to minimize the possibility of falls, bumps, and bruises that can result from unexpected new movements. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+			<graphic id="ref_icon05" x="623" y="141" width="15" height="15" style="LINK_SWF" visible="true" fx="">
+				<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference05" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+		<container id="panel07" behavior="LOCK_SIZE" x="6.95" y="209.3" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="724" height="180" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="260" height="180" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="48828" startpos="1">01_02_010_07.jpg</file>
+				<notes id="description">#179 11 mo. Brooklynn - 134-173.JPG</notes>
+			</graphic>
+			<text id="header" x="290" y="15" width="225" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Dexterity</content>
+			</text>
+			<text id="text" x="290" y="40" width="420" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Overview: &lt;/B&gt;Place objects into and out of containers (8–12 months)&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Description:&lt;/B&gt; As they approach 12 months, babies use their improved coordination to investigate the objects they find. They demonstrate their growing hand and finger skills by placing objects into containers and taking them out again. Infants this age are just beginning to understand where things go when they can’t see them anymore. Being able to make an object “go away” by putting it into a container and then “come back” by bringing it out is an activity they may want to repeat again and again.&lt;/P&gt;</content>
+			</text>
+			<graphic id="ref_icon06" x="704" y="156" width="15" height="15" style="LINK_SWF" visible="true" fx="">
+				<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference06" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+	</section>
+	<section id="panel_shortcuts" align="TOP" spacing="70x0" autospace="true" columns="0" expanded="true">
+		<graphic id="link01" x="-68" y="340" width="" height="" style="LINK_SWF" visible="false" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link02" x="" y="" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2009" startpos="1">01_02_010_00_01.png</file>
+			<notes id="description"/>
+		</graphic>
+		<graphic id="link03" x="" y="" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2251" startpos="1">01_02_010_00_02.png</file>
+		</graphic>
+		<graphic id="link04" x="" y="" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2281" startpos="1">01_02_010_00_03.png</file>
+		</graphic>
+		<graphic id="link05" x="" y="" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2129" startpos="1">01_02_010_00_04.png</file>
+		</graphic>
+		<graphic id="link06" x="" y="" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2271" startpos="1">01_02_010_00_05.png</file>
+		</graphic>
+		<graphic id="link07" x="" y="" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2317" startpos="1">01_02_010_00_06.png</file>
+		</graphic>
+	</section>
+	<section id="swap_audio" expanded="true"/>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="188" y="370" width="46" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Intro</content>
+		</text>
+		<text id="misc_text02" x="80" y="350" width="58" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Hearing</content>
+		</text>
+		<text id="misc_text03" x="205" y="350" width="65" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Smell</content>
+		</text>
+		<text id="misc_text04" x="330" y="350" width="93" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Vision</content>
+		</text>
+		<text id="misc_text05" x="455" y="350" width="58" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Touch</content>
+		</text>
+		<text id="misc_text06" x="580" y="350" width="65" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Grasping</content>
+		</text>
+		<text id="misc_text07" x="705" y="350" width="93" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Dexterity</content>
+		</text>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="275" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="500" height="200" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="420" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="40" width="470" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Aslin, R. N., Pisoni, D. B., &amp; Jusczyk, P.W. (1983). Auditory development and speech perception in infancy. In P. H. Mussen (Series Ed.), M. M. Haith, &amp; J. J. Campos (Vol. Eds.), &lt;I&gt;Handbook of child psychology&lt;/I&gt;: Vol. 2. Infancy and developmental psychobiology (4th ed., pp. 573–687). New York, NY: Wiley. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Peck, J. E. (1995). Development of hearing. Part III. Postnatal development. &lt;I&gt;Journal of the American Academy of Audiology, 6&lt;/I&gt;, 113–123. &lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="275" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="500" height="200" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="420" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="50" width="458" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Shelov, S. P. (Editor-in-Chief). (2009). &lt;I&gt;Caring for Your Baby and Young Child: Birth to Age 5.&lt;/I&gt; The American Association of Pediatrics (5th ed.). New York, NY: Bantam Books.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Steiner, J. E. (1979). Human facial expressions in response to taste and smell stimulation. In H. W. Reese, H. W., &amp; Lipsitt, L. P. (Eds.), &lt;I&gt;Advances in child development and behavior&lt;/I&gt;. Orlando, FL: Academic Press. &lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference03" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="431" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Shelov, S. P. (Editor-in-Chief). (2009). &lt;I&gt;Caring for Your Baby and Young Child: Birth to Age 5.&lt;/I&gt; The American Association of Pediatrics (5th ed.). New York, NY: Bantam Books. &lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference04" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="431" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Meltzoff, A. N., &amp; Borton, R. W. (1979). Intermodal matching by human neonates. &lt;I&gt;Nature, 282&lt;/I&gt;, 403–404. &lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference05" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="431" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Robin, D. J., Berthier, N. E., &amp; Clifton, R. K. (1996). Infants' predictive reaching for moving objects in the dark. &lt;I&gt;Developmental Psychology, 32&lt;/I&gt;, 824–835.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference06" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="431" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Shelov, S. P. (Editor-in-Chief). (2009). &lt;I&gt;Caring for Your Baby and Young Child: Birth to Age 5&lt;/I&gt;. The American Association of Pediatrics (5th ed.). New York, NY: Bantam Books..&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="reference_links_b" expanded="true">
+		<graphic id="ref_icon01_b" x="10" y="420" width="50" height="50" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01_b" result_param=""/>
+				<event type="" result="" target="" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01_b" behavior="STRICT|LOCK_SIZE" x="0" y="235" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">For a more complete list of milestones, click the link in the &lt;B&gt;Resource Center&lt;/B&gt;.</content>
+			</text>
+		</container>
+	</section>
+</template>

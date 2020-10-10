@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_carousel" view="view_carousel_large">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="rangeX" datatype="NUMBER" value="600"/>
+		<settings id="rangeY" datatype="NUMBER" value="0"/>
+		<settings id="rangeZ" datatype="NUMBER" value="600"/>
+		<settings id="playFirstPanel" datatype="LIST" value="TRUE"/>
+		<settings id="disablePanels" datatype="LIST" value="TRUE"/>
+		<settings id="useControls" datatype="LIST" value="TRUE"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Language Development and Literacy</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Is Emergent Literacy?&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="697" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Children progress from emergent to conventional literacy when they have the support of professionals, parents, and caregivers. They also need exposure to a literacy-rich environment to successfully progress from emergent to conventional literacy.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="350" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click the &lt;B&gt;Forward &lt;/B&gt;and &lt;B&gt;Back&lt;/B&gt; buttons to learn more.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="420" y="54" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1"/>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" bytes="67203" startpos="1" duration="196">a_04_01_02_020_01.swf</file>
+			<transcript translate="true">Children progress from emergent to conventional literacy when they have the support of professionals, parents, and caregivers. They also need exposure to a literacy-rich environment to successfully progress from emergent to conventional literacy. Click the Forward and Back buttons to learn more.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="buttons" align="TOP" spacing="0" autospace="false" exclusive="false" expanded="true">
+		<container id="forward_button" behavior="LOCK_SIZE" x="410" y="130" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="true" fx="">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="85" y="10" width="" height="" style="CONTROLS" visible="true" fx="">
+				<file play="false" startpos="1" bytes="212">right_arrow.png</file>
+			</graphic>
+			<text id="text" x="8" y="8" width="88" height="18" autosize="" style="CONTROLS" visible="true" fx="">
+				<content translate="true">Forward</content>
+			</text>
+		</container>
+		<container id="reverse_button" behavior="LOCK_SIZE" x="255" y="245" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="true" fx="">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="35" y="10" width="" height="" style="CONTROLS" visible="true" fx="">
+				<file play="false" startpos="1" bytes="223">left_arrow.png</file>
+			</graphic>
+			<text id="text" x="19" y="8" width="89" height="18" autosize="" style="CONTROLS" visible="true" fx="">
+				<content translate="true">Back</content>
+			</text>
+		</container>
+	</section>
+	<section id="panels" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="panel01" behavior="" x="100" y="165" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="" x="0" y="0" width="588" height="248" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="600" height="260" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="100004" startpos="1">04_01_02_020_00.jpg</file>
+				<notes id="description">istock #: 5892035 (group of children reading)</notes>
+			</graphic>
+			<text id="header" x="220" y="15" width="225" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content/>
+			</text>
+			<text id="text" x="220" y="40" width="270" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel02" behavior="LOCK_SIZE" x="501.75" y="246.05" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="588" height="248" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="210" height="260" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="80761" startpos="1">04_01_02_020_01.jpg</file>
+				<notes id="description">grandparent and child reading</notes>
+			</graphic>
+			<text id="header" x="225" y="15" width="225" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Early Literacy</content>
+			</text>
+			<text id="text" x="225" y="40" width="331" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Literacy development begins in the very early stages of childhood. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Research shows that both the relationship with parents and caregivers, and the quality of the child's literacy environment, play a significant role in determining his or her preparedness for and early success in school. &lt;/P&gt;</content>
+			</text>
+			<graphic id="ref_icon01" x="342" y="150" width="15" height="15" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+				<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable2.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+		<container id="panel03" behavior="LOCK_SIZE" x="409.8" y="270.65" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="588" height="248" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="210" height="260" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="59947" startpos="1">04_01_02_020_02.jpg</file>
+				<notes id="description">toddler drawing</notes>
+			</graphic>
+			<text id="header" x="225" y="15" width="300" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Early Literacy Activities</content>
+			</text>
+			<text id="text" x="225" y="40" width="340" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Often the activities of young children may not seem related to reading and writing. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Early behaviors such as “reading” from pictures and “writing” with scribbles are examples of emergent literacy and are an important part of a child’s &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;literacy development. &lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="panel04" behavior="LOCK_SIZE" x="277.75" y="270.65" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="588" height="248" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="210" height="260" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="53815" startpos="1">04_01_02_020_03.jpg</file>
+				<notes id="description">istock #: 2981297 (young girl talking on the phone)</notes>
+			</graphic>
+			<text id="header" x="225" y="15" width="225" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Language Development</content>
+			</text>
+			<text id="text" x="225" y="40" width="367" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Language development is the basis for literacy and&lt;/P&gt;&lt;P ALIGN="LEFT"&gt; is strongly tied to children’s growth in both reading &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;and writing. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;To achieve literacy, children must first acquire many basic concepts and strategies such as:&lt;/P&gt;&lt;LI&gt;An awareness of the sounds that make up language &lt;/LI&gt;&lt;LI&gt;An ability to rhyme syllables and words&lt;/LI&gt;&lt;LI&gt;A familiarity with print materials &lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Researchers have found that perhaps the most &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;significant factor in determining children’s reading &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;success is their oral language skill.&lt;/P&gt;</content>
+			</text>
+			<graphic id="ref_icon03" x="445" y="228" width="15" height="15" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+				<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable2.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference03" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+		<container id="panel05" behavior="LOCK_SIZE" x="72.4" y="246.05" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="588" height="248" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="210" height="260" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="71421" startpos="1">04_01_02_020_04.jpg</file>
+				<notes id="description">istock#: 10003170 (group a preschool-aged children drawing)
+</notes>
+			</graphic>
+			<text id="header" x="225" y="15" width="278" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Language Skills of Children Ages 3–5</content>
+			</text>
+			<text id="text" x="225" y="40" width="342" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Language skills develop quickly and significantly in children ages 3 to 5 years. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Some research indicates that preschoolers learn approximately nine new words a day. Children's ability to use and combine these words to express themselves also increases during the preschool years. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;By age 5, most children have learned approximately 5,000 words. &lt;/P&gt;</content>
+			</text>
+			<graphic id="ref_icon04" x="307" y="180" width="15" height="15" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+				<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable2.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference04" result_param=""/>
+				</eventlist>
+				<notes id="description"/>
+			</graphic>
+		</container>
+	</section>
+	<section id="swap_content" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true"/>
+	<section id="swap_audio" expanded="true"/>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;McLane, J. B. &amp; McNamee, G. D. (1990). &lt;I&gt;Early Literacy&lt;/I&gt;. Cambridge, MA: Harvard University Press. &lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference03" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Wood, C. &amp; Terrell, C. (1998). Pre-school phonological awareness and subsequent literacy development. &lt;I&gt;Education Psychology, 18&lt;/I&gt;(3), 253-274.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference04" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Mayes, L. C. &amp; Cohen, D. J. (2002). &lt;I&gt;The Yale Child Study Center guide to understanding your child.&lt;/I&gt; New York, NY: Little, Brown and Company. &lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

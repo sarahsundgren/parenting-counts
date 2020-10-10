@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<graphic id="background" x="0" y="0" width="795" height="533" behavior="LOCK_XY|LOCK_SIZE" style="PLAIN" visible="true" fx="SHOW" hidefx="HIDE" disabled="true">
+		<file play="false" bytes="5827" startpos="1">wizard.jpg</file>
+		<eventlist>
+			<event type="CLICK" result="DISABLE" target="_self" result_param=""/>
+		</eventlist>
+	</graphic>
+	<text id="title" x="37" y="35" width="456" height="" autosize="H" style="WIZARD_TITLE" visible="true" fx="SHOW" hidefx="HIDE">
+		<content translate="true">Conversation with Parents Discussion </content>
+	</text>
+	<text id="material" x="37" y="65" width="687" height="346" autosize="" style="WIZARD_TEXT" visible="true" fx="SHOW" hidefx="HIDE" scroll="AUTO">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Discussion Topic&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Jill is 12 months old. Jill's mother is concerned because her daughter doesn't say any words. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;What counsel could you offer Jill's mother in this situation?&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Sample Responses&lt;/B&gt;&lt;/P&gt;&lt;LI&gt;Remind her that every child develops at his or her own pace, but if she has developmental concerns, she can talk with her medical provider. &lt;I&gt;(Correct)&lt;/I&gt;&lt;/LI&gt;&lt;LI&gt;Encourage Jill's mother to talk, sing, and read with her daughter. &lt;I&gt;(Correct)&lt;/I&gt;&lt;/LI&gt;&lt;LI&gt;Recommend to Jill's mother that she take Jill to speech therapy. &lt;I&gt;(Incorrect)&lt;/I&gt;&lt;/LI&gt;&lt;LI&gt;Tell her the guideline that children say their first word at 12 months is just that: a guideline. &lt;I&gt;(Correct)&lt;/I&gt;&lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Sample Feedback&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Remind Jill's mother that the ages of development are guidelines and that every child will develop at their own pace. Jill is only 12 months old and has plenty of time to begin talking. Explain to her that children at this age may not say much, but they can understand a lot. Encourage Jill's mother to continually talk to her daughter during play and everyday activities. She can also expose Jill to words and sounds by reading to her.&lt;B&gt;&lt;/B&gt;&lt;/P&gt;</content>
+	</text>
+	<graphic id="print" x="647" y="430" width="" height="" behavior="" style="CONTROLS" visible="true" fx="SHOW" hidefx="HIDE">
+		<file play="false" bytes="3602" startpos="1" duration="23">btn_print.swf</file>
+		<eventlist>
+			<event type="CLICK" result="CALL_FUNCTION" target="PAGE" result_param="printWizard();"/>
+		</eventlist>
+	</graphic>
+</template>

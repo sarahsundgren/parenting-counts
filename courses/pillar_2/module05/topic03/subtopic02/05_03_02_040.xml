@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Balancing Praise and Criticism</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Appropriate Praise&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="60" width="692" height="" autosize="H" style="DEFAULT" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Research by Dr. John Gottman suggests that when criticism occurs, it takes approximately five positive acts to counterbalance the negative effects of the criticism.</content>
+		</text>
+		<text id="text02" x="27" y="109.2" width="424" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">These positive acts are simple bids for fondness or admiration.</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="30" y="142" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="30967" startpos="1" play="false">05_03_02_040_01.jpg</file>
+			<notes id="description">cut out of a scale tipped to the left weighed down by a stone.</notes>
+		</graphic>
+		<graphic id="graphic02" x="30" y="142" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="80443" startpos="1" play="false">05_03_02_040_08.jpg</file>
+			<notes id="description">cut out of a same scale from graphic01 but scale is now even with one stone on left and five stones on right.</notes>
+		</graphic>
+		<graphic id="graphic03" x="75" y="179" width="" height="" style="" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">same stone as graphic09</notes>
+		</graphic>
+		<graphic id="graphic04" x="422" y="252" width="" height="" style="" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">a stone</notes>
+		</graphic>
+		<graphic id="graphic05" x="580" y="245" width="" height="" style="" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">a stone</notes>
+		</graphic>
+		<graphic id="graphic06" x="432" y="184" width="" height="" style="" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">a stone</notes>
+		</graphic>
+		<graphic id="graphic07" x="559" y="204" width="" height="" style="" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">a stone</notes>
+		</graphic>
+		<graphic id="graphic08" x="505" y="127" width="" height="" style="" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">a stone</notes>
+		</graphic>
+		<graphic id="graphic09" x="50" y="262" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">a stone</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="68291" startpos="1" duration="200">a_05_03_02_040_01.swf</file>
+			<transcript translate="true">Research by Dr. John Gottman suggests that when criticism occurs, it takes approximately five positive acts to counterbalance the negative effects of the criticism. Positive acts of praise are more powerful and help children know what to do, instead of what not to do.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="graphic01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="graphic09" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text07" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="18387" startpos="1" duration="54">a_05_03_02_040_02.swf</file>
+			<transcript translate="true">These positive acts are simple bids for fondness or admiration.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic09" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="misc_text07" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="graphic02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="graphic03" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="graphic04" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="graphic05" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="graphic06" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="graphic07" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="graphic08" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text03" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text04" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text05" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text06" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="110" y="238" width="123" height="" autosize="H" style="DEFAULT_2" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text02" x="434" y="274" width="115" height="" autosize="H" style="DEFAULT_2" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text03" x="601" y="267" width="120" height="" autosize="H" style="DEFAULT_2" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text04" x="442" y="208" width="118" height="" autosize="H" style="DEFAULT_2" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text05" x="559" y="210" width="141" height="" autosize="H" style="DEFAULT_2" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text06" x="517" y="154" width="106" height="" autosize="H" style="DEFAULT_2" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="nav_text" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="misc_text07" x="87" y="298" width="101" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+</template>

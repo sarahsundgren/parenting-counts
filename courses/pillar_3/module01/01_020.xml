@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="-50" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Conclusion</content>
+	</text>
+	<text id="nav_text" x="140" y="425" width="632" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">To continue, click another &lt;B&gt;Module &lt;/B&gt;from the top menu.</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="-50" y="90" width="384" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">In this module we explored how children learn. Specifically we discussed how:</content>
+		</text>
+		<text id="text02" x="-50" y="122" width="385" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Experience changes the brain.&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="-50" y="140" width="342" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Learning involves both implicit and explicit memory.&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="-50" y="172" width="361" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Learning is developmental.&lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="-50" y="191" width="375" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Learning is social.&lt;/LI&gt;</content>
+		</text>
+		<text id="text06" x="-50" y="50" width="374" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">In the modules that follow, you will learn more about how imitation, exploration, and play support cognitive learning and brain development.</content>
+		</text>
+		<text id="text07" x="-25" y="109" width="291" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Imitation: &lt;/B&gt;a&lt;B&gt; &lt;/B&gt;powerful way in which children learn from their parents and caregivers</content>
+		</text>
+		<text id="text08" x="-25" y="153" width="318" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Exploration:&lt;/B&gt; the way children investigate their environment in many ways in order to make sense of their world</content>
+		</text>
+		<text id="text09" x="-25" y="212" width="327" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Play:&lt;/B&gt; a critical way for parents to be able to support a child's exploration</content>
+		</text>
+		<text id="text10" x="-50" y="252" width="372" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Before you leave this overview module, consider reviewing the Pillar 3 Goals. These goals can be found by clicking the &lt;B&gt;Professional Icon&lt;/B&gt;. </content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="380" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="164560" play="false" startpos="1">01_020_01.png</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;asian girl working on a puzzle istock: #: 3345623&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic02" x="380" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="26054" play="false" startpos="1">01_020_04.png</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;baby on visual cliff (from slide 14 of Imitation PPT)&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic03" x="560" y="205" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="38328" play="false" startpos="1">01_020_03.png</file>
+			<notes id="description">toddler and 5-year-old at the zoo 
+01_03_02_011_03.jpg</notes>
+		</graphic>
+		<graphic id="graphic04" x="380" y="205" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="52664" play="false" startpos="1">01_020_02.png</file>
+			<notes id="description">#5 Cognitive &amp; Learning Master 4 yrs. Luisa - 15-34 from Learning and Cognition folder</notes>
+		</graphic>
+		<graphic id="graphic05" x="560" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="49005" play="false" startpos="1">01_020_05.png</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;A parent talking to a 2 yr. old 01_04_01_011_02.jpg&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic07" x="380" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="195945" play="false" startpos="1">01_020_06.png</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;#33 4 yrs. Luisa - 15-22 from Imitation folder in Cognition&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic08" x="380" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="179367" play="false" startpos="1">01_020_07.png</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;#11 6 mo. Mathias - 28-65 from Exploration folder in Cognition&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic09" x="380" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="180420" play="false" startpos="1">01_020_08.png</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;Peek-a-boo 1from Play folder in Cognition&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="42095" duration="123" startpos="1">a_01_02_01.swf</file>
+			<transcript translate="true">Congratulations! You have completed the Learning and Cognitive Development Overview. In this module we explored how children learn. Specifically we discussed how:</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="11607" duration="35" startpos="1">a_01_02_02.swf</file>
+			<transcript translate="true">Experience changes the brain.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="13111" duration="39" startpos="1">a_01_02_03.swf</file>
+			<transcript translate="true">Learning involves both implicit and explicit memory.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" bytes="6967" duration="21" startpos="1">a_01_02_04.swf</file>
+			<transcript translate="true">Learning is developmental.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" bytes="8483" duration="26" startpos="1">a_01_02_05.swf</file>
+			<transcript translate="true">And, that learning is social.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration06">
+			<file play="false" bytes="33151" duration="97" startpos="1">a_01_02_06.swf</file>
+			<transcript translate="true">In the modules that follow, you will learn more about how imitation, exploration, and play support cognitive learning and brain development.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text03" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text04" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text05" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="misc_text02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration07">
+			<file play="false" bytes="53851" duration="158" startpos="1">a_01_02_07.swf</file>
+			<transcript translate="true">We'll learn that imitation is a powerful way in which children learn from their parents and caregivers. For example, children learn how to talk on the telephone, how to vacuum the house, and even how to act appropriately from watching those around them.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic03" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic04" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic05" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration08">
+			<file play="false" bytes="61175" duration="179" startpos="1">a_01_02_08.swf</file>
+			<transcript translate="true">We'll also learn how children explore and investigate their environment in many ways in order to make sense of their world. Although this process begins during infancy, these processes become more sophisticated as children get older and their brain continues to develop.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration09">
+			<file play="false" bytes="79167" duration="231" startpos="1">a_01_02_09.swf</file>
+			<transcript translate="true">Finally, we'll learn that play is a critical way for parents to be able to support a child's exploration. Through play, children develop their creativity and imagination and learn many important problem-solving and social skills. As you will see, the primary ways in which children learn is through imitation, exploration, and play. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration10">
+			<file play="false" bytes="42419" duration="124" startpos="1">a_01_02_10.swf</file>
+			<transcript translate="true">Before you leave this overview module, consider reviewing the Pillar 3 Goals. These goals can be found by clicking the Professional Icon. To continue, click another Module.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="0" y="280" width="90" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text02" x="-50" y="50" width="402" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Congratulations! You have completed the Learning and Cognitive Development Overview.</content>
+		</text>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="-95" y="440" width="50" height="50" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="-95" y="245" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="40" width="378" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Goals of Pillar 3:&lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Explain the process of cognitive development and its relevance for learning in the context of social-emotional development. &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Describe the key research findings of cognition and learning for children.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Provide parenting strategies and tips to help support learning for children. &lt;/P&gt;&lt;/TEXTFORMAT&gt;</content>
+			</text>
+			<text id="misc_text02" x="35" y="55" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;1. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;2.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;3.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

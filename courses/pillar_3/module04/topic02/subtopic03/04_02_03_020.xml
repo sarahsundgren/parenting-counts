@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.1" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="true"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="ON_ALL_LINKS_VISITED"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="7" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Responding to Concerns 2</content>
+	</text>
+	<text id="nav_text" x="185" y="425" width="590" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">&lt;P ALIGN="RIGHT"&gt;Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity,&lt;/B&gt; or click a new &lt;B&gt;Topic&lt;/B&gt;.&lt;/P&gt;&lt;P ALIGN="RIGHT"&gt;&lt;/P&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="37" width="745" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Let's look at a couple of additional examples of professionals responding to parents' concerns about play.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="454" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Read each situation and possible response, then click &lt;B&gt;Yes&lt;/B&gt; or &lt;B&gt;No&lt;/B&gt;.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="579" y="104" width="184" height="305" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" bytes="43287" duration="127" startpos="1">a_04_02_03_020_00.swf</file>
+			<transcript translate="true">Let's look at a couple of additional examples of professionals responding to parents' concerns about play. Read each situation and possible response, then click yes or no.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true"/>
+	<section id="swap_text" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="584" y="112" width="183" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Exactly. There are many different types of play and play activities. It is common for parents to look for the "best" one; however, the best toy is the one the child chooses, and usually, that toy is the parent. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Many parents wonder about flashcards and teaching toys. These can be fun tools if a child enjoys them; however, there are many games that can lead to the same end goal.&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text02" x="" y="" width="185" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;That's right! First, validate the parent's feelings, and then, reassure the parent that healthy child development is not dependent upon a specific amount of time that a parent and child spend together, but rather by the quality of the interaction. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;This parent can use bedtime to read to her child, ask about the child's day, and connect on an emotional level that will have a positive impact. Finally, you might suggest a special playtime on the weekends.&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text03" x="590" y="100" width="183" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Try again.</content>
+		</text>
+		<text id="swap_text04" x="" y="" width="180" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Try again.</content>
+		</text>
+	</section>
+	<section id="question01" align="" spacing="0" autospace="false" columns="0" expanded="true" controls="true">
+		<graphic id="box01" x="25" y="105" width="529" height="141" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+		</graphic>
+		<text id="q01_text" x="40" y="120" width="395" height="" autosize="H" style="REFERENCE" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Situation: &lt;/B&gt;An&lt;B&gt; &lt;/B&gt;educator is teaching the topic of play to a class of parents of children 2-5 years old. A parent asks which toys are the best for helping children learn. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Professional Response:&lt;/B&gt; Tell the parent that there is no correct type of play or correct type of toy.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Is this the best response?&lt;/P&gt;</content>
+		</text>
+		<graphic id="link01" x="450" y="116" width="" height="" style="TOGGLE_BTN" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" name="q01_answer01">
+			<file play="false" bytes="6039" startpos="1" duration="23">btn_yes.swf</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="q01_answer02" x="450" y="184" width="" height="" style="TOGGLE_BTN" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file play="false" bytes="5839" startpos="1" duration="23">btn_no.swf</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="RADIOCLICK" result="SHOW" target="swap_text03" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="question02" align="" spacing="0" autospace="false" columns="0" expanded="true" controls="true">
+		<graphic id="box02" x="25" y="267" width="529" height="141" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+		</graphic>
+		<text id="q02_text" x="40" y="280" width="388" height="" autosize="H" style="REFERENCE" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Situation:&lt;/B&gt; A parent of a 3-year-old child asks how much time each day she should play with her child. She works long days and gets home just in time for her child to eat dinner and go to bed. She's concerned about her child's development. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Professional Response:&lt;/B&gt; Validate the parent's concern.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Is this the best response?&lt;/P&gt;</content>
+		</text>
+		<graphic id="link02" x="450" y="276" width="" height="" style="TOGGLE_BTN" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" name="q02_answer02">
+			<file play="false" bytes="6039" startpos="1" duration="23">btn_yes.swf</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="q02_answer01" x="450" y="342" width="" height="" style="TOGGLE_BTN" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file play="false" bytes="5839" startpos="1" duration="23">btn_no.swf</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="RADIOCLICK" result="SHOW" target="swap_text04" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+</template>

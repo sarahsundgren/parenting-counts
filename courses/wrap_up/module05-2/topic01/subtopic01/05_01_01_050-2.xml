@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="TRUE"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+		<eventlist>
+			<event type="COMPLETION" result="SHOW" target="misc_text01" result_param=""/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">How Do Adults Learn?</content>
+	</text>
+	<text id="nav_text" x="152" y="425" width="619" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Preparing to Teach&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="741" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Adults learn, incorporate, and transfer new concepts through practice. Encourage participants to personalize their learning through setting goals and self-assessment. The more the learning is relevant to parents, the more likely they are to act on their knowledge through positive behaviors with their child.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="350" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each person's&lt;B&gt; photo&lt;/B&gt; to learn more.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="25" y="138" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1" placeholder="true"/>
+			<notes id="description">A background of a group of adults like this one on istock Group Of People photoFile #: 5447648</notes>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" bytes="111819" duration="326" start_frame="1">a_05_01_01_050_01.swf</file>
+			<transcript translate="true">Adults learn, incorporate, and transfer new concepts through practice. Encourage participants to personalize their learning through setting goals and self-assessment. The more the learning is relevant to parents, the more likely they are to act on their knowledge through positive behaviors with their child. Be sure to design learning activities that include opportunities for real-world practice. Click each person's photo to learn more about how adults learn.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="list_items" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<graphic id="link01" x="450" y="219" width="120" height="170" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="38585" play="false" start_frame="1">05_01_01_050_05.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;cut out File #: 10777218&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic05" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic04" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic02" result_param=""/>
+				<event type="CLICK" result="SHOW" target="misc_graphic01" result_param=""/>
+				<event type="CLICK" result="BRING_TO_TOP" target="swap_text01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link02" x="170" y="218" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="37890" play="false" start_frame="1">05_01_01_050_03.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;cut out of File #: 12014444&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic05" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic04" result_param=""/>
+				<event type="CLICK" result="SHOW" target="misc_graphic02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link03" x="308" y="160" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="37973" play="false" start_frame="1">05_01_01_050_04.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;cut out of Mid-age man writing  File #: 14889833&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic05" result_param=""/>
+				<event type="CLICK" result="SHOW" target="misc_graphic03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic04" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link04" x="590" y="160" width="120" height="170" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="28529" play="false" start_frame="1">05_01_01_050_06.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;cut out Young Man File #: 15034918&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="SHOW" target="misc_graphic04" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic05" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link05" x="30" y="160" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="42781" play="false" start_frame="1">05_01_01_050_02.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;cutout of File #: 9390759&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic04" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic03" result_param=""/>
+				<event type="CLICK" result="SHOW" target="misc_graphic05" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="367" y="137" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="6654" start_frame="1">04_04_02_030_balloon04.png</file>
+		</graphic>
+		<graphic id="misc_graphic02" x="198" y="118" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="12334" start_frame="1">04_04_02_030_balloon02.png</file>
+		</graphic>
+		<graphic id="misc_graphic03" x="387" y="87" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="12334" start_frame="1">04_04_02_030_balloon02.png</file>
+		</graphic>
+		<graphic id="misc_graphic04" x="337" y="87" width="300" height="120" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="13927" start_frame="1">04_04_02_030_balloon03.png</file>
+		</graphic>
+		<graphic id="misc_graphic05" x="104" y="99" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="12334" start_frame="1">04_04_02_030_balloon02.png</file>
+		</graphic>
+	</section>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="409" y="159" width="124" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;FONT SIZE="15"&gt;I like to discuss the key concepts.&lt;/FONT&gt;</content>
+		</text>
+		<text id="swap_text02" x="256" y="148" width="173" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;FONT SIZE="15"&gt;I learn best when stories are used to illustrate a principle or concept.&lt;/FONT&gt;</content>
+		</text>
+		<text id="swap_text03" x="442" y="108" width="182" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;FONT SIZE="15"&gt;I need time to make notes about the discussion and lecture so I can remember what I have learned.&lt;/FONT&gt;</content>
+		</text>
+		<text id="swap_text04" x="384" y="130" width="214" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;FONT SIZE="15"&gt;Asking questions helps me reinforce what I have learned.&lt;/FONT&gt;</content>
+		</text>
+		<text id="swap_text05" x="160" y="131" width="174" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;FONT SIZE="15"&gt;Having the opportunity to share with others what I've learned helps me.&lt;/FONT&gt;</content>
+		</text>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="10" y="420" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" start_frame="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="1" y="235" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" start_frame="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="30" width="411" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;As you prepare to teach, consider the needs and constraints of your audience. Are you teaching parents of infants, toddlers, preschoolers, or other professionals? Are you working with one or two parents or a larger group? Does your audience have special needs?&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Other considerations for your audience may involve their educational backgrounds, reading levels, transportation challenges, child care needs, cost of the training, etc.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<graphic id="background" x="0" y="0" width="795" behavior="LOCK_XY|LOCK_SIZE" height="533" style="PLAIN" visible="true" fx="SHOW" hidefx="HIDE" disabled="true">
+		<file play="false" bytes="5827" startpos="1">wizard.jpg</file>
+		<eventlist>
+			<event type="CLICK" result="DISABLE" target="_self" result_param=""/>
+		</eventlist>
+	</graphic>
+	<text id="title" x="37" y="35" width="456" height="" autosize="H" style="WIZARD_TITLE" visible="true" fx="SHOW" hidefx="HIDE">
+		<content translate="true">My Notes</content>
+	</text>
+	<text id="directions" x="37" y="58" width="662" height="" autosize="H" style="DIRECTIONS" visible="true" fx="SHOW" hidefx="HIDE">
+		<content translate="true">Type the title and text of the note in the text boxes below. When you are finished, click &lt;B&gt;Save.&lt;/B&gt;</content>
+	</text>
+	<text id="directions02" x="400" y="140" width="358" height="" autosize="H" style="DIRECTIONS" visible="true" fx="SHOW" hidefx="HIDE">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;"+":&lt;/B&gt; Click the add button to create a new note.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Delete&lt;/B&gt;: Click this button to delete the current note you are viewing.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Save:&lt;/B&gt; Click this button to save the note you are currently writing. Saved notes can be found by clicking on their title in the left menu.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Print:&lt;/B&gt; Click this button to print the note you are currently viewing. To print all of your notes, click My Notes in the left menu. Then click Print at the bottom of the screen.&lt;/P&gt;</content>
+	</text>
+	<text id="print_style" x="0" y="0" width="10" height="" autosize="H" style="WIZARD_TEXT" visible="false" fx="HIDE" hidefx="HIDE">
+		<content translate="true">{Style}</content>
+	</text>
+	<text id="label01" x="37" y="85" width="38.45" height="" autosize="L" style="WIZARD_TEXT" visible="true" fx="SHOW" hidefx="HIDE">
+		<content translate="true">&lt;B&gt;Title:&lt;/B&gt;</content>
+	</text>
+	<text id="label02" x="37" y="118" width="350" height="" autosize="H" style="WIZARD_TEXT" visible="true" fx="SHOW" hidefx="HIDE">
+		<content translate="true">&lt;B&gt;Note Text: &lt;/B&gt;</content>
+	</text>
+	<section id="input_fields" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<input id="input01" x="85" y="86" width="381" height="20" maxchars="75" password="false" multiline="false" focus="true" restrict="" style="INPUT" visible="true" fx="SHOW" hidefx="HIDE" case="M">
+			<content/>
+			<eventlist>
+				<event type="KILLFOCUS" result="CALL_FUNCTION" target="PAGE" result_param="checkFocus();"/>
+			</eventlist>
+		</input>
+		<input id="input02" x="37" y="140" width="333" height="269" maxchars="600" password="false" multiline="true" focus="false" restrict="" style="INPUT" visible="true" fx="SHOW" hidefx="HIDE" scroll="AUTO" case="M">
+			<content/>
+			<eventlist>
+				<event type="KILLFOCUS" result="CALL_FUNCTION" target="PAGE" result_param="checkFocus();"/>
+			</eventlist>
+		</input>
+	</section>
+	<graphic id="print" x="300" y="420" width="" height="" behavior="" style="CONTROLS" visible="true" fx="SHOW" hidefx="HIDE" disabled="true">
+		<file play="false" bytes="3602" startpos="1" duration="23">btn_print.swf</file>
+		<eventlist>
+			<event type="CLICK" result="CALL_FUNCTION" target="PAGE" result_param="printWizard();"/>
+		</eventlist>
+	</graphic>
+	<graphic id="save" x="192" y="420" width="" height="" behavior="" style="CONTROLS" visible="true" fx="SHOW" hidefx="HIDE">
+		<file play="false" bytes="3711" startpos="1" duration="23">btn_save.swf</file>
+		<eventlist>
+			<event type="CLICK" result="CALL_FUNCTION" target="PAGE" result_param="saveNote();"/>
+		</eventlist>
+	</graphic>
+	<graphic id="delete" x="84" y="420" width="" height="" behavior="" style="CONTROLS" visible="true" fx="SHOW" hidefx="HIDE">
+		<file play="false" bytes="3899" startpos="1" duration="23">btn_delete.swf</file>
+		<eventlist>
+			<event type="CLICK" result="CALL_FUNCTION" target="PAGE" result_param="deleteNote();"/>
+		</eventlist>
+	</graphic>
+	<graphic id="add" x="35" y="420" width="" height="" behavior="" style="CONTROLS" visible="true" fx="SHOW" hidefx="HIDE">
+		<file play="false" bytes="3137" startpos="1" duration="23">btn_addnote2.swf</file>
+		<eventlist>
+			<event type="CLICK" result="CALL_FUNCTION" target="PAGE" result_param="showAddNote();"/>
+		</eventlist>
+	</graphic>
+	<text id="char_limit" x="160" y="118" width="240" height="" autosize="H" style="WIZARD_TEXT" visible="true" fx="SHOW" hidefx="HIDE">
+		<content translate="true">(Character Limit:&lt;B&gt; &lt;/B&gt;600 characters)</content>
+	</text>
+</template>

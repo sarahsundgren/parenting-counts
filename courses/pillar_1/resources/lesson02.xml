@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<graphic id="background" x="0" y="0" width="795" height="533" behavior="LOCK_XY|LOCK_SIZE" style="PLAIN" visible="true" fx="SHOW" hidefx="HIDE" disabled="true">
+		<file play="false" bytes="5827" startpos="1">wizard.jpg</file>
+		<eventlist>
+			<event type="CLICK" result="DISABLE" target="_self" result_param=""/>
+		</eventlist>
+	</graphic>
+	<text id="title" x="37" y="35" width="456" height="" autosize="H" style="WIZARD_TITLE" visible="true" fx="SHOW" hidefx="HIDE">
+		<content translate="true">Troy’s Temperament Activity</content>
+	</text>
+	<text id="material" x="37" y="65" width="719" height="346" autosize="" style="WIZARD_TEXT" visible="true" fx="SHOW" hidefx="HIDE" scroll="AUTO">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Discussion Topic&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;One of your roles is to help caregivers understand how to best support children's healthy development.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Let's look at a situation in which a caregiver has concerns about a child’s development.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Scenario &lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Troy's Parent: "He's way too intense! Every night bedtime is a 2-hour battle. He's always so excited to go on family outings, but then he ruins them; he runs around, then has a tantrum when we try to get him to settle down."&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Rating Activity&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;According to the description of Troy, rate Troy as High or Low on the following temperament characteristics.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;LI&gt;Activity: Able to sit still vs. Always wants to move (high)&lt;/LI&gt;&lt;LI&gt;Rhythmicity: Accepts schedule for food and sleep vs. Is unpredictable (high)&lt;/LI&gt;&lt;LI&gt;Approach/Withdrawal: Dives into situations vs. Is shy and cautious (low)&lt;/LI&gt;&lt;LI&gt;Intensity: Sensitive to textures or settings vs. May not notice when they fall (high)&lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Sample Feedback&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Once parents understand their child's temperament, they are in a better position to understand their child.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Although this example was an extreme case, keep in mind that characteristics of temperament extend from low to high with many children falling between the two extremes.&lt;/P&gt;</content>
+	</text>
+	<graphic id="print" x="647" y="430" width="" height="" behavior="" style="CONTROLS" visible="true" fx="SHOW" hidefx="HIDE">
+		<file play="false" bytes="3602" startpos="1" duration="23">btn_print.swf</file>
+		<eventlist>
+			<event type="CLICK" result="CALL_FUNCTION" target="PAGE" result_param="printWizard();"/>
+		</eventlist>
+	</graphic>
+</template>

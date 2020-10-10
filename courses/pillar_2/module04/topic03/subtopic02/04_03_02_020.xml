@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_cascade" view="view_cascade_right">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="forceFirstPanel" datatype="LIST" value="ANIMATE"/>
+		<settings id="panelDirection" datatype="LIST" value="REVERSE"/>
+		<settings id="disablePanels" datatype="LIST" value="TRUE"/>
+		<settings id="useControls" datatype="LIST" value="ALWAYS_VISIBLE"/>
+		<settings id="setComplete" datatype="LIST" value="ON_ALL_LINKS_VISITED"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">When Is Emotion Coaching Not Recommended?</content>
+	</text>
+	<text id="nav_text" x="35" y="425" width="735" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Parents Can Do&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="720" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Not every moment is the perfect moment to Emotion Coach, so when is Emotion Coaching not recommended?</content>
+		</text>
+		<text id="directions" x="" y="" width="591" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click &lt;B&gt;Forward&lt;/B&gt; to learn situations in which Emotion Coaching would not be appropriate to use.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<audio id="initial_audio">
+			<file play="true" bytes="46087" duration="135" startpos="1">a_04_03_02_020_01.swf</file>
+			<transcript translate="true">Not every moment is the perfect moment to Emotion Coach, so when is Emotion Coaching not recommended? Click Forward to learn situations in which Emotion Coaching would not be appropriate to use.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="dev_assets" expanded="true">
+		<area id="vanish_point" behavior="LOCK_SIZE" x="298" y="134" width="24" height="24" visible="false" fx=""/>
+	</section>
+	<section id="progress_markers" align="TOP" spacing="15x0" autospace="true" exclusive="false" expanded="true">
+		<graphic id="marker01" x="98" y="420" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file play="false" startpos="1" bytes="1615" duration="30">progress_dot.swf</file>
+		</graphic>
+		<graphic id="marker02" x="" y="" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file play="false" bytes="1615" duration="30" startpos="1">progress_dot.swf</file>
+		</graphic>
+		<graphic id="marker03" x="" y="" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file play="false" bytes="1615" duration="30" startpos="1">progress_dot.swf</file>
+		</graphic>
+		<graphic id="marker04" x="" y="" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file play="false" bytes="1615" duration="30" startpos="1">progress_dot.swf</file>
+		</graphic>
+		<graphic id="marker05" x="" y="" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file play="false" bytes="1615" duration="30" startpos="1">progress_dot.swf</file>
+		</graphic>
+	</section>
+	<section id="panels" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="panel01" behavior="" x="28" y="206" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="GRAPHIC" visible="true" fx="">
+				<file play="false" bytes="60640" startpos="1">04_03_02_020_02.jpg</file>
+				<notes id="description">mother waving to her sad child as she leave</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel02" behavior="" x="82" y="170" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="GRAPHIC" visible="true" fx="">
+				<file play="false" bytes="55173" startpos="1">04_03_02_020_03.jpg</file>
+				<notes id="description">parent talking to child at playground</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel03" behavior="STRICT|LOCK_XY|LOCK_SIZE" x="" y="" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="GRAPHIC" visible="true">
+				<file play="false" bytes="45626" startpos="1">04_03_02_020_04.jpg</file>
+				<notes id="description">parent grabbing child before he runs into the street</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true">
+				<content/>
+			</text>
+		</container>
+		<container id="panel04" behavior="STRICT|LOCK_XY|LOCK_SIZE" x="" y="" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="GRAPHIC" visible="true">
+				<file play="false" bytes="41404" startpos="1">04_03_02_020_05.jpg</file>
+				<notes id="description">frustrated parent</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true">
+				<content/>
+			</text>
+		</container>
+		<container id="panel05" behavior="STRICT|LOCK_XY|LOCK_SIZE" x="" y="" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="GRAPHIC" visible="true">
+				<file play="false" bytes="51666" startpos="1">04_03_02_020_06.jpg</file>
+				<notes id="description">parent talking seriously with child</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="365" y="206" width="373" height="191" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="54">clear.gif</file>
+		</graphic>
+	</section>
+	<section id="swap_text" align="LEFT" spacing="0x7" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="swap_text01" x="372" y="245" width="353" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;LI&gt;You are in a hurry or pressed for time.&lt;/LI&gt;</content>
+		</text>
+		<text id="swap_text02" x="372" y="197.2" width="370" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;LI&gt;You are not alone with your child.&lt;/LI&gt;</content>
+		</text>
+		<text id="swap_text03" x="372" y="216.8" width="347" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;LI&gt;Safety is of immediate concern.&lt;/LI&gt;</content>
+		</text>
+		<text id="swap_text04" x="372" y="236.4" width="347" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;LI&gt;You are too upset to be able to be productive.&lt;/LI&gt;</content>
+		</text>
+		<text id="swap_text05" x="372" y="255.95" width="347" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;LI&gt;You need to address serious misbehavior.&lt;/LI&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</text>
+	</section>
+	<section id="buttons" align="" spacing="0" autospace="false" exclusive="false" expanded="true">
+		<container id="start_button" behavior="STRICT|LOCK_SIZE" x="565" y="160" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="85" y="10" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="212">right_arrow.png</file>
+			</graphic>
+			<text id="text" x="25" y="7" width="88" height="18" autosize="" style="DEFAULT" visible="true">
+				<content translate="true">Forward</content>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="initial_graphic" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="reverse_button" behavior="STRICT|LOCK_SIZE" x="430" y="160" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="35" y="10" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="223">left_arrow.png</file>
+			</graphic>
+			<text id="text" x="45" y="8" width="51" height="19" autosize="" style="DEFAULT" visible="true">
+				<content translate="true">Back</content>
+			</text>
+		</container>
+		<container id="forward_button" behavior="STRICT|LOCK_SIZE" x="565" y="160" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="85" y="10" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="212">right_arrow.png</file>
+			</graphic>
+			<text id="text" x="25" y="7" width="61" height="20" autosize="" style="DEFAULT" visible="true">
+				<content translate="true">Forward</content>
+			</text>
+		</container>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="372" y="220" width="350" height="" autosize="H" style="DEFAULT_2" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;B&gt;Emotion Coaching is not recommended when:&lt;/B&gt;</content>
+		</text>
+	</section>
+	<graphic id="initial_graphic" behavior="" x="28" y="206" width="" height="" style="DEFAULT" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE">
+		<file play="false" startpos="1" bytes="60687">04_03_02_020_01.jpg</file>
+		<notes id="description">&lt;P ALIGN="LEFT"&gt;photo found in talaris photos&amp;gt; used&amp;gt; social and emotional&amp;gt; emotion coaching  Page 49 - Tanner and dad&lt;/P&gt;</notes>
+	</graphic>
+</template>

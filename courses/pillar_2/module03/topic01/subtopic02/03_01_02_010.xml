@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_floatpanels" view="view_floatpanels">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Attunement</content>
+	</text>
+	<text id="nav_text" x="150" y="425" width="621" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a L&lt;B&gt;esson&lt;/B&gt; or A&lt;B&gt;ctivity&lt;/B&gt; to learn more about &lt;B&gt;Attunement and Meta-Emotions&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="49" width="713" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Attunement is the ability to respond with sensitivity to your child's communication and needs. Improving parent attunement positively affects the quality of a child's attachment to their parents and provides feelings of security.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="350" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;photo&lt;/B&gt; to learn more.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<audio id="initial_audio">
+			<file play="true" startpos="1" bytes="88111" duration="257">a_03_01_02_010_01.swf</file>
+			<transcript translate="true">Attunement is defined as the ability to respond with sensitivity to your child's communication and needs. Improving parent attunement positively affects the quality of a child's attachment to their parents and provides feelings of security.                                   Click each photo below to learn more about how to encourage parents to develop a greater sense of attunement.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="dev_assets" align="LEFT" spacing="0" autospace="false" columns="0" expanded="true">
+		<area id="target01" behavior="" x="25" y="137" width="75" height="75" visible="false" fx=""/>
+		<area id="target02" behavior="" x="25" y="228" width="75" height="75" visible="false" fx=""/>
+		<area id="target03" behavior="" x="25" y="320" width="75" height="75" visible="false" fx=""/>
+	</section>
+	<section id="float_panels" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="panel01" behavior="" x="287" y="114" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="24501" startpos="1">03_01_02_010_01.jpg</file>
+				<notes id="description">girl 2yrs old, pouting expression</notes>
+			</graphic>
+			<text id="text" x="8" y="13" width="100" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="panel02" behavior="" x="521" y="114" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="140" height="140.75" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="20423" startpos="1">03_01_02_010_02.jpg</file>
+				<notes id="description">Hispanic child 5yrs holding hands with his grandfather walking towards playground</notes>
+			</graphic>
+			<text id="text" x="20" y="0" width="100" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="panel03" behavior="" x="175" y="271" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="140" height="140.75" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="25447" startpos="1">03_01_02_010_03.jpg</file>
+				<notes id="description">African American mother hugging 3yr old daughter, both smiling</notes>
+			</graphic>
+			<text id="text" x="9" y="0" width="100" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="panel04" behavior="" x="409" y="271" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="140" height="140.75" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="22105" startpos="1">03_01_02_010_04.jpg</file>
+				<notes id="description">mother tucking her 1 yr old son in for a nap.</notes>
+			</graphic>
+			<text id="text" x="9" y="0" width="100" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+			</eventlist>
+		</container>
+	</section>
+	<section id="content_panels" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="content_panel01" behavior="" x="115" y="95" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="CONTENT_PANEL">
+			<graphic id="background" behavior="" x="0" y="0" width="600" height="300" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="10" y="50" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="49582" startpos="1">03_01_02_010_05.jpg</file>
+				<notes id="description">same picture as "panel01" girl 2yrs old with pouting expression</notes>
+			</graphic>
+			<text id="header" x="230" y="50" width="311" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Recognizing and Responding to Cues</content>
+			</text>
+			<text id="text" x="220" y="80" width="400" height="" autosize="H" style="PANEL_TEXT" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;Children are happiest when their cues are responded to with warmth and consistency by their parents and caregivers. These cues can come in many forms: verbal, non-verbal, facial expressions, or gestures.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;When parents recognize and respond to their child's feelings, their child learns that their emotional expressions are valued.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;For example, Kelly's mom recognizes the pouting expression on her 2-year-old's face. By tuning in to her daughter's facial expressions, she's able to avoid the oncoming tantrum.&lt;/LI&gt;</content>
+			</text>
+		</container>
+		<container id="content_panel02" behavior="" x="115" y="95" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="CONTENT_PANEL">
+			<graphic id="background" behavior="" x="0" y="0" width="600" height="300" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="10" y="50" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="42177" startpos="1">03_01_02_010_06.jpg</file>
+				<notes id="description">same picture as panel02 Hispanic child 5yrs holding hands with his grandfather walking towards playground</notes>
+			</graphic>
+			<text id="header" x="230" y="50" width="311" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Understanding Children's Needs</content>
+			</text>
+			<text id="text" x="220" y="80" width="395" height="" autosize="H" style="PANEL_TEXT" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;It's important for parents to understand their child's temperament, style of communication, and needs. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;When parents take the time to understand their child, they are able to respond to their child's needs in the most effective way, making the child feel important.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;For example, Jorge is a shy little boy. Jorge's grandfather sees him standing alone on the playground. Understanding Jorge's desire to socialize, he takes him by the hand and together they join the other children. &lt;/LI&gt;</content>
+			</text>
+		</container>
+		<container id="content_panel03" behavior="" x="115" y="95" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="CONTENT_PANEL">
+			<graphic id="background" behavior="" x="0" y="0" width="600" height="300" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="10" y="50" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="52368" startpos="1">03_01_02_010_07.jpg</file>
+				<notes id="description">same picture as panel03 African American mother huggin 3yr old daughter, both smiling</notes>
+			</graphic>
+			<text id="header" x="230" y="50" width="311" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Creating a Secure Foundation</content>
+			</text>
+			<text id="text" x="220" y="80" width="400" height="" autosize="H" style="PANEL_TEXT" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;When parents respond to their child's cues, they create a foundation of security and trust for their child. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;This foundation of security and trust is important for children to rely on as they grow and develop.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;For example, when 3-year-old Demetria is sad that her siblings won't share with her, her mom is there to help her out. Knowing she won't get in trouble for her feelings helps Demetria feel secure.&lt;/LI&gt;</content>
+			</text>
+		</container>
+		<container id="content_panel04" behavior="" x="115" y="95" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="CONTENT_PANEL">
+			<graphic id="background" behavior="" x="0" y="0" width="600" height="300" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="10" y="50" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="41330" startpos="1">03_01_02_010_08.jpg</file>
+				<notes id="description">same picture as panel04  mother tucking her 1 yr old son in for a nap.</notes>
+			</graphic>
+			<text id="header" x="230" y="50" width="311" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Providing Consistent Care</content>
+			</text>
+			<text id="text" x="220" y="80" width="395" height="" autosize="H" style="PANEL_TEXT" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;Both parents and caregivers need to provide consistent and responsive parenting.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;From consistency, children learn that parents are there to help meet their physical and emotional needs. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;For example, even though 1-year-old Tommy hates taking afternoon naps, his mother enforces naptime since she understands his need for sleep as well as his need for consistent routine.&lt;/LI&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="721" y="64" width="15" height="15" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="297" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="477" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Newton, R.  (2008). &lt;I&gt;The attachment connection.&lt;/I&gt; Oakland, CA: New Harbinger Publications.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="0" y="0" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text02" x="0" y="0" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text03" x="0" y="0" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text04" x="0" y="0" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+</template>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_match" view="view_classify">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="enableSubmit" datatype="LIST" value="DEFAULT"/>
+		<settings id="submitBtn" datatype="LIST" value="NONE"/>
+		<settings id="showCorrectBtn" datatype="LIST" value="NONE"/>
+		<settings id="showAnswerMarks" datatype="LIST" value="NONE"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="offsetXY" datatype="STRING" value="5,5"/>
+		<settings id="targetSpacing" datatype="NUMBER" value="0"/>
+		<eventlist>
+			<event type="COMPLETION" result="SHOW" target="misc_text04" result_param=""/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Applying Discipline Methods</content>
+	</text>
+	<text id="nav_text" x="35" y="425" width="735" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt;, or click a new &lt;B&gt;Topic&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="702" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Let's see what you've learned about the ages and stages of discipline methods. Read the examples, then decide which discipline method each parent could use with their child that would be age-appropriate.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="709" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Drag the &lt;B&gt;Discipline Method&lt;/B&gt; to the box beside the correct example. Incorrect matches will bounce back.</content>
+		</text>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="25" y="121" width="729" height="292" style="SHADING2" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="54">clear.gif</file>
+		</graphic>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="-1" y="171" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" duration="207" bytes="70663" startpos="1">a_06_03_03_010_01.swf</file>
+			<transcript translate="true">Let's see what you've learned about the ages and stages of discipline methods. Read the examples, then decide which discipline method each parent could use with their child that would be age-appropriate. Drag the Discipline Method to the box beside the correct example. Incorrect matches will bounce back.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="draggable_items" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<container id="source01" behavior="STRICT|LOCK_SIZE" x="584" y="153" visible="true" fx="SOURCE_SHOW" hidefx="SOURCE_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SOURCE_BKG" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="SOURCE" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="0" y="0" width="162" height="" autosize="H" style="SOURCE_SHAPE" visible="true">
+				<content translate="true">Acknowledge the mistake in modeling and talk with the child.</content>
+			</text>
+			<configuration>
+				<settings id="numStartingTarget" name="Starting target #" datatype="NUMBER" value=""/>
+			</configuration>
+		</container>
+		<container id="source02" behavior="STRICT|LOCK_SIZE" x="584" y="250" visible="true" fx="SOURCE_SHOW" hidefx="SOURCE_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SOURCE_BKG" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="SOURCE" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="0" y="0" width="162" height="" autosize="H" style="SOURCE_SHAPE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Distract the child with a different toy &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;or activity.&lt;/P&gt;</content>
+			</text>
+			<configuration>
+				<settings id="numStartingTarget" name="Starting target #" datatype="NUMBER" value=""/>
+			</configuration>
+		</container>
+		<container id="source03" behavior="STRICT|LOCK_SIZE" x="584" y="347" visible="true" fx="SOURCE_SHOW" hidefx="SOURCE_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SOURCE_BKG" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="SOURCE" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="0" y="0" width="162" height="" autosize="H" style="SOURCE_SHAPE" visible="true">
+				<content translate="true">Praise the child's effort, then redirect to a new activity.</content>
+			</text>
+			<configuration>
+				<settings id="numStartingTarget" name="Starting target #" datatype="NUMBER" value=""/>
+			</configuration>
+		</container>
+	</section>
+	<section id="drop_targets" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<container id="target01" behavior="" x="400" y="153" visible="true" fx="TARGET_SHOW" hidefx="TARGET_HIDE" style="">
+			<graphic id="target" x="0" y="0" width="162" height="50.8" style="TARGET" visible="true" fx="TARGET_SHOW" hidefx="TARGET_HIDE">
+				<file bytes="54" play="false" startpos="1">clear.gif</file>
+			</graphic>
+			<configuration>
+				<settings id="numMaxMatchItems" name="Max matches" datatype="NUMBER" value="1"/>
+			</configuration>
+		</container>
+		<container id="target02" behavior="" x="400" y="250" visible="true" fx="TARGET_SHOW" hidefx="TARGET_HIDE" style="">
+			<graphic id="target" x="0" y="0" width="162" height="50.8" style="TARGET" visible="true" fx="">
+				<file bytes="54" play="false" startpos="1">clear.gif</file>
+			</graphic>
+			<configuration>
+				<settings id="numMaxMatchItems" name="Max matches" datatype="NUMBER" value="1"/>
+			</configuration>
+		</container>
+		<container id="target03" behavior="" x="400" y="347" visible="true" fx="TARGET_SHOW" hidefx="TARGET_HIDE" style="">
+			<graphic id="target" x="0" y="0" width="162" height="50.8" style="TARGET" visible="true" fx="">
+				<file bytes="54" play="false" startpos="1">clear.gif</file>
+			</graphic>
+			<configuration>
+				<settings id="numMaxMatchItems" name="Max matches" datatype="NUMBER" value="1"/>
+			</configuration>
+		</container>
+	</section>
+	<section id="buttons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="submit" behavior="STRICT|LOCK_SIZE" x="615" y="411" visible="false" fx="SUBMIT_SHOW" hidefx="SUBMIT_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SUBMIT" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="0" y="0" width="175" height="18" autosize="" style="SUBMIT" visible="true">
+				<content translate="true">Submit</content>
+			</text>
+		</container>
+		<container id="showcorrect" behavior="STRICT|LOCK_SIZE" x="615" y="411" visible="false" fx="SHOWCORRECT_SHOW" hidefx="SHOWCORRECT_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SHOWCORRECT" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="0" y="0" width="175" height="15.15" autosize="" style="SHOWCORRECT" visible="true">
+				<content translate="true">Show Correct Answers</content>
+			</text>
+		</container>
+	</section>
+	<answeranalysis id="answer_analysis" type="MATCH" max_attempts="UNLIMITED">
+		<answer id="correct" correct="true" attempt="ANY" comparison="source01=target03,source02=target01,source03=target02">
+			<feedback>
+				<text id="feedback" x="52" y="390" width="189" height="" autosize="H" style="DEFAULT" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content/>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect1" correct="false" attempt="1" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="52" y="390" width="189" height="" autosize="H" style="DEFAULT" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content/>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect2" correct="false" attempt="ANY" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="52" y="390" width="189" height="" autosize="H" style="DEFAULT" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content/>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+				</audio>
+			</feedback>
+		</answer>
+	</answeranalysis>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="30" y="153" width="361" height="" autosize="H" style="DEFAULT_2" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="16"&gt;Rachel is just over 12 months old. She is playing with a toy and begins banging it on the coffee table. Rachel's father takes the toy out of her hand and firmly says, "No banging." She then picks up another toy and starts banging again.&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="misc_text02" x="30" y="250" width="366" height="" autosize="H" style="DEFAULT_2" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="16"&gt;Ulysses, a 2-year-old, has been waiting for dinner while his mom is on the phone. He played quietly for about 10 minutes, but is now starting to become bored and begins making noise to get his mother's attention.&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="misc_text03" x="30" y="334" width="364" height="" autosize="H" style="DEFAULT_2" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="16"&gt;Thomas is a 4-year-old. He was riding in the car with his mom when they were almost hit by another car. Thomas' mom yelled at the other car. Now at home, Thomas is playing with his cars and pretending to have them hit each other, then yell at each other.&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="misc_text04" x="584" y="153" width="157" height="" autosize="H" style="CORRECT_FEEDBACK_2" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Correct! Parents should keep in mind that not every method is effective in any given situation. Parents should consider the different methods of discipline and use the appropriate one for each unique circumstance.</content>
+		</text>
+		<text id="misc_text05" x="400" y="130" width="168" height="" autosize="H" style="DEFAULT_2" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;B&gt;Best Discipline Method:&lt;/B&gt;</content>
+		</text>
+		<text id="misc_text06" x="30" y="130" width="77" height="" autosize="H" style="DEFAULT_2" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;B&gt;Examples:&lt;/B&gt;</content>
+		</text>
+		<text id="misc_text07" x="30" y="153" width="350" height="" autosize="H" style="DEFAULT_2" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">1.</content>
+		</text>
+		<text id="misc_text08" x="30" y="250" width="350" height="" autosize="H" style="DEFAULT_2" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">2.</content>
+		</text>
+		<text id="misc_text09" x="30" y="334" width="350" height="" autosize="H" style="DEFAULT_2" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">3.</content>
+		</text>
+	</section>
+</template>

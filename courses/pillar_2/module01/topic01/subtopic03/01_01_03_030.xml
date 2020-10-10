@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_match" view="view_classify">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="enableSubmit" datatype="LIST" value="DEFAULT"/>
+		<settings id="submitBtn" datatype="LIST" value="NONE"/>
+		<settings id="showCorrectBtn" datatype="LIST" value="NONE"/>
+		<settings id="showAnswerMarks" datatype="LIST" value="NONE"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="offsetXY" datatype="STRING" value="5,5"/>
+		<settings id="targetSpacing" datatype="NUMBER" value="0"/>
+		<eventlist>
+			<event type="COMPLETION" result="SHOW" target="misc_text03" result_param=""/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Social-Emotional Milestones</content>
+	</text>
+	<text id="nav_text" x="35" y="425" width="735" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt;, or click a new &lt;B&gt;Topic&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="702" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">As educators, it is important to help parents understand what expectations of social and emotional development are age appropriate. Let's explore some of these social-emotional milestones.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="709" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Drag each &lt;B&gt;social-emotional milestone&lt;/B&gt; to the correct place on the timeline. Incorrect matches will bounce back.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="21" y="162" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" bytes="6655">01_02_04_00.png</file>
+			<notes id="description">Timeline that shows development from infant to toddler to preschooler</notes>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" duration="227" bytes="77767" startpos="1">a_01_01_03_030_01.swf</file>
+			<transcript translate="true">As educators, it is important to help parents understand what expectations of social and emotional development are age appropriate. Let's explore some of these Social-emotional milestones. Drag each social-emotional milestone to the correct place on the timeline. Incorrect matches will bounce back.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="draggable_items" align="TOP" spacing="40x0" autospace="true" columns="0" expanded="true">
+		<container id="source01" behavior="STRICT|LOCK_SIZE" x="107" y="321" visible="true" fx="SOURCE_SHOW" hidefx="SOURCE_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="131" height="81" style="SOURCE_BKG" visible="true">
+				<file bytes="82" play="false" startpos="1" placeholder="true" duration="1">clear.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="SOURCE" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="0" y="5" width="170" height="" autosize="H" style="SOURCE_SHAPE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Able to share toys with other children&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+			<configuration>
+				<settings id="numStartingTarget" name="Starting target #" datatype="NUMBER" value=""/>
+			</configuration>
+		</container>
+		<container id="source02" behavior="STRICT|LOCK_SIZE" x="49" y="176.2" visible="true" fx="SOURCE_SHOW" hidefx="SOURCE_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SOURCE_BKG" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="SOURCE" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="0" y="5" width="170" height="" autosize="H" style="SOURCE_SHAPE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Begins to self-soothe when upset&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+			<configuration>
+				<settings id="numStartingTarget" name="Starting target #" datatype="NUMBER" value=""/>
+			</configuration>
+		</container>
+		<container id="source03" behavior="STRICT|LOCK_SIZE" x="375" y="178.4" visible="true" fx="SOURCE_SHOW" hidefx="SOURCE_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SOURCE_BKG" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="SOURCE" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="0" y="5" width="170" height="" autosize="H" style="SOURCE_SHAPE" visible="true">
+				<content translate="true">Begins to use own strategies to manage emotion</content>
+			</text>
+			<configuration>
+				<settings id="numStartingTarget" name="Starting target #" datatype="NUMBER" value=""/>
+			</configuration>
+		</container>
+	</section>
+	<section id="drop_targets" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<container id="target01" behavior="" x="120" y="229" visible="true" fx="TARGET_SHOW" hidefx="TARGET_HIDE" style="">
+			<graphic id="target" x="0" y="0" width="190" height="60" style="TARGET2" visible="true" fx="TARGET_SHOW" hidefx="TARGET_HIDE">
+				<file bytes="54" play="false" startpos="1">clear.gif</file>
+			</graphic>
+			<configuration>
+				<settings id="numMaxMatchItems" name="Max matches" datatype="NUMBER" value="1"/>
+			</configuration>
+		</container>
+		<container id="target02" behavior="" x="395" y="125" visible="true" fx="TARGET_SHOW" hidefx="TARGET_HIDE" style="">
+			<graphic id="target" x="0" y="0" width="190" height="60" style="TARGET2" visible="true" fx="">
+				<file bytes="54" play="false" startpos="1">clear.gif</file>
+			</graphic>
+			<configuration>
+				<settings id="numMaxMatchItems" name="Max matches" datatype="NUMBER" value="1"/>
+			</configuration>
+		</container>
+		<container id="target03" behavior="" x="560" y="231" visible="true" fx="TARGET_SHOW" hidefx="TARGET_HIDE" style="">
+			<graphic id="target" x="0" y="0" width="190" height="60" style="TARGET2" visible="true" fx="">
+				<file bytes="54" play="false" startpos="1">clear.gif</file>
+			</graphic>
+			<configuration>
+				<settings id="numMaxMatchItems" name="Max matches" datatype="NUMBER" value="1"/>
+			</configuration>
+		</container>
+	</section>
+	<section id="buttons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="submit" behavior="STRICT|LOCK_SIZE" x="615" y="411" visible="false" fx="SUBMIT_SHOW" hidefx="SUBMIT_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SUBMIT" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="0" y="0" width="175" height="18" autosize="" style="SUBMIT" visible="true">
+				<content translate="true">Submit</content>
+			</text>
+		</container>
+		<container id="showcorrect" behavior="STRICT|LOCK_SIZE" x="615" y="411" visible="false" fx="SHOWCORRECT_SHOW" hidefx="SHOWCORRECT_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SHOWCORRECT" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="0" y="0" width="175" height="15.15" autosize="" style="SHOWCORRECT" visible="true">
+				<content translate="true">Show Correct Answers</content>
+			</text>
+		</container>
+	</section>
+	<answeranalysis id="answer_analysis" type="MATCH" max_attempts="UNLIMITED">
+		<answer id="correct" correct="true" attempt="ANY" comparison="source01=target02,source02=target01,source03=target03">
+			<feedback>
+				<text id="feedback" x="52" y="390" width="189" height="" autosize="H" style="DEFAULT" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content/>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect1" correct="false" attempt="1" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="52" y="390" width="189" height="" autosize="H" style="DEFAULT" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content/>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect2" correct="false" attempt="ANY" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="52" y="390" width="189" height="" autosize="H" style="DEFAULT" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content/>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+				</audio>
+			</feedback>
+		</answer>
+	</answeranalysis>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="3" y="175" width="350" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text02" x="26" y="134" width="350" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;FONT SIZE="16"&gt;&lt;B&gt;Age Timeline&lt;/B&gt;&lt;/FONT&gt;</content>
+		</text>
+		<text id="misc_text03" x="54" y="320" width="652" height="" autosize="H" style="CORRECT_FEEDBACK" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Correct. Sometimes parents believe that these skills are too advanced or complicated for the toddler or preschool stages. Some may also believe that emotions are not felt until puberty or adulthood. When talking to parents, help them understand why these myths are not true. </content>
+		</text>
+	</section>
+</template>

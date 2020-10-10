@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="FALSE"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Mirror Neurons</content>
+	</text>
+	<text id="nav_text" x="317" y="425" width="458" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Why Imitation Matters&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="55" width="725" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Some researchers have proposed that mirror neurons are behind our ability to match emotions, behaviors, gestures, and speech to other humans. Mirror neurons help us experience emotions ourselves when someone else has a happy, sad, or frightening experience.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="580" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;number &lt;/B&gt;to learn more about mirror neurons.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="425" y="125" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" bytes="71082" play="false">02_02_02_010_00.jpg</file>
+			<notes id="description">#28 10 mo. Makayla - 85-47 from Imitation folder in Learning &amp; Cognition</notes>
+		</graphic>
+		<audio id="initial_audio">
+			<file start_frame="1" play="true" bytes="109771" duration="320">a_02_02_02_010_01.swf</file>
+			<transcript translate="true">Even though different children may have varying motivations to imitate a behavior, the ability to imitate is innate. Some researchers have proposed that mirror neurons are behind our ability to match emotions, behaviors, gestures, and speech to other humans. Mirror neurons help us experience emotions ourselves when someone else has a happy, sad, or frightening experience. Click each number to learn more about mirror neurons.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="list_items" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<graphic id="link01" x="5" y="145.4" width="" height="60" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file start_frame="1" bytes="6605" play="false">04_01_02_010_02.png</file>
+			<notes id="description">ONE</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link02" x="30" y="215.4" width="" height="60" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file start_frame="1" bytes="7264" play="false">04_01_02_010_03.png</file>
+			<notes id="description">TWO</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="ref_icon02" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link03" x="5" y="285.4" width="" height="60" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file start_frame="1" bytes="7588" play="false">04_01_02_010_04.png</file>
+			<notes id="description">THREE</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="ref_icon03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link04" x="30" y="355.4" width="" height="60" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file start_frame="1" bytes="7170" play="false">04_01_02_010_05.png</file>
+			<notes id="description">FOUR</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="ref_icon04" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="swap_graphic01" x="480" y="150" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" bytes="54032" play="false">02_02_02_010_01.jpg</file>
+			<notes id="description">neurons firing: istock 14137482</notes>
+		</graphic>
+		<graphic id="swap_graphic02" x="500" y="140" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" bytes="63195" play="false">02_02_02_010_02.jpg</file>
+			<notes id="description">monkey playing with mirror: istock 9173325</notes>
+		</graphic>
+		<graphic id="swap_graphic03" x="500" y="140" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" bytes="59218" play="false">02_02_02_010_03.jpg</file>
+			<notes id="description">preschool girl talking on phone: istock 13566868</notes>
+		</graphic>
+		<graphic id="swap_graphic04" x="500" y="140" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" bytes="68929" play="false">02_02_02_010_04.jpg</file>
+			<notes id="description">father and son walking: istock 6500955</notes>
+		</graphic>
+	</section>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="swap_text01" x="75" y="145.4" width="400" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">A mirror neuron is a class of neurons that fires both when an action is taken and when that same action is observed being taken by another.</content>
+		</text>
+		<text id="swap_text02" x="100" y="215.4" width="380" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Researchers first identified mirror neuron activity in primates, and primate research provides most of the research for mirror neurons.</content>
+		</text>
+		<text id="swap_text03" x="74" y="285.4" width="398" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">The mirror neuron system is an active area of interest for researchers studying human imitation, development of language and empathy, and autism.</content>
+		</text>
+		<text id="swap_text04" x="100" y="357" width="370" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">The exact nature and role of mirror neurons in human development is still being explored.</content>
+		</text>
+	</section>
+	<section id="reference_icons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="ref_icon01" x="188" y="177" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon02" x="279" y="247" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon03" x="301" y="317" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon04" x="321" y="373" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference04" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="40" width="434" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Rizzolatti, G., Craighero, L., (2004). The Mirror-Neuron System.  &lt;I&gt;Annual Review of Neuroscience, 27&lt;/I&gt;, 169-192.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="40" width="441" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Fogassi, L., Ferrari, P.F., Gesierich, B., Rozzi, S., Chersi, F., &amp; Rizzolatti, G. (2005). Parietal lobe: From action organization to intention understanding. &lt;I&gt;Science, 308&lt;/I&gt;(5722), 662-7.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference03" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="40" width="450" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Keysers, C., and Gazzola, V. (2009). Expanding the mirror: Vicarious activity for actions, emotions, and sensations. &lt;I&gt;Current Opinion in&lt;/I&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;I&gt;Neurobiology,&lt;/I&gt; &lt;I&gt;19,&lt;/I&gt; 666–671.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference04" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="426" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Hickok, G., &amp; Poeppel, D. (2007). The cortical organization of speech processing. &lt;I&gt;National Review of Neuroscience, 8&lt;/I&gt;(5), 393–402.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

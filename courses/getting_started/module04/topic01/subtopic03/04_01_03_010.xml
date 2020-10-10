@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_multiplechoice" view="view_multiplechoice">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="showAnswerMarks" datatype="LIST" value="DEFAULT"/>
+		<settings id="markAnswers" datatype="LIST" value="DEFAULT"/>
+		<settings id="markFinalAnswers" datatype="LIST" value="DEFAULT"/>
+		<settings id="submitBtn" datatype="LIST" value="NONE"/>
+		<settings id="enableSubmit" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Teaching Activity</content>
+	</text>
+	<text id="nav_text" x="185" y="425" width="588" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt;, or click a new &lt;B&gt;Topic&lt;/B&gt;.</content>
+	</text>
+	<section id="question_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="question" x="25" y="50" width="706" height="" autosize="H" style="DEFAULT" visible="true" fx="QUESTION_SHOW" hidefx="QUESTION_HIDE">
+			<content translate="true">Research shows that many influences impact families today. For example, below you will find items from the past that you may have used that perhaps your children never will. </content>
+		</text>
+		<text id="directions" x="" y="" width="730" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click the&lt;B&gt; items&lt;/B&gt; that were familiar to you in your childhood, then click &lt;B&gt;Submit&lt;/B&gt;.</content>
+		</text>
+	</section>
+	<section id="question_media" expanded="true">
+		<audio id="narration">
+			<file play="true" bytes="56003" duration="164" start_frame="1">a_04_01_03_010_01.swf</file>
+			<transcript translate="true">Research shows that many influences impact families today. For example, below you will find items from the past that you may have used that perhaps your children never will. Click the items that were familiar to you in your childhood, then click Submit.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<graphic id="question_graphic" x="25" y="120" width="" height="" style="QUESTION" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" placeholder="true" start_frame="1"/>
+		</graphic>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="25" y="125" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="189490">04_01_03_010_01.jpg</file>
+			<notes id="description">picture of a room with a desk and bookshelf, with various items (options 01-06) placed around the room</notes>
+		</graphic>
+	</section>
+	<section id="options" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<container id="option01" behavior="STRICT|LOCK_SIZE" x="39" y="130" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="" height="" style="OPTION" visible="true">
+				<file play="false" start_frame="1"/>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="LINK_4" visible="true">
+				<file play="false" start_frame="1" bytes="94243">04_01_03_010_02.png</file>
+				<notes id="description">1960s standing television</notes>
+			</graphic>
+			<text id="text" x="8" y="10" width="74" height="" autosize="H" style="OPTION" visible="true">
+				<content/>
+			</text>
+		</container>
+		<container id="option02" behavior="STRICT|LOCK_SIZE" x="501" y="242" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="" height="" style="OPTION" visible="true">
+				<file play="false" start_frame="1"/>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="LINK_4" visible="true">
+				<file play="false" start_frame="1" bytes="45491">04_01_03_010_03.png</file>
+				<notes id="description">type writer (on bookshelf)</notes>
+			</graphic>
+			<text id="text" x="8" y="10" width="79" height="" autosize="H" style="OPTION" visible="true">
+				<content/>
+			</text>
+		</container>
+		<container id="option03" behavior="STRICT|LOCK_SIZE" x="360" y="150" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="" height="" style="OPTION" visible="true">
+				<file play="false" start_frame="1"/>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="LINK_4" visible="true">
+				<file play="false" start_frame="1" bytes="20094">04_01_03_010_04.png</file>
+				<notes id="description">old radio on book shelf</notes>
+			</graphic>
+			<text id="text" x="8" y="10" width="74" height="" autosize="H" style="OPTION" visible="true">
+				<content/>
+			</text>
+		</container>
+		<container id="option04" behavior="STRICT|LOCK_SIZE" x="221" y="267" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="" height="" style="OPTION" visible="true">
+				<file play="false" start_frame="1"/>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="LINK_4" visible="true">
+				<file play="false" start_frame="1" bytes="47186">04_01_03_010_05.png</file>
+				<notes id="description">record player on the desk</notes>
+			</graphic>
+			<text id="text" x="8" y="10" width="79" height="" autosize="H" style="OPTION" visible="true">
+				<content/>
+			</text>
+		</container>
+		<container id="option05" behavior="STRICT|LOCK_SIZE" x="424" y="355" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="" height="" style="OPTION" visible="true">
+				<file play="false" start_frame="1"/>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="LINK_4" visible="true">
+				<file play="false" start_frame="1" bytes="9339">04_01_03_010_06.png</file>
+				<notes id="description">rolls of film on the desk</notes>
+			</graphic>
+			<text id="text" x="8" y="10" width="74" height="" autosize="H" style="OPTION" visible="true">
+				<content/>
+			</text>
+		</container>
+		<container id="option06" behavior="STRICT|LOCK_SIZE" x="611" y="156" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="" height="" style="OPTION" visible="true">
+				<file play="false" start_frame="1"/>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="LINK_4" visible="true">
+				<file play="false" start_frame="1" bytes="17522">04_01_03_010_07.png</file>
+				<notes id="description">rotary phone on the wall</notes>
+			</graphic>
+			<text id="text" x="8" y="10" width="79" height="" autosize="H" style="OPTION" visible="true">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="buttons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="submit" behavior="STRICT|LOCK_SIZE" x="618" y="417" visible="false" fx="SUBMIT_SHOW" hidefx="SUBMIT_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SUBMIT" visible="true">
+				<file play="false" bytes="2583" duration="35" start_frame="1">std_control.swf</file>
+			</graphic>
+			<text id="text" x="8" y="8" width="101" height="18" autosize="" style="CONTROLS" visible="true">
+				<content translate="true">Submit</content>
+			</text>
+		</container>
+	</section>
+	<answeranalysis id="answer_analysis" type="MULTIPLE_ANSWER" max_attempts="1">
+		<answer id="correct" correct="true" attempt="ANY" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="168" y="355" width="571" height="" autosize="H" style="CORRECT_FEEDBACK" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content translate="true">Great! It is important to keep in mind that just as technology has changed, so have family dynamics. Understanding that family structure is continually changing will help you teach parents the most effective parenting techniques for their unique situations.</content>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" start_frame="1"/>
+					<transcript/>
+					<notes id="mentor-character">Narrator:</notes>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect1" correct="false" attempt="1" comparison="">
+			<feedback>
+				<text id="feedback" x="26" y="324" width="720" height="" autosize="H" style="INCORRECT_FEEDBACK" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content/>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" start_frame="1"/>
+					<transcript/>
+					<notes id="mentor-character">Narrator:</notes>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect2" correct="false" attempt="ANY" comparison="">
+			<feedback>
+				<text id="feedback" x="25" y="376" width="550" height="" autosize="H" style="INCORRECT_FEEDBACK" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content/>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" start_frame="1"/>
+					<transcript/>
+				</audio>
+			</feedback>
+		</answer>
+	</answeranalysis>
+	<section id="miscellaneous_text" expanded="true"/>
+	<graphic id="ref_icon01" x="10" y="420" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+		<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+		<eventlist>
+			<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+		</eventlist>
+	</graphic>
+	<container id="reference01" behavior="STRICT|LOCK_SIZE" x="1" y="248" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+		<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="170" style="DEFAULT" visible="true">
+			<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+		</graphic>
+		<graphic id="close" x="390" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+			<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+		</graphic>
+		<text id="misc_text01" x="20" y="60" width="422" height="" autosize="H" style="REFERENCE" visible="true">
+			<content translate="true">This is a great activity to use with parents to emphasize that their children are growing up in a different world than they did.</content>
+		</text>
+	</container>
+</template>

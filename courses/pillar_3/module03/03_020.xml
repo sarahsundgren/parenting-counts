@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="-50" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Conclusion</content>
+	</text>
+	<text id="nav_text" x="125" y="425" width="650" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">To continue, click another &lt;B&gt;Module&lt;/B&gt; from the top menu.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="350" y="60" width="390" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Congratulations! You have completed the Exploration module.</content>
+		</text>
+		<text id="text02" x="0" y="79.6" width="390" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Children are natural explorers.</content>
+		</text>
+		<text id="text03" x="0" y="171.6" width="390" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Children need environments where they can safely explore new stimuli and test familiar objects at their own pace.</content>
+		</text>
+		<text id="text04" x="0" y="294.8" width="390" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Because very young children do not understand danger, parents and caregivers need to make their home environments safe for their child to explore.</content>
+		</text>
+		<text id="text05" x="0" y="79.6" width="390" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Before you leave this module, consider reviewing the Educator Training Goals. These goals can be found by clicking the &lt;B&gt;Professional Icon&lt;/B&gt;.</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="-50" y="60" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="132085">03_020_01.jpg</file>
+			<notes id="description">#74 18 mo. Tierney - 53-15 from Exploration folder in Learning &amp; Cognition</notes>
+		</graphic>
+		<graphic id="graphic02" x="425" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="129945" play="false" startpos="1">03_020_02.jpg</file>
+			<notes id="description">#184 11 mo. Ana - 7-72 from Exploration folder in Learning &amp; Cognition</notes>
+		</graphic>
+		<graphic id="graphic03" x="585" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="124094" play="false" startpos="1">03_020_03.jpg</file>
+			<notes id="description">Johannes_Ava_Sure from Exploration folder in Learning &amp; Cognition</notes>
+		</graphic>
+		<graphic id="graphic04" x="425" y="210" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="109373" play="false" startpos="1">03_020_04.jpg</file>
+			<notes id="description">#60 6 mo. Noel - 6-58 from Exploration folder in Learning &amp; Cognition</notes>
+		</graphic>
+		<graphic id="graphic05" x="585" y="210" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="123079" play="false" startpos="1">03_020_05.jpg</file>
+			<notes id="description">Luna_Max_Poors_SoySauce from Exploration folder in Learning &amp; Cognition</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="59127" startpos="1" duration="173">a_03_020_01.swf</file>
+			<transcript translate="true">Congratulations! You have completed the Exploration module. In this module, you learned how young children explore the world around them and learn through their environmental interactions. Before we move on, let's review some of the main ideas.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="29275" startpos="1" duration="86">a_03_020_02.swf</file>
+			<transcript translate="true">Children are natural explorers. They are born curious and will use all of their senses to explore the world around them.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="VISUAL_FX" target="graphic01" result_param="HIDE"/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="28419" startpos="1" duration="84">a_03_020_03.swf</file>
+			<transcript translate="true">Children need environments where they can safely explore new stimuli and test familiar objects at their own pace.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" bytes="62575" startpos="1" duration="183">a_03_020_04.swf</file>
+			<transcript translate="true">Because very young children do not understand danger, parents and caregivers need to make their home environments safe for their child to explore. This will encourage their curiosity about the world by providing safe opportunities to learn, discover, and explore.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" bytes="60423" startpos="1" duration="177">a_03_020_06.swf</file>
+			<transcript translate="true">Before you leave this module, consider reviewing the Educator Training Goals. These goals can be found by clicking the Professional Icon. If you have questions about any exploration concepts, please review this module before moving on to the Play module.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="reference_icons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="ref_icon01" x="-95" y="440" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="-95" y="245" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="40" width="407" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Educator Training Goals:&lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Present research and expert findings that define the concept of exploration and explain why exploration is an important tool in cognitive learning.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Describe how young children test their environment.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Provide parents with information about how children test their hypotheses, gather evidence, and use these experiences to explore their world.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+			<text id="misc_text02" x="35" y="40" width="25" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;1. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;2.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;3.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

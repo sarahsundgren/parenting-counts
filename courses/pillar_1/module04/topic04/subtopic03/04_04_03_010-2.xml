@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_floatpanels" view="view_floatpanels">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Knowing Your Child</content>
+	</text>
+	<text id="nav_text" x="158" y="425" width="613" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt;, or click &lt;B&gt;Conclusion&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="715" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">As a professional, you can ask parents questions to help them better understand and address their child's stress. After reviewing the questions below, think about the parents you work with and brainstorm a few questions you can discuss with them. Consider adding them in the &lt;B&gt;My Teaching Notes&lt;/B&gt; Section.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="600" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;question mark&lt;/B&gt; to view possible questions to discuss with parents.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<audio id="initial_audio">
+			<file play="true" startpos="1" bytes="82083" duration="240">a_04_04_03_010_01.swf</file>
+			<transcript translate="true">As a professional, you can ask parents questions to help them better understand and address their child's stress. After reviewing the questions below, think about the parents you work with and brainstorm a few questions you can discuss with them. Consider adding them in the My Teaching Notes Section. Click each question mark to view possible questions to discuss with parents.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="dev_assets" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<area id="target01" behavior="" x="49" y="183" width="75" height="75" visible="false" fx=""/>
+		<area id="target02" behavior="" x="50" y="278" width="75" height="75" visible="false" fx=""/>
+	</section>
+	<section id="float_panels" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="panel01" behavior="" x="341" y="160" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="125" height="125" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="20697" startpos="1">04_04_03_010_01.png</file>
+				<notes id="description">Alphabet type block with a ? (question mark) in the middle (Example:  R:\ActiveProjects\Talaris\_parentingcounts\_site\course_3_learning\graphics\04_01_02_010_02.png)</notes>
+			</graphic>
+			<text id="text" x="8" y="13" width="100" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel02" behavior="" x="256" y="295" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="125" height="125" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="22799" startpos="1">04_04_03_010_02.png</file>
+				<notes id="description">Alphabet type block with a ? (question mark) in the middle  (Example:  R:\ActiveProjects\Talaris\_parentingcounts\_site\course_3_learning\graphics\04_01_02_010_03.png)</notes>
+			</graphic>
+			<text id="text" x="20" y="0" width="100" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel03" behavior="" x="408" y="295" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="125" height="125" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="21969" startpos="1">04_04_03_010_03.png</file>
+				<notes id="description">Alphabet type block with a ? (question mark) in the middle  (Example:  R:\ActiveProjects\Talaris\_parentingcounts\_site\course_3_learning\graphics\04_01_02_010_04.png)</notes>
+			</graphic>
+			<text id="text" x="9" y="0" width="100" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="content_panels" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="content_panel01" behavior="" x="168" y="111" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="CONTENT_PANEL">
+			<graphic id="background" behavior="" x="0" y="0" width="600" height="300" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="0" y="58" width="200" height="200" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="62647" startpos="1">04_04_03_010_04.jpg</file>
+				<notes id="description">Child without parents  File #: 11713994</notes>
+			</graphic>
+			<text id="header" x="227" y="57" width="311" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">What causes stress for your child?</content>
+			</text>
+			<text id="text" x="227" y="89" width="333" height="" autosize="H" style="PANEL_TEXT" visible="true" fx="">
+				<content translate="true">Here are some possible responses from parents:&lt;LI&gt;Losing a toy&lt;/LI&gt;&lt;LI&gt;Being left with a babysitter&lt;/LI&gt;&lt;LI&gt;Experiencing new situations or places&lt;/LI&gt;&lt;LI&gt;Falling asleep at night&lt;/LI&gt;&lt;LI&gt;When I yell or scream&lt;/LI&gt;</content>
+			</text>
+		</container>
+		<container id="content_panel02" behavior="" x="168" y="111" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="CONTENT_PANEL">
+			<graphic id="background" behavior="" x="0" y="0" width="600" height="300" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="0" y="57" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="46121" startpos="1">04_04_03_010_05.jpg</file>
+				<notes id="description">Childish problems  File #: 725573</notes>
+			</graphic>
+			<text id="header" x="227" y="57" width="311" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">What physical, behavioral, or emotional cues let you know your child is stressed?</content>
+			</text>
+			<text id="text" x="227" y="100" width="366" height="" autosize="H" style="PANEL_TEXT" visible="true" fx="">
+				<content translate="true">Here are some possible responses from parents:&lt;LI&gt;Refusing to eat&lt;/LI&gt;&lt;LI&gt;Unusually fussy or moody&lt;/LI&gt;&lt;LI&gt;Temper tantrums&lt;/LI&gt;&lt;LI&gt;Changes in normal behavior&lt;/LI&gt;&lt;LI&gt;Difficulty in falling asleep&lt;/LI&gt;&lt;LI&gt;Complaints of a headache or stomachache&lt;/LI&gt;</content>
+			</text>
+		</container>
+		<container id="content_panel03" behavior="" x="168" y="111" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="CONTENT_PANEL">
+			<graphic id="background" behavior="" x="0" y="0" width="600" height="300" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="0" y="57" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="62258" startpos="1">04_04_03_010_06.jpg</file>
+				<notes id="description">Playful. File #: 2926741</notes>
+			</graphic>
+			<text id="header" x="227" y="57" width="311" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">How do you help your child calm down or understand the stressful situation?</content>
+			</text>
+			<text id="text" x="227" y="100" width="372" height="" autosize="H" style="PANEL_TEXT" visible="true" fx="">
+				<content translate="true">Here are some possible responses from parents:&lt;LI&gt;Talking in a calm, quiet voice &lt;/LI&gt;&lt;LI&gt;Letting them hold a special blanket or security object&lt;/LI&gt;&lt;LI&gt;Talking to them about the emotions they are feeling&lt;/LI&gt;&lt;LI&gt;Holding and comforting them&lt;/LI&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="692" y="341" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Hirsh-Pasek, K., &amp; Golinkoff, R. M. (2003). &lt;I&gt;Einstein never used flash cards: How our children really learn and why they need to play more and memorize less&lt;/I&gt;. Emmaus, PA: Rodale Books.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

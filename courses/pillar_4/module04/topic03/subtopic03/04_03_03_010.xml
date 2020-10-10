@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="true"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+		<eventlist>
+			<event type="COMPLETION" result="PLAY" target="narration01" result_param=""/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Getting Books</content>
+	</text>
+	<text id="nav_text" x="166" y="425" width="607" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt;, or click a new &lt;B&gt;Topic&lt;/B&gt; below.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="660" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Many children lack access to print, especially those in lower-income homes. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;One way you can support parents is by helping them find access to books and other print materials. &lt;/P&gt;</content>
+		</text>
+		<text id="directions" x="25" y="77" width="532" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;book&lt;/B&gt; to explore resources that may be available in your local area.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="503" y="130" width="189" height="131" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" bytes="54">clear.gif</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" duration="184" bytes="63003" startpos="1">a_04_03_03_010_01.swf</file>
+			<transcript translate="true">Many children lack access to print, especially those in lower-income homes. One way you can support parents is by helping them find access to books and other print materials. Click each book to explore resources that may be available in your local area.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="list_items" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<graphic id="link01" x="46" y="158" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="14625" play="false" startpos="1">04_03_03_010_02.png</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;book&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="link02" x="65" y="280" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="8047" play="false" startpos="1">04_03_03_010_03.png</file>
+			<notes id="description">book</notes>
+		</graphic>
+		<graphic id="link03" x="151" y="149" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="13781" play="false" startpos="1">04_03_03_010_04.png</file>
+			<notes id="description">book</notes>
+		</graphic>
+		<graphic id="link04" x="186" y="302" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="12182" play="false" startpos="1">04_03_03_010_05.png</file>
+			<notes id="description">book</notes>
+		</graphic>
+		<graphic id="link05" x="263" y="144" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="28530" play="false" startpos="1">04_03_03_010_06.png</file>
+			<notes id="description">book</notes>
+		</graphic>
+		<graphic id="link06" x="287" y="280" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="13706" play="false" startpos="1">04_03_03_010_07.png</file>
+			<notes id="description">book</notes>
+		</graphic>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true"/>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="520" y="145" width="148" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Access to books and magazines are available for free check-out at community libraries.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text02" x="520" y="145" width="145" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Children attending preschool or kindergarten may be able to check-out books through the school library.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text03" x="520" y="145" width="168" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Books can be inexpensively purchased at used book stores.</content>
+		</text>
+		<text id="swap_text04" x="520" y="145" width="152" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Many community centers may offer resources for children.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text05" x="520" y="145" width="160" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Access to the internet may also provide many opportunities for free reading materials appropriate for children.</content>
+		</text>
+		<text id="swap_text06" x="520" y="145" width="158" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Some communities may offer free magazines or newspapers that children can enjoy.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="false" bytes="33475" startpos="1" duration="98">a_04_03_03_010_02.swf</file>
+			<transcript translate="true">Before moving on, consider taking a moment to click on the My Notes feature to record some ideas for obtaining books in your local area.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="video" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="10" y="420" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="2690" play="false" startpos="1">icon_pro_gray.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+				<event type="CLICK" result="BRING_TO_TOP" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon02" x="496" y="50.6" width="15" height="15" style="LINK_SWF" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+			<file bytes="1716" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="25" y="238" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="16798">04_03_03_010_08.jpg</file>
+			<notes id="description">book shelf</notes>
+		</graphic>
+		<graphic id="misc_graphic02" x="25" y="380" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="16798">04_03_03_010_08.jpg</file>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="1" y="235" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="30" y="60" width="399" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Typically the book availability of middle-income neighborhoods is approximately 13 books per child, whereas the availability in low-income neighborhoods is only 1 book per 300 children. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Helping parents find access to these resources could be a very important part of your role as an educator.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="40" width="438" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Lee, V.E. &amp; Burkam, D.T. (2002). &lt;I&gt;Inequality at the starting gate: Social background differences in achievement as children begin school.&lt;/I&gt; Washington, DC: Economic Policy Institute.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

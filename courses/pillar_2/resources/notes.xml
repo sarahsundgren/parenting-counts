@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<graphic id="background" x="0" y="0" width="795" height="533" behavior="LOCK_XY|LOCK_SIZE" style="PLAIN" visible="true" fx="SHOW" hidefx="HIDE" disabled="true">
+		<file play="false" bytes="5827" startpos="1">wizard.jpg</file>
+		<eventlist>
+			<event type="CLICK" result="DISABLE" target="_self" result_param=""/>
+		</eventlist>
+	</graphic>
+	<text id="title" x="37" y="35" width="456" height="" autosize="H" style="WIZARD_TITLE" visible="true" fx="SHOW" hidefx="HIDE">
+		<content translate="true">My Notes</content>
+	</text>
+	<text id="notes" x="37" y="65" width="697" height="346" autosize="" style="WIZARD_SELECTABLE_TEXT" visible="true" fx="SHOW" hidefx="HIDE" scroll="AUTO">
+		<content translate="true">To add a note, click the the "&lt;B&gt;+&lt;/B&gt;" button.</content>
+	</text>
+	<graphic id="print" x="647" y="430" width="" height="" behavior="" style="CONTROLS" visible="true" fx="SHOW" hidefx="HIDE" disabled="true">
+		<file play="false" bytes="3602" startpos="1" duration="23">btn_print.swf</file>
+		<eventlist>
+			<event type="CLICK" result="CALL_FUNCTION" target="PAGE" result_param="printWizard();"/>
+		</eventlist>
+	</graphic>
+</template>

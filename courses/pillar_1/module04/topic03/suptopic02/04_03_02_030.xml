@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_video" view="view_video">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+		<eventlist>
+			<event type="COMPLETION" result="SHOW" target="nav_text" result_param=""/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Helping Parents Identify Their Own Stress</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="550" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Identifying Stressors&lt;/B&gt;.</content>
+	</text>
+	<text id="intro_text" x="400" y="60" width="364" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;Many parents experience a variety of stressors including: &lt;/P&gt;&lt;LI&gt;Finances &lt;/LI&gt;&lt;LI&gt;Relationships&lt;/LI&gt;&lt;LI&gt;Work&lt;/LI&gt;&lt;LI&gt;Health&lt;/LI&gt;&lt;LI&gt;Family commitments&lt;/LI&gt;&lt;LI&gt;Issues with children&lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Let's watch a video about how a mother experiencing &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;a series of stressful events chooses to deal with &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;the situation. &lt;/P&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="400" y="60" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Adults can choose their reaction to a stressful situation. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;It is important to remind parents to consider their own self-care. Ask parents what they are doing to manage their own stress level and to take care of themselves.&lt;/P&gt;</content>
+		</text>
+		<text id="text02" x="380" y="61" width="335" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Parents need to take care of themselves in order to be able to help their child. Remind them about &lt;LI&gt;Exercise &lt;/LI&gt;&lt;LI&gt;Nutrition &lt;/LI&gt;&lt;LI&gt;Sleep &lt;/LI&gt;&lt;LI&gt;Massage&lt;/LI&gt;&lt;LI&gt;Supportive relationships &lt;/LI&gt;&lt;LI&gt;Medical alternatives&lt;/LI&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="" result_param=""/>
+			</eventlist>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="268" bytes="91779" startpos="1">a_04_03_02_030_01.swf</file>
+			<transcript translate="true">Many parents experience a variety of stressors including finances, relationships, work, health, family commitments, or issues with children. All of these types of stressors can create challenges for parents that can negatively impact both parent and child. Let's watch a video about how a mother experiencing a series of stressful events chooses to deal with the situation.  </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="video" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" startpos="1" bytes="108487" duration="317">a_04_03_02_030_02.swf</file>
+			<transcript translate="true">As the video illustrates, adults can choose their reaction to a stressful situation. It is important to remind parents to consider their own self-care. Ask parents what they are doing to manage their own stress level and to take care of themselves. One analogy that parents often find helpful is the airline reminder that in the event of an emergency put your own oxygen mask on before you help those around you. This is true in parenting as well. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration03" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" startpos="1" bytes="70975" duration="207">a_04_03_02_030_03.swf</file>
+			<transcript translate="true">Parents need to take care of themselves in order to be able to help their child. Remind them about exercise, nutrition, sleep, massage, supportive relationships with other adults, and when necessary suggest a referral to their primary care provider for medical alternatives.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="nav_text" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="presentation_video" expanded="true">
+		<video id="video" behavior="" x="25" y="60" width="340" height="240" visible="true" fx="VIDEO_SHOW" hidefx="VIDEO_HIDE" style="DEFAULT">
+			<file startpos="0" play="false" autorewind="true" buffer="15" preload="10" volume="100" bytes="4553316">rough_day.mov</file>
+			<transcript/>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="text01" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="HIDE" target="intro_text" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="0" result="STOP_AUDIO" target="" result_param=""/>
+			</eventlist>
+		</video>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="40" y="345" width="309" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="CENTER"&gt;&lt;I&gt;Making Everyday Moments Count DVD&lt;/I&gt;&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="9" y="420" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="1" y="235" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">Because parents’ own stress levels can vary in both duration and intensity, it is important to have referral sources available when teaching the stress module. Consider referral to a crisis line, medical provider, or therapist.</content>
+			</text>
+		</container>
+	</section>
+</template>

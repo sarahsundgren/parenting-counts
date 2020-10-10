@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_slider" view="view_hslider_links">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="useControls" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">What Parents Can Do</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Parents and Temperament&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="719" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">We've already discussed how important it is for parents to understand their child's temperament. Let's now look over a few examples of temperament types and the best advice in responding to these different types.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="588" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;button &lt;/B&gt;to read the examples.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<audio id="initial_audio">
+			<file play="true" bytes="58375" duration="171" startpos="1">a_02_03_02_020_01.swf</file>
+			<transcript translate="true">We've already discussed how important it is for parents to understand their child's temperament. Let's now look over a few examples of temperament types, and the best advice in responding to these different types. Click each button to read the examples.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="dev_assets" expanded="true">
+		<area id="panel_mask" behavior="" x="7" y="120" width="768" height="301" visible="false" fx=""/>
+	</section>
+	<section id="buttons" align="TOP" spacing="0" autospace="false" exclusive="false" expanded="true">
+		<container id="forward_button" behavior="STRICT|LOCK_SIZE" x="916" y="228" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="false">
+				<file play="false" bytes="1755" startpos="1" duration="30">mc_slider_next.swf</file>
+			</graphic>
+			<text id="text" x="0" y="0" width="1" height="1" autosize="" style="CONTROLS" visible="false">
+				<content/>
+			</text>
+		</container>
+		<container id="reverse_button" behavior="STRICT|LOCK_SIZE" x="20" y="225" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="false">
+				<file play="false" bytes="1810" startpos="1" duration="30">mc_slider_back.swf</file>
+			</graphic>
+			<text id="text" x="0" y="0" width="1" height="1" autosize="" style="CONTROLS" visible="false">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="panels" expanded="true">
+		<container id="panel01" behavior="" x="25" y="150" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="" x="0" y="0" width="" height="" style="" visible="true" fx="">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<graphic id="graphic" behavior="" x="0" y="0" width="725.05" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="166528" startpos="1">02_03_02_020_01.jpg</file>
+				<notes id="description">a group of children with different facial expressions sad happy angry etc.</notes>
+			</graphic>
+			<text id="header" x="285" y="6" width="200" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content/>
+			</text>
+			<text id="text" x="285" y="41" width="273" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel02" behavior="" x="" y="" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="" x="0" y="0" width="724" height="269" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="5" y="5" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="48247" startpos="1">02_03_02_020_02.jpg</file>
+				<notes id="description">3 year old boy throwing a tantrum.</notes>
+			</graphic>
+			<text id="header" x="260" y="10" width="300" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Example 1</content>
+			</text>
+			<text id="text" x="264" y="40" width="431" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Evan is 3 years old. He gets upset easily and throws tantrums when he doesn't get his way. He has difficulty in new situations and does not cope very well. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Advice for Parents:&lt;/B&gt;&lt;/P&gt;&lt;LI&gt;Identify which events trigger your child's tantrums.&lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;LI&gt;Talk with your child about new activities before they happen.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Help your child take breaks when new stimuli are too much. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Talk with your child about how he is feeling.&lt;/LI&gt;</content>
+			</text>
+		</container>
+		<container id="panel03" behavior="" x="" y="" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="" x="0" y="0" width="724" height="269" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="5" y="5" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="54448" startpos="1">02_03_02_020_03.jpg</file>
+				<notes id="description">Hannah, 2 year old girl not eating her dinner in a restaurant. Hannah seems shy</notes>
+			</graphic>
+			<text id="header" x="260" y="10" width="316" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Example 2</content>
+			</text>
+			<text id="text" x="260" y="40" width="452" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Hannah is a sensitive, intense 2-year-old. She is easily overstimulated. Her parents like to eat meals out; however, Hannah doesn't eat well when they do. Hannah's parents often use discipline techniques to get Hannah to eat, and the event turns negative.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Advice for Parents:&lt;/B&gt;&lt;/P&gt;&lt;LI&gt;Recognize that the noise level and number of people in a restaraunt can cause physical discomfort and sensory overload for your child.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Try not to allow the situation to turn into a power struggle. This type of event could create a negative association with food. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Choose a day when your child is well-rested to go out, and consider choosing a consistent place to eat each time so that your child will know what to expect.&lt;/LI&gt;</content>
+			</text>
+		</container>
+		<container id="panel04" behavior="" x="" y="" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="" x="0" y="0" width="724" height="269" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="5" y="5" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="63576" startpos="1">02_03_02_020_04.jpg</file>
+				<notes id="description">Lucy 4 years old, shying away from friends on playground</notes>
+			</graphic>
+			<text id="header" x="260" y="10" width="300" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Example 3</content>
+			</text>
+			<text id="text" x="264" y="40" width="442" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Lucy is a shy 4-year-old. She is slow to participate and withdraws from new situations easily. When her mother takes her to a playground, Lucy watches the other children for quite some time before she feels comfortable enough to join in.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Advice for Parents:&lt;/B&gt;&lt;/P&gt;&lt;LI&gt;Talk to your child about her fears related to new experiences.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Try role playing difficult situations.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Encourage your child to have 1–2 close friendships where she can build trust and confidence.&lt;/LI&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="panel_shortcuts" align="TOP" spacing="90x0" autospace="true" columns="0" expanded="true">
+		<graphic id="link01" x="249" y="112" width="" height="" style="LINK_SWF" visible="false" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link02" x="" y="" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link03" x="" y="" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link04" x="" y="" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+	</section>
+	<section id="swap_audio" expanded="true"/>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="188" y="147" width="46" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Intro</content>
+		</text>
+		<text id="misc_text02" x="398" y="109" width="73" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Example 1</content>
+		</text>
+		<text id="misc_text03" x="513" y="109" width="74" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Example 2</content>
+		</text>
+		<text id="misc_text04" x="628" y="109" width="72" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Example 3</content>
+		</text>
+	</section>
+</template>

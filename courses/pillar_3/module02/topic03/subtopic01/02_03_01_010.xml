@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Parents and Imitation</content>
+	</text>
+	<text id="nav_text" x="325" y="425" width="450" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Parents Can Do&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="400" y="60" width="325" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Even at a very young age, children imitate their parent's behavior.</content>
+		</text>
+		<text id="text02" x="25" y="95.2" width="325" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Parent and caregiver behavior presents powerful lessons to a child and leaves impressions on the developing mind.</content>
+		</text>
+		<text id="text03" x="25" y="187.2" width="325" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Children store both positive and negative images that may be imitated at a later time.</content>
+		</text>
+		<text id="text04" x="25" y="263.6" width="325" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Key Message:&lt;/B&gt;&lt;LI&gt;Children imitate their parents' behaviors and other influences that parents expose them to.&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="miscellaneous_graphics" align="TOP|LEFT" spacing="10" autospace="true" columns="2" exclusive="false" expanded="true">
+		<graphic id="misc_graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="21592" startpos="1" play="false">02_03_01_010_01a.jpg</file>
+			<notes id="description">02_03_01_010_01.jpg in grayscale</notes>
+		</graphic>
+		<graphic id="misc_graphic02" x="85" y="215" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="16739" startpos="1" play="false">02_03_01_010_02a.jpg</file>
+			<notes id="description">02_03_01_010_02.jpg in grayscale</notes>
+		</graphic>
+		<graphic id="misc_graphic03" x="85" y="215" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="17107" startpos="1" play="false">02_03_01_010_03a.jpg</file>
+			<notes id="description">02_03_01_010_03.jpg in grayscale</notes>
+		</graphic>
+		<graphic id="misc_graphic04" x="285" y="215" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="17018" startpos="1" play="false">02_03_01_010_04a.jpg</file>
+			<notes id="description">02_03_01_010_04.jpg in grayscale</notes>
+		</graphic>
+	</section>
+	<section id="presentation_graphics" align="TOP|LEFT" spacing="10" autospace="true" columns="2" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="32873" startpos="1" play="false">02_03_01_010_01.jpg</file>
+			<notes id="description">#62 5 mo. Sierra 81 - 220 from Imitation folder in Learning &amp; Cognition</notes>
+		</graphic>
+		<graphic id="graphic02" x="85" y="215" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="29203" startpos="1" play="false">02_03_01_010_02.jpg</file>
+			<notes id="description">#120 Copycats IMI_0006 from Imitation folder in Learning &amp; Cognition</notes>
+		</graphic>
+		<graphic id="graphic03" x="85" y="215" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="30437" startpos="1" play="false">02_03_01_010_03.jpg</file>
+			<notes id="description">#25 17 mo. Shea Qin - 67-128 from Imitation folder in Learning &amp; Cognition</notes>
+		</graphic>
+		<graphic id="graphic04" x="285" y="215" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="26782" startpos="1" play="false">02_03_01_010_04.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;toddler reading newspaper on park bench: istock 6830867&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="17207" startpos="1" duration="51">a_02_03_01_010_01.swf</file>
+			<transcript translate="true">Even at a very young age, children imitate their parent's behavior.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="25827" startpos="1" duration="76">a_02_03_01_010_02.swf</file>
+			<transcript translate="true">Parent and caregiver behavior presents powerful lessons to a child and leaves impressions on the developing mind.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="21951" startpos="1" duration="65">a_02_03_01_010_03.swf</file>
+			<transcript translate="true">Children store both positive and negative images that may be imitated at a later time.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" bytes="29495" startpos="1" duration="87">a_02_03_01_010_04.swf</file>
+			<transcript translate="true">In this topic, the Key Message is that children imitate their parents' behaviors and other influences that parents expose them to.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true"/>
+</template>

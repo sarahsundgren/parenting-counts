@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_floatpanels" view="view_floatpanels">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Communication During the First Year</content>
+	</text>
+	<text id="nav_text" x="157" y="425" width="613" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about the &lt;B&gt;Stages of Communication&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="51" width="713" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">During the first year of life, infants experiment with sounds in many ways. These experiments include crying in order to have their needs met and babbling in order to get the attention of adults.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="595" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;photo&lt;/B&gt; below to learn more.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<audio id="initial_audio">
+			<file play="true" startpos="1" bytes="66671" duration="195">a_02_03_02_010_01.swf</file>
+			<transcript translate="true">During the first year of life, infants experiment with sounds in many ways. These experiments include crying in order to have their needs met and babbling in order to get the attention of adults. Click each photo below to learn more about the communication stages that babies experience in their first year.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="dev_assets" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<area id="target01" behavior="" x="25" y="142" width="60" height="70" visible="false" fx=""/>
+		<area id="target02" behavior="" x="25" y="225" width="60" height="70" visible="false" fx=""/>
+		<area id="target03" behavior="" x="25" y="308" width="60" height="70" visible="false" fx=""/>
+	</section>
+	<section id="float_panels" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="panel01" behavior="" x="25" y="169" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="LINK_3" visible="true" fx="">
+				<file play="false" bytes="39654" startpos="1">02_03_02_010_01.jpg</file>
+				<notes id="description">newborn</notes>
+			</graphic>
+			<text id="text" x="0" y="130" width="150" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel02" behavior="" x="217" y="169" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="LINK_3" visible="true" fx="">
+				<file play="false" bytes="37954" startpos="1">02_03_02_010_02.jpg</file>
+				<notes id="description">baby age 2-3 months</notes>
+			</graphic>
+			<text id="text" x="20" y="0" width="100" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel03" behavior="" x="407" y="169" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="LINK_3" visible="true" fx="">
+				<file play="false" bytes="40443" startpos="1">02_03_02_010_03.jpg</file>
+				<notes id="description">baby age 6-months</notes>
+			</graphic>
+			<text id="text" x="9" y="0" width="100" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel04" behavior="" x="596" y="169" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="LINK_3" visible="true" fx="">
+				<file play="false" bytes="47513" startpos="1">02_03_02_010_07.jpg</file>
+				<notes id="description">baby age 10 months</notes>
+			</graphic>
+			<text id="text" x="9" y="0" width="100" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="content_panels" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="content_panel01" behavior="" x="110" y="70" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="CONTENT_PANEL">
+			<graphic id="background" behavior="" x="0" y="0" width="600" height="300" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="0" y="73" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="53116" startpos="1">02_03_02_010_04.jpg</file>
+				<notes id="description">same picure as panel01</notes>
+			</graphic>
+			<text id="header" x="227" y="73" width="398" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">0–2 Months</content>
+			</text>
+			<text id="text" x="210" y="90" width="420" height="" autosize="H" style="PANEL_TEXT" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;For the first eight weeks of life, a baby primarily communicates by using cues and sounds. Cues are infant behaviors or activities that signal an infant's status or needs. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;At first, the cues a baby sends are primarily reflexive because babies at this age are not yet intentional about their communication; however, the sounds they make encourage parents to interact with them, which in turn promotes language growth.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;At this age, a baby uses crying to communicate. While crying is effective in getting the attention of an adult, it is limited in the messages that are being communicated. This can be a period of frustration for parents because it can be difficult to know the reason for crying.&lt;/LI&gt;</content>
+			</text>
+		</container>
+		<container id="content_panel02" behavior="" x="110" y="70" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="CONTENT_PANEL">
+			<graphic id="background" behavior="" x="0" y="0" width="600" height="300" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="0" y="73" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="49950" startpos="1">02_03_02_010_05.jpg</file>
+				<notes id="description">same as panel02</notes>
+			</graphic>
+			<text id="header" x="227" y="73" width="354" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">2–4 Months</content>
+			</text>
+			<text id="text" x="210" y="90" width="418" height="" autosize="H" style="PANEL_TEXT" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;Infant crying peaks at around 2 months and begins to decline over the next several months as positive vocalizations such as cooing, gurgling, and laughing begin to surface. Often infants make these sounds to attract or respond to an adult's attention. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Over time, parents may be able to better identify the reasons for infant cries and may even begin to hear different cries for different needs.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Around this same time, babies begin to show more specific preferences by using engagement and disengagement cues. Engagement cues signal the infant's readiness to interact with caregivers. Disengagement cues signal the infant's need for a break.&lt;/LI&gt;</content>
+			</text>
+			<graphic id="ref_icon01" x="355" y="309" width="15" height="15" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<file bytes="1716" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+		<container id="content_panel03" behavior="" x="110" y="70" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="CONTENT_PANEL">
+			<graphic id="background" behavior="" x="0" y="0" width="600" height="300" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="0" y="73" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="59217" startpos="1">02_03_02_010_06.jpg</file>
+				<notes id="description">same as panel03</notes>
+			</graphic>
+			<text id="header" x="227" y="73" width="329" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">4–8 Months</content>
+			</text>
+			<text id="text" x="210" y="90" width="409" height="" autosize="H" style="PANEL_TEXT" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;From 4–8 months, a baby's experiment with sound continues. During this time, infants play with the volume of the sounds they create. This type of vocal play can occur when the child is alone, but vocalization generally increases when an adult is present. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;When an adult looks a baby in the eye, the baby babbles more in response. The baby also begins to participate in conversational turns, meaning he or she will wait until the adult stops talking before making a vocal response. By 6 or 7 months, babies start to make real, language-like sounds. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;By 7 months, babies seem to be aware of the auditory clues adult speakers use to tell listeners where ideas, sentences, and phrases start and end. They also recognize how these parts of speech fit together.&lt;/LI&gt;</content>
+			</text>
+		</container>
+		<container id="content_panel04" behavior="" x="110" y="70" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="CONTENT_PANEL">
+			<graphic id="background" behavior="" x="0" y="0" width="600" height="300" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="0" y="73" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="62287" startpos="1">02_03_02_010_08.jpg</file>
+				<notes id="description">same as panel04</notes>
+			</graphic>
+			<text id="header" x="227" y="73" width="329" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">8–12 Months</content>
+			</text>
+			<text id="text" x="210" y="90" width="431" height="" autosize="H" style="PANEL_TEXT" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;By 8 months, babbling becomes more sophisticated as babies start to combine different syllables, such as "ma-da" &lt;/LI&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;and "ba-ga." &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;By their first birthday, babies are generally physically and cognitively capable of producing language. At this age, babies are generally beginning to make associations between sounds and meaning as they struggle to express their ideas &lt;/LI&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;and feelings.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Babies may start to reuse the same sounds consistently. These sounds are not real words in that they are only recognized and understood by a few people.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Most children say their first words at around 12 months, but are able to understand many more words than they can speak. &lt;/LI&gt;</content>
+			</text>
+		</container>
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="40" width="438" height="" autosize="H" style="DEFAULT_2" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Barnard, K.E. (1978). &lt;I&gt;Nursing child assessment and training: Learning resource manual.&lt;/I&gt; Seattle, WA: University of Washington.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_cardswap" view="view_cardswap_inplace">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="persistInitGfx" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+		<settings id="perspectiveEdges" datatype="LIST" value="DEFAULT"/>
+		<settings id="exclusiveCards" datatype="LIST" value="FALSE"/>
+		<settings id="allowFlipBack" datatype="LIST" value="TRUE"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Play and the Four Pillars</content>
+	</text>
+	<text id="nav_text" x="180" y="425" width="590" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Play and the Four Pillars&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="656" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">As discussed in the Getting Started section, there are four pillars to a child's development. Play supports all of these pillars.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="357" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;pillar&lt;/B&gt; to read about how play supports healthy development.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="25" y="120" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="26111" startpos="1">placeholder_200x200_01.jpg</file>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" bytes="54059" startpos="1" duration="158">a_04_02_02_010_01.swf</file>
+			<transcript translate="true">As discussed in the Getting Started section, there are four pillars to a child's development. Play supports all of these pillars. Click each pillar to read about how play supports healthy development.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="card_backs" align="TOP" spacing="10x0" autospace="true" columns="0" exclusive="false" expanded="true">
+		<container id="card_back01" behavior="LOCK_SIZE" x="25" y="145" style="CARD" visible="true" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_BACK" visible="true" fx="">
+				<file bytes="7601" play="false" placeholder="true" startpos="1">04_02_02_011_05.png</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Physical Pillar&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_BACK" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon04" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference04" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="card_back02" behavior="LOCK_SIZE" x="133" y="135" style="CARD" visible="true" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_BACK" visible="true" fx="">
+				<file bytes="4938" play="false" startpos="1" placeholder="true">04_02_02_011_06.png</file>
+				<notes id="description">Social and Emotional Pillar</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_BACK" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon04" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference04" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="card_back03" behavior="LOCK_SIZE" x="250" y="134" style="CARD" visible="true" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_BACK" visible="true" fx="">
+				<file bytes="5166" play="false" startpos="1" placeholder="true">04_02_02_011_07.png</file>
+				<notes id="description">Cognitive Pillar</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_BACK" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon04" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference04" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="card_back04" behavior="LOCK_SIZE" x="366" y="134" style="CARD" visible="true" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_BACK" visible="true" fx="">
+				<file bytes="5271" play="false" startpos="1" placeholder="true">04_02_02_011_08.png</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Communication and Language Pillar&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_BACK" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference04" result_param=""/>
+			</eventlist>
+		</container>
+	</section>
+	<section id="card_fronts" align="TOP" spacing="10x0" autospace="true" columns="0" exclusive="false" expanded="true">
+		<container id="card_front01" behavior="LOCK_SIZE" x="25" y="145" style="CARD" visible="false" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_FRONT2" visible="true" fx="">
+				<file bytes="7601" play="false" startpos="1" placeholder="true">04_02_02_011_05.png</file>
+				<notes id="description">physical pillar highlighted</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_FRONT" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="card_front02" behavior="LOCK_SIZE" x="210" y="240" style="CARD" visible="false" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_FRONT2" visible="true" fx="">
+				<file bytes="4938" play="false" startpos="1" placeholder="true">04_02_02_011_06.png</file>
+				<notes id="description">social and emotional pillar highlighted</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_FRONT" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="card_front03" behavior="LOCK_SIZE" x="395" y="240" style="CARD" visible="false" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_FRONT2" visible="true" fx="">
+				<file bytes="5166" play="false" startpos="1" placeholder="true">04_02_02_011_07.png</file>
+				<notes id="description">cognitive pillar highlighted</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_FRONT" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference03" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="card_front04" behavior="LOCK_SIZE" x="580" y="240" style="CARD" visible="false" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_FRONT2" visible="true" fx="">
+				<file bytes="5271" play="false" startpos="1" placeholder="true">04_02_02_011_08.png</file>
+				<notes id="description">Communication and Language Pillar highlighted</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_FRONT" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="swap_graphic01" x="450" y="91" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="40810" startpos="1">04_02_02_011_09.jpg</file>
+			<notes id="description">A young girl throwing a ball</notes>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="swap_graphic02" x="" y="" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="48640" startpos="1">04_02_02_011_10.jpg</file>
+			<notes id="description">"Friends" picture from Talaris Play Photos folder</notes>
+		</graphic>
+		<graphic id="swap_graphic03" x="" y="" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="58000" startpos="1">04_02_02_011_11.jpg</file>
+			<notes id="description">Luna_Max_Poors_SoySauce - Talaris Play Photos folder ( a boy pouring soy sauce)</notes>
+		</graphic>
+		<graphic id="swap_graphic04" x="" y="" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="51464" startpos="1">04_02_02_011_12.jpg</file>
+			<notes id="description">Lakeside Preschool 138-02Talaris Play Photos foldertwo boys talking across a table</notes>
+		</graphic>
+	</section>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="450" y="245" width="298" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Play helps children develop physically. For example, play helps to:&lt;/P&gt;&lt;LI&gt;Develop dexterity, flexibility, and strength&lt;/LI&gt;&lt;LI&gt;Improve fine and gross motor skills&lt;/LI&gt;&lt;LI&gt;Acquire coordination and balance&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;Play also leads to a reduced incidence of obesity in children.&lt;/P&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="swap_text02" x="450" y="245" width="288" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Play impacts social and emotional development because it encourages children to: &lt;LI&gt;Experience a broad range of feelings&lt;/LI&gt;&lt;LI&gt;Regulate their emotions&lt;/LI&gt;&lt;LI&gt;Soothe themselves and others &lt;/LI&gt;&lt;LI&gt;Understand the perspectives of others &lt;/LI&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon02" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="swap_text03" x="450" y="245" width="300" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Play strengthens cognitive development. For instance, play allows children to: &lt;/P&gt;&lt;LI&gt;Use trial and error&lt;/LI&gt;&lt;LI&gt;Decrease their fear of failure&lt;/LI&gt;&lt;LI&gt;Learn how things work &lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Additionally, play allows children to:&lt;/P&gt;&lt;LI&gt;Gain control of their thoughts, feelings, and actions &lt;/LI&gt;&lt;LI&gt;Achieve self-confidence&lt;/LI&gt;&lt;LI&gt;Express themselves &lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon03" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="swap_text04" x="450" y="245" width="300" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Play is a natural way to facilitate language and communication skills. It sets the stage for children to: &lt;LI&gt;Learn language as they talk to themselves and practice language &lt;/LI&gt;&lt;LI&gt;Perform both expressive and receptive language as they mature&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="573" y="356" width="15" height="15" style="LINK_SWF" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon02" x="731" y="339" width="15" height="15" style="LINK_SWF" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon03" x="616" y="403" width="15" height="15" style="LINK_SWF" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference03" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480.95" height="184.55" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Singer, D., Golinkoff, R.M., &amp; Hirsh-Pasek, K. (Eds.). (2006). &lt;I&gt;Play=Learning: How play motivates and enhances children's cognitive and social-emotional growth&lt;/I&gt;. New York, NY: Oxford University Press.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480.95" height="184.55" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Berk, L.E., Mann, T.D., &amp; Ogan, A.T. (2006). Make-believe play: Wellspring for the development of self-regulation. In D.G. Singer, R. Golinkoff, &amp; K. Hirsh-Pasek (Eds.), &lt;I&gt;Play = learning: How play motivates and enhances children’s cognitive and social-emotional growth &lt;/I&gt;(pp. 74-100). New York, NY: Oxford University Press.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference03" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480.95" height="184.55" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Bergen, D. (2002). The role of pretend play in children’s cognitive development. &lt;I&gt;Early Childhood Research and Practice, 4&lt;/I&gt;(1), 2-15.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

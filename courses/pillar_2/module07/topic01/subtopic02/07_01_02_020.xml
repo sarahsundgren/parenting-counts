@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_cascade" view="view_cascade_right">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="forceFirstPanel" datatype="LIST" value="ANIMATE"/>
+		<settings id="panelDirection" datatype="LIST" value="REVERSE"/>
+		<settings id="disablePanels" datatype="LIST" value="DEFAULT"/>
+		<settings id="useControls" datatype="LIST" value="ALWAYS_VISIBLE"/>
+		<settings id="setComplete" datatype="LIST" value="ON_ALL_PANELS_VISITED"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Tantrums and Brain Development</content>
+	</text>
+	<text id="nav_text" x="35" y="425" width="735" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Is a Temper Tantrum?&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="710" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Many parents wonder what causes tantrums. One of the major causes is related to brain development, which is why toddlers and preschoolers are so vulnerable to them.</content>
+			<eventlist>
+				<event type="" result="" target="" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="directions" x="" y="" width="551" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click the &lt;B&gt;Forward&lt;/B&gt; button to read more about the research found on brain development.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<audio id="initial_audio">
+			<file play="true" bytes="58155" duration="170" startpos="1">a_07_02_02_010.swf</file>
+			<transcript translate="true">Many parents wonder what causes tantrums. One of the major causes is related to brain development, which is why toddlers and preschoolers are so vulnerable to them. Click the Forward button to read more about the research found on brain development.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<graphic id="initial_graphic" behavior="" x="28" y="160" width="" height="" style="GRAPHIC" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE">
+		<file play="false" bytes="45262" startpos="1">07_01_02_020_01.jpg</file>
+		<notes id="description">screaming, upset little girl, istock 12814599 or similar</notes>
+	</graphic>
+	<section id="dev_assets" expanded="true">
+		<area id="vanish_point" behavior="LOCK_SIZE" x="298" y="134" width="24" height="24" visible="false" fx=""/>
+	</section>
+	<section id="progress_markers" align="TOP" spacing="15x0" autospace="true" exclusive="false" expanded="true">
+		<graphic id="marker01" x="100" y="420" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file play="false" bytes="1615" duration="30" startpos="1">progress_dot.swf</file>
+		</graphic>
+		<graphic id="marker02" x="" y="" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file play="false" bytes="1615" duration="30" startpos="1">progress_dot.swf</file>
+		</graphic>
+		<graphic id="marker03" x="" y="" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file play="false" bytes="1615" duration="30" startpos="1">progress_dot.swf</file>
+		</graphic>
+		<graphic id="marker04" x="" y="" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file play="false" bytes="1615" duration="30" startpos="1">progress_dot.swf</file>
+		</graphic>
+		<graphic id="marker05" x="" y="" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file play="false" bytes="1615" duration="30" startpos="1">progress_dot.swf</file>
+		</graphic>
+	</section>
+	<section id="panels" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="panel01" behavior="" x="28" y="206" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="GRAPHIC" visible="true" fx="">
+				<file play="false" bytes="59632" startpos="1">07_01_02_020_02.jpg</file>
+				<notes id="description">sketch of human brain, istock 6205026 or similar</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel02" behavior="" x="28" y="206" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="200" style="GRAPHIC" visible="true" fx="">
+				<file play="false" bytes="59938" startpos="1">07_01_02_020_03.jpg</file>
+				<notes id="description">Human brain model, istock #: 6032433 or similar</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel03" behavior="" x="28" y="206" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="GRAPHIC" visible="true" fx="">
+				<file play="false" bytes="52467" startpos="1">07_01_02_020_04.jpg</file>
+				<notes id="description">illustration of neurons, istock #10100054 or similar</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel04" behavior="STRICT|LOCK_XY|LOCK_SIZE" x="" y="" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="GRAPHIC" visible="true">
+				<file play="false" bytes="46455" startpos="1">07_01_02_020_06.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Mother comforting older child, istock 3567252 or similar&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true">
+				<content/>
+			</text>
+		</container>
+		<container id="panel05" behavior="STRICT|LOCK_XY|LOCK_SIZE" x="" y="" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="GRAPHIC" visible="true">
+				<file play="false" bytes="61932" startpos="1">07_01_02_020_05.jpg</file>
+				<notes id="description">Toddler girl talking to dad, istock #: 535858 or similar</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="swap_text" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="370" y="206" width="320" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Limbic System&lt;/B&gt;&lt;/P&gt;&lt;LI&gt;&lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;Emotions are primarily generated within a set of structures in the brain called the limbic system. (See the Overview of the Physical Pillar)&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;The limbic system is well-developed at birth; therefore, infants can experience strong positive and negative emotions.&lt;/P&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon01" result_param=""/>
+				<event type="HIDEFX_COMPLETE" result="HIDE" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="swap_text02" x="" y="" width="310" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Frontal Cortex&lt;/B&gt;&lt;/P&gt;&lt;LI&gt;&lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;The frontal cortex is the area of the brain that allows for conscious awareness of, and eventually control of, emotional reactions.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Because the frontal cortex is the slowest developing system in the brain, even older children need patience, support, and help from adults to cope with disappointment, stress, and frustration in positive ways.&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text03" x="" y="" width="310" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Neuron Connections&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;The brain grows and new skills are developed as a result of connections forming between neurons, e.g., brain cells, creating pathways in the brain.&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text04" x="0" y="0" width="325" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Building Connections &lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;The process of building connections between the limbic system and pre-frontal cortex starts shortly after birth.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;However, this is a gradual process, still far from complete in children. In fact, these neural pathways are not fully developed until around age 25.&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text05" x="0" y="0" width="325" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Growth Through Experience &lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Neural pathways are strengthened by experience. With adult support, young children can build and practice their emotional regulation skills.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Eventually, these skills will help children cope with strong emotions and replace tantrums with communication and problem-solving.&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="buttons" align="" spacing="0" autospace="false" exclusive="false" expanded="true">
+		<container id="start_button" behavior="STRICT|LOCK_SIZE" x="521" y="159" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="116" height="32" style="CONTROLS" visible="true">
+				<file play="false" bytes="2583" duration="35" startpos="1">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="85" y="10" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="212">right_arrow.png</file>
+			</graphic>
+			<text id="text" x="25" y="7" width="88" height="18" autosize="" style="DEFAULT" visible="true">
+				<content translate="true">Forward</content>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="initial_graphic" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="reverse_button" behavior="STRICT|LOCK_SIZE" x="386" y="159" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="35" y="10" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="223">left_arrow.png</file>
+			</graphic>
+			<text id="text" x="45" y="8" width="89" height="18" autosize="" style="DEFAULT" visible="true">
+				<content translate="true">Back</content>
+			</text>
+		</container>
+		<container id="forward_button" behavior="STRICT|LOCK_SIZE" x="521" y="159" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="85" y="10" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="212">right_arrow.png</file>
+			</graphic>
+			<text id="text" x="25" y="7" width="88" height="18" autosize="" style="DEFAULT" visible="true">
+				<content translate="true">Forward</content>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="initial_graphic" result_param=""/>
+			</eventlist>
+		</container>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="569" y="94" width="15" height="15" style="LINK_SWF" visible="false" fx="">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="435" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Greenberg, M. T., &amp; Snell, J. L. (1997). Brain development and emotional development: The role of teaching in organizing the frontal lobe. In Peter Salovey &amp; David J. Sluyter (Eds.). &lt;I&gt;Emotional development and emotional intelligence: Educational implications. &lt;/I&gt;93-126. New York, NY: Basic Books.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

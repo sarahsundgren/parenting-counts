@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.1" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="true"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="ON_ALL_LINKS_VISITED"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="7" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Responding to Concerns 1</content>
+	</text>
+	<text id="nav_text" x="180" y="425" width="590" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">&lt;P ALIGN="RIGHT"&gt;Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Play and the Four Pillars&lt;/B&gt;.&lt;/P&gt;&lt;P ALIGN="RIGHT"&gt;&lt;/P&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="37" width="740" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;As a professional, your role is to help parents understand that play supports their children's healthy development. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Let's look at some situations in which a professional responds to a parent's concerns about play and development.&lt;/P&gt;</content>
+		</text>
+		<text id="directions" x="25" y="77" width="561" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Read each situation and possible response, then click &lt;B&gt;Yes&lt;/B&gt; or &lt;B&gt;No&lt;/B&gt;.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="570" y="104" width="196" height="306" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" bytes="72167" duration="211" startpos="1">a_04_02_03_010_00.swf</file>
+			<transcript translate="true">As a professional, your role is to help parents understand that play supports their children's healthy development. Let's look at some situations in which a professional responds to a parent's concerns about play and development. Read each situation and possible response, then click yes or no.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true"/>
+	<section id="swap_text" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="575" y="110" width="195" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Right. Babies can play at birth. However, between 6-12 months babies want to play often. They have emerging fine motor skills and are beginning to explore their ability to control their actions and the world around them. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Children at this age are also learning object permanence, or the concept that when things disappear, they still exist. Try hiding a toy under a blanket, or let your child play the drums with a spoon and a bowl. These are all ways to play with your baby during the early months.&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text02" x="" y="" width="195" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">That's right. In this case, you'll want to encourage the child's parent to facilitate more interaction with other children so that the child will have more opportunity to practice skills such as listening to others and using new vocabulary.</content>
+		</text>
+		<text id="swap_text03" x="584" y="112" width="183" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Try again.</content>
+		</text>
+		<text id="swap_text04" x="" y="" width="180" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Try again.</content>
+		</text>
+	</section>
+	<section id="question01" align="" spacing="0" autospace="false" columns="0" expanded="true" controls="true">
+		<graphic id="box01" x="25" y="105" width="529" height="141" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+		</graphic>
+		<text id="q01_text" x="40" y="120" width="395" height="" autosize="H" style="REFERENCE" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Situation: &lt;/B&gt;The father of a 6-month-old says that he doesn't know how to play with his baby because she can't walk or talk. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Possible Response:&lt;/B&gt; Tell the father that children generally aren't ready to play until they are at least 18 months old.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Is this the best response?&lt;/P&gt;</content>
+		</text>
+		<graphic id="q01_answer01" x="450" y="116" width="" height="" style="TOGGLE_BTN" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file play="false" bytes="6039" startpos="1" duration="23">btn_yes.swf</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="RADIOCLICK" result="SHOW" target="swap_text03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link01" x="450" y="184" width="" height="" style="TOGGLE_BTN" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" name="q01_answer02">
+			<file play="false" bytes="5839" startpos="1" duration="23">btn_no.swf</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="question02" align="" spacing="0" autospace="false" columns="0" expanded="true" controls="true">
+		<graphic id="box02" x="25" y="267" width="529" height="141" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+		</graphic>
+		<text id="q02_text" x="40" y="280" width="395" height="" autosize="H" style="REFERENCE" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Situation:&lt;/B&gt; The parent of a 4-year-old child asks a preschool educator how her child is doing socially. She has noticed that her child prefers to play alone. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Possible Response:&lt;/B&gt; Reassure this parent that most children need a lot of alone time.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Is this the best response?&lt;/P&gt;</content>
+		</text>
+		<graphic id="q02_answer01" x="450" y="276" width="" height="" style="TOGGLE_BTN" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file play="false" bytes="6039" startpos="1" duration="23">btn_yes.swf</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="RADIOCLICK" result="SHOW" target="swap_text04" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link02" x="450" y="342" width="" height="" style="TOGGLE_BTN" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" name="q02_answer02">
+			<file play="false" bytes="5839" startpos="1" duration="23">btn_no.swf</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+</template>

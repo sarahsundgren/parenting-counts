@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">The Five Steps of Emotion Coaching</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;The Five Steps of Emotion Coaching&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x8" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="370" y="60" width="387" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Research studies make it clear that children are healthier when parents nurture, support, and encourage their emotional development.</content>
+		</text>
+		<text id="text02" x="385" y="110" width="377" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;These five steps are: &lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Be aware of emotions &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Connect with your child&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Listen to your child &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Name emotions &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Find solutions&lt;/P&gt;&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="text03" x="385" y="155" width="389" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Key Message:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Emotion Coaching is a five-step tool for helping parents teach children about emotions and problem solving.&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="89415" startpos="1" play="false">a_04_02_01_010_01.jpg</file>
+			<notes id="description">picture found in talaris photos&amp;gt; social emotional&amp;gt; emotion coaching   #136 4 yrs. Abbie - 64-32</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic03" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="67072">04_02_01_010_02.jpg</file>
+			<notes id="description">picture of girl on bench with mom. photo found in talaris photos&amp;gt; emotion coaching&amp;gt; Mad Girl and Mom Playground</notes>
+		</graphic>
+		<graphic id="graphic04" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="81967" startpos="1" duration="239">a_04_02_01_010_01.swf</file>
+			<transcript translate="true">Research studies make it clear that children are healthier when parents nurture, support, and encourage their emotional development. This is the idea behind Emotion Coaching—a five-step approach to parenting that can help create stronger family bonds while preparing children to cope with the powerful world of emotions they face every day.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="59555" startpos="1" duration="174">a_04_02_01_010_02.swf</file>
+			<transcript translate="true">These five steps are: Be aware of emotions. Connect with your child. Listen to your child. Name emotions. And find solutions. Each of these steps will be discussed in depth during this section.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="41771" startpos="1" duration="122">a_04_02_01_010_03.swf</file>
+			<transcript translate="true">Before we get started, the Key Message to remember is: Emotion Coaching is a five-step tool for helping parents teach children about emotions and problem solving.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="385" y="135" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;1.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;2.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;3.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;4.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;5.&lt;/P&gt;</content>
+		</text>
+	</section>
+</template>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Supportive Caregiving</content>
+	</text>
+	<text id="nav_text" x="298" y="425" width="477" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Is&lt;/B&gt; &lt;B&gt;Stress?&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="350" y="60" width="400" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">To develop a healthy stress response system and cope with life's challenges, children require a secure relationship with a parent or caregiver. The younger they are, the more help they need with regulating the stress response.</content>
+		</text>
+		<text id="text02" x="370" y="96" width="385" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Supportive caregiving is a powerful buffer against stress. It prevents cortisol elevation even in those children who might be highly vulnerable to stress.</content>
+		</text>
+		<text id="text03" x="370" y="280" width="400" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Key Message:&lt;/B&gt;&lt;LI&gt;The presence of a sensitive and responsive caregiver can protect infants and toddlers from experiencing excessive stress—even children who tend to be temperamentally fearful or anxious—and help them cope better.&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="75791" startpos="1" play="false">04_04_01_010_01.jpg</file>
+			<notes id="description">Lonely Child File #: 2848378</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE"/>
+		<graphic id="graphic03" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic04" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE"/>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="54811" startpos="1" duration="160">a_04_04_01_010_01.swf</file>
+			<transcript translate="true">To develop a healthy stress response system and cope with life's challenges, children require a secure relationship with a parent or caregiver. The younger they are, the more help they need with regulating the stress response.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="42535" startpos="1" duration="125">a_04_04_01_010_02.swf</file>
+			<transcript translate="true">Research has shown that supportive caregiving is a powerful buffer against stress. It prevents cortisol elevation even in those children who might be highly vulnerable to stress.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="10" result="SHOW" target="ref_icon02" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="58375" startpos="1" duration="171">a_04_04_01_010_03.swf</file>
+			<transcript translate="true">In this topic, the key message is the presence of a sensitive and responsive caregiver can protect infants and toddlers from experiencing excessive stress—even children who tend to be temperamentally fearful or anxious—and help them cope better.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true"/>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon02" x="537" y="168" width="15" height="15" style="LINK_SWF" visible="false" fx="">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="245" y="4" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="530" height="205" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="450" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="35" width="475" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Kertes, D., Donzella, B., Talge, N., Garvin, M., Van Ryzin, M., &amp; Gunnar, M. (2009). Inhibited temperament and parent emotional availability differentially predict young children's cortisol responses to novel social and nonsocial events. &lt;I&gt;Developmental Psychobiology, 51(7),&lt;/I&gt; 521-532. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Nachmias, M., Gunnar, M. R., Mangelsdorf, S., Parritz, R., &amp; Buss, K. A. (1996). Behavioral inhibition and stress reactivity: Moderating role of attachment security. &lt;I&gt;Child Development, 67(2),&lt;/I&gt; 508-522.)&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

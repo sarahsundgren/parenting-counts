@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="true"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+		<eventlist>
+			<event type="COMPLETION" result="PLAY" target="narration01" result_param=""/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Understanding the Brain</content>
+	</text>
+	<text id="nav_text" x="166" y="425" width="607" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Brain Development&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="660" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Parents are usually very interested in the growth and development of their children. When you talk to parents, they will ask you many questions.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="476" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;question mark&lt;/B&gt; to discover some frequently asked questions.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="202" y="122" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" placeholder="true" startpos="1"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" duration="146" bytes="49963" startpos="1">a_01_01_010_00.swf</file>
+			<transcript translate="true">Parents are usually very interested in the growth and development of their children. When you talk to parents, they will ask you many questions. Click each question mark to discover some frequently asked questions.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="list_items" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<graphic id="link01" x="39" y="170" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="2862" play="false" startpos="1">01_01_010_02.jpg</file>
+			<notes id="description">?</notes>
+		</graphic>
+		<graphic id="link02" x="64" y="292" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="5883" play="false" startpos="1">01_01_010_03.jpg</file>
+			<notes id="description">?</notes>
+		</graphic>
+		<graphic id="link03" x="248" y="163" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="4349" play="false" startpos="1">01_01_010_04.jpg</file>
+			<notes id="description">?</notes>
+		</graphic>
+		<graphic id="link04" x="280" y="320" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="3618" play="false" startpos="1">01_01_010_05.jpg</file>
+			<notes id="description">?</notes>
+		</graphic>
+		<graphic id="link05" x="496" y="281" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="5927" play="false" startpos="1">01_01_010_06.jpg</file>
+			<notes id="description">?</notes>
+		</graphic>
+		<graphic id="link06" x="442" y="158" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="5165" play="false" startpos="1">01_01_010_07.jpg</file>
+			<notes id="description">?</notes>
+		</graphic>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true"/>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="swap_text01" x="125" y="168" width="111" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;What can my child remember?&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text02" x="172" y="293" width="100" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;When will my child recognize me?&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text03" x="343" y="164" width="88" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">When is my child ready to learn?</content>
+		</text>
+		<text id="swap_text04" x="366" y="320" width="121" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Why should I talk to my baby before she can talk?&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text05" x="624" y="281" width="101" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Is my child’s personality set at birth?&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text06" x="548" y="161" width="116" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Why do children develop differently? &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="false" duration="102" bytes="34667" startpos="1">a_01_01_021_01.swf</file>
+			<transcript translate="true">These are all types of questions that can be answered by looking at a child's brain development. Let's take a closer look at how the brain actually develops.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="video" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+	</section>
+</template>

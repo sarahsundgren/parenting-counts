@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="TRUE"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Parents' Emotional Communication</content>
+	</text>
+	<text id="nav_text" x="152" y="425" width="619" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Is Emotion Coaching?&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="736" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Emotion Coaching takes a lot of effort from parents. What behaviors do Emotion Coaching parents demonstrate?</content>
+		</text>
+		<text id="directions" x="25" y="77" width="350" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;parent's photo&lt;/B&gt; to learn more.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="-2" y="138" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1"/>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" bytes="51803" duration="152" startpos="1">a_04_01_020_01.swf</file>
+			<transcript translate="true">Emotion Coaching takes a lot of effort from parents. What behaviors do Emotion Coaching parents demonstrate? Click each parent's photo to learn more about the behaviors Emotion Coaching parents demonstrate in their home.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="list_items" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<graphic id="link01" x="7" y="200" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="37509" play="false" startpos="1">04_01_02_010_01a.png</file>
+			<notes id="description">cut out of parent kneeling at child's level listening to child talk</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic05" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic04" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic02" result_param=""/>
+				<event type="CLICK" result="SHOW" target="misc_graphic01" result_param=""/>
+				<event type="CLICK" result="BRING_TO_TOP" target="swap_text01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link02" x="150" y="200" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="33145" play="false" startpos="1">04_01_02_010_02a.png</file>
+			<notes id="description">cut out of parent posed looking forward</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic05" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic04" result_param=""/>
+				<event type="CLICK" result="SHOW" target="misc_graphic02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link03" x="303" y="200" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="42108" play="false" startpos="1">04_01_02_010_04a.png</file>
+			<notes id="description">parent leaning over to talk with child</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic05" result_param=""/>
+				<event type="CLICK" result="SHOW" target="misc_graphic03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic04" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link04" x="441" y="200" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="36879" play="false" startpos="1">04_01_02_010_03a.png</file>
+			<notes id="description">child holding parents hand smiling up at them</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="SHOW" target="misc_graphic04" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic05" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link05" x="574" y="200" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="51870" play="false" startpos="1">04_01_02_010_05a.png</file>
+			<notes id="description">mother and father posing to talk</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic04" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic03" result_param=""/>
+				<event type="CLICK" result="SHOW" target="misc_graphic05" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_graphic01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="34" y="118" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="6600">04_01_02_010_01aa.png</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;Talking bubble overhead&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="misc_graphic02" x="183" y="111" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="7526">04_01_02_010_02aa.png</file>
+			<notes id="description">talking bubble overhead</notes>
+		</graphic>
+		<graphic id="misc_graphic03" x="316" y="94" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="8268">04_01_02_010_04aa.png</file>
+			<notes id="description">talking bubble overhead</notes>
+		</graphic>
+		<graphic id="misc_graphic04" x="265" y="71" width="280" height="165" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="10002">04_01_02_010_03aa.png</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;talking bubble overhead&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="misc_graphic05" x="405" y="65" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="10011">04_01_02_010_05aa.png</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;talking bubble overhead&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="66" y="158" width="152" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;FONT SIZE="15"&gt;I try to understand my child's point of view.&lt;/FONT&gt;</content>
+		</text>
+		<text id="swap_text02" x="207" y="152" width="211" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;FONT SIZE="15"&gt;I try not to express disapproval of my child's emotions.&lt;/FONT&gt;</content>
+		</text>
+		<text id="swap_text03" x="357" y="131" width="188" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;FONT SIZE="15"&gt;I give clear and consistent messages about which behaviors are appropriate.&lt;/FONT&gt;</content>
+		</text>
+		<text id="swap_text04" x="315" y="109" width="217" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;FONT SIZE="15"&gt;I respond to my child's emotions when they are at a lower level of intensity, before my child's emotions become too escalated.&lt;/FONT&gt;</content>
+		</text>
+		<text id="swap_text05" x="468" y="94" width="197" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="15"&gt;We try to use similar &lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="15"&gt;techniques for managing emotions and for parenting. &lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="15"&gt;This leads to reduced conflict and increased relationship quality.&lt;/FONT&gt;&lt;/P&gt;</content>
+		</text>
+	</section>
+</template>

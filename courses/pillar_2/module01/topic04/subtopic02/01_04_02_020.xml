@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="true"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">What Parents Can Do</content>
+	</text>
+	<text id="nav_text" x="125" y="425" width="650" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Parents Can Do&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="51" width="747" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Once parents realize the importance of social-emotional development, they often want to know what they can do to help their child. Here are some key concepts that you can share with parents.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="350" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;concept&lt;/B&gt; to learn more.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="200" y="122" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" placeholder="true" startpos="1"/>
+			<notes id="description">Background Arrows from PPT slide 9 of the Social Emotional Overview</notes>
+		</graphic>
+		<audio id="initial_audio">
+			<file start_frame="1" play="true" duration="200" bytes="68499">a_01_04_02_020_01.swf</file>
+			<transcript translate="true">Once parents realize the importance of social-emotional development, they often want to know what they can do to help their child. Although these specifics will be covered later in this pillar, here are some key concepts that you can share with parents. Click each concept to learn more.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="list_items" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<graphic id="link01" x="25" y="125" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="2624" play="false" startpos="1">01_04_02_020_01.png</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;Consistency&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="swap_text06" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link02" x="270" y="125" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="2794" play="false" startpos="1">01_04_02_020_02.png</file>
+			<notes id="description">Predictability</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="swap_text06" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link03" x="25" y="260" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="4226" play="false" startpos="1">01_04_02_020_03.png</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;Reliability and Stability&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="swap_text06" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link04" x="520" y="125" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file start_frame="1" bytes="2767" play="false">01_04_02_020_04.png</file>
+			<notes id="description">Limit Setting</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="swap_text06" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link05" x="270" y="260" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file start_frame="1" bytes="3294" play="false">01_04_02_020_05.png</file>
+			<notes id="description">Problem solving</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="swap_text06" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link06" x="520" y="260" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file start_frame="1" bytes="4054" play="false">01_04_02_020_06.png</file>
+			<notes id="description">Communication Patterns</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="swap_text01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="swap_text02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="swap_text03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="swap_text04" result_param=""/>
+				<event type="CLICK" result="HIDE" target="swap_text05" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true"/>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="25" y="185" width="228" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Consistency of expectations and responsive parenting set the stage for a warm and trusting relationship.</content>
+		</text>
+		<text id="swap_text02" x="270" y="185" width="226" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Children thrive on routines, especially for daily activities, such as getting ready for bed, mealtimes, or cleaning up an area.</content>
+		</text>
+		<text id="swap_text03" x="25" y="320" width="231" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">When parents provide a stable environment where a child's needs are met, it builds trust and security within the relationship and opens the way for better communication. </content>
+		</text>
+		<text id="swap_text04" x="520" y="185" width="217" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Although parents should be warm and caring, they also need to set limits and help children be responsible for their choices.</content>
+		</text>
+		<text id="swap_text05" x="270" y="320" width="237" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Even though parents may be tempted to provide all the answers, parents should guide their children to a workable solution so they will learn to become more independent problem solvers.</content>
+		</text>
+	</section>
+	<text id="swap_text06" x="520" y="320" width="244" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+		<content translate="true">Communication involves much more than words. Parents can communicate love and acceptance through tone of voice, facial expressions, and affectionate gestures. </content>
+	</text>
+	<section id="reference_links01" expanded="true">
+		<graphic id="ref_icon01" x="9" y="420" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups01" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="-3" y="235" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="45" width="422" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;While it may seem easy to teach these concepts to parents, the actual practice of helping parents to use all of them in daily interactions is extremely difficult. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Suggest to parents that they pick one to focus on and make a part of their routine.The whole list can take years to build. Reassure parents that the long period of time necessary for developing these skills is normal.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="-50" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Introduction</content>
+	</text>
+	<text id="nav_text" x="625" y="425" width="200" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;To begin, click a &lt;B&gt;Topic&lt;/B&gt;.&lt;/P&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="-50" y="50" width="415" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Welcome to Pillar 4: Communication and Language Development.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Long before babies can talk, they are able to communicate with the important people in their lives. &lt;/P&gt;</content>
+		</text>
+		<text id="text02" x="72" y="80" width="385" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">These earliest forms of communication are:&lt;LI&gt;Important for communicating needs&lt;/LI&gt;&lt;LI&gt;The foundation for relationship development with parents and caregivers &lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="72" y="80" width="344" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">This pillar is designed to teach professionals how: &lt;LI&gt;Children develop language and literacy skills&lt;/LI&gt;&lt;LI&gt;Parents can help maximize language and literacy development&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="93" y="127" width="375" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Goals of Pillar 4:&lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Understand the importance of early communication, language development, and literacy.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Understand the research connection between literacy and lifelong success.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Teach skills to parents for increasing communication, print awareness, and early reading. &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Identify the key messages to teach to parents. &lt;/P&gt;&lt;/TEXTFORMAT&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="385" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="132584" startpos="1" play="true">01_010_01.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;istock 9939877  (baby crying)&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic02" x="420" y="90" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic03" x="420" y="90" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="149322" startpos="1" play="false">01_010_02.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;istock 7458682 (two siblings)&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic04" x="420" y="90" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="54195">01_010_04.jpg</file>
+			<notes id="description">graphic of the four pillars with pillar4 highlighted</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="188" bytes="64299" startpos="1">a_01_010_01.swf</file>
+			<transcript translate="true">Welcome to Pillar 4: Communication and Language Development. Long before babies can talk, they are able to communicate with the important people in their lives. In fact, babies are born communicating, as evidenced by their first cries just moments after birth. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="255" bytes="87359" startpos="1">a_01_010_02.swf</file>
+			<transcript translate="true">While these earliest forms of communication are important for communicating needs, they are also the foundation for relationship development with parents and caregivers.  Over the first five years, children develop the ability to communicate non-verbally, verbally, and eventually through reading and writing.  All of these skills develop for each child at his or her own pace.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" duration="290" bytes="99427" startpos="1">a_01_010_03.swf</file>
+			<transcript translate="true">This pillar is designed to teach you how children develop language and literacy skills, and how parents can help maximize language and literacy development. This pillar will also introduce you to key concepts that we will cover in the Early Communication, Verbal Development, and Emergent Literacy modules. These modules are presented in chronological order according to how children typically develop language and communication skills.  </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" duration="345" bytes="118183" startpos="1">a_01_010_04.swf</file>
+			<transcript translate="true">By the end of the Communication and Language Development pillar, you will be able to: 1) Understand the importance of early communication, language development, and literacy. 2) Understand the research connection between  literacy and lifelong success.  3) Teach skills to parents for increasing communication, print awareness, and early reading. And 4) Identify the key messages to teach to parents. To begin, click a Topic in the bottom menu.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text01" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="-37" y="294" width="222" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;1.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;2.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;3.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;4.&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="-95" y="440" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="2690" play="false" startpos="1">icon_pro_gray.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="-95" y="255" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="30" y="40" width="399" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;This overview is presented for your own understanding of communication and language development in children. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;As you introduce these concepts to parents, it is important to consider their existing knowledge as well as the goal of the learning. Parents may only need to hear the key points and tips rather than the level of detail presented in this module. &lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

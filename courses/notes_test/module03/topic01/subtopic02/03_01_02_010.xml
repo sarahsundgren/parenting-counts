@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_slider" view="view_hslider_links">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="useControls" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Factors that Influence Self-Regulation</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Is Self-Regulation&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="620" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Parents' expectations for a child's ability to self-regulate often exceed the child's ability to do so. Self-regulation is a long process that occurs over time and is influenced by several factors.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="700" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click the &lt;B&gt;buttons&lt;/B&gt; below to learn more about the factors that influence a child's ability to self-regulate.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="-3" y="321" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE"/>
+		<audio id="initial_audio">
+			<file play="true" bytes="74747" startpos="1" duration="218">a_03_03_01_02_010.swf</file>
+			<transcript translate="true">Parents' expectations for a child's ability to self-regulate often exceed the child's ability to do so. Self-regulation is a long process that occurs over time and is influenced by several factors. Click the buttons below to learn more about the factors that influence a child's ability to self-regulate.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="dev_assets" expanded="true">
+		<area id="panel_mask" behavior="" x="0" y="170" width="768" height="246" visible="false" fx=""/>
+	</section>
+	<section id="buttons" align="TOP" spacing="0" autospace="false" exclusive="false" expanded="true">
+		<container id="forward_button" behavior="STRICT|LOCK_SIZE" x="916" y="228" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="false">
+				<file play="false" bytes="1755" startpos="1" duration="30">mc_slider_next.swf</file>
+			</graphic>
+			<text id="text" x="0" y="0" width="1" height="1" autosize="" style="CONTROLS" visible="false">
+				<content/>
+			</text>
+		</container>
+		<container id="reverse_button" behavior="STRICT|LOCK_SIZE" x="20" y="225" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="false">
+				<file play="false" bytes="1810" startpos="1" duration="30">mc_slider_back.swf</file>
+			</graphic>
+			<text id="text" x="0" y="0" width="1" height="1" autosize="" style="CONTROLS" visible="false">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="panels" expanded="true">
+		<container id="panel01" behavior="LOCK_SIZE" x="50" y="175" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="724" height="180" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="119776" startpos="1">03_01_02_010_01.jpg</file>
+				<notes id="description">picture of family playing outside in the snow</notes>
+			</graphic>
+			<text id="header" x="320" y="55" width="225" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content/>
+			</text>
+			<text id="text" x="320" y="80" width="270" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel02" behavior="LOCK_SIZE" x="499.8" y="209.3" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="599" height="224" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="59603" startpos="1">03_01_02_010_02.jpg</file>
+				<notes id="description">Chloe with dad from Self-Regulation folder in Physical Dev.</notes>
+			</graphic>
+			<text id="header" x="310" y="15" width="225" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Biology</content>
+			</text>
+			<text id="text" x="310" y="40" width="275" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;For the first 6 months, infants can't self-regulate. Because of this, they must rely on caregivers.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Temperament impacts how infants respond to stimuli and how quickly they become soothed when upset.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="panel03" behavior="LOCK_SIZE" x="472.55" y="243.2" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="599" height="224" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="66358" startpos="1">03_01_02_010_03.jpg</file>
+				<notes id="description">Tavo from Temperament folder in Physical Dev.</notes>
+			</graphic>
+			<text id="header" x="310" y="15" width="275" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Relationships</content>
+			</text>
+			<text id="text" x="310" y="40" width="275" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Comforting and caring for an infant, as well as having an awareness and understanding of their temperament, helps in the development of self-regulation.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Toddlers and preschoolers continue to develop self-regulation skills with the help and support of caregivers.&lt;/P&gt;</content>
+			</text>
+			<graphic id="ref_icon01" x="392" y="141" width="15" height="15" style="LINK_SWF" visible="true" fx="">
+				<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+		<container id="panel04" behavior="LOCK_SIZE" x="390.05" y="252.5" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="599" height="224" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="70788" startpos="1">03_01_02_010_04.jpg</file>
+				<notes id="description">Ready to feel 3 from Stress folder in Physical Dev.</notes>
+			</graphic>
+			<text id="header" x="310" y="15" width="275" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Cognition</content>
+			</text>
+			<text id="text" x="310" y="40" width="275" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Using language, especially naming emotions, helps promote self-regulation skills and sets the stage for the child's skillful use of other cognitive strategies.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Between the ages of 3 and 5, with the support of caregivers, children become aware of the strategies they can use to regulate their emotions.&lt;/P&gt;</content>
+			</text>
+			<graphic id="ref_icon02" x="371" y="156" width="15" height="15" style="LINK_SWF" visible="true" fx="">
+				<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+	</section>
+	<section id="panel_shortcuts" align="TOP" spacing="0" autospace="false" columns="0" expanded="true">
+		<graphic id="link01" x="7" y="125" width="" height="" style="LINK_SWF" visible="false" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link02" x="100" y="" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link03" x="300" y="" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link04" x="500" y="" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+	</section>
+	<section id="swap_audio" expanded="true"/>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="130" y="130" width="50" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Biology</content>
+		</text>
+		<text id="misc_text02" x="330" y="130" width="90" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Relationships</content>
+		</text>
+		<text id="misc_text03" x="530" y="130" width="65" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Cognition</content>
+		</text>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="275" y="15" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="500" height="200" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="420" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="454" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Gunner, M. R. &amp; Donzella, B. (2002). Social regulation of the cortisol levels in early human development. &lt;I&gt;Psychoneuroendocrinology&lt;/I&gt;, &lt;I&gt;27&lt;/I&gt;, 199-220.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Carey, W.B. (1998). Teaching parents about infant temperament.&lt;I&gt; PEDIATRICS, 102&lt;/I&gt;(5), 1311-1316.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="265" y="15" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="511" height="215" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="427" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="20" width="458" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;References:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Cole, P. M., Armstrong, L. M., &amp; Pemberton, C. K. (2010). The role of language in the development of emotion regulation. In S. Calkins and M. Bell (Eds) &lt;I&gt;Child development at the intersection of emotion and cognition. Human brain development&lt;/I&gt; (pp. 59-77). Washington, DC: American Psychological Association. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Cole, P. M., Dennis, T. A., Smith-Simon, K. E., &amp; Cohen, L. H. (2009). Preschoolers' emotion regulation strategy understanding: Relations with emotion socialization and child self-regulation. &lt;I&gt;Social Development&lt;/I&gt;,&lt;I&gt; 18&lt;/I&gt;, 324-352.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

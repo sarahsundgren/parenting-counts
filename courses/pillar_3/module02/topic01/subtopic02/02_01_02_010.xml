@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="true"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+		<eventlist>
+			<event type="COMPLETION" result="PLAY" target="narration01" result_param=""/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Imitation in Newborns</content>
+	</text>
+	<text id="nav_text" x="350" y="425" width="425" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Is Imitation?&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="660" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Copying, or imitating, is a powerful form of learning, and it begins in the first few hours of life.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="476" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;photo&lt;/B&gt; to learn more about infants and imitation.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="202" y="122" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE"/>
+		<audio id="initial_audio">
+			<file play="true" bytes="41991" startpos="1" duration="123">a_02_01_02_010_00.swf</file>
+			<transcript translate="true">Copying, or imitating, is a powerful form of learning, and it begins in the first few hours of life. Click each photo to learn more about infants and imitation.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="list_items" align="TOP" spacing="25x0" autospace="true" columns="0" expanded="true">
+		<graphic id="link01" x="25" y="125" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="28173" play="false" startpos="1">02_01_02_010_02.jpg</file>
+			<notes id="description">#61 5 mo. Chloe - 37-106 from Imitation folder in Learning &amp; Cognition</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="SHOW" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link02" x="248" y="163" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="24620" play="false" startpos="1">02_01_02_010_03.jpg</file>
+			<notes id="description">#52 4 mo. Courtney - 39-42 from Imitation folder in Learning &amp; Cognition</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link03" x="324" y="320" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="28309" play="false" startpos="1">02_01_02_010_04.jpg</file>
+			<notes id="description">BringBabyHomeDSC_6331 from Imitation folder in Learning &amp; Cognition</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="SHOW" target="ref_icon03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link04" x="487" y="283" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="25286" play="false" startpos="1">02_01_02_010_05.jpg</file>
+			<notes id="description">BringBabyHomeDSC_6924 from Imitation folder in Learning &amp; Cognition</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference03" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true"/>
+	<section id="swap_text" align="TOP|LEFT" spacing="0x5" autospace="true" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="125" y="300" width="500" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Infants across cultures show the same ability to imitate.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;This ability is the same cross-culturally because imitation is an innate ability, not a learned one.&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text02" x="343" y="164" width="500" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Babies tune in to facial expressions very early and learn to recognize range and intonation of the human voice in their early weeks of development.</content>
+		</text>
+		<text id="swap_text03" x="297" y="277" width="500" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Researchers found newborns were capable of mimicking happy, sad, and surprised expressions modeled by an actress while she held the infants up in front of her. Although they didn't imitate every time, these babies were more likely to widen their lips when the model was happy, pout their lips when she showed sadness, and open their mouth wide when she looked surprised.</content>
+		</text>
+		<text id="swap_text04" x="612" y="281" width="500" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Children enjoy watching parents and caregivers sing and make movements with their hands and face. It is reassuring for children to hear familiar sounds, and listening to voices and songs helps them to learn language.</content>
+		</text>
+	</section>
+	<section id="reference_icons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="ref_icon01" x="472" y="301" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon02" x="217" y="347" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon03" x="582" y="363" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference03" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="450" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Kokkinaki, T. (2003). A longitudinal, naturalistic and cross-cultural study on emotions in early infant-parent imitative interactions. &lt;I&gt;British Journal of Developmental Psychology, 21,&lt;/I&gt; 243-258.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="441" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Trevarthen, C. (1984). Emotions in infancy: Regulators of contacts and relationships with persons. In K. Scherer, P. Ekman, (Eds.) &lt;I&gt;Approaches to Emotion&lt;/I&gt; (pp. 129-57). Hillsdale, NJ: Erlbaum.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference03" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="450" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Field, T. M. et al. (1982). Discrimination and imitation of facial expression by neonates. &lt;I&gt;Science, 218&lt;/I&gt;.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

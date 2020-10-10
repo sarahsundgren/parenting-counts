@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_video" view="view_video">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<text id="title" x="-50" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Introduction</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">To begin, click a &lt;B&gt;Topic&lt;/B&gt;.</content>
+	</text>
+	<text id="intro_text" x="340" y="61" width="364" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+		<content translate="true">Welcome to Pillar 2: Social and Emotional Development. Let's begin by watching a brief video that introduces the importance of emotions.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="340" y="120" width="373" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Children need guidance in working through their emotions.</content>
+		</text>
+		<text id="text02" x="380" y="61" width="404" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Social and Emotional Development helps children:&lt;LI&gt;Connect with parents and caregivers&lt;/LI&gt;&lt;LI&gt;Get along with friends&lt;/LI&gt;&lt;LI&gt;Succeed in future relationships&lt;/LI&gt;&lt;LI&gt;Increase intellectual potential&lt;/LI&gt;&lt;LI&gt;Become more self-reliant&lt;/LI&gt;&lt;LI&gt;Manage their emotions and reduce frustration&lt;/LI&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="text03" x="380" y="61" width="382" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Goals of Pillar 2:&lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Explain the importance of social and emotional development and its relevance for raising socially and emotionally healthy children.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Describe the key research findings of social and emotional learning for children.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Provide parenting strategies and tips to help support the social-emotional development of children.&lt;/P&gt;&lt;/TEXTFORMAT&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="105" bytes="35743" startpos="1">a_01_010_01.swf</file>
+			<transcript translate="true">Welcome to Pillar 2: Social and Emotional Development. Let's begin by watching a brief video that introduces the importance of emotions.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="video" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="193" bytes="66023" startpos="1">a_01_010_02.swf</file>
+			<transcript translate="true">The video you just watched emphasizes that children need guidance in working through their emotions. Keep in mind that in connection with Pillar 1, a child's social and emotional development will vary based on his or her temperament and ability to self-regulate and manage stress. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration03" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" duration="286" bytes="97923" startpos="1">a_01_010_03.swf</file>
+			<transcript translate="true">Social and emotional development is critical in today's world. It helps children connect with parents and caregivers, get along with friends, succeed in future relationships, increase their intellectual potential, become more self-reliant, and manage their emotions so that they experience less frustration. In Pillar 2, we'll explore specific ways to help children grow both socially and emotionally.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text03" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration04" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" duration="315" bytes="108047" startpos="1">a_01_010_04.swf</file>
+			<transcript translate="true">By the end of this pillar you should be able to: 1)	Explain the importance of social and emotional development and its relevance for raising socially and emotionally healthy children. 2) Describe the key research findings of social and emotional learning for children birth to age five. And 3 ) Provide parenting strategies and tips to help support the social-emotional development of children. To begin, click a Topic in the bottom menu.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text03" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text01" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="presentation_video" expanded="true">
+		<video id="video" behavior="" x="-50" y="61" width="340" height="180" visible="true" fx="VIDEO_SHOW" hidefx="VIDEO_HIDE" style="DEFAULT">
+			<file startpos="0" play="false" autorewind="true" buffer="15" preload="10" volume="100" bytes="12429195">overview.mov</file>
+			<transcript/>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="0" result="CALL_FUNCTION" target="" result_param="$stopAudio();"/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="text01" result_param=""/>
+			</eventlist>
+		</video>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="355" y="288" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;1.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;2.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;3.&lt;/P&gt;</content>
+		</text>
+		<text id="misc_text02" x="-34" y="285" width="310" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="CENTER"&gt;John Gottman, Ph.D.&lt;/P&gt;</content>
+		</text>
+	</section>
+</template>

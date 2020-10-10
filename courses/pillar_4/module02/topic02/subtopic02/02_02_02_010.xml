@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_video" view="view_video">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Shaping Language</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="550" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Early Social Exchange.&lt;/B&gt;</content>
+	</text>
+	<text id="intro_text" x="400" y="60" width="341" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;Babies begin making connections in language and speech in their first year of life as they learn to become more responsive to their parents. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Let's watch a video that will explain more about how infants begin making the connection between language and speech.&lt;/P&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="400" y="184" width="351" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;From the video we learned that as babies begin to coo and babble, their brains are building neural connections for the motor skills that are required for speech. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;These connections will be shaped by the experiences and language to which the infant is exposed.&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="159" bytes="54279" startpos="1">a_02_02_02_010_01.swf</file>
+			<transcript translate="true">Babies begin making connections in language and speech in their first year of life as they learn to become more responsive to their parents. Let's watch a video that will explain more about how infants begin making the connection between language and speech.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="video" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" startpos="1" bytes="54811" duration="160">a_02_02_02_010_02.swf</file>
+			<transcript translate="true">From the video we learned that as babies begin to coo and babble, their brains are building neural connections for the motor skills that are required for speech. These connections will be shaped by the experiences and language to which the infant is exposed.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="nav_text" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" startpos="1"/>
+			<transcript/>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration04" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" startpos="1"/>
+			<transcript/>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text03" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text03" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration05" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="presentation_video" expanded="true">
+		<video id="video" behavior="" x="25" y="60" width="340" height="180" visible="true" fx="VIDEO_SHOW" hidefx="VIDEO_HIDE" style="DEFAULT">
+			<file startpos="0" play="false" autorewind="true" buffer="15" preload="10" volume="100" bytes="4664401">talking_1.mov</file>
+			<transcript/>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="text01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="0" result="STOP_AUDIO" target="" result_param=""/>
+			</eventlist>
+		</video>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="1" y="371" width="350" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text02" x="35" y="286" width="306" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="CENTER"&gt;&lt;I&gt;Facts in 5: Talking&lt;/I&gt; DVD&lt;/P&gt;</content>
+		</text>
+	</section>
+</template>

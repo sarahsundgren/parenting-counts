@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Types of Play</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Types of Play&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="385" y="60" width="355" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Play is the most natural and intuitive way for children to learn. Just as children have different temperaments, they also have different play preferences.</content>
+		</text>
+		<text id="text02" x="385" y="110" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">For example, Sammy a 4-year-old, might only be interested in blocks whereas his friend Luke is interested in everything with wheels.</content>
+		</text>
+		<text id="text03" x="385" y="155" width="324" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Mildred Parten found that children play in six ways:&lt;LI&gt;Sensory Motor Play&lt;/LI&gt;&lt;LI&gt;Solitary Play&lt;/LI&gt;&lt;LI&gt;Parallel Play&lt;/LI&gt;&lt;LI&gt;Skill Mastery Play&lt;/LI&gt;&lt;LI&gt;Rough and Tumble Play&lt;/LI&gt;&lt;LI&gt;Cooperative Play&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="385" y="275" width="335" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Key Messages &lt;/B&gt;&lt;LI&gt;Child-initiated play lays the foundation for future learning and academic success.&lt;/LI&gt;&lt;LI&gt;Play helps children experience, explore, and learn about the world around them.&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="87309" startpos="1" play="false">04_03_01_010_01.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;Image of parents playing with a child.&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="70115">04_03_01_010_02.jpg</file>
+			<notes id="description">Two boys playing. One boy plays with blocks. The other boy plays with cars.</notes>
+		</graphic>
+		<graphic id="graphic03" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="76418">04_03_01_010_03.jpg</file>
+			<notes id="description">Image of a child learning through Skill Mastery Play.</notes>
+		</graphic>
+		<graphic id="graphic04" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="82716">04_03_01_010_04.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;Image of a group of children building a fort or playing outdoors.&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="34447" startpos="1" duration="101">a_04_03_01_010_01.swf</file>
+			<transcript translate="true">Play is the most natural and intuitive way for children to learn. Just as children have different temperaments, they also have different play preferences.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="82291" startpos="1" duration="240">a_04_03_01_010_02.swf</file>
+			<transcript translate="true">For example, Sammy a 4-year old, might only be interested in blocks whereas his friend Luke is interested in everything with wheels. Children's play preferences will evolve over time and change according to the situation. Parents and professionals can encourage children to explore a wide range of  types of play  and nurture children's unique areas of interest.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="87359" startpos="1" duration="255">a_04_03_01_010_03.swf</file>
+			<transcript translate="true">In the early 1900’s, Mildred Parten, a pioneer researchers on play, observed children between the ages of 2 and 5. She found that children play in six ways: Sensory Motor Play, Solitary Play, Parallel Play, Skill Mastery Play, Rough and Tumble Play, and Cooperative Play.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" bytes="55251" startpos="1" duration="162">a_04_03_01_010_04.swf</file>
+			<transcript translate="true">As you review this topic, keep in mind the following Key Messages: child-initiated play lays the foundation for future learning and academic success and that play helps children experience, explore, and learn about the world around them.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="536" y="277" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Santrock, J.W. (2007). Parten's classic study of play. &lt;I&gt;A topical approach to life-span development &lt;/I&gt;(3rd ed.). (p. 573). New York, NY: McGraw Hill. (Original work published in 2002).&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

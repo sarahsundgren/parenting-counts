@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Parents and Emotion Coaching</content>
+	</text>
+	<text id="nav_text" x="322" y="425" width="453" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;Click a &lt;B&gt;Lesson&lt;/B&gt; or&lt;B&gt; Activity&lt;/B&gt; to learn more about &lt;B&gt;What Parents Can Do&lt;/B&gt;.&lt;/P&gt;</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="373" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Parents can be better at Emotion Coaching if they become a role model for how to handle their own emotions. One way to do this is by showing empathy to their child.</content>
+		</text>
+		<text id="text02" x="25" y="110.8" width="377" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Try saying, "I understand why you are sad about breaking your new toy. When I broke my new sunglasses, I was sad and wasn't sure how I would be able to enjoy being outside without them."</content>
+		</text>
+		<text id="text03" x="25" y="187.2" width="380" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;No parent or caregiver can be an Emotion Coach all of the time. Even the most skilled parents only use Emotion Coaching about 30% of the time. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;The good news is, even if parents missed the opportunity in the moment to use Emotion Coaching with a child, it's not too late.&lt;/P&gt;</content>
+		</text>
+		<text id="text04" x="25" y="50" width="412" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Parenting Tips: &lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;1. Understand your child's normal development&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;2. Take your child's emotions seriously&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;3. Use empathy&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;4. Have a willingness to understand your child's perspective&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;5. Recognize a child's concept of time &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;6. Allow emotional responses&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;7. Give choices&lt;/P&gt;&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="text05" x="25" y="188" width="346" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Key Messages:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Parents who Emotion Coach help children:&lt;/P&gt;&lt;LI&gt;Learn to calm themselves down when they have strong emotions, so they can concentrate better at school. &lt;/LI&gt;&lt;LI&gt;Learn about their own feelings and have empathy for others, which helps the child form strong friendships.&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="440" y="50" width="300" height="300" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="95156" startpos="1" play="false">04_03_01_010_01.jpg</file>
+			<notes id="description">parent showing empathy toward child</notes>
+		</graphic>
+		<graphic id="graphic02" x="336" y="93" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic03" x="370" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt; &lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic04" x="440" y="50" width="" height="" style="DEFAULT" visible="false" fx="SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="66485">04_03_01_010_02.jpg</file>
+			<notes id="description">mother and daughter file on istock #14239332</notes>
+		</graphic>
+		<graphic id="graphic05" x="370" y="49" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic06" x="370" y="49" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="115" bytes="39087" startpos="1">a_04_03_01_010_01.swf</file>
+			<transcript translate="true">Parents can be better at Emotion Coaching if they become a role model for how to handle their own emotions. One way to do this is by showing empathy to their child.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="327" bytes="111935" startpos="1">a_04_03_01_010_02.swf</file>
+			<transcript translate="true">For example: If your child is feeling sad about breaking a favorite toy, tell your child how you manage sadness when you break something. Try saying, "I understand why you are sad about breaking your new toy. When I broke my new sunglasses, I was sad and wasn't sure how I would be able to enjoy being outside without them." This type of empathetic understanding leads to a positive outcome for the interaction as well as teaching the child how to show empathy to others.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" duration="373" bytes="127879" startpos="1">a_04_03_01_010_03.swf</file>
+			<transcript translate="true">No parent or caregiver can be an Emotion Coach all of the time. Even the most skilled parents only use Emotion Coaching about thirty percent of the time. There are some situations where Emotion Coaching just isn't possible or appropriate. The good news is, even if parents missed the opportunity in the moment to use Emotion Coaching with a child, it's not too late. Even hours later, you can talk with your child about what happened and describe how you were feeling. Emotion Coaching is about valuing emotions and showing your child you care.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" duration="243" bytes="83263" startpos="1">a_04_03_01_010_04.swf</file>
+			<transcript translate="true">Let's go over a few Emotion Coaching parenting tips. Understand your child's normal development. Take your child's emotions seriously. Use empathy. Have a willingness to understand your child's perspective. Recognize a child's concept of time. Allow emotional responses. And give choices!</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text03" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration05">
+			<file play="false" duration="233" bytes="79919" startpos="1">a_04_03_01_010_05.swf</file>
+			<transcript translate="true">Before we continue, here are the key messages for this section. Parents who Emotion Coach help children learn to calm themselves down when they have strong emotions, so they can concentrate better at school. Parents who Emotion Coach help children learn about their own feelings and have empathy for others, which helps the child form strong friendships.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text03" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="-35" y="140" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;1.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;2.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;3.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;4.&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="10" y="420" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+				<event type="CLICK" result="SHOW" target="ref_icon02" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="1" y="235" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="405" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">It's helpful to keep in mind that Steps 1 and 2 of Emotion Coaching start from birth, but Steps 3–5 generally start at age 3.</content>
+			</text>
+		</container>
+	</section>
+</template>

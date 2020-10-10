@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="true"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+		<eventlist>
+			<event type="COMPLETION" result="SHOW" target="misc_text01" result_param=""/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Be Responsive</content>
+	</text>
+	<text id="nav_text" x="265" y="425" width="507.95" height="" autosize="R" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Tools for Successful Parenting&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x5" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="737" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Parents try to respond to their child’s cues, but some feel overwhelmed by the number of cues expressed in a given day. Being responsive does not mean responding to every cue every time. It means responding as often as possible and asking for help and support when necessary.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="741" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;light bulb&lt;/B&gt; to read a few ideas.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="25" y="150" width="200" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<notes id="description">Image of Lucy &amp; Demetria (6 weeks old)</notes>
+			<file play="false" bytes="37099" start_frame="1">02_02_02_010_00.jpg</file>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" bytes="79063" duration="231" start_frame="1">a_02_02_02_010_01.swf</file>
+			<transcript translate="true">Parents try to respond to their child's cues, but some feel overwhelmed by the number of cues expressed in a given day. Being responsive does not mean responding to every cue every time. It means responding as often as possible and asking for help and support when necessary. Listen to the following scenario a learner might share with you.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="misc_audio01" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="list_items" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<graphic id="link01" x="250" y="150" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="17116" play="false" start_frame="1">04_03_03_010_01.jpg</file>
+			<notes id="description">light bulb</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="misc_graphic01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link02" x="520" y="150" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="17116" play="false" start_frame="1">04_03_03_010_01.jpg</file>
+			<notes id="description">light bulb</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="misc_graphic02" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link03" x="250" y="280" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="17116" play="false" start_frame="1">04_03_03_010_01.jpg</file>
+			<notes id="description">light bulb</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="misc_graphic03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link04" x="520" y="280" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="17116" play="false" start_frame="1">04_03_03_010_01.jpg</file>
+			<notes id="description">light bulb</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="misc_graphic04" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="250" y="150" width="229" height="98" style="SHADING" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="54">clear.gif</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;white background with watermark of lightbulb&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="misc_graphic02" x="520" y="150" width="229" height="98" style="SHADING" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="54">clear.gif</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;white background with watermark of lightbulb&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="misc_graphic03" x="250" y="280" width="229" height="98" style="SHADING" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="54">clear.gif</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;white background with watermark of lightbulb&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="misc_graphic04" x="520" y="280" width="229" height="98" style="SHADING" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="54">clear.gif</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;white background with watermark of lightbulb&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="swap_text01" x="255" y="155" width="229" height="107" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Tell Lucy that crying is one of a baby's ways of communicating. Teach her that when Demetria cries, she is trying to tell Lucy that she needs something (i.e., she is sending a cue).</content>
+		</text>
+		<text id="swap_text02" x="525" y="155" width="229" height="107" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Reassure Lucy that it takes time to learn what a baby needs when crying, but she can consider Demetria’s possible needs. Is she hungry? Tired? Bored? Gassy?&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text03" x="255" y="285" width="229" height="107" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Explain that when Lucy responds consistently to Demetria's crying, Lucy is meeting Demetria’s needs in a positive manner. Demetria then trusts that Lucy is a reliable and safe source of comfort.</content>
+		</text>
+		<text id="swap_text04" x="525" y="285" width="229" height="107" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Teach Lucy that she can respond to Demetria as often as possible, and gradually, her consistant comforting will help Demetria learn ways to soothe herself successfully.</content>
+		</text>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true"/>
+	<section id="miscellaneous_audio" expanded="true">
+		<audio id="misc_audio01">
+			<file start_frame="1" play="false" duration="154" bytes="52451">a_02_02_02_010_02.swf</file>
+			<transcript translate="true">Demetria is 6 weeks old. Her mother Lucy tells you that Demetria cries a lot. Lucy asks if she should pick Demetria up every time she cries or if she should ignore Demetria so that she won't become spoiled. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="misc_audio02" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="misc_audio02">
+			<file start_frame="1" play="false" bytes="22599" duration="67">a_02_02_02_010_03.swf</file>
+			<transcript translate="true">Click each light bulb to read a few ideas on how you could apply Parenting Counts in this situation.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="10" y="420" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" start_frame="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="1" y="228" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" start_frame="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="55" width="431" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">You can help parents understand how this early responsiveness will help their children become toddlers. These interactions help to strengthen the parent-child bond, or attachment, a lifelong emotional connection between the parent and child that helps them grow into independent people and achieve success in school and in life.</content>
+			</text>
+		</container>
+	</section>
+</template>

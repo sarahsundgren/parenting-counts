@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="true"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+		<eventlist>
+			<event type="INIT" result="CALL_FUNCTION" target="SHELL" result_param="loadPageNote(input);"/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Parenting Counts</content>
+	</text>
+	<text id="nav_text" x="307" y="425" width="468" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt;, or click a new &lt;B&gt;Topic&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="708" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Consider what makes parenting important to you. In what ways were you parented as a child that have made you believe parenting is important today?</content>
+		</text>
+		<text id="directions" x="25" y="90.2" width="750" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;photo&lt;/B&gt; to hear from professionals, when finished, enter your own thoughts, then click &lt;B&gt;Save&lt;/B&gt;.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="202" y="122" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE"/>
+		<audio id="initial_audio">
+			<file play="true" bytes="107723" duration="314" start_frame="1">a_02_01_03_010_01.swf</file>
+			<transcript translate="true">Consider what makes parenting important to you. In what ways were you parented as a child that have made you believe parenting is important today? Click each photo to hear why other professionals believe that parenting counts. When you're finished, enter your own thoughts in the space provided below. Click Save to save your thoughts in My Teaching Notes. Please keep in mind that these notes are for your personal use and will not be shared.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="25" y="315" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" placeholder="true"/>
+		</graphic>
+	</section>
+	<section id="list_items" align="TOP" spacing="30x0" autospace="true" columns="0" expanded="true">
+		<graphic id="link01" x="40" y="255" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="28923" play="false" start_frame="1">02_01_03_010_01.jpg</file>
+			<notes id="description">Japanese professional</notes>
+		</graphic>
+		<graphic id="link02" x="463" y="114" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="25553" play="false" start_frame="1">02_01_03_010_03.jpg</file>
+			<notes id="description">Male professional, casual</notes>
+		</graphic>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true"/>
+	<section id="miscellaneous_text" expanded="true"/>
+	<section id="swap_audio" expanded="true">
+		<audio id="swap_audio01">
+			<file start_frame="1" play="false" bytes="94151" duration="275">a_02_01_03_010_02.swf</file>
+			<transcript translate="true">While growing up, my parents didn't talk with me about feelings which is something I've had to work on in close relationships now that I'm older. I believe good parenting is so important because parents play a big role in helping children cope with their emotions. It's not that my parents weren't good parents, but I do think people should learn as much as they can to be the best parents they can.</transcript>
+			<notes id="mentor-character">Professional 1:</notes>
+		</audio>
+		<audio id="swap_audio02">
+			<file start_frame="1" play="false" bytes="63651" duration="186">a_02_01_03_010_03.swf</file>
+			<transcript translate="true">I was raised by a single-mother who was a wonderful parent and did her best, but as I got older I realized I had missed out on a lot by not having a father around. Now that I work with parents, I try to encourage them to support each other first so they can be great parents to their child.</transcript>
+			<notes id="mentor-character">Professional 2:</notes>
+		</audio>
+	</section>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="114.8" width="600" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<input id="input" x="25" y="120" width="728" height="97" maxchars="1000" password="false" multiline="true" focus="true" restrict="" style="TEXT_ENTRY" visible="true" fx="GRAPHIC_SHOW" case="M" hidefx="GRAPHIC_HIDE">
+			<content/>
+		</input>
+	</section>
+	<section id="buttons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="submit" behavior="STRICT|LOCK_SIZE" x="640" y="222" visible="true" fx="SUBMIT_SHOW" hidefx="SUBMIT_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SUBMIT" visible="true">
+				<file play="false" bytes="2583" duration="35" start_frame="1">std_control.swf</file>
+			</graphic>
+			<text id="text" x="8" y="8" width="101" height="18" autosize="" style="CONTROLS" visible="true">
+				<content translate="true">Save</content>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="CONTENT_COMPLETE" target="" result_param=""/>
+				<event type="CLICK" result="CALL_FUNCTION" target="SHELL" result_param="savePageNote(input);"/>
+				<event type="CLICK" result="SHOW" target="misc_text01" result_param=""/>
+			</eventlist>
+		</container>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="645" y="257" width="114" height="" autosize="H" style="FEEDBACK_BLUE" visible="false" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">This note is now saved in &lt;B&gt;My Teaching Notes&lt;/B&gt;. These notes will not be shared.</content>
+		</text>
+	</section>
+</template>

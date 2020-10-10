@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Play and Cognition</content>
+	</text>
+	<text id="nav_text" x="180" y="425" width="590" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Play and the Four Pillars&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="365" y="60" width="380" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">How does play influence children's cognitive development?</content>
+		</text>
+		<text id="text02" x="375" y="119.8" width="345" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Cognitive development is the construction of thought processes, including:&lt;LI&gt;Memory&lt;/LI&gt;&lt;LI&gt;Problem solving&lt;/LI&gt;&lt;LI&gt;Reasoning&lt;/LI&gt;&lt;LI&gt;Language development&lt;/LI&gt;&lt;LI&gt;Decision making&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="375" y="238" width="377" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Key Messages&lt;/B&gt;&lt;LI&gt;Child-initiated play lays the foundation for learning and academic success.&lt;/LI&gt;&lt;LI&gt;Through play, children explore their creativity and imagination and learn many important problem-solving skills.&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="75790" startpos="1" play="false">04_02_01_010_01.jpg</file>
+			<notes id="description">Ekness Playing with smileTalaris Play Photos Folder (mom smiling while playing with twin toddlers</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic03" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic04" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="64079" startpos="1" duration="187">a_04_02_01_010_01.swf</file>
+			<transcript translate="true">The previous page explained the role of play in each of the four pillars of development. So why has this play module been included in the Learning and Cognitive Development pillar? Because play is one of the best ways to encourage healthy cognitive development. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="67203" startpos="1" duration="196">a_04_02_01_010_02.swf</file>
+			<transcript translate="true">As discussed in the Overview to this course, cognitive development is defined as the construction of thought processes, including memory, problem solving, reasoning, language development, and decision making. Play helps children develop all of these skills.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" startpos="1" bytes="139091" duration="406">a_04_02_01_010_03.swf</file>
+			<transcript translate="true">As you review the lessons and activities in this topic, keep in mind this topic's Key Messages: child-initiated play lays the foundation for learning and academic success; and through play, children explore their creativity and imagination and learn many important problem-solving skills. In your role as an Early Childhood Professional, you play a key role in encouraging parents to provide the time and space for play in their children's life. In this way, you help parents supprot their children's healthy social, emotional, and cognitive development.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="25" y="50" width="701" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+</template>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="true"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+		<eventlist>
+			<event type="COMPLETION" result="PLAY" target="narration01" result_param=""/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Parents' Role</content>
+	</text>
+	<text id="nav_text" x="325" y="425" width="450" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Parents Can Do&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x5" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="723" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Parents and caregivers play an important role in minimizing children's exposure to undue stressors. Stress is part of everyday life, and while we can't eliminate it, we can help manage it.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="476" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;photo&lt;/B&gt; to learn more about how parents and caregivers can help.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="202" y="122" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE"/>
+		<audio id="initial_audio">
+			<file play="true" bytes="62795" startpos="1" duration="184">a_04_04_02_010_01.swf</file>
+			<transcript translate="true">Parents and caregivers play an important role in minimizing children's exposure to undue stressors. Stress is part of everyday life, and while we can't eliminate it, we can help manage it.  Click each photo to learn more about how parents and caregivers can help.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="list_items" align="LEFT" spacing="0x20" autospace="true" columns="0" expanded="true">
+		<graphic id="link01" x="25" y="115" width="150" height="150" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="29827" play="false" startpos="1">04_04_02_010_01.jpg</file>
+			<notes id="description">#55 2 weeks Wyatt - 135-511 from Stress file</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="SHOW" target="swap_text01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link02" x="25" y="320" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="40557" play="false" startpos="1">04_04_02_010_03.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;Mother and child reading picture book  File #: 9085443&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="SHOW" target="swap_text02" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true"/>
+	<section id="swap_text" align="LEFT" spacing="0x40" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="swap_text01" x="225" y="115" width="420" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="16"&gt;&lt;B&gt;Infants&lt;/B&gt;&lt;/FONT&gt;&lt;FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;In infancy, it is the role of adult caregivers to lend their ability to regulate stress to their infants through soothing, comforting, and meeting their needs to prevent stress from becoming overwhelming.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Consistent, sensitive caregiving is a strong protective factor in infancy, even if there are other stressors in the child’s environment.&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text02" x="297" y="277" width="420" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="16"&gt;&lt;B&gt;Toddlers and Preschoolers&lt;/B&gt;&lt;/FONT&gt;&lt;FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Toddlers and preschoolers depend on caregivers to help them learn how to identify sources of stress, cope with their feelings and reactions, and learn strategies to self-regulate and feel calm.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Try to reduce unnecessary, excessive, or long-term stressors in the child’s environment.&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="reference_icons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="ref_icon01" x="578" y="315" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="30" width="450" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Thompson, R. A., Brown, K., Grossmann, K. E., Gunnar, M. R., Heinrichs, M., Keller, H., O'Connor, T. G., Spangler, G., Voland, E., &amp; Wang, S. (2005).  Group report: Early social attachment and its consequences.  In C. S. Carter, L. Ahnert, K. E. Grossmann, S. B. Hardy, M.E. Lamb, S.W. Porges &amp; N.  -Axis (Eds.), From the 92nd Dahlem Workshop Report, &lt;I&gt;Attachment and Bonding: A New Synthesis&lt;/I&gt; (pp. 349-383).  Cambridge, UK: MIT Press. &lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

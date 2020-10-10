@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_multiplechoice" view="view_multiplechoice">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="showAnswerMarks" datatype="LIST" value="DEFAULT"/>
+		<settings id="markAnswers" datatype="LIST" value="DEFAULT"/>
+		<settings id="markFinalAnswers" datatype="LIST" value="DEFAULT"/>
+		<settings id="submitBtn" datatype="LIST" value="NONE"/>
+		<settings id="enableSubmit" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Advising Parents and Caregivers 1</content>
+	</text>
+	<text id="nav_text" x="185" y="425" width="588" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Parents Can Do.&lt;/B&gt;</content>
+	</text>
+	<section id="question_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="question" x="25" y="50" width="713" height="" autosize="H" style="DEFAULT" visible="true" fx="QUESTION_SHOW" hidefx="QUESTION_HIDE">
+			<content translate="true">&lt;B&gt;Situation:&lt;/B&gt; 3-year-old Zachary is sitting at the dinner table. He quickly finishes his dinner and then says, “I am going to play.” Zachary’s mother wants him to stay at the table until everyone is finished. What should she do?</content>
+		</text>
+		<text id="directions" x="" y="" width="730" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click the correct answer.</content>
+		</text>
+	</section>
+	<section id="question_media" expanded="true">
+		<audio id="narration">
+			<file play="true" bytes="73347" startpos="1" duration="214">a_03_03_03_020_00.swf</file>
+			<transcript translate="true">Let's look at a common situation with preschoolers: three-year-old Zachary is sitting at the dinner table. He quickly finishes his dinner and then says, “I am going to play.” Zachary's mother wants him to stay at the table until everyone is finished. What should she do? Click the correct answer.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<graphic id="question_graphic" x="25" y="120" width="" height="" style="QUESTION" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" placeholder="true"/>
+			<notes id="description">boy playing with toy alphabet: istock 6893311</notes>
+		</graphic>
+	</section>
+	<section id="options" align="TOP|LEFT" spacing="15x10" autospace="true" columns="2" expanded="true">
+		<container id="option01" behavior="STRICT|LOCK_SIZE" x="25" y="125" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="350" height="65" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="6" width="285" height="" autosize="H" style="OPTION" visible="true">
+				<content translate="true">Tell Zachary that if he doesn’t stay at the table, he will have a time-out.</content>
+			</text>
+		</container>
+		<container id="option02" behavior="STRICT|LOCK_SIZE" x="390" y="200" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="350" height="65" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="6" width="291" height="" autosize="H" style="OPTION" visible="true">
+				<content translate="true">Let him go play, but tell him that next time he will have to stay at the table.</content>
+			</text>
+		</container>
+		<container id="option03" behavior="STRICT|LOCK_SIZE" x="25" y="130" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="350" height="65" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="6" width="306" height="" autosize="H" style="OPTION" visible="true">
+				<content translate="true">Ignore the circumstance.</content>
+			</text>
+		</container>
+		<container id="option04" behavior="STRICT|LOCK_SIZE" x="25" y="200" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="350" height="65" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="6" width="294" height="" autosize="H" style="OPTION" visible="true">
+				<content translate="true">Explain to Zachary why he has to stay at the table and ask him to stay.  </content>
+			</text>
+		</container>
+	</section>
+	<section id="buttons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="submit" behavior="STRICT|LOCK_SIZE" x="613" y="393" visible="false" fx="SUBMIT_SHOW" hidefx="SUBMIT_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SUBMIT" visible="true">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<text id="text" x="8" y="8" width="101" height="18" autosize="" style="CONTROLS" visible="true">
+				<content translate="true">Submit</content>
+			</text>
+		</container>
+	</section>
+	<answeranalysis id="answer_analysis" type="SINGLE_ANSWER" max_attempts="1">
+		<answer id="correct" correct="true" attempt="ANY" comparison="option04">
+			<feedback>
+				<text id="feedback" x="25" y="280" width="703" height="" autosize="H" style="CORRECT_FEEDBACK" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content translate="true">&lt;P ALIGN="LEFT"&gt;Correct. Zachary's mom could say: “It is a rule in our family that everyone stay at the table until we are all finished eating. This makes each person feel like an important part of the family.”    &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;The goal for developing self-regulation is not to force the child to comply with external rules but to help them develop internal control for understanding and respecting guidelines.&lt;/P&gt;</content>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+					<notes id="mentor-character">Narrator:</notes>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect1" correct="false" attempt="1" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="25" y="280" width="702" height="" autosize="H" style="INCORRECT_FEEDBACK" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content translate="true">&lt;P ALIGN="LEFT"&gt;Not quite. As children develop internal control over their emotions, they can gain control over their behavior. Caregivers can support this new independence by providing guidance for children in how to handle their environment. To do so, adults should include the rationale for a rule so that children understand the reason the rule needs to be followed. For example, Zachary's mother could say: “It is a rule in our family that everyone stay at the table until we are all finished eating. This makes each person feel like an important part of the family.” &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;The goal for developing self-regulation is not to force the child to comply with external rules but to help them develop internal control for understanding and respecting guidelines.&lt;/P&gt;</content>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+					<notes id="mentor-character">Narrator:</notes>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect2" correct="false" attempt="ANY" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="25" y="376" width="550" height="" autosize="H" style="INCORRECT_FEEDBACK" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content/>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+				</audio>
+			</feedback>
+		</answer>
+	</answeranalysis>
+</template>

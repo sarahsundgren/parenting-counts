@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_video" view="view_video">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Print Awareness</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="550" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Reading and Writing&lt;/B&gt;.</content>
+	</text>
+	<text id="intro_text" x="400" y="60" width="367" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;In simple ways, parents and caregivers can help teach young children what print is and how it works.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Let's watch a video that shows how easy it can be to help children become more interested in words.&lt;/P&gt;</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="400" y="150" width="348" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Young children can learn that print is all around them. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Although becoming familiar with this type of environmental print is not quite reading, helping children become excited about letters and words can be very powerful.&lt;/P&gt;</content>
+		</text>
+		<text id="text02" x="400" y="60" width="323" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Reading books together is another great way to create print awareness. </content>
+		</text>
+		<text id="text03" x="400" y="100" width="323" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Children learn:&lt;LI&gt;Pictures in books are the story.&lt;/LI&gt;&lt;LI&gt;Print carries meaning.&lt;/LI&gt;&lt;LI&gt;Spoken words can be written.&lt;/LI&gt;&lt;LI&gt;Print has direction such as left to right and top to bottom in English.&lt;/LI&gt;&lt;LI&gt;Words have boundaries that can be separate words from each other.&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="400" y="245" width="337" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Key Messages:&lt;/B&gt;&lt;LI&gt;Early experience with and exposure to reading and writing correlate with a child’s future literacy development and academic success.&lt;/LI&gt;&lt;LI&gt;Reading aloud to children provides many important opportunities for promoting literacy and preparing children to eventually read independently.&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="146" bytes="49963" startpos="1">a_04_03_01_010_a.swf</file>
+			<transcript translate="true">In simple ways, parents and caregivers can help teach young children what print is and how it works. Let's watch a video that shows how easy it can be to help children become more interested in words.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="video" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" startpos="1" bytes="58155" duration="170">a_04_03_01_010_02.swf</file>
+			<transcript translate="true">In this video we see that young children can learn that print is all around them. Although becoming familiar with this type of environmental print is not quite reading, helping children become excited about letters and words can be very powerful.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration03" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" startpos="1" bytes="57831" duration="169">a_04_03_01_010_03.swf</file>
+			<transcript translate="true">Reading books together is another great way to create print awareness. Since solely looking at signs and labels does not lead to learning letters and sounds, books can be another good way to expose children to these fundamental principles.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="intro_text" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration04" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" startpos="1" bytes="103627" duration="302">a_04_03_01_010_04.swf</file>
+			<transcript translate="true">Even when parents only spend a few minutes reading each day, children learn many concepts. For example, they learn that pictures in books are the story, print carries meaning, spoken words can be written, print has direction such as left to right, and top to bottom in English, and they also learn that words have boundaries that separate words from each other. These are the fundamental principles of  literacy that will prepare children to read and write.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text03" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text01" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration05" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration05">
+			<file play="false" startpos="1" bytes="82291" duration="240">a_04_03_01_010_05.swf</file>
+			<transcript translate="true">Keep in mind that for this topic, the Key Messages are first, that early experience with and exposure to reading and writing correlate with a child’s future literacy development and academic success. And second, reading aloud to children provides many important opportunities for promoting literacy and preparing children to eventually read independently.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text04" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="presentation_video" expanded="true">
+		<video id="video" behavior="" x="25" y="60" width="340" height="240" visible="true" fx="VIDEO_SHOW" hidefx="VIDEO_HIDE" style="DEFAULT">
+			<file startpos="0" play="false" autorewind="true" buffer="15" preload="10" volume="100" bytes="4187454">gone_fishing.mov</file>
+			<transcript/>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="0" result="CALL_FUNCTION" target="" result_param="$stopAudio();"/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="text01" result_param=""/>
+			</eventlist>
+		</video>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="443" y="225" width="187" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">– e.g., iloveyoumommy</content>
+		</text>
+		<text id="misc_text02" x="40" y="345" width="318" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="CENTER"&gt;&lt;I&gt;Making Everyday Moments Count &lt;/I&gt;DVD&lt;/P&gt;</content>
+		</text>
+	</section>
+</template>

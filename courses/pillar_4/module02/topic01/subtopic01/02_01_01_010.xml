@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Ready to Communicate</content>
+	</text>
+	<text id="nav_text" x="239" y="425" width="533" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about&lt;B&gt; Newborn Communication&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="23" y="50" width="416" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Babies are born ready to learn and communicate.</content>
+		</text>
+		<text id="text02" x="23" y="90" width="390" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Infants are building and strengthening their capacities to communicate with others through language and symbols of literacy in our society.</content>
+		</text>
+		<text id="text03" x="26" y="163" width="379" height="51" autosize="" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Very shortly after birth, a baby can discriminate between voices. A baby just a few days old can distinguish his or her own mother's voice from the voices of other women.</content>
+		</text>
+		<text id="text04" x="24" y="205" width="373" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Other researchers have suggested an infant in utero hears mostly his or her mother's voice, and this experience may lead to a preference for her voice after birth.</content>
+		</text>
+		<text id="text05" x="" y="" width="376" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Key Messages&lt;/B&gt;: &lt;LI&gt;Communicating with infants means recognizing and responding to their needs. &lt;/LI&gt;&lt;LI&gt;It is important to consistently respond to a baby's cues to help build a connection with a child. &lt;/LI&gt;&lt;LI&gt;In the first months of life, responding to cries cannot "spoil" a child. &lt;/LI&gt;&lt;LI&gt;Communication skills developed in infancy create the foundation for language and literacy skills necessary for future success in school and throughout life.&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="450" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="70192" startpos="1" play="false" placeholder="true">02_01_01_010_01.jpg</file>
+			<notes id="description">Mother comforting baby.</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic03" x="450" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="105851" startpos="1" play="false" placeholder="true">02_01_01_010_02.jpg</file>
+			<notes id="description">Father leaning toward baby while responding to baby's coos.</notes>
+		</graphic>
+		<graphic id="graphic04" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic05" x="450" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="111994" placeholder="true">02_01_01_010_03.jpg</file>
+			<notes id="description">mother holding her infant</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="40" bytes="13331" startpos="1">a_02_01_01_010_01.swf</file>
+			<transcript translate="true">Babies are born ready to learn and communicate.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="102" bytes="34875" startpos="1">a_02_01_01_010_02.swf</file>
+			<transcript translate="true">From their earliest days, infants are building and strengthening their capacities to communicate with others through language and symbols of literacy in our society.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" duration="161" bytes="54927" startpos="1">a_02_01_01_010_03.swf</file>
+			<transcript translate="true">Babies are ready to communicate with their parents starting at birth. Very shortly after birth, a baby can discriminate between voices. In fact, a baby just a few days old can distinguish his or her own mother's voice from the voices of other women.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon02" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" startpos="1" bytes="35743" duration="105">a_02_01_010_04.swf</file>
+			<transcript translate="true">Other researchers have suggested an infant in utero hears mostly his or her mother's voice, and this experience may lead to a preference for her voice after birth.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon03" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration05">
+			<file play="false" startpos="1" bytes="111935" duration="327">a_02_01_010_05.swf</file>
+			<transcript translate="true">Before we continue, let's go over the Key Messages for this section: Communicating with infants means recognizing and responding to their needs. It is important to consistently respond to a baby's cues to help build a connection with a child. In the first months of life, responding to cries cannot "spoil" a child.  And communication skills developed in infancy create the foundation for language and literacy skills necessary for future success in school and throughout life.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="398" y="257" width="321" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+	<graphic id="ref_icon01" x="161" y="111" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+		<file bytes="1716" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+		<eventlist>
+			<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+		</eventlist>
+	</graphic>
+	<graphic id="ref_icon02" x="348" y="170" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+		<file bytes="1716" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+		<eventlist>
+			<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+		</eventlist>
+	</graphic>
+	<graphic id="ref_icon03" x="298" y="232" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+		<file bytes="1716" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+		<eventlist>
+			<event type="CLICK" result="SHOW" target="reference03" result_param=""/>
+		</eventlist>
+	</graphic>
+	<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+		<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+			<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+		</graphic>
+		<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+			<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+		</graphic>
+		<text id="misc_text01" x="20" y="40" width="438" height="" autosize="H" style="DEFAULT_2" visible="true">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Rosenkoetter, S. E., &amp; Knapp-Philo, J. (2004). &lt;I&gt;Learning to read the world: Literacy in the first 3 years.&lt;/I&gt; Washington, DC: Zero to Three.&lt;/P&gt;</content>
+		</text>
+	</container>
+	<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+		<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+			<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+		</graphic>
+		<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+			<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+		</graphic>
+		<text id="misc_text01" x="20" y="40" width="416" height="" autosize="H" style="DEFAULT_2" visible="true">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Golinkoff, R. &amp; Hirsh-Pasek, K. (1999). &lt;I&gt;How babies talk: The magic and mystery of language acquisition.&lt;/I&gt; New York, NY: Dutton/Penguin. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Mayes, L. C., &amp; Cohen, D. J. (2002). &lt;I&gt;The Yale Child Study Center guide to understanding your child.&lt;/I&gt; New York, NY: Little, Brown and Company.&lt;/P&gt;</content>
+		</text>
+	</container>
+	<container id="reference03" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+		<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+			<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+		</graphic>
+		<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+			<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+		</graphic>
+		<text id="misc_text01" x="20" y="40" width="438" height="" autosize="H" style="DEFAULT_2" visible="true">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Tamis-LeMonda, C. S., Adolph, K. E., Lobo, S. A., Karasik, L. B., Dimitroupoulou, K. D., &amp; Ishak, S. (2008). When infants take mothers’ advice: 18-month-olds integrate perceptual and social information for guiding motor action. &lt;I&gt;Developmental Psychology, 44&lt;/I&gt;, 734-746.&lt;/P&gt;</content>
+		</text>
+	</container>
+</template>

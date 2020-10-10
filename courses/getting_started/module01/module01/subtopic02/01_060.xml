@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_cardswap" view="view_cardswap_inplace">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="persistInitGfx" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+		<settings id="perspectiveEdges" datatype="LIST" value="DEFAULT"/>
+		<settings id="exclusiveCards" datatype="LIST" value="FALSE"/>
+		<settings id="allowFlipBack" datatype="LIST" value="TRUE"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">The Four Pillars</content>
+	</text>
+	<text id="nav_text" x="180" y="425" width="590" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson &lt;/B&gt;in the left panel to learn more.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="707" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">The Parenting Counts Program draws from four key areas of child development and early learning to present information in the context of the whole child. </content>
+		</text>
+		<text id="directions" x="25" y="77" width="472" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;pillar&lt;/B&gt; to learn more.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="25" y="120" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="26111" startpos="1">placeholder_200x200_01.jpg</file>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" bytes="150615" startpos="1" duration="439">a_01_060_01.swf</file>
+			<transcript translate="true">The Parenting Counts Program draws from four key areas of child development and early learning to present information in the context of the whole child. These areas are physical, social-emotional, cognition, and language development. Each of these areas of development are covered in their own section of the course and are referred to as the four pillars of the Parenting Counts Program. For the purposes of this training, we have organized the information presented into these four pillars. However, it is important to recognize that all aspects of early childhood development are highly inter-related. Click each pillar to learn more.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="card_backs" align="TOP" spacing="10x0" autospace="true" columns="0" exclusive="false" expanded="true">
+		<container id="card_back01" behavior="LOCK_SIZE" x="15" y="145" style="CARD" visible="true" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_BACK" visible="true" fx="">
+				<file bytes="7601" play="false" startpos="1">04_02_02_011_05.png</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Physical Pillar&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_BACK" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="card_back02" behavior="LOCK_SIZE" x="133" y="135" style="CARD" visible="true" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_BACK" visible="true" fx="">
+				<file bytes="4938" play="false" startpos="1">04_02_02_011_06.png</file>
+				<notes id="description">Social and Emotional Pillar</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_BACK" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="card_back03" behavior="LOCK_SIZE" x="250" y="134" style="CARD" visible="true" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_BACK" visible="true" fx="">
+				<file bytes="5166" play="false" startpos="1">04_02_02_011_07.png</file>
+				<notes id="description">Cognitive Pillar</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_BACK" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="card_back04" behavior="LOCK_SIZE" x="366" y="134" style="CARD" visible="true" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_BACK" visible="true" fx="">
+				<file bytes="5271" play="false" startpos="1">04_02_02_011_08.png</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Communication and Language Pillar&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_BACK" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="card_fronts" align="TOP" spacing="10x0" autospace="true" columns="0" exclusive="false" expanded="true">
+		<container id="card_front01" behavior="LOCK_SIZE" x="15" y="145" style="CARD" visible="false" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_FRONT2" visible="true" fx="">
+				<file bytes="7601" play="false" startpos="1">04_02_02_011_05.png</file>
+				<notes id="description">physical pillar highlighted</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_FRONT" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="card_front02" behavior="LOCK_SIZE" x="210" y="240" style="CARD" visible="false" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_FRONT2" visible="true" fx="">
+				<file bytes="4938" play="false" startpos="1">04_02_02_011_06.png</file>
+				<notes id="description">social and emotional pillar highlighted</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_FRONT" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="card_front03" behavior="LOCK_SIZE" x="395" y="240" style="CARD" visible="false" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_FRONT2" visible="true" fx="">
+				<file bytes="5166" play="false" startpos="1">04_02_02_011_07.png</file>
+				<notes id="description">cognitive pillar highlighted</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_FRONT" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="card_front04" behavior="LOCK_SIZE" x="580" y="240" style="CARD" visible="false" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_FRONT2" visible="true" fx="">
+				<file bytes="5271" play="false" startpos="1">04_02_02_011_08.png</file>
+				<notes id="description">Communication and Language Pillar highlighted</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_FRONT" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="swap_graphic01" x="425" y="91" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="41025" startpos="1">01_060_09.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;A young toddler learning to walk istock 5787037 or similar&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="swap_graphic02" x="" y="" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="47475" startpos="1">01_060_10.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;children playing together as friends: istock 3470902 or similar&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="swap_graphic03" x="" y="" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="38951" startpos="1">01_060_11.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;baby playing with stacking cups istock 5260781(please put a background with this picture)&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="swap_graphic04" x="" y="" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="40480" startpos="1">01_060_12.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;mother reading to children istock 12946043 or similar&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="425" y="245" width="323" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;The Physical and Brain Development pillar explores developmental processes related to the brain and central nervous system, including temperament, self-regulation, and stress response. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Brain development is ultimately responsible for the other forms of development that occur during childhood and beyond.&lt;/P&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="swap_text02" x="425" y="245" width="331" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;The Social and Emotional Development pillar explores ways that parents can help children develop strong social skills and regulate emotions. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;It discusses topics such as attachment, praise, discipline, and temper tantrums.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Additionally, this pillar explains four common parenting styles and the five steps of Emotion Coaching. These research-based steps help children learn to manage their strong emotions &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;and form positive and lasting relationships.&lt;/P&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon02" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="swap_text03" x="425" y="245" width="313" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;The Learning and Cognitive Development pillar describes the mental processes by which knowledge is acquired, including imitation, exploration, and play.&lt;/P&gt;&lt;LI&gt;&lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;Most studies show that the factors that most strongly influence cognitive development include a healthy, secure attachment with parents and caregivers, and opportunities for free, unstructured, child-centered exploration and play.&lt;/P&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon03" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="swap_text04" x="425" y="245" width="343" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;The Communication and Language Development &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;pillar explores how children communicate by examining three major phases of development: &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Early Communication, Verbal Development, and Emergent Literacy.&lt;/P&gt;&lt;LI&gt;&lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;Babies are born communicating, as evidenced by &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;their first cries just moments after birth. While these &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;earliest forms of communication are important for communicating needs, they are also the foundation for relationship development with parents and caregivers.    &lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="reference_links04" expanded="true">
+		<graphic id="ref_icon04" x="10" y="420" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference04" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups04" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference04" behavior="STRICT|LOCK_SIZE" x="1" y="185" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="530" height="230" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="445" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="30" y="45" width="471" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;When presenting this information to parents, it is important to explain that one pillar is not more important than another. Instead, the four pillars are interdependent. For example, to support a child's cognitive development, a parent must also consider the child's physical and social-emotional development, including the child's ability to self-regulate and communicate. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;The role of Parenting Counts Educators is to learn the knowledge presented in this program to educate parents on the four early learning pillars. This knowledge will help promote successful parenting and positive early experiences.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

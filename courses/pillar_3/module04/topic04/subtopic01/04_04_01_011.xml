@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Parents and Play</content>
+	</text>
+	<text id="nav_text" x="155" y="425" width="616" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Parents and Play&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="688" height="" autosize="H" style="DEFAULT" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Early Childhood professionals have a natural role as caring and objective individuals with whom parents can discuss their approach to raising their children.</content>
+		</text>
+		<text id="text02" x="25" y="100" width="334" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Educate parents on the importance of play by:&lt;LI&gt;Understanding the barriers to traditional childhood play&lt;/LI&gt;&lt;LI&gt;Discussing with parents the benefits of play&lt;/LI&gt;&lt;LI&gt;Helping parents and caregivers reinforce that play is the way children learn&lt;/LI&gt;&lt;LI&gt;Encouraging parents to create a safe environment for their child to play and explore&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="25" y="250" width="325" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Remind parents to consult their child’s medical provider if they have questions regarding their child's development.</content>
+		</text>
+		<text id="text04" x="25" y="320" width="322" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;As you explore this topic, you'll see that parents and professionals have an instrumental role in facilitating play.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="431" y="90" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="108328" startpos="1" play="false">04_04_02_020_01.jpg</file>
+			<notes id="description">A social worker talking with a family in their home</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic03" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic04" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="67527" startpos="1" duration="197">a_04_04_01_011_01.swf</file>
+			<transcript translate="true">Early Childhood professionals have a natural role as caring and objective individuals with whom parents can discuss their approach to raising their children. Because of this trusted role, professionals have a unique opportunity to help promote the physical, emotional, and social well being of children.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="83055" startpos="1" duration="243">a_04_04_01_011_02.swf</file>
+			<transcript translate="true">Early childhood professionals can help educate parents on the importance of play by: understanding the barriers to traditional childhood play; discussing with parents the benefits of play;  helping parents and caregivers reinforce that play is the way children learn; and encouraging parents to create a safe environment for their child to play and explore.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="55251" startpos="1" duration="162">a_04_04_01_011_03.swf</file>
+			<transcript translate="true">Because each child will follow his or her own unique developmental path, parents should be reminded that if they have questions about their child's development or their play preferences, they should consult their child's medical provider.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" bytes="27655" startpos="1" duration="81">a_04_04_01_011_04.swf</file>
+			<transcript translate="true">As you explore this topic, you'll see that both parents and professionals have an instrumental role in facilitating play.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+</template>

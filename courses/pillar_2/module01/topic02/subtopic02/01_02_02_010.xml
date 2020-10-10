@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Characteristics of Emotional Intelligence</content>
+	</text>
+	<text id="nav_text" x="140" y="425" width="632" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a&lt;B&gt; Lesson &lt;/B&gt;or&lt;B&gt; Activity&lt;/B&gt; to learn more about &lt;B&gt;Emotional Development.&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="85" y="104" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="185293">01_02_02_010_10.jpg</file>
+			<notes id="description">Group of students in a preschool classroom setting</notes>
+		</graphic>
+		<graphic id="graphic02" x="301" y="94" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1242" play="false" startpos="1">01_02_02_010_02a.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;Oval piece&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic03" x="465" y="146" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1329" play="false" startpos="1">01_02_02_010_02.jpg</file>
+			<notes id="description">Rectangle piece- point 3</notes>
+		</graphic>
+		<graphic id="graphic04" x="465" y="244" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1329" play="false" startpos="1">01_02_02_010_02.jpg</file>
+			<notes id="description">Rectangle piece- Point 4</notes>
+		</graphic>
+		<graphic id="graphic05" x="387" y="330" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1242" play="false" startpos="1">01_02_02_010_02a.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;Rectangle piece- point 5&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic06" x="210" y="330" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1242" play="false" startpos="1">01_02_02_010_02a.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;Rectangle piece -point 6&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic07" x="134" y="244" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1329" play="false" startpos="1">01_02_02_010_02.jpg</file>
+			<notes id="description">Rectangle piece -point 7</notes>
+		</graphic>
+		<graphic id="graphic08" x="134" y="146" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1329" play="false" startpos="1">01_02_02_010_02.jpg</file>
+			<notes id="description">Rectangle piece -point 7</notes>
+		</graphic>
+	</section>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="49" width="725" height="" autosize="H" style="DEFAULT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Now let's look at some of the ways that developing emotional intelligence benefits children. According to research, emotionally intelligent children are more likely to:</content>
+		</text>
+		<text id="text02" x="301" y="113" width="150" height="" autosize="H" style="DEFAULT" visible="false" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="CENTER"&gt;Have better problem-solving skills&lt;/P&gt;</content>
+		</text>
+		<text id="text03" x="459" y="167" width="160" height="" autosize="H" style="DEFAULT" visible="false" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="CENTER"&gt;Relate to different cultures&lt;/P&gt;</content>
+		</text>
+		<text id="text04" x="465" y="264" width="149" height="" autosize="H" style="DEFAULT" visible="false" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="CENTER"&gt;Make responsible decisions&lt;/P&gt;</content>
+		</text>
+		<text id="text05" x="388" y="347" width="148" height="" autosize="H" style="DEFAULT" visible="false" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="CENTER"&gt;Show respect for others&lt;/P&gt;</content>
+		</text>
+		<text id="text06" x="217" y="341" width="136" height="" autosize="H" style="DEFAULT" visible="false" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="CENTER"&gt;Work well both independently and with others&lt;/P&gt;</content>
+		</text>
+		<text id="text07" x="134" y="257" width="146" height="" autosize="H" style="DEFAULT" visible="false" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="CENTER"&gt;Take responsibility for the well-being of others&lt;/P&gt;</content>
+		</text>
+		<text id="text08" x="157" y="171" width="100" height="" autosize="H" style="DEFAULT" visible="false" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="CENTER"&gt;Show empathy&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="41667" duration="122" startpos="1">a_01_02_02_010_01.swf</file>
+			<transcript translate="true">Now let's look at some of the ways that developing emotional intelligence benefits children. According to research, emotionally intelligent children are more likely to:</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="11711" duration="35" startpos="1">a_01_02_02_010_02.swf</file>
+			<transcript translate="true">have better problem-solving skills</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_graphic01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="9443" duration="28" startpos="1">a_01_02_02_010_04.swf</file>
+			<transcript translate="true">relate to different cultures</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" bytes="9559" duration="29" startpos="1">a_01_02_02_010_05.swf</file>
+			<transcript translate="true">make responsible decisions</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" bytes="9235" duration="28" startpos="1">a_01_02_02_010_06.swf</file>
+			<transcript translate="true">show respect for others</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration06">
+			<file play="false" bytes="13979" duration="42" startpos="1">a_01_02_02_010_07.swf</file>
+			<transcript translate="true">work well both independently and with others</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration07">
+			<file play="false" bytes="13111" duration="39" startpos="1">a_01_02_02_010_08.swf</file>
+			<transcript translate="true">take responsibility for the well-being of others</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration08">
+			<file play="false" bytes="51039" duration="149" startpos="1">a_01_02_02_010_09.swf</file>
+			<transcript translate="true">and show empathy. When parents use empathy and teach emotional management skills on a consistent basis, children develop this set of characteristics that supports their social emotional learning.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon02" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="330" y="65" width="15" height="15" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="275" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="500" height="200" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="420" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="40" width="447" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Elias, M. &amp; Arnold, H. (2006). The educators guide to emotional intelligence and academic achievement. Thousand Oaks, CA: &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Corwin Press.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Greenberg, M.T. (1999). Attachment and psychopathology in childhood. In J. Cassidy &amp; P.R. Shaver (Eds.), &lt;I&gt;Handbook of attachment: Theory, research, and clinical application&lt;/I&gt; (pp. 469-496). New York, NY: Guilford Press.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="320" y="205" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="10194">01_02_02_010_01.jpg</file>
+		</graphic>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="322" y="241" width="106" height="" autosize="H" style="DEFAULT" visible="false" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Characteristics&lt;/B&gt;</content>
+		</text>
+	</section>
+</template>

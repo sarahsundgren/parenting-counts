@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_video" view="view_video">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">How the Brain Learns</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="550" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more.</content>
+	</text>
+	<text id="intro_text" x="400" y="60" width="368" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;In Pillar 1 we explained how the the brain grows and develops. This module focuses on how the brain &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;actually learns. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Let's begin by watching a video clip in which Dr. Elizabeth Nelson explains how the brain typically develops.&lt;/P&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="400" y="60" width="354" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Important pathways are strengthened through repeated experiences, while un-used or unnecessary connections die off, a process called pruning. </content>
+		</text>
+		<text id="text02" x="380" y="61" width="323" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">New knowledge builds on prior knowledge.</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="text03" x="380" y="61" width="323" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">During the first 25 years of life, more emotional than logical connections develop as the pre-fontal cortex matures.</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="text04" x="380" y="61" width="358" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">The brain continues to change based on experiences throughout life.</content>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="163" bytes="55575" startpos="1">a_01_01_010_01.swf</file>
+			<transcript translate="true">In Pillar 1 we explained how the brain grows and develops. This module focuses on how the brain actually learns. Let's begin by watching a video clip in which Dr. Elizabeth Nelson explains how the brain typically develops.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="video" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" startpos="1" bytes="68719" duration="201">a_01_01_010_05.swf</file>
+			<transcript translate="true">The video you just watched highlights how the brain forms connections, or learns. These important pathways are strengthened through repeated experiences, while un-used or unnecessary connections die off, a process called pruning. This helps to build well-functioning neural networks.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration03" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" startpos="1" bytes="117211" duration="342">a_01_01_010_02.swf</file>
+			<transcript translate="true">Just as new neural connections build on top of existing connections, new knowledge builds on prior knowledge. As a result, caregivers need to lay the groundwork for certain skills in early childhood so that the child will not have a more difficult time with the skill later. For example, if a person doesn't learn strategies to calm down when upset as a young child, the task of calming down becomes increasingly difficult with age because this skill involves biochemical regulation.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration04" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" startpos="1" bytes="34667" duration="102">a_01_01_010_03.swf</file>
+			<transcript translate="true">In fact, during the first 25 years of life, more emotional than logical connections develop as the pre-frontal cortex matures.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text03" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text03" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration05" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration05">
+			<file play="false" startpos="1" bytes="48887" duration="143">a_01_01_010_04.swf</file>
+			<transcript translate="true">Although the most dramatic brain growth takes place within the first five years of life, keep in mind that the brain continues to grow and change. In other words, we continue to learn throughout our lifetime. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text04" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="presentation_video" expanded="true">
+		<video id="video" behavior="" x="25" y="60" width="340" height="180" visible="true" fx="VIDEO_SHOW" hidefx="VIDEO_HIDE" style="DEFAULT">
+			<file startpos="0" play="false" autorewind="true" buffer="15" preload="10" volume="100" bytes="8755795">how_the_brain_learns.mov</file>
+			<transcript/>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="HIDE" target="intro_text" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="text01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="0" result="CALL_FUNCTION" target="" result_param="$stopAudio();"/>
+			</eventlist>
+		</video>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="1" y="371" width="350" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text02" x="40" y="286" width="318" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="CENTER"&gt;Elizabeth Nelson, Ed.D.&lt;/P&gt;</content>
+		</text>
+	</section>
+</template>

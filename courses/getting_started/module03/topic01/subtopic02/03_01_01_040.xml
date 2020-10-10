@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Culture and Parenting</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Is Culture?&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="370" y="60" width="374" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Cultural background impacts the choices parents make about raising their children and represents internalized values that a parent wants to share with their child.</content>
+		</text>
+		<text id="text02" x="347" y="120.8" width="363" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">There are several types of values evident in parenting that are dependent upon one's culture. Examples include:  &lt;LI&gt;Customs around meals&lt;/LI&gt;&lt;LI&gt;Rituals around birth and death&lt;/LI&gt;&lt;LI&gt;Models of independence or interdependence&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="347" y="212.8" width="367" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Keep in mind that cultural beliefs and practices are not usually fixed, but may change over time, across generations, or be influenced by other variables. </content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="" height="" style="GRAPHIC" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="172425" play="false" start_frame="1">03_01_01_040_04.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;community garden File #: 9393059&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic03" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1" bytes="100188">03_01_01_040_05.jpg</file>
+			<notes id="description">woman with son and grandfather istock: 3586604</notes>
+		</graphic>
+		<graphic id="graphic04" x="25" y="150" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="35963" duration="106" start_frame="1">a_03_01_01_040_01.swf</file>
+			<transcript translate="true">Cultural background impacts the choices parents make about raising their children and represents internalized values that a parent wants to share with their child.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="102123" duration="298" start_frame="1">a_03_01_01_040_02.swf</file>
+			<transcript translate="true">There are several types of values evident in parenting that are dependent upon one's culture.  Examples include: customs around meals, rituals around birth and death, or models of independence or interdependence. For example, for parents who value interdependence, their primary goal of raising children is for them to be part of a larger system of relationships — to be dependent on others and have others depend on them. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="38867" duration="114" start_frame="1">a_03_01_01_040_03.swf</file>
+			<transcript translate="true">Keep in mind that cultural beliefs and practices are not usually fixed, but may change over time, across generations, or be influenced by other variables. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<graphic id="ref_icon01" x="670" y="244" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+		<file bytes="1704" play="false" duration="1" start_frame="1">rstar_sizeable.swf</file>
+		<eventlist>
+			<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+		</eventlist>
+	</graphic>
+	<graphic id="ref_icon02" x="636" y="353" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+		<file bytes="1704" play="false" duration="1" start_frame="1">rstar_sizeable.swf</file>
+		<eventlist>
+			<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+		</eventlist>
+	</graphic>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" start_frame="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Gray, D. P., &amp; Thomas, D. (2005). Critical analysis of "culture" in nursing literature: Implications for nursing education in the United States.&lt;I&gt; Annual Review of Nursing Educations, 3&lt;/I&gt;, 249-270.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" start_frame="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Keller, H. (2007). &lt;I&gt;Cultures of Infancy.&lt;/I&gt; Mahwah, NJ: Lawrence Erlbaum Publishers.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

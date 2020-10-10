@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-settings build="23">
+	<configuration id="general">
+		<settings id="version" datatype="STRING" value=""/>
+		<settings id="showVersion" datatype="BOOLEAN" value="true"/>
+		<settings id="subpixelGrid" datatype="BOOLEAN" value="true"/>
+		<settings id="languages" datatype="LIST" value="ENG"/>
+		<settings id="caching" datatype="BOOLEAN" value="true"/>
+		<settings id="search" datatype="BOOLEAN" value="false"/>
+		<settings id="openNav" datatype="BOOLEAN" value="true"/>
+		<settings id="pageVisualFX" datatype="VISUAL_FX" value=""/>
+		<settings id="defaultFont" datatype="STRING" value="Arial"/>
+		<settings id="mainMenuDepth" datatype="NUMBER" value="1"/>
+		<settings id="audioOn" datatype="BOOLEAN" value="true"/>
+		<settings id="audioOffMethod" datatype="LIST" value="TIMER"/>
+		<settings id="audioTimerMultiplier" datatype="NUMBER" value=".5"/>
+		<settings id="exitPrompt" datatype="BOOLEAN" value="true"/>
+		<settings id="showPrintMsg" datatype="BOOLEAN" value="true"/>
+		<settings id="placeholderNotes" datatype="LIST" value="ALL"/>
+		<settings id="showErrors" datatype="BOOLEAN" value="true"/>
+	</configuration>
+	<configuration id="components">
+		<settings id="urlLanguageMenu" datatype="FILE" value=""/>
+		<settings id="urlUserLogin" datatype="FILE" value=""/>
+		<settings id="urlSplashMovie" datatype="FILE" value=""/>
+		<settings id="urlMainMenu" datatype="FILE" value="flash/menu.swf"/>
+		<settings id="urlResources" datatype="FILE" value=""/>
+		<settings id="urlHelp" datatype="FILE" value=""/>
+		<settings id="urlGlossary" datatype="FILE" value=""/>
+		<settings id="urlTranscript" datatype="FILE" value=""/>
+		<settings id="noSplashMovieOnResume" name="" datatype="BOOLEAN" value="true"/>
+	</configuration>
+	<configuration id="testing">
+		<settings id="projectID" datatype="NUMBER" value="894"/>
+		<settings id="debug" datatype="LIST" value="OFF"/>
+		<settings id="debugTabs" datatype="STRING" value="ALL"/>
+		<settings id="bugTracker" datatype="BOOLEAN" value="false"/>
+		<settings id="bugHeader" datatyle="STRING" value="%HIERARCHY% %LOCHEADER% [%CONTENT%] %GUID% [ver %VERSION%]"/>
+		<settings id="scriptReview" datatype="BOOLEAN" value="false"/>
+	</configuration>
+	<configuration id="data_tracking">
+		<settings id="localDataTracking" datatype="LIST" value="SCORM"/>
+		<settings id="localSaveEvent" datatype="LIST" value="ON_PAGE_COMPLETE"/>
+		<settings id="cookieID" datatype="STRING" value="course_eng"/>
+		<settings id="pageDataTracking" datatype="LIST" value="DEFAULT"/>
+		<settings id="localDataFile" datatype="FILE" value=""/>
+		<settings id="webDataTracking" datatype="LIST" value="SCORM"/>
+		<settings id="webSaveEvent" datatype="LIST" value="ON_PAGE_COMPLETE"/>
+		<settings id="setPageComplete" datatype="LIST" value="ON_CONTENT_COMPLETE"/>
+		<settings id="setCourseComplete" datatype="LIST" value="ON_CONTENT_COMPLETE"/>
+		<settings id="reportScore" datatype="LIST" value="LAST"/>
+		<settings id="reportPassFail" datatype="BOOLEAN" value="false"/>
+		<settings id="progress" datatype="LIST" value="GLOBAL"/>
+		<settings id="pageXofY" datatyle="STRING" value="page %CURRENTPAGE% of %TOTALPAGES%" translate="value"/>
+		<settings id="locHeader" datatyle="STRING" value="%LEVEL1%: %LEVEL2%" translate="value"/>
+		<settings id="resumePrompt" datatype="BOOLEAN" value="false"/>
+		<settings id="updateDataAfterInactive" datatype="BOOLEAN" value="false"/>
+		<settings id="inactiveMinutesToUpdate" datatype="NUMBER" value=""/>
+		<settings id="customDataPath" datatype="STRING" value="/core/user_save_data.aspx"/>
+		<settings id="maxCustomNotes" datatype="NUMBER" value="10"/>
+	</configuration>
+	<configuration id="dataMessages">
+		<settings id="cookiesOff" datatype="STRING" value="You're Flash Cookies are currently turned off. This course requires Flash Cookies for tracking progress. Please turn on Flash Cookies and restart the course." translate="value"/>
+		<settings id="cookiesDenied" datatype="STRING" value="You're Flash Cookies have been turned off. This course requires Flash Cookies for tracking progress. Please restart the course and allow the use of Flash Cookies." translate="value"/>
+		<settings id="audienceDataError" datatype="STRING" value="Your audience and objectives data could not be loaded.  This feature will be disabled for this session." translate="value"/>
+		<settings id="notesDataError" datatype="STRING" value="Your notes data could not be loaded.  This feature will be disabled for this session." translate="value"/>
+	</configuration>
+	<configuration id="transcript">
+		<settings id="transcriptType" datatype="LIST" value="EXTERNAL_HTML"/>
+		<settings id="hideWhenEmpty" datatype="BOOLEAN" value="true"/>
+		<settings id="transcriptMethod" datatype="LIST" value="FULL"/>
+		<settings id="scrollType" datatype="LIST" value="SINGLE_LINE"/>
+		<settings id="scrollSpeed" datatype="NUMBER" value=".5"/>
+		<settings id="entryFormat" datatype="STRING" value="&lt;p class='character'&gt;%CHARACTER%&lt;/p&gt;&lt;p class='transcript'&gt;%TRANSCRIPT%&lt;/p&gt;"/>
+	</configuration>
+	<configuration id="messages" name="Course Messages">
+		<settings id="exitPromptText" datatype="STRING" value="Are you sure you want to exit the course?" translate="value"/>
+		<settings id="resumePromptText" datatype="STRING" value="Would you like to resume from your last page?" translate="value"/>
+		<settings id="printingText" datatype="STRING" value=""/>
+	</configuration>
+	<configuration id="template">
+		<section id="template_multiplechoice">
+			<settings id="markFinalAnswers" datatype="LIST" value="ALL"/>
+		</section>
+	</configuration>
+</project-settings>

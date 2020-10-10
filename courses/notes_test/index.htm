@@ -1,0 +1,96 @@
+﻿<HTML>
+<HEAD>
+<TITLE>Parenting Counts</TITLE>
+<STYLE type="text/css">
+body	{ font-family: Arial, Helvetica, sans-serif; font-size: 11pt; }
+td		{ font-family: Arial, Helvetica, sans-serif; font-size: 11pt; }
+th		{ font-family: Arial, Helvetica, sans-serif; font-size: 11pt; color:#FFFFFF; font-weight: bold; padding:5px; background-color: #999999; height:15px; }
+li		{ font-family: Arial, Helvetica, sans-serif; font-size: 11pt; text-align: left }
+h1		{ font-family: Arial, Helvetica, sans-serif; font-size: 14pt; text-align: center }
+.vMark	{ width: 19px; height: 20px; }
+</STYLE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<SCRIPT language="javascript" src="inc/sysreq_functions.js"></SCRIPT>
+<SCRIPT language="javascript" src="inc/index_functions.js"></SCRIPT>
+<SCRIPT language="javascript">
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// BEGIN CONFIG SECTION - DO NOT REMOVE THIS LINE OR ADD CODE TO THE SECTION BELOW
+///////////////////////////////////////////////////////////////////////////////////////////////////
+$m_arrSysReqs[SCREENRES].m_nMinWidth = 1024;  // The minimum required screen width.
+$m_arrSysReqs[SCREENRES].m_nMinHeight = 768;  // The minimum required screen height.
+$m_arrSysReqs[BROWSER][FIREFOX].m_bSupported = true;  // Allow the course to run within Firefox.
+$m_arrSysReqs[BROWSER][FIREFOX].m_nMinVer = 3;  // The minimum required version of Firefox.
+$m_arrSysReqs[BROWSER][SAFARI].m_bSupported = true;  // Allow the course to run within Safari.
+$m_arrSysReqs[BROWSER][SAFARI].m_nMinVer = 5;  // The minimum required version of Safari.
+$m_arrSysReqs[FLASH].m_nMinVer = 9;  // The minimum required version of Adobe Flash Player.
+$m_nBrowserWidth = 1014;  // The browser width.
+$m_nBrowserHeight = 658;  // The browser height.
+$m_nLaunchMode = LAUNCH_RESIZE;  // Open the course in the same window (LAUNCH_NORMAL), a resized window (LAUNCH_RESIZE, LAUNCH_LOCKEDSIZE), or a separate window (LAUNCH_POPUP).
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// END CONFIG SECTION - DO NOT REMOVE THIS LINE OR ADD CODE TO THE SECTION ABOVE
+///////////////////////////////////////////////////////////////////////////////////////////////////
+</SCRIPT>
+
+</HEAD>
+<BODY onload="javascript:$onLoad();" scroll="no">
+	<DIV id="IndexLayer" style="visibility:hidden; overflow:hidden; height:1px">
+		<DIV id="loadingInfo" style="visibility: hidden">
+			<B><SCRIPT language="javascript">$writeLoadingMsg();</SCRIPT></B>
+		</DIV>
+		<DIV id="infoNoClose" style="visibility: hidden">
+			<P align="center"><SCRIPT language="javascript">$writeNoCloseLaunchMsg();</SCRIPT></P>
+		</DIV>
+		<DIV id="infoPopupBlocker" style="visibility: hidden; font-size:14pt">
+			<P align="center"><SCRIPT language="javascript">$writePopupLaunchMsg();</SCRIPT></P>
+		</DIV>
+		<DIV id="info" style="visibility: hidden">
+			<P align="center"></P>
+		</DIV>
+	</DIV>
+	<DIV id="SysReqLayer" style="visibility:hidden; overflow:hidden; height:1px" align="center">
+		<H1><B><SCRIPT language="javascript">$SYSREQ_writeSysReqHeading();</SCRIPT></B></H1>
+		<TABLE width="500" border="1" cellspacing="0" cellpadding="3">
+			<TH><SCRIPT language="javascript">$SYSREQ_writeApplicationHeading();</SCRIPT></TH>
+			<TH><SCRIPT language="javascript">$SYSREQ_writeCurrentVerHeading();</SCRIPT></TH>
+			<TH><SCRIPT language="javascript">$SYSREQ_writeRequiredVerHeading();</SCRIPT></TH>
+			<TH><SCRIPT language="javascript">$SYSREQ_writeStatusHeading();</SCRIPT></TH>
+			<TR id="SysReqBrowser">
+				<TD align='left'><B><SCRIPT language="javascript">$SYSREQ_writeBrowserID();</SCRIPT></B></TD>
+				<TD align='center'><B><SCRIPT language="javascript">$SYSREQ_writeBrowserVer();</SCRIPT></B></TD>
+				<TD align='center' nowrap><B><SCRIPT language="javascript">$SYSREQ_writeBrowserReqVer();</SCRIPT></B></TD>
+				<TD align='center'><SCRIPT language="javascript">$SYSREQ_writeBrowserStatus();</SCRIPT></TD>
+			</TR>
+			<TR id="SysReqFlash">
+				<TD align='left'><B><SCRIPT language="javascript">$SYSREQ_writeFlashID();</SCRIPT></B></TD>
+				<TD align='center'><B><SCRIPT language="javascript">$SYSREQ_writeFlashVer();</SCRIPT></B></TD>
+				<TD align='center'><B><SCRIPT language="javascript">$SYSREQ_writeFlashReqVer();</SCRIPT></B></TD>
+				<TD align='center'><SCRIPT language="javascript">$SYSREQ_writeFlashStatus();</SCRIPT></TD>
+			</TR>
+			<TR id="SysReqAcrobat">
+				<TD align='left'><B><SCRIPT language="javascript">$SYSREQ_writeAcrobatID();</SCRIPT></B></TD>
+				<TD align='center'><B><SCRIPT language="javascript">$SYSREQ_writeAcrobatVer();</SCRIPT></B></TD>
+				<TD align='center'><B><SCRIPT language="javascript">$SYSREQ_writeAcrobatReqVer();</SCRIPT></B></TD>
+				<TD align='center'><SCRIPT language="javascript">$SYSREQ_writeAcrobatStatus();</SCRIPT></TD>
+			</TR>
+			<TR id="SysReqScreenRes">
+				<TD align='left'><B><SCRIPT language="javascript">$SYSREQ_writeScreenResID();</SCRIPT></B></TD>
+				<TD align='center'><B><SCRIPT language="javascript">$SYSREQ_writeScreenRes();</SCRIPT></B></TD>
+				<TD align='center'><B><SCRIPT language="javascript">$SYSREQ_writeScreenReqRes();</SCRIPT></B></TD>
+				<TD align='center'><SCRIPT language="javascript">$SYSREQ_writeScreenResStatus();</SCRIPT></TD>
+			</TR>
+		</TABLE>
+		<CENTER>
+			<DIV style="width:500px">
+				<BR>
+				<P><SCRIPT language="javascript">$SYSREQ_writeOverallStatus();</SCRIPT></P>
+				<DIV style="width:90%">
+					<UL>
+						<SCRIPT language="javascript">$SYSREQ_writeErrors();</SCRIPT>
+					</UL>
+				</DIV>
+				<SCRIPT language="javascript">$SYSREQ_writeErrorHelp();</SCRIPT>
+			</DIV>
+		</CENTER>
+	</DIV>
+</BODY>
+</HTML>

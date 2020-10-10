@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="-50" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Conclusion</content>
+	</text>
+	<text id="nav_text" x="140" y="425" width="632" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">To continue, click another &lt;B&gt;Module &lt;/B&gt;from the top menu&lt;B&gt;.&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="-50" y="49" width="363" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Congratulations! You have completed the Parenting Styles module. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;In this module you learned about attunement and meta-emotions, and about Dr. John Gottman's four &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;parenting styles. &lt;/P&gt;</content>
+		</text>
+		<text id="text02" x="-50" y="159" width="374" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Help parents remember that:&lt;LI&gt;Feelings are normal and children can't control how they feel.&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="-50" y="211" width="361" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Children should not be ignored or disciplined for their emotions.&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="-50" y="244" width="434" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Every child expresses emotions in his or her own way.&lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="-50" y="264.2" width="443" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Children like to know their boundaries.&lt;/LI&gt;</content>
+		</text>
+		<text id="text06" x="-50" y="294.8" width="362" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Before you leave this module, consider reviewing the Educator Training Goals. These goals can be found by clicking the &lt;B&gt;Professional Icon&lt;/B&gt;.</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="370" y="50" width="" height="" style="GRAPHIC" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="97380">03_020_01.jpg</file>
+			<notes id="description">3yr old girl and grandparent smiling and looking at camera</notes>
+		</graphic>
+		<graphic id="graphic02" x="370" y="50" width="" height="" style="GRAPHIC" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" bytes="114382">03_020_02.jpg</file>
+			<notes id="description">Cason and grandma from Emotion Coaching folder inside Social Emotional</notes>
+		</graphic>
+		<graphic id="graphic03" x="5" y="233" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" placeholder="true"/>
+			<notes id="description">graphic icon</notes>
+		</graphic>
+		<graphic id="graphic04" x="370" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" bytes="85695">03_020_06.jpg</file>
+			<notes id="description">parent and toddler playing together</notes>
+		</graphic>
+		<graphic id="graphic05" x="370" y="50" width="" height="" style="GRAPHIC" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" placeholder="true"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic06" x="463" y="115" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" placeholder="true"/>
+			<notes id="description">2yr old child on knees smiling at camera. found in talaris photos&amp;gt;social and emotional&amp;gt; emotion coaching "#127 2yrs. Ian - 71-10"</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="66451" duration="194" startpos="1">a_03_020_01.swf</file>
+			<transcript translate="true">Congratulations! You have completed the Parenting Styles module. In this module you learned about attunement and meta-emotions, and about Dr. John Gottman's four parenting styles. Before we move on, let's review some of the main ideas of Parenting Styles:</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="34123" duration="100" startpos="1">a_03_020_02.swf</file>
+			<transcript translate="true">Help parents remember that feelings are normal and children can't control how they feel. Let your child feel and understand their emotions.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="35523" duration="104" startpos="1">a_03_020_03.swf</file>
+			<transcript translate="true">Avoid ignoring or disciplining a child for their emotions. Use the opportunity to teach your child about emotions and how to manage them.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" bytes="49963" duration="146" startpos="1">a_03_020_04.swf</file>
+			<transcript translate="true">Teach parents that every child expresses emotions in his or her own way. Recognizing emotions is the first step to helping children learn about them. Help children manage their strong emotions.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" bytes="33475" duration="98" startpos="1">a_03_020_05.swf</file>
+			<transcript translate="true">Teach limits on behavior. Children like to know their boundaries and it's important that you teach them what is acceptable and unacceptable.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration06">
+			<file play="false" bytes="33915" duration="100" startpos="1">a_03_020_07.swf</file>
+			<transcript translate="true">Before you leave this module, consider reviewing the Educator Training Goals. These goals can be found by clicking the Professional Icon.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="nav_text" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="-95" y="440" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="-95" y="245" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="40" width="438" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Educator Training Goals:&lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Explain how attitudes about feelings shape parenting behaviors.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Describe the messages that parenting behaviors teach children about their emotions.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Explain the four parenting styles.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Communicate how Emotion Coaching helps children learn how to manage their feelings and improves long-term parenting outcomes.&lt;/P&gt;&lt;/TEXTFORMAT&gt;</content>
+			</text>
+			<text id="misc_text02" x="35" y="55" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;1. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;2.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;3.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;4.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

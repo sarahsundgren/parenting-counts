@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Self-Regulation in Preschoolers</content>
+	</text>
+	<text id="nav_text" x="180" y="425" width="590" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Is&lt;/B&gt; &lt;B&gt;Self-Regulation&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="725" height="350" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="115311" play="false" startpos="1">03_01_02_040_01.jpg</file>
+			<notes id="description">Background of a clipboard with a line down the center.</notes>
+		</graphic>
+	</section>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="56" y="165" width="287" height="" autosize="H" style="PANEL_LEFT" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;LI&gt;Continue to develop ability to manage emotions&lt;/LI&gt;</content>
+		</text>
+		<text id="text02" x="56" y="200" width="305" height="" autosize="H" style="PANEL_LEFT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;LI&gt;Have set of skills for calming and soothing&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="396" y="165" width="303" height="" autosize="H" style="PANEL_LEFT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;LI&gt;Provide opportunity to practice calming and soothing skills in the right places and at the right times&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="56" y="219" width="311" height="" autosize="H" style="PANEL_LEFT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;LI&gt;Can sit for longer periods of time, follow directions, play with peers, and understand concept of sharing&lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="55" y="269" width="270" height="" autosize="H" style="PANEL_LEFT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;LI&gt;Begin to understand relationship between feelings and behavior&lt;/LI&gt;</content>
+		</text>
+		<text id="text06" x="396" y="215" width="287" height="" autosize="H" style="PANEL_LEFT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;LI&gt;Help children identify and implement self-regulation strategies&lt;/LI&gt;</content>
+		</text>
+		<text id="text07" x="396" y="251" width="305" height="" autosize="H" style="PANEL_LEFT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;LI&gt;Set limits and expectations for behavior&lt;/LI&gt;</content>
+		</text>
+		<text id="text08" x="56" y="303" width="300" height="" autosize="H" style="PANEL_LEFT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;LI&gt;Understand consequences and have a general idea of what behaviors are considered unacceptable or inappropriate&lt;/LI&gt;</content>
+		</text>
+		<text id="text09" x="55" y="353" width="300" height="" autosize="H" style="PANEL_LEFT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;LI&gt;Have greater control over impulses&lt;/LI&gt;</content>
+		</text>
+		<text id="text10" x="56" y="373" width="300" height="" autosize="H" style="PANEL_LEFT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;LI&gt;Start to think before acting&lt;/LI&gt;</content>
+		</text>
+		<text id="text11" x="396" y="271" width="225" height="" autosize="H" style="PANEL_LEFT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;LI&gt;Be available and involved&lt;/LI&gt;</content>
+		</text>
+		<text id="text12" x="396" y="291" width="298" height="" autosize="H" style="PANEL_LEFT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;LI&gt;Allow children room to explore and make their own decisions and learn the consequences of their decisions&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="30351" startpos="1" duration="89">a_03_01_02_040_01.swf</file>
+			<transcript translate="true">In the preschool stage of 3 to 5 years, children are continuing to develop their ability to manage their emotions.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="30351" startpos="1" duration="89">a_03_01_02_040_02.swf</file>
+			<transcript translate="true">Unlike infants, who are learning self-soothing, preschoolers have usually developed their set of skills for calming and soothing.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="19903" startpos="1" duration="59">a_03_01_02_040_03.swf</file>
+			<transcript translate="true">They just need to practice using them in the right places and at the right times.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" bytes="46307" startpos="1" duration="136">a_03_01_02_040_04.swf</file>
+			<transcript translate="true">For example, by preschool, children can usually sit for longer periods of time, follow directions, play with a peer, and understand the concept of sharing.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" bytes="21083" startpos="1" duration="62">a_03_01_02_040_05.swf</file>
+			<transcript translate="true">They begin to understand the relationship between their feelings and their behavior.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration06">
+			<file play="false" bytes="29379" startpos="1" duration="86">a_03_01_02_040_06.swf</file>
+			<transcript translate="true">It is critical for parents and caregivers to help children identify and implement self-regulation strategies.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration07">
+			<file play="false" bytes="16987" startpos="1" duration="50">a_03_01_02_040_07.swf</file>
+			<transcript translate="true">This involves setting limits and expectations for behavior.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration08">
+			<file play="false" bytes="33475" startpos="1" duration="98">a_03_01_02_040_08.swf</file>
+			<transcript translate="true">Children at this age understand consequences and have a general idea of what behaviors are considered unacceptable or inappropriate.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration09">
+			<file play="false" bytes="16351" startpos="1" duration="49">a_03_01_02_040_09.swf</file>
+			<transcript translate="true">Preschool-age children have greater control over their impulses,</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration10">
+			<file play="false" bytes="13215" startpos="1" duration="39">a_03_01_02_040_10.swf</file>
+			<transcript translate="true">and they are starting to think before they act.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration11">
+			<file play="false" bytes="23131" startpos="1" duration="68">a_03_01_02_040_11.swf</file>
+			<transcript translate="true">Parents and adult caregivers can help children in this process by being available and involved,</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration12">
+			<file play="false" bytes="29703" startpos="1" duration="87">a_03_01_02_040_12.swf</file>
+			<transcript translate="true">while allowing their children the room to explore and make their own decisions and learn the consequences of their decisions.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="103" y="135" width="350" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Preschooler Development</content>
+		</text>
+		<text id="misc_text02" x="451" y="135" width="350" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Caregiver Responsibility</content>
+		</text>
+	</section>
+</template>

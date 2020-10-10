@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_carousel" view="view_carousel_large">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="rangeX" datatype="NUMBER" value="450"/>
+		<settings id="rangeY" datatype="NUMBER" value="0"/>
+		<settings id="rangeZ" datatype="NUMBER" value="600"/>
+		<settings id="playFirstPanel" datatype="LIST" value="TRUE"/>
+		<settings id="disablePanels" datatype="LIST" value="TRUE"/>
+		<settings id="useControls" datatype="LIST" value="TRUE"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Parenting Tips</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Parents Can Do&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x5" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="697" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">The presence of a familiar person offers powerful protection against the effects of stress. The following tips can guide parents on how to help young children regulate their stress response.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="350" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click the &lt;B&gt;Forward &lt;/B&gt;and &lt;B&gt;Back&lt;/B&gt; buttons to learn more.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="420" y="54" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1"/>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" bytes="54603" startpos="1" duration="160">a_04_04_02_020_01.swf</file>
+			<transcript translate="true">The presence of a familiar person offers powerful protection against the effects of stress.  The following tips can guide parents on how to help young children regulate their stress response.  Click the Forward and Back buttons to learn more.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="buttons" align="TOP" spacing="0" autospace="false" exclusive="false" expanded="true">
+		<container id="forward_button" behavior="LOCK_SIZE" x="390" y="125" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="true" fx="">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="85" y="10" width="" height="" style="CONTROLS" visible="true" fx="">
+				<file play="false" startpos="1" bytes="212">right_arrow.png</file>
+			</graphic>
+			<text id="text" x="8" y="8" width="88" height="18" autosize="" style="CONTROLS" visible="true" fx="">
+				<content translate="true">Forward</content>
+			</text>
+		</container>
+		<container id="reverse_button" behavior="LOCK_SIZE" x="255" y="245" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="true" fx="">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="35" y="10" width="" height="" style="CONTROLS" visible="true" fx="">
+				<file play="false" startpos="1" bytes="223">left_arrow.png</file>
+			</graphic>
+			<text id="text" x="19" y="8" width="89" height="18" autosize="" style="CONTROLS" visible="true" fx="">
+				<content translate="true">Back</content>
+			</text>
+		</container>
+	</section>
+	<section id="panels" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="panel01" behavior="LOCK_SIZE" x="130" y="168" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="508" height="238" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="520" height="250" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="111982" startpos="1">04_04_02_020_00.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Toddler And Carer Playing With Multi-coloured Rings  File #: 15230208&lt;/P&gt;</notes>
+			</graphic>
+			<text id="header" x="220" y="15" width="225" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content/>
+			</text>
+			<text id="text" x="220" y="40" width="270" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel02" behavior="LOCK_SIZE" x="316.75" y="270.85" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="508" height="238" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="5" y="5" width="200" height="240" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="71689" startpos="1">04_04_02_020_01.jpg</file>
+				<notes id="description">Abby and Mom 2 from Stress folder</notes>
+			</graphic>
+			<text id="header" x="220" y="15" width="225" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Tip #1: Be Consistent</content>
+			</text>
+			<text id="text" x="220" y="40" width="285" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;In stressful situations, it is important for a parent to consistently respond to their child's needs and cues. This consistency helps regulate the child's stress response system.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="panel03" behavior="LOCK_SIZE" x="248.7" y="265.8" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="508" height="238" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="5" y="5" width="" height="240" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="59105" startpos="1">04_04_02_020_02.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Conversation  File #: 3941822&lt;/P&gt;</notes>
+			</graphic>
+			<text id="header" x="220" y="15" width="300" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Tip #2: Name and Talk About Emotions</content>
+			</text>
+			<text id="text" x="220" y="40" width="290" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;When children experience emotions associated with stress, it is typically because they are angry, frustrated, or fearful. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Parents should help their children label their emotions and understand why they might be feeling frustrated. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Parents may also find it helpful to give their child an example of what makes them feel frustrated.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="panel04" behavior="LOCK_SIZE" x="154.2" y="251.05" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="508" height="238" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="5" y="5" width="" height="240" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="58354" startpos="1">04_04_02_020_03.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Upset Child File #: 12262201&lt;/P&gt;</notes>
+			</graphic>
+			<text id="header" x="215" y="15" width="300" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Tip #3: Introduce New People and &lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="48"&gt;&lt;P ALIGN="LEFT"&gt;Situations With Care&lt;/P&gt;&lt;/TEXTFORMAT&gt;</content>
+			</text>
+			<text id="text" x="215" y="50" width="280" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Parents should take time to introduce new people and situations. For example, introduce a new babysitter to the children a few days before she will babysit them.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="panel05" behavior="LOCK_SIZE" x="38.2" y="212.9" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="508" height="238" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="5" y="5" width="" height="240" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="80436" startpos="1">04_04_02_020_04.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Needing Comfort  File #: 3829646&lt;/P&gt;</notes>
+			</graphic>
+			<text id="header" x="220" y="15" width="225" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Tip #4: Be Realistic</content>
+			</text>
+			<text id="text" x="220" y="40" width="280" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Parents should be realistic about what might cause their child stress. Are there things that are too stressful for a young child to handle, such as a visit to a sick friend in a hospital or a violent TV show? Is there a way to make their child’s environment feel safer or more supportive?&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="panel06" behavior="LOCK_SIZE" x="130" y="168" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="" disabled="true">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="508" height="238" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="5" y="5" width="" height="240" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="60805" startpos="1">04_04_02_020_05.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Mother together with the son  File #: 4764042&lt;/P&gt;</notes>
+			</graphic>
+			<text id="header" x="220" y="15" width="225" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Tip #5: Help Them Feel Safe</content>
+			</text>
+			<text id="text" x="220" y="40" width="286" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;A parent needs to let their child know that the child is still loved even when the parent is feeling stressed or when there has been a disagreement. When a parent makes a mistake, such as yelling at their child, they can use a process called repair to explain their mistake and physically make up with the child. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;For example, "I’m sorry I yelled at you. I was feeling frustrated." Then give the child a hug.&lt;/P&gt;</content>
+			</text>
+			<graphic id="ref_icon01" x="256" y="149" width="15" height="15" style="LINK_SWF" visible="true" fx="">
+				<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+		<container id="panel07" behavior="LOCK_SIZE" x="408.65" y="212.9" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="508" height="238" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="5" y="5" width="" height="240" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="21312" startpos="1">04_04_02_020_06.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Sad girl on stairs dark from Stress folder&lt;/P&gt;</notes>
+			</graphic>
+			<text id="header" x="220" y="15" width="250" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Tip #6: Help Them Cope with Fears</content>
+			</text>
+			<text id="text" x="220" y="40" width="284" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;When a parent reacts strongly to a child's stress, the child can become more fearful. To give children a secure base, parents should provide them with opportunities to be independent while offering comfort if the situation becomes stressful.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;For example, if a child says she is afraid of the dark in her room, the parents could give her a nightlight and show her where they will be sleeping to help with her fear of the dark.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="panel08" behavior="LOCK_SIZE" x="451.35" y="251.05" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="508" height="238" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="5" y="5" width="" height="240" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="71469" startpos="1">04_04_02_020_07.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Sweet dreams File #: 2776189&lt;/P&gt;</notes>
+			</graphic>
+			<text id="header" x="220" y="15" width="280" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Tip #7: Introduce Self-Soothing</content>
+			</text>
+			<text id="text" x="220" y="40" width="280" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Parents should introduce self-soothing activities or objects that can help the child find a coping method. As the child learns better coping responses, they have a reduced physical stress response.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;For example, parents can encourage the child to listen to music, take a bath, or move to a quieter environment.&lt;/P&gt;</content>
+			</text>
+			<graphic id="ref_icon02" x="378" y="164" width="15" height="15" style="LINK_SWF" visible="true" fx="">
+				<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+		<container id="panel09" behavior="LOCK_SIZE" x="417.6" y="265.8" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="513" height="238" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="5" y="5" width="" height="240" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="78234" startpos="1">04_04_02_020_08.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Sadness File #: 13192389&lt;/P&gt;</notes>
+			</graphic>
+			<text id="header" x="220" y="15" width="290" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Tip #8: Be Aware of Your Stress Response</content>
+			</text>
+			<text id="text" x="220" y="40" width="284" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Parents should be aware of how they handle their everyday stress. Their child is learning from them. If they slam doors and yell when they are stressed, their child will too.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="swap_content" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true"/>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="55" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Tronick, E. (1998). Dyadically expanded states of consciousness and the process of therapeutic change. &lt;I&gt;Infant Mental Health Journal, 19(3),&lt;/I&gt; 290-299.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="431" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Bowlby, J. (1969). &lt;I&gt;Attachment and loss: Volume 1. Attachment.&lt;/I&gt; New York, NY: Basic Books.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

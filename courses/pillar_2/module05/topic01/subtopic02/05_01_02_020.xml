@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_slider" view="view_hslider_links">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="useControls" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Types of Praise</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Is Praise?&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="719" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Every parent has different beliefs on when and how to praise. Researchers have identified four types of praise that parents commonly use.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="588" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;button &lt;/B&gt;to read about the four common types of praise.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<audio id="initial_audio">
+			<file play="true" bytes="49963" duration="146" startpos="1">a_05_01_02_020_01.swf</file>
+			<transcript translate="true">Every parent has different beliefs on when and how to praise. Researchers have identified four types of praise that parents commonly use. Click each button to read about the four common types of praise.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="dev_assets" expanded="true">
+		<area id="panel_mask" behavior="" x="10" y="117" width="768" height="301" visible="false" fx=""/>
+	</section>
+	<section id="buttons" align="TOP" spacing="0" autospace="false" exclusive="false" expanded="true">
+		<container id="forward_button" behavior="STRICT|LOCK_SIZE" x="916" y="228" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="false">
+				<file play="false" bytes="1755" startpos="1" duration="30">mc_slider_next.swf</file>
+			</graphic>
+			<text id="text" x="0" y="0" width="1" height="1" autosize="" style="CONTROLS" visible="false">
+				<content/>
+			</text>
+		</container>
+		<container id="reverse_button" behavior="STRICT|LOCK_SIZE" x="20" y="225" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="false">
+				<file play="false" bytes="1810" startpos="1" duration="30">mc_slider_back.swf</file>
+			</graphic>
+			<text id="text" x="0" y="0" width="1" height="1" autosize="" style="CONTROLS" visible="false">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="panels" expanded="true">
+		<container id="panel01" behavior="" x="25" y="133" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="" x="0" y="0" width="" height="" style="" visible="true" fx="">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="115361" startpos="1">05_01_02_020_01.jpg</file>
+				<notes id="description">picture of parent praising child.</notes>
+			</graphic>
+			<text id="header" x="285" y="6" width="200" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content/>
+			</text>
+			<text id="text" x="285" y="41" width="273" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel02" behavior="" x="" y="" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="" x="0" y="0" width="699" height="219" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="5" y="5" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="45080" startpos="1">05_01_02_020_02.jpg</file>
+				<notes id="description">parent smiling as child builds a tower, picture found in talaris photos&amp;gt; used&amp;gt; learning and cog&amp;gt; play  Abby and Mom</notes>
+			</graphic>
+			<text id="header" x="220" y="10" width="300" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Positive Reinforcement</content>
+			</text>
+			<text id="text" x="220" y="35" width="451" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;Positive reinforcement is a method of praise that identifies for children which behaviors are most appreciated. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;It is based on the theory that behaviors that make a child feel good will be repeated, while those that are unrewarding will not. &lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Example:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;"You are looking at that book so quietly. That helps me read too. Thank you!"&lt;/P&gt;</content>
+			</text>
+			<graphic id="ref_icon02" x="572" y="92" width="15" height="15" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+				<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+		<container id="panel03" behavior="" x="" y="" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="" x="0" y="0" width="699" height="219" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="5" y="5" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="61255" startpos="1">05_01_02_020_05.jpg</file>
+				<notes id="description">parent playing a game with child</notes>
+			</graphic>
+			<text id="header" x="220" y="10" width="220" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Descriptive Praise</content>
+			</text>
+			<text id="text" x="220" y="35" width="450" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;Descriptive praise provides specific information about what the child did right.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;This type of praise is thought to be more helpful than automatic praise because it gives the child information about what was done well and tells him something about his parents' expectations.&lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Example:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;"I like the way you put your toys away in your toy box."&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="panel04" behavior="" x="" y="" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="" x="0" y="0" width="699" height="219" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="5" y="5" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="33224" startpos="1">05_01_02_020_04.jpg</file>
+				<notes id="description">parent watching child do a puzzle</notes>
+			</graphic>
+			<text id="header" x="220" y="10" width="300" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Praise for Effort</content>
+			</text>
+			<text id="text" x="220" y="35" width="448" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;This type of praise is used more carefully by parents and only in certain situations. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Praising a child for their effort helps a child feel more confident as they use trial and error to explore the world, especially during the toddler and preschool years. Children are praised on their hard work, instead of every effort.&lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Example:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;"You were very patient as you tried to match that really difficult puzzle piece."&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="panel05" behavior="" x="" y="" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="" x="0" y="0" width="699" height="219" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="5" y="5" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="37393" startpos="1">05_01_02_020_03.jpg</file>
+				<notes id="description">parent smiling at child's accomplishment</notes>
+			</graphic>
+			<text id="header" x="220" y="10" width="316" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Automatic Praise</content>
+			</text>
+			<text id="text" x="220" y="35" width="473" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;Automatic praise is a robotic type of praise. The child does something and the parent responds. Automatic praise is not recommended as it is not &lt;/LI&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt; very effective.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Typically, the response is rather empty. This type of praise is usually ignored by the child, but can also be confusing if it sends mixed messages. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;A child may become confused if a parent praises the child when they were clearly not successful at something they wanted to do.&lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Example:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;"Good job!," "Nice try!," or "You're the smartest girl in the world!"&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="panel_shortcuts" align="TOP" spacing="105x0" autospace="true" columns="0" expanded="true">
+		<graphic id="link01" x="30" y="360" width="" height="" style="LINK_SWF" visible="false" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link02" x="" y="" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link03" x="" y="" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="ref_icon03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link04" x="" y="" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link05" x="" y="" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+	</section>
+	<section id="swap_audio" expanded="true"/>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="188" y="147" width="46" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text02" x="190" y="360" width="99" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Positive Reinforcement</content>
+		</text>
+		<text id="misc_text03" x="322" y="360" width="74" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Descriptive Praise</content>
+		</text>
+		<text id="misc_text04" x="452" y="360" width="72" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Praise for Effort</content>
+		</text>
+		<text id="misc_text05" x="585" y="360" width="79" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Automatic Praise</content>
+		</text>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Sigler, E., Aamidor, S. (2005). From positive reinforcement to positive behaviors: An everyday guide for the practitioner. &lt;I&gt;Early Childhood Education Journal, 32&lt;/I&gt;(4), 249-253.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+	<graphic id="ref_icon03" x="10" y="420" width="50" height="50" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+		<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+		<eventlist>
+			<event type="CLICK" result="SHOW" target="reference03" result_param=""/>
+		</eventlist>
+	</graphic>
+	<container id="reference03" behavior="STRICT|LOCK_SIZE" x="1" y="248" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+		<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="170" style="DEFAULT" visible="true">
+			<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+		</graphic>
+		<graphic id="close" x="390" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+			<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+		</graphic>
+		<text id="misc_text01" x="20" y="35" width="419" height="" autosize="H" style="REFERENCE" visible="true">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Help parents understand that descriptive praise is the best type of feedback for children. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Consider providing parents with scenarios and then asking them to think of an example of descriptive praise that could be used with the child in the scenario.&lt;/P&gt;</content>
+		</text>
+	</container>
+</template>

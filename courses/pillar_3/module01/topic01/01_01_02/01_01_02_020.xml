@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">How the Brain Makes Meaning</content>
+	</text>
+	<text id="nav_text" x="207" y="425" width="564" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="350" y="60" width="380" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">As children experience new situations, their brains strive to make sense of their experience by creating meaning.</content>
+		</text>
+		<text id="text02" x="350" y="85.2" width="380" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">1960 "Visual Cliff" study:</content>
+		</text>
+		<text id="text03" x="350" y="114.8" width="404" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;6-month-old babies stop at the edge of the cliff and reach across in an attempt to make sense of the situation. &lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="350" y="160" width="403" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Babies learned to crawl across the glass. &lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="350" y="160" width="395" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Babies had to re-learn to cross the glass when they began walking.&lt;/LI&gt;</content>
+		</text>
+		<text id="text06" x="350" y="205.2" width="382" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;4-day-old goats would never cross the visual cliff, even when coaxed by people or enticed with food. &lt;/LI&gt;</content>
+		</text>
+		<text id="text07" x="350" y="250.4" width="382" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Brains work to make meaning and learn from experience.</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="39880" startpos="1" play="false">01_01_02_020_00.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;baby on visual cliff (from slide 14 of Imitation PPT)&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic03" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic04" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" startpos="1" bytes="28847" duration="85">a_01_01_02_020_01.swf</file>
+			<transcript translate="true">As children experience new situations, their brains strive to make sense of their experience by creating meaning.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" startpos="1" bytes="99855" duration="291">a_01_01_02_020_02.swf</file>
+			<transcript translate="true">A study published in 1960 called "The Visual Cliff" sought to identify the age at which a child could visually perceive uneven terrain. The researchers constructed a drop-off and covered it with a sheet of plexi-glass to prevent the infants from falling off the drop-off. In addition to discovering more information about perceptual development, the study also produced additional findings about how the brain makes meaning.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" startpos="1" bytes="81863" duration="239">a_01_01_02_020_03.swf</file>
+			<transcript translate="true">According to the study, a 6-month-old baby would stop at the edge of the cliff, but still reach across the perceived cliff in an attempt to make sense of the situation. Without coaxing, the baby would not cross the glass, but if the baby's mother stood at the other side and encouraged the baby to come, the baby would eventually cross the glass.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" startpos="1" bytes="25179" duration="74">a_01_01_02_020_04.swf</file>
+			<transcript translate="true">Once the child learned that the cliff was safe, the child would crawl across the glass without hesitation. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" startpos="1" bytes="40695" duration="119">a_01_01_02_020_08.swf</file>
+			<transcript translate="true">Another interesting finding was that once these same babies learned to walk, they had to re-learn to cross the glass as they tried to make sense of the new walking situation.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration06">
+			<file play="false" startpos="1" bytes="52335" duration="153">a_01_01_02_020_05.swf</file>
+			<transcript translate="true">In conjunction with studying infants, this same study was done with 4-day-old goats. In contrast to the baby, the goat would never cross the visual cliff, even when coaxed by people or enticed with food.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_graphic01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration07">
+			<file play="false" startpos="1" bytes="83691" duration="244">a_01_01_02_020_06.swf</file>
+			<transcript translate="true">The Visual Cliff experiment demonstrates that the brain works to make meaning and learn from experience. The brain has prewired tendencies, such as instinctively avoiding drop-offs, but through learning, we can override these instincts. In the visual cliff experiment, this happened when the baby realized the drop-off was covered and, therefore, safe to cross.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_graphic02" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="506" y="107" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+				<event type="CLICK" result="BRING_TO_TOP" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480.95" height="184.55" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Gibson, E. J., &amp; Walk, R. D. (1960). The "visual cliff." &lt;I&gt;Scientific American&lt;/I&gt;,&lt;I&gt; 202(2)&lt;/I&gt;, 67–71.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="40839">01_01_02_020_02.jpg</file>
+			<notes id="description">picture of goat on visual cliff from slide 14 of Imitation PPT</notes>
+		</graphic>
+		<graphic id="misc_graphic02" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="40948">01_01_02_020_03.jpg</file>
+			<notes id="description">Picture of both baby and goat on the visual cliff, side-by-side pictures of the previous two graphics</notes>
+		</graphic>
+	</section>
+</template>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Continuing Education</content>
+	</text>
+	<text id="nav_text" x="225" y="425" width="550" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or click another &lt;B&gt;Topic&lt;/B&gt; from the bottom menu&lt;B&gt;.&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="350" y="60" width="415" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">If you are not planning to receive Continuing Education Credit for this program, you may advance to the Teaching Resources topic. If you are planning to receive Continuing Education Credit, you should be aware of the following requirements:</content>
+		</text>
+		<text id="text02" x="350" y="136.4" width="375" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Proceed through the courses in order, page by page. After you have completed each page, a red check mark will appear next to the page title and topic.&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="350" y="197.2" width="386" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;After you have completed all modules in a pillar, you will need to pass an assessment that corresponds to that pillar. &lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="350" y="258" width="403" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;70–80% required passing rate—percentage is determined by your specific continuing education provider.&lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="350" y="303.2" width="398" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Click the following link to access the complete list of continuing education requirements:</content>
+		</text>
+		<text id="text06" x="350" y="368.4" width="406" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">If you did not purchase Continuing Education Credit at the time of registration but would like to add them, </content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="misc_graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="81215" start_frame="1">01_040_01.jpg</file>
+			<notes id="description">classroom of adults</notes>
+		</graphic>
+		<graphic id="graphic01" x="370" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" start_frame="1"/>
+			<notes id="description">Pictures of children playing</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="90437" play="false" start_frame="1">01_040_03.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;Let's do a Screen capture of the Parenting Counts Educator certificate &lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="53631" duration="157" start_frame="1">a_01_040_01.swf</file>
+			<transcript translate="true">If you are not planning to receive Continuing Education Credit for this program, you may advance to the Teaching Resources topic. If you are planning to receive Continuing Education Credit, you should be aware of the following requirements:</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="60851" duration="178" start_frame="1">a_01_040_02.swf</file>
+			<transcript translate="true">First, please proceed through the courses in order, page by page. After you have completed each page, a red check mark will appear next to the page title and topic. Your progress will be recorded and credit will be conditional on course completion.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" duration="79" bytes="26695" start_frame="1">a_01_040_03.swf</file>
+			<transcript translate="true">Next, after you have completed all modules in a pillar, you will need to pass an assessment that corresponds to that pillar.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" duration="134" bytes="45867" start_frame="1">a_01_040_04.swf</file>
+			<transcript translate="true">The required passing rate is to answer at least 70 to 80% of the questions correctly on each assessment. The percentage is determined by your specific continuing education provider.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" duration="65" bytes="21847" start_frame="1">a_01_040_05.swf</file>
+			<transcript translate="true">Click the following link to access the complete list of continuing education requirements:</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration06">
+			<file play="false" duration="163" bytes="55575" start_frame="1">a_01_040_06.swf</file>
+			<transcript translate="true">If you did not purchase continuing education credit at the time of registration but would like to add them, click here to purchase it. You will not be able to add continuing education credit for this course once you move beyond this module.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text02" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="-95" y="440" width="50" height="50" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" start_frame="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="-95" y="245" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" start_frame="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="40" width="390" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Goals of Pillar 1:&lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Understand the physical development milestones children experience.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Describe the key research findings of brain development and learning for children.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Provide parenting strategies and tips to help support healthy physical and brain development for children. &lt;/P&gt;&lt;/TEXTFORMAT&gt;</content>
+			</text>
+			<text id="misc_text02" x="35" y="55" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;1. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;2.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;3.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="351" y="319" width="413" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">                                       &lt;I&gt;&lt;U&gt;http://parentingcounts.org/professional-training-continuing-education-information.html&lt;/U&gt;&lt;/I&gt;</content>
+			<eventlist>
+				<event type="CLICK" result="URL" target="" result_param="http://parentingcounts.org/professional-training-continuing-education-information.html"/>
+			</eventlist>
+		</text>
+		<text id="misc_text02" x="608" y="383" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">click &lt;B&gt;&lt;I&gt;&lt;U&gt;here&lt;/U&gt;&lt;/I&gt;&lt;/B&gt; to purchase.</content>
+			<eventlist>
+				<event type="CLICK" result="URL" target="" result_param="https://www.marketplace.parentingcounts.org/ProductDetail/Continuing_Education_-_NASW__NBCC__NCFR_Approved.aspx"/>
+			</eventlist>
+		</text>
+	</section>
+</template>

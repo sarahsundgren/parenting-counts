@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">The Role of Early Childhood Professionals</content>
+	</text>
+	<text id="nav_text" x="625" y="435" width="200" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;To begin, click a &lt;B&gt;Topic&lt;/B&gt;.&lt;/P&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="360" y="60" width="365" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Learning to communicate through the use of language is one of the most important aspects of a child’s cognitive, social, and emotional development.</content>
+		</text>
+		<text id="text02" x="360" y="125" width="372" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Many parents encourage their children's language development by talking, singing, and reading with them. However, parents may not realize how critical their role is in promoting their children’s verbal skills and abilities.</content>
+		</text>
+		<text id="text03" x="360" y="220" width="404" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Early childhood professionals can help educate parents on the importance of early verbal development by:&lt;LI&gt;Understanding the ways young children learn language&lt;/LI&gt;&lt;LI&gt;Discussing the importance of a language-rich environment&lt;/LI&gt;&lt;LI&gt;Reinforcing basic communication needs of children&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="360" y="320" width="385" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Key Message:&lt;/B&gt;&lt;/P&gt;&lt;LI&gt;Parents and caregivers have a unique role in fostering a child’s early linguistic development because language development is essentially a social behavior.&lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="133953" startpos="1" play="false">03_04_01_010.jpg</file>
+			<notes id="description">Istock 13114670 or similar, kindergarteners smiling w/teacher</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="105013" startpos="1" play="false">03_02_01_020.jpg</file>
+			<notes id="description">Parent or parents talking with child, istock #11255036
+or similar</notes>
+		</graphic>
+		<graphic id="graphic03" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="126033" startpos="1" play="false">03_02_01_030.jpg</file>
+			<notes id="description">Parents talking with children, istock #8074514 or similar</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="188" bytes="64403" startpos="1">a_03_04_01_010.swf</file>
+			<transcript translate="true">Learning to communicate through the use of language is one of the most important aspects of a child's cognitive, social, and emotional development. Language gives children the tools they need to make sense of their world and to communicate their own thoughts, ideas, and feelings.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="91779" startpos="1" duration="268">a_03_04_01_020.swf</file>
+			<transcript translate="true">Many parents encourage their children's language development by talking, singing, and reading with them. However, parents may not realize how critical their role is in promoting their children's verbal skills and abilities. As trusted childhood advocates, early childhood professionals can help parents understand how a child learns to use language to communicate and how they can best support their child’s language acquisition.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="70547" startpos="1" duration="206">a_03_04_01_030.swf</file>
+			<transcript translate="true">Early childhood professionals can help educate parents on the importance of early verbal development by: Understanding the ways that young children learn language, discussing with parents the importance of a language-rich environment and helping parents and caregivers reinforce the basic communication needs of children.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" duration="134" bytes="45867" startpos="1">a_03_04_01_040.swf</file>
+			<transcript translate="true">The Key Message of this section is that parents and caregivers have a unique role in fostering a child’s early linguistic development because language development is essentially a social behavior.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+</template>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_multiplechoice" view="view_multiplechoice">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="showAnswerMarks" datatype="LIST" value="DEFAULT"/>
+		<settings id="markAnswers" datatype="LIST" value="DEFAULT"/>
+		<settings id="markFinalAnswers" datatype="LIST" value="DEFAULT"/>
+		<settings id="submitBtn" datatype="LIST" value="NONE"/>
+		<settings id="enableSubmit" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Knowledge Check</content>
+	</text>
+	<text id="nav_text" x="185" y="425" width="588" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Parents Can Do&lt;/B&gt;.</content>
+	</text>
+	<section id="question_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="question" x="25" y="50" width="730" height="" autosize="H" style="DEFAULT" visible="true" fx="QUESTION_SHOW" hidefx="QUESTION_HIDE">
+			<content translate="true">We have learned that tantrums are common for nearly every child at some point in the first five years. Let's see if you can identify some of the lessons that educators should teach parents about tantrums.</content>
+		</text>
+		<text id="directions" x="" y="" width="730" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click all that apply, then click &lt;B&gt;Submit&lt;/B&gt;.</content>
+		</text>
+	</section>
+	<section id="question_media" expanded="true">
+		<audio id="narration">
+			<file play="true" bytes="61175" startpos="1" duration="179">a_07_02_03_010_01.swf</file>
+			<transcript translate="true">We have learned that tantrums are common for nearly every child at some point in the first five years. Let's see if you can identify some of the lessons that educators should teach parents about tantrums. Click all that apply. When finished, click submit.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<graphic id="question_graphic" x="25" y="120" width="" height="" style="QUESTION" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1"/>
+			<notes id="description">boy playing with toy alphabet: istock 6893311</notes>
+		</graphic>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="22" y="118" width="726" height="250" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="54">clear.gif</file>
+		</graphic>
+	</section>
+	<section id="options" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<container id="option01" behavior="STRICT|LOCK_SIZE" x="493" y="157" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="38" height="38" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="6" width="15.15" height="" autosize="H" style="OPTION" visible="true">
+				<content/>
+			</text>
+		</container>
+		<container id="option02" behavior="STRICT|LOCK_SIZE" x="500" y="175" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="38" height="38" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="6" width="15.15" height="" autosize="H" style="OPTION" visible="true">
+				<content/>
+			</text>
+		</container>
+		<container id="option03" behavior="STRICT|LOCK_SIZE" x="500" y="227" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="38" height="38" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="6" width="15.15" height="" autosize="H" style="OPTION" visible="true">
+				<content/>
+			</text>
+		</container>
+		<container id="option04" behavior="STRICT|LOCK_SIZE" x="500" y="279" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="38" height="38" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="6" width="15.15" height="" autosize="H" style="OPTION" visible="true">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="buttons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="submit" behavior="STRICT|LOCK_SIZE" x="636" y="337" visible="false" fx="SUBMIT_SHOW" hidefx="SUBMIT_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SUBMIT" visible="true">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<text id="text" x="8" y="8" width="101" height="18" autosize="" style="CONTROLS" visible="true">
+				<content translate="true">Submit</content>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="BRING_TO_TOP" target="feedback" result_param=""/>
+			</eventlist>
+		</container>
+	</section>
+	<answeranalysis id="answer_analysis" type="MULTIPLE_ANSWER" max_attempts="1">
+		<answer id="correct" correct="true" attempt="ANY" comparison="option01,option02,option04">
+			<feedback>
+				<text id="feedback" x="550" y="155" width="185" height="" autosize="H" style="CORRECT_FEEDBACK_2" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content translate="true">Correct! Temper tantrums can stress the parent-child relationship and are typical in a normally developing child. Caregivers are very important in the development of a child’s emotional regulation skills, including their ability to find alternatives to tantrums.</content>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+					<notes id="mentor-character">Narrator:</notes>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect1" correct="false" attempt="1" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="550" y="125" width="185" height="" autosize="H" style="INCORRECT_FEEDBACK_2" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content translate="true">Not quite. Children who are prone to tantrums prior to age 3 do not necessarily have more issues with emotional regulation when they are older.  Temper tantrums can stress the parent-child relationship and are typical in a normally developing child. Caregivers are very important in the development of a child’s emotional regulation skills, including their ability to find alternatives to tantrums.</content>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+					<notes id="mentor-character">Narrator:</notes>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect2" correct="false" attempt="ANY" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="25" y="376" width="550" height="" autosize="H" style="INCORRECT_FEEDBACK" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content/>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+				</audio>
+			</feedback>
+		</answer>
+	</answeranalysis>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="60" y="300" width="382" height="" autosize="H" style="DEFAULT_2" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Frequent or extreme tantrums can stress the relationship between parent and child.</content>
+		</text>
+		<text id="misc_text02" x="60" y="206" width="459" height="" autosize="H" style="DEFAULT_2" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Researchers have found that tantrums are typical in a normally developing child.</content>
+		</text>
+		<text id="misc_text03" x="60" y="160" width="430" height="" autosize="H" style="DEFAULT_2" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Caregivers are crucial in the development of a child's emotional-regulation skills.</content>
+		</text>
+		<text id="misc_text04" x="60" y="253" width="427" height="" autosize="H" style="DEFAULT_2" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Children who are tantrum prone prior to age 3 have more issues with emotional regulation when they are older.</content>
+		</text>
+		<text id="misc_text05" x="495" y="128" width="148" height="" autosize="H" style="DEFAULT_2" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;B&gt;Yes&lt;/B&gt;</content>
+		</text>
+		<text id="misc_text06" x="40" y="129" width="350" height="" autosize="H" style="DEFAULT_2" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;FONT SIZE="15"&gt;&lt;B&gt;Lessons for Parents&lt;/B&gt;&lt;/FONT&gt;</content>
+		</text>
+		<text id="misc_text07" x="45" y="160" width="350" height="" autosize="H" style="DEFAULT_2" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;1.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;2.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;3.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;4.&lt;/P&gt;</content>
+		</text>
+	</section>
+</template>

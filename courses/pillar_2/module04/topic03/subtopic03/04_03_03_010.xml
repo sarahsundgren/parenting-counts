@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_multiplechoice" view="view_multiplechoice">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="showAnswerMarks" datatype="LIST" value="DEFAULT"/>
+		<settings id="markAnswers" datatype="LIST" value="DEFAULT"/>
+		<settings id="markFinalAnswers" datatype="LIST" value="DEFAULT"/>
+		<settings id="submitBtn" datatype="LIST" value="NONE"/>
+		<settings id="enableSubmit" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Applying Emotion Coaching</content>
+	</text>
+	<text id="nav_text" x="185" y="425" width="588" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson,&lt;/B&gt; or click the &lt;B&gt;Conclusion&lt;/B&gt;.</content>
+	</text>
+	<section id="question_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="question" x="25" y="50" width="730" height="" autosize="H" style="DEFAULT" visible="true" fx="QUESTION_SHOW" hidefx="QUESTION_HIDE">
+			<content translate="true">Take a moment to see if you can apply what you've learned about Emotion Coaching. In which of the following scenarios would it be appropriate to use Emotion Coaching?</content>
+		</text>
+		<text id="directions" x="" y="" width="730" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click all of the &lt;B&gt;scenarios &lt;/B&gt;that apply, then click &lt;B&gt;Submit&lt;/B&gt;.</content>
+		</text>
+	</section>
+	<section id="question_media" expanded="true">
+		<audio id="narration">
+			<file play="true" bytes="49963" startpos="1" duration="146">a_04_03_03_010_01.swf</file>
+			<transcript translate="true">Take a moment to see if you can apply what you've learned about Emotion Coaching. In which of the following scenarios would it be appropriate to use Emotion Coaching? Click all of the scenarios that apply, then click submit.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<graphic id="question_graphic" x="25" y="120" width="" height="" style="QUESTION" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" placeholder="true"/>
+			<notes id="description">boy playing with toy alphabet: istock 6893311</notes>
+		</graphic>
+	</section>
+	<section id="options" align="LEFT" spacing="0x41" autospace="true" columns="0" expanded="true">
+		<container id="option01" behavior="STRICT|LOCK_SIZE" x="532" y="143" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="38" height="38" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="6" width="15.15" height="" autosize="H" style="OPTION" visible="true">
+				<content/>
+			</text>
+		</container>
+		<container id="option02" behavior="STRICT|LOCK_SIZE" x="530" y="230" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="38" height="38" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="6" width="15.15" height="" autosize="H" style="OPTION" visible="true">
+				<content/>
+			</text>
+		</container>
+		<container id="option03" behavior="STRICT|LOCK_SIZE" x="530" y="305" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="38" height="38" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="6" width="15.15" height="" autosize="H" style="OPTION" visible="true">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="" result_param=""/>
+			</eventlist>
+		</container>
+	</section>
+	<section id="buttons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="submit" behavior="STRICT|LOCK_SIZE" x="650" y="365" visible="false" fx="SUBMIT_SHOW" hidefx="SUBMIT_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SUBMIT" visible="true">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<text id="text" x="8" y="8" width="101" height="18" autosize="" style="CONTROLS" visible="true">
+				<content translate="true">Submit</content>
+			</text>
+		</container>
+	</section>
+	<answeranalysis id="answer_analysis" type="MULTIPLE_ANSWER" max_attempts="1">
+		<answer id="correct" correct="true" attempt="ANY" comparison="option02">
+			<feedback>
+				<text id="feedback" x="582" y="143" width="170" height="" autosize="H" style="CORRECT_FEEDBACK" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content translate="true">Correct! Miki's situation would be a great opportunity to Emotion Coach. Her father will be able to spend time talking with Miki about her feelings and help her find a solution.</content>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+					<notes id="mentor-character">Narrator:</notes>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect1" correct="false" attempt="1" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="582" y="143" width="169" height="" autosize="H" style="INCORRECT_FEEDBACK" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content translate="true">Not quite. Miki's situation would be a great opportunity to Emotion Coach. Her father will be able to spend time talking with Miki about her feelings and help her find a solution.</content>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+					<notes id="mentor-character">Narrator:</notes>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect2" correct="false" attempt="ANY" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="25" y="376" width="550" height="" autosize="H" style="INCORRECT_FEEDBACK" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content/>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+				</audio>
+			</feedback>
+		</answer>
+	</answeranalysis>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="25" y="117" width="492" height="" autosize="H" style="DEFAULT" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Scenario 1:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Three-year-old Abbee runs after her ball into the street. Abbee's mother runs quickly after her to carry her off of the road and out of traffic. Abbee's mother is very upset over the situation and doesn't feel like she can talk to Abbee until she calms down.&lt;/P&gt;</content>
+		</text>
+		<text id="misc_text02" x="25" y="211" width="495" height="" autosize="H" style="DEFAULT" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Scenario 2:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Four-year-old Miki loves to play with her sister. Today Miki's sister tells her she does not want to play. Miki's feelings are hurt and she begins to cry. She seeks out her father for comfort.&lt;/P&gt;</content>
+		</text>
+		<text id="misc_text03" x="25" y="289" width="503" height="" autosize="H" style="DEFAULT" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Scenario 3:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Five-year-old Jeff is sad each time his father leaves for work. This particular morning, Jeff's father is in a hurry and only has a few minutes to spend with Jeff.&lt;/P&gt;</content>
+		</text>
+		<text id="misc_text04" x="25" y="370" width="462" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+</template>

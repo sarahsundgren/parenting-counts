@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="true"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="ON_ALL_LINKS_VISITED"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">How Parenting Supports Brain Development</content>
+	</text>
+	<text id="nav_text" x="166" y="425" width="607" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about the &lt;B&gt;Importance of the Early Years&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="51" width="675" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">About 85% of brain development happens in the first three years and 90% of brain growth occurs between birth and age 5. Helping parents realize that the human brain develops faster in the first years of life than at any other time is an important key message in the Parenting Counts Program.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="455" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;image&lt;/B&gt; to learn more.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="202" y="122" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" placeholder="true" start_frame="1"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" bytes="83055" duration="243" start_frame="1">a_02_01_02_030_01.swf</file>
+			<transcript translate="true">About 85% of brain development happens in the first three years and 90% of brain growth occurs between birth and age five. Helping parents realize that the human brain develops faster in the first years of life than at any other time is an important key message in the Parenting Counts Program. Click each image to learn more.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="229" y="185" width="292" height="171" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="54" start_frame="1">clear.gif</file>
+		</graphic>
+		<graphic id="misc_graphic02" x="229" y="150" width="305" height="30" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="445">02_01_02_030_05.png</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;arrow point right - highlight with link01&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="misc_graphic03" x="229" y="370" width="305" height="30" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="440">02_01_02_030_06.png</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;arrow pointing left - highlight with link02&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="list_items" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<graphic id="link01" x="25" y="143" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="30205" play="false" start_frame="1">02_01_02_030_01.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;Vivid Brain  File #: 7248761&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="CLICK" result="PLAY" target="narration01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link02" x="560" y="143" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="35490" play="false" start_frame="1">02_01_02_030_02.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;Father with his son on back File #: 3342585&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="nav_text" result_param=""/>
+				<event type="CLICK" result="CONTENT_COMPLETE" target="" result_param=""/>
+				<event type="CLICK" result="PLAY" target="narration02" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true"/>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="237" y="190" width="285" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;A child's lifelong success depends on the development of the brain and on early childhood experiences. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;The neuro-circuits formed in the brain, together with early social connections, lay the foundation for children to develop physically, create relationships with caregivers, manage stress, increase cognitive skills, and learn language. &lt;/P&gt;</content>
+		</text>
+		<text id="swap_text02" x="237" y="190" width="284" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Positive experiences between child and caregiver result in the development of sound neural circuitry. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;The parent-child relationship, established in the early years, is the most essential factor in building the powerful connections in the brain that result in healthy physical, social, emotional, and cognitive development.&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="false" start_frame="1"/>
+			<transcript/>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" start_frame="1"/>
+			<transcript/>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="nav_text" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+</template>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_resources" view="view_resources">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<graphic id="background" x="-120" y="-19" width="1014" height="533" behavior="LOCK_XY|LOCK_SIZE" style="PLAIN" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" disabled="true">
+		<file play="false" bytes="7297" duration="1" start_frame="1">resources_bg.swf</file>
+	</graphic>
+	<graphic id="close_btn" x="812" y="-3" width="" height="" style="CONTROLS" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+		<file start_frame="1" play="false" bytes="4380" duration="23">btn_close.swf</file>
+		<eventlist>
+			<event type="CLICK" result="CALL_FUNCTION" target="SHELL" result_param="showTools(false);"/>
+		</eventlist>
+	</graphic>
+	<text id="title" x="-56" y="18" width="730" height="" autosize="H" style="RESOURCE_TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Teaching Tools</content>
+	</text>
+	<graphic id="line" x="-50" y="76" width="880" height="" style="LINE" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+		<file start_frame="1" play="false" bytes="82" duration="1">clear.swf</file>
+	</graphic>
+	<section id="scroll_items" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<container id="item01" behavior="LOCK_SIZE" x="25" y="14" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE" style="">
+			<graphic id="icon" x="0" y="0" width="" height="" style="LINK_SWF" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+				<file start_frame="1" play="false" bytes="423" duration="28">pdf_icon.swf</file>
+			</graphic>
+			<text id="text" x="25" y="3" width="147.5" height="" autosize="L" style="LINK" visible="true" fx="">
+				<content translate="true">Get Started Worksheet</content>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="URL" target="" result_param="../resources/getting_started_worksheet.pdf"/>
+			</eventlist>
+		</container>
+		<container id="item02" behavior="" x="25" y="45" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE" style="">
+			<graphic id="icon" x="0" y="0" width="" height="" style="LINK_SWF" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+				<file start_frame="1" play="false" bytes="423" duration="28">pdf_icon.swf</file>
+			</graphic>
+			<text id="text" x="25" y="3" width="108.55" height="" autosize="L" style="LINK" visible="true" fx="">
+				<content translate="true">Teaching Tracks</content>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="URL" target="" result_param="../resources/teaching_tracks.pdf"/>
+			</eventlist>
+		</container>
+		<container id="item03" behavior="LOCK_SIZE" x="25" y="75" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE" style="">
+			<graphic id="icon" x="0" y="0" width="" height="" style="LINK_SWF" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+				<file start_frame="1" play="false" bytes="423" duration="28">pdf_icon.swf</file>
+			</graphic>
+			<text id="text" x="25" y="3" width="117.9" height="" autosize="L" style="LINK" visible="true" fx="">
+				<content translate="true">Teaching Outlines</content>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="URL" target="" result_param="../resources/teaching_outlines.pdf"/>
+			</eventlist>
+		</container>
+	</section>
+	<section id="dev_assets" expanded="true">
+		<area id="scroll_area" behavior="" x="-68" y="86" width="880" height="348" visible="false" fx=""/>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="-50" y="95" width="762" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+</template>

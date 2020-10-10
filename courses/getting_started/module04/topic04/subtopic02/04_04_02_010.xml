@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_cardswap" view="view_cardswap_singleflip">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programming-options"/>
+		<notes id="search-terms"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="showNavPrompt" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+		<settings id="perspectiveEdges" datatype="LIST" value="DEFAULT"/>
+		<settings id="exclusiveCards" datatype="LIST" value="TRUE"/>
+		<settings id="allowFlipBack" datatype="LIST" value="TRUE"/>
+		<settings id="transcriptBehavior" datatype="LIST" value="DEFAULT"/>
+		<settings id="disableNext" datatype="LIST" value="DEFAULT"/>
+		<settings id="disableBack" datatype="LIST" value="DEFAULT"/>
+		<settings id="disableReplay" datatype="LIST" value="DEFAULT"/>
+		<settings id="disableMenu" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Diverse Family Arrangements</content>
+	</text>
+	<text id="nav_text" x="35" y="425" width="735" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Family Structure&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="51" width="715" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">No matter what the family arrangement, families across the board share a strong desire to be good parents. Let's read about two diverse family arrangements from the Talaris study.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="350" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;parent &lt;/B&gt;to read her story.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="25" y="120" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="26111">placeholder_200x200_01.jpg</file>
+		</graphic>
+		<audio id="initial_audio">
+			<file start_frame="1" play="true" duration="181" bytes="61927">a_04_04_02_010_01.swf</file>
+			<transcript translate="true">No matter what the family arrangement, families across the board share a strong desire to be good parents. Let's read about two diverse family arrangements from the Talaris study and how these parents make things work with their unique situations. Click each parent to read her story.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="card_backs" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="card_back01" behavior="LOCK_SIZE" x="25" y="123" style="CARD" visible="true" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="LINK_3" visible="true" fx="">
+				<file start_frame="1" bytes="25363" play="false">04_04_02_010_01.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;cut out of mother in mid-forties standing i stock File #: 14201638&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="0" y="40" width="80" height="" autosize="H" style="CARD_BACK" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="card_back02" behavior="LOCK_SIZE" x="25" y="294" style="CARD" visible="true" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="LINK_3" visible="true" fx="">
+				<file start_frame="1" bytes="28870" play="false">04_04_02_010_02.jpg</file>
+				<notes id="description">Mother standing, talking with slightly upset expression wearing casual clothes</notes>
+			</graphic>
+			<text id="text" x="0" y="40" width="80" height="" autosize="H" style="CARD_BACK" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="card_fronts" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="card_front01" behavior="LOCK_SIZE" x="190" y="123" style="CARD" visible="false" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="LINK_3" visible="true" fx="">
+				<file start_frame="1" bytes="74986" play="false">04_04_02_010_03.jpg</file>
+				<notes id="description">same photo as cardback01, but a dulled picture behind the parent as if she were in her house with her three children </notes>
+			</graphic>
+			<text id="text" x="0" y="160" width="200" height="" autosize="H" style="CARD_FRONT" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="card_front02" behavior="LOCK_SIZE" x="190" y="123" style="CARD" visible="false" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="LINK_3" visible="true" fx="">
+				<file start_frame="1" bytes="64259" play="false">04_04_02_010_04.jpg</file>
+				<notes id="description">same as card back02 with dulled picture behind parent as if she were in her house with her one daughter age 2 playing in the background</notes>
+			</graphic>
+			<text id="text" x="0" y="160" width="200" height="" autosize="H" style="CARD_FRONT" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="swap_graphic01" x="391" y="123" width="289" height="256" style="SHADING" visible="false" fx="WIZARD_PANEL_SHOW" hidefx="HIDE">
+			<file start_frame="1" play="false" bytes="54">clear.gif</file>
+		</graphic>
+		<graphic id="swap_graphic02" x="" y="" width="289" height="256" style="SHADING" visible="false" fx="WIZARD_PANEL_SHOW" hidefx="HIDE">
+			<file start_frame="1" play="false" bytes="54">clear.gif</file>
+		</graphic>
+	</section>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="400" y="131" width="272" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;"I would definitely describe us as being a non-traditional family. Both Lisa and I grew up in very Catholic households with heterosexual parents, living very traditional lives. With the advent of us being lesbians, and having guardianship as well as three children through sperm donors, we are definitely a non-traditional family. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;"We spend our days, I guess, the way every family would. It’s about finding time to spend with each other, and also time for work and time for social activities."&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;—Mary &lt;/P&gt;</content>
+		</text>
+		<text id="swap_text02" x="400" y="131" width="285" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;"No one really wants to admit that they were in a failed relationship, or that they possibly had a child with someone who didn’t want &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;to have children, but that’s where I’m at. It’s a very painful thing to have to talk about &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;with people. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;"It’s a burden on my family too. I mean, they love their granddaughter, but I’m sure it hurts them to see that their own child chose a partner who really didn’t want to help out with child rearing. I’m sure it causes them pain to see me have to do this all on my own."&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;—Meredith&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="swap_audio" expanded="true">
+		<audio id="swap_audio01">
+			<file start_frame="1" play="false"/>
+			<transcript/>
+		</audio>
+		<audio id="swap_audio02">
+			<file start_frame="1" play="false"/>
+			<transcript/>
+		</audio>
+	</section>
+</template>

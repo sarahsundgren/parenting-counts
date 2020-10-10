@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_video" view="view_video">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="ON_INIT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Tantrums Happen</content>
+	</text>
+	<text id="nav_text" x="35" y="400" width="735" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content/>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="400" y="60" width="358" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">As toddlers explore their world, they are learning how to regulate their emotions. Watch this video to better understand tantrums and how adults teach emotional regulation through their example.</content>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="139" bytes="47383" startpos="1">a_07_01_03_010_01.swf</file>
+			<transcript translate="true">As toddlers explore their world, they are learning how to regulate their emotions. Watch this video to better understand tantrums and how adults teach emotional regulation through their example.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="" target="" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="presentation_video" expanded="true">
+		<video id="video" behavior="" x="25" y="60" width="340" height="240" visible="true" fx="VIDEO_SHOW" hidefx="VIDEO_HIDE" style="DEFAULT">
+			<file startpos="0" play="false" autorewind="true" buffer="15" preload="10" volume="100" bytes="4014693">tantrums_happen.mov</file>
+			<transcript/>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="HIDE" target="text01" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="subpage" result_param="" discard="true"/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="subpage" result_param="" discard="true"/>
+			</eventlist>
+		</video>
+	</section>
+	<section id="sub_pages" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<subpage id="subpage" behavior="" preload="true" play="false" x="350" y="15" width="" height="" visible="false" fx="SHOW" hidefx="HIDE" name="Knowledge Check"/>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="21" y="345" width="350" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="CENTER"&gt;&lt;I&gt;Making Everyday Moments Count&lt;/I&gt; DVD&lt;/P&gt;</content>
+		</text>
+	</section>
+</template>

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test version="2.0">
+	<interface version="3.0">
+		<images>
+			<button_bg>exam_btn.swf</button_bg>
+		</images>
+		<buttons>
+			<exit translate="true">Exit</exit>
+			<begin translate="true">Begin</begin>
+			<submit translate="true">Submit</submit>
+			<next translate="true">Next</next>
+			<finish translate="true">Finish</finish>
+			<next_page translate="true">Next</next_page>
+			<prev_page translate="true">Previous</prev_page>
+		</buttons>
+		<scroll_areas y="80">
+		</scroll_areas>
+		<styles>
+			<correct color="#FFFFFF"/>
+			<incorrect color="#FFFFFF"/>
+		</styles>
+		<text>
+			<title x="400" color="#FFFFFF" translate="true">Assessment 4</title>
+			<resume translate="true">RESUME: You have {#ATTEMPTSREMAINING} attempt(s) remaining.&lt;br/&gt;&lt;br/&gt;Introduction. You are resuming this exam. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</resume>
+			<pass translate="true">Your Score: {score}%&lt;br/&gt;&lt;br/&gt;You passed the exam. If you have paid for Continuing Education credit, once you have passed all four exams you will see a link available in the Parenting Counts Portal. Please click this link to print out your certificate.&lt;br/&gt;&lt;br/&gt;Here are your results from the exam:&lt;br/&gt;&lt;br/&gt;{$QPSUMMARY}</pass>
+			<fail translate="true">Your Score: {score}%&lt;br/&gt;&lt;br/&gt;You did not pass the exam. If you would like to receive credit for Pillar 4, please review the material in Communication and Language Development and then re-take the assessment. &lt;br/&gt;&lt;br/&gt;Here are your results from the exam:&lt;br/&gt;&lt;br/&gt;{$QPSUMMARY}</fail>
+			<page_count translate="true">Question {#CURRENTSTARTQ} of {#TOTALQ}</page_count>
+			<timer translate="true">{#MINUTESREMAINING}:{#SECONDSREMAINING}</timer>
+			<over_attempts translate="true">Sorry, you are over the attempt limit for this exam.</over_attempts>
+			<over_time translate="true">Sorry, you are past the alloted time period for this exam.</over_time>
+			<qp_summary translate="true">&lt;b&gt;Raw Score: {#SCORE}/{#POSSIBLESCORE}</qp_summary>
+		</text>
+	</interface>
+	<config type="EXAM" pass="80" random="true" scored="true" feedback="true" question_attempts="1" SCORM="true" debug="false" attempt_limit="10" simultaneous_questions="1" numbered_questions="true">
+		<datatracking>
+			<interactions id="false" objective="false" time="false" type="false" correct_response="false" weighting="false" student_response="false" result="false" latency="false"/>
+			<bookmark type="NONE"/>
+		</datatracking>
+	</config>
+	<media gfx_folder="../graphics/" audio_folder="../audio/"/>
+	<question_pools>
+		<question_pool id="pool01" name="Category A" how_many_to_use="" question_attempts="" random="true" translate="name">
+			<question id="question01" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Which of the following examples demonstrate an infant's readiness to communicate?</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="" random="false">
+					<foil correct="true">
+						<text translate="true">Noticing and attempting to re-create the happy expressions she sees on her mom's face.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Sleeping longer at night when soft music is playing.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Preferring to look at bright colors.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Crying when he is hungry.</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question02" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">During which stage of childhood does a child usually use sentences to communicate?</stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">Newborn</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Baby</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Toddler</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Preschooler</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question03" name="Question C" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT" group_spacing="">MATCHING</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Children usually develop skills in a predicatable pattern or order.</stem>
+				<directions spacing="5" translate="true">Drag each language milestone to the corresponding order of development from earliest to latest in development.</directions>
+				<source_items spacing="">
+					<item match="0" translate="true">First</item>
+					<item match="1" translate="true">Second</item>
+					<item match="3" translate="true">Third</item>
+					<item match="2" translate="true">Fourth</item>
+				</source_items>
+				<target_items spacing="">
+					<item translate="true">Child displays cues to communicate their needs </item>
+					<item translate="true">Child uses language intentionally to communicate </item>
+					<item translate="true">Child speaks in short sentences </item>
+					<item translate="true">Child displays turn-taking in social interactions </item>
+				</target_items>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question04" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">How do young children communicate?</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Smiling</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Crying</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Pointing</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Sitting</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question05" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">A parent is wondering how she can help encourage her young toddler's development of communication. What advice could you offer her?</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Interact, sing, and read with the child.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Try not to offer help when the child is trying to say a word, let her figure it out herself.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Talk to the child, even if they can't talk back.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Offer the correct pronunciation instead of criticizing the child if words are said incorrectly.</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question06" name="Question B" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">TRUE_FALSE</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Communication skills developed in infancy create the foundation for the necessary language and literacy skills for future success in life. </stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">True</text>
+					</foil>
+					<foil correct="false">
+						<text translate="true">False</text>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question07" name="Question C" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT" group_spacing="">MATCHING</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Children usually develop skills in a predicatable pattern or order.</stem>
+				<directions spacing="5" translate="true">Drag each communication milestone to the corresponding order of development from earliest to latest in development.</directions>
+				<source_items spacing="">
+					<item match="2" translate="true">First</item>
+					<item match="0" translate="true">Second</item>
+					<item match="1" translate="true">Third</item>
+				</source_items>
+				<target_items spacing="">
+					<item translate="true">Physical gestures and facial expressions  </item>
+					<item translate="true">Use of concrete words </item>
+					<item translate="true">Crying </item>
+				</target_items>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question08" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Responding to babies when they try to communicate with either verbal expressions or physical gestures helps to foster which of the following? </stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Social development</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Emotional development</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Language development</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Cognitive development</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question09" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">According to research conducted by Hoff, the ability to use language to effectively communicate with others is dependent on:</stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">The variety of vocabulary modeled and the amount of time parents spent at home</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">The amount of parent-child interactions and the type of talking modeled</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">The number of hours a child heard adults talking and the quality of parent-child interactions</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">The gender of the child and the amount of time spent with the child</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question10" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">For parents, which of the following situations at home would best promote the vocabulary development of a 2-year-old?</stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">Watching educational television together</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Talking to friends in front of their child</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Talking to their child and asking them questions</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Reading the newspaper aloud</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question11" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Which of the following communication skills are characteristic of 2-year-olds?</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Creating meaning from context</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Leading a conversation</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Using language for humor and pretend play</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Communicating needs</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question12" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">To be able to read, children must first acquire the following basic concepts and strategies EXCEPT:</stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">An awareness of the sounds that make up language </text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">An ability to rhyme syllables and words</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">A capacity to spell words correctly</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">A familiarity with print materials</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question13" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">The following activities are appropriate to suggest that a parent do with her 3-year-old son EXCEPT:</stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Using flash cards to spell words</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Making a game out of finding bigger and smaller items in their house</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Pointing out things that are similar and different as they walk around together</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Singing nursery rhymes together</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question14" name="Question B" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">TRUE_FALSE</type_settings>
+				<graphic></graphic>
+				<stem translate="true">In order to improve spelling score during kindergarten and 1st grade, parents should correct spelling errors when children begin learning to write. </stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">True</text>
+					</foil>
+					<foil correct="true">
+						<text translate="true">False</text>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question15" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">As you observe a dad reading to his 3-year-old boy, you notice that he quickly reads straight through several picture books. What advice could you offer the parent to increase the quality of their reading time?</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Ask questions like, "What do you think will happen next?" or, "Why do you think the character did that?"</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Point out details in the pictures such as colors, names of objects, or the setting.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Discuss the feelings of the characters in the story and the appropriateness of how the characters deal with their emotions.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Stop reading picture books so that his child can exercise his imagination.</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+		</question_pool>
+	</question_pools>
+</test>

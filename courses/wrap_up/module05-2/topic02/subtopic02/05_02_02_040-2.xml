@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="TRUE"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Key Concepts</content>
+	</text>
+	<text id="nav_text" x="537.9" y="425" width="236.8" height="" autosize="R" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt;, or click a new&lt;B&gt; Topic&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="introduction" x="24" y="53" width="635" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">As you teach, keep in mind that several levels exist in the importance of the information being taught.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="476" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;circle&lt;/B&gt; to learn more.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="238" y="87" width="" height="" style="GRAPHIC" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" placeholder="true"/>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" bytes="83367" duration="243" start_frame="1">a_05_02_02_040_01.swf</file>
+			<transcript translate="true">As you teach, keep in mind that several levels exist in the importance of the information being taught. These levels are: key concepts, important information, interesting facts, and nice-to-know information. Click each circle to learn more about teaching these levels in respect to the amount of time available to teach.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="link01" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="link02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="link03" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="link04" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="list_items" align="BOTTOM|CENTER" spacing="0" autospace="false" columns="0" expanded="true">
+		<graphic id="link04" x="82" y="103" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="16579" play="false" start_frame="1">05_02_02_040_05.png</file>
+			<notes id="description">purple circle, white writing</notes>
+		</graphic>
+		<graphic id="link03" x="65" y="140" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="13835" play="false" start_frame="1">05_02_02_040_04.png</file>
+			<notes id="description">blue/purple circle, writing in white</notes>
+		</graphic>
+		<graphic id="link02" x="106" y="184" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="10970" play="false" start_frame="1">05_02_02_040_03.png</file>
+			<notes id="description">blue circle, writing in white</notes>
+		</graphic>
+		<graphic id="link01" x="164" y="235" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="10593" play="false" start_frame="1">05_02_02_040_02.png</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;light blue circle with words in white going around the top of the circle,   refer to PP#7 found in   design\_content from client\Content from Talaris\Getting Started Content\Making Your Teaching Count\Making Your Teaching Count Presentation&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true"/>
+	<section id="swap_text" align="LEFT" spacing="0x15" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="swap_text01" x="459" y="100" width="300" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">5 minutes: Key concepts or relevant information</content>
+		</text>
+		<text id="swap_text02" x="459" y="210" width="249" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">15 minutes: Key concepts and important information</content>
+		</text>
+		<text id="swap_text03" x="459" y="163" width="300" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">30 minutes: Add interesting facts and statistics</content>
+		</text>
+		<text id="swap_text04" x="459" y="100" width="299" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">60 minutes: Share the nice-to-know information in addition to the key concepts, important information, and interesting facts</content>
+		</text>
+	</section>
+	<section id="swap_audio" expanded="true">
+		<audio id="swap_audio01">
+			<file start_frame="1" play="false" duration="218" bytes="74747">a_05_02_02_040_02.swf</file>
+			<transcript translate="true">If you only have 5 minutes, cover the key concepts or provide information relevant to the interaction.  For example, at childcare drop off you could explain to the parent that many children find the separation from a parent stressful, but with reassurance and support they usually do well within a few minutes. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="swap_audio02">
+			<file start_frame="1" play="false" duration="290" bytes="99219">a_05_02_02_040_03.swf</file>
+			<transcript translate="true">If you have 15 minutes, cover the key concepts as well as the important information. 15 minutes allows you enough time to expand upon and illustrate the key concepts. An example of some important information would be that to facilitate play with their children, parents can incorporate play into everyday activities, schedule specific time for play, and help their child play independently or with peers.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="swap_audio03">
+			<file start_frame="1" play="false" duration="276" bytes="94683">a_05_02_02_040_04.swf</file>
+			<transcript translate="true">If you have 30 minutes, add the interesting facts and statistics from the research that supports the curriculum. For example, researchers define play as a distinct motivational or behavioral system that evolved as a pathway through which young individuals learn about their environments, establish relationships with others, and create or refine skills needed for success in later life.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="swap_audio04">
+			<file start_frame="1" play="false" duration="218" bytes="74747">a_05_02_02_040_05.swf</file>
+			<transcript translate="true">If you have 60 minutes or more, share the nice-to-know information in addition to the key concepts, important information, and interesting facts. An example of some nice-to-know information might include the experiences that participants share relating to the material to help illustrate the information in new ways.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="10" y="420" width="50" height="50" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" start_frame="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="1" y="235" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" start_frame="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="411" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">For a complete set of key concepts for each module, click &lt;B&gt;Teaching Tools&lt;/B&gt; in the right panel and then click &lt;B&gt;Objectives&lt;/B&gt;.</content>
+			</text>
+		</container>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="192" y="133" width="97" height="" autosize="H" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<content translate="true">&lt;B&gt;Nice-to-Know&lt;/B&gt;</content>
+		</text>
+		<text id="misc_text02" x="180" y="195" width="122" height="" autosize="H" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<content translate="true">&lt;B&gt;Interesting Facts&lt;/B&gt;</content>
+		</text>
+		<text id="misc_text03" x="163" y="267" width="151" height="" autosize="H" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<content translate="true">&lt;B&gt;Important Information&lt;/B&gt;</content>
+		</text>
+		<text id="misc_text04" x="190" y="342" width="99" height="" autosize="H" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<content translate="true">&lt;B&gt;Key Concepts&lt;/B&gt;</content>
+		</text>
+	</section>
+</template>

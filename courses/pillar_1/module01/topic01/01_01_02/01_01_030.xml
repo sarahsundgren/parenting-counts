@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_video" view="view_video">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Pruning</content>
+	</text>
+	<text id="nav_text" x="188" y="425" width="585" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Brain Development&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="390" y="60" width="350" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;The brain rapidly forms new connections; however, many of these connections are not necessary. To increase brain efficiency, connections that are not used are pruned. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;In this video clip, Dr. Elizabeth Nelson explains more about pruning and why it is essential for development.&lt;/P&gt;</content>
+		</text>
+		<text id="text02" x="390" y="60" width="371" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;We've now explored how the brain grows and how it prunes itself so that only the necessary circuits in the brain remain. Here is a review of what we've learned so far.&lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;P ALIGN="LEFT"&gt;Brain development:&lt;/P&gt;&lt;LI&gt;Happens rapidly in the first 3–5 years of life&lt;/LI&gt;&lt;LI&gt;Is part nature and part nurture&lt;/LI&gt;&lt;LI&gt;Involves creating new circuts based on already-established ones&lt;/LI&gt;&lt;LI&gt;Continues to create and build on neural networks throughout the life span&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="266" bytes="91235" startpos="1">a_01_01_03_01.swf</file>
+			<transcript translate="true">The brain rapidly forms new connections; however, many of these connections are not necessary. To increase brain efficiency, connections that are not used are pruned. Because there are so many connections, there is a great deal of pruning in the first 3 years. In this video clip, Dr. Elizabeth Nelson explains more about pruning and why it is essential for development.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="306" bytes="104715" startpos="1">a_01_01_03_02.swf</file>
+			<transcript translate="true">We've now explored how the brain grows and how it prunes itself so that only the necessary circuits in the brain remain. Here is a review of what we've learned so far. Brain development happens rapidly in the first 3-5 years of life, is part nature and part nurture, involves creating new circuits based on already-established ones, and continues to create and build on neural networks throughout the life span.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="presentation_video" expanded="true">
+		<video id="video" behavior="" x="25" y="60" width="340" height="180" visible="true" fx="VIDEO_SHOW" hidefx="VIDEO_HIDE" style="DEFAULT">
+			<file startpos="0" play="false" autorewind="true" buffer="15" preload="10" volume="100" bytes="6404333">pruning.mov</file>
+			<transcript/>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="misc_text02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="text02" result_param=""/>
+			</eventlist>
+		</video>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="35" y="286" width="339" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="CENTER"&gt;Elizabeth Nelson, Ed.D. &lt;/P&gt;</content>
+		</text>
+		<text id="misc_text02" x="406" y="246" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+</template>

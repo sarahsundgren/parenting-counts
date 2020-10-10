@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<eventlist>
+			<event type="COMPLETION" result="SHOW" target="nav_text" result_param=""/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Expanding the Use of Language</content>
+	</text>
+	<text id="nav_text" x="201" y="425" width="572" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Ages and Stages 3–5.&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x5" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="698" height="" autosize="H" style="DEFAULT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">As preschool children recognize patterns in language, they become more adept at using language as a tool for a variety of purposes and functions.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="700" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;photo&lt;/B&gt; to learn more.</content>
+		</text>
+	</section>
+	<section id="list_items" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<graphic id="link01" x="29" y="115" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="45669" play="false" startpos="1">04_02_02_020_01.jpg</file>
+			<notes id="description">istock#: 4149395  (preschool-aged girl)</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="swap_text01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="swap_text02" result_param=""/>
+				<event type="CLICK" result="SHOW" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link02" x="30" y="280" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="57520" play="false" startpos="1">04_02_02_020_02.jpg</file>
+			<notes id="description">istock#: 937973 (preschool-aged boy)</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="swap_text02" result_param=""/>
+				<event type="CLICK" result="SHOW" target="ref_icon03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="swap_text01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon02" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="swap_text01" x="250" y="116" width="455" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="16"&gt;&lt;B&gt;Functions of Language&lt;/B&gt;&lt;/FONT&gt;&lt;FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Preschoolers begin to use language for a much wider range of functions such as: &lt;/P&gt;&lt;LI&gt;Reasoning&lt;/LI&gt;&lt;LI&gt;Solving problems&lt;/LI&gt;&lt;LI&gt;Making friends&lt;/LI&gt;&lt;LI&gt;Narrating events&lt;/LI&gt;&lt;LI&gt;Playing imagination games&lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Toddlers use language primarily to describe what they see and do, and their communication is primarily with their parents and caregivers. Preschoolers, however, use language as an instrument of thought and their cognitive and language skills become closely entwined. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;For preschoolers, language also grows into their primary tool in building and maintaining social relationships. &lt;/P&gt;</content>
+		</text>
+		<text id="swap_text02" x="250" y="116" width="476" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="16"&gt;&lt;B&gt;Controlling the Use of Language&lt;/B&gt;&lt;/FONT&gt;&lt;FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Preschoolers become more sophisticated about how they use language. As a result, they gain more control of their own use of language. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Examples:&lt;/P&gt;&lt;LI&gt;Preschoolers can begin to understand and control the volume of their voice, using an “inside” voice or an “outside” voice. &lt;/LI&gt;&lt;LI&gt;They may also become more creative and playful in their word usage such as making up names for things based on their meanings. For example, a place might become “appley” because it has apples. &lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Children may also begin to use language to create new realities during pretend play, “You’re the baby, so you call me Daddy.” &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Many preschoolers are also interested in rhymes as they realize that even though words sound the same, they may have different meanings. &lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="123" bytes="41887" startpos="1">a_04_02_02_020_01.swf</file>
+			<transcript translate="true">As preschool children recognize patterns in language, they become more adept at using language as a tool for a variety of purposes and functions. Click each photo to learn more.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="28" y="100" width="234" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;/FONT&gt;</content>
+		</text>
+		<text id="misc_text02" x="33" y="268" width="181" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;/FONT&gt;</content>
+		</text>
+	</section>
+	<section id="reference_icons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="ref_icon02" x="479" y="368.6" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<file bytes="1716" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon03" x="663" y="368.6" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<file bytes="1716" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="416" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Mayes, L. C. &amp; Cohen, D. J. (2002). T&lt;I&gt;he Yale Child Study Center guide to understanding your child.&lt;/I&gt; New York, NY: Little, Brown and Company. &lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference03" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="false">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="401" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference: (not used)&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Field, T.M., (et al.) (1982). Discrimination and imitation of facial expression by neonates. &lt;I&gt;Science&lt;/I&gt;, 218.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Meltzoff, A.N &amp; Moore, M.K. (1977). Imitation of Facial and Manual Gestures by Human Neonates. &lt;I&gt;Science, 198&lt;/I&gt;, 75-78.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

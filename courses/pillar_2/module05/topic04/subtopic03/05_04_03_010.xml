@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_multiplechoice" view="view_multiplechoice">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="showAnswerMarks" datatype="LIST" value="NONE"/>
+		<settings id="markAnswers" datatype="LIST" value="DEFAULT"/>
+		<settings id="markFinalAnswers" datatype="LIST" value="DEFAULT"/>
+		<settings id="submitBtn" datatype="LIST" value="NONE"/>
+		<settings id="enableSubmit" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Rating Praise</content>
+	</text>
+	<text id="nav_text" x="185" y="425" width="588" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson,&lt;/B&gt; or click the &lt;B&gt;Conclusion&lt;/B&gt;.</content>
+	</text>
+	<section id="question_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="question" x="25" y="50" width="692" height="" autosize="H" style="DEFAULT" visible="true" fx="QUESTION_SHOW" hidefx="QUESTION_HIDE">
+			<content translate="true">Encourage parents to become more aware of when and how often they praise their children. The exercise below is an activity that can be used with parents. Complete the activity by thinking of the children you work with. Using the scale below, evaluate yourself on the use of praise.</content>
+		</text>
+		<text id="directions" x="" y="" width="730" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click the rating that applies. When finished, click &lt;B&gt;Submit&lt;/B&gt;.</content>
+		</text>
+	</section>
+	<section id="question_media" expanded="true">
+		<audio id="narration">
+			<file play="true" bytes="116239" startpos="1" duration="339">a_05_04_03_010_01.swf</file>
+			<transcript translate="true">Encourage parents to become more aware of when and how often they praise their children. The exercise below is an activity that can be used with parents. Complete the activity by thinking of the children you work with. Using the scale below, evaluate yourself on the use of praise. After reading each statement, decide whether you use praise in this way rarely, sometimes, or often. Click the rating that applies. When finished, click Submit.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<graphic id="question_graphic" x="25" y="120" width="" height="" style="QUESTION" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1"/>
+			<notes id="description">boy playing with toy alphabet: istock 6893311</notes>
+		</graphic>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="25" y="154" width="720" height="245" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="54">clear.gif</file>
+		</graphic>
+	</section>
+	<section id="options" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<container id="option01" behavior="" x="360" y="163" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="25" height="25" style="OPTION" visible="true" fx="">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+		</container>
+		<container id="option02" behavior="" x="429" y="163" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="25" height="25" style="OPTION" visible="true" fx="">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true" fx="">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="10" width="79" height="" autosize="H" style="OPTION" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="option03" behavior="" x="498" y="163" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="25" height="25" style="OPTION" visible="true" fx="">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true" fx="">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="10" width="74" height="" autosize="H" style="OPTION" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="option04" behavior="" x="360" y="217" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="25" height="25" style="OPTION" visible="true" fx="">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true" fx="">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="0" y="0" width="79" height="" autosize="H" style="OPTION" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="option05" behavior="" x="429" y="217" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="25" height="25" style="OPTION" visible="true" fx="">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true" fx="">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="10" width="74" height="" autosize="H" style="OPTION" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="option06" behavior="" x="498" y="217" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="25" height="25" style="OPTION" visible="true" fx="">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true" fx="">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="10" width="79" height="4" autosize="" style="OPTION" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="option07" behavior="" x="360" y="271" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="25" height="25" style="OPTION" visible="true" fx="">
+				<file startpos="1" play="false" bytes="4024" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true" fx="">
+				<file startpos="1" play="false"/>
+			</graphic>
+			<text id="text" x="8" y="8" width="79" height="" autosize="H" style="OPTION" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="option08" behavior="" x="429" y="271" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="25" height="25" style="OPTION" visible="true" fx="">
+				<file startpos="1" play="false" bytes="4024" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true" fx="">
+				<file startpos="1" play="false"/>
+			</graphic>
+			<text id="text" x="8" y="8" width="4" height="" autosize="L" style="OPTION" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="option09" behavior="" x="498" y="271" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="25" height="25" style="OPTION" visible="true" fx="">
+				<file startpos="1" play="false" bytes="4024" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true" fx="">
+				<file startpos="1" play="false"/>
+			</graphic>
+			<text id="text" x="8" y="8" width="4" height="" autosize="L" style="OPTION" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="option10" behavior="" x="360" y="322" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="25" height="25" style="OPTION" visible="true" fx="">
+				<file startpos="1" play="false" bytes="4024" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true" fx="">
+				<file startpos="1" play="false"/>
+			</graphic>
+			<text id="text" x="8" y="8" width="4" height="" autosize="L" style="OPTION" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="option11" behavior="" x="429" y="322" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="25" height="25" style="OPTION" visible="true" fx="">
+				<file startpos="1" play="false" bytes="4024" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true" fx="">
+				<file startpos="1" play="false"/>
+			</graphic>
+			<text id="text" x="8" y="8" width="4" height="" autosize="L" style="OPTION" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="option12" behavior="" x="498" y="322" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="25" height="25" style="OPTION" visible="true" fx="">
+				<file startpos="1" play="false" bytes="4024" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true" fx="">
+				<file startpos="1" play="false"/>
+			</graphic>
+			<text id="text" x="8" y="8" width="4" height="" autosize="L" style="OPTION" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="option13" behavior="" x="360" y="375" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="25" height="25" style="OPTION" visible="true" fx="">
+				<file startpos="1" play="false" bytes="4024" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true" fx="">
+				<file startpos="1" play="false"/>
+			</graphic>
+			<text id="text" x="8" y="8" width="4" height="" autosize="L" style="OPTION" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="option14" behavior="" x="429" y="375" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="25" height="25" style="OPTION" visible="true" fx="">
+				<file startpos="1" play="false" bytes="4024" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true" fx="">
+				<file startpos="1" play="false"/>
+			</graphic>
+			<text id="text" x="8" y="8" width="4" height="" autosize="L" style="OPTION" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="option15" behavior="" x="498" y="375" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="25" height="25" style="OPTION" visible="true" fx="">
+				<file startpos="1" play="false" bytes="4024" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true" fx="">
+				<file startpos="1" play="false"/>
+			</graphic>
+			<text id="text" x="8" y="8" width="4" height="" autosize="L" style="OPTION" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="buttons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="submit" behavior="STRICT|LOCK_SIZE" x="557" y="373" visible="false" fx="SUBMIT_SHOW" hidefx="SUBMIT_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SUBMIT" visible="true">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<text id="text" x="8" y="8" width="101" height="18" autosize="" style="CONTROLS" visible="true">
+				<content translate="true">Submit</content>
+			</text>
+		</container>
+	</section>
+	<answeranalysis id="answer_analysis" type="MULTIPLE_ANSWER" max_attempts="1">
+		<answer id="correct" correct="true" attempt="ANY" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="545" y="163" width="202" height="" autosize="H" style="DEFAULT_2" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content translate="true">&lt;P ALIGN="LEFT"&gt;Great! Be sure to let parents know this activity is not intended to make them feel like bad parents, instead it is to help them be aware of how often they praise so that they can make improvements if needed.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Once parents have rated themselves, help them create a goal for improvement based on their ratings.&lt;/P&gt;</content>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+					<notes id="mentor-character">Narrator:</notes>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect1" correct="false" attempt="1" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="25" y="324" width="720" height="" autosize="H" style="INCORRECT_FEEDBACK" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content/>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+					<notes id="mentor-character">Narrator:</notes>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect2" correct="false" attempt="ANY" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="25" y="376" width="550" height="" autosize="H" style="INCORRECT_FEEDBACK" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content/>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+				</audio>
+			</feedback>
+		</answer>
+	</answeranalysis>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="30" y="163" width="282" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;1. I try to make play a positive experience by &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;    praising my child's efforts.&lt;/P&gt;</content>
+		</text>
+		<text id="misc_text02" x="30" y="217" width="306" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;2. I encourage my child by praising effort and &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;    good behavior.&lt;/P&gt;</content>
+		</text>
+		<text id="misc_text03" x="30" y="271" width="370" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">3. I give hugs or high fives for accomplishments.</content>
+		</text>
+		<text id="misc_text04" x="30" y="323" width="338" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;4. I try to recognize what interests my child and &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;    acknowledge the value of the activity.&lt;/P&gt;</content>
+		</text>
+		<text id="misc_text05" x="30" y="375" width="350" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">5. I put my child's artwork in easy-to-see places.</content>
+		</text>
+		<text id="misc_text06" x="349" y="134" width="46" height="" autosize="H" style="DEFAULT" visible="true" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Rarely</content>
+		</text>
+		<text id="misc_text07" x="365" y="145" width="15" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text08" x="434" y="147" width="15" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text09" x="506" y="144" width="15" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text10" x="489" y="134" width="40" height="" autosize="H" style="DEFAULT" visible="true" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Often</content>
+		</text>
+		<text id="misc_text11" x="402" y="134" width="75" height="" autosize="H" style="DEFAULT" visible="true" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Sometimes</content>
+		</text>
+	</section>
+</template>

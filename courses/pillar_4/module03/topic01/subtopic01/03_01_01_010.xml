@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Building Vocabulary</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Building Vocabulary&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="677" height="" autosize="H" style="DEFAULT" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Communication does not equal language. Children make many vocal noises that are different from words. As children transition into language, they build their vocabulary.</content>
+		</text>
+		<text id="text02" x="350" y="95" width="400" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Each year from age 1–7, the typical child learns the meanings of an average of 860 root words, or the base elements of a word. That's 6,000 root word meanings by age 7–8, or 2.4 root word meanings every day!</content>
+		</text>
+		<text id="text03" x="350" y="165" width="406" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">The strongest predictors of later literacy development are:&lt;LI&gt;Alphabet knowledge&lt;/LI&gt;&lt;LI&gt;Phonological awareness&lt;/LI&gt;&lt;LI&gt;Memory of letters and objects&lt;/LI&gt;&lt;LI&gt;Writing letters&lt;/LI&gt;</content>
+			<eventlist>
+				<event type="" result="" target="" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="text04" x="350" y="258" width="382" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Key Messages&lt;/B&gt; &lt;LI&gt;Young children experience tremendous growth in their ability to communicate during their second and third years of life. &lt;/LI&gt;&lt;LI&gt;Learning language includes both the ability to understand as well as to produce language. &lt;/LI&gt;&lt;LI&gt;Children learn language from birth.&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="25" y="95" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="96390" startpos="1" play="false">03_01_01_010_01.jpg</file>
+			<notes id="description">Photo 3 (2) Mom and Dad on couch talking and smiling at baby, in the Verbal Dev folder within the Comm and Lang folder</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic03" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic04" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" startpos="1" bytes="40811" duration="120">a_03_01_01_010_01.swf</file>
+			<transcript translate="true">Communication does not equal language. Children make many vocal noises that are different from words. As children transition into language, they build their vocabulary.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" startpos="1" bytes="63871" duration="187">a_03_01_01_010_02.swf</file>
+			<transcript translate="true">Each year from age 1 to 7, the typical child learns the meanings of an average of 860 root words, or the base elements of a word. That's 6,000 root word meanings by age 7 to 8, or 2.4 root word meanings every day!</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" startpos="1" bytes="38543" duration="113">a_03_01_01_010_03.swf</file>
+			<transcript translate="true">The strongest predictors of later literacy development are alphabet knowledge, phonological awareness, memory of letters and objects, and writing letters.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon02" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" startpos="1" bytes="85855" duration="251">a_03_01_01_010_04.swf</file>
+			<transcript translate="true">In this topic, the Key Messages are that: Young children experience tremendous growth in their ability to communicate during their second and third years of life. Learning language includes both the ability to understand as well as to produce language. And children learn language from birth, beginning with coos and babbles, followed by single words and short sentences.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="519" y="142" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1716" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon02" x="477" y="227" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1716" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480.95" height="184.55" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="408" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Biemiller, A. (2005). &lt;I&gt;Teaching and learning vocabulary: Bringing research to practice&lt;/I&gt;. Mahwah, NJ: Lawrence Erlbaum Associates Publisher.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480.95" height="184.55" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;National Center for Family Literacy, National Early Literacy Panel, &amp; National Institute for Literacy (2008). &lt;I&gt;Developing early literacy: Report of the National Early Literacy Panel. A Scientific Synthesis of Early Literacy Development and Implications for Intervention. &lt;/I&gt;Washington, D.C.: National Institute for Literacy.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

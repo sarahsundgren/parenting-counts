@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">What Is Imitation?</content>
+	</text>
+	<text id="nav_text" x="350" y="425" width="425" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Is&lt;/B&gt; &lt;B&gt;Imitation?&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="85" y="250" width="600" height="" autosize="H" style="DEFAULT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Young children take in a tremendous amount of information during the process of observing others and then replicate the observed actions and behaviors through imitation.</content>
+		</text>
+		<text id="text02" x="85" y="79.6" width="600" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Infants:&lt;LI&gt;Discriminate different emotional displays in people around them&lt;/LI&gt;&lt;LI&gt;Display a sensitivity to the emotions of others&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="85" y="202.8" width="600" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Imitation serves as the basis for the development of empathy.</content>
+		</text>
+		<text id="text04" x="85" y="216.8" width="387" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Key Message:&lt;/B&gt;&lt;LI&gt;Imitation is one of the key ways that children learn.&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="21626" startpos="1" play="false">02_01_01_010_01a.jpg</file>
+			<notes id="description">02_01_01_010_01.jpg in grayscale</notes>
+		</graphic>
+		<graphic id="misc_graphic02" x="205" y="60" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="32492" startpos="1" play="false">02_01_01_010_02a.jpg</file>
+			<notes id="description">02_01_01_010_02.jpg in grayscale</notes>
+		</graphic>
+		<graphic id="misc_graphic03" x="385" y="60" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="22593" startpos="1" play="false">02_01_01_010_03a.jpg</file>
+			<notes id="description">02_01_01_010_03.jpg in grayscale</notes>
+		</graphic>
+		<graphic id="misc_graphic04" x="565" y="60" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="18897" startpos="1" play="false">02_01_01_010_04a.jpg</file>
+			<notes id="description">02_01_01_010_04.jpg in grayscale</notes>
+		</graphic>
+	</section>
+	<section id="presentation_graphics" align="TOP" spacing="0" autospace="true" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="35186" startpos="1" play="false">02_01_01_010_01.jpg</file>
+			<notes id="description">Luna_Max_Girl_Sing_Lakeside from Imitation folder in Learning &amp; Cognition</notes>
+		</graphic>
+		<graphic id="graphic02" x="85" y="215" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="45844" startpos="1" play="false">02_01_01_010_02.jpg</file>
+			<notes id="description">#51 3 mo. Bella - 91-06 from Imitation folder in Learning &amp; Cognition</notes>
+		</graphic>
+		<graphic id="graphic03" x="85" y="215" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="36778" startpos="1" play="false">02_01_01_010_03.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;two girls playing nurse: istock 6276819&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic04" x="285" y="215" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="28749" startpos="1" play="false">02_01_01_010_04.jpg</file>
+			<notes id="description">#29 2 yrs. Hayley - 29-45 from Imitation folder in Learning &amp; Cognition</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="39411" startpos="1" duration="116">a_02_01_01_010_01.swf</file>
+			<transcript translate="true">Young children take in a tremendous amount of information during the process of observing others and then replicate the observed actions and behaviors through imitation.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="51907" startpos="1" duration="152">a_02_01_01_010_02.swf</file>
+			<transcript translate="true">From the first hours of life, infants are able to discriminate different emotional displays in people around them and display a sensitivity to the emotions of others, both of which continue to develop through social interactions.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="45867" startpos="1" duration="134">a_02_01_01_010_03.swf</file>
+			<transcript translate="true">Over time, understanding evolves and imitation becomes more deliberate, serving as a basis for the development of empathy, or the ability to experience what another person is feeling.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" bytes="24323" startpos="1" duration="72">a_02_01_01_010_04.swf</file>
+			<transcript translate="true">In this topic, the Key Message is that imitation is one of the key ways that children learn.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true"/>
+	<section id="reference_icons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="ref_icon01" x="471" y="356" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="170" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="450" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Meltzoff, A., &amp; Moore, M. (1983) Newborn infants imitate adult facial gestures. &lt;I&gt;Child Development, 54&lt;/I&gt;(3), 702-709.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

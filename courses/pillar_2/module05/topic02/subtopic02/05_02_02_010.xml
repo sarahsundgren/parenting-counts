@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_cascade" view="view_cascade_right">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="forceFirstPanel" datatype="LIST" value="ANIMATE"/>
+		<settings id="panelDirection" datatype="LIST" value="REVERSE"/>
+		<settings id="disablePanels" datatype="LIST" value="DEFAULT"/>
+		<settings id="useControls" datatype="LIST" value="ALWAYS_VISIBLE"/>
+		<settings id="setComplete" datatype="LIST" value="ON_ALL_PANELS_VISITED"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Research on Praise</content>
+	</text>
+	<text id="nav_text" x="35" y="425" width="735" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click an &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Why Praise Matters&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="710" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Seemingly insignificant differences in how praise is given and received can have important impacts on how children view themselves and their abilities. Researchers have discovered how some of these differences in praise can affect children.</content>
+		</text>
+		<text id="directions" x="" y="" width="536" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click the &lt;B&gt;Forward &lt;/B&gt;button to read more about the research on praise.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<audio id="initial_audio">
+			<file start_frame="1" play="true" bytes="70767" duration="207">a_05_02_02_010.swf</file>
+			<transcript translate="true">Seemingly insignificant differences in how praise is given and received can have important impacts on how children view themselves and their abilities. Researchers have discovered how some of these differences in praise can affect children. Click the Forward button to read more about the research on praise.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<graphic id="initial_graphic" behavior="" x="28" y="160" width="" height="" style="GRAPHIC" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE">
+		<file start_frame="1" play="false" bytes="83697">05_02_02_010_01.jpg</file>
+		<notes id="description">child smiling at parent</notes>
+	</graphic>
+	<section id="dev_assets" expanded="true">
+		<area id="vanish_point" behavior="LOCK_SIZE" x="298" y="134" width="24" height="24" visible="false" fx=""/>
+	</section>
+	<section id="progress_markers" align="TOP" spacing="15x0" autospace="true" exclusive="false" expanded="true">
+		<graphic id="marker01" x="126" y="420" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file start_frame="1" play="false" bytes="1615" duration="30">progress_dot.swf</file>
+		</graphic>
+		<graphic id="marker02" x="" y="" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file start_frame="1" play="false" bytes="1615" duration="30">progress_dot.swf</file>
+		</graphic>
+		<graphic id="marker03" x="" y="" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file start_frame="1" play="false" bytes="1615" duration="30">progress_dot.swf</file>
+		</graphic>
+		<graphic id="marker04" x="" y="" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file start_frame="1" play="false" bytes="1615" duration="30">progress_dot.swf</file>
+		</graphic>
+	</section>
+	<section id="panels" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="panel01" behavior="" x="28" y="206" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="GRAPHIC" visible="true" fx="">
+				<file start_frame="1" play="false" bytes="76485">05_02_02_010_02.jpg</file>
+				<notes id="description">grandparent smiling and child</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel02" behavior="" x="96" y="170" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="200" style="GRAPHIC" visible="true" fx="">
+				<file start_frame="1" play="false" bytes="56573">05_02_02_010_03.jpg</file>
+				<notes id="description">parent smiling as child shares with sibling</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel03" behavior="" x="163" y="158" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="GRAPHIC" visible="true" fx="">
+				<file start_frame="1" play="false" bytes="53726">05_02_02_010_04.jpg</file>
+				<notes id="description">Children drawing</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel04" behavior="STRICT|LOCK_XY|LOCK_SIZE" x="" y="" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="GRAPHIC" visible="true">
+				<file start_frame="1" play="false" bytes="64903">05_02_02_010_05.jpg</file>
+				<notes id="description">child helping in the kitchen</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="swap_text" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="370" y="206" width="333" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Managing Emotions&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;LI&gt;The type of praise that children receive from their caregivers can influence how those children deal with their emotions later on in their lives.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;These caregivers can be parents, daycare providers, grandparents, etc.&lt;/LI&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon01" result_param=""/>
+				<event type="HIDEFX_COMPLETE" result="HIDE" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="swap_text02" x="" y="" width="353" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Low-Key Approach&lt;/B&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Dr. T. Berry Brazelton, a well-known pediatrician, advocates the use of what he calls a "low-key" approach to praise.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;A "low-key" approach emphasizes the fact that the parent is pleased—but not surprised—when their child demonstrates competence or kindness.&lt;/LI&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon05" result_param=""/>
+				<event type="HIDEFX_COMPLETE" result="HIDE" target="ref_icon05" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="swap_text03" x="" y="" width="365" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Differences in Criticism&lt;/B&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;A recent study focused on two sets of children who were drawing pictures. One group had been praised for being "good draw-ers" while the other had been praised for "doing a good job drawing." &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;When later criticized on their drawings, the children who had been told they were "good draw-ers" were more likely than the others to say they were "bad draw-ers," feel sad, throw out the drawings, avoid drawing, and were more likely to be unable to figure out ways to fix their mistakes. &lt;/LI&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon02" result_param=""/>
+				<event type="HIDEFX_COMPLETE" result="HIDE" target="ref_icon02" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="swap_text04" x="0" y="0" width="347" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;A Healthy Self-Esteem&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;LI&gt;Children with healthy self-esteem feel that the important adults in their lives accept them, care about them, and would go out of their way to ensure that they are safe and well.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Research has shown that praising children for their specific helping behaviors lets them feel proud that they are able to make their environment more pleasant.&lt;/LI&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon03" result_param=""/>
+				<event type="HIDEFX_COMPLETE" result="HIDE" target="ref_icon03" result_param=""/>
+				<event type="HIDEFX_COMPLETE" result="HIDE" target="ref_icon04" result_param=""/>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon04" result_param=""/>
+			</eventlist>
+		</text>
+	</section>
+	<section id="buttons" align="" spacing="0" autospace="false" exclusive="false" expanded="true">
+		<container id="start_button" behavior="STRICT|LOCK_SIZE" x="521" y="159" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="116" height="32" style="CONTROLS" visible="true">
+				<file start_frame="1" play="false" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="85" y="10" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="212">right_arrow.png</file>
+			</graphic>
+			<text id="text" x="25" y="7" width="88" height="18" autosize="" style="DEFAULT" visible="true">
+				<content translate="true">Forward</content>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="initial_graphic" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="reverse_button" behavior="STRICT|LOCK_SIZE" x="386" y="159" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="35" y="10" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="223">left_arrow.png</file>
+			</graphic>
+			<text id="text" x="45" y="8" width="89" height="18" autosize="" style="DEFAULT" visible="true">
+				<content translate="true">Back</content>
+			</text>
+		</container>
+		<container id="forward_button" behavior="STRICT|LOCK_SIZE" x="521" y="159" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="85" y="10" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="212">right_arrow.png</file>
+			</graphic>
+			<text id="text" x="25" y="7" width="88" height="18" autosize="" style="DEFAULT" visible="true">
+				<content translate="true">Forward</content>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="initial_graphic" result_param=""/>
+			</eventlist>
+		</container>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="589" y="330" width="15" height="15" style="LINK_SWF" visible="false" fx="">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon02" x="592" y="394" width="15" height="15" style="LINK_SWF" visible="false" fx="">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon04" x="583" y="362" width="15" height="15" style="LINK_SWF" visible="false" fx="">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference04" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon05" x="686" y="330" width="15" height="15" style="LINK_SWF" visible="false" fx="">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference05" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="435" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Ashiabi, G. S. (2000). Promoting the emotional development of preschoolers. &lt;I&gt;Early Childhood Education Journal, 28&lt;/I&gt;(2), 79-84.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="433" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Cimpian, A., Arce, H., Markman, E., &amp; Dweck, C. (2007). Subtle linguistic cues affect children's motivation. &lt;I&gt;Psychological Science, 18&lt;/I&gt;(4), 314-316.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference04" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="430" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Honig, A. S. (2010). &lt;I&gt;Little kids, big worries: Stress and young children: Stress-busting tips for early childhood classrooms.&lt;/I&gt; Baltimore, MD: Paul H. Brookes Publishing.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference05" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="175" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="430" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Brazelton, T. B., &amp; Sparrow, J. D. (2001) &lt;I&gt;Touchpoints three to six: Your child's emotional and behavioral development.&lt;/I&gt; Cambridge, MA: Perseus Publishing.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

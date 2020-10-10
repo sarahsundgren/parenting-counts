@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Attachment Research</content>
+	</text>
+	<text id="nav_text" x="155" y="425" width="616" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about the &lt;B&gt;Types of Attachment&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="711" height="" autosize="H" style="DEFAULT" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">The gold standard for measuring and rating parent-child attachment patterns is the Strange Situation Procedure, developed by Mary Ainsworth.</content>
+		</text>
+		<text id="text02" x="25" y="100" width="381" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Attachment relationships differ in how much security they provide.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;A parent is rated on their sensitivity to their child's needs, and a child is rated on different types of behavior associated with attachment.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Classifications are neither clinical diagnoses nor indications of pathology.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;It is difficult to classify attachment solely based on short day-to-day interactions.&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="25" y="250" width="372" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Key Messages&lt;/B&gt;:&lt;LI&gt;There are four types of attachment that have been identified by research.&lt;/LI&gt;&lt;LI&gt;These types of attachment describe a child's ability to form relationships.&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="25" y="320" width="322" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="405" y="90" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="111293" startpos="1" play="false">02_02_01_010_01.jpg</file>
+			<notes id="description">Can we get a picture of the "Strange Situation" ?</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic03" x="405" y="90" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="80512">02_02_01_010_02.jpg</file>
+			<notes id="description">mother smiling at baby photo found in Talaris photos&amp;gt; social and emotional&amp;gt; attachment       #51 3 mo. Bella - 91-06</notes>
+		</graphic>
+		<graphic id="graphic04" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="75939" startpos="1" duration="222">a_02_02_01_010_01.swf</file>
+			<transcript translate="true">You may wonder how researchers learned about attachment. The gold standard for measuring and rating parent-child attachment patterns is the Strange Situation Procedure, developed by Mary Ainsworth. The Strange Situation is a laboratory procedure used in research with parents and children 12 months and older.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="107723" startpos="1" duration="314">a_02_02_01_010_02.swf</file>
+			<transcript translate="true">Researchers have found that attachment relationships differ in how much security they provide. A parent is rated on their sensitivity to their child's needs, and a child is rated on different types of behavior associated with attachment. These classifications are neither clinical diagnoses nor indications of pathology. Additionally, it is difficult to classify attachment solely based on short day-to-day interactions.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="49963" startpos="1" duration="146">a_02_02_01_010_03.swf</file>
+			<transcript translate="true">Let's now take a look at the Key Messages for this section. There are four types of attachment that have been identified by research. These types of attachment describe a child's ability to form relationships.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="nav_text" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="216" y="66" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon02" x="10" y="420" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true"/>
+	<section id="reference_links" expanded="true"/>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="189" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="30" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;References:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Ainsworth, M. D. S., &amp; Bell, S. M. (1970). Attachment, exploration, and separation: Illustrated by the behavior of one-year-olds in a strange situation. &lt;I&gt;Child Development, 41&lt;/I&gt;, 49-67. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Ainsworth, M. D. S., Blehar, M. C., Waters, E., &amp; Wall, S. (1978). &lt;I&gt;Patterns of attachment: A psychological study of the Strange Situation&lt;/I&gt;. Hillsdale, NJ: Erlbaum.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="1" y="235" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="40" width="405" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;It's important to remember that the Strange Situation procedure is a research tool used to look at patterns of attachment over groups of children. It is not used to identify or diagnose individual children.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test version="2.0">
+	<interface version="3.0">
+		<images>
+			<button_bg>exam_btn.swf</button_bg>
+		</images>
+		<buttons>
+			<exit translate="true">Exit</exit>
+			<begin translate="true">Begin</begin>
+			<submit translate="true">Submit</submit>
+			<next translate="true">Next</next>
+			<finish translate="true">Finish</finish>
+			<next_page translate="true">Next</next_page>
+			<prev_page translate="true">Previous</prev_page>
+		</buttons>
+		<scroll_areas y="80">
+		</scroll_areas>
+		<styles>
+			<correct color="#FFFFFF"/>
+			<incorrect color="#FFFFFF"/>
+		</styles>
+		<text>
+			<title x="400" color="#FFFFFF" translate="true">Assessment 2</title>
+			<resume translate="true">RESUME: You have {#ATTEMPTSREMAINING} attempt(s) remaining.&lt;br/&gt;&lt;br/&gt;Introduction. You are resuming this exam. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</resume>
+			<pass translate="true">Your Score: {score}%&lt;br/&gt;&lt;br/&gt;You passed the exam. If you have paid for Continuing Education credit, once you have passed all four exams you will see a link available in the Parenting Counts Portal. Please click this link to print out your certificate.&lt;br/&gt;&lt;br/&gt;Here are your results from the exam:&lt;br/&gt;&lt;br/&gt;{$QPSUMMARY}</pass>
+			<fail translate="true">Your Score: {score}%&lt;br/&gt;&lt;br/&gt;You did not pass the exam. If you would like to receive credit for Pillar 2, please review the material in Social and Emotional Development and then re-take the assessment. &lt;br/&gt;&lt;br/&gt;Here are your results from the exam:&lt;br/&gt;&lt;br/&gt;{$QPSUMMARY}</fail>
+			<page_count translate="true">Question {#CURRENTSTARTQ} of {#TOTALQ}</page_count>
+			<timer translate="true">{#MINUTESREMAINING}:{#SECONDSREMAINING}</timer>
+			<over_attempts translate="true">Sorry, you are over the attempt limit for this exam.</over_attempts>
+			<over_time translate="true">Sorry, you are past the alloted time period for this exam.</over_time>
+			<qp_summary translate="true">&lt;b&gt;Raw Score: {#SCORE}/{#POSSIBLESCORE}</qp_summary>
+		</text>
+	</interface>
+	<config type="EXAM" pass="80" random="true" scored="true" feedback="true" question_attempts="1" SCORM="true" debug="false" attempt_limit="10" simultaneous_questions="1" numbered_questions="true">
+		<datatracking>
+			<interactions id="false" objective="false" time="false" type="false" correct_response="false" weighting="false" student_response="false" result="false" latency="false"/>
+			<bookmark type="NONE"/>
+		</datatracking>
+	</config>
+	<media gfx_folder="../graphics/" audio_folder="../audio/"/>
+	<question_pools>
+		<question_pool id="pool01" name="Category A" how_many_to_use="" question_attempts="" random="true" translate="name">
+			<question id="question01" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Which of the following influences a child's social-emotional development? </stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="" random="false">
+					<foil correct="false">
+						<text translate="true">Native Language</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Relationships</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Biology</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Environment</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question02" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">What is the ability to be aware of one's own and others emotions and to act on this awareness?</stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">Intelligence</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Emotional Competence</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Self-Regulation</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Attachment</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question03" name="Question B" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">TRUE_FALSE</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Emotions involve actual physiological change. </stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">True</text>
+					</foil>
+					<foil correct="false">
+						<text translate="true">False</text>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question04" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Which of the following are types of attachment? </stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Insecure</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Secure</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Mirror</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Disorganized</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question05" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">A parent of a newborn is worried about building a secure attachment with her baby. What advice can you offer her in helping her build a secure attachment? </stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Encourage her to be consistent in taking care of the day-to-day needs of the baby.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Remind her to try not to spoil the newborn with too much attention.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Encourage her to respond to the baby’s cues</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question06" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Which of the following are the Four Parenting Styles that were identified through Dr. John Gottman's research?</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Laissez-Faire </text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Dismissing </text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Responding</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Emotion Coaching</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Permissive</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Disapproving</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question07" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">The parenting styles identified by Dr. John Gottman’s research were based on: </stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Parents' reactions to their children's strong emotions</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">The type of attachment a parent has with his/her child</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">How the parent disciplines his/her child</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question08" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Which of the following are true about meta-emotion? </stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">Meta-emotion is a strong feeling about another person.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Meta-emotion is the feelings that a person has about his/her own emotions.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">A person's meta-emotion is often a result of his/her upbringing.</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question09" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Which of the following are a part of the five steps of Emotion Coaching?</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Connect with your child</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Be aware of emotions </text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Disregard negative emotions </text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Find solutions </text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Create a distraction</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question10" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">A parent comes to you and says that he is discouraged with his parenting skills. He is only able to Emotion Coach his child some of the time and is worried he does not take the opportunity to use it enough. Which of the following would be the best way to respond to him?  </stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">Encourage him to set aside 15 minutes a day for Emotion Coaching.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Remind him that Emotion Coaching is not always the ideal option in every situation, and that even the most skilled parents only use Emotion Coaching 30% of the time.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Tell him he has nothing to be concerned about.</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question11" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">In what ways can parents teach their children to learn to manage their emotions? </stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Help their child problem solve</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Talk with their child about emotions</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Be a role model with emotions</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Teach them their emotions matter and can be trusted</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question12" name="Question C" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT" group_spacing="">MATCHING</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Match the following descriptions with the correct type of praise.</stem>
+				<directions spacing="5" translate="true">Drag the description to the correct type of praise.</directions>
+				<source_items spacing="">
+					<item match="3" translate="true">Automatic Praise</item>
+					<item match="1" translate="true">Descriptive Praise</item>
+					<item match="0" translate="true">Positive Reinforcement</item>
+					<item match="2" translate="true">Praise for Effort</item>
+				</source_items>
+				<target_items spacing="">
+					<item translate="true">Lets children know which behaviors are appropriate. </item>
+					<item translate="true">Provides specific information on what the child did right. </item>
+					<item translate="true">Recognizes a child's attempts to reach a goal.</item>
+					<item translate="true">Typically ignored by the child and can be confusing if the child is praised for something that was unsuccessful. </item>
+				</target_items>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question13" name="Question B" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">TRUE_FALSE</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Children need to be praised for their efforts, not just their accomplishments, to develop feelings of self worth.</stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">True</text>
+					</foil>
+					<foil correct="false">
+						<text translate="true">False</text>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question14" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Which of the following are benefits of using effective praise:</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Children learn which behaviors are appropriate  </text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Children feel encouraged when trying new things</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Children build self-confidence</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question15" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Effective discipline means teaching children to __________ in ways that support the values of their family, society, and culture. </stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">Suppress their emotions</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Obey adults</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Listen and behave</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question16" name="Question B" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">TRUE_FALSE</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Discipline is a form of punishment in relation to rules and consequences.</stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">True</text>
+					</foil>
+					<foil correct="true">
+						<text translate="true">False</text>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question17" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">To be effective, discipline methods should be: </stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Consistent </text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Age-appropriate </text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Severe</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Predictable</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question18" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Which of the following are reasons why children have tantrums?</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Asserting independence</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Expressing discomfort</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Communicating needs</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Demanding attention</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question19" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Which of the following statements regarding tantrums is true?</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Tantrums are typical in normally developing children.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Frequent or extreme tantrums are not considered a normal part of development prior to age 3.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Preschool children are better than toddlers at using behavioral strategies to replace tantrums.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Knowing a child’s temperament and triggers can help to reduce tantrums.</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question20" name="Question B" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">TRUE_FALSE</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Talking to children about tantrums during the tantrum is an effective method for preventing future tantrums. </stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">True</text>
+					</foil>
+					<foil correct="true">
+						<text translate="true">False</text>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+		</question_pool>
+	</question_pools>
+</test>

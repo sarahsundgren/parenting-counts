@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">How Is Temperament Measured?</content>
+	</text>
+	<text id="nav_text" x="240" y="425" width="533" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about the &lt;B&gt;Measurement of Temperament&lt;/B&gt;.&lt;/P&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x12" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="393" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Temperament is measured by looking at a continuum of several characteristics, including personality and a person's response to experiences.</content>
+		</text>
+		<text id="text02" x="93" y="127" width="391" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Over years of research, temperament characteristics have been described in different ways. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Research conducted by Thomas and Chess and by Mary Rothbart has given us a broader view of temperament in young children, a view that is still used today.&lt;/P&gt;</content>
+		</text>
+		<text id="text03" x="0" y="79.6" width="380" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Key Messages:&lt;/B&gt;&lt;LI&gt;According to Thomas and Chess, there are eight characteristics of temperament.&lt;/LI&gt;&lt;LI&gt;Temperament is measured by looking at a continuum of characteristics.&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="72" y="80" width="370" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="440" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="98913" startpos="1" play="false">02_02_01_010_01.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;photo of child sitting and smiling about something, not looking at camera&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic03" x="440" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="113302" startpos="1" play="false">02_02_01_010_02.jpg</file>
+			<notes id="description">baby giggling over a toy</notes>
+		</graphic>
+		<graphic id="graphic04" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="100" bytes="34123" startpos="1">a_02_02_01_010_01.swf</file>
+			<transcript translate="true">Temperament is measured by looking at a continuum of several characteristics, including personality and a person's response to experiences.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="210" bytes="71739" startpos="1">a_02_02_01_010_02.swf</file>
+			<transcript translate="true">Over years of research, temperament characteristics have been described in different ways. Most of our focus will be on the pioneering research conducted by Thomas and Chess and by Mary Rothbart. Their research has given us a broader view of temperament in young children, a view that is still used today.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" duration="182" bytes="62355" startpos="1">a_02_02_01_010_03.swf</file>
+			<transcript translate="true">As we further discuss temperament research, keep in mind the Key Messages for this section. They are:  According to Thomas and Chess, there are eight characteristics of temperament. Temperament is measured by looking at a continuum of characteristics.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="nav_text" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="398" y="257" width="321" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+</template>

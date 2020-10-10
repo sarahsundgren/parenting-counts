@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_multiplechoice" view="view_multiplechoice">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="showAnswerMarks" datatype="LIST" value="DEFAULT"/>
+		<settings id="markAnswers" datatype="LIST" value="DEFAULT"/>
+		<settings id="markFinalAnswers" datatype="LIST" value="DEFAULT"/>
+		<settings id="submitBtn" datatype="LIST" value="NONE"/>
+		<settings id="enableSubmit" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Increasing Language</content>
+	</text>
+	<text id="nav_text" x="185" y="427" width="588" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson, &lt;/B&gt;or click a new &lt;B&gt;Topic&lt;/B&gt; below.</content>
+	</text>
+	<section id="question_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="question" x="25" y="50" width="747" height="" autosize="H" style="DEFAULT" visible="true" fx="QUESTION_SHOW" hidefx="QUESTION_HIDE">
+			<content translate="true">For parents, which of the following situations at home would best promote the vocabulary development of a 2-year-old?</content>
+		</text>
+		<text id="directions" x="" y="" width="600" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click the correct &lt;B&gt;situation&lt;/B&gt;.</content>
+		</text>
+	</section>
+	<section id="question_media" expanded="true">
+		<audio id="narration">
+			<file play="true" duration="143" bytes="48679" startpos="1">a_03_02_03_010_01.swf</file>
+			<transcript translate="true">Let's review what we've learned so far. For parents, which of the following situations at home would best promote the vocabulary development of a 2-year-old? After reading each situation, click the correct one.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<graphic id="initial_graphic" x="25" y="110" width="" height="" style="GRAPHIC" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" placeholder="true"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="options" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<container id="option01" behavior="STRICT|LOCK_SIZE" x="43" y="310" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="187" height="50" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="9" width="141" height="" autosize="H" style="OPTION" visible="true">
+				<content translate="true">Watching educational television together</content>
+			</text>
+		</container>
+		<container id="option02" behavior="STRICT|LOCK_SIZE" x="298" y="310" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="187" height="50" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="9" width="150" height="" autosize="H" style="OPTION" visible="true">
+				<content translate="true">Talking to friends in front of their child</content>
+			</text>
+		</container>
+		<container id="option03" behavior="STRICT|LOCK_SIZE" x="553" y="310" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="187" height="50" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="8" y="9" width="150" height="" autosize="H" style="OPTION" visible="true">
+				<content translate="true">Talking to their child and asking questions</content>
+			</text>
+		</container>
+	</section>
+	<section id="buttons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="submit" behavior="STRICT|LOCK_SIZE" x="26" y="425" visible="false" fx="SUBMIT_SHOW" hidefx="SUBMIT_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SUBMIT" visible="true">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<text id="text" x="8" y="8" width="101" height="18" autosize="" style="CONTROLS" visible="true">
+				<content translate="true">Submit</content>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="initial_graphic" result_param=""/>
+			</eventlist>
+		</container>
+	</section>
+	<answeranalysis id="answer_analysis" type="SINGLE_ANSWER" max_attempts="1">
+		<answer id="correct" correct="true" attempt="ANY" comparison="option03">
+			<feedback>
+				<text id="feedback" x="25" y="365" width="725" height="72" autosize="H" style="CORRECT_FEEDBACK" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content translate="true">Correct. While hearing language is important for language development, the goal is to elicit responses from the child, not just talk "at" them. Studies show that the adult word count and conversational turns are strongly related although it's not yet clear what the independent contribution of these two factors is.</content>
+				</text>
+				<graphic id="ref_icon01" x="543" y="402.2" width="15" height="15" style="LINK_SWF" visible="true" fx="FEEDBACK_SHOW">
+					<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable2.swf</file>
+					<eventlist>
+						<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+					</eventlist>
+				</graphic>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+					<notes id="mentor-character">Narrator:</notes>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect1" correct="false" attempt="1" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="25" y="365" width="725" height="" autosize="H" style="INCORRECT_FEEDBACK" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content translate="true">Not quite. While hearing language is important for language development, the goal is to elicit responses from the child, not just talk "at" them. Studies show that the adult word count and conversational turns are strongly related although it's not yet clear what the independent contribution of these two factors is.</content>
+				</text>
+				<graphic id="ref_icon01" x="545" y="402.2" width="15" height="15" style="LINK_SWF" visible="true" fx="FEEDBACK_SHOW">
+					<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable2.swf</file>
+					<eventlist>
+						<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+					</eventlist>
+				</graphic>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+					<notes id="mentor-character">Narrator:</notes>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect2" correct="false" attempt="ANY" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="25" y="376" width="550" height="" autosize="H" style="INCORRECT_FEEDBACK" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content/>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+				</audio>
+			</feedback>
+		</answer>
+	</answeranalysis>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="278" y="105" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="82730">03_02_03_010_03.jpg</file>
+			<notes id="description">neighbors with kids, visiting; istock 6482780 or similar</notes>
+		</graphic>
+		<graphic id="misc_graphic02" x="25" y="105" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="64339">03_02_03_010_01.jpg</file>
+			<notes id="description">Television, istock #: 4923870 or similar</notes>
+		</graphic>
+		<graphic id="misc_graphic03" x="533" y="105" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="65829">03_02_03_010_04.jpg</file>
+			<notes id="description">Mom talking with toddler, istock 11255036 or similar</notes>
+		</graphic>
+	</section>
+	<section id="reference_links" expanded="true"/>
+	<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" style="" fx="">
+		<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+			<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+		</graphic>
+		<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+			<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+		</graphic>
+		<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;References:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Zimmerman, F., Gilkerson, J., Richards, J., Christakis, D., Xu, D., Gray, S., Yapanel, U. (2009). Teaching by listening: The importance of adult-child conversations to language development. &lt;I&gt;Pediatrics, 124&lt;/I&gt;, 342-349.&lt;/P&gt;</content>
+		</text>
+	</container>
+</template>

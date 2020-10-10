@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course id="{BB60CF33-D515-4D0E-A583-4EAB61F45660}" name="Wrap Up" displayWidth="0" displayHeight="0" translate="name">
+	<container id="{A88B721D-2758-4623-ABA5-1D6B1E562AC1}" name="Resources" folder="resources" template="{453B5794-BA79-471B-A090-9E456D109968}" translate="name">
+		<page id="{TEACHINGTOOLS}" name="Teaching Tools" template="{AC912D09-4231-440D-208A-DBC06FF56167}" activity="templates_03.swf" content="teaching_tools.xml" translate="name"/>
+		<page id="{RESOURCES}" name="Resource Center" template="{D48BE453-B95C-4D9F-87AB-70A88A63E93A}" activity="templates_03.swf" content="resource_center.xml" translate="name"/>
+		<page id="{HELP}" name="Help" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="help.xml" translate="name"/>
+	</container>
+	<container id="{C70E17F9-0FA8-45DF-8301-6FF9BBFE9A64}" name="Teaching Notes" folder="resources" template="{453B5794-BA79-471B-A090-9E456D109968}" translate="name">
+		<page id="{TEACHING-NOTES}" name="Wizard" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="wizard.xml" translate="name">
+			<subpage id="{WIZ-AUDIENCE}" name="Audience &amp; Objectives" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="audience.xml" translate="name"/>
+			<subpage id="{WIZ-ADDNOTE}" name="Add Note" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="new_note.xml" translate="name"/>
+			<subpage id="{WIZ-NOTES}" name="My Notes" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="notes.xml" translate="name"/>
+		</page>
+	</container>
+	<module id="{3BD18F5C-2489-42D4-A7E2-F3B02EAD7F80}" name="Making Teaching Count" folder="module05-2" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+		<page id="{809152B3-542F-44A9-9FF0-753CAD563718}" name="Introduction" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="05_010.xml" translate="name"/>
+		<module id="{F7F88330-CC66-4F9C-90CC-16EBCD0EB8F5}" name="Preparing to Teach" folder="topic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{283430AF-8C66-42FF-BB90-BA44D5A5B535}" name="Lessons" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{AC141415-2445-4B76-A61C-7295C2CF1B0C}" name="Assessing Your Teaching Style" template="{5EFC209A-BD03-4D41-922B-E11DF128489A}" activity="templates_03.swf" content="05_01_01_010.xml" translate="name"/>
+				<page id="{8BF171C1-FE74-4D13-9934-5771C7EC5D83}" name="Understanding Your Audience" template="{CB17CCFB-FCF3-4F91-A598-1828EABDB2A2}" activity="templates_03.swf" content="05_01_01_020.xml" translate="name"/>
+				<page id="{D151B9FF-B762-4446-9C4B-930622BBCFB6}" name="How Do Adults Learn?" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="05_01_01_050-2.xml" translate="name"/>
+				<page id="{2B60083C-F560-4E34-AE76-DB70AE4E3461}" name="Creating the Learning Environment" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="05_01_01_040.xml" translate="name"/>
+				<page id="{4766D8D5-66E9-4B14-8E55-1FFE277D8C8D}" name="Teaching Opportunities" template="{1F4ECFCA-1ED3-43E1-A780-8C56A5CB3A71}" activity="templates_03.swf" content="05_01_02_010-2.xml" translate="name"/>
+			</module>
+			<module id="{A2ADB5D5-D95F-4C77-AD27-30D2944D411A}" name="Activity" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{F0CBEC29-662F-4988-8EE9-58669D5E15F9}" name="Scenario" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="05_01_03_010-2.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{9A955A35-4712-4E1A-9E1D-DA131F133266}" name="Teaching Parenting Counts" folder="topic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{0B9389FA-9C90-4D70-8419-4FAD3195F2B7}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{0EB4F57B-1579-4D02-A696-DF0D1218622A}" name="Teaching Parenting Counts" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="05_02_01_010.xml" translate="name"/>
+			</module>
+			<module id="{366C8377-B940-4F76-A74F-2B6D68F1C783}" name="Lesson" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{5CD1CF55-91F2-46BC-A870-C5F3AABFD641}" name="Teaching Methods" template="{CB17CCFB-FCF3-4F91-A598-1828EABDB2A2}" activity="templates_03.swf" content="05_02_02_020.xml" translate="name"/>
+				<page id="{DF6E5370-BFF3-4840-BAAF-82AE30D088E6}" name="Key Concepts" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="05_02_02_040-2.xml" translate="name"/>
+			</module>
+		</module>
+		<page id="{DEC8FF36-46DF-49EC-940A-E17B4A4B6FF7}" name="Conclusion" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="05_020.xml" translate="name"/>
+	</module>
+	<module id="{97301555-609D-4D4B-9A97-410BA89720B0}" name="Closure and Next Steps" folder="module06" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+		<page id="{1E5EC6AE-606B-4452-842A-BA9A2A195A01}" name="Introduction" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="01_010.xml" translate="name"/>
+		<page id="{E4308015-5BC5-405A-A292-59ACD77D10E3}" name="Next Steps" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="01_02_01_010.xml" translate="name"/>
+		<page id="{02097F4B-D977-40BC-8173-2741DDC7B88E}" name="Staying Connected" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="01_060-2.xml" translate="name"/>
+		<page id="{5955C4A1-7CEB-41B7-ADFA-550930F89476}" name="Conclusion" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="01_040.xml" translate="name"/>
+	</module>
+</course>

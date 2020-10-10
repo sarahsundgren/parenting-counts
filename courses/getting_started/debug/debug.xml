@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug version="3.2">
+	<templates>
+		<template id="{AC912D09-4231-440D-208A-DBC06FF56167}" name="Resources (v3.2)"/>
+		<template id="{D48BE453-B95C-4D9F-87AB-70A88A63E93A}" name="Double-Scroll Resources (v3.2)"/>
+		<template id="{BE962D09-4231-440D-908A-DBC03FF56166}" name="Presentation Basic (v3.2)"/>
+		<template id="{BE962D09-4231-440D-908A-DBC03FF56166}" name="Presentation Basic (v3.2)"/>
+		<template id="{BE962D09-4231-440D-908A-DBC03FF56166}" name="Presentation Basic (v3.2)"/>
+		<template id="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" name="Video Presentation (v3.2)"/>
+		<template id="{2C8D68CB-CACE-1ZFD-1086-2E12135039A9}" name="Card Swap In Place (v3.2)"/>
+		<template id="{CB17CCFB-FCF3-4F91-A598-1828EABDB2A2}" name="Horizontal Slide Show with Thumbnails (v3.2)"/>
+		<template id="{532A975C-1F90-494A-A221-9385891C8452}" name="Umbrella Expanding List (v3.2)"/>
+		<template id="{8A1BDC0F-88C8-3333-A5E2-A811F3B51C62}" name="Floating Panels (v3.2)"/>
+		<template id="{1C8B289A-4710-47C1-97FB-EDD71B245085}" name="Umbrella Graphics List (v3.2)"/>
+		<template id="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" name="Video Presentation (v3.2)"/>
+		<template id="{BE962D09-4231-440D-908A-DBC03FF56166}" name="Presentation Basic (v3.2)"/>
+		<template id="{8A1BDC0F-88C8-3333-A5E2-A811F3B51C62}" name="Floating Panels (v3.2)"/>
+		<template id="{1C8B289A-4710-47C1-97FB-EDD71B245085}" name="Umbrella Graphics List (v3.2)"/>
+		<template id="{1C8B289A-4710-47C1-97FB-EDD71B245085}" name="Umbrella Graphics List (v3.2)"/>
+		<template id="{BE962D09-4231-440D-908A-DBC03FF56166}" name="Presentation Basic (v3.2)"/>
+		<template id="{1C8B289A-4710-47C1-97FB-EDD71B245085}" name="Umbrella Graphics List (v3.2)"/>
+		<template id="{QV962D09-4231-440D-908A-DBC03FF56166}" name="Animation Sequence (v3.2)"/>
+		<template id="{E1B106C2-668F-4A64-806B-D054945FEE64}" name="Multiple Choice ABCD (v3.2)"/>
+		<template id="{BE962D09-4231-440D-908A-DBC03FF56166}" name="Presentation Basic (v3.2)"/>
+		<template id="{BE962D09-4231-440D-908A-DBC03FF56166}" name="Presentation Basic (v3.2)"/>
+		<template id="{2A8B289A-4710-47C1-17FB-EDD71B245085}" name="Click and Reveal - Numbered Steps (v3.2)"/>
+		<template id="{2A8D68CC-CACE-1BFD-1286-2E24535039A6}" name="Card Swap (v3.2)"/>
+		<template id="{532A975C-1F90-494A-A221-9385891C8452}" name="Umbrella Expanding List (v3.2)"/>
+		<template id="{E1B106C2-668F-4A64-806B-D054945FEE64}" name="Multiple Choice ABCD (v3.2)"/>
+		<template id="{BE962D09-4231-440D-908A-DBC03FF56166}" name="Presentation Basic (v3.2)"/>
+		<template id="{1C8B289A-4710-47C1-97FB-EDD71B245085}" name="Umbrella Graphics List (v3.2)"/>
+		<template id="{CB17CCFB-FCF3-4F91-A598-1828EABDB2A2}" name="Horizontal Slide Show with Thumbnails (v3.2)"/>
+		<template id="{E1B106C2-668F-4A64-806B-D054945FEE64}" name="Multiple Choice ABCD (v3.2)"/>
+		<template id="{1C8B289A-4710-47C1-97FB-EDD71B245085}" name="Umbrella Graphics List (v3.2)"/>
+		<template id="{BDA42C29-DAEE-4351-BC28-A324F8FA77B9}" name="Horizontal Slide Show - Graphics and Text (v3.2)"/>
+		<template id="{1C8B289A-4710-47C1-97FB-EDD71B245085}" name="Umbrella Graphics List (v3.2)"/>
+		<template id="{532A975C-1F90-494A-A221-9385891C8452}" name="Umbrella Expanding List (v3.2)"/>
+		<template id="{2C8D68CB-CACE-1ZFD-1086-2E12135039A9}" name="Card Swap In Place (v3.2)"/>
+		<template id="{77B487C9-2B80-4E7E-8B99-5ECBF5A2B234}" name="Click and Reveal - Photo Flips Dow (v3.2)"/>
+		<template id="{E922C8DE-F1FD-42F1-9DA0-929DD8A44EDA}" name="Cascading Tiles - Right (v3.2)"/>
+		<template id="{BE862D09-1232-440A-908A-DBC03FF56166}" name="Compare Answer - Single Question (v3.2)"/>
+		<template id="{2C8D18CC-CACE-1ZFD-1086-2E14535039A5}" name="Card Swap Single Flip (v3.2)"/>
+		<template id="{1C8B289A-4710-47C1-97FB-EDD71B245085}" name="Umbrella Graphics List (v3.2)"/>
+		<template id="{532A975C-1F90-494A-A221-9385891C8452}" name="Umbrella Expanding List (v3.2)"/>
+	</templates>
+</debug>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_input">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programming-options"/>
+		<notes id="search-terms"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="BOOLEAN" value="false"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<eventlist>
+			<event type="INIT" result="CALL_FUNCTION" target="SHELL" result_param="loadPageNote(input);"/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Considering Parents</content>
+	</text>
+	<text id="nav_text" x="440" y="422" width="328" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt;, or click a new &lt;B&gt;Topic&lt;/B&gt;.</content>
+	</text>
+	<text id="introduction" name="question01" x="25" y="51" width="694" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+		<content translate="true">As you consider the population you work with, think about some of the biggest challenges the families face and what advice you can offer these parents. Add your thoughts in the space provided below.</content>
+	</text>
+	<text id="directions" x="25" y="97" width="620" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+		<content translate="true">Click the &lt;B&gt;button&lt;/B&gt; if you need to read an example to get started, when finished click &lt;B&gt;Save&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="94" width="600" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<input id="input" name="answer01" x="323" y="141" width="415" height="228" maxchars="1000" password="false" multiline="true" focus="true" restrict="" style="TEXT_ENTRY" visible="true" fx="GRAPHIC_SHOW" case="M" hidefx="GRAPHIC_HIDE">
+			<content/>
+		</input>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true"/>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="78311" duration="229" start_frame="1">a_04_03_03_010_01.swf</file>
+			<transcript translate="true">As you consider the population you work with, think about some of the biggest challenges the families face and what advice you can offer these parents. Add your thoughts in the space provided below. Click the button if you need to read an example to get started. When you are finished entering your comments, click Save to save your work in My Teaching Notes.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<graphic id="popup_button" x="248" y="141" width="" height="" style="LINK_3" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+		<file play="false" bytes="17116" start_frame="1">04_03_03_010_01.jpg</file>
+		<eventlist>
+			<event type="CLICK" result="VISUAL_FX" target="popup01" result_param="SHOW"/>
+		</eventlist>
+		<notes id="description">blue button with a light bulb icon</notes>
+	</graphic>
+	<graphic id="mentor" x="25" y="141" width="" height="" style="GRAPHIC" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+		<file play="false" bytes="65981" start_frame="1">04_03_03_010_02.jpg</file>
+		<notes id="description">picture of a family</notes>
+	</graphic>
+	<section id="popup" expanded="true">
+		<container id="popup01" behavior="" x="323" y="141" visible="false" fx="POPUP_SHOW" hidefx="POPUP_HIDE" style="">
+			<graphic id="box" x="0" y="0" width="404" height="220" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+				<file play="false" bytes="54" start_frame="1">clear.gif</file>
+			</graphic>
+			<graphic id="close" x="335" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+				<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+				<eventlist>
+					<event type="CLICK" result="HIDE" target="popup01" result_param=""/>
+				</eventlist>
+			</graphic>
+			<text id="text" name="course_answer01" x="15" y="35" width="381" height="178" autosize="" style="DEFAULT_2" visible="true" hidefx="GRAPHIC_HIDE" scroll="AUTO" fx="GRAPHIC_SHOW">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;"The parents I work with live very busy lives. In most households with two parents, both are working long hours to bring in enough money for their families, so the children are unable to spend very much time with their parents. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;"Because they have so little time, I try to encourage parents to spend the time they do have with their children to keep a close parent-child relationship. They can do this by always asking their children about their day, and trying their best to set aside time to spend as a family."&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;—Shandra&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true"/>
+	<section id="buttons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="submit" behavior="STRICT|LOCK_SIZE" x="630" y="375" visible="true" fx="SUBMIT_SHOW" hidefx="SUBMIT_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SUBMIT" visible="true">
+				<file play="false" bytes="2583" duration="35" start_frame="1">std_control.swf</file>
+			</graphic>
+			<text id="text" x="8" y="8" width="101" height="18" autosize="" style="CONTROLS" visible="true">
+				<content translate="true">Save</content>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="CALL_FUNCTION" target="SHELL" result_param="savePageNote(input);"/>
+				<event type="CLICK" result="SHOW" target="misc_text01" result_param=""/>
+			</eventlist>
+		</container>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="321" y="378" width="298" height="" autosize="H" style="FEEDBACK_BLUE" visible="false" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">This note is now saved in &lt;B&gt;My Teaching Notes&lt;/B&gt;.</content>
+		</text>
+	</section>
+</template>

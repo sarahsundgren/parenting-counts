@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_floatpanels" view="view_floatpanels">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programming-options"/>
+		<notes id="search-terms"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="showNavPrompt" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+		<settings id="transcriptBehavior" datatype="LIST" value="DEFAULT"/>
+		<settings id="disableNext" datatype="LIST" value="DEFAULT"/>
+		<settings id="disableBack" datatype="LIST" value="DEFAULT"/>
+		<settings id="disableReplay" datatype="LIST" value="DEFAULT"/>
+		<settings id="disableMenu" datatype="LIST" value="DEFAULT"/>
+		<eventlist>
+			<event type="COMPLETION" result="SHOW" target="misc_text01" result_param=""/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Teaching Recommendations</content>
+	</text>
+	<text id="nav_text" x="35" y="425" width="735" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity &lt;/B&gt;to learn more about &lt;B&gt;Preparing to Teach&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="51" width="738" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">The Parenting Counts Program is designed to be flexible enough to meet your needs, no matter what type of learning experience you are facilitating. Here are a few tips for presenting the program effectively in various settings. </content>
+		</text>
+		<text id="directions" x="25" y="77" width="448" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;photo&lt;/B&gt; to learn more about these recommendations.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<audio id="initial_audio">
+			<file start_frame="1" play="true" duration="184" bytes="63003">a_05_01_01_060_01.swf</file>
+			<transcript translate="true">The Parenting Counts Program is designed to be flexible enough to meet your needs, no matter what type of learning experience you are facilitating. Here are a few tips for presenting the program effectively in various settings. Click each photo to learn more about these recommendations.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="dev_assets" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<area id="target01" behavior="" x="30" y="147" width="125" height="100" visible="false" fx=""/>
+		<area id="target02" behavior="" x="30" y="260" width="125" height="100" visible="false" fx=""/>
+	</section>
+	<section id="float_panels" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="panel01" behavior="" x="74" y="209" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="20" width="" height="" style="LINK_3" visible="true" fx="">
+				<file start_frame="1" play="false" bytes="43459">05_01_01_060_01.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;school teacher  File #: 11436372&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="45" y="0" width="100" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;FONT COLOR="#FFFFFF"&gt;Educators&lt;/FONT&gt;</content>
+			</text>
+		</container>
+		<container id="panel02" behavior="" x="292" y="167" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="20" width="" height="" style="LINK_3" visible="true" fx="">
+				<file start_frame="1" play="false" bytes="55844">05_01_01_060_02.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;group study  File #: 4737163&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="42" y="0" width="100" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;FONT COLOR="#FFFFFF"&gt;Group Size&lt;/FONT&gt;</content>
+			</text>
+		</container>
+		<container id="panel03" behavior="" x="509" y="209" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="20" width="" height="" style="LINK_3" visible="true" fx="">
+				<file start_frame="1" play="false" bytes="41254">05_01_01_060_03.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Female teacher working at desk  File #: 1330167&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="40" y="0" width="100" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;FONT COLOR="#FFFFFF"&gt;Preparation&lt;/FONT&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="content_panels" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="content_panel01" behavior="" x="170" y="100" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="CONTENT_PANEL">
+			<graphic id="background" behavior="" x="0" y="0" width="600" height="300" style="PANEL" visible="true" fx="">
+				<file start_frame="1" play="false" bytes="54">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="21" y="58" width="" height="" style="GRAPHIC" visible="true" fx="">
+				<file start_frame="1" play="false" bytes="70288">05_01_01_060_04.jpg</file>
+				<notes id="description">school teacher  File #: 11436372</notes>
+			</graphic>
+			<text id="header" x="248" y="57" width="311" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Educators</content>
+			</text>
+			<text id="text" x="248" y="89" width="327" height="" autosize="H" style="PANEL_TEXT" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;The Parenting Counts Program can often be more effective when it is taught in a consistent way. For example, if you plan to teach in a classroom setting, limit the number of instructors to keep the experience consistent and help the class feel more comfortable and focused on learning. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Similarly, if you are teaching in a one-on-one situation, you may want to set up a consistent schedule to meet.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="content_panel02" behavior="" x="170" y="100" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="CONTENT_PANEL">
+			<graphic id="background" behavior="" x="0" y="0" width="600" height="300" style="PANEL" visible="true" fx="">
+				<file start_frame="1" play="false" bytes="54">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="25" y="57" width="" height="" style="GRAPHIC" visible="true" fx="">
+				<file start_frame="1" play="false" bytes="84588">05_01_01_060_05.jpg</file>
+				<notes id="description">group study  File #: 4737163</notes>
+			</graphic>
+			<text id="header" x="248" y="57" width="311" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Group Size</content>
+			</text>
+			<text id="text" x="248" y="89" width="323" height="" autosize="H" style="PANEL_TEXT" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;This Program can be effectively taught in groups or in one-on-one settings. Consider the needs of your parent population and the advantages each type of teaching can offer to your audience.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;For example, one-on-one interaction allows you to better personalize your teaching whereas the mutual support that comes from a group setting can help provide invaluable insights into feelings and problems.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="content_panel03" behavior="" x="170" y="100" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="CONTENT_PANEL">
+			<graphic id="background" behavior="" x="0" y="0" width="600" height="300" style="PANEL" visible="true" fx="">
+				<file start_frame="1" play="false" bytes="54">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="25" y="57" width="" height="" style="GRAPHIC" visible="true" fx="">
+				<file start_frame="1" play="false" bytes="54569">05_01_01_060_06.jpg</file>
+				<notes id="description">Female teacher working at desk  File #: 1330167</notes>
+			</graphic>
+			<text id="header" x="248" y="57" width="311" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Planning</content>
+			</text>
+			<text id="text" x="248" y="89" width="327" height="" autosize="H" style="PANEL_TEXT" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;When planning, consider the teaching tools you have available, the location of the instruction, what fees may be required, and the model of teaching you will be using. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;For example, will you teach in the home of a family that requires ongoing support? Will you teach parenting workshops in a classroom setting?&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="125" y="360" width="636" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="10" y="420" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" start_frame="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="1" y="228" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" start_frame="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="55" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Please take a few minutes to fill out the &lt;B&gt;Get Started&lt;/B&gt; worksheet located by clicking the &lt;B&gt;Teaching Tools&lt;/B&gt; icon in the right panel. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;This worksheet will allow you to think through and respond to the questions presented in the &lt;B&gt;Teaching Basics&lt;/B&gt; page.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Patterns in Language</content>
+	</text>
+	<text id="nav_text" x="180" y="425" width="590" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Ages and Stages 3–5&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="395" y="60" width="380" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Preschoolers understand:&lt;LI&gt;Simple patterns of sentence structure&lt;/LI&gt;</content>
+		</text>
+		<text id="text02" x="395" y="90.8" width="345" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Concept that words in one sentence may relate to words in a previous sentence&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="395" y="134" width="365" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Example of a 4-year-old: &lt;LI&gt;“I have a cousin named Suzy. She rides a bicycle. So does my brother.” &lt;/LI&gt;&lt;LI&gt;In this case, the “she” refers to Suzy and “does” refers to bike riding. &lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="395" y="226" width="365" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Example of a 2-year-old:&lt;LI&gt;“I&lt;B&gt; &lt;/B&gt;went&lt;B&gt; &lt;/B&gt;to Grandma’s for dinner.” &lt;/LI&gt;&lt;LI&gt;You ask, “Where did you go?” &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="127823" startpos="1" play="false">04_02_02_010_01.jpg</file>
+			<notes id="description">istock#: 1834810 (mom talking to daugher and son while eating)</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic03" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic04" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="33475" startpos="1" duration="98">a_04_02_02_010_01.swf</file>
+			<transcript translate="true">Preschoolers understand simple patterns of sentence structure, and as a result, are much better at understanding what adults say to them. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="24855" startpos="1" duration="73">a_04_03_02_010_02.swf</file>
+			<transcript translate="true">They also understand that words in one sentence may relate to words in a previous sentence. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" startpos="1" bytes="73787" duration="216">a_04_02_01_010_03.swf</file>
+			<transcript translate="true">For example, a 4-year-old can say, “I have a cousin named Suzy. She rides a bicycle. So does my brother.”  In this case, the “she” refers to Suzy and “does” refers to bike riding. A younger child would not have been able to put those sentences together. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" startpos="1" bytes="54059" duration="158">a_04_03_02_010_04.swf</file>
+			<transcript translate="true">If your toddler says, “I want to Grandma's for dinner,” and you ask, “Where did you go?”  Your toddler will probably repeat the whole sentence.  A 4-year-old can usually pick out the specific fact, in this case, “to Grandma's.” </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="25" y="50" width="701" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="558" y="61" width="15" height="15" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1716" play="false" startpos="1" duration="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480.95" height="184.55" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="417" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;References:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Mayes, L. C. &amp; Cohen, D. J. (2002). &lt;I&gt;The Yale Child Study Center guide to understanding your child.&lt;/I&gt; New York, NY: Little, Brown and Company. &lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

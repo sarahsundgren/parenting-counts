@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Importance of Adult Support</content>
+	</text>
+	<text id="nav_text" x="298" y="425" width="477" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Is&lt;/B&gt; &lt;B&gt;Stress?&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x5" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="355" y="60" width="390" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Let's begin by looking at the basics of stress:</content>
+		</text>
+		<text id="text02" x="370" y="96" width="380" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Stress:&lt;/B&gt; Physiological response in the body when human beings feel anxious or threatened.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Stressors&lt;/B&gt;: Events that stimulate stress reactions.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Stress reactions: &lt;/B&gt;Body's chemical and neural responses that promote survival.&lt;/P&gt;&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="text03" x="370" y="185" width="380" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Adults, children, and infants can feel stress. Coping with stress is an important skill that children learn from the adults who care for them. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Without help from caregivers, extreme or ongoing stress can negatively impact a child's development. However, not all stress is harmful.&lt;/P&gt;</content>
+		</text>
+		<text id="text04" x="370" y="280" width="380" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Key Messages:&lt;/B&gt;&lt;LI&gt;Learning to cope with stress is an important part of a child's development.&lt;/LI&gt;&lt;LI&gt;A child between the ages of birth and 5 is especially vulnerable to the effects of stress.&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="300" height="225" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="66041" startpos="1" play="false">04_01_01_010_01.jpg</file>
+			<notes id="description">Lonely Child File #: 2848378</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE"/>
+		<graphic id="graphic03" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic04" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE"/>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="13215" startpos="1" duration="39">a_04_01_01_010_01.swf</file>
+			<transcript translate="true">Let's begin by looking at the basics of stress:</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="59127" startpos="1" duration="173">a_04_01_01_010_02.swf</file>
+			<transcript translate="true">Stress is the physiological response in the body when human beings feel anxious or threatened.  Stressors are the events that stimulate stress reactions.  And stress reactions are the body's chemical and neural responses that promote survival.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="70767" startpos="1" duration="207">a_04_01_01_010_03.swf</file>
+			<transcript translate="true">Adults, children, and infants can feel stress.  Coping with stress is an important skill that children learn from the adults who care for them.  Without help from caregivers, extreme or ongoing stress can negatively impact a child's development.  However, not all stress is harmful.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" bytes="48887" startpos="1" duration="143">a_04_01_01_010_05.swf</file>
+			<transcript translate="true">In this topic, the key messages are that learning to cope with stress is an important part of a child's development.  And a child between the ages of birth and five is especially vulnerable to the effects of stress.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true"/>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="9" y="420" width="50" height="50" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="1" y="235" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="false">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="false">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="false">
+				<content translate="true">To see other definitions of self-regulation, click the Self-Regulation Definitions link in the &lt;B&gt;Resource Center&lt;/B&gt;.</content>
+			</text>
+		</container>
+	</section>
+</template>

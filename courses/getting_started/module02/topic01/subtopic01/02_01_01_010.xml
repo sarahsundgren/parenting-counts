@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Why Does Parenting Count?</content>
+	</text>
+	<text id="nav_text" x="255" y="425" width="522.6" height="" autosize="R" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about the &lt;B&gt;Importance of the Early Years&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="27" y="50" width="728" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="text02" x="27" y="50" width="690" height="" autosize="H" style="DEFAULT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">The parent-child relationship is one of the most essential factors in each phase of a child's early development. Research shows that the first five years of life are critical to a child's development and have vital implications for a child's future.</content>
+		</text>
+		<text id="text03" x="25" y="111" width="595" height="" autosize="H" style="DIRECTIONS" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Click each &lt;B&gt;photo&lt;/B&gt; to learn the impact of parenting on a child's early development.</content>
+		</text>
+		<text id="text04" x="28" y="213" width="165" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Parents can give their baby experiences that make them feel that they are loved, and that the world is a safe place.</content>
+		</text>
+		<text id="text05" x="207" y="194" width="172" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">When parents show their child support and care, they are helping their child learn empathy for others.</content>
+		</text>
+		<text id="text06" x="395" y="174" width="163" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Parents teach children how to learn, play, and enjoy family life.</content>
+		</text>
+		<text id="text07" x="564" y="145" width="169" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Parents provide the support children need to be successful in learning.</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="30" y="200" width="" height="" style="LINK_3" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="8545" play="false" start_frame="1">02_01_01_010_01.png</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;a baby crawling (graphics should look like they grow in steps, so feel free to adjust height to make it look more even)&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="CLICK" result="PLAY" target="misc_audio01" result_param=""/>
+				<event type="CLICK" result="SHOW" target="text04" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="graphic02" x="198" y="200" width="" height="" style="LINK_3" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="21787">02_01_01_010_02.png</file>
+			<notes id="description">18-month-old walking</notes>
+			<eventlist>
+				<event type="CLICK" result="PLAY" target="misc_audio02" result_param=""/>
+				<event type="CLICK" result="SHOW" target="text05" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="graphic03" x="385" y="200" width="" height="" style="LINK_3" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="21164">02_01_01_010_03.png</file>
+			<notes id="description">3 year old walking</notes>
+			<eventlist>
+				<event type="CLICK" result="PLAY" target="misc_audio03" result_param=""/>
+				<event type="CLICK" result="SHOW" target="text06" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="graphic04" x="565" y="200" width="" height="" style="LINK_3" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="26442">02_01_01_010_04.png</file>
+			<notes id="description">5-year-old walking</notes>
+			<eventlist>
+				<event type="CLICK" result="PLAY" target="misc_audio04" result_param=""/>
+				<event type="CLICK" result="SHOW" target="text07" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="graphic05" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="SHOW" hidefx="HIDE">
+			<file start_frame="1" play="false" bytes="67989">02_01_01_010_05.jpg</file>
+			<notes id="description">mother and 7-mo.-old boy in color</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="70547" duration="206" start_frame="1">a_02_01_01_010_01.swf</file>
+			<transcript translate="true">Why does parenting count? Consider the following 3 scenarios as you think about this question. Brody is a 7-month-old boy. His mother is going back to work and wants to make sure he manages the transition well. What role does parenting play in his adjustment?</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="60" result="SHOW" target="graphic05" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="75" result="HIDE" target="misc_graphic03" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="misc_audio05" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="65595" duration="192" start_frame="1">a_02_01_01_010_02.swf</file>
+			<transcript translate="true">As you can see from the examples, the parent-child relationship is one of the most essential factors in each phase of a child's early development. Research shows that the first five years of life are critical to a child's development and have vital implications for a child's future.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic05" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="graphic01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="graphic02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="graphic03" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="graphic04" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="misc_graphic05" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="misc_graphic01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="misc_graphic02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="misc_graphic04" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration03" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="21083" start_frame="1" duration="62">a_02_01_01_010_03.swf</file>
+			<transcript translate="true">Click each photo to learn the impact of parenting on a child's early development.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text03" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file start_frame="1" play="false"/>
+			<transcript/>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true"/>
+	<section id="miscellaneous_audio" expanded="true">
+		<audio id="misc_audio01">
+			<file start_frame="1" play="false" bytes="51155" duration="150">a_02_01_01_010_04.swf</file>
+			<transcript translate="true">In the early years, parents can give their baby experiences that make them feel that they are loved, and that the world is a safe place. In doing so, parents provide their children with a sense of security that lasts a lifetime.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="misc_audio02">
+			<file start_frame="1" play="false" bytes="22275" duration="66">a_02_01_01_010_05.swf</file>
+			<transcript translate="true">When parents show their support and care, they are helping their child learn empathy for others.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="misc_audio03">
+			<file start_frame="1" play="false" bytes="23027" duration="68">a_02_01_01_010_06.swf</file>
+			<transcript translate="true">In these early years, parents teach children how to learn, play and enjoy family life.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="misc_audio04">
+			<file start_frame="1" play="false" bytes="17311" duration="51">a_02_01_01_010_07.swf</file>
+			<transcript translate="true">Parents provide the support children need to be successful in learning.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="misc_audio05">
+			<file start_frame="1" play="false" duration="145" bytes="49431">a_02_01_01_010_08.swf</file>
+			<transcript translate="true">Lavonne is a 3-year-old girl. She is very communicative about her needs, but often has a hard time when her dad says she can't have something she wants. What tools would help this dad in parenting Lavonne?</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_graphic04" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="misc_audio06" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="misc_audio06">
+			<file start_frame="1" play="false" duration="212" bytes="72387">a_02_01_01_010_09.swf</file>
+			<transcript translate="true">Mateo is a 5-year-old boy who is starting Kindergarten. His mom wants to make sure he is well-prepared, but she tells you that she thinks it is the school's responsibility to help Mateo make friends. Reconsider the question: why does parenting count?  How might you help each of these parents?</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_graphic05" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration02" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="270" y="60" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="35527">02_01_01_010_06.jpg</file>
+			<notes id="description">3-yr-old girl and dad in black and white</notes>
+		</graphic>
+		<graphic id="misc_graphic02" x="515" y="60" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="40256">02_01_01_010_07.jpg</file>
+			<notes id="description">5-yr.-old boy and mom in black and white</notes>
+		</graphic>
+		<graphic id="misc_graphic03" x="25" y="60" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="31434">02_01_01_010_11.jpg</file>
+			<notes id="description">02_01_01_010_05.jpg in black and white</notes>
+		</graphic>
+		<graphic id="misc_graphic04" x="270" y="60" width="245" height="270" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="59430">02_01_01_010_09.jpg</file>
+			<notes id="description">02_01_01_010_06.jpg in color</notes>
+		</graphic>
+		<graphic id="misc_graphic05" x="515" y="60" width="245" height="270" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false" bytes="62987">02_01_01_010_10.jpg</file>
+			<notes id="description">02_01_01_010_07.jpg in color</notes>
+		</graphic>
+	</section>
+</template>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">What Is a Temper Tantrum?</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Is a&lt;/B&gt; &lt;B&gt;Temper Tantrum?&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="355" y="60" width="395" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">A temper tantrum is when a young child has an extreme behavioral reaction to overwhelming negative emotions.</content>
+			<eventlist>
+				<event type="" result="" target="" result_param=""/>
+				<event type="" result="" target="" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="text02" x="355" y="103.2" width="395" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Tantrums usually start small with whining or looking frustrated, and then escalate into:&lt;LI&gt;Screaming and sobbing&lt;/LI&gt;&lt;LI&gt;Kicking and hitting&lt;/LI&gt;&lt;LI&gt;Throwing self on the floor&lt;/LI&gt;&lt;LI&gt;Holding breath&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="355" y="208.8" width="395" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Most children will have a temper tantrum at some point in time, and some will have more frequent and more intense tantrums than others. Tantrums often begin between 12 and 18 months, and are commonly seen in 2- and 3-year-olds. Tantrums can continue into the grade school years for some children.</content>
+		</text>
+		<text id="text04" x="355" y="300" width="395" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Factors that impact the frequency and intensity of tantrums include a child's:&lt;LI&gt;Temperament&lt;/LI&gt;&lt;LI&gt;Emotional development&lt;/LI&gt;&lt;LI&gt;Environment&lt;/LI&gt;&lt;LI&gt;Parental reaction&lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="355" y="60" width="395" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Key Messages:&lt;/B&gt;&lt;LI&gt;Tantrums are a normal part of a child’s development.&lt;/LI&gt;&lt;LI&gt;The way that children react to emotional situations is influenced by their developing brain.&lt;/LI&gt;&lt;LI&gt;The frequency and intensity of tantrums decreases as children grow older.&lt;/LI&gt;&lt;LI&gt;Children learn from their parents and caregivers how to effectively manage their emotions.&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="76856" startpos="1" play="false">07_01_01_010_01.jpg</file>
+			<notes id="description">istock File #:  4172646 or similar, angry crying child</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic03" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="84025">07_01_01_010_03.jpg</file>
+			<notes id="description">Child in a temper tantrum, istock 4176290 or similar</notes>
+		</graphic>
+		<graphic id="graphic04" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="53411" startpos="1" duration="156">a_07_01_01_010_01.swf</file>
+			<transcript translate="true">A temper tantrum is when a young child has an extreme behavioral reaction to overwhelming negative emotions. Tantrums occur because a child's emotions can be more powerful than their ability to manage them.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="74423" startpos="1" duration="217">a_07_01_01_010_02.swf</file>
+			<transcript translate="true">Tantrums usually start small with whining or looking frustrated, and then escalate into screaming and sobbing, kicking and hitting, throwing oneself on the floor, or holding the breath. Temper tantrums feel out of control to the child, and can be frightening to the child as well as to the child’s parent.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="74747" startpos="1" duration="218">a_07_01_01_010_03.swf</file>
+			<transcript translate="true">Most children will have a temper tantrum at some point in time, and some will have more frequent and more intense tantrums than others. Tantrums often begin between 12 and 18 months, and are commonly seen in 2- and 3-year-olds.  Tantrums can continue into the grade school years for some children.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" bytes="62899" startpos="1" duration="184">a_07_01_01_010_04.swf</file>
+			<transcript translate="true">Factors that impact the frequency and intensity of tantrums include a child's temperament, emotional development, the environment, and the parental reaction to the tantrum. All of these factors also influence how quickly a tantrum can be resolved.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" bytes="89511" startpos="1" duration="261">a_07_01_01_010_05.swf</file>
+			<transcript translate="true">The Key Messages for this section are that: Tantrums are a normal part of a child's development. The way that children react to emotional situations is influenced by their developing brain. The frequency and intensity of tantrums decreases as children grow older, and children learn from their parents and caregivers how to effectively manage their emotions.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text04" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text03" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+</template>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cache version="3.2">
+	<preload pages="1">
+		<file>flash/library_components.swf</file>
+		<file>flash/templates_03.swf</file>
+	</preload>
+		<!-- module01 -->
+	<page id="{2C629933-6B46-4837-BCA5-4274F3CA8AB7}">
+		<file>graphics/01_010_01.jpg</file>
+		<file>graphics/placeholder_mcoption.swf</file>
+		<file>audio/a_010_01.swf</file>
+		<file>audio/a_010_02.swf</file>
+		<file>audio/a_010_03.swf</file>
+		<file>audio/a_010_04.swf</file>
+		<file>audio/a_010_05.swf</file>
+		<file>audio/a_010_06.swf</file>
+		<file>audio/a_010_07.swf</file>
+		<file>audio/a_010_09.swf</file>
+		<file>audio/a_010_08.swf</file>
+	</page>
+	<page id="{ASSESSMENT}">
+		<file>flash/exam.swf</file>
+	</page>
+</cache>

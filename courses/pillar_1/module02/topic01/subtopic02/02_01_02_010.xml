@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="true"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+		<eventlist>
+			<event type="COMPLETION" result="PLAY" target="narration01" result_param=""/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Why Temperament Matters</content>
+	</text>
+	<text id="nav_text" x="275" y="425" width="500" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click the &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What IsTemperament?&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x5" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="51" width="660" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">It's important for parents to understand temperament because it has such an impact on their daily interactions with their children.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="476" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;photo&lt;/B&gt; to learn more about why temperament matters.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="202" y="122" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE"/>
+		<audio id="initial_audio">
+			<file play="true" bytes="42315" startpos="1" duration="124">a_02_01_02_010_01.swf</file>
+			<transcript translate="true">It's important for parents to understand temperament because it has such an impact on their daily interactions with their children. Click each photo to learn more about why temperament matters.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="list_items" align="TOP" spacing="0" autospace="false" columns="0" expanded="true">
+		<graphic id="link01" x="25" y="125" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="57693" play="false" startpos="1">02_01_02_010_01.jpg</file>
+			<notes id="description">parent and child under age 5 smiling at each other, as if they've come to an agreement</notes>
+			<eventlist>
+				<event type="CLICK" result="VISUAL_FX" target="ref_icon01" result_param="GRAPHIC_SHOW"/>
+			</eventlist>
+		</graphic>
+		<graphic id="link02" x="287" y="131" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="66449" play="false" startpos="1">02_01_02_010_02.jpg</file>
+			<notes id="description">parent frustrated at a child who is crying</notes>
+			<eventlist>
+				<event type="CLICK" result="VISUAL_FX" target="ref_icon02" result_param="GRAPHIC_SHOW"/>
+			</eventlist>
+		</graphic>
+		<graphic id="link03" x="540" y="128" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="55335" play="false" startpos="1">02_01_02_010_03.jpg</file>
+			<notes id="description">photo found in talaris photos&amp;gt;physical and brain&amp;gt; temperament&amp;gt; #124 2 yrs. Taylor - 63-10</notes>
+			<eventlist>
+				<event type="CLICK" result="VISUAL_FX" target="ref_icon03" result_param="GRAPHIC_SHOW"/>
+				<event type="CLICK" result="SHOW" target="nav_text" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true"/>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="swap_text01" x="25" y="320" width="206" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Understanding Temperament&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Parents who understand their own temperament and their child's temperament may be better able to accommodate their differences.&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text02" x="287" y="320" width="206" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Temperament and Parenting&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;A child's temperament can affect the way parents feel about themselves, which in turn influences future parenting.&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text03" x="540" y="320" width="204" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;High Reactivity Levels&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Experts suggest that high levels of reactivity in an infant can be predictive of increased anxiety levels in later childhood.&lt;/P&gt;</content>
+		</text>
+	</section>
+</template>

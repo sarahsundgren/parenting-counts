@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Why Teach Parents about Tantrums?</content>
+	</text>
+	<text id="nav_text" x="180" y="425" width="590" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Parents Can Do.&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="717" height="" autosize="H" style="DEFAULT" visible="false" fx="INTRO_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Caregivers are crucial in the development of a child’s emotional regulation skills, including their ability to find alternatives to tantrums.</content>
+		</text>
+		<text id="text02" x="315" y="95.2" width="391" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Research shows:&lt;LI&gt;Tantrums are typical in normally developing children. &lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="315" y="140.4" width="390" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Frequent or extreme tantrums can stress the parent-child relationship.&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="315" y="185.6" width="416" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Children who are tantrum prone prior to age 3 do not necessarily have more issues with emotional regulation when they are older. &lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="315" y="246.4" width="404" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Frequent, intense, and/or violent tantrums after age 3 may suggest a continuing struggle with emotional regulation that can put the child at greater risk for emotional and behavioral problems.&lt;/LI&gt;</content>
+		</text>
+		<text id="text06" x="315" y="322.8" width="415" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Preschool children are better at using behavioral strategies to replace tantrums.&lt;/LI&gt;</content>
+		</text>
+		<text id="text07" x="315" y="90" width="425" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Key Messages:&lt;/B&gt;&lt;LI&gt;Tantrums are common for nearly every child at some point in the first five years. Extreme or frequent tantrums can represent a significant parenting challenge. &lt;/LI&gt;&lt;LI&gt;Knowing a child’s temperament and triggers can help to reduce tantrums. &lt;/LI&gt;&lt;LI&gt;When a child has a tantrum, parents have to manage their own emotional reactions.&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="25" y="90" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="87722" play="false" startpos="1">07_02_01_010_01.jpg</file>
+			<notes id="description">Time Out  File #: 4176290</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="103" bytes="35199" startpos="1">a_07_02_01_010_01.swf</file>
+			<transcript translate="true">Caregivers are crucial in the development of a child's emotional regulation skills, including their ability to find alternatives to tantrums.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="89" bytes="30247" startpos="1">a_07_02_01_010_02.swf</file>
+			<transcript translate="true">Researchers who study children's development over time have found that tantrums are typical in normally developing children.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" duration="98" bytes="33475" startpos="1">a_07_02_01_010_03.swf</file>
+			<transcript translate="true">But even if they are considered a normal part of development, frequent or extreme tantrums can stress the parent-child relationship.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon02" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" duration="111" bytes="37791" startpos="1">a_07_02_01_010_04.swf</file>
+			<transcript translate="true">Research also shows that children who are tantrum prone prior to age 3 do not necessarily have more issues with emotional regulation when they are older.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon03" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration05">
+			<file play="false" duration="163" bytes="55783" startpos="1">a_07_02_01_010_05.swf</file>
+			<transcript translate="true">However, frequent, intense, and or violent tantrums after age three may suggest a continuing struggle with emotional regulation that can put the child at greater risk for emotional and behavioral problems.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon06" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration06">
+			<file play="false" duration="208" bytes="71195" startpos="1">a_07_02_01_010_06.swf</file>
+			<transcript translate="true">Finally, preschool children are better at using behavioral strategies to replace tantrums. For example, it is often easier for a preschool child to learn to walk away from an upsetting situation or to ask an adult to help than it is to think about his feelings while the situation is going on.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon05" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration07">
+			<file play="false" startpos="1" bytes="95979" duration="280">a_07_02_01_010_07.swf</file>
+			<transcript translate="true">The Key Messages for this section are that tantrums are common for nearly every child at some point in the first five years. Extreme or frequent tantrums can represent a significant parenting challenge. Additionally, knowing a child's temperament and triggers can help to reduce tantrums. Finally, when a child has a tantrum, parents have to manage their own emotional reactions.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text03" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text04" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text05" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text06" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="ref_icon02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="ref_icon03" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="ref_icon06" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="ref_icon05" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="681" y="111" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon02" x="462" y="156" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon03" x="480" y="218" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon04" x="180" y="66" width="15" height="15" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference04" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon05" x="478" y="339" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference05" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon06" x="482" y="293" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference06" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Denham, S. A. (1998). &lt;I&gt;Emotional development in young children. &lt;/I&gt;New York, NY: The Guilford Press.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text02" x="20" y="50" width="445" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Stormshak, E., Bierman, K., McMahon, R., &amp; Lengua, L. (2000). Parenting practices and child disruptive behavior problems in early elementary school. &lt;I&gt;Journal of Clinical Child Psychology, 29(1),&lt;/I&gt; 17-30.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference03" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text03" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Koch, E. (2003). Reflections on a study of temper tantrums in older children. &lt;I&gt;Psychoanalytic Psychology, 20(3),&lt;/I&gt; 456-471.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference04" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text04" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Thompson, R.A. (1994). Emotion regulation: A theme in search of definition. In M.A. Fox (Ed.), The development of emotion regulation: Biological and behavioral considerations&lt;I&gt;.&lt;/I&gt; &lt;I&gt;Monographs of the Society for Research in Child Development, 59&lt;/I&gt;(2-3 Serial no. 240), 25-52.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference05" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text05" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Fabes, R. A. &amp; Eisenberg, N. (1992). Young children’s coping with interpersonal anger. &lt;I&gt;Child Development, 63,&lt;/I&gt; 116-128.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference06" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text03" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Kann, R. T. &amp; Hanna, F. J. (2000). Disruptive behavior disorders in children and adolescents. &lt;I&gt;Journal of Counseling &amp; Development, 78&lt;/I&gt;(4)&lt;I&gt;,&lt;/I&gt; 267-274.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

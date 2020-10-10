@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_cube" view="view_cube_autospin">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programming-options"/>
+		<notes id="search-terms"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="showNavPrompt" datatype="LIST" value="DEFAULT"/>
+		<settings id="showIntroSpin" datatype="LIST" value="DEFAULT"/>
+		<settings id="autoSpin" datatype="LIST" value="TRUE"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+		<settings id="transcriptBehavior" datatype="LIST" value="DEFAULT"/>
+		<settings id="disableNext" datatype="LIST" value="DEFAULT"/>
+		<settings id="disableBack" datatype="LIST" value="DEFAULT"/>
+		<settings id="disableReplay" datatype="LIST" value="DEFAULT"/>
+		<settings id="disableMenu" datatype="LIST" value="DEFAULT"/>
+		<eventlist>
+			<event type="INIT" result="CALL_FUNCTION" target="SHELL" result_param="loadPageNote(input);"/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Assessing Your Teaching Style</content>
+	</text>
+	<text id="nav_text" x="35" y="425" width="735" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson &lt;/B&gt;or&lt;B&gt; Activity&lt;/B&gt; to learn more about &lt;B&gt;Preparing to Teach&lt;/B&gt;.</content>
+	</text>
+	<graphic id="cube_shadow" x="0" y="330" width="367.15" height="" style="DEFAULT" visible="true" fx="SHOW" hidefx="HIDE">
+		<file start_frame="1" play="false" bytes="5361" duration="1">placeholder_cube_dropshadow.swf</file>
+	</graphic>
+	<section id="cube_sides" expanded="true">
+		<container id="side01" behavior="STRICT|LOCK_SIZE" x="55" y="70" visible="true" fx="SHOW" hidefx="HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="LINK_3" visible="true">
+				<file start_frame="1" play="false" bytes="72452">05_01_01_010_01.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Female teacher standing at blackboard, thinking  File #: 13279212&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="0" y="160" width="200" height="" autosize="H" style="SIDE" visible="true">
+				<content/>
+			</text>
+		</container>
+		<container id="side02" behavior="STRICT|LOCK_SIZE" x="55" y="70" visible="true" fx="SHOW" hidefx="HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="LINK_3" visible="true">
+				<file start_frame="1" play="false" bytes="71243">05_01_01_010_02.png</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;adult education File #: 11110268&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="0" y="160" width="200" height="" autosize="H" style="SIDE" visible="true">
+				<content/>
+			</text>
+		</container>
+		<container id="side03" behavior="STRICT|LOCK_SIZE" x="55" y="70" visible="true" fx="SHOW" hidefx="HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="LINK_3" visible="true">
+				<file start_frame="1" play="false" bytes="100144">05_01_01_010_03.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Teacher and Student  File #: 7294182&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="0" y="160" width="200" height="" autosize="H" style="SIDE" visible="true">
+				<content/>
+			</text>
+		</container>
+		<container id="side04" behavior="STRICT|LOCK_SIZE" x="55" y="70" visible="true" fx="SHOW" hidefx="HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="LINK_3" visible="true">
+				<file start_frame="1" play="false" bytes="104683">05_01_01_010_04.png</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;group study  File #: 4737163&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="0" y="160" width="200" height="" autosize="H" style="SIDE" visible="true">
+				<content/>
+			</text>
+		</container>
+		<container id="side05" behavior="STRICT|LOCK_SIZE" x="55" y="70" visible="true" fx="SHOW" hidefx="HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="LINK_3" visible="true">
+				<file start_frame="1" play="false" bytes="91353">05_01_01_010_05.png</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt; Group discussion File #: 14695476&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="0" y="160" width="200" height="" autosize="H" style="SIDE" visible="true">
+				<content/>
+			</text>
+		</container>
+		<container id="side06" behavior="STRICT|LOCK_SIZE" x="55" y="70" visible="true" fx="SHOW" hidefx="HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="LINK_3" visible="true">
+				<file start_frame="1" play="false" bytes="66848">05_01_01_010_06.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Thoughtful adult student with folder and pen  File #: 9544506&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="0" y="160" width="200" height="" autosize="H" style="SIDE" visible="true">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="swap_text01" x="350" y="70" width="415" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;When preparing to teach, consider:&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;LI&gt;Learners' prior knowledge&lt;/LI&gt;&lt;LI&gt;Adult learning principles&lt;/LI&gt;&lt;LI&gt;Group dynamics&lt;/LI&gt;</content>
+		</text>
+		<text id="swap_text02" x="350" y="162" width="250" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Consider your personal teaching style:&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;P ALIGN="LEFT"&gt;1. Do you usually work with adults?&lt;/P&gt;&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="swap_text03" x="350" y="210" width="342" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="16"&gt;2. Do you usually work with children?&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="swap_text04" x="350" y="227" width="272" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="16"&gt;3. How do you like to learn?&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="swap_text05" x="350" y="245" width="300" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="16"&gt;4. What is your preferred teaching method?&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="swap_text06" x="350" y="275" width="400" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">By understanding your preferred teaching style, you can better adapt your teaching strategies to match your strengths.</content>
+		</text>
+	</section>
+	<section id="swap_audio" expanded="true">
+		<audio id="swap_audio01">
+			<file start_frame="1" play="false" duration="206" bytes="70547">a_05_01_01_010_01.swf</file>
+			<transcript translate="true">When preparing to teach parents, educators should consider learners' prior knowledge, adult learning principles, and group dynamics. As you get started, consider your own skill set and recognize how you might need to add to your teaching repertoire. Ask yourself the following questions:</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="swap_audio02">
+			<file start_frame="1" play="false" duration="33" bytes="11063">a_05_01_01_010_02.swf</file>
+			<transcript translate="true">1. Do you usually work with adults?</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="swap_audio03">
+			<file start_frame="1" play="false" duration="29" bytes="9767">a_05_01_01_010_03.swf</file>
+			<transcript translate="true">2. Do you usually work with children?</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="swap_audio04">
+			<file start_frame="1" play="false" duration="66" bytes="22483">a_05_01_01_010_04.swf</file>
+			<transcript translate="true">3. How do you like to learn? (through listening, reading, doing, or a combination?)</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="swap_audio05">
+			<file start_frame="1" play="false" duration="88" bytes="30027">a_05_01_01_010_05.swf</file>
+			<transcript translate="true">4. What is your preferred teaching method? (lecture, discussion, group activities, or self-directed projects?)</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="swap_audio06">
+			<file start_frame="1" play="false" duration="148" bytes="50507">a_05_01_01_010_06.swf</file>
+			<transcript translate="true">By understanding your preferred teaching style, you can better adapt your teaching strategies to match your strengths. Take a moment to record your thoughts regarding your own personal teaching style. Then click Save.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="input" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="submit" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="94" width="600" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<input id="input" name="answer01" x="350" y="314" width="400" height="105" maxchars="1000" password="false" multiline="true" focus="true" restrict="" style="TEXT_ENTRY" visible="false" fx="TEXT_SHOW" case="M" hidefx="GRAPHIC_HIDE">
+			<content/>
+		</input>
+	</section>
+	<section id="buttons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="submit" behavior="STRICT|LOCK_SIZE" x="642" y="420" visible="false" fx="SUBMIT_SHOW" hidefx="SUBMIT_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SUBMIT" visible="true">
+				<file play="false" bytes="2583" duration="35" start_frame="1">std_control.swf</file>
+			</graphic>
+			<text id="text" x="8" y="8" width="101" height="18" autosize="" style="CONTROLS" visible="true">
+				<content translate="true">Save</content>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="CONTENT_COMPLETE" target="" result_param=""/>
+				<event type="CLICK" result="HIDE" target="submit" result_param=""/>
+				<event type="CLICK" result="SHOW" target="nav_text" result_param=""/>
+				<event type="CLICK" result="CALL_FUNCTION" target="SHELL" result_param="savePageNote(input);"/>
+			</eventlist>
+		</container>
+	</section>
+</template>

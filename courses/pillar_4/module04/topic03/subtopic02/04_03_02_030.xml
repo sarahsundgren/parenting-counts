@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_cascade" view="view_cascade_right">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="forceFirstPanel" datatype="LIST" value="ANIMATE"/>
+		<settings id="panelDirection" datatype="LIST" value="REVERSE"/>
+		<settings id="disablePanels" datatype="LIST" value="DEFAULT"/>
+		<settings id="useControls" datatype="LIST" value="ALWAYS_VISIBLE"/>
+		<settings id="setComplete" datatype="LIST" value="ON_ALL_PANELS_VISITED"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Writing at Age 5</content>
+	</text>
+	<text id="nav_text" x="35" y="425" width="735" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Reading and Writing&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="710" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Children's writing continues to develop rapidly during the kindergarten year. Just as children's reading acquisition does not occur in a linear path, children's writing skills also reflect an overlapping development.</content>
+		</text>
+		<text id="directions" x="" y="" width="300" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click the &lt;B&gt;Forward&lt;/B&gt; button to begin the activity.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<audio id="initial_audio">
+			<file start_frame="1" play="true" bytes="60099" duration="176">a_04_03_02_030_01.swf</file>
+			<transcript translate="true">Children's writing continues to develop rapidly during the kindergarten year. Just as children's reading acquisition does not occur in a linear path, children's writing skills also reflect an overlapping development. Click the forward button to begin the activity.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<graphic id="initial_graphic" behavior="" x="420" y="100" width="" height="" style="DEFAULT" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE">
+		<file start_frame="1" play="false" bytes="108438">04_03_02_030_01.jpg</file>
+		<notes id="description">We Miss you Daddy  istock#: 10739596</notes>
+	</graphic>
+	<section id="dev_assets" expanded="true">
+		<area id="vanish_point" behavior="LOCK_SIZE" x="298" y="134" width="24" height="24" visible="false" fx=""/>
+	</section>
+	<section id="progress_markers" align="TOP" spacing="15x0" autospace="true" exclusive="false" expanded="true">
+		<graphic id="marker01" x="498" y="410" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file start_frame="1" play="false" bytes="1615" placeholder="true" duration="30">progress_dot.swf</file>
+		</graphic>
+		<graphic id="marker02" x="" y="" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file start_frame="1" play="false" bytes="1615" placeholder="true" duration="30">progress_dot.swf</file>
+		</graphic>
+		<graphic id="marker03" x="" y="" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file start_frame="1" play="false" bytes="1615" placeholder="true" duration="30">progress_dot.swf</file>
+		</graphic>
+		<graphic id="marker04" x="" y="" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file start_frame="1" play="false" bytes="1615" placeholder="true" duration="30">progress_dot.swf</file>
+		</graphic>
+		<graphic id="marker05" x="" y="" width="" height="" style="PROGRESS_DOT" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file start_frame="1" play="false" bytes="1615" placeholder="true" duration="30">progress_dot.swf</file>
+		</graphic>
+	</section>
+	<section id="panels" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="panel01" behavior="" x="420" y="175" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="300" height="225" style="GRAPHIC" visible="true" fx="">
+				<file start_frame="1" play="false" bytes="76466">01_04_01_011_02.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Would be nice to get actual handwriting samples to show this.&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel02" behavior="" x="396" y="155" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="300" height="225" style="GRAPHIC" visible="true" fx="">
+				<file start_frame="1" play="false" bytes="62692">01_04_01_011_03.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;would be great to show an example of invented spelling&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel03" behavior="" x="371" y="148" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="300" height="225" style="GRAPHIC" visible="true" fx="">
+				<file start_frame="1" play="false" bytes="82315">01_04_01_011_04.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Asian girl drawing istock #: 9032482&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel04" behavior="STRICT|LOCK_XY|LOCK_SIZE" x="" y="" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="300" height="225" style="GRAPHIC" visible="true">
+				<file start_frame="1" play="false" bytes="57911">01_04_01_011_05.jpg</file>
+				<notes id="description">child's hands writing: istock# 5616999
+</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true">
+				<content/>
+			</text>
+		</container>
+		<container id="panel05" behavior="STRICT|LOCK_XY|LOCK_SIZE" x="" y="" visible="false" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="GRAPHIC" visible="true">
+				<file start_frame="1" play="false" bytes="92842">01_04_01_011_06.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;curly hair girl holding a crayon: istock #: 1000539&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="0" y="0" width="200" height="" autosize="H" style="PANEL" visible="true">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="swap_text" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="swap_text01" x="25" y="200" width="352" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<text id="swap_text01" x="0" y="0" width="346" height="" autosize="H" style="SWAP" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="16"&gt;&lt;B&gt;Strings of Letters&lt;/B&gt;&lt;/FONT&gt;&lt;FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Children use a variety of writing forms, but they typically add random letter strings to their repertoire; in effect, they create strings of letters for their written messages without regard for the sounds represented by the letters.&lt;/P&gt;</content>
+			</text>
+			<graphic id="ref_icon01" x="87" y="81" width="15" height="15" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+				<file bytes="1716" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+		<container id="swap_text02" x="" y="" width="350" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<text id="swap_text02" x="0" y="0" width="350" height="" autosize="H" style="SWAP" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="16"&gt;&lt;B&gt;Invented Spellings&lt;/B&gt;&lt;/FONT&gt;&lt;FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;At this age, children plan their writing and are able to discuss their plans with others. If allowed, they begin to use invented spelling (phonetic spelling). Invented spelling typically represents the most dominant sounds in a word, such as the beginning and ending sounds. &lt;/P&gt;</content>
+			</text>
+			<graphic id="ref_icon02" x="330" y="81" width="15" height="15" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+				<file bytes="1716" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+		<container id="swap_text03" x="" y="" width="350" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<text id="swap_text03" x="0" y="0" width="350" height="" autosize="H" style="SWAP" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="16"&gt;&lt;B&gt;Using Pictures to Reread&lt;/B&gt;&lt;/FONT&gt;&lt;FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Even though children begin applying phonetic knowledge to create invented spellings, there is a lapse in time before they use phonetic clues to read what they write. Often children will try to recall what has been written or will use a picture created with the text to reread instead of using the letter clues. &lt;/P&gt;</content>
+			</text>
+			<graphic id="ref_icon03" x="248" y="97" width="15" height="15" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+				<file bytes="1716" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference03" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+		<container id="swap_text04" x="" y="" width="352" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<text id="swap_text04" x="0" y="0" width="352" height="" autosize="H" style="SWAP" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="16"&gt;&lt;B&gt;A Variety of Strategies&lt;/B&gt;&lt;/FONT&gt;&lt;FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;It is interesting to note that once children start to use invented spelling, they do not use it equally for all writing tasks. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;In one study, researchers observed children employing writing forms typical of earlier literacy development when asked to engage in more extended writing tasks. The children typically used invented spelling to represent single words or short phrases, but they reverted to less mature forms of writing when required to create more complex pieces. &lt;/P&gt;</content>
+			</text>
+			<graphic id="ref_icon04" x="200" y="174" width="15" height="15" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+				<file bytes="1716" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference04" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+		<container id="swap_text05" x="" y="" width="339" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<text id="swap_text05" x="0" y="0" width="339" height="" autosize="H" style="SWAP" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="16"&gt;&lt;B&gt;Combining Many Skills&lt;/B&gt;&lt;/FONT&gt;&lt;FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;It is important to note that learning to write asks children to use multiple physical and mental processes in one effort. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Writing combines many skills and relies on development in areas not specific to writing. It requires fine motor skills (or the ability to use muscles in the fingers and hands); attention to focus for periods of time; memory to generate ideas and retrieve letters and appropriate words; and language to be able to express themselves. &lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="buttons" align="" spacing="0" autospace="false" exclusive="false" expanded="true">
+		<container id="start_button" behavior="STRICT|LOCK_SIZE" x="150" y="160" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="116" height="32" style="CONTROLS" visible="true">
+				<file start_frame="1" play="false" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="85" y="10" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="212">right_arrow.png</file>
+			</graphic>
+			<text id="text" x="25" y="7" width="88" height="18" autosize="" style="DEFAULT" visible="true">
+				<content translate="true">Forward</content>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="initial_graphic" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="reverse_button" behavior="STRICT|LOCK_SIZE" x="25" y="160" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="35" y="10" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="223">left_arrow.png</file>
+			</graphic>
+			<text id="text" x="45" y="8" width="89" height="18" autosize="" style="DEFAULT" visible="true">
+				<content translate="true">Back</content>
+			</text>
+		</container>
+		<container id="forward_button" behavior="STRICT|LOCK_SIZE" x="150" y="160" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="85" y="10" width="" height="" style="CONTROLS" visible="true">
+				<file play="false" startpos="1" bytes="212">right_arrow.png</file>
+			</graphic>
+			<text id="text" x="25" y="7" width="88" height="18" autosize="" style="DEFAULT" visible="true">
+				<content translate="true">Forward</content>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="initial_graphic" result_param=""/>
+			</eventlist>
+		</container>
+	</section>
+	<section id="swap_audio" expanded="true"/>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="30" width="443" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Sulzby, E. (1989). Assessment of writing and children's language while writing. In L. Morrow &amp; J. Smith (Eds.), &lt;I&gt;The role of assessment and measurement in early literacy instruction &lt;/I&gt;(pp. 83-109). Englewood Cliffs, NJ: Prentice-Hall.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Sulzby, E., Barnhart, J., &amp; Hieshima, J. (1989). Forms of writing and rereading from writing: &lt;I&gt;A preliminary report&lt;/I&gt; (Technical Report No. 20). Berkeley, CA: University of California, Center for the Study of Writing.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="255" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="520" height="210" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="435" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="490" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Gentry, R. (1982). &lt;I&gt;Spel is a four letter word&lt;/I&gt;. Portsmouth, NH: Heinemann.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;McGee, L. M., &amp; Richgels, D. J. (1996). &lt;I&gt;Literacy's beginnings: Supporting young readers and writers&lt;/I&gt; (Second Edition). Needham, MA: Allyn and Bacon.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Snow, C. E., Burns, M. S., &amp; Griffin, P. (1998). &lt;I&gt;Preventing reading difficulties in young children&lt;/I&gt;. Washington, DC: National Academy Press.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference03" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="452" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Kamberelis, G., &amp; Sulzby, E. (1988). Transitional knowledge in emergent literacy. &lt;I&gt;National Reading Conference Yearbook, 37&lt;/I&gt;, 95-106.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Snow, C. E., Burns, M. S., &amp; Griffin, P. (1998). &lt;I&gt;Preventing reading difficulties in young children.&lt;/I&gt; Washington, DC: National Academy Press.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference04" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Sulzby, E., Barnhart, J., &amp; Hieshima, J. (1989). Forms of writing and rereading from writing: &lt;I&gt;A preliminary report &lt;/I&gt;(Technical Report No. 20). Berkeley, CA: University of California, Center for the Study of Writing.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

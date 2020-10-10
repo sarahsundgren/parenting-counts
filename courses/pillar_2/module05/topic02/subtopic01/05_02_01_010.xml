@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Why Praise Matters</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Why Praise Matters&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x8" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="370" y="60" width="386" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Praise is important because it helps encourage a child to complete a task or accomplish a goal.</content>
+		</text>
+		<text id="text02" x="385" y="110" width="377" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Encouragement is the process of focusing on your child's assets and strengths in order to build their self-confidence and feelings of worth.</content>
+		</text>
+		<text id="text03" x="385" y="155" width="375" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Children want to please their parents, so praise can be a powerful reward. </content>
+		</text>
+		<text id="text04" x="385" y="275" width="401" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">If praise is over-used or used insincerely, it can damage the bond of trust between parent and child as well as alter the child's sense of self.</content>
+		</text>
+		<text id="text05" x="385" y="275" width="349" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Key Message&lt;/B&gt;: &lt;LI&gt;Praise helps encourage behavior when trying new things.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="79374" startpos="1" play="false">05_02_01_010_01.jpg</file>
+			<notes id="description">happy child</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic03" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="82319">05_02_01_010_02.jpg</file>
+			<notes id="description">mother talking to child photo found in talaris  photos&amp;gt; used&amp;gt;social and emotional&amp;gt; discipline    #44 Language &amp; Communication Master Trevion - 19-37</notes>
+		</graphic>
+		<graphic id="graphic04" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic05" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="102869">05_02_01_010_03.jpg</file>
+			<notes id="description">child sitting on mothers lap photo found in talaris photos&amp;gt; used&amp;gt; social and emotional&amp;gt; discipline   #201 3 yrs. Trystan - 16-11</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="24323" startpos="1" duration="72">a_05_02_01_010_01.swf</file>
+			<transcript translate="true">Praise is important because it helps encourage a child to complete a task or accomplish a goal.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="50831" startpos="1" duration="149">a_05_02_01_010_02.swf</file>
+			<transcript translate="true">What is encouragement? It is the process of focusing on your child's assets and strengths in order to build their self-confidence and feelings of worth. In simple terms, it is helping your child feel supported.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="49315" startpos="1" duration="144">a_05_02_01_010_03.swf</file>
+			<transcript translate="true">Children want to please their parents, so praise can be a powerful reward. Many experts believe that praise gives a child a deep feeling that he or she is worthwhile, loved, and a good person. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" bytes="84339" startpos="1" duration="246">a_05_02_01_010_04.swf</file>
+			<transcript translate="true">Using praise as a parenting technique can also be tricky. If it is over-used or used insincerely, it can damage the bond of trust between parent and child as well as alter the child's sense of self. But when praise is used effectively, it helps children regulate their behaviors and helps encourage self-esteem and a healthy sense of self.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon02" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration05">
+			<file play="false" bytes="36923" startpos="1" duration="108">a_05_02_01_010_05.swf</file>
+			<transcript translate="true">Before we begin, let's take a look at the Key Message for this section. It is that: Praise helps encourage behavior when trying new things.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="477" y="177" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Honig, A. S. (2010). &lt;I&gt;Little kids, big worries: Stress and young children: Stress-busting tips for early childhood classrooms.&lt;/I&gt; Baltimore, MD: Paul H. Brookes Publishing.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

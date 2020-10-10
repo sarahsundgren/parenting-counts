@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Developmental Learning</content>
+	</text>
+	<text id="nav_text" x="50" y="425" width="725" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Learning and Cognitive Milestones&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="361" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Learning is an individual process. Every child reaches their developmental milestones at their own pace and in their own way. </content>
+		</text>
+		<text id="text02" x="72" y="80" width="353" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Module themes:&lt;LI&gt;New skills can only be built on top of other skills.&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="93" y="127" width="375" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Development can't be pushed ahead, but it is important to support it.&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="93" y="127" width="367" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Parents need to be actively engaged in their child’s learning, but need to recognize that the child will learn more when they feel supported and secure.&lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="93" y="127" width="396" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Professionals should help parents to be aware of the milestones and support the child in their development.</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="421" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="90239" startpos="1" play="true">01_03_02_010_01.jpg</file>
+			<notes id="description">#5 Cognitive &amp; Learning Master 4 yrs. Luisa - 15-34 from Learning and Cognition folder</notes>
+		</graphic>
+		<graphic id="graphic02" x="420" y="90" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="90239" startpos="1" play="false">01_03_02_010_01.jpg</file>
+			<notes id="description">WK1O2371 (toddler girl sitting on a little bike/car) from play folder inside learning and cognition folder</notes>
+		</graphic>
+		<graphic id="graphic03" x="420" y="90" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="64705" startpos="1" play="false">01_03_02_010_03.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;#188 2 yrs. Hayley - 29-34 from Learning and Cognition folder&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic04" x="420" y="90" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="82052" startpos="1" play="false">01_03_02_010_04.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;Max with Dad from learning and cognition folder&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic05" x="420" y="90" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="68654" startpos="1" play="false">01_03_02_010_05.jpg</file>
+			<notes id="description">professional educator speaking to parent</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="93" bytes="31647" startpos="1">a_01_03_02_011_01.swf</file>
+			<transcript translate="true">Learning is an individual process. Every child reaches their developmental milestones at their own pace and in their own way.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="124" bytes="42211" startpos="1">a_01_03_02_011_02.swf</file>
+			<transcript translate="true">The Pillar 3 modules consider the following themes: First, just as knowledge builds on prior knowledge, new skills can only be built on top of other skills.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" duration="270" bytes="92323" startpos="1">a_01_03_02_011_03.swf</file>
+			<transcript translate="true">Second, research shows that you can't push development ahead, but it is important to support it. For example, some preschoolers are not interested in learning about letters and numbers. Trying to push the child towards an activity in which they are not interested can cause frustration and future challenges. Parents should strive to find a natural and relaxed way to introduce their child to new things. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" duration="199" bytes="67967" startpos="1">a_01_03_02_011_04.swf</file>
+			<transcript translate="true">Finally, parents need to be actively engaged in their child's learning, but they also need to recognize that the child will learn more when they feel supported and secure. This can be a source of frustration for many parents who expect their child to achieve a specific task or who compare one child to another.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" duration="71" bytes="24103" startpos="1">a_01_03_02_011_05.swf</file>
+			<transcript translate="true">Professionals should help parents to be aware of the milestones and support the child in their development.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="16" y="263" width="222" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+	</section>
+</template>

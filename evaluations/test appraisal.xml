@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<evaluationForm scored="false">
+
+	<title>Parenting Counts Professional Program PRE-TEST Evaluation Questions</title>
+	<description></description>
+
+	<category id="a" title="Physical Pillar">
+		<responseColumn>1</responseColumn>
+		<responseColumn>2</responseColumn>
+		<responseColumn>3</responseColumn>
+	
+		<question id="questionA_1" responseType="multiple_choice" importColumn="" required="true">
+			<text>1.	Genetics, environment, and relationships all determine how the brain will develop in the first three years of life. </text>
+			<choices>
+				<choice weight="0">0</choice>
+				<choice weight="0">0</choice>
+				<choice weight="0">0</choice>
+			</choices>
+		</question>
+		
+		<question id="questionA_2" responseType="multiple_choice" importColumn="" required="true">
+			<text>2.	Emotions, cognition, and language develop independently of each other.</text>
+			<choices>
+        <choice weight="2">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+			</choices>
+		</question>
+
+		<question id="questionA_3" responseType="multiple_choice" importColumn="" required="true">
+			<text>3.	A newborn baby who cries and gets upset easily may have learned to manipulate her parent.</text>
+			<choices>
+        <choice weight="2">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+			</choices>
+		</question>
+
+		<question id="questionA_4" responseType="multiple_choice" importColumn="" required="true">
+			<text>4.	A child is born with a temperament that is based on his or her biology.</text>
+			<choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+			</choices>
+		</question>
+
+		<question id="questionA_5" responseType="multiple_choice" importColumn="" required="true">
+			<text>5.	The best way for parents to react to their child’s unique temperament is to understand and support it, not to try to change it.</text>
+			<choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+			</choices>
+		</question>
+
+		<question id="questionA_6" responseType="multiple_choice" importColumn="" required="true">
+			<text>6.	The ability to self-regulate increases as children get older.</text>
+			<choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+			</choices>
+		</question>
+
+		<question id="questionA_7" responseType="multiple_choice" importColumn="" required="true">
+			<text>7.	"Stress" is the way an individual responds physically to stressors in their environment. What causes stress varies for different people.</text>
+			<choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+			</choices>
+		</question>
+
+		<question id="questionA_8" responseType="multiple_choice" importColumn="" required="true">
+			<text>8.	Infants are too young to experience stress.</text>
+			<choices>
+        <choice weight="2">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+			</choices>
+		</question>
+
+		<question id="questionA_9" responseType="multiple_choice" importColumn="" required="true">
+			<text>9.	Some stress is normal or even positive, while other stress is "toxic".</text>
+			<choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+			</choices>
+		</question>
+
+		<question id="questionA_10" responseType="multiple_choice" importColumn="" required="true">
+			<text>10.	Children learn to manage stress from their parents and caregivers.</text>
+			<choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+			</choices>
+		</question>
+
+		<question id="questionA_11" responseType="multiple_choice" importColumn="" required="true">
+			<text>11.	In my interactions with parents I talk about brain development.</text>
+			<choices>
+				<choice weight="0">1</choice>
+				<choice weight="0">2</choice>
+				<choice weight="0">3</choice>
+				<choice weight="0">4</choice>
+				<choice weight="0">5</choice>
+			</choices>
+		</question>
+
+		<question id="questionA_12" responseType="multiple_choice" importColumn="" required="true">
+			<text>12.	In my interactions with parents I talk about temperament.</text>
+			<choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+			</choices>
+		</question>
+
+		<question id="questionA_13" responseType="multiple_choice" importColumn="" required="true">
+			<text>13.	In my interactions with parents I talk about stress.</text>
+			<choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+			</choices>
+		</question>
+
+    <question id="questionA_14" responseType="multiple_choice" importColumn="" required="true">
+      <text>14.	I am comfortable helping or referring a parent for help when the stressors in their life are impacting their parenting.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+		<question id="questionA_15" responseType="multiple_choice" importColumn="" required="true">
+			<text>15.	I feel confident talking to parents about physical and brain development.</text>
+			<choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+			</choices>
+		</question>
+
+	</category>
+  
+  <!-- ///////////////////////////////////////////////////////////////// -->
+  
+  <category id="b" title="Social Emotional Development">
+    <responseColumn>1</responseColumn>
+    <responseColumn>2</responseColumn>
+    <responseColumn>3</responseColumn>
+    <responseColumn>4</responseColumn>
+    <responseColumn>5</responseColumn>
+
+    <question id="questionB_1" responseType="multiple_choice" importColumn="" required="true">
+      <text>1.	Parents can help their baby learn to self-regulate by letting him cry until he stops on his own.</text>
+      <choices>
+        <choice weight="3">1</choice>
+        <choice weight="2">2</choice>
+        <choice weight="1">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionB_2" responseType="multiple_choice" importColumn="" required="true">
+      <text>2.	Toddlers cannot deliberately control their emotional reactions the way an older child or adult can.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionB_3" responseType="multiple_choice" importColumn="" required="true">
+      <text>3.	Social and emotional development starts at birth.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionB_4" responseType="multiple_choice" importColumn="" required="true">
+      <text>4.	Attachment starts to develop after 6-months of age.</text>
+      <choices>
+        <choice weight="3">1</choice>
+        <choice weight="2">2</choice>
+        <choice weight="1">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionB_5" responseType="multiple_choice" importColumn="" required="true">
+      <text>5.	A baby forms a secure attachment to her caregiver by having her needs are met consistently and sensitively.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionB_6" responseType="multiple_choice" importColumn="" required="true">
+      <text>6.	Once a baby forms a secure attachment to a caregiver, he can’t become attached to anyone else.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionB_7" responseType="multiple_choice" importColumn="" required="true">
+      <text>7.	Attunement is a parent’s awareness of their child’s non-verbal expressions of emotions and needs.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionB_8" responseType="multiple_choice" importColumn="" required="true">
+      <text>8.	Young children  learn to manage their emotions by being corrected when they react inappropriately.</text>
+      <choices>
+        <choice weight="3">1</choice>
+        <choice weight="2">2</choice>
+        <choice weight="1">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionB_9" responseType="multiple_choice" importColumn="" required="true">
+      <text>9.	The five steps of emotion coaching are: Be aware of emotions, Connect with your child, Listen to your child, Name emotions, and Find solutions.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionB_10" responseType="multiple_choice" importColumn="" required="true">
+      <text>10.	It is helpful to tell a young child which emotions are OK and which emotions are not OK.</text>
+      <choices>
+        <choice weight="3">1</choice>
+        <choice weight="2">2</choice>
+        <choice weight="1">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionB_11" responseType="multiple_choice" importColumn="" required="true">
+      <text>11.	Frequently telling a child they are the smartest and best helps to build their self-esteem.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionB_12" responseType="multiple_choice" importColumn="" required="true">
+      <text>12.	Discipline means punishing bad behavior.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionB_13" responseType="multiple_choice" importColumn="" required="true">
+      <text>13.	In my interactions with parents I talk about secure attachment.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionB_14" responseType="multiple_choice" importColumn="" required="true">
+      <text>14.	I feel confident coaching parents about temper tantrums and discipline.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionB_15" responseType="multiple_choice" importColumn="" required="true">
+      <text>15.	In my interactions with parents I encourage praising a child for their efforts.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionB_16" responseType="multiple_choice" importColumn="" required="true">
+      <text>16.	In my interactions with parents I talk about emotion coaching.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionB_17" responseType="multiple_choice" importColumn="" required="true">
+      <text>17.	 I feel confident talking to parents about social and emotional development.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+  </category>
+
+  <!-- ///////////////////////////////////////////////////////////////// -->
+
+  <category id="c" title="Learning and Cognitive Development">
+    <responseColumn>1</responseColumn>
+    <responseColumn>2</responseColumn>
+    <responseColumn>3</responseColumn>
+    <responseColumn>4</responseColumn>
+    <responseColumn>5</responseColumn>
+
+    <question id="questionC_1" responseType="multiple_choice" importColumn="" required="true">
+      <text>1.	A parent can support cognitive development by supporting their child’s secure attachment.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionC_2" responseType="multiple_choice" importColumn="" required="true">
+      <text>2.	New learning builds on prior learning.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionC_3" responseType="multiple_choice" importColumn="" required="true">
+      <text>3.	Infants are not affected by what happens around them because they can’t remember it.</text>
+      <choices>
+        <choice weight="3">1</choice>
+        <choice weight="2">2</choice>
+        <choice weight="1">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionC_4" responseType="multiple_choice" importColumn="" required="true">
+      <text>4.	Sounds, smells, emotions, and feeling safe or unsafe are part of how memories are encoded in early childhood.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionC_5" responseType="multiple_choice" importColumn="" required="true">
+      <text>5.	Children learn best by interacting with other people.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionC_6" responseType="multiple_choice" importColumn="" required="true">
+      <text>6.	Researchers believe that a class of neuron in the brain called “mirror neurons” may play an important role in early imitation.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionC_7" responseType="multiple_choice" importColumn="" required="true">
+      <text>7.	If a toddler is repeating the same activity over and over (like filling and emptying a container) they should be moved to a new activity.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionC_8" responseType="multiple_choice" importColumn="" required="true">
+      <text>8.	Infants and young children use exploration and all of their senses as ways to learn.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionC_9" responseType="multiple_choice" importColumn="" required="true">
+      <text>9.	Teaching colors, letters, and other academic skills early is the best way to get a child ready for kindergarten.</text>
+      <choices>
+        <choice weight="3">1</choice>
+        <choice weight="2">2</choice>
+        <choice weight="1">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionC_10" responseType="multiple_choice" importColumn="" required="true">
+      <text>10.	Back-and-forth interactions with infants help them learn about language, relationships, and emotions.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionC_11" responseType="multiple_choice" importColumn="" required="true">
+      <text>11.	Instructional television or DVD’s are a good way to help an infant or toddler learn language and reading.</text>
+      <choices>
+        <choice weight="3">1</choice>
+        <choice weight="2">2</choice>
+        <choice weight="1">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionC_12" responseType="multiple_choice" importColumn="" required="true">
+      <text>12.	An 18-month old can be expected to share his or her toys during play.</text>
+      <choices>
+        <choice weight="3">1</choice>
+        <choice weight="2">2</choice>
+        <choice weight="1">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionC_13" responseType="multiple_choice" importColumn="" required="true">
+      <text>13.	In my interactions with parents I talk about the benefits of play.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionC_14" responseType="multiple_choice" importColumn="" required="true">
+      <text>14.	In my interactions with parents I share ideas about how to play and interact with their child at different ages.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionC_15" responseType="multiple_choice" importColumn="" required="true">
+      <text>15.	I feel confident talking with parents about cognitive development and learning.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+  </category>
+  <!-- ///////////////////////////////////////////////////////////////// -->
+
+  <category id="d" title="Learning and Cognitive Development">
+    <responseColumn>1</responseColumn>
+    <responseColumn>2</responseColumn>
+    <responseColumn>3</responseColumn>
+    <responseColumn>4</responseColumn>
+    <responseColumn>5</responseColumn>
+
+    <question id="questionD_1" responseType="multiple_choice" importColumn="" required="true">
+      <text>1.	How much language young children hear in their homes does not affect their language development.</text>
+      <choices>
+        <choice weight="3">1</choice>
+        <choice weight="2">2</choice>
+        <choice weight="1">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionD_2" responseType="multiple_choice" importColumn="" required="true">
+      <text>2.	Infants communicate with their parents before they can talk.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionD_3" responseType="multiple_choice" importColumn="" required="true">
+      <text>3.	Talking to an infant encourages  language development.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionD_4" responseType="multiple_choice" importColumn="" required="true">
+      <text>4.	Reading to an infant supports the development of early communication when the infant points, makes sounds and helps to turn the pages.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionD_5" responseType="multiple_choice" importColumn="" required="true">
+      <text>5.	The only way a child learns to read is by looking at books.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionD_6" responseType="multiple_choice" importColumn="" required="true">
+      <text>6.	When a child feels stressed, upset, or tired he or she is not able to learn as well.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionD_7" responseType="multiple_choice" importColumn="" required="true">
+      <text>7.	Every infant has his or her own unique cues.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionD_8" responseType="multiple_choice" importColumn="" required="true">
+      <text>8.	Early communication and verbal development are related, but not the same thing.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionD_9" responseType="multiple_choice" importColumn="" required="true">
+      <text>9.	Emergent literacy is another term for reading.</text>
+      <choices>
+        <choice weight="3">1</choice>
+        <choice weight="2">2</choice>
+        <choice weight="1">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionD_10" responseType="multiple_choice" importColumn="" required="true">
+      <text>10.	It is important to wait until a child can sit still for a short story before you start reading to them, to avoid frustration.</text>
+      <choices>
+        <choice weight="3">1</choice>
+        <choice weight="2">2</choice>
+        <choice weight="1">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionD_11" responseType="multiple_choice" importColumn="" required="true">
+      <text>11.	Reading together should be a pleasant and enjoyable time for a child.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionD_12" responseType="multiple_choice" importColumn="" required="true">
+      <text>12.	In my interactions with parents I encourage parents to talk to their child and allow their child time to respond, verbally or non-verbally.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionD_13" responseType="multiple_choice" importColumn="" required="true">
+      <text>13.	 In my interactions with parents I talk about how to understand their baby’s cues.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+    <question id="questionD_14" responseType="multiple_choice" importColumn="" required="true">
+      <text>14.	I feel confident talking with parents about communication and language.</text>
+      <choices>
+        <choice weight="0">1</choice>
+        <choice weight="0">2</choice>
+        <choice weight="0">3</choice>
+        <choice weight="0">4</choice>
+        <choice weight="0">5</choice>
+      </choices>
+    </question>
+
+  </category>
+  
+</evaluationForm>

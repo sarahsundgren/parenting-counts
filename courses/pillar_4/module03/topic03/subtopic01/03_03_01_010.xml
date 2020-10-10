@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Creating Sentences</content>
+	</text>
+	<text id="nav_text" x="240" y="425" width="533" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about the &lt;B&gt;Creating Sentences&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="393" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Notable vocabulary and grammatical advancements occur in children from ages 1 to 3.</content>
+		</text>
+		<text id="text02" x="25" y="100" width="392" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">1–1 1/2 years&lt;LI&gt;Speak about concrete people and things&lt;/LI&gt;&lt;LI&gt;Speak in 2- or 3-word sentences&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="25" y="165" width="390" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">2 years&lt;LI&gt;Give their parents new information&lt;/LI&gt;&lt;LI&gt;Ask for the names of things&lt;/LI&gt;&lt;LI&gt;Realize that different words can express the same idea&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="25" y="245" width="390" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">2 1/2– 3 years&lt;LI&gt;Experience marked grammatical advances&lt;/LI&gt;&lt;LI&gt;String together 3 and 4 words with clear meaning&lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="25" y="310" width="370" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Key Message:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Children learn language through a process. First words combine to make short phrases which eventually evolve into sentences that convey thoughts and feelings.&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="440" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="135169" startpos="1" play="false">03_03_01_010_01.jpg</file>
+			<notes id="description">Cover 2 pic in Verbal Dev folder w/in the Communication and Lang folder, mother talking to son as she holds him up mid-step</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic03" x="440" y="50" width="320" height="320" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="133649" startpos="1" play="false">03_03_01_010_02.jpg</file>
+			<notes id="description">Helpful parenting tips pic in Verbal Development folder within the Communication and Lang folder, mom pointing to the sky while holding her toddler son who holds a toy plane</notes>
+		</graphic>
+		<graphic id="graphic04" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" startpos="1" bytes="23247" duration="69">a_03_03_01_010_01.swf</file>
+			<transcript translate="true">Notable vocabulary and grammatical advancements occur in children from ages 1 to 3.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="190" bytes="65051" startpos="1">a_03_03_01_010_02.swf</file>
+			<transcript translate="true">Between ages 1 and 1 ½, toddlers begin to speak about concrete people and things and begin to speak in 2- or 3-word sentences such as:  “Want milk” or “more milk please.” They rarely add information that an adult observer cannot also see.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon03" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" duration="419" bytes="143719" startpos="1">a_03_03_01_010_03.swf</file>
+			<transcript translate="true">By age two, however, children become more sophisticated about how they use language. They begin to give their parents new information. They ask for the names of things. And they begin to realize that different words can express the same idea. For example they may say “I thirsty,” and also, “Want water.” Children need to have a few linguistic and cognitive elements in place before the process of sentence forming can really advance. Studies show that children need to have accumulated at least 50 spoken words and experienced some cognitive growth, such as the ability to think about the future or the past, or categorization.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon02" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" duration="278" bytes="95331" startpos="1">a_03_03_01_010_04.swf</file>
+			<transcript translate="true">Between ages 2 ½ and 3 years, toddlers experience marked grammatical advances. They begin to string together 3 and 4 words with clear meaning into sentences that closely mirror adult speech in grammar and structure. As a child gets closer to three, the sentences begin to grow to three to four words long; instead of “Daddy ball” the child says, “Daddy throw ball.”</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" duration="190" bytes="65051" startpos="1">a_03_03_01_010_05.swf</file>
+			<transcript translate="true">As we further explore children's development of sentence formation, keep in mind the key message of this section which is that children learn language through a process. First words combine to make short phrases which eventually evolve into sentences that convey the child’s thoughts and feelings.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="nav_text" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="398" y="257" width="321" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+	<section id="reference_icons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="ref_icon01" x="267" y="132" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1716" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon02" x="408" y="211" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1716" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon03" x="318" y="115" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1716" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="414" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Mayes, L. C., &amp; Cohen, D. J. (2002). &lt;I&gt;The Yale Child Study Center guide to understanding your child&lt;/I&gt;. New York, NY: Little, Brown and Company.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" style="" fx="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text02" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Golinkoff, R. &amp; Hirsh-Pasek, K. (1999). &lt;I&gt;How babies talk:The magic and mystery of language acquisition.&lt;/I&gt; New York, NY: Dutton/Penguin. &lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference03" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" style="" fx="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text03" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Golinkoff, R. &amp; Hirsh-Pasek, K. (1999).&lt;I&gt; How babies talk: The magic and mystery of language acquisition.&lt;/I&gt; New York, NY: Dutton/Penguin. &lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

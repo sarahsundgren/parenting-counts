@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+	<configuration id="general_settings">
+		<settings id="buttonStyle" datatype="STRING" value="SHELL_BTN"/>
+		<settings id="useTipText" datatype="BOOLEAN" value="false"/>
+		<settings id="tipTextStyle" datatype="STRING" value="TIP_TEXT"/>
+		<settings id="tipTextOffset" datatype="NUMBER" value="5"/>
+		<settings id="tipTextFX" datatype="STRING" value="TIP_TEXT_SHOW"/>
+		<settings id="tipTextHideFX" datatype="STRING" value="TIP_TEXT_HIDE"/>
+	</configuration>
+	<graphic id="mc_Background" x="0" y="0">
+		<file>background_blue.jpg</file>
+	</graphic>
+	<graphic id="mc_TopicBar" x="0" y="0">
+		<file>topicbar_blue.png</file>
+	</graphic>
+	<graphic id="mc_Logo" x="0" y="0">
+		<file>pillars.jpg</file>
+	</graphic>
+	<button id="mc_BugTrackerBtn" style="LABEL_BTN">
+		<tiptext translate="true">Bug Tracker</tiptext>
+	</button>
+	<text id="txt_Title" style="TITLE" x="265" y="28"/>
+	<group id="resources" layout="ABSOLUTE">
+		<button id="mc_HelpBtn" enabled="true" visible="true" disableonnavigate="false" enablefunction="gShell.$enableHelpBtn" onrelease="gShell.$onHelpBtnClick" linkedcomponent="mc_Help" style="SHELL_BTN2"/>
+	</group>
+	<button id="mc_ExitBtn" style="SHELL_BTN2"/>
+	<button id="mc_ReplayBtn"/>
+	<group id="audio_buttons" layout="ABSOLUTE">
+		<button id="mc_PlayBtn"/>
+		<button id="mc_PauseBtn"/>
+		<button id="mc_TranscriptOnBtn"/>
+		<button id="mc_TranscriptOffBtn"/>
+	</group>
+	<component id="mc_Wizard" autoinit="true" exclusive="true" hideonnav="true" impactmedia="true" load="ON FIRST USE" replayonshow="false" clickblocker="true" visible="false" linkageid="mc_XTC_ShellUIComponent">
+		<content id="{TEACHING-NOTES}"/>
+		<children/>
+	</component>
+	<component id="mc_Tools" autoinit="true" exclusive="true" hideonnav="true" impactmedia="true" load="ON FIRST USE" replayonshow="false" clickblocker="true" visible="false" linkageid="mc_XTC_ShellUIComponent">
+		<content id="{TEACHINGTOOLS}"/>
+	</component>
+	<component id="mc_Resources" autoinit="true" exclusive="true" hideonnav="true" impactmedia="true" load="ON FIRST USE" replayonshow="false" clickblocker="true" visible="false" linkageid="mc_XTC_ShellUIComponent">
+		<content id="{RESOURCES}"/>
+	</component>
+	<component id="mc_Help" autoinit="true" exclusive="true" hideonnav="true" impactmedia="true" load="ON FIRST USE" replayonshow="true" clickblocker="true" visible="false" linkageid="mc_XTC_ShellUIComponent">
+		<content id="{HELP}"/>
+	</component>
+	<component id="mc_Menu" style="">
+		<content>flash/menu.swf</content>
+	</component>
+	<component id="mc_LeftMenu" style="">
+		<content>flash/left_menu.swf</content>
+	</component>
+	<component id="mc_RightMenu" style="">
+		<content>flash/right_menu.swf</content>
+	</component>
+	<component id="mc_BottomMenu" style="">
+		<content>flash/bottom_menu.swf</content>
+	</component>
+</interface>

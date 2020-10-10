@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test version="2.0">
+	<interface version="3.0">
+		<images>
+			<button_bg>exam_btn.swf</button_bg>
+		</images>
+		<buttons>
+			<exit translate="true">Exit</exit>
+			<begin translate="true">Begin</begin>
+			<submit translate="true">Submit</submit>
+			<next translate="true">Next</next>
+			<finish translate="true">Finish</finish>
+			<next_page translate="true">Next</next_page>
+			<prev_page translate="true">Previous</prev_page>
+		</buttons>
+		<scroll_areas y="80">
+		</scroll_areas>
+		<styles>
+			<correct color="#FFFFFF"/>
+			<incorrect color="#FFFFFF"/>
+		</styles>
+		<text>
+			<title x="400" color="#FFFFFF" translate="true">Assessment 3</title>
+			<resume translate="true">RESUME: You have {#ATTEMPTSREMAINING} attempt(s) remaining.&lt;br/&gt;&lt;br/&gt;Introduction. You are resuming this exam. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</resume>
+			<pass translate="true">Your Score: {score}%&lt;br/&gt;&lt;br/&gt;You passed the exam. If you have paid for Continuing Education credit, once you have passed all four exams you will see a link available in the Parenting Counts Portal. Please click this link to print out your certificate.&lt;br/&gt;&lt;br/&gt;Here are your results from the exam:&lt;br/&gt;&lt;br/&gt;{$QPSUMMARY}</pass>
+			<fail translate="true">Your Score: {score}%&lt;br/&gt;&lt;br/&gt;You did not pass the exam. If you would like to receive credit for Pillar 3, please review the material in Learning and Cognitive Development and then re-take the assessment. &lt;br/&gt;&lt;br/&gt;Here are your results from the exam:&lt;br/&gt;&lt;br/&gt;{$QPSUMMARY}</fail>
+			<page_count translate="true">Question {#CURRENTSTARTQ} of {#TOTALQ}</page_count>
+			<timer translate="true">{#MINUTESREMAINING}:{#SECONDSREMAINING}</timer>
+			<over_attempts translate="true">Sorry, you are over the attempt limit for this exam.</over_attempts>
+			<over_time translate="true">Sorry, you are past the alloted time period for this exam.</over_time>
+			<qp_summary translate="true">&lt;b&gt;Raw Score: {#SCORE}/{#POSSIBLESCORE}</qp_summary>
+		</text>
+	</interface>
+	<config type="EXAM" pass="80" random="true" scored="true" feedback="true" question_attempts="1" SCORM="true" debug="false" attempt_limit="10" simultaneous_questions="1" numbered_questions="true">
+		<datatracking>
+			<interactions id="false" objective="false" time="false" type="false" correct_response="false" weighting="false" student_response="false" result="false" latency="false"/>
+			<bookmark type="NONE"/>
+		</datatracking>
+	</config>
+	<media gfx_folder="../graphics/" audio_folder="../audio/"/>
+	<question_pools>
+		<question_pool id="pool01" name="Category A" how_many_to_use="" question_attempts="" random="true" translate="name">
+			<question id="question01" name="Question B" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">TRUE_FALSE</type_settings>
+				<graphic></graphic>
+				<stem translate="true">By age 5, the brain has finished growing and changing.</stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">True</text>
+					</foil>
+					<foil correct="true">
+						<text translate="true">False</text>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question02" name="Question C" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT" group_spacing="">MATCHING</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Match the following descriptions with the correct type of memory.</stem>
+				<directions spacing="5" translate="true">Drag each description to the correct type of memory.</directions>
+				<source_items spacing="">
+					<item match="0" translate="true">Explicit Memory </item>
+					<item match="2" translate="true">Narrative Memory</item>
+					<item match="1" translate="true">Implicit Memory </item>
+				</source_items>
+				<target_items spacing="">
+					<item translate="true">Consciously functions to remember things so a person is able to recall them later </item>
+					<item translate="true">Starts at birth and records impressions of vision, smell, hearing, and emotions, but does not recall specific events </item>
+					<item translate="true">A type of explicit memory that encodes and recalls events</item>
+				</target_items>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question03" name="Question C" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT" group_spacing="">MATCHING</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Match the following cognitive milestones in the correct order in which they occur.</stem>
+				<directions spacing="5" translate="true">Drag each description to the correct order of occurance from earliest to latest.</directions>
+				<source_items spacing="">
+					<item match="0" translate="true">First</item>
+					<item match="2" translate="true">Second</item>
+					<item match="1" translate="true">Third</item>
+				</source_items>
+				<target_items spacing="">
+					<item translate="true">Make connections between objects and their purpose </item>
+					<item translate="true">Show an increased understanding of the concept of time</item>
+					<item translate="true">Begin to use pretend play with symbolic use of objects  </item>
+				</target_items>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question04" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">In which of the following ways can parents facilitate cognitive growth?</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="" random="false">
+					<foil correct="true">
+						<text translate="true">By helping their child feel safe and supported </text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">By interacting with their child and being actively involved in the learning process</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">By pushing their child to learn more at an early age to speed up their cognitive development</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">By finding time to spend with their child and creating a safe area where their child can explore and play</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question05" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Imitation helps children learn which of the following?</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="" random="false">
+					<foil correct="true">
+						<text translate="true">Empathy</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Concentration</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">New skills</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Behaviors </text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question06" name="Question C" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT" group_spacing="">MATCHING</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Imitation is one of the key ways that a child learns. For parents to successfully model behavior, four conditions are necessary. </stem>
+				<directions spacing="5" translate="true">Drag each condition to their correct description.</directions>
+				<source_items spacing="">
+					<item match="0" translate="true">Attention</item>
+					<item match="3" translate="true">Motivation</item>
+					<item match="2" translate="true">Reproduction</item>
+					<item match="1" translate="true">Retention</item>
+				</source_items>
+				<target_items spacing="">
+					<item translate="true">Learning by watching an action or stimuli, or listening to sounds  </item>
+					<item translate="true">Storing what has been seen or heard to bring it up later</item>
+					<item translate="true">Images or descriptions now become an action or behavior  </item>
+					<item translate="true">Reinforcement that gives a reason to reproduce a behavior </item>
+				</target_items>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question07" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Some researchers believe mirror neurons help us in imitating other people's ________.</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Emotions</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Behaviors</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Gestures</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Speech</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question08" name="Question B" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">TRUE_FALSE</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Through his research, Albert Bandura found that children appeared to learn aggression through observing and imitating others. </stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">True</text>
+					</foil>
+					<foil correct="false">
+						<text translate="true">False</text>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question09" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Which of the following statements are true about exploration?</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">Exploration is mostly ineffective in helping children learn about their environment.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Children learn about their environment by testing and exploring the world around them.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Exploring the environment allows children to make predictions, experiment, look for explanations, and draw conclusions.</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question10" name="Question C" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT" group_spacing="">MATCHING</type_settings>
+				<graphic></graphic>
+				<stem translate="true">In which order do the following developmental stages typically occur in regards to exploration.</stem>
+				<directions spacing="5" translate="true">Drag each description to the order in which it occurs.</directions>
+				<source_items spacing="">
+					<item match="1" translate="true">First</item>
+					<item match="2" translate="true">Second</item>
+					<item match="0" translate="true">Third</item>
+				</source_items>
+				<target_items spacing="">
+					<item translate="true">Understand basic safety issues, such as "hot" and "danger" </item>
+					<item translate="true">Repeat actions and behaviors to learn about cause and effect </item>
+					<item translate="true">Become more independent in exploration, and may intentionally disregard a parent's wishes </item>
+				</target_items>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question11" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">A parent explains that her 11-month-old loves exploring as he crawls around the house. The parent is worried about safety issues. What advice could you offer her that allows the child to explore but educates her about the importance of child proofing her home?</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Explain to the parent that exploration is important for helping her child learn about his environment.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Suggest that the parent install latches for her cupboards, put in outlet covers, and put up safety gates to guard any stairs.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Suggest to the parent that she use discipline techniques with the child when he makes a mess.</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question12" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Which of the following are benefits of play?</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Play helps facilitate a child's development of communication and language skills.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Play strengthens cognitive development by allowing children to use trial and error.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Play impacts social and emotional development by encouraging children to regulate their emotions.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Play helps children develop physically by improving their fine and gross motor skills.</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question13" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Which of the following options complete the following sentence to be true. "As opposed to 15 years ago, today's generation of children ____________"</stem>
+				<directions spacing="5" translate="true">Select ALL answers that apply.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">Have more unstructured, free time to play.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Spend more time watching TV, playing video games, and using the computer.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Focus more time on academics.</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question14" name="Question B" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">TRUE_FALSE</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Play is unimportant until children are older. </stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">True</text>
+					</foil>
+					<foil correct="true">
+						<text translate="true">False</text>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question15" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Mildred Parten discovered six types of play. Which of the following types are described in this program?</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Sensory Motor Play</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Fine Motor Play</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Gross Motor Play</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Parallel Play</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Skill Mastery Play</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+		</question_pool>
+	</question_pools>
+</test>

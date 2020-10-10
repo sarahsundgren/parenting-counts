@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Identifying Stressors</content>
+	</text>
+	<text id="nav_text" x="155" y="425" width="616" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Identifying Stressors.&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="370" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;When identifying stressors, remind parents not to focus on the incident itself but to focus on the child's feelings about the incident.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;For example, losing a special toy or blanket can be extremely stressful for the child even though the parent may think it is “no big deal.” &lt;/P&gt;</content>
+		</text>
+		<text id="text02" x="" y="" width="370" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Key Messages:&lt;/B&gt;&lt;LI&gt;Infants cannot regulate their own stress response. They rely on parents to help them calm down and learn how to soothe themselves, especially during the first year. &lt;/LI&gt;&lt;LI&gt;A child's success at managing stress in the early years has consequences for physical and mental health throughout life.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="431" y="50" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="121862" startpos="1" play="false">04_03_01_010_01.jpg</file>
+			<notes id="description">Baby looking at daddy  File #: 9597703</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic03" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic04" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="66671" startpos="1" duration="195">a_04_03_01_010_01.swf</file>
+			<transcript translate="true">When identifying stressors, remind parents not to focus on the incident itself but to focus on the child's feelings about the incident. For example, losing a special toy or blanket can be extremely stressful for the child even though the parent may think it is “no big deal.”</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" startpos="1" bytes="86179" duration="252">a_04_03_01_01_02.swf</file>
+			<transcript translate="true">In this topic, the Key Messages are that infants cannot regulate their own stress response. They rely on parents to help them calm down and learn how to soothe themselves, especially during the first year. Additionally, A child's success at managing stress in the early years has consequences for physical and mental health throughout life.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+</template>

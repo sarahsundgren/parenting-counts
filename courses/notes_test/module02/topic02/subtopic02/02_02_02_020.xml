@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_textgraphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programming-options"/>
+		<notes id="search-terms"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="BOOLEAN" value="false"/>
+		<settings id="orderIndependent" datatype="BOOLEAN" value="false"/>
+		<settings id="persistInitGfx" datatype="BOOLEAN" value="false"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Toddler and Preschooler Temperament</content>
+	</text>
+	<text id="nav_text" x="35" y="425" width="735" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about the &lt;B&gt;Measurement of Temperament&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0" autospace="false" columns="0" expanded="true">
+		<text id="introduction" x="25" y="51" width="722" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">As Thomas and Chess studied and observed temperament in toddlers and preschoolers, they noticed that temperament characteristics vary by degree from low to high.</content>
+		</text>
+		<text id="directions" x="25" y="96.2" width="350" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;characteristic&lt;/B&gt; to learn more.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="420" y="54" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1"/>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" startpos="1" duration="151" bytes="51583">a_02_02_02_020_01.swf</file>
+			<transcript translate="true">As Thomas and Chess studied and observed temperament in toddlers and preschoolers, they noticed that temperament characteristics vary by degree from low to high. Click each characteristic to learn more about temperament.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="25" y="254" width="714" height="117" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="82" duration="1">clear.swf</file>
+		</graphic>
+	</section>
+	<section id="list_items" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<container id="link01" behavior="" x="25" y="133" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE" style="">
+			<graphic id="graphic" x="0" y="0" width="160" height="25" style="LINK_PHOTO" visible="true" fx="">
+				<file play="false" startpos="1" bytes="4024" placeholder="true" duration="20">placeholder_mcoption.swf</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;button with word: Activity&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="0" y="3" width="160" height="" autosize="H" style="DEFAULT" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="CENTER"&gt;Activity&lt;/P&gt;</content>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="misc_text03" result_param=""/>
+				<event type="CLICK" result="SHOW" target="misc_text04" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="link02" behavior="" x="214" y="133" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE" style="">
+			<graphic id="graphic" x="0" y="0" width="160" height="25" style="LINK_PHOTO" visible="true" fx="">
+				<file play="false" startpos="1" bytes="4024" placeholder="true" duration="20">placeholder_mcoption.swf</file>
+				<notes id="description">button with word: Rhythmicity</notes>
+			</graphic>
+			<text id="text" x="0" y="3" width="160" height="19.6" autosize="" style="DEFAULT" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="CENTER"&gt;Rhythmicity&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="link03" behavior="" x="402" y="133" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE" style="">
+			<graphic id="graphic" x="0" y="0" width="160" height="25" style="LINK_PHOTO" visible="true" fx="">
+				<file play="false" startpos="1" bytes="4024" placeholder="true" duration="20">placeholder_mcoption.swf</file>
+				<notes id="description">button with word: Approach/Withrawal</notes>
+			</graphic>
+			<text id="text" x="0" y="3" width="160" height="19" autosize="" style="DEFAULT" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="CENTER"&gt;Approach/Withdrawal&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="link04" behavior="" x="590" y="133" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE" style="">
+			<graphic id="graphic" x="0" y="0" width="160" height="25" style="LINK_PHOTO" visible="true" fx="">
+				<file play="false" startpos="1" bytes="4024" placeholder="true" duration="20">placeholder_mcoption.swf</file>
+				<notes id="description">button with word: Adaptability</notes>
+			</graphic>
+			<text id="text" x="0" y="3" width="160" height="19.6" autosize="" style="DEFAULT" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="CENTER"&gt;Adaptability&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="link05" behavior="" x="25" y="180" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE" style="">
+			<graphic id="graphic" x="0" y="0" width="160" height="25" style="LINK_PHOTO" visible="true" fx="">
+				<file play="false" startpos="1" bytes="4024" placeholder="true" duration="20">placeholder_mcoption.swf</file>
+				<notes id="description">button with word: Sensory Threshold</notes>
+			</graphic>
+			<text id="text" x="0" y="3" width="160" height="19.6" autosize="" style="DEFAULT" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="CENTER"&gt;Sensory Threshold&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="link06" behavior="" x="214" y="180" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE" style="">
+			<graphic id="graphic" x="0" y="0" width="160" height="25" style="LINK_PHOTO" visible="true" fx="">
+				<file play="false" startpos="1" bytes="4024" placeholder="true" duration="20">placeholder_mcoption.swf</file>
+				<notes id="description">button with word: Intensity</notes>
+			</graphic>
+			<text id="text" x="0" y="3" width="160" height="19.6" autosize="" style="DEFAULT" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="CENTER"&gt;Intensity&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="link07" behavior="" x="402" y="180" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE" style="">
+			<graphic id="graphic" x="0" y="0" width="160" height="25" style="LINK_PHOTO" visible="true" fx="">
+				<file play="false" startpos="1" bytes="4024" placeholder="true" duration="20">placeholder_mcoption.swf</file>
+				<notes id="description">button with word: Mood</notes>
+			</graphic>
+			<text id="text" x="0" y="3" width="160" height="" autosize="H" style="DEFAULT" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="CENTER"&gt;Mood&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="link08" behavior="" x="590" y="180" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE" style="">
+			<graphic id="graphic" x="0" y="0" width="160" height="25" style="LINK_PHOTO" visible="true" fx="">
+				<file play="false" startpos="1" bytes="4024" placeholder="true" duration="20">placeholder_mcoption.swf</file>
+				<notes id="description">button with word: Distractibility</notes>
+			</graphic>
+			<text id="text" x="0" y="3" width="160" height="" autosize="H" style="DEFAULT" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="CENTER"&gt;Distractibility&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true"/>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="swap_text01" x="45" y="287" width="180" height="" autosize="H" style="SWAP" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<text id="text01" x="195" y="0" width="122" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">Always wants to move, difficult to sit still</content>
+			</text>
+			<text id="text02" x="0" y="0" width="139" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">Able to sit still, doesn't seek out physical acitivities</content>
+			</text>
+			<text id="text03" x="385" y="0" width="294" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;He's very active and keeps us entertained, but it's important to watch him all the time.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="swap_text02" x="45" y="287" width="180" height="" autosize="H" style="SWAP" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<text id="text01" x="195" y="0" width="149" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">Unpredictable eating and sleeping patterns</content>
+			</text>
+			<text id="text02" x="0" y="0" width="139" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">Natural tendency to accept a schedule for eating and sleeping</content>
+			</text>
+			<text id="text03" x="385" y="0" width="288" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">With our first baby we just fell right into a schedule, but it's been different with our second child.</content>
+			</text>
+		</container>
+		<container id="swap_text03" x="45" y="287" width="180" height="" autosize="H" style="" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<text id="text01" x="195" y="0" width="119" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">Is cautious or shy in new situations</content>
+			</text>
+			<text id="text02" x="0" y="0" width="135" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">Easily dives in to new situations</content>
+			</text>
+			<text id="text03" x="385" y="0" width="291" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;If I stay with her for the first 15 minutes or so, eventually she feels ready to play with another child.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="swap_text04" x="45" y="287" width="180" height="" autosize="H" style="SWAP" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<text id="text01" x="195" y="0" width="119" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">Needs to be prepared ahead of time for changes and transitions</content>
+			</text>
+			<text id="text02" x="0" y="0" width="149" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">Adjusts easily to changes and transitions</content>
+			</text>
+			<text id="text03" x="385" y="0" width="309" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;It's important that we let our daughter know in advance when we are going out to dinner.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="swap_text05" x="45" y="287" width="180" height="" autosize="H" style="SWAP" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<text id="text01" x="195" y="0" width="119" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">May not notice when they push a friend too hard or fall down</content>
+			</text>
+			<text id="text02" x="0" y="0" width="137" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">Sensitive to certain textures, foods, settings (too loud, too bright)</content>
+			</text>
+			<text id="text03" x="385" y="0" width="293" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Nothing much bothers him, but sometimes he doesn't realize how roughly he's playing. We're trying to help him be more aware of other people.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="swap_text06" x="45" y="287" width="180" height="" autosize="H" style="SWAP" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<text id="text01" x="195" y="0" width="133" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">Long, loud crying, excitable when happy, may become over-stimulated</content>
+			</text>
+			<text id="text02" x="0" y="0" width="131" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">Fairly low-key, subtle signals, even when emotional</content>
+			</text>
+			<text id="text03" x="385" y="0" width="294" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;He has a lot of feelings. He's very sensitive, so we talk about his feelings a lot. Once he's upset it takes a lot of comforting and quiet time to help him get over it.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="swap_text07" x="45" y="287" width="180" height="" autosize="H" style="SWAP" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<text id="text01" x="195" y="0" width="145" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">Easily saddened, angered, or frustrated</content>
+			</text>
+			<text id="text02" x="0" y="0" width="153" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">Tendency toward positive mood</content>
+			</text>
+			<text id="text03" x="385" y="0" width="299" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">She's a very serious, intense little girl. When we play together, I try to notice as soon as she gets frustrated, so I can help her work it out.</content>
+			</text>
+		</container>
+		<container id="swap_text08" x="45" y="287" width="180" height="" autosize="H" style="SWAP" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<text id="text01" x="195" y="0" width="133" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">Very focused, also may have a difficult time recovering when upset</content>
+			</text>
+			<text id="text02" x="0" y="0" width="144" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">Overwhelmed by too many choices, but easily diverted from uninteresting activities</content>
+			</text>
+			<text id="text03" x="385" y="0" width="302" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<content translate="true">His attention span is amazing, but sometimes he gets so focused on something he has a hard time leaving it. We try to give him lots of warnings and support.</content>
+			</text>
+		</container>
+	</section>
+	<section id="swap_audio" expanded="true"/>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="45" y="264" width="35" height="" autosize="H" style="DEFAULT_2" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;FONT SIZE="15"&gt;&lt;B&gt;Low&lt;/B&gt;&lt;/FONT&gt;</content>
+		</text>
+		<text id="misc_text02" x="240" y="264" width="39" height="" autosize="H" style="DEFAULT_2" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;FONT SIZE="15"&gt;&lt;B&gt;High&lt;/B&gt;&lt;/FONT&gt;</content>
+		</text>
+		<text id="misc_text03" x="430" y="264" width="255" height="" autosize="H" style="DEFAULT_2" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;B&gt;Example from a Parent's Perspective&lt;/B&gt;</content>
+		</text>
+	</section>
+</template>

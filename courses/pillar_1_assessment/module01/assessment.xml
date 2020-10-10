@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test version="2.0">
+	<interface version="3.0">
+		<images>
+			<button_bg>exam_btn.swf</button_bg>
+		</images>
+		<buttons>
+			<exit translate="true">Exit</exit>
+			<begin translate="true">Begin</begin>
+			<submit translate="true">Submit</submit>
+			<next translate="true">Next</next>
+			<finish translate="true">Finish</finish>
+			<next_page translate="true">Next</next_page>
+			<prev_page translate="true">Previous</prev_page>
+		</buttons>
+		<scroll_areas y="80">
+		</scroll_areas>
+		<styles>
+			<correct color="#FFFFFF"/>
+			<incorrect color="#FFFFFF"/>
+		</styles>
+		<text>
+			<title x="400" color="#FFFFFF" translate="true">Assessment 1</title>
+			<resume translate="true">RESUME: You have {#ATTEMPTSREMAINING} attempt(s) remaining.&lt;br/&gt;&lt;br/&gt;Introduction. You are resuming this exam. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</resume>
+			<pass translate="true">Your Score: {score}%&lt;br/&gt;&lt;br/&gt;You passed the exam. If you have paid for Continuing Education credit, once you have passed all four exams you will see a link available in the Parenting Counts Portal. Please click this link to print out your certificate.&lt;br/&gt;&lt;br/&gt;Here are your results from the exam:&lt;br/&gt;&lt;br/&gt;{$QPSUMMARY}</pass>
+			<fail translate="true">Your Score: {score}%&lt;br/&gt;&lt;br/&gt;You did not pass the exam. If you would like to receive credit for Pillar 1, please review the material in Get Started and Physical and Brain Development and then re-take the assessment. &lt;br/&gt;&lt;br/&gt;Here are your results from the exam:&lt;br/&gt;&lt;br/&gt;{$QPSUMMARY}</fail>
+			<page_count translate="true">Question {#CURRENTSTARTQ} of {#TOTALQ}</page_count>
+			<timer translate="true">{#MINUTESREMAINING}:{#SECONDSREMAINING}</timer>
+			<over_attempts translate="true">Sorry, you are over the attempt limit for this exam.</over_attempts>
+			<over_time translate="true">Sorry, you are past the alloted time period for this exam.</over_time>
+			<qp_summary translate="true">&lt;b&gt;Raw Score: {#SCORE}/{#POSSIBLESCORE}</qp_summary>
+		</text>
+	</interface>
+	<config type="EXAM" pass="80" random="true" scored="true" feedback="true" question_attempts="1" SCORM="true" debug="false" attempt_limit="10" simultaneous_questions="1" numbered_questions="true">
+		<datatracking>
+			<interactions id="false" objective="false" time="false" type="false" correct_response="false" weighting="false" student_response="false" result="false" latency="false"/>
+			<bookmark type="NONE"/>
+		</datatracking>
+	</config>
+	<media gfx_folder="../graphics/" audio_folder="../audio/"/>
+	<question_pools>
+		<question_pool id="pool01" name="Category A" how_many_to_use="" question_attempts="" random="true" translate="name">
+			<question id="question01" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Which of the following are ways that parents can support their child's healthy development? </stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="" random="false">
+					<foil correct="true">
+						<text translate="true">Being responsive to the child's needs</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Using Emotion Coaching</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Making sure the child has a lot of toys</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Being attuned to the child</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question02" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Being responsive includes:</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">Responding to every cue a child makes</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Responding as often as you can in the best way you can</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Responding correctly every time</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Considering the child's age and temperament</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question03" name="Question B" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">TRUE_FALSE</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Cultural beliefs and practices are usually "fixed" and rarely change over time, across generations, or are subject to influence by other variables. </stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">True</text>
+					</foil>
+					<foil correct="true">
+						<text translate="true">False</text>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question04" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Research on cultural influences shows that a child's development is best supported by parenting that:</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Focuses on the importance of relationships</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Provides an abundance of material goods</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Is responsive to the child's needs, development level, and temperament</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Is predictable and consistent</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question05" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">To be useful, information and the technology that delivers it must have which of the following characteristics: </stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Clarity</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Credibility</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Relevance</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Convenience</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question06" name="Question B" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">TRUE_FALSE</type_settings>
+				<graphic></graphic>
+				<stem translate="true">No matter what the family arrangement, families across the board share a strong desire to be a good parent.</stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">True</text>
+					</foil>
+					<foil correct="false">
+						<text translate="true">False</text>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question07" name="Question C" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT" group_spacing="">MATCHING</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Match the following milestones in order from earliest to latest in a normally developing child.</stem>
+				<directions spacing="5" translate="true">Select the best answers.</directions>
+				<source_items spacing="5">
+					<item match="1" translate="true"> First </item>
+					<item match="3" translate="true">Second </item>
+					<item match="2" translate="true">Third </item>
+					<item match="0" translate="true">Fourth </item>
+				</source_items>
+				<target_items spacing="5">
+					<item translate="true">Capable of dressing without assistance</item>
+					<item translate="true">Develops full color vision</item>
+					<item translate="true">Capable of pedaling a tricycle</item>
+					<item translate="true">Can walk without assistance</item>
+				</target_items>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question08" name="Question B" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">TRUE_FALSE</type_settings>
+				<graphic></graphic>
+				<stem translate="true">During early childhood, the brain connections that are not being used are pruned to increase brain efficiency.</stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">True</text>
+					</foil>
+					<foil correct="false">
+						<text translate="true">False</text>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question09" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">The rapid formation of new brain connections in early childhood are tied to which of the following aspects of development?</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Stress response and regulation</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Skill development</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Visual and language experiences</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Pruning</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question10" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">What are the TWO MOST IMPORTANT factors that shape a child's temperament traits?</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Heredity</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Environmental influences</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Nutrition</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Birth order </text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question11" name="Question B" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">TRUE_FALSE</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Temperament is described as the way a person experiences and responds to his or her internal and external world.</stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">True</text>
+					</foil>
+					<foil correct="false">
+						<text translate="true">False</text>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question12" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">A child's temperament can affect which of the following:</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">The  way a parent interacts with his/her child</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">The way the child interacts with other children in social settings</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">The way a parent feels about him/herself as a parent</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question13" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">What are the TWO components of Self-Regulation in a child?</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Ability for a child to control his or her impulses</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Ability of a child to determine what emotions he or she feels</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Capacity to do something even if the child doesn't want to</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Capacity to recognize emotions in other children </text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question14" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Four-year-old Cecilia is sitting at the dinner table. She quickly finishes her dinner and then says, "I am going to play." Cecilia’s mother wants her to stay at the table until everyone is finished. What should she do that would best promote self-regulation?</stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">Tell Cecilia that if she doesn’t stay at the table, she will have a time-out.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Let her go play, but tell her that next time she will have to stay at the table.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Ignore the circumstance.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Explain to Cecilia why she has to stay at the table and ask her to stay until she is excused. </text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question15" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Which of the following tips could you give to parents who are teaching their child to self-regulate?</stem>
+				<directions spacing="5" translate="true">Select ALL of the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">Set consequences for emotional outbursts.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Model self-control and self-regulation in your daily interactions.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Provide structure and predictability in your routine.</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Find ways to say yes rather than no.</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question16" name="Question B" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">TRUE_FALSE</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Self-Regulation develops within the first year of life.</stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">True</text>
+					</foil>
+					<foil correct="true">
+						<text translate="true">False</text>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question17" name="Question B" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">TRUE_FALSE</type_settings>
+				<graphic></graphic>
+				<stem translate="true">Sensitive and consistent care giving in the first year of life helps infants regulate their stress response.</stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">True</text>
+					</foil>
+					<foil correct="false">
+						<text translate="true">False</text>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question18" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">All of the following are types of stress EXCEPT</stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="false">
+						<text translate="true">Toxic</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Tolerable</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Negative</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Positive</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question19" name="Question B" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">TRUE_FALSE</type_settings>
+				<graphic></graphic>
+				<stem translate="true">In order to help their child, parents need to take care of themselves. </stem>
+				<directions spacing="5" translate="true">Select the BEST answer.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">True</text>
+					</foil>
+					<foil correct="false">
+						<text translate="true">False</text>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+			<question id="question20" name="Question A" objective="" requirement_level="" attempts="" point_value="1">
+				<type_settings layout="VERT">MC</type_settings>
+				<graphic></graphic>
+				<stem translate="true">In which of the following ways can a parent help young children regulate their stress response?</stem>
+				<directions spacing="5" translate="true">Select ALL the correct answers.</directions>
+				<foils spacing="">
+					<foil correct="true">
+						<text translate="true">Name and talk about emotions</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Introduce new people with care</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="false">
+						<text translate="true">Ignore needs and cues of the child</text>
+						<feedback></feedback>
+					</foil>
+					<foil correct="true">
+						<text translate="true">Introduce self-soothing</text>
+						<feedback></feedback>
+					</foil>
+				</foils>
+				<feedback spacing="10">
+					<correct translate="true">You are correct.</correct>
+					<initial_incorrect translate="true">Incorrect, try again.</initial_incorrect>
+					<final_incorrect translate="true">Sorry. That is not the correct answer.</final_incorrect>
+				</feedback>
+			</question>
+		</question_pool>
+	</question_pools>
+</test>

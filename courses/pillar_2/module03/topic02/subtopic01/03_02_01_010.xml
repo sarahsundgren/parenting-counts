@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">The Four Parenting Styles</content>
+	</text>
+	<text id="nav_text" x="290" y="425" width="568" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;The Four Parenting Styles&lt;/B&gt;.&lt;/P&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="409" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">A parent's style of interaction can contribute to raising socially and emotionally healthy children.</content>
+		</text>
+		<text id="text02" x="1" y="90" width="407" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">The Four Parenting Styles:&lt;LI&gt;Dismissing&lt;/LI&gt;&lt;LI&gt;Disapproving&lt;/LI&gt;&lt;LI&gt;Laissez-Faire&lt;/LI&gt;&lt;LI&gt;Emotion Coaching&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="5" y="95" width="406" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Every parent has a different reaction to the way their child expresses emotion. Often, a parent's response to their child's emotions depends on the events of the day and the level of stress in the family. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;While we all react differently at different times, parents will probably identify with one style more than others.&lt;/P&gt;</content>
+		</text>
+		<text id="text04" x="5" y="189" width="405" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Key Messages&lt;/B&gt;:&lt;LI&gt;Children raised by parents who value and guide emotions do better in many ways.&lt;/LI&gt;&lt;LI&gt;Teaching children about emotions is an important first step in helping them to manage emotions.&lt;/LI&gt;&lt;LI&gt;Every child is unique and children experience emotions in their own way.&lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="5" y="330" width="447" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="text06" x="3" y="261" width="359" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="435" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="105073" startpos="1" play="false">03_02_01_010_01.jpg</file>
+			<notes id="description">3 yr old child smiling at parent across the table as they eat lunch</notes>
+		</graphic>
+		<graphic id="graphic02" x="435" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="78742" startpos="1" play="false">03_02_01_010_02.jpg</file>
+			<notes id="description">Parent smiling as child talks to them</notes>
+		</graphic>
+		<graphic id="graphic03" x="435" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="71454" startpos="1" play="false">03_02_01_010_04.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;visual for dismissing disapproving laissez-faire and emotion coaching&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic06" x="435" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="69869" startpos="1" play="false">03_02_01_010_03.jpg</file>
+			<notes id="description">Happy father and toddler playing</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="229" bytes="78519" startpos="1">a_03_02_01_010_01.swf</file>
+			<transcript translate="true">Many parents believe that parenting is the day-to-day care of a child, including providing food, clothing, shelter, and comfort. These are all important parts of parenting. However, a parent's style of interaction with their children is also important because it contributes to children's social and emotional health.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="254" bytes="87035" startpos="1">a_03_02_01_010_02.swf</file>
+			<transcript translate="true">Through his research, Dr. John Gottman identified that most parents have a style for dealing with the strong emotions of children. Each style has characteristic responses to emotions and characteristic effects on the emotional climate of the home. The four styles are: Dismissing, Disapproving, Laissez-Faire, and Emotion Coaching.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" duration="321" bytes="109887" startpos="1">a_03_02_01_010_03.swf</file>
+			<transcript translate="true">Every parent has a different reaction to the way their child expresses emotion. Often, a parent's response to their child's emotions depends on the events of the day and the level of stress in the family. Some parents like to explore emotions and understand their child's feelings. Others might feel like avoiding the child's emotions altogether. While we all react differently at different times, parents will probably identify with one style more than others.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" duration="280" bytes="95771" startpos="1">a_03_02_01_010_04.swf</file>
+			<transcript translate="true">Before we look at the four parenting styles in detail, let's take a look at the Key Messages for this section. They are: Children raised by parents who value and guide emotions do better in many ways. Teaching children about emotions is an important first step in helping them to manage emotions. Every child is unique and children experience emotions in their own way.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="nav_text" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="graphic06" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="150" y="111" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+</template>

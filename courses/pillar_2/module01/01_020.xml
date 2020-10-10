@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="-50" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Conclusion</content>
+	</text>
+	<text id="nav_text" x="35" y="425" width="738" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">To continue, click another &lt;B&gt;Module &lt;/B&gt;from the top menu&lt;B&gt;.&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="350" y="60" width="378" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;You have now completed the Social and Emotional Overview module.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;In this overview we learned the importance of emotional competence and ways that parents can support their child's social-emotional development.&lt;/P&gt;</content>
+		</text>
+		<text id="text02" x="350" y="167.6" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Pillar 2 Modules:&lt;LI&gt;Attachment&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="350" y="197" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Parenting Styles&lt;/LI&gt;&lt;LI&gt;Emotion Coaching&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="350" y="226" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Praise&lt;/LI&gt;&lt;LI&gt;Discipline&lt;/LI&gt;&lt;LI&gt;Temper Tantrums&lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="350" y="283" width="375" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Before you leave this overview module, consider reviewing the Pillar 2 Goals. These goals can be found by clicking the &lt;B&gt;Professional Icon&lt;/B&gt;. </content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="-50" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="61722" play="false" startpos="1">01_020_01.jpg</file>
+			<notes id="description">Zehava with mom 12 months from Temperament folder in Physical and Brain development (Pillar 1)</notes>
+		</graphic>
+		<graphic id="graphic02" x="-50" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="104286" play="false" startpos="1">01_020_02.jpg</file>
+			<notes id="description">#9 3 weeks Scott - 40-78 from Attachment folder in Social Emotional Development</notes>
+		</graphic>
+		<graphic id="graphic03" x="-50" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="116370" play="false" startpos="1">01_020_03.jpg</file>
+			<notes id="description">#201 3 yrs. Trystan - 16-11 from Emotion Coaching folder in Social Emotional</notes>
+		</graphic>
+		<graphic id="graphic04" x="-50" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="86728" play="false" startpos="1">01_020_04.jpg</file>
+			<notes id="description">picture of a 2-year-old temper tantrum at the store</notes>
+		</graphic>
+		<graphic id="graphic05" x="-50" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="51406" play="false" startpos="1">01_020_05.jpg</file>
+			<notes id="description">picture of the four pillars with pillar two highlighted</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="150" bytes="51259" startpos="1">a_01_020_01.swf</file>
+			<transcript translate="true">You have now completed the Social and Emotional Overview module. In this overview we learned the importance of emotional competence and ways that parents can support  their child's social-emotional development.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="103" bytes="34991" startpos="1">a_01_020_02.swf</file>
+			<transcript translate="true">In the next module, you will learn the importance of attachment and its connection to risk factors associated with social-emotional challenges.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" duration="249" bytes="85103" startpos="1">a_01_020_03.swf</file>
+			<transcript translate="true">Next, you'll get an overview of four parenting styles with a specific emphasis on the concept of Emotion Coaching. Often, questions that parents have about social-emotional development center on issues of managing behavior such as "What do I do when my child doesn't follow directions?" or "What kind of reward system should I use?"</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" duration="158" bytes="54059" startpos="1">a_01_020_04.swf</file>
+			<transcript translate="true">To help answer these questions, we'll explore effective ways to use praise and discipline, and to reduce temper tantrums. We encourage you to address these topics as needed in consideration of age-appropriate expectations.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" duration="134" bytes="45867" startpos="1">a_01_020_05.swf</file>
+			<transcript translate="true">Before you leave this overview module, consider reviewing the Pillar 2 Goals. These goals can be found by clicking the Professional Icon. To continue, click another Module.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="-95" y="440" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="-95" y="245" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="40" width="407" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Goals of Pillar 2:&lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Explain the importance of social and emotional development and its relevance for raising socially and emotionally healthy children.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Describe the key research findings of social and emotional learning for children.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Provide parenting strategies and tips to help support the social-emotional development of children.&lt;/P&gt;&lt;/TEXTFORMAT&gt;</content>
+			</text>
+			<text id="misc_text02" x="35" y="55" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;1. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;2.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;3.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

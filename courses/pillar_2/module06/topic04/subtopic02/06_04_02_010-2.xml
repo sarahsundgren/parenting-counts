@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_video" view="view_video">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Tips for Parents</content>
+	</text>
+	<text id="nav_text" x="160" y="425" width="613" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; in the left panel to learn more about &lt;B&gt;What Parents Can Do&lt;/B&gt;.</content>
+	</text>
+	<text id="intro_text" x="390" y="50" width="352" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;Every parent knows that parenting can be stressful at times, especially when a child is misbehaving. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Let's watch a video to learn a few tips on how to handle stressful situations that arise from a child's misbehavior.&lt;/P&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="390" y="144" width="348" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">When parents are feeling frustrated or stressed in a situation they can: &lt;LI&gt;Stay calm and take a step back&lt;/LI&gt;&lt;LI&gt;Have another adult take over&lt;/LI&gt;&lt;LI&gt;Take a break from the situation&lt;/LI&gt;</content>
+		</text>
+		<text id="text02" x="390" y="176" width="352" height="40" autosize="" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">These tips can help parents to remain calm so they will use the most effective discipline method with their child.</content>
+		</text>
+		<text id="text03" x="390" y="224" width="351" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="text04" x="390" y="50" width="357" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="157" bytes="53527" startpos="1">a_06_04_02_010_01.swf</file>
+			<transcript translate="true">Every parent knows that parenting can be stressful at times, especially when a child is misbehaving. Let's watch a video to learn a few tips on how to handle stressful situations that arise from a child's misbehavior.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="video" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" startpos="1" bytes="46955" duration="138">a_06_04_02_010_02.swf</file>
+			<transcript translate="true">When parents are feeling frustrated or stressed in a situation, they can: Stay calm and take a step back, have another adult take over, or take a break from the situation.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="intro_text" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text01" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration03" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" startpos="1" bytes="25827" duration="76">a_06_04_02_010_03.swf</file>
+			<transcript translate="true">These tips can help parents to remain calm so they will use the most effective discipline method with their child.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration04" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" startpos="1"/>
+			<transcript/>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text03" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration05">
+			<file play="false" startpos="1"/>
+			<transcript/>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="presentation_video" expanded="true">
+		<video id="video" behavior="" x="25" y="50" width="340" height="180" visible="true" fx="VIDEO_SHOW" hidefx="VIDEO_HIDE" style="DEFAULT">
+			<file startpos="0" play="false" autorewind="true" buffer="15" preload="10" volume="100" bytes="6541111">discipline.mov</file>
+			<transcript/>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="0" result="SHOW" target="misc_text02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="0" result="STOP_AUDIO" target="" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="text01" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="narration02" result_param=""/>
+			</eventlist>
+		</video>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="41" y="272" width="309" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="CENTER"&gt;&lt;I&gt;Life with Preschooler &lt;/I&gt;DVD&lt;/P&gt;&lt;LI&gt;&lt;/LI&gt;</content>
+		</text>
+	</section>
+</template>

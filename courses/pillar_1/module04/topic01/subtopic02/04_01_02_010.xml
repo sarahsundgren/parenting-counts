@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<eventlist>
+			<event type="COMPLETION" result="SHOW" target="nav_text" result_param=""/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Symptoms of Stress in Infants</content>
+	</text>
+	<text id="nav_text" x="305" y="425" width="468" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Is Stress?&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x5" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="675" height="" autosize="H" style="DEFAULT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Many adults are surprised to learn how common stress is for infants, toddlers, and preschoolers.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="700" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;photo&lt;/B&gt; to learn more about stress in infants.</content>
+		</text>
+	</section>
+	<section id="list_items" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<graphic id="link01" x="23" y="125" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="37183" play="false" startpos="1">04_01_02_010_01.jpg</file>
+			<notes id="description">Isabelle Tavian 4 from folder in Physical</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="swap_text01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="swap_text02" result_param=""/>
+				<event type="CLICK" result="SHOW" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link02" x="25" y="270" width="" height="" style="LINK_3" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file bytes="54625" play="false" startpos="1">04_01_02_010_02.jpg</file>
+			<notes id="description">Baby Food File #: 3129535</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="swap_text02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="swap_text01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="SHOW" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="SHOW" target="ref_icon03" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="swap_text01" x="230" y="125" width="435" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="16"&gt;&lt;B&gt;Stress and Caregiving&lt;/B&gt;&lt;/FONT&gt;&lt;FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Infants can't regulate their own stress response. During their first year, they rely on caregivers to help them become calm. As their stress response system matures, infants learn to self-soothe. This process continues through early childhood.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Sensitive and consistent caregiving in the first year of life helps infants gradually regulate stress. Not having a consistent caregiver can be stressful for an infant. &lt;/P&gt;</content>
+		</text>
+		<text id="swap_text02" x="230" y="125" width="459" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="16"&gt;&lt;B&gt;Key Indicators of Stress&lt;/B&gt;&lt;/FONT&gt;&lt;FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Some of the key indicators of stress in infants are:&lt;/P&gt;&lt;LI&gt;Unusual fussiness&lt;/LI&gt;&lt;LI&gt;Difficulty feeding&lt;/LI&gt;&lt;LI&gt;Withdrawal&lt;/LI&gt;&lt;LI&gt;Appearing to have given up using typical cues&lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Crying may, but does not always, indicate a stress response is taking place in the body. Researchers who studied colicky babies found that while the babies may cry for a long time, they still have normal cortisol levels when they are comforted. This indicates that although crying continues, these babies' stress response is returning to normal.&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="110" bytes="37571" startpos="1">a_04_01_02_010_01.swf</file>
+			<transcript translate="true">Many adults are surprised to learn how common stress is for infants, toddlers, and preschoolers. Click each photo to learn more about stress in infants.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="25" y="164" width="350" height="" autosize="H" style="DIRECTIONS" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+	<section id="reference_icons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="ref_icon01" x="10" y="420" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_SHOW">
+			<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon02" x="624" y="315" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="185" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="50" width="416" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;White, B., Gunnar, M., Larson, M., Donzella, B. &amp; Barr, R. (2003). Behavioral and physiological responsivity, sleep, and patterns of daily cortisol production in infants with and without colic. &lt;I&gt;Annual progress in child psychiatry and child development: 2000-2001,&lt;/I&gt; 73-100. New York, NY: Brunner-Routledge.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="1" y="215" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="500" height="200" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="420" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="35" y="50" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">The relationship between lack of a consistent caregiver and stress in babies is essential. When teaching the module on attachment, remind parents that the lack of a consistent caregiver is the most stressful event in a baby's life.</content>
+			</text>
+		</container>
+	</section>
+</template>

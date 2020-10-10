@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="574" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Language in the Home</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="555" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Language in the Home.&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="365" y="60" width="375" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Parents sometimes wonder how often to talk with their children. The answer is easy: as often as possible.</content>
+		</text>
+		<text id="text02" x="365" y="110" width="410" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Word learning depends upon the:&lt;LI&gt;Amount of talking&lt;/LI&gt;&lt;LI&gt;Type of talking&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="365" y="175" width="410" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Conversational Patterns in the Home</content>
+		</text>
+		<text id="text04" x="365" y="200" width="400" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Professional: 2153 words per hour = 11+ million per year&lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="365" y="220" width="410" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Working Class: 1251 words per hour = 6+ million per year&lt;/LI&gt;</content>
+		</text>
+		<text id="text06" x="365" y="240" width="410" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;High Risk: 616 words per hour = 3+ million per year&lt;/LI&gt;</content>
+		</text>
+		<text id="text07" x="365" y="275" width="375" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">The key is back-and-forth conversations, not simply talking at the child.</content>
+		</text>
+		<text id="text08" x="365" y="315" width="375" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Key Message:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;The ability to use language to effectively communicate with others is a key component in a child’s early development, and is dependent on the number of interactions between parent and child.&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="113104" play="false" start_frame="1">03_02_01_010.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;BringBabyHomeDSC7110, Mother reading with child, in Communication and Lang folder, Verbal Dev&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="105013" play="false" start_frame="1">03_02_01_020.jpg</file>
+			<notes id="description">Parent or parents talking with child, istock #11255036
+or similar</notes>
+		</graphic>
+		<graphic id="graphic03" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="126033" play="false" start_frame="1">03_02_01_030.jpg</file>
+			<notes id="description">Parents talking with children, istock #8074514 or similar</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="224" bytes="76795" start_frame="1">a_03_02_01_010.swf</file>
+			<transcript translate="true">Parents sometimes wonder how often to talk with their children. The answer is easy, as often as possible. Children develop their oral language skills through conversations with others. One of the best ways to encourage language is to start at home. The home has the largest influence on vocabulary development through 2nd grade.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="25827" duration="76" start_frame="1">a_03_02_01_020.swf</file>
+			<transcript translate="true">A child's word learning depends upon two factors: the amount of talking and the type of talking that parents model.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="71947" duration="210" start_frame="1">a_03_02_01_030.swf</file>
+			<transcript translate="true">Betty Hart and Todd Risley conducted a study of conversational patterns in homes of different socio-economic levels. This year long study examined the two factors listed above. The results revealed a dramatic variance between the average number of words spoken per hour to children within these homes.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" duration="110" bytes="37571" start_frame="1">a_03_02_01_040.swf</file>
+			<transcript translate="true">In professional homes, children hear approximately 2153 words per hour or an average of 11 million words per year.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" bytes="33915" duration="100" start_frame="1">a_03_02_01_050.swf</file>
+			<transcript translate="true">In working class homes, children hear approximately 1251 words per hour or an average of 6 million words per year.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration06">
+			<file play="false" bytes="58155" duration="170" start_frame="1">a_03_02_01_060.swf</file>
+			<transcript translate="true">And in high risk homes children hear approximately 616 words per hour or an average of 3 million words per year. Further research shows that the key to language learning is more than just the number of words a child hears regularly. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration07">
+			<file play="false" bytes="21083" start_frame="1" duration="62">a_03_02_01_090.swf</file>
+			<transcript translate="true">The key is also back-and-forth conversations, not simply talking at the child.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon02" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration08">
+			<file play="false" bytes="54175" duration="159" start_frame="1">a_03_02_01_070.swf</file>
+			<transcript translate="true">In this topic, the key message is that the ability to use language to effectively communicate with others is a key component in a child’s early development, and is dependent on the number of interactions between parent and child.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text01" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="reference_icons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="ref_icon01" x="599" y="175" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1716" play="false" duration="1" start_frame="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon02" x="440" y="290" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1716" play="false" duration="1" start_frame="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_links" expanded="true"/>
+	<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" style="" fx="">
+		<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+			<file bytes="1904" play="false" duration="1" start_frame="1">rstar_popup_sizeable.swf</file>
+		</graphic>
+		<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+			<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+		</graphic>
+		<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;References:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Hart, B., &amp; Risley, T. (1992). American parenting of language-learning children: Persisting differences in family-child interactions observed in natural home environments. &lt;I&gt;Developmental Psychology, 28&lt;/I&gt;(6), 1096–1105&lt;/P&gt;</content>
+		</text>
+	</container>
+	<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" style="" fx="">
+		<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+			<file bytes="1904" play="false" duration="1" start_frame="1">rstar_popup_sizeable.swf</file>
+		</graphic>
+		<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+			<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+		</graphic>
+		<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;References:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Zimmerman, F., Gilkerson, J., Christakis, D., Xu, D., Gray, S., Yapanel, U. (2009). Teaching by listening: The importance of adult-child conversations to language development. &lt;I&gt;Pediatrics, 124&lt;/I&gt;, 342–349.&lt;/P&gt;</content>
+		</text>
+	</container>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="0" y="0" width="350" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+</template>

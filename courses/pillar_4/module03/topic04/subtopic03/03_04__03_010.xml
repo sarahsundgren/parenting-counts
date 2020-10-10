@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.1" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="true"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="ON_ALL_LINKS_VISITED"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="7" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Responding to Concerns</content>
+	</text>
+	<text id="nav_text" x="180" y="425" width="590" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt;, or click &lt;B&gt;Conclusion&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="37" width="740" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;As a professional, you will address parents' concerns about their children's language development. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Let's look at some situations in which a professional responds to a parent's concerns about a child's development.&lt;/P&gt;</content>
+		</text>
+		<text id="directions" x="25" y="77" width="561" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Read each situation and possible response, then click &lt;B&gt;Yes&lt;/B&gt; or &lt;B&gt;No&lt;/B&gt;.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="570" y="104" width="196" height="306" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" bytes="66127" duration="193" startpos="1">a_03_04_03_010_00.swf</file>
+			<transcript translate="true">As a professional, you will address parents' concerns about their children's language development. Let's look at some situations in which a professional responds to a parent's concerns about a child's development. Read each situation and possible response, then click yes or no.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true"/>
+	<section id="swap_text" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="575" y="110" width="195" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;You're right. Though each child is unique, you should clarify the general timeline of language development with parents so that they have an informed perspective on their own child's progress.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;At age 2, children should be experiencing a vocabulary spurt and should be pro-active in their attempts at communication. If a 2-year-old produces only few words and does not seem to be progressing in his language development, he may need further evaluation. &lt;/P&gt;</content>
+		</text>
+		<text id="swap_text02" x="" y="" width="195" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Right. Asking children questions and waiting for their replies is an excellent way to encourage the development of language skills.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Everyday interactions offer the best opportunities to assist a child in language development. Parents should talk to their child about their day and explain what they are doing as they perform everyday activities. Word games, rhyming, and singing are also fun and effective ways to help children develop language skills.&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text03" x="584" y="112" width="183" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Try again.</content>
+		</text>
+		<text id="swap_text04" x="" y="" width="180" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Try again.</content>
+		</text>
+	</section>
+	<section id="question01" align="" spacing="0" autospace="false" columns="0" expanded="true" controls="true">
+		<graphic id="box01" x="25" y="105" width="529" height="141" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+		</graphic>
+		<text id="q01_text" x="35" y="118" width="397" height="" autosize="H" style="REFERENCE" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Situation: &lt;/B&gt;A father is concerned that his 2-year-old son only says a few words while his neighbor’s son of the same age is already saying phrases. How could you respond to this parent?&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Possible Response:&lt;/B&gt; Tell the father that all children develop differently so there is no reason to worry.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Is this the best response?&lt;/P&gt;</content>
+		</text>
+		<graphic id="q01_answer01" x="450" y="116" width="" height="" style="TOGGLE_BTN" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file play="false" bytes="6039" startpos="1" duration="23">btn_yes.swf</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="RADIOCLICK" result="SHOW" target="swap_text03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link01" x="450" y="184" width="" height="" style="TOGGLE_BTN" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" name="q01_answer02">
+			<file play="false" bytes="5839" startpos="1" duration="23">btn_no.swf</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="question02" align="" spacing="0" autospace="false" columns="0" expanded="true" controls="true">
+		<graphic id="box02" x="25" y="267" width="529" height="141" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+		</graphic>
+		<text id="q02_text" x="35" y="275" width="412" height="" autosize="H" style="REFERENCE" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Situation:&lt;/B&gt; Ryan is 2 1/2-years-old. He talks a lot but doesn't seem to have conversations with others. Ryan's mother is worried he's not learning to interact with others. What would you say? &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Possible Response:&lt;/B&gt; Ask Ryan questions and wait for him to reply. Then practice taking turns talking to further the discussion.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Is this the best response?&lt;/P&gt;</content>
+		</text>
+		<graphic id="link02" x="450" y="276" width="" height="" style="TOGGLE_BTN" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file play="false" bytes="6039" startpos="1" duration="23">btn_yes.swf</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="RADIOCLICK" result="SHOW" target="swap_text02" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="q02_answer01" x="450" y="342" width="" height="" style="TOGGLE_BTN" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" name="q02_answer02">
+			<file play="false" bytes="5839" startpos="1" duration="23">btn_no.swf</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="RADIOCLICK" result="SHOW" target="swap_text04" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+</template>

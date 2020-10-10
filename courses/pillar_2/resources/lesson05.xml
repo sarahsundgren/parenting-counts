@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<graphic id="background" x="0" y="0" width="795" height="533" behavior="LOCK_XY|LOCK_SIZE" style="PLAIN" visible="true" fx="SHOW" hidefx="HIDE" disabled="true">
+		<file play="false" bytes="5827" startpos="1">wizard.jpg</file>
+		<eventlist>
+			<event type="CLICK" result="DISABLE" target="_self" result_param=""/>
+		</eventlist>
+	</graphic>
+	<text id="title" x="37" y="35" width="456" height="" autosize="H" style="WIZARD_TITLE" visible="true" fx="SHOW" hidefx="HIDE">
+		<content translate="true">Rating Praise</content>
+	</text>
+	<text id="material" x="37" y="65" width="697" height="346" autosize="" style="WIZARD_TEXT" visible="false" fx="SHOW" hidefx="HIDE" scroll="AUTO">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Discussion Topic&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Encourage parents to become more aware of when and how often they praise their children. The exercise below is an activity that can be used with parents. Using the scale below, encourage parents to evaluate themselves on their use of praise.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Rating Exercise:&lt;/B&gt;&lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;P ALIGN="LEFT"&gt;1. I try to make play a positive experience by praising my child's efforts. &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;&lt;I&gt;(Rarely, Sometimes, Never)&lt;/I&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;P ALIGN="LEFT"&gt;2. I encourage my child by praising effort and good behavior. &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;&lt;I&gt;(Rarely, Sometimes, Never)&lt;/I&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;P ALIGN="LEFT"&gt;3. I give hugs or high fives for accomplishments.&lt;I&gt; &lt;/I&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;&lt;I&gt;(Rarely, Sometimes, Never)&lt;/I&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;P ALIGN="LEFT"&gt;4. I try to recognize what interests my child and acknowledge the&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;value of the activity. &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;&lt;I&gt;(Rarely, Sometimes, Never)&lt;/I&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;P ALIGN="LEFT"&gt;5. I put my child's artwork in easy-to-see places. &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;&lt;I&gt;(Rarely, Sometimes, Never)&lt;/I&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Sample Feedback&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Be sure to let parents know this activity is not intended to make them feel like bad parents, instead it is to help them be aware of how often they praise so that they can make improvements if needed. Once parents have rated themselves, help them create a goal for improvement based on their ratings.&lt;/P&gt;</content>
+	</text>
+	<text id="material_a" x="37" y="65" width="697" height="346" autosize="" style="WIZARD_TEXT" visible="true" fx="SHOW" hidefx="HIDE" scroll="AUTO">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Discussion Topic&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Encourage parents to become more aware of when and how often they praise their children. The exercise below is an activity that can be used with parents. Using the scale below, encourage parents to evaluate themselves on their use of praise.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Rating Exercise:                                                                                           Rarely      Sometimes        Never&lt;/B&gt;&lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;P ALIGN="LEFT"&gt;1. I try to make play a positive experience by praising my child's efforts. &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;P ALIGN="LEFT"&gt;2. I encourage my child by praising effort and good behavior.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;P ALIGN="LEFT"&gt;3. I give hugs or high fives for accomplishments. &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;P ALIGN="LEFT"&gt;4. I try to recognize what interests my child and acknowledge the &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;P ALIGN="LEFT"&gt;    value of the activity.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;P ALIGN="LEFT"&gt;5. I put my child's artwork in easy-to-see places.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Sample Feedback&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Be sure to let parents know this activity is not intended to make them feel like bad parents, instead it is to help them be aware of how often they praise so that they can make improvements if needed. Once parents have rated themselves, help them create a goal for improvement based on their ratings.&lt;/P&gt;</content>
+	</text>
+	<text id="material_b" x="505" y="138" width="240" height="150" autosize="" style="WIZARD_TEXT" visible="true" fx="SHOW" hidefx="HIDE" scroll="AUTO">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;   —                 —                    —&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;   —                 —                    —&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;   —                 —                    —&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;   —                 —                    —&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;   —                 —                    —&lt;/P&gt;</content>
+	</text>
+	<graphic id="print" x="647" y="430" width="" height="" behavior="" style="CONTROLS" visible="true" fx="SHOW" hidefx="HIDE">
+		<file play="false" bytes="3602" startpos="1" duration="23">btn_print.swf</file>
+		<eventlist>
+			<event type="CLICK" result="CALL_FUNCTION" target="PAGE" result_param="printWizard();"/>
+		</eventlist>
+	</graphic>
+</template>

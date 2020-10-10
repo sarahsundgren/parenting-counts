@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_carousel" view="view_carousel_swappanels">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programming-options"/>
+		<notes id="search-terms"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="rangeX" datatype="NUMBER" value="400"/>
+		<settings id="rangeY" datatype="NUMBER" value="125"/>
+		<settings id="rangeZ" datatype="NUMBER" value="400"/>
+		<settings id="disablePanels" datatype="BOOLEAN" value="false"/>
+		<settings id="useControls" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Social Referencing</content>
+	</text>
+	<text id="nav_text" x="35" y="425" width="735" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Early Social Exchange&lt;/B&gt;.&lt;B&gt;&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="51" width="720" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Infants and their parents begin to have conversations long before the babies can talk. These early conversations are based on a rich exchange of verbal and non-verbal expressions by both parent and child. </content>
+		</text>
+		<text id="directions" x="25" y="77" width="800" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click the &lt;B&gt;Forward&lt;/B&gt; and &lt;B&gt;Back&lt;/B&gt; buttons to learn more.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="420" y="54" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1"/>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" startpos="1" bytes="83367" duration="243">a_02_02_02_020_01.swf</file>
+			<transcript translate="true">Infants and their parents begin to have conversations long before the babies can talk. These early conversations are based on a rich exchange of verbal and non-verbal expressions by both parent and child. Infants look to their parents' expressions as social references. Click the forward and back buttons to learn more about infants and social referencing.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="buttons" align="" spacing="0" autospace="false" exclusive="false" expanded="true">
+		<container id="forward_button" behavior="LOCK_SIZE" x="360" y="113" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="true" fx="">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="85" y="10" width="" height="" style="CONTROLS" visible="true" fx="">
+				<file play="false" startpos="1" bytes="212">right_arrow.png</file>
+			</graphic>
+			<text id="text" x="8" y="8" width="88" height="18" autosize="" style="CONTROLS" visible="true" fx="">
+				<content translate="true">Forward</content>
+			</text>
+		</container>
+		<container id="reverse_button" behavior="LOCK_SIZE" x="223" y="113" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="true" fx="">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<graphic id="icon" behavior="" x="35" y="10" width="" height="" style="CONTROLS" visible="true" fx="">
+				<file play="false" startpos="1" bytes="223">left_arrow.png</file>
+			</graphic>
+			<text id="text" x="19" y="8" width="88" height="18" autosize="" style="CONTROLS" visible="true" fx="">
+				<content translate="true">Back</content>
+			</text>
+		</container>
+	</section>
+	<section id="panels" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="panel01" behavior="LOCK_XY" x="224" y="245" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="LOCK_XY" x="0" y="0" width="" height="" style="GRAPHIC" visible="true" fx="">
+				<file play="false" startpos="1" bytes="48315">02_02_02_020_01.jpg</file>
+				<notes id="description">3-month-old looking around the room</notes>
+			</graphic>
+			<text id="text" x="0" y="160" width="200" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel02" behavior="LOCK_XY" x="250" y="182" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="LOCK_XY" x="0" y="0" width="238" height="175" style="GRAPHIC" visible="true" fx="">
+				<file play="false" startpos="1" bytes="57452">02_02_02_020_02.jpg</file>
+				<notes id="description">4-month-old looking to parent for reaction.</notes>
+			</graphic>
+			<text id="text" x="0" y="160" width="200" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel03" behavior="LOCK_XY" x="" y="" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="LOCK_XY" x="0" y="0" width="238" height="175" style="GRAPHIC" visible="true" fx="">
+				<file play="false" startpos="1" bytes="66695">02_02_02_020_03.jpg</file>
+				<notes id="description">infant looking to parent for guidance in expression</notes>
+			</graphic>
+			<text id="text" x="0" y="160" width="200" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel04" behavior="LOCK_XY" x="" y="" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="LOCK_XY" x="0" y="0" width="238" height="175" style="GRAPHIC" visible="true" fx="">
+				<file play="false" startpos="1" bytes="65370">02_02_02_020_04.jpg</file>
+				<notes id="description">7-month-old mimicking parents facial expression</notes>
+			</graphic>
+			<text id="text" x="0" y="160" width="200" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel05" behavior="LOCK_XY" x="" y="" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="graphic" behavior="LOCK_XY" x="0" y="0" width="238" height="175" style="GRAPHIC" visible="true" fx="">
+				<file play="false" startpos="1" bytes="60625">02_02_02_020_05.jpg</file>
+				<notes id="description">5-month-old babbling at parent</notes>
+			</graphic>
+			<text id="text" x="0" y="160" width="200" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="swap_content" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="swap01" behavior="LOCK_SIZE" x="448" y="245" visible="false" fx="SWAP_SHOW" hidefx="SWAP_HIDE" style="">
+			<graphic id="graphic" behavior="LOCK_XY" x="0" y="0" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="header" x="15" y="15" width="250" height="" autosize="H" style="DEFAULT" visible="true" fx="">
+				<content/>
+			</text>
+			<text id="text" x="15" y="40" width="310" height="" autosize="H" style="DEFAULT" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="swap02" behavior="LOCK_SIZE" x="468" y="245" visible="false" fx="SWAP_SHOW" hidefx="SWAP_HIDE" style="">
+			<graphic id="graphic" behavior="LOCK_XY" x="0" y="0" width="238" height="163" style="PANEL" visible="true" fx="">
+				<file play="false" startpos="1" bytes="54">clear.gif</file>
+			</graphic>
+			<text id="header" x="10" y="5" width="134" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Interpretation</content>
+			</text>
+			<text id="text" x="10" y="25" width="229" height="" autosize="H" style="DEFAULT_2" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Social referencing is how babies learn to interpret the emotional content of the world around them.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Babies learn how they should feel about events by looking to their parents to see how they react.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="swap03" behavior="LOCK_SIZE" x="468" y="245" visible="false" fx="SWAP_SHOW" hidefx="SWAP_HIDE" style="">
+			<graphic id="graphic" behavior="LOCK_XY" x="0" y="0" width="238" height="163" style="PANEL" visible="true" fx="">
+				<file play="false" startpos="1" bytes="54">clear.gif</file>
+			</graphic>
+			<text id="header" x="10" y="5" width="250" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Referencing Social Cues</content>
+			</text>
+			<text id="text" x="10" y="25" width="227" height="" autosize="H" style="DEFAULT_2" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;In a research study, 3-month-olds were shown images of adults who displayed either a fearful or a neutral expression while looking at an object.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;If an adult showed fear, the part of the infant's brain associated with fear became active.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="swap04" behavior="LOCK_SIZE" x="468" y="245" visible="false" fx="SWAP_SHOW" hidefx="SWAP_HIDE" style="">
+			<graphic id="graphic" behavior="LOCK_XY" x="0" y="0" width="238" height="163" style="PANEL" visible="true" fx="">
+				<file play="false" startpos="1" bytes="54">clear.gif</file>
+			</graphic>
+			<text id="header" x="10" y="5" width="217" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Facial Expressions</content>
+			</text>
+			<text id="text" x="10" y="25" width="232" height="" autosize="H" style="DEFAULT_2" visible="true" fx="">
+				<content translate="true">Over the first year, babies will become receptive and responsive by using coos and babbles, and by mirroring parents' facial expressions.</content>
+			</text>
+			<graphic id="ref_icon02" x="65" y="150" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+				<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable2.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+		<container id="swap05" behavior="LOCK_SIZE" x="468" y="245" visible="false" fx="SWAP_SHOW" hidefx="SWAP_HIDE" style="">
+			<graphic id="graphic" behavior="LOCK_XY" x="0" y="0" width="238" height="163" style="PANEL" visible="true" fx="">
+				<file play="false" startpos="1" bytes="54">clear.gif</file>
+			</graphic>
+			<text id="header" x="10" y="5" width="209" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Encouraging Response</content>
+			</text>
+			<text id="text" x="10" y="25" width="226" height="" autosize="H" style="DEFAULT_2" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;As a baby begins to use more strategies to communicate, parents may work to encourage and elicit new and more sophisticated responses from the child.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;In this way, the child's language and communication skills grow and develop with the parents' support.&lt;/P&gt;</content>
+			</text>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</container>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="10" y="420" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="2690" play="false" startpos="1">icon_pro_gray.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="LOCK_SIZE" x="1" y="235" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true" fx="">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true" fx="">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text02" x="20" y="40" width="416" height="" autosize="H" style="REFERENCE" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Brain measurements tell us how infants process the world around them, even before they have the behavioral repertoire to show us. Children with autism often do not process important social signs. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;At 3 months, we see that the typically developing infant brain is already effectively attending to and praising relevant social cues and using these signals to process new objects they encounter in the world.&lt;/P&gt;</content>
+			</text>
+			<graphic id="ref_icon03" x="82" y="149" width="15" height="15" style="LINK_SWF" visible="true" fx="">
+				<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable2.swf</file>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference03" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+		<container id="reference02" behavior="LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true" fx="">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true" fx="">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Academy of Finland (2008). Infant Sensitivity To Negative Emotional Expressions Develops At Around 6 Months. &lt;I&gt;Science Daily.&lt;/I&gt; Retrieved from http://www.sciencedaily.com/releases/2008/08/080813095720.htm&lt;B&gt;&lt;/B&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference03" behavior="LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true" fx="">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true" fx="">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;(2008). &lt;I&gt;Science Daily.&lt;/I&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

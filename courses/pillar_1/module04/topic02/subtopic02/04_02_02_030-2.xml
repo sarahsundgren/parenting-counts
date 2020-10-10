@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_cardswap" view="view_cardswap_inplace">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="persistInitGfx" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+		<settings id="perspectiveEdges" datatype="LIST" value="DEFAULT"/>
+		<settings id="exclusiveCards" datatype="LIST" value="FALSE"/>
+		<settings id="allowFlipBack" datatype="LIST" value="TRUE"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Effects of Stress</content>
+	</text>
+	<text id="nav_text" x="180" y="425" width="590" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Why Stress Matters&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="656" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Stress can have a significant impact on a child’s development.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="650" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;pillar&lt;/B&gt; to read how stress affects the different aspects of early development in children.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="25" y="120" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="26111" startpos="1">placeholder_200x200_01.jpg</file>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" bytes="41771" startpos="1" duration="122">a_04_02_02_030_01.swf</file>
+			<transcript translate="true">Stress can have a significant impact on all elements of a child's development. Click each pillar to read how stress affects the different aspects of early development in children.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="card_backs" align="TOP" spacing="10x0" autospace="true" columns="0" exclusive="false" expanded="true">
+		<container id="card_back01" behavior="LOCK_SIZE" x="25" y="130" style="CARD" visible="true" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_BACK" visible="true" fx="">
+				<file bytes="7601" play="false" startpos="1">04_02_02_011_05.png</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Physical Pillar&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_BACK" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon04" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference04" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="card_back02" behavior="LOCK_SIZE" x="133" y="135" style="CARD" visible="true" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_BACK" visible="true" fx="">
+				<file bytes="4938" play="false" startpos="1">04_02_02_011_06.png</file>
+				<notes id="description">Social and Emotional Pillar</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_BACK" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon04" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference04" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="card_back03" behavior="LOCK_SIZE" x="250" y="134" style="CARD" visible="true" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_BACK" visible="true" fx="">
+				<file bytes="5166" play="false" startpos="1">04_02_02_011_07.png</file>
+				<notes id="description">Cognitive Pillar</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_BACK" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon04" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference04" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="card_back04" behavior="LOCK_SIZE" x="366" y="134" style="CARD" visible="true" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_BACK" visible="true" fx="">
+				<file bytes="5271" play="false" startpos="1">04_02_02_011_08.png</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;Communication and Language Pillar&lt;/P&gt;</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_BACK" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="ref_icon03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference04" result_param=""/>
+			</eventlist>
+		</container>
+	</section>
+	<section id="card_fronts" align="TOP" spacing="10x0" autospace="true" columns="0" exclusive="false" expanded="true">
+		<container id="card_front01" behavior="LOCK_SIZE" x="25" y="130" style="CARD" visible="false" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_FRONT2" visible="true" fx="">
+				<file bytes="7601" play="false" startpos="1">04_02_02_011_05.png</file>
+				<notes id="description">physical pillar highlighted</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_FRONT" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference01" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="card_front02" behavior="LOCK_SIZE" x="210" y="240" style="CARD" visible="false" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_FRONT2" visible="true" fx="">
+				<file bytes="4938" play="false" startpos="1">04_02_02_011_06.png</file>
+				<notes id="description">social and emotional pillar highlighted</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_FRONT" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference02" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="card_front03" behavior="LOCK_SIZE" x="395" y="240" style="CARD" visible="false" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_FRONT2" visible="true" fx="">
+				<file bytes="5166" play="false" startpos="1">04_02_02_011_07.png</file>
+				<notes id="description">cognitive pillar highlighted</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_FRONT" visible="true" fx="">
+				<content/>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="ref_icon03" result_param=""/>
+				<event type="CLICK" result="HIDE" target="reference03" result_param=""/>
+			</eventlist>
+		</container>
+		<container id="card_front04" behavior="LOCK_SIZE" x="580" y="240" style="CARD" visible="false" fx="CARD_SHOW" hidefx="CARD_HIDE">
+			<graphic id="background" behavior="LOCK_XY|LOCK_SIZE" x="0" y="0" width="" height="" style="CARD_FRONT2" visible="true" fx="">
+				<file bytes="5271" play="false" startpos="1">04_02_02_011_08.png</file>
+				<notes id="description">Communication and Language Pillar highlighted</notes>
+			</graphic>
+			<text id="text" x="0" y="80" width="70" height="" autosize="H" style="CARD_FRONT" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="swap_graphic01" x="450" y="105" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="40835" startpos="1">04_02_02_030_01.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;Mother Taking Temperature Of Sick Daughter File #: 12780231&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="swap_graphic02" x="" y="" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="66017" startpos="1">04_02_02_030_02.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;Unhappy Baby and Mother  File #: 8861234&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="swap_graphic03" x="" y="" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="44151" startpos="1">04_02_02_030_03.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;receptor  File #: 2227524&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="swap_graphic04" x="" y="" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="58261" startpos="1">04_02_02_030_04.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;mother talking with her son  File #: 13218279&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="swap_text" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="450" y="260" width="298" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Physical and Brain Development&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Stress can disrupt the sleep/wake cycle and compromise a child's immune response system. This is also true for adults.&lt;/P&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="swap_text02" x="450" y="260" width="288" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Social and Emotional Development&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Stress can cause a child to have a slow, difficult recovery from being upset. Chronic stress also causes children to become over reactive to mild stressors.&lt;/P&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon02" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="swap_text03" x="450" y="260" width="292" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="16"&gt;&lt;B&gt;Learning and Cognitive Development&lt;/B&gt;&lt;/FONT&gt;&lt;FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Severe chronic stress can create a “toxic” level of cortisol and inhibit neural development in the hippocampus.&lt;/P&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon03" result_param=""/>
+			</eventlist>
+		</text>
+		<text id="swap_text04" x="450" y="260" width="295" height="" autosize="H" style="SWAP" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="16"&gt;&lt;B&gt;Communication and Language Development&lt;/B&gt;&lt;/FONT&gt;&lt;FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Stress can cause disruptions in cognitive development that can delay or interrupt language and communication advancement.&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="670" y="322" width="15" height="15" style="LINK_SWF" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon02" x="612" y="340" width="15" height="15" style="LINK_SWF" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="ref_icon03" x="580" y="326" width="15" height="15" style="LINK_SWF" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference03" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480.95" height="184.55" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="55" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Gunnar, M., &amp; Vazquez, D. (2001). Low cortisol and a flattening of expected daytime rhythm: Potential indices of risk in human development. &lt;I&gt;Development and Psychopathology, 13(3),&lt;/I&gt; 515-538. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480.95" height="184.55" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;References:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Kaufman, J., Birmaher, B., Perel, J., Dahl, R., Moreci, P., Nelson, B., et al. (1997). The corticotropin-releasing hormone challenge in depressed abused, depressed nonabused, and normal control children. &lt;I&gt;Biological Psychiatry, 42(8),&lt;/I&gt; 669-679.&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="reference03" behavior="STRICT|LOCK_SIZE" x="286" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="488" height="192" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="35" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Gunnar, M., &amp; Fisher, P. (2006). Bringing basic research on early experience and stress neurobiology to bear on preventive interventions for neglected and maltreated children. &lt;I&gt;Development and Psychopathology, 18(3),&lt;/I&gt; 651-677. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Pollak, S.D., Cicchetti, D., &amp; Klorman, R. (1998). Stress, Memory, and Emotion: Developmental considerations from the study of child maltreatment. &lt;I&gt;Development and Psychopathology, 10&lt;/I&gt;, 811-828. &lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

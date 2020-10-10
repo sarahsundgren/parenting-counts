@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_slider" view="view_hslider_links">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="useControls" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Learning and Memory</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click the &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Memory&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="719" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Learning in the early years relies on sensory and relational experiences. Children encode their experiences implicitly not explicitly. Why are the first three years of life so important if no one remembers them?</content>
+		</text>
+		<text id="directions" x="25" y="77" width="588" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click the &lt;B&gt;buttons &lt;/B&gt;to read more about memory.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<audio id="initial_audio">
+			<file play="true" bytes="132727" duration="387" startpos="1">a_01_02_02_012_01.swf</file>
+			<transcript translate="true">Learning in the early years relies on sensory and relational experiences. Children encode their experiences implicitly not explicitly. Because of the way memory is recorded, it's hard for some to understand why the first three years of life are so important if no one remembers them. For example, why would a parent take a toddler to the zoo if they won't remember the experience? The reason is that the goal is not limited to creating memories together; these experiences and relationships support the child in their development. Click the buttons to read more about memory.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="dev_assets" expanded="true">
+		<area id="panel_mask" behavior="" x="147" y="113" width="600" height="320" visible="false" fx=""/>
+	</section>
+	<section id="buttons" align="TOP" spacing="0" autospace="false" exclusive="false" expanded="true">
+		<container id="forward_button" behavior="STRICT|LOCK_SIZE" x="916" y="228" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="false">
+				<file play="false" bytes="1755" startpos="1" duration="30">mc_slider_next.swf</file>
+			</graphic>
+			<text id="text" x="0" y="0" width="1" height="1" autosize="" style="CONTROLS" visible="false">
+				<content/>
+			</text>
+		</container>
+		<container id="reverse_button" behavior="STRICT|LOCK_SIZE" x="20" y="225" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="false">
+				<file play="false" bytes="1810" startpos="1" duration="30">mc_slider_back.swf</file>
+			</graphic>
+			<text id="text" x="0" y="0" width="1" height="1" autosize="" style="CONTROLS" visible="false">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="panels" expanded="true">
+		<container id="panel01" behavior="" x="150" y="120" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="" x="0" y="0" width="574" height="299" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="140925" startpos="1">01_03_02_011_01.jpg</file>
+				<notes id="description">children at a museum or historical landmark</notes>
+			</graphic>
+			<text id="header" x="285" y="6" width="200" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content/>
+			</text>
+			<text id="text" x="285" y="41" width="273" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel02" behavior="" x="" y="" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="" x="0" y="0" width="574" height="299" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="325" y="110" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="50920" startpos="1">01_02_02_010_02.png</file>
+				<notes id="description">image of a brain</notes>
+			</graphic>
+			<text id="header" x="25" y="10" width="300" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Implicit Memory</content>
+			</text>
+			<text id="text01" x="15" y="40" width="503" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;Starts at birth and records impressions of vision, smell, hearing, emotions, and feeling safe or unsafe. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Stored in the visual and somatosensory cortices and the limbic system, which are the earliest developing parts of the brain &lt;/LI&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt; (see the Physical and Brain Development &lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt; Overview module).&lt;/P&gt;&lt;/TEXTFORMAT&gt;</content>
+			</text>
+			<text id="text02" x="15" y="153" width="284" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;Connected to emotion. This is why an adult might experience a smell from childhood and remember that time in either a positive or negative way.&lt;/LI&gt;</content>
+			</text>
+		</container>
+		<container id="panel03" behavior="" x="" y="" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="" x="0" y="0" width="574" height="299" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="325" y="110" width="" height="" style="DEFAULT" visible="false" fx="">
+				<file play="false" bytes="104626" startpos="1">01_02_02_010_03.png</file>
+				<notes id="description">toddler and 5-year-old at the zoo</notes>
+			</graphic>
+			<text id="header" x="25" y="10" width="316" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Explicit Memory</content>
+			</text>
+			<text id="text01" x="15" y="40" width="513" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;Explicit memory uses a completely different mechanism than implicit memory: it consciously functions to remember things. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;This type of memory is triggered by a part of the brain called the hippocampus, however memories are not "stored" there—rather they are encoded and recalled as neural networks that include many parts of the brain.  &lt;/LI&gt;</content>
+			</text>
+			<text id="text02" x="15" y="135" width="523" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;Because this type of memory develops later in childhood, a 5-year-old might remember a trip to the zoo, but a 2-year-old would not. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;One study found that when 12-month-olds were shown unique ways to play with 5 toys, the babies in the study remembered about half of the play techniques after 4 weeks without seeing the toys. These babies demonstrated that even though they might not be able to explain how they know (remember), they can still recall how to play with the toys. This tells us that early experiences are encoded in the brain both in younger and older children, but they are encoded and recalled in different ways.&lt;/LI&gt;</content>
+			</text>
+			<section id="reference_links" expanded="true">
+				<graphic id="ref_icon01" x="527" y="251" width="15" height="15" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+					<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+					<eventlist>
+						<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+					</eventlist>
+				</graphic>
+			</section>
+		</container>
+		<container id="panel04" behavior="" x="" y="" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="" x="0" y="0" width="574" height="299" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" startpos="1"/>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;image of visual and somatosensory cortices.&lt;/P&gt;</notes>
+			</graphic>
+			<text id="header" x="25" y="10" width="300" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Narrative Memory</content>
+			</text>
+			<text id="text" x="25" y="40" width="489" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;Narrative memories are a type of explicit memory. They occur when a person encodes and recalls events, and usually begins with, “I remember when…” &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;For example, upon seeing holiday decorations, a child might recall, without prompting, where they were placed the previous year because environmental stimuli encourage the recollection. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Children typically begin to encode narrative memories around age 2 1/2. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Many people think that children are smarter if they remember a lot. While this may or may not be true, professionals can help caregivers understand what children are capable of, and encourage them to have children reflect upon warm family and cultural experiences. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Caregivers can help children remember faraway family members through pictures, videos, and discussion. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="panel_shortcuts" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<graphic id="link01" x="25" y="67" width="" height="" style="LINK_SWF" visible="false" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link02" x="25" y="122.5" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link03" x="25" y="178" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link04" x="50" y="225" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+	</section>
+	<section id="swap_audio" expanded="true"/>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="188" y="147" width="46" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Intro</content>
+		</text>
+		<text id="misc_text02" x="55" y="123" width="58" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Implicit Memory</content>
+		</text>
+		<text id="misc_text03" x="55" y="178" width="65" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Explicit Memory</content>
+		</text>
+		<text id="misc_text04" x="80" y="225" width="65" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Narrative Memory</content>
+		</text>
+		<text id="misc_text05" x="31" y="205" width="350" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;|&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;|&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+		<text id="misc_text06" x="35" y="228" width="350" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">--</content>
+		</text>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480.95" height="184.55" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;References:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Klein, P.J. &amp; Meltzoff, A.N. (1999). Long-term memory, forgetting, and deferred imitation in 12-month-old infants. &lt;I&gt;Developmental Science, 2&lt;/I&gt;(1), 102-113.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Meltzoff, A., &amp; Moore, M. (1983). Newborn infants imitate adult facial gestures. &lt;I&gt;Child Development, 54&lt;/I&gt;(3), 702-709.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

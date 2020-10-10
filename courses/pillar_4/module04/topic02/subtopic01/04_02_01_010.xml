@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_slider" view="view_hslider_links">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="useControls" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Language Milestones Ages 3–5</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Ages and Stages 3–5&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="719" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Children's language develops rapidly between ages 3 and 5. Although many children seem to pick up the concepts of reading and writing in kindergarten and 1st grade, the key message to emphasize to parents is that the process of reading and writing begins long before a child enters school.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="588" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click the &lt;B&gt;buttons &lt;/B&gt;to read more about language milestones.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<audio id="initial_audio">
+			<file play="true" bytes="76263" duration="223" startpos="1">a_04_03_01_010_01.swf</file>
+			<transcript translate="true">Children's language develops rapidly between ages 3 and 5. Although many children seem to pick up the concepts of reading and writing in kindergarten and 1st grade, the key message to emphasize to parents is that the process of reading and writing begins long before a child enters school. Click the buttons to read more about language milestones.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="dev_assets" expanded="true">
+		<area id="panel_mask" behavior="" x="50" y="120" width="700" height="320" visible="false" fx=""/>
+	</section>
+	<section id="buttons" align="TOP" spacing="0" autospace="false" exclusive="false" expanded="true">
+		<container id="forward_button" behavior="STRICT|LOCK_SIZE" x="916" y="228" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="false">
+				<file play="false" bytes="1755" startpos="1" duration="30">mc_slider_next.swf</file>
+			</graphic>
+			<text id="text" x="0" y="0" width="1" height="1" autosize="" style="CONTROLS" visible="false">
+				<content/>
+			</text>
+		</container>
+		<container id="reverse_button" behavior="STRICT|LOCK_SIZE" x="20" y="225" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="false">
+				<file play="false" bytes="1810" startpos="1" duration="30">mc_slider_back.swf</file>
+			</graphic>
+			<text id="text" x="0" y="0" width="1" height="1" autosize="" style="CONTROLS" visible="false">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="panels" expanded="true">
+		<container id="panel01" behavior="" x="75" y="140" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="" x="0" y="0" width="649" height="279" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="0" y="0" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="184464" startpos="1">04_02_01_010_01.jpg</file>
+				<notes id="description">istock#: 13835036 (group of preschoolers)</notes>
+			</graphic>
+			<text id="header" x="285" y="6" width="200" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content/>
+			</text>
+			<text id="text" x="285" y="41" width="273" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel02" behavior="" x="" y="" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="" x="0" y="0" width="649" height="279" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="325" y="110" width="" height="" style="DEFAULT" visible="false" fx="">
+				<file play="false" placeholder="true" startpos="1"></file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+			</graphic>
+			<text id="header" x="25" y="10" width="300" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Ages and Stages: 3–4 Years</content>
+			</text>
+			<text id="text01" x="15" y="55" width="286" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;Speak sentences of five or six words&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Tell stories&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Use more complex grammar, such as plurals and past tense&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Narrate past experiences and understand sentences involving time (for example, "Grandma is coming tomorrow.")&lt;/LI&gt;</content>
+			</text>
+			<text id="text02" x="300" y="55" width="333" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;Understand size comparisons, such as big &lt;/LI&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;  and bigger &lt;/TEXTFORMAT&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Understand the concept of same and different&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Understand relationships expressed by "if...then"&lt;I&gt; &lt;/I&gt;or "because"&lt;B&gt; &lt;/B&gt;sentences &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Follow a series of two to four related directions &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Sing a song and repeat at least one nursery rhyme&lt;/LI&gt;</content>
+			</text>
+			<text id="text03" x="25" y="35" width="276" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;FONT SIZE="14"&gt;&lt;B&gt;What Can Children Do?&lt;/B&gt;&lt;/FONT&gt;</content>
+			</text>
+		</container>
+		<container id="panel03" behavior="" x="" y="" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="" x="0" y="0" width="649" height="279" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<graphic id="graphic" behavior="" x="325" y="110" width="" height="" style="DEFAULT" visible="false" fx="">
+				<file play="false" bytes="7989" placeholder="true" startpos="1">01_02_02_010_02.png</file>
+				<notes id="description">image of a brain</notes>
+			</graphic>
+			<text id="header" x="25" y="10" width="300" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Ages and Stages: 4–5 Years</content>
+			</text>
+			<text id="text01" x="15" y="55" width="272" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;Combine thoughts into one sentence&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Ask when, how, and why questions &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Use words like "can," "will," "should," and "might" &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Refer to causality by using "because"&lt;I&gt; &lt;/I&gt;and "so" &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Use future tense&lt;/LI&gt;</content>
+			</text>
+			<text id="text02" x="290" y="55" width="342" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;LI&gt;Say full name&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Understand comparatives like loud, louder, loudest &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Follow three unrelated commands appropriately &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Listen to and tell longer stories (but may misinterpret the facts) &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Understand sequencing of events when clearly explained (for example, "First we plug the drain, then we run the water, and finally we take a bath.")&lt;/LI&gt;</content>
+			</text>
+			<text id="text03" x="25" y="35" width="276" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">&lt;FONT SIZE="14"&gt;&lt;B&gt;What Can Children Do?&lt;/B&gt;&lt;/FONT&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="panel_shortcuts" align="TOP" spacing="90x0" autospace="true" columns="0" expanded="true">
+		<graphic id="link01" x="397" y="108" width="" height="" style="LINK_SWF" visible="false" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link02" x="25" y="122.5" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link03" x="25" y="178" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link04" x="50" y="225" width="" height="" style="LINK_SWF" visible="false" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+	</section>
+	<section id="swap_audio" expanded="true"/>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="188" y="147" width="46" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Intro</content>
+		</text>
+		<text id="misc_text02" x="454" y="84" width="58" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text03" x="655" y="107" width="80" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">4–5 Years</content>
+		</text>
+		<text id="misc_text04" x="539" y="107" width="93" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">3–4 Years</content>
+		</text>
+		<text id="misc_text05" x="31" y="205" width="350" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+		<text id="misc_text06" x="35" y="228" width="350" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480.95" height="184.55" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;References:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Klein, P.J. &amp; Meltzoff, A.N. (1999). Long-term memory, forgetting, and deferred imitation in 12-month-old infants. &lt;I&gt;Developmental Science, 2&lt;/I&gt;(1), 102-113.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Meltzoff, A., &amp; Moore, M. (1983). Newborn infants imitate adult facial gestures. &lt;I&gt;Child Development, 54&lt;/I&gt;(3), 702-709.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

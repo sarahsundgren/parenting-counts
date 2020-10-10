@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_match" view="view_classify">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="enableSubmit" datatype="LIST" value="DEFAULT"/>
+		<settings id="submitBtn" datatype="LIST" value="NONE"/>
+		<settings id="showCorrectBtn" datatype="LIST" value="NONE"/>
+		<settings id="showAnswerMarks" datatype="LIST" value="NONE"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="offsetXY" datatype="STRING" value="5,17"/>
+		<settings id="targetSpacing" datatype="NUMBER" value="0"/>
+		<eventlist>
+			<event type="COMPLETION" result="SHOW" target="misc_text01" result_param=""/>
+		</eventlist>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Matching the Explorer</content>
+	</text>
+	<text id="nav_text" x="35" y="425" width="735" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about&lt;B&gt; Why Exploration Matters&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="725" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Let's review what you've learned about the developmental stages of exploration.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="725" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Drag each &lt;B&gt;exploration activity&lt;/B&gt; to the correct child. Incorrect matches will bounce back.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="-3" y="284" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE"/>
+		<audio id="initial_audio">
+			<file play="true" bytes="41667" startpos="1" duration="122">a_03_01_03_010_01.swf</file>
+			<transcript translate="true">Let's review what you've learned about the developmental stages of exploration. Drag each exploration activity to the correct child. Incorrect matches will bounce back.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="draggable_items" align="TOP" spacing="25x0" autospace="true" columns="0" expanded="true">
+		<container id="source01" behavior="STRICT|LOCK_SIZE" x="25" y="105" visible="true" fx="SOURCE_SHOW" hidefx="SOURCE_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="220" height="45" style="SOURCE_BKG" visible="true">
+				<file bytes="54" play="false" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="SOURCE" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="0" y="0" width="210" height="" autosize="H" style="SOURCE_SHAPE" visible="true">
+				<content translate="true">I like to explore my world, but I always check to make sure my mom is close by.</content>
+			</text>
+			<configuration>
+				<settings id="numStartingTarget" name="Starting target #" datatype="NUMBER" value=""/>
+			</configuration>
+		</container>
+		<container id="source02" behavior="STRICT|LOCK_SIZE" x="270" y="140" visible="true" fx="SOURCE_SHOW" hidefx="SOURCE_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="220" height="45" style="SOURCE_BKG" visible="true">
+				<file bytes="54" play="false" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="SOURCE" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="0" y="0" width="210" height="" autosize="H" style="SOURCE_SHAPE" visible="true">
+				<content translate="true">I keep throwing the spoon to the floor to learn about cause and effect.</content>
+			</text>
+			<configuration>
+				<settings id="numStartingTarget" name="Starting target #" datatype="NUMBER" value=""/>
+			</configuration>
+		</container>
+		<container id="source03" behavior="STRICT|LOCK_SIZE" x="515" y="140" visible="true" fx="SOURCE_SHOW" hidefx="SOURCE_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="220" height="45" style="SOURCE_BKG" visible="true">
+				<file bytes="54" play="false" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="SOURCE" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="0" y="0" width="210" height="" autosize="H" style="SOURCE_SHAPE" visible="true">
+				<content translate="true">I ask, "Why?" so that I can understand the rules and what you want me to do.</content>
+			</text>
+			<configuration>
+				<settings id="numStartingTarget" name="Starting target #" datatype="NUMBER" value=""/>
+			</configuration>
+		</container>
+	</section>
+	<section id="drop_targets" align="TOP" spacing="25x0" autospace="true" columns="0" expanded="true">
+		<container id="target01" behavior="" x="25" y="165" visible="true" fx="TARGET_SHOW" hidefx="TARGET_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="220" height="30" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="target" x="0" y="30" width="" height="" style="DEFAULT" visible="true" fx="TARGET_SHOW" hidefx="TARGET_HIDE">
+				<file bytes="6815" play="false" startpos="1">thought_bubble.png</file>
+				<notes id="description">thought bubble</notes>
+			</graphic>
+			<graphic id="graphic" x="110" y="100" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" startpos="1" bytes="17651">03_01_03_010_01.png</file>
+				<notes id="description">cutout of infant</notes>
+			</graphic>
+			<text id="text" x="0" y="5" width="210" height="" autosize="H" style="DEFAULT" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="CENTER"&gt;Infant&lt;/P&gt;</content>
+			</text>
+			<configuration>
+				<settings id="numMaxMatchItems" name="Max matches" datatype="NUMBER" value="1"/>
+			</configuration>
+		</container>
+		<container id="target02" behavior="" x="207" y="352" visible="true" fx="TARGET_SHOW" hidefx="TARGET_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="220" height="30" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="target" x="0" y="30" width="" height="" style="DEFAULT" visible="true" fx="TARGET_SHOW" hidefx="TARGET_HIDE">
+				<file bytes="6815" play="false" startpos="1">thought_bubble.png</file>
+				<notes id="description">thought bubble</notes>
+			</graphic>
+			<graphic id="graphic" x="110" y="100" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" startpos="1" bytes="21218">03_01_03_010_02.png</file>
+				<notes id="description">cutout of toddler</notes>
+			</graphic>
+			<text id="text" x="0" y="5" width="210" height="" autosize="H" style="DEFAULT" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="CENTER"&gt;Toddler&lt;/P&gt;</content>
+			</text>
+			<configuration>
+				<settings id="numMaxMatchItems" name="Max matches" datatype="NUMBER" value="1"/>
+			</configuration>
+		</container>
+		<container id="target03" behavior="" x="448" y="253" visible="true" fx="TARGET_SHOW" hidefx="TARGET_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="220" height="30" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="target" x="0" y="30" width="" height="" style="DEFAULT" visible="true" fx="TARGET_SHOW" hidefx="TARGET_HIDE">
+				<file bytes="6815" play="false" startpos="1">thought_bubble.png</file>
+				<notes id="description">thought bubble</notes>
+			</graphic>
+			<graphic id="graphic" x="110" y="100" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" startpos="1" bytes="24104">03_01_03_010_03.png</file>
+				<notes id="description">cutout of preschooler</notes>
+			</graphic>
+			<text id="text" x="0" y="5" width="210" height="" autosize="H" style="DEFAULT" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="CENTER"&gt;Preschooler&lt;/P&gt;</content>
+			</text>
+			<configuration>
+				<settings id="numMaxMatchItems" name="Max matches" datatype="NUMBER" value="1"/>
+			</configuration>
+		</container>
+	</section>
+	<section id="buttons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="submit" behavior="STRICT|LOCK_SIZE" x="615" y="411" visible="false" fx="SUBMIT_SHOW" hidefx="SUBMIT_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SUBMIT" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="0" y="0" width="175" height="18" autosize="" style="SUBMIT" visible="true">
+				<content translate="true">Submit</content>
+			</text>
+		</container>
+		<container id="showcorrect" behavior="STRICT|LOCK_SIZE" x="615" y="411" visible="false" fx="SHOWCORRECT_SHOW" hidefx="SHOWCORRECT_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SHOWCORRECT" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="0" y="0" width="175" height="15.15" autosize="" style="SHOWCORRECT" visible="true">
+				<content translate="true">Show Correct Answers</content>
+			</text>
+		</container>
+	</section>
+	<answeranalysis id="answer_analysis" type="MATCH" max_attempts="UNLIMITED">
+		<answer id="correct" correct="true" attempt="ANY" comparison="source01=target02,source02=target01,source03=target03">
+			<feedback>
+				<text id="feedback" x="50" y="425" width="114" height="" autosize="H" style="CORRECT_FEEDBACK" visible="false" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content translate="true">Correct!</content>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect1" correct="false" attempt="1" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="50" y="425" width="114" height="" autosize="H" style="INCORRECT_FEEDBACK" visible="false" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content translate="true">Please try again.</content>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect2" correct="false" attempt="ANY" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="50" y="425" width="114" height="" autosize="H" style="INCORRECT_FEEDBACK" visible="false" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content translate="true">Please try again.</content>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+				</audio>
+			</feedback>
+		</answer>
+	</answeranalysis>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="25" y="395" width="400.65" height="" autosize="L" style="CORRECT_FEEDBACK" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Correct. Children continue to explore as they grow and develop.</content>
+		</text>
+	</section>
+</template>

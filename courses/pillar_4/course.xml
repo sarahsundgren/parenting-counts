@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course id="{BB60CF33-D515-4D0E-A583-4EAB61F45660}" name="Communication and Language Development" displayWidth="0" displayHeight="0" translate="name">
+	<container id="{A88B721D-2758-4623-ABA5-1D6B1E562AC1}" name="Resources" folder="resources" template="{453B5794-BA79-471B-A090-9E456D109968}" translate="name">
+		<page id="{TEACHINGTOOLS}" name="Teaching Tools" template="{AC912D09-4231-440D-208A-DBC06FF56167}" activity="templates_03.swf" content="teaching_tools.xml" translate="name"/>
+		<page id="{RESOURCES}" name="Resource Center" template="{D48BE453-B95C-4D9F-87AB-70A88A63E93A}" activity="templates_03.swf" content="resource_center.xml" translate="name"/>
+		<page id="{HELP}" name="Help" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="help.xml" translate="name"/>
+	</container>
+	<container id="{C70E17F9-0FA8-45DF-8301-6FF9BBFE9A64}" name="Teaching Notes" folder="resources" template="{453B5794-BA79-471B-A090-9E456D109968}" translate="name">
+		<page id="{TEACHING-NOTES}" name="Wizard" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="wizard.xml" translate="name">
+			<subpage id="{WIZ-AUDIENCE}" name="Audience &amp; Objectives" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="audience.xml" translate="name"/>
+			<subpage id="{WIZ-ADDNOTE}" name="Add Note" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="new_note.xml" translate="name"/>
+			<subpage id="{WIZ-NOTES}" name="My Notes" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="notes.xml" translate="name"/>
+			<subpage id="{WIZ-MATERIAL01}" name="Lesson materials 1" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="lesson01.xml" translate="name"/>
+			<subpage id="{WIZ-MATERIAL02}" name="Lesson materials 2" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="lesson02.xml" translate="name"/>
+			<subpage id="{WIZ-MATERIAL03}" name="Lesson materials 3" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="lesson03.xml" translate="name"/>
+			<subpage id="{WIZ-MATERIAL04}" name="Lesson materials 4" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="lesson04.xml" translate="name"/>
+			<subpage id="{WIZ-REFERENCES}" name="Reference Citations" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="references.xml" translate="name"/>
+			<subpage id="{WIZ-HELP}" name="Wizard Help" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="wiz_help.xml" translate="name"/>
+		</page>
+	</container>
+	<module id="{CD0C776B-975A-431A-8B79-40BC39806E68}" name="Overview" folder="module01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+		<page id="{B440CDD5-042B-43C0-AC8C-E8D156D47BCD}" name="Introduction" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="01_010.xml" translate="name"/>
+		<module id="{451EDC78-C9D5-4390-B86C-9A0BBED9FEED}" name="What Is Communication?" folder="topic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{46F86AE7-D1EC-4923-8A0E-8117210EEAA6}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{08E2D9FF-7E99-4725-8BE5-A9932CA042E8}" name="A Social Process" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="01_01_02_005.xml" translate="name"/>
+				<page id="{A6FE7044-4C15-4E1A-8F61-2C7C73B32A7A}" name="Infant Readiness" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="01_01_02_010.xml" translate="name"/>
+				<page id="{8D6CB9DC-EFE6-4364-9DDE-76C1F4653754}" name="Parental Response" template="{2A8D68CC-CACE-1BFD-1286-2E24535039A6}" activity="templates_03.swf" content="01_01_02_020.xml" translate="name"/>
+			</module>
+			<module id="{9AA5ADE9-FB76-465F-8B7D-ED87AD479FAD}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{2DF69DAF-625C-4F28-94DB-370B4897752E}" name="Infant Communication" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="01_01_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{BCC2E343-4987-4563-AAD2-3D4034B79F82}" name="Communication and Language Development" folder="topic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{80E6ED3E-F2FA-4932-B6CB-8D0D59CFCD4C}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{78138546-259C-4F9B-B997-115F53BCFFDE}" name="Communication and Language Pillar" template="{77B487C9-2B80-4E7E-8B99-5ECBF5A2B234}" activity="templates_03.swf" content="01_02_02_010.xml" translate="name"/>
+				<page id="{19E5D458-6B59-4D98-BA56-66592B94E910}" name="How Parenting Counts Helps" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="01_02_02_020.xml" translate="name"/>
+			</module>
+			<module id="{5A8429DA-2B51-4EB7-B6AB-4CA92303ED27}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{F5984822-6A03-4CF2-8A9D-D3BB5D6C1B53}" name="Language Milestones" template="{5F6C1346-E715-4C9A-9DCD-9C5510DF5098}" activity="templates_03.swf" content="01_02_03_011.xml" translate="name"/>
+			</module>
+		</module>
+		<page id="{93645858-AEAA-4FC5-8AD3-217B4EBA7B31}" name="Conclusion" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="01_020.xml" translate="name"/>
+	</module>
+	<module id="{786164F7-08AD-4C4E-95AD-34548887FF4F}" name="Early Communication" folder="module02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+		<page id="{682A9782-44F1-4F21-A4EC-A2C3173EE0C6}" name="Introduction" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="02_010.xml" translate="name"/>
+		<module id="{8DC85248-194E-494C-B628-6F2762AF8017}" name="Newborn Communication" folder="topic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{5E1144F1-29D2-4DC3-916F-7FCA522B8E3F}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{F1F9F151-6697-486B-ABC6-8FE0B14A2232}" name="Ready to Communicate" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="02_01_01_010.xml" translate="name"/>
+			</module>
+			<module id="{F4B13A4B-6CA1-4E62-B742-FE6E52A58D83}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{408BE4E4-4E28-409F-822A-123B4DA040B4}" name="Signs of Communication" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="02_01_02_010.xml" translate="name"/>
+				<page id="{17C64434-BABC-4863-BDEC-0BFD064BEC6A}" name="Distinguishing Sounds" template="{BDA42C29-DAEE-4351-BC28-A324F8FA77B9}" activity="templates_03.swf" content="02_01_02_020.xml" translate="name"/>
+			</module>
+			<module id="{AC4F2667-A64B-452B-9094-4BB503AC5D94}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{1100168D-0585-4996-9876-7BAC78A54E0F}" name="Infant Communication" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="02_01_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{F3686FF0-7E85-4095-A1BB-B58BC46DA1EF}" name="Early Social Exchange" folder="topic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{43F70F55-9E02-447F-8F15-4AE710A63C3A}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{2914E0A6-F624-44C8-8142-63FE5051E992}" name="Early Social Exchange" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="02_02_01_010.xml" translate="name"/>
+			</module>
+			<module id="{D430F99D-553C-439F-BDF8-E65D6D5D3902}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{905C64B3-EC46-41AA-BDA7-A8851A495AFB}" name="Shaping Language" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="02_02_02_010.xml" translate="name"/>
+				<page id="{8BBD7722-D9E6-488A-ADC1-70FF4FB5DD2C}" name="Social Referencing" template="{CD9F945A-F64F-49B8-A87A-69F3961AF4BC}" activity="templates_03.swf" content="02_02_02_020.xml" translate="name"/>
+				<page id="{FDE4096F-CFBC-40CD-A08E-F3F8BD839129}" name="Babies and Sign Language" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="02_02_02_030.xml" translate="name"/>
+			</module>
+			<module id="{4236682F-D796-4F20-BAA1-4678001D1164}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{A337E5F8-289D-4D82-8455-1113E954AFE4}" name="Interacting through Books" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="02_02_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{4F49F54E-82D4-469E-B275-E34B945BAB91}" name="Stages of Communication" folder="topic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{5BF659D0-7297-43B1-A727-4A0E4B82F389}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{91B553F0-F6B6-42BA-8452-62771DD8E28B}" name="Stages of Language" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="02_03_01_010.xml" translate="name"/>
+			</module>
+			<module id="{1BA2E263-CF0C-4E32-8D90-2AA943047E53}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{7271FCD6-D512-4BDC-B572-22EE751B05BB}" name="Communication During the First Year" template="{8A1BDC0F-88C8-3333-A5E2-A811F3B51C62}" activity="templates_03.swf" content="02_03_02_010.xml" translate="name"/>
+				<page id="{C9268302-EA3E-4AF1-9AEE-5626E56AE3E1}" name="Communication:  12–18 Months" template="{1237A3FE-4C59-12F9-AACC-ACB0BE2950E5}" activity="templates_03.swf" content="02_03_02_020.xml" translate="name"/>
+			</module>
+			<module id="{AB3F925B-0E80-4364-AE95-CC3A553A56A3}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{4517FF96-5DD0-40B7-BF30-5B514029FF0A}" name="Infant Milestones" template="{5F6C1346-E715-4C9A-9DCD-9C5510DF5098}" activity="templates_03.swf" content="02_03_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{E293A317-DA5A-4DA6-AFEA-6BFBD5AFE286}" name="Encouraging Verbal Communication" folder="topic04" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{2EDD5C77-6187-436F-B847-E58A87390538}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{A0E35069-BD16-4F60-A677-CBB76A52EF78}" name="The Role of Early Childhood Professionals" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="02_04_01_010.xml" translate="name"/>
+			</module>
+			<module id="{462C2652-9305-45D4-A6F5-C68BA07A50FF}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{4B0BDB6C-C4D0-4606-891B-A30B76383B39}" name="What Parents Can Do" template="{532A975C-1F90-494A-A221-9385891C8452}" activity="templates_03.swf" content="02_04_02_010.xml" translate="name"/>
+			</module>
+			<module id="{C023E546-F2E9-4094-BD65-55724D96433B}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{C213F807-FB23-4A87-A307-0D0E7126EC49}" name="Scenario" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="02_04_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<page id="{202B4B85-0C81-4B69-B5DB-925EB2EBDC75}" name="Conclusion" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="02_020.xml" translate="name"/>
+	</module>
+	<module id="{8D36866D-C42C-40DC-B0B7-9CAAED6B7513}" name="Verbal Development" folder="module03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+		<page id="{47302A3C-FE85-4C88-BB5F-E734A26A9498}" name="Introduction" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="03_010-3.xml" translate="name"/>
+		<module id="{E0141027-9C91-42B6-93DB-CEC444C8D9A8}" name="Building Vocabulary" folder="topic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{B229E706-8877-4113-BB8D-63B231522863}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{54DC3DBB-7299-4CD6-BFCC-408A46CBC4AA}" name="Building Vocabulary" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="03_01_01_010.xml" translate="name"/>
+			</module>
+			<module id="{CB0A2C35-1E81-4F3C-9CE6-F1956566890D}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{0E7384B3-B95D-4A36-BE1A-48ACCD097427}" name="Word Acquisition" template="{1237A3FE-4C59-12F9-AACC-ACB0BE2950E5}" activity="templates_03.swf" content="03_01_02_010.xml" translate="name"/>
+				<page id="{12861B31-CA09-404D-AE7F-BC19F8984E04}" name="Categorizing and Labeling" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="03_01_02_020.xml" translate="name"/>
+				<page id="{5F9B1D9B-A9C8-4330-98DD-01A4187EECD9}" name="Words and Meaning" template="{E922C8DE-F1FD-42F1-9DA0-929DD8A44EDA}" activity="templates_03.swf" content="03_01_02_030.xml" translate="name"/>
+			</module>
+			<module id="{D7EEE9FD-209F-4A3E-A218-DD5D4FD5E175}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{09E22860-0855-4492-B832-AD4CA904626E}" name="Literacy Development" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="03_01_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{2B6C6AAD-AD05-45D4-8BC8-359A8859CC48}" name="Language in the Home" folder="topic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{A5307AF4-C737-48AC-9215-E2D43C60A2B7}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{B86F52FC-5B42-49AC-B81B-81E69DB4B629}" name="Language in the Home" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="03_02_01_010.xml" translate="name"/>
+			</module>
+			<module id="{1142C463-2C5F-4DC3-81E4-45D04261435F}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{B8F19D13-3560-46FD-8362-C71B67357BE1}" name="Types of Talking" template="{BDA42C29-DAEE-4351-BC28-A324F8FA77B9}" activity="templates_03.swf" content="03_02_02_010-1.xml" translate="name"/>
+				<page id="{0E69D0BF-278D-409C-AEFD-12F0465B85C1}" name="Storytelling" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="03_02_02_020.xml" translate="name"/>
+			</module>
+			<module id="{35DCF834-B9D8-4E17-9BDD-B4696EF1A3C5}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{AB4FAD0A-77BF-4A1B-9754-B542F531A48F}" name="Increasing Language" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="03_02_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{9E58C900-6C37-4A03-BA88-5E167CF42C15}" name="Creating Sentences" folder="topic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{C3589EC6-0FEC-44B4-B9A7-B59043B86D55}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{548A1CBC-8331-4BE1-A758-3673C7878D3A}" name="Creating Sentences" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="03_03_01_010.xml" translate="name"/>
+			</module>
+			<module id="{FE77B4A4-16B3-4651-B11E-AA1E704C0541}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{9408BF9C-7772-49A9-9E6B-8B3FE5C5A997}" name="Learning Language" template="{CB17CCFB-FCF3-4F91-A598-1828EABDB2A2}" activity="templates_03.swf" content="03_03_02_010.xml" translate="name"/>
+				<page id="{C6F6A142-BB6F-4BE0-A3AC-2CB512D416C6}" name="Conversations" template="{E922C8DE-F1FD-42F1-9DA0-929DD8A44EDA}" activity="templates_03.swf" content="03_03_02_020.xml" translate="name"/>
+			</module>
+			<module id="{16941383-3D27-45F1-B9F3-C536F53E991C}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{FDD39F3E-F68C-4576-A188-A9035561B3EC}" name="Keep Talking" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="03_03_02_030.xml" translate="name">
+					<subpage id="{AD7408EA-5F31-48C8-83E9-7E6418942D60}" name="Knowledge Check" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="03_03_01_040a-1.xml" translate="name"/>
+				</page>
+			</module>
+		</module>
+		<module id="{D3C9C7D1-87F6-412B-B634-F7678114DE83}" name="Supporting Language Development" folder="topic04" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{4B6A8A62-358B-4802-B737-0DCF4E0D7548}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{7ACE31FE-2D15-4E7D-B31E-69C391DEF5B1}" name="The Role of Early Childhood Professionals" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="03_04_01_010.xml" translate="name"/>
+			</module>
+			<module id="{0B3663B0-EA91-47D3-88BE-F99347068B84}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{94EBE739-9B14-48EE-AC29-809CF3202B93}" name="What Parents Can Do" template="{532A975C-1F90-494A-A221-9385891C8452}" activity="templates_03.swf" content="03_04_02_010.xml" translate="name"/>
+				<page id="{77521AC2-4327-4685-AA26-595020BCF9AB}" name="Points for Discussion" template="{8A1BDC0F-88C8-3333-A5E2-A811F3B51C62}" activity="templates_03.swf" content="03_04_02_020.xml" translate="name"/>
+			</module>
+			<module id="{9DD48DA4-C680-4F45-9F99-93D86FA3DF15}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{E3EBC8EA-53B9-486C-9D91-D9A603654458}" name="Responding to Concerns" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity=".\templates_03.swf" content="03_04__03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<page id="{E5C5E672-03EA-4D86-BC96-673E72282167}" name="Conclusion" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="03_05_010.xml" translate="name"/>
+	</module>
+	<module id="{217809F5-7D00-44FF-91B0-E4E6170EDD2B}" name="Emergent Literacy" folder="module04" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+		<page id="{EE33F62F-BECE-418B-A07A-3B838CD97D7F}" name="Introduction" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="04_010.xml" translate="name"/>
+		<module id="{25FE8F5D-B42C-4713-AD1B-0A40A0C010E2}" name="What Is Emergent Literacy?" folder="topic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{2B7EB330-0EDE-43C7-9D6D-24897E1CC2C1}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{966807B9-9E2F-4B78-ABD8-C9CBA5A4F6FF}" name="What Is Emergent Literacy?" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="04_01_01_010.xml" translate="name"/>
+			</module>
+			<module id="{26D4E97D-BA3C-47CA-847A-C2127F15588E}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{15646E2D-A8CB-4545-9CCA-2663410C5884}" name="Need for Literacy" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="04_01_02_010.xml" translate="name"/>
+				<page id="{D61702D3-7724-4C72-B5CF-DE3FF1491129}" name="Language Development and Literacy" template="{1237A3FE-4C59-12F9-AACC-ACB0BE2950E5}" activity="templates_03.swf" content="04_01_02_020.xml" translate="name"/>
+			</module>
+			<module id="{6C663952-1E0B-460B-ABC0-A45CCC4DEE2B}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{3F19D2EF-045A-423E-8A66-3F412B2E6D7D}" name="Reading Scenario" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="04_01_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{32F5B72E-E550-4211-955A-AB8DB3424097}" name="Ages and Stages 3–5" folder="topic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{CBE07FB9-414A-46C1-968F-44F56AF12238}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{FA514D84-CDBE-4EDF-A293-DB2D9E1D438B}" name="Language Milestones Ages 3–5" template="{CB17CCFB-FCF3-4F91-A598-1828EABDB2A2}" activity="templates_03.swf" content="04_02_01_010.xml" translate="name"/>
+			</module>
+			<module id="{DA8EAB11-60FB-4299-8C1F-F0CDC3C63153}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{59AFB865-ED4E-4357-B370-37DB5271F0EE}" name="Patterns in Language" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="04_02_02_010.xml" translate="name"/>
+				<page id="{D145C932-0E0A-493A-9E7C-7F7D4BAE0BEE}" name="Expanding the Use of Language" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="04_02_02_020.xml" translate="name"/>
+			</module>
+			<module id="{C2DDDBC1-0297-42AE-BD60-6D2470D60492}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{98F2964C-E162-4DC2-AD57-22609ABE543D}" name="Age-Appropriate Activities" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="04_02_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{77696CF2-16B5-4C94-880F-C32B952ADAE8}" name="Reading and Writing" folder="topic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{1C695D75-BE06-4E0E-A674-06049A6AE7D9}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{C6E96586-70F2-4F4B-BE6F-A5B3C843E543}" name="Print Awareness" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="04_03_01_010.xml" translate="name"/>
+			</module>
+			<module id="{675E7D75-F055-494B-B4DD-CCF1A9B2BCDB}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{16C4625A-35D2-4864-A3B1-FE17FABE6206}" name="Reading" template="{BDA42C29-DAEE-4351-BC28-A324F8FA77B9}" activity="templates_03.swf" content="04_03_02_010.xml" translate="name"/>
+				<page id="{AF7EABFE-CC70-4C91-BB00-E131583B14B1}" name="Emergent Writing" template="{1C8B289A-3710-47C1-47FB-EAD71B245085}" activity="templates_03.swf" content="04_03_02_020.xml" translate="name"/>
+				<page id="{177BF32D-2CA4-4A8C-B2D6-6C8C4D48BD4A}" name="Writing at Age 5" template="{E922C8DE-F1FD-42F1-9DA0-929DD8A44EDA}" activity="templates_03.swf" content="04_03_02_030.xml" translate="name"/>
+			</module>
+			<module id="{543D9B0B-4602-4032-89EE-B7619E36BF4C}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{9A406D18-93A5-47BF-B12E-DC4D60B1C0CE}" name="Getting Books" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="04_03_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{FC09C40F-46E2-42B7-9B84-7F87C38AC003}" name="Supporting Emerging Literacy" folder="topic04" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{0A7C5345-3A02-4F2B-845E-C7464FA2FBEA}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{E960B5B8-66B3-43F3-B7EF-6101B9267C2D}" name="Role of Early Childhood Professionals" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="04_04_01_010.xml" translate="name"/>
+			</module>
+			<module id="{5B872AF2-77DB-4620-BA53-87FECE3F7A06}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{0611BCC1-8154-4337-B210-D90C87EBDDDC}" name="What Parents Can Do" template="{CD9F945A-F64F-49B8-A87A-69F3961AF4BC}" activity="templates_03.swf" content="04_04_02_010.xml" translate="name"/>
+				<page id="{C9B8D3AF-155B-42BB-A262-30E75C0EE2ED}" name="Reading Aloud" template="{E922C8DE-F1FD-42F1-9DA0-929DD8A44EDA}" activity="templates_03.swf" content="04_04_02_025.xml" translate="name"/>
+				<page id="{F277595B-B88D-4C86-A8EE-D01CAAD6FA86}" name="Promoting Writing" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="04_04_02_030.xml" translate="name"/>
+			</module>
+			<module id="{011458A0-D67F-4210-8BDD-8136E408086E}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{12E56308-B976-45C8-845B-F909F00A41BC}" name="Dad's Club" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="04_04_03_010.xml" translate="name">
+					<subpage id="{FC5C9621-DBA6-45EE-A749-DA5C4D35D2EA}" name="Knowledge Check" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="04_03_03_010a.xml" translate="name"/>
+				</page>
+			</module>
+		</module>
+		<page id="{FB9C1FD0-6C9E-4DB2-9CE2-A39FB13584E9}" name="Conclusion" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="04_020.xml" translate="name"/>
+	</module>
+</course>

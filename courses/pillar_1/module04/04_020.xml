@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="-50" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Conclusion</content>
+	</text>
+	<text id="nav_text" x="125" y="425" width="650" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">To continue, click another &lt;B&gt;Module&lt;/B&gt;, or return to the portal to select another &lt;B&gt;Pillar&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="-50" y="50" width="450" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Congratulations! You have completed the Stress module.</content>
+		</text>
+		<text id="text02" x="0" y="79.6" width="450" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Help parents:&lt;LI&gt;Realize that learning to cope with stress is an important part of a child's development. Very young infants can't calm down by themselves when they are stressed. They depend on adults to help their stress response to become regulated. With time, the comfort and care they receive helps them to develop a well-functioning stress response system.&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="0" y="171.6" width="450" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Know and understand the different kinds of responses to stress so they can help and support children with their experiences with each type.&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="0" y="294.8" width="450" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Teach children coping skills that can help buffer them from unhealthy amounts of stress. Early parental support and involvement is the most important factor in regulating a child's physiological stress response.&lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="0" y="79.6" width="450" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Understand that children depend on caregivers to help them learn how to identify sources of stress, cope with their feelings and reactions, and learn strategies to self-regulate and feel calm.&lt;/LI&gt;</content>
+		</text>
+		<text id="text06" x="" y="" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;&lt;Very young infants can't calm down by themselves when they are stressed. They depend on adults to help their stress response to become regulated. With time, the comfort and care they receive helps them to develop a well-functioning stress response system.&lt;/FONT&gt;&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="440" y="50" width="300" height="300" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="42811" start_frame="1">04_020_01.jpg</file>
+			<notes id="description">Stress image from the Stress folder</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="55899" duration="164" start_frame="1">a_04_020_01.swf</file>
+			<transcript translate="true">Congratulations! You have completed the Stress module. In this module you should have learned more about the biology of stress and the impact of stress on a child's development.  Before we move on, let's review some of the main ideas.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="87035" duration="254" start_frame="1">a_04_020_02.swf</file>
+			<transcript translate="true">First, help parents realize that learning to cope with stress is an important part of a child's development. Very young infants can't calm down by themselves when they are stressed. They depend on adults to help their stress response to become regulated. With time, the comfort and care they receive helps them to develop a well-functioning stress response system.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="41239" duration="121" start_frame="1">a_04_020_03.swf</file>
+			<transcript translate="true">Next, it is important for parents to know and understand the different kinds of responses to stress so they can help and support children with their experiences with each type.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" bytes="78415" duration="229" start_frame="1">a_04_020_04.swf</file>
+			<transcript translate="true">Furthermore, parents can teach children coping skills that can help buffer them from unhealthy amounts of stress and can focus on helping the child manage the feelings related to the stressful event.  Early parental support and involvement is the most important factor in regulating a child's physiological stress response.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" bytes="81863" duration="239" start_frame="1">a_04_020_05.swf</file>
+			<transcript translate="true">Finally, help parents understand that children depend on caregivers to help them learn how to identify sources of stress, cope with their feelings and reactions, and learn strategies to self-regulate and feel calm. Children depend on adults to help them regulate their stress response, and the younger they are, the more help they need.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration06">
+			<file play="false" bytes="37687" duration="111" start_frame="1">a_04_020_06.swf</file>
+			<transcript translate="true">If you have questions about any of these concepts, please review the Educator Training Goals by clicking the Professional Icon before moving on to the next pillar.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="misc_audio01" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="HIDE" target="text01" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="HIDE" target="text02" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="HIDE" target="text03" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="HIDE" target="text04" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="HIDE" target="text05" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="-95" y="245" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" start_frame="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="25" width="440" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Educator Training Goals:&lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Identify the three types of stress that affect the developing child.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Explain the impact of repeated, long-term stress on children.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Explain how parental support and involvement helps to regulate an infant’s stress responses through calming and self-soothing.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Communicate the importance of teaching parents the role that stress plays in a young child's social and emotional development.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Help parents learn to identify their own stress.&lt;/P&gt;&lt;/TEXTFORMAT&gt;</content>
+			</text>
+			<text id="misc_text02" x="35" y="40" width="25" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;1. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;2.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;3.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;4.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;5.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="-95" y="440" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="3393" start_frame="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="miscellaneous_audio" expanded="true">
+		<audio id="misc_audio01">
+			<file start_frame="1" play="false" duration="231" bytes="79063">a_04_020_09.swf</file>
+			<transcript translate="true">To continue, click another Module. If you have completed Pillar 1, click Exit in the top right corner of the screen to leave this course and return to the Parenting Counts Portal. You should complete Assessment 1 before beginning another pillar. You can access the assessments and other pillars from the Parenting Counts Portal.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text01" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="-50" y="50" width="447" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;If you have completed &lt;B&gt;Pillar 1&lt;/B&gt;, click &lt;B&gt;Exit&lt;/B&gt; to leave this course and return to the Parenting Counts Portal. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;You should complete &lt;B&gt;Assessment 1&lt;/B&gt; before beginning another pillar. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;You can access the assessments and other pillars from the Parenting Counts Portal.&lt;/P&gt;</content>
+		</text>
+	</section>
+</template>

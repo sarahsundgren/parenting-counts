@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Recognizing Emotions</content>
+	</text>
+	<text id="nav_text" x="180" y="425" width="595" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Social Development&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="677" height="" autosize="H" style="DEFAULT" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">One of the most important first steps in social development is to develop emotional awareness. </content>
+		</text>
+		<text id="text02" x="355" y="85" width="303" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Children experience a whole range of emotions:&lt;LI&gt;Happiness&lt;/LI&gt;&lt;LI&gt;Sadness&lt;/LI&gt;&lt;LI&gt;Anger&lt;/LI&gt;&lt;LI&gt;Fear&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="354" y="175" width="364" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;As children recognize their emotions and learn to manage them, they develop a skill called emotional regulation. &lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;P ALIGN="LEFT"&gt;Examples:&lt;/P&gt;&lt;LI&gt;Wait patiently for their turn&lt;/LI&gt;&lt;LI&gt;Resist the urge to hit&lt;/LI&gt;&lt;LI&gt;Communicate their feelings&lt;/LI&gt;&lt;TEXTFORMAT BLOCKINDENT="16"&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;P ALIGN="LEFT"&gt;The five-step process that parents can use to teach this skill to their child is called Emotion Coaching. &lt;/P&gt;</content>
+		</text>
+		<text id="text04" x="357" y="85" width="379" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Emotions are simply a feeling. However, a child’s response to their emotions is a choice. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;LI&gt;Emotional Coaching, as well as elements of praise and discipline, can help optimize the child's experience of emotions&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Challenge of parenting is to help shape behavior while at the same time respecting where the child is in the process of learning to manage emotions. &lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Emotion Coaching, Praise, and Discipline will be covered in more detail later in Pillar 2.&lt;/P&gt;</content>
+			<eventlist>
+				<event type="" result="" target="" result_param=""/>
+			</eventlist>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="25" y="85" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="86784" startpos="1" play="false">01_03_02_010_01.jpg</file>
+			<notes id="description">Several children all expressing different emotions</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic03" x="25" y="85" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="85898">01_03_02_010_03.jpg</file>
+			<notes id="description">a picture of a child waiting in line at the drinking fountain</notes>
+		</graphic>
+		<graphic id="graphic04" x="25" y="85" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="70399">01_03_02_010_04.jpg</file>
+			<notes id="description">A parent driving in the car and talking with a child</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" startpos="1" bytes="23027" duration="68">a_01_03_02_010_01.swf</file>
+			<transcript translate="true">One of the most important first steps in social development is to develop emotional awareness. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" startpos="1" bytes="66451" duration="194">a_01_03_02_010_02.swf</file>
+			<transcript translate="true">Children experience a whole range of emotions. Happiness, sadness, anger, fear—all emotions are possible. As children learn to look for and recognize emotional expression in themselves, they begin to notice it in others as well.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" startpos="1" bytes="90599" duration="265">a_01_03_02_010_04.swf</file>
+			<transcript translate="true">As children recognize their emotions and learn to manage them, they develop a skill called emotional regulation. For example, children show emotional regulation when they wait patiently for their turn, resist the urge to hit, or learn to communicate their feelings. The five-step process that parents can use to teach this skill to their child is called Emotion Coaching. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text03" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="" target="" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" startpos="1" bytes="124327" duration="363">a_01_03_02_010_03.swf</file>
+			<transcript translate="true">In their most raw form, emotions are simply a feeling. However, a child's response to their emotions is a choice. Methods such as Emotion Coaching, praise, and discipline can help optimize the child's experience of emotions. The challenge of parenting is to help shape behavior while at the same time respecting where the child is in the process of learning to manage emotions. Emotion Coaching, praise, and discipline will be covered in more detail later in Pillar 2. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text03" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text02" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="636" y="316" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480.95" height="184.55" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Gottman, J., DeClaire J. (1997). &lt;I&gt;Raising an emotionally intelligent child: The heart of parenting.&lt;/I&gt; New York, NY: Fireside. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Pirak, C. &amp; Gottman, J. (2008). &lt;I&gt;Emotional Communication and Children&lt;/I&gt;.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="-50" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Conclusion</content>
+	</text>
+	<text id="nav_text" x="140" y="425" width="632" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">To continue, click another &lt;B&gt;Module &lt;/B&gt;from the top menu&lt;B&gt;.&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x8" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="280" y="50" width="455" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Congratulations! You have completed the Importance of Culture module.</content>
+		</text>
+		<text id="text02" x="-3" y="112" width="407" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">In this module you learned that a child's development is shaped by cultural, family, and individual values. </content>
+		</text>
+		<text id="text03" x="-3" y="139" width="431" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Although parenting practices and beliefs vary, certain goals are consistent, such as providing a safe, healthy environment that:&lt;LI&gt;Facilitates development &lt;/LI&gt;&lt;LI&gt;Promotes health&lt;/LI&gt;&lt;LI&gt;Allows the child to explore and engage in meaningful activities&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="-7" y="166" width="428" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Secondly, research on cultural influences shows that a child's development is shaped by parenting that focuses on:&lt;LI&gt;The importance of relationships &lt;/LI&gt;&lt;LI&gt;Responsiveness to the child's needs, developmental level, and temperament &lt;/LI&gt;&lt;LI&gt;Predictability and consistency&lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="-6" y="208" width="466" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Every child is raised with a unique system of shared meaning in which their parents bring together what they consider to be the best of the past with their hopes for the future. In doing so, they create that child's culture. </content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="misc_graphic01" x="-50" y="50" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" name="graphic01">
+			<file startpos="1" play="false" bytes="117717">03_020_01.jpg</file>
+			<notes id="description">children of different cultures playing</notes>
+		</graphic>
+		<graphic id="graphic01" x="448" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic02" x="5" y="209" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1"/>
+			<notes id="description">graphic icon</notes>
+		</graphic>
+		<graphic id="graphic03" x="5" y="233" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1"/>
+			<notes id="description">graphic icon</notes>
+		</graphic>
+		<graphic id="graphic04" x="5" y="271" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1"/>
+			<notes id="description">graphic icon</notes>
+		</graphic>
+		<graphic id="graphic05" x="0" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="18387" duration="54" startpos="1">a_03_020_01.swf</file>
+			<transcript translate="true">Congratulations! You have completed the Importance of Culture module.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="41667" duration="122" startpos="1">a_03_020_02.swf</file>
+			<transcript translate="true">In this module you learned that a child's development is shaped by cultural, family, and individual values. So, when looking across cultures, what supports early development? </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="58155" duration="170" startpos="1">a_03_020_03.swf</file>
+			<transcript translate="true">Although parenting practices and beliefs vary, certain goals are consistent, such as providing a safe, healthy environment that facilitates development, promotes health, and allows the child to explore and engage in meaningful activities. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" bytes="60851" duration="178" startpos="1">a_03_020_04.swf</file>
+			<transcript translate="true">Secondly, research on cultural influences shows that a child's development is shaped by parenting that focuses on the importance of relationships, responsiveness to the child's needs, developmental level, and temperament, and  predictability and consistency.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" bytes="49315" startpos="1" duration="144">a_03_020_05.swf</file>
+			<transcript translate="true">Remember that every child is raised with a unique system of shared meaning in which their parents bring together what they consider to be the best of the past with their hopes for the future. In doing so, they create that child's culture. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+</template>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">What Is Culture?</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Is Culture?&lt;/B&gt;</content>
+	</text>
+	<graphic id="graphic04" x="25" y="241" width="" height="" style="" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+		<file startpos="1" play="false" placeholder="true"/>
+		<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+	</graphic>
+	<graphic id="graphic05" x="410" y="241" width="" height="" style="" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+		<file startpos="1" play="false" placeholder="true"/>
+		<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+	</graphic>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="702" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Professionals often interact with parents, children, and families whose cultural background is different from their own. A family's cultural background includes both practices and interpretations which are handed down from previous generations.</content>
+		</text>
+		<text id="text02" x="25" y="110.8" width="667" height="" autosize="H" style="DIRECTIONS" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Click each &lt;B&gt;photo&lt;/B&gt; to learn more about cultural practices and interpretations.</content>
+		</text>
+		<text id="text03" x="47" y="334" width="294" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Cultural Practices: &lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Shared &lt;U&gt;behaviors&lt;/U&gt; of a group of people, based on beliefs, priorities, and goals that have been learned from their family, community, and the society that they recognize as their own&lt;/P&gt;</content>
+		</text>
+		<text id="text04" x="392" y="334" width="302" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Cultural Interpretations:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Shared &lt;U&gt;meaning&lt;/U&gt; within a group of people who have a similar lens and frame of reference based on shared history and experiences&lt;/P&gt;</content>
+		</text>
+		<text id="text05" x="21" y="308.8" width="717" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="25" y="150" width="" height="" style="GRAPHIC" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic02" x="47" y="150" width="" height="" style="LINK_3" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="86118">03_01_02_010_01.jpg</file>
+			<notes id="description">japanese children bowing in greeting</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="text03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="graphic03" x="392" y="149" width="" height="" style="LINK_3" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="81619">03_01_02_010_02.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;family File istock File #: 12465900&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;			&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="text04" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="54383" startpos="1" duration="159">a_03_01_02_010_01.swf</file>
+			<transcript translate="true">Professionals often interact with parents, children, and families whose cultural background is different from their own. A family's cultural background includes both practices and interpretations which are handed down from previous generations.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="20551" startpos="1" duration="61">a_03_01_02_010_02.swf</file>
+			<transcript translate="true">Click each photo to learn more about cultural practices and interpretations.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="graphic04" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+</template>

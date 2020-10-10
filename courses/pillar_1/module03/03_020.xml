@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="-50" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Conclusion</content>
+	</text>
+	<text id="nav_text" x="125" y="425" width="650" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">To continue, click another &lt;B&gt;Module&lt;/B&gt; from the top menu.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="-50" y="50" width="450" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Congratulations! You have completed the Self-Regulation module.</content>
+		</text>
+		<text id="text02" x="0" y="79.6" width="400" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Help parents to:&lt;LI&gt;Realize that self-regulation develops gradually over time&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="0" y="171.6" width="400" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Know and understand the stages of self-regulation so that their expectations are appropriate for the age of the child&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="0" y="294.8" width="400" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Provide children with structure and predictability as well as model self-control and self-regulation in their own words and actions&lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="0" y="79.6" width="400" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE"/>
+	</section>
+	<section id="presentation_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="400" y="50" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="132574">03_020_01.jpg</file>
+			<notes id="description">03_010_03.jpg (#46 Language &amp; Communication Master 2 yrs. Madeline - 122-156 from Self-Regulation folder in Physical Dev.) at 320x320</notes>
+		</graphic>
+		<graphic id="graphic02" x="400" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="118375" play="false" startpos="1">03_020_02.jpg</file>
+			<notes id="description">#34 3 yrs. Carson - 75-53 from Temperament folder in Physical Dev.</notes>
+		</graphic>
+		<graphic id="graphic03" x="560" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="103182" play="false" startpos="1">03_020_03.jpg</file>
+			<notes id="description">Helpful Parenting Tips (2) from Self-Regulation folder in Physical Dev.</notes>
+		</graphic>
+		<graphic id="graphic04" x="400" y="210" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="102345" play="false" startpos="1">03_020_04.jpg</file>
+			<notes id="description">03_01_02_030_03.jpg (Ready to Feel 1 from Self-Regulation folder in Physical Dev.) at 320x320</notes>
+		</graphic>
+		<graphic id="graphic05" x="560" y="210" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="104232" play="false" startpos="1">03_020_05.jpg</file>
+			<notes id="description">03_01_01_010_01.jpg (Photo 1 from Self-Regulation folder in Physical Dev.) at 320x320</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="70871" startpos="1" duration="207">a_03_020_01.swf</file>
+			<transcript translate="true">Congratulations! You have completed the Self-Regulation module. In this module you should have learned more about the development of self-regulation and how parents can teach their children how to self-regulate. Before we move on, let's review some of the main ideas.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="60631" startpos="1" duration="177">a_03_020_02.swf</file>
+			<transcript translate="true">First, help parents realize that self-regulation is a child's ability to control his or her behavior. It develops gradually over time and is related to many aspects of social, emotional, and cognitive development.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="41239" startpos="1" duration="121">a_03_020_03.swf</file>
+			<transcript translate="true">Next, it is important for parents to know and understand the stages of self-regulation so that their expectations are appropriate for the age of the child.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" bytes="60527" startpos="1" duration="177">a_03_020_04.swf</file>
+			<transcript translate="true">Finally, parents can help support their children's developing skills with patience and understanding. They should provide them with structure and predictability as well as model self-control and self-regulation in their own words and actions.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" bytes="66451" startpos="1" duration="194">a_03_020_06.swf</file>
+			<transcript translate="true">Before you leave this module, consider reviewing the Educator Training Goals. These goals can be found by clicking the Professional Icon. If you have questions about any self-regulation concepts, please review this module before moving on to the Stress module.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="-95" y="440" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="-95" y="235" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="490" height="200" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="410" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="30" y="40" width="407" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Educator Training Goals:&lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Present research findings that define self-regulation and explain how it influences behavior.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Describe the impact of biology and brain development on self-regulation.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Communicate the importance of supporting a child's developing self.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Use resources, activities, and tools to help parents identify and understand their child's ability to self-regulate.&lt;/P&gt;&lt;/TEXTFORMAT&gt;</content>
+			</text>
+			<text id="misc_text02" x="45" y="40" width="25" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;1. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;2.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;3.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;4.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

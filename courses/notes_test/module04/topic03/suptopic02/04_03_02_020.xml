@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Stressors: Adults</content>
+	</text>
+	<text id="nav_text" x="298" y="425" width="477" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Identifying Stressors&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="350" y="60" width="400" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">An adult's upbringing, understanding of physical development, and interpretation of ongoing life experiences affect their coping mechanisms for stress. </content>
+		</text>
+		<text id="text02" x="350" y="120" width="415" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;The modern-day use of the term stress came from experiments that were first conducted in the 1930s by an endocrinologist, Dr. Hans Selye. &lt;/P&gt;</content>
+		</text>
+		<text id="text03" x="350" y="180" width="415" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">When a person perceives an event to be life threatening or harmful, then the body responds with both a physical and emotional reaction that sends out an “alarm signal." </content>
+		</text>
+		<text id="text04" x="350" y="242" width="415" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">What might cause that reaction in one person might not create it in another. Most situations facing modern humans require a more complex but less extreme reaction than literal “fight or flight.”</content>
+		</text>
+		<text id="text05" x="350" y="305" width="400" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Many adults who are chronically stressed experience: &lt;LI&gt;high blood pressure&lt;/LI&gt;&lt;LI&gt;disturbances in sleep&lt;/LI&gt;&lt;LI&gt;difficulty concentrating or anxiety&lt;/LI&gt;&lt;LI&gt;problems in their relationships with other people&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="39095" startpos="1" play="false">04_03_02_020_01.jpg</file>
+			<notes id="description">Mom - Sara Rames-Amader - 137-16 from Stress file</notes>
+			<notes id="reference-file">Mom - Sara Rames-Amader - 137-16 from Stress file</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE"/>
+		<graphic id="graphic03" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic04" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE"/>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="38439" startpos="1" duration="113">a_04_03_02_020_01.swf</file>
+			<transcript translate="true">An adult's upbringing, understanding of physical development, and interpretation of ongoing life experiences affect their coping mechanisms for stress. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="35095" startpos="1" duration="103">a_04_03_02_020_02.swf</file>
+			<transcript translate="true">The modern day use of the term stress came from experiments that were first conducted in the 1930s by an endocrinologist, Dr. Hans Selye.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="44039" startpos="1" duration="129">a_04_03_02_020_03.swf</file>
+			<transcript translate="true">Selye explains that when a person perceives an event to be life threatening or harmful, then the body responds with both a physical and emotional reaction that sends out an “alarm signal.”</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" bytes="52763" startpos="1" duration="154">a_04_03_02_020_04.swf</file>
+			<transcript translate="true">Additionally, what might cause that reaction in one person might not create it in another, since most situations facing modern humans require a more complex, but less extreme reaction than literal “fight or flight”.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" bytes="47267" startpos="1" duration="138">a_04_03_02_020_05.swf</file>
+			<transcript translate="true">Many adults who are chronically stressed experience high blood pressure, disturbances in sleep, difficulty concentrating or anxiety, or problems in their relationships with other people.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true"/>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="9" y="420" width="50" height="50" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="1" y="235" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="false">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="false">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="false">
+				<content translate="true">To see other definitions of self-regulation, click the Self-Regulation Definitions link in the &lt;B&gt;Resource Center&lt;/B&gt;.</content>
+			</text>
+		</container>
+	</section>
+</template>

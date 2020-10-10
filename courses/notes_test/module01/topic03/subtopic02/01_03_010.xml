@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">What Children Need</content>
+	</text>
+	<text id="nav_text" x="188" y="425" width="585" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click an &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Parents Can Do&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="370" y="60" width="375" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Children have several basic needs that must be met to ensure healthy physical and brain development. Each of the following needs depends on the other: </content>
+		</text>
+		<text id="text02" x="" y="" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Food, shelter, warmth, and safety &lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="" y="" width="373" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Things to see, touch, taste, and hear&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="" y="" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Relationships and interaction&lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="" y="" width="375" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;When all of these needs are met, children have an ideal environment for healthy development.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;However, it's important to remember that development is flexible and the brain is extremely malleable. &lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" bytes="86474" play="false">01_03_010_01.jpg</file>
+			<notes id="description">Group of children of different ages playing</notes>
+		</graphic>
+		<graphic id="graphic02" x="25" y="299" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" bytes="79507" play="false">01_03_010_02.png</file>
+			<notes id="description">Bottom of pyramid: Food, shelter, warmth, and safety (images of home, fireplace, etc.)</notes>
+		</graphic>
+		<graphic id="graphic03" x="25" y="179" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" bytes="69690" play="false">01_03_010_01.png</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;2nd level of pyramid: Things to see, touch, taste, and hear (include images of people, toys, etc.)&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic04" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" bytes="52210" play="false">01_03_010_03.png</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;Top of pyramid: Relationships and interaction (images of parents interacting with infants)&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic05" x="25" y="84" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file start_frame="1" play="false"/>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file start_frame="1" play="true" duration="111" bytes="37895">a_01_03_010_01.swf</file>
+			<transcript translate="true">Children have several basic needs that must be met to ensure healthy physical and brain development. Each of the following needs depends on the other:</transcript>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="HIDE" target="graphic01" result_param=""/>
+			</eventlist>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file start_frame="1" play="false" duration="70" bytes="23675">a_01_03_010_02.swf</file>
+			<transcript translate="true">At the most basic level, children need food, shelter, warmth, and safety. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file start_frame="1" play="false" duration="61" bytes="20551">a_01_03_010_04.swf</file>
+			<transcript translate="true">Next, they need things to see, touch, taste, and hear.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file start_frame="1" play="false" duration="50" bytes="16987">a_01_03_010_03.swf</file>
+			<transcript translate="true">Finally, children need relationships and interaction.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file start_frame="1" play="false" duration="247" bytes="84663">a_01_03_010_05.swf</file>
+			<transcript translate="true">When all of these needs are met, children have an ideal environment for healthy development. However, it's important to remember that development is flexible and the brain is extremely malleable. Except in extreme situations, the brain will attempt to make connections and develop in an appropriate manner, even when these basic needs have not been met. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+</template>

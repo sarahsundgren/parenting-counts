@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">What Are Emotions?</content>
+	</text>
+	<text id="nav_text" x="180" y="425" width="590" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Emotions&lt;/B&gt;.</content>
+	</text>
+	<graphic id="graphic10" x="390" y="236" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+		<file startpos="1" play="false" bytes="7987" placeholder="true">01_01_01_010_10.jpg</file>
+		<notes id="description">A yellow shape</notes>
+	</graphic>
+	<section id="presentation_text" align="LEFT" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="387" y="84" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="text02" x="390" y="98" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="text03" x="390" y="112" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="text04" x="390" y="70" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Emotions are a natural part of life that begin at birth.</content>
+		</text>
+		<text id="text05" x="390" y="100" width="351" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">A subjective reaction to an event characterized by physiological, experiential, and overt behavioral change </content>
+		</text>
+		<text id="text06" x="390" y="145" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Elements of emotion include:&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;LI&gt;Physiological changes&lt;/LI&gt;</content>
+		</text>
+		<text id="text07" x="390" y="205" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Facial, postural, or behavioral changes&lt;/LI&gt;</content>
+		</text>
+		<text id="text08" x="398" y="240" width="357" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Emotions affect our everyday lives. As parents learn more about emotions and their importance, they will be better prepared to help children learn to manage their own emotions.</content>
+		</text>
+		<text id="text09" x="400" y="367.6" width="322" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="25" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="20581" play="false" startpos="1">01_01_01_010_01.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;A smiling 5 mo. old&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic02" x="200" y="60" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="16788" play="false" startpos="1">01_01_01_010_02.jpg</file>
+			<notes id="description">A sad toddler</notes>
+		</graphic>
+		<graphic id="graphic03" x="25" y="240" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="15827" play="false" startpos="1">01_01_01_010_03.jpg</file>
+			<notes id="description">A surprised baby</notes>
+		</graphic>
+		<graphic id="graphic04" x="200" y="240" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="23662" play="false" startpos="1">01_01_01_010_41.jpg</file>
+			<notes id="description">An afraid little boy</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="17" bytes="5671" startpos="1">a_01_01_01_010_01.swf</file>
+			<transcript translate="true">Happy</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="18" bytes="5787" startpos="1">a_01_01_01_010_02.swf</file>
+			<transcript translate="true">Sad</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text02" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" duration="22" bytes="7187" startpos="1">a_01_01_01_010_03.swf</file>
+			<transcript translate="true">Surprised</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text03" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" duration="66" bytes="22275" startpos="1">a_01_01_01_010_04.swf</file>
+			<transcript translate="true">Afraid. Emotions are a natural part of life that begin at birth.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text04" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration05">
+			<file play="false" duration="242" bytes="82939" startpos="1">a_01_01_01_010_05.swf</file>
+			<transcript translate="true">There are many different definitions of emotion. One formal definition of emotion is a subjective reaction to an event characterized by physiological, experiential, and overt behavioral change. Although this is just one person's definition, most researchers agree that the elements of emotion include:</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration06">
+			<file play="false" duration="81" bytes="27447" startpos="1">a_01_01_01_010_06.swf</file>
+			<transcript translate="true">Physiological changes, such as an increase or decrease in blood pressure, temperature, or heart rate.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration07">
+			<file play="false" duration="206" bytes="70547" startpos="1">a_01_01_01_010_07.swf</file>
+			<transcript translate="true">And it also includes facial, postural, or behavioral changes. For example, when a child feels shame, he may frown, look downward, and slump his shoulders. These are all physical indications that the child may be feeling ashamed for doing something he should not have done.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration08">
+			<file play="false" duration="126" bytes="43067" startpos="1">a_01_01_01_010_08.swf</file>
+			<transcript translate="true">Emotions affect our everyday lives. As parents learn more about emotions and their importance, they will be better prepared to help children learn to manage their own emotions.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="25" y="80" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="23662">01_01_01_010_05.jpg</file>
+			<notes id="description">A child displaying anger</notes>
+		</graphic>
+		<graphic id="misc_graphic02" x="25" y="80" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="7987" placeholder="true">01_01_01_010_06.jpg</file>
+			<notes id="description">A child crying</notes>
+		</graphic>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="65" y="214" width="54" height="" autosize="H" style="DEFAULT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Happy</content>
+		</text>
+		<text id="misc_text02" x="250" y="214" width="35" height="" autosize="H" style="DEFAULT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Sad </content>
+		</text>
+		<text id="misc_text03" x="61" y="396" width="64" height="" autosize="H" style="DEFAULT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Surprised</content>
+		</text>
+		<text id="misc_text04" x="244" y="396" width="43" height="" autosize="H" style="DEFAULT" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Afraid</content>
+		</text>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="734" y="115" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" startpos="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" startpos="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Sroufe, L. A. (1997). &lt;I&gt;Emotional development: The organization of emotional life in the early years&lt;/I&gt;. New York, NY: Cambridge University Press. &lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

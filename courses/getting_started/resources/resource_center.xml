@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_resources" view="view_resources_2x">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<graphic id="background" x="-120" y="-19" width="1014" height="533" behavior="LOCK_XY|LOCK_SIZE" style="PLAIN" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" disabled="true">
+		<file play="false" bytes="7297" startpos="1" duration="1">resources_bg.swf</file>
+	</graphic>
+	<graphic id="close_btn" x="812" y="-3" width="" height="" style="CONTROLS" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+		<file play="false" bytes="4380" startpos="1" duration="23">btn_close.swf</file>
+	</graphic>
+	<text id="title" x="-67" y="17" width="730" height="" autosize="H" style="RESOURCE_TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Resource Center</content>
+	</text>
+	<text id="title1" x="-67" y="85" width="851" height="" autosize="H" style="TITLE_2" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">&lt;FONT SIZE="14"&gt;Resources are available in each of the four Pillars. Check back here when you reach Pillar 1 for content-specific resource suggestions.&lt;/FONT&gt;</content>
+	</text>
+	<text id="title2" x="430" y="80" width="396" height="" autosize="H" style="TITLE_2" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content/>
+	</text>
+	<text id="directions" x="-68" y="195" width="357" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+		<content translate="true">&lt;/FONT&gt;</content>
+	</text>
+	<graphic id="line" x="-70" y="70" width="910" height="" style="LINE" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+		<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+	</graphic>
+	<section id="scroll_items" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<container id="left_item01" behavior="" x="-10" y="5" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="icon" x="0" y="0" width="" height="" style="LINK_SWF" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+				<file play="false" bytes="423" startpos="1" duration="28">pdf_icon.swf</file>
+			</graphic>
+			<text id="text" x="25" y="8" width="260" height="" autosize="H" style="RESOURCE_LINK" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<section id="dev_assets" expanded="true">
+			<area id="left_scroll_area" behavior="" x="-83" y="115" width="962" height="320" visible="false" fx="GRAPHIC_SHOW"/>
+		</section>
+	</section>
+</template>

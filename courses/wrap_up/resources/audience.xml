@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<graphic id="background" x="0" y="0" width="795" behavior="LOCK_XY|LOCK_SIZE" height="533" style="PLAIN" visible="true" fx="SHOW" hidefx="HIDE" disabled="true">
+		<file play="false" bytes="5827" startpos="1">wizard.jpg</file>
+		<eventlist>
+			<event type="CLICK" result="DISABLE" target="_self" result_param=""/>
+		</eventlist>
+	</graphic>
+	<text id="title" x="37" y="35" width="456" height="" autosize="H" style="WIZARD_TITLE" visible="true" fx="SHOW" hidefx="HIDE">
+		<content translate="true">Audience &amp; Objectives</content>
+	</text>
+	<text id="directions" x="37" y="65" width="739" height="" autosize="H" style="WIZARD_TEXT" visible="true" fx="SHOW" hidefx="HIDE">
+		<content translate="true">Answer the following questions regarding your training goals.</content>
+	</text>
+	<section id="question_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="question01" x="37" y="93" width="740" height="" autosize="H" style="WIZARD_TEXT" visible="true" fx="SHOW" hidefx="HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="15"&gt;&lt;B&gt;Audience Profile&lt;/B&gt;&lt;/FONT&gt;&lt;FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Who is your audience?&lt;/P&gt;</content>
+		</text>
+		<text id="question02" x="37" y="184.6" width="740" height="" autosize="H" style="WIZARD_TEXT" visible="true" fx="SHOW" hidefx="HIDE">
+			<content translate="true">What is unique about this audience?</content>
+		</text>
+		<text id="question03" x="37" y="262.2" width="740" height="" autosize="H" style="WIZARD_TEXT" visible="true" fx="SHOW" hidefx="HIDE">
+			<content translate="true">How can you best meet the needs of this audience?</content>
+		</text>
+		<text id="question04" x="37" y="338.75" width="740" height="" autosize="H" style="WIZARD_TEXT" visible="true" fx="SHOW" hidefx="HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;FONT SIZE="15"&gt;&lt;B&gt;Learning Objectives&lt;/B&gt;&lt;/FONT&gt;&lt;FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;What learning objectives will guide your training?&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="input_fields" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<input id="input01" x="38" y="131" width="712" height="44" maxchars="500" password="false" multiline="true" focus="true" restrict="" style="INPUT" visible="true" fx="SHOW" hidefx="HIDE" scroll="AUTO" case="M">
+			<content/>
+		</input>
+		<input id="input02" x="38" y="206" width="712" height="44" maxchars="600" password="false" multiline="true" focus="false" restrict="" style="INPUT" visible="true" fx="SHOW" hidefx="HIDE" scroll="AUTO" case="M">
+			<content/>
+		</input>
+		<input id="input03" x="38" y="283" width="712" height="44" maxchars="600" password="false" multiline="true" focus="false" restrict="" style="INPUT" visible="true" fx="SHOW" hidefx="HIDE" scroll="AUTO" case="M">
+			<content/>
+		</input>
+		<input id="input04" x="38" y="376" width="712" height="44" maxchars="600" password="false" multiline="true" focus="false" restrict="" style="INPUT" visible="true" fx="SHOW" hidefx="HIDE" scroll="AUTO" case="M">
+			<content/>
+		</input>
+	</section>
+	<graphic id="print" x="647" y="430" width="" height="" behavior="" style="CONTROLS" visible="true" fx="SHOW" hidefx="HIDE">
+		<file play="false" bytes="3602" startpos="1" duration="23">btn_print.swf</file>
+		<eventlist>
+			<event type="CLICK" result="CALL_FUNCTION" target="PAGE" result_param="printWizard();"/>
+		</eventlist>
+	</graphic>
+</template>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Question Activity</content>
+	</text>
+	<text id="nav_text" x="321" y="425" width="604" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Parents Can Do&lt;/B&gt;.&lt;/P&gt;</content>
+	</text>
+	<graphic id="misc_graphic08" x="290" y="100" width="450" height="308" style="SHADING" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+		<file startpos="1" play="false" bytes="54">clear.gif</file>
+	</graphic>
+	<graphic id="misc_graphic09" x="25" y="100" width="223" height="157" style="SHADING" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+		<file startpos="1" play="false" bytes="54">clear.gif</file>
+	</graphic>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="718" height="" autosize="H" style="DEFAULT" visible="false" fx="INTRO_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">It can be difficult to know when and how discipline should be used. Listen to the following scenario and try to picture yourself as the parent of the child who is misbehaving.</content>
+		</text>
+		<text id="text02" x="35" y="110" width="212" height="" autosize="H" style="DEFAULT_2" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Scenario: &lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;You are preparing dinner while your 4-year-old son, Blake, colors a picture.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Blake is being unusually quiet, so you investigate. You find Blake coloring on the wall with crayons.&lt;/P&gt;</content>
+		</text>
+		<text id="text03" x="300" y="110" width="424" height="" autosize="H" style="DEFAULT_2" visible="false" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Before you discipline your child, ask yourself these questions.&lt;/B&gt;</content>
+		</text>
+		<text id="text04" x="300" y="139" width="417" height="" autosize="H" style="DEFAULT_2" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="32"&gt;What happened, and what don't I like about what happened?&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="text05" x="300" y="172" width="440" height="" autosize="H" style="DEFAULT_2" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="32"&gt;Does my child understand what happened? Have I explained what happened to my child?&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="text06" x="300" y="220" width="430" height="" autosize="H" style="DEFAULT_2" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="32"&gt;Will limit setting, distraction, or another discipline method help?&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="text07" x="300" y="260" width="350" height="" autosize="H" style="DEFAULT_2" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="32"&gt;Am I hungry, tired, or being impulsive?&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="text08" x="300" y="291" width="418" height="" autosize="H" style="DEFAULT_2" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="32"&gt;Am I being fair, kind, and consistent, or am I trying to embarrass my child?&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="text09" x="300" y="332" width="443" height="" autosize="H" style="DEFAULT_2" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="32"&gt;Will discipline teach my child better decision-making and change the likelihood of further misbehavior?&lt;/TEXTFORMAT&gt;</content>
+		</text>
+		<text id="text10" x="300" y="374" width="429" height="" autosize="H" style="DEFAULT_2" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;TEXTFORMAT BLOCKINDENT="32"&gt;Will the discipline reduce the need for punishment? Will I follow through on the consequence I have selected?&lt;/TEXTFORMAT&gt;</content>
+			<eventlist>
+				<event type="SHOWFX_COMPLETE" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="290" y="100" width="" height="" style="GRAPHIC" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="138774" startpos="1" play="false">06_04_02_020_01.jpg</file>
+			<notes id="description">parent with thoughtful expression looking at their child</notes>
+		</graphic>
+		<graphic id="graphic02" x="290" y="100" width="" height="" style="GRAPHIC" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="138367">06_04_02_020_02.jpg</file>
+			<notes id="description">4-year-old boy drawing on the wall with crayon</notes>
+		</graphic>
+		<graphic id="graphic03" x="430" y="50" width="" height="" style="" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic04" x="370" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic05" x="370" y="49" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic06" x="370" y="49" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon02" x="10" y="420" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="41667" startpos="1" duration="122">a_06_04_02_020_01.swf</file>
+			<transcript translate="true">It can be difficult to know when and how discipline should be used. Listen to the following scenario and try to picture yourself as the parent of the child who is misbehaving.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="text02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_graphic09" result_param=""/>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="misc_graphic09" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="45867" startpos="1" duration="134">a_06_04_02_020_02.swf</file>
+			<transcript translate="true">You are preparing dinner while your 4-year-old son, Blake, colors a picture. Blake is being unusually quiet, so you investigate. You find Blake coloring on the wall with crayons.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="graphic02" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration03">
+			<file play="false" bytes="27875" startpos="1" duration="82">a_06_04_02_020_03.swf</file>
+			<transcript translate="true">Before you discipline your child, ask yourself these questions. Click each question mark below to read the questions.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_graphic01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_graphic02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_graphic03" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_graphic04" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_graphic05" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_graphic06" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_graphic07" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_graphic08" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="graphic02" result_param=""/>
+			</eventlist>
+		</audio>
+		<section id="miscellaneous_graphics" expanded="true">
+			<graphic id="misc_graphic01" x="300" y="135" width="" height="" style="LINK_3" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+				<file startpos="1" play="false" bytes="1198">06_04_02_020_03.jpg</file>
+				<notes id="description">"?"</notes>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="text04" result_param=""/>
+				</eventlist>
+			</graphic>
+			<graphic id="misc_graphic02" x="300" y="175" width="" height="" style="LINK_3" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+				<file startpos="1" play="false" bytes="1198">06_04_02_020_03.jpg</file>
+				<notes id="description">"?"</notes>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="text05" result_param=""/>
+				</eventlist>
+			</graphic>
+			<graphic id="misc_graphic03" x="300" y="215" width="25" height="25" style="LINK_3" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+				<file startpos="1" play="false" bytes="1198">06_04_02_020_03.jpg</file>
+				<notes id="description">"?"</notes>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="text06" result_param=""/>
+				</eventlist>
+			</graphic>
+			<graphic id="misc_graphic04" x="300" y="255" width="" height="" style="LINK_3" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+				<file startpos="1" play="false" bytes="1198">06_04_02_020_03.jpg</file>
+				<notes id="description">"?"</notes>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="text07" result_param=""/>
+				</eventlist>
+			</graphic>
+			<graphic id="misc_graphic05" x="300" y="295" width="" height="" style="LINK_3" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+				<file startpos="1" play="false" bytes="1198">06_04_02_020_03.jpg</file>
+				<notes id="description">"?"</notes>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="text08" result_param=""/>
+				</eventlist>
+			</graphic>
+			<graphic id="misc_graphic06" x="300" y="335" width="" height="" style="LINK_3" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+				<file startpos="1" play="false" bytes="1198">06_04_02_020_03.jpg</file>
+				<notes id="description">"?"</notes>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="text09" result_param=""/>
+				</eventlist>
+			</graphic>
+			<graphic id="misc_graphic07" x="300" y="375" width="" height="" style="LINK_3" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+				<file startpos="1" play="false" bytes="1198">06_04_02_020_03.jpg</file>
+				<notes id="description">&lt;P ALIGN="LEFT"&gt;"?"&lt;/P&gt;</notes>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="text10" result_param=""/>
+					<event type="CLICK" result="CONTENT_COMPLETE" target="" result_param=""/>
+				</eventlist>
+			</graphic>
+		</section>
+		<section id="miscellaneous_audio" expanded="true"/>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="1" y="235" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="402" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">These questions would be helpful as a handout for parents to take home. Look for these questions on ParentingCounts.org</content>
+			</text>
+			<text id="misc_text02" x="35" y="55" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content/>
+			</text>
+		</container>
+	</section>
+</template>

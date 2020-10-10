@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_video" view="view_video">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="CUSTOM"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">What Is Temperament?</content>
+	</text>
+	<text id="nav_text" x="223" y="425" width="548" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What IsTemperament?&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="405" y="60" width="334" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Temperament is used to describe a person's behavior style, or the way a person experiences and responds to their internal and external world.</content>
+		</text>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="338" bytes="115915" start_frame="1">a_02_01_01_010_01.swf</file>
+			<transcript translate="true">Temperament is used to describe a person's behavior style, or the way a person experiences and responds to their internal and external world. Heredity and a variety of physiological factors affect a person's response to the all the stimuli they experience; collectively, these responses make up a person's temperament. In this video clip, molecular biologist John Medina explains the difference between temperament and personality.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="ENDOFMOVIE" result="PLAY" target="video" result_param="REWIND"/>
+			</eventlist>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="48459" duration="142" start_frame="1">a_02_01_01_010_02.swf</file>
+			<transcript translate="true">From the video we learn that an individual is born with their temperament. The expression of a person's temperament is shaped by development, especially in the areas of self-regulation and emotion.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="TIME" pos="1" result="SHOW" target="misc_text02" result_param=""/>
+				<event type="ENDOFMOVIE" result="PLAY" target="misc_audio01" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="presentation_video" expanded="true">
+		<video id="video" behavior="" x="25" y="60" width="340" height="180" visible="true" fx="VIDEO_SHOW" hidefx="VIDEO_HIDE" style="DEFAULT">
+			<file play="false" autorewind="true" buffer="15" preload="10" volume="100" bytes="21705401" start_frame="0">medina.mov</file>
+			<transcript/>
+			<eventlist>
+				<event type="ENDOFMOVIE" result="PLAY" target="narration02" result_param=""/>
+				<event type="TIME" pos="0" result="CALL_FUNCTION" target="" result_param="$stopAudio();"/>
+			</eventlist>
+		</video>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="130" y="284" width="150" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Dr. John Medina</content>
+		</text>
+		<text id="misc_text02" x="405" y="120" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">The expression of a person's temperament is shaped by development, especially in the areas of self-regulation and emotion.</content>
+		</text>
+		<text id="misc_text03" x="405" y="181" width="354" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Temperament consists of:&lt;LI&gt;Reactivity: the way the nervous system processes incoming information.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Regulation: how well an infant, child, or adult is able to manage his or her emotional and physical reaction to incoming information.&lt;/LI&gt;</content>
+		</text>
+		<text id="misc_text04" x="405" y="60" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Genetic factors are responsible for 20% to 60% of temperament traits, while environmental influences contribute about 40% to 80%.&lt;LI&gt;&lt;/LI&gt;</content>
+		</text>
+		<text id="misc_text05" x="405" y="120" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Key Message:&lt;/B&gt;&lt;LI&gt;Temperament is based on individual biology, and strongly influences the way that someone experiences and responds to their environment.&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="miscellaneous_audio" expanded="true">
+		<audio id="misc_audio01">
+			<file play="false" bytes="88227" duration="258" start_frame="1">a_02_01_01_010_03.swf</file>
+			<transcript translate="true">Rothbart and Derryberry believe that temperament consists of the differences in reactivity and regulation. Reactivity refers to the way the nervous system processes incoming information. Regulation is how well an infant, child, or adult is able to manage his or her emotional and physical reaction to incoming information.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="TIME" pos="1" result="SHOW" target="misc_text03" result_param=""/>
+				<event type="TIME" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+				<event type="ENDOFMOVIE" result="PLAY" target="misc_audio02" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="misc_audio02">
+			<file play="false" bytes="62355" duration="182" start_frame="1">a_02_01_01_010_04.swf</file>
+			<transcript translate="true">To explain these differences consider the MacArthur Longitudinal Twin Study. They found that genetic factors are responsible for twenty to sixty percent of temperament traits, while environmental influences contribute about forty to eighty percent.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="TIME" pos="1" result="SHOW" target="misc_text04" result_param=""/>
+				<event type="TIME" pos="1" result="SHOW" target="ref_icon02" result_param=""/>
+				<event type="TIME" pos="1" result="HIDE" target="misc_text02" result_param=""/>
+				<event type="TIME" pos="1" result="HIDE" target="misc_text03" result_param=""/>
+				<event type="TIME" pos="1" result="HIDE" target="text01" result_param=""/>
+				<event type="TIME" pos="1" result="HIDE" target="ref_icon01" result_param=""/>
+				<event type="ENDOFMOVIE" result="SHOW" target="nav_text" result_param=""/>
+				<event type="ENDOFMOVIE" result="PLAY" target="misc_audio03" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="misc_audio03">
+			<file play="false" bytes="58155" duration="170" start_frame="1">a_02_01_01_010_05.swf</file>
+			<transcript translate="true">Before we move on, let's take a look at the Key Message for this section. It is that: Temperament is based on individual biology, and strongly influences the way that someone experiences and responds to their environment.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="TIME" pos="1" result="SHOW" target="misc_text05" result_param=""/>
+				<event type="ENDOFMOVIE" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="647" y="274" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" start_frame="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="477" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" start_frame="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Rothbart, M. K., &amp; Derryberry, D. (1981). Development of individual differences in temperament. In M.E. Lamb &amp; A.L. Brown (Eds.). &lt;I&gt;Advances in developmental psychology &lt;/I&gt;(Vo.1, pp. 37-86). Hillsdale, NJ: Erlbaum.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon02" x="593" y="90" width="15" height="15" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1704" play="false" duration="1" start_frame="1">rstar_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference02" behavior="STRICT|LOCK_SIZE" x="295" y="5" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="477" height="184" style="DEFAULT" visible="true">
+				<file bytes="1904" play="false" duration="1" start_frame="1">rstar_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="0" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" duration="23" start_frame="1">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="60" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Emde, R., Plomin, R., Robinson, J., &amp; Corley, R. (1992). Temperament, emotion, and cognitive at fourteen months: The MacArthur Longitudinal Twin Study. &lt;I&gt;Child Development&lt;/I&gt;, &lt;I&gt;63&lt;/I&gt;(6), 1437-1455.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stylesheet>
+	<constants/>
+	<fonts>
+		<font id="DEFAULT" face="Arial" size="13" color="000000"/>
+	</fonts>
+	<visual_filters>
+		<section id="common">
+			<filter id="DROPSHADOW" type="DROPSHADOW" distance="5" angle="45" color="000000" alpha=".5" blurX="10" blurY="10" strength="1" quality="3" inner="false" knockout="false" hide="false"/>
+			<filter id="PLACEHOLDERSHADOW" type="DROPSHADOW" distance="5" angle="35" color="000000" alpha=".64" blurX="4" blurY="4" strength="1" quality="3" inner="false" knockout="false" hide="false"/>
+			<filter id="THIN_DROPSHADOW" type="DROPSHADOW" distance="2" angle="45" color="999999" alpha=".5" blurX="2" blurY="2" strength="1" quality="3" inner="false" knockout="false" hide="false"/>
+			<filter id="POPUP_SHADOW" type="DROPSHADOW" distance="5" angle="45" color="000000" alpha=".5" blurX="10" blurY="10" strength="1" quality="3" inner="false" knockout="false" hide="false"/>
+			<filter id="DARKER" type="COLORMATRIX" red="1,-.025,-.025,0,-25" green="-.025,1,-.025,0,-25" blue="-.025,-.025,1,0,-25" alpha="0,0,0,1,0"/>
+			<filter id="REFLECTION" type="REFLECTION" height="60" distance="10" alpha="60,20,0" ratio="0,100,255"/>
+			<filter id="GRAYSCALE" type="COLORMATRIX" red="0.3086,0.6094,0.082,0,0" green="0.3086,0.6094,0.082,0,0" blue="0.3086,0.6094,0.082,0,0" alpha="0,0,0,1,0"/>
+			<filter id="GFXBORDER" type="BEVEL" distance="1" angle="0" highlightColor="666666" highlightAlpha=".75" shadowColor="666666" shadowAlpha="1" blurX="0" blurY="0" strength=".5" quality=".5" mode="full" knockout="false"/>
+			<filter id="GFXBORDER2" type="BEVEL" distance="1" angle="90" highlightColor="666666" highlightAlpha=".75" shadowColor="666666" shadowAlpha="1" blurX="0" blurY="0" strength=".5" quality=".5" mode="full" knockout="false"/>
+		</section>
+	</visual_filters>
+	<shapes>
+		<section id="common">
+			<shape id="PLACEHOLDERBOX" type="BOX" filled="LINEAR" fillColor="CCCCCC,FFFFFF" fillAlpha="100,100" fillRatio="0,255" fillRotation="90" radialOrigin="50,50" spread="" interpolation="" borderColor="000000" borderSize="1" leftMargin="5" rightMargin="5" topMargin="6" bottomMargin="2" cornerRounding="5"/>
+			<shape id="FEEDBACK" type="BOX" filled="LINEAR" fillColor="ffffff,ffffff" fillAlpha="100,100" fillRatio="0,255" fillRotation="90" radialOrigin="50,50" spread="" interpolation="" borderColor="303030" borderSize="1" leftMargin="5" rightMargin="7" topMargin="6" bottomMargin="1" cornerRounding="5"/>
+		</section>
+	</shapes>
+	<masks>
+		<section id="common">
+			<mask id="GFXROUNDED" type="BOX" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" cornerRounding="12"/>
+		</section>
+	</masks>
+	<sound_fx/>
+	<text_styles>
+		<section id="shell">
+			<style id="TITLE" color="483C56" size="20"/>
+			<style id="TIP_TEXT" color="4D4D4D" shape="TEXTBOX"/>
+		</section>
+		<section id="common">
+			<style id="PLACEHOLDER_NOTES" color="101010" size="11" shape="PLACEHOLDERBOX" exclusiveFilters="PLACEHOLDERSHADOW"/>
+			<style id="TITLE" color="FFFFFF" size="20"/>
+			<style id="PROMPT" color="303030" size="14" align="right"/>
+			<style id="DEFAULT" color="FFFFFF" size="14"/>
+			<style id="INTRO" color="FFFFFF" size="14"/>
+			<style id="DIRECTIONS" color="303030" size="14"/>
+			<style id="REFERENCE" color="044A64" size="14"/>
+			<style id="CONTROLS" color="FFFFFF" size="13" align="center" leading="0" alpha="100" bold="true"/>
+			<style id="CONTROLS.rollover" color="013C8A" alpha="100"/>
+			<style id="CONTROLS.disabled" color="FFFFFF" alpha="70"/>
+			<style id="OPTION" color="474747" size="14"/>
+			<style id="OPTION.rollover" color="000000"/>
+			<style id="OPTION.selected" color="FFFFFF"/>
+			<style id="CORRECT_FEEDBACK" shape="FEEDBACK" color="003300" size="16"/>
+			<style id="INCORRECT_FEEDBACK" shape="FEEDBACK" color="6f3635" size="16"/>
+		</section>
+	</text_styles>
+	<graphic_styles>
+		<section id="shell">
+			<style id="BACKGROUND"/>
+		</section>
+		<section id="common">
+			<style id="PLAIN"/>
+			<style id="DEFAULT" exclusiveFilters="GFXBORDER,GFXBORDER2" mask="GFXROUNDED"/>
+			<style id="CONTROLS" label="_normal" alpha="100"/>
+			<style id="CONTROLS.rollover" label="_over" alpha="100"/>
+			<style id="CONTROLS.disabled" label="_disabled" alpha="70"/>
+			<style id="SHADING" shape="PLACEHOLDERBOX"/>
+			<style id="LINK_SWF" label="_normal" alpha="100"/>
+			<style id="LINK_SWF.rollover" label="_over" alpha="100"/>
+			<style id="LINK_SWF.selected" label="_selected" alpha="100"/>
+			<style id="LINK_SWF.visited" label="_visited" alpha="100"/>
+			<style id="LINK_SWF.disabled" label="_disabled" alpha="70"/>
+			<style id="OPTION_GRAPHIC"/>
+			<style id="OPTION" label="_normal" exclusiveFilters="THIN_DROPSHADOW"/>
+			<style id="OPTION.rollover" label="_over"/>
+			<style id="OPTION.selected" label="_selected"/>
+			<style id="OPTION.disabled" alpha="80"/>
+		</section>
+	</graphic_styles>
+	<video_styles>
+		<section id="common">
+			<style id="DEFAULT" autoHideSkin="false" skin=""/>
+		</section>
+	</video_styles>
+	<component_styles>
+		<section id="shell">
+			<style id="SHELL_BTN" tint="" label="_normal" alpha="60"/>
+			<style id="SHELL_BTN.rollover" label="_over" alpha="100"/>
+			<style id="SHELL_BTN.down" label="_down" alpha="100"/>
+			<style id="SHELL_BTN.disabled" label="_disabled" alpha="30"/>
+			<style id="LABEL_BTN"/>
+			<style id="SHELL_BTN2" label="_normal" alpha="100"/>
+			<style id="SHELL_BTN2.rollover" label="_over" alpha="100"/>
+			<style id="SHELL_BTN2.down" label="_down" alpha="100"/>
+			<style id="SHELL_BTN2.disabled" label="_disabled" alpha="30"/>
+		</section>
+	</component_styles>
+	<container_styles/>
+	<visual_fx>
+		<section id="common">
+			<fx id="SHOW" visibility="SHOW"/>
+			<fx id="HIDE" visibility="HIDE"/>
+			<fx id="TITLE_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="TITLE_HIDE" visibility="HIDE"/>
+			<fx id="PROMPT_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+				<tween property="X" function="Regular.easeIn" start="+30" end="" duration=".5"/>
+			</fx>
+			<fx id="PROMPT_HIDE" visibility="HIDE"/>
+			<fx id="TEXT_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".75"/>
+				<tween property="X" function="Regular.easeIn" start="+30" end="" duration=".75"/>
+			</fx>
+			<fx id="TEXT_HIDE" visibility="HIDE"/>
+			<fx id="GRAPHIC_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="GRAPHIC_HIDE" visibility="HIDE"/>
+			<fx id="INTRO_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="INTRO_HIDE" visibility="HIDE"/>
+			<fx id="DIRECTIONS_SHOW" visibility="SHOW">
+				<tween property="Alpha" function="Strong.easeIn" start="0" end="100" duration=".5"/>
+			</fx>
+			<fx id="DIRECTIONS_HIDE" visibility="HIDE"/>
+		</section>
+	</visual_fx>
+</stylesheet>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="FALSE"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="true"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<graphic id="background" x="-120" y="-98" width="" height="" behavior="LOCK_XY|LOCK_SIZE" style="PLAIN" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" disabled="true">
+		<file bytes="63012" play="false" startpos="1">green_help.jpg</file>
+		<eventlist>
+			<event type="CLICK" result="DISABLE" target="_self" result_param=""/>
+		</eventlist>
+	</graphic>
+	<graphic id="close_btn" x="684" y="22" width="" height="" style="CONTROLS" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+		<file play="false" bytes="4380" startpos="1" duration="23">btn_close.swf</file>
+		<eventlist>
+			<event type="CLICK" result="CALL_FUNCTION" target="SHELL" result_param="$showHelp(false);"/>
+		</eventlist>
+	</graphic>
+	<text id="title" x="245" y="16" width="100" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content/>
+	</text>
+	<text id="nav_text" x="498" y="427" width="236" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click &lt;B&gt;Close&lt;/B&gt; to return to the course.</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="108" y="208" width="221" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Click lessons and activities in the &lt;B&gt;Left Menu&lt;/B&gt; to navigate a topic.</content>
+		</text>
+		<text id="text02" x="103" y="359.2" width="201" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Click topics in the &lt;B&gt;Bottom Menu&lt;/B&gt; to navigate a module.</content>
+		</text>
+		<text id="text03" x="400" y="130" width="286" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Click &lt;B&gt;My&lt;/B&gt; &lt;B&gt;Teaching Notes&lt;/B&gt; to record your personal notes and to access selected lesson materials and a complete list of reference citations for a pillar.</content>
+		</text>
+		<text id="text04" x="400" y="210" width="259" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Click&lt;B&gt; Teaching Tools&lt;/B&gt; to access teaching resources such as teaching outlines and objectives.</content>
+		</text>
+		<text id="text05" x="400" y="320" width="247" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Click &lt;B&gt;Resource Center&lt;/B&gt; to access a list of supplemental Talaris resources for the pillar.</content>
+		</text>
+		<text id="text06" x="348" y="23.2" width="409" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Click &lt;B&gt;Help f&lt;/B&gt;or course navigation features.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Click &lt;B&gt;Exit &lt;/B&gt;to leave the course.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Click &lt;B&gt;Replay t&lt;/B&gt;o replay a page.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Click &lt;B&gt;Pause/Play &lt;/B&gt;to pause and resume course audio. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Click &lt;B&gt;Transcript On/Off &lt;/B&gt;to open and close the transcript feature.&lt;/P&gt;</content>
+		</text>
+		<text id="text07" x="95" y="53.2" width="202" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Click &lt;B&gt;Module Titles&lt;/B&gt; to navigate the modules in a pillar.</content>
+		</text>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="588" y="-26" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="4370">arrow_45.png</file>
+			<notes id="description"/>
+		</graphic>
+		<graphic id="misc_graphic02" x="662" y="315" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="442">arrow2.png</file>
+		</graphic>
+		<graphic id="misc_graphic03" x="660" y="205" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="442">arrow2.png</file>
+		</graphic>
+		<graphic id="misc_graphic04" x="-1" y="199" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="3133">arrow_left.png</file>
+		</graphic>
+		<graphic id="misc_graphic05" x="75" y="354" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="3162">arrow_down.png</file>
+		</graphic>
+		<graphic id="misc_graphic06" x="639" y="82" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="4608">arrow_60.png</file>
+			<notes id="description"/>
+		</graphic>
+		<graphic id="misc_graphic07" x="67" y="-18" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="3145">arrow_up.png</file>
+		</graphic>
+	</section>
+</template>

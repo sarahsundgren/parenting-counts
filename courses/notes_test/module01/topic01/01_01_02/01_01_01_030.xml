@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">The Amazing Brain</content>
+	</text>
+	<text id="nav_text" x="345" y="425" width="450" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Brain Development&lt;/B&gt;.&lt;/P&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="24" y="50" width="348" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;As you saw in the video on the previous page, neurons rapidly produce new synapses during early childhood, about twice as many as the adult brain will need to work efficiently. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Rapid neural branching happens in different parts of the brain at different times. Most of it occurs during the first 24 months of life. These new connections are tied to various aspects of development:&lt;/P&gt;</content>
+		</text>
+		<text id="text02" x="93" y="127" width="324" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Skill development&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="0" y="79.6" width="369" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Visual and language experiences&lt;/LI&gt;</content>
+		</text>
+		<text id="text04" x="72" y="80" width="370" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;Stress response&lt;/LI&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="graphic01" x="425" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="86175" startpos="1" play="false">01_01_01_030_01.jpg</file>
+			<notes id="description">Father holding a newborn infant boy</notes>
+		</graphic>
+		<graphic id="graphic02" x="405" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" placeholder="true"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic03" x="425" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="95335" startpos="1" play="false">01_01_01_030_03.jpg</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;2 yr. old girl playing outside&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic04" x="425" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="61767" startpos="1" play="false">01_01_01_030_04.jpg</file>
+			<notes id="description">crying baby</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="266" bytes="91235" startpos="1">a_01_01_030_01.swf</file>
+			<transcript translate="true">As you saw in the video on the previous page, neurons rapidly produce new synapses during early childhood, about twice as many as the adult brain will need to work efficiently. Rapid neural branching happens in different parts of the brain at different times.  Most of it occurs during the first 24 months of life. These new connections are tied to various aspects of development:</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="240" bytes="82187" startpos="1">a_01_01_030_02.swf</file>
+			<transcript translate="true">New connections, or pathways, lead to new skills because the brain builds new “circuitry,” or neural connections, based on the neural connections that have already been established. For example, talking to a newborn baby helps support the development of the parts of the brain that produce language, even though he won't say his first word for a long time.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" duration="176" bytes="60203" startpos="1">a_01_01_030_03.swf</file>
+			<transcript translate="true">The brain also prepares for visual and language experiences, and then responds to outside stimulation to strengthen and build neural pathways. Although brain development is encoded in a person's genes, it is strongly influenced by the environment. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" duration="170" bytes="58155" startpos="1">a_01_01_030_04.swf</file>
+			<transcript translate="true">Finally, one important function of the brain is to regulate the stress response based in the brain. This response is natural and automatic. In the Stress module we'll learn more about how stress affects all aspects of development.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="misc_text01" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="398" y="257" width="321" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+</template>

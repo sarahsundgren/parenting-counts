@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course id="{BB60CF33-1144-4D0E-A583-4EAB61F45660}" name="Assessment 3" displayWidth="0" displayHeight="0" translate="name">
+	<module id="{A6769684-02ED-479A-933A-779D1C9D1C22}" name="module 1" folder="module01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+		<page id="{ADDAF858-FBB5-427D-8A6B-23D54CAB5E39}" name="Directions" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="01_010-2.xml" translate="name"/>
+		<page id="{ASSESSMENT}" name="Assessment" activity="exam.swf" content="assessment.xml" translate="name"/>
+	</module>
+</course>

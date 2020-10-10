@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course id="{BB60CF33-D515-4D0E-A583-4EAB61F45660}" name="Social and Emotional Development" displayWidth="0" displayHeight="0" translate="name">
+	<container id="{A88B721D-2758-4623-ABA5-1D6B1E562AC1}" name="Resources" folder="resources" template="{453B5794-BA79-471B-A090-9E456D109968}" translate="name">
+		<page id="{TEACHINGTOOLS}" name="Teaching Tools" template="{AC912D09-4231-440D-208A-DBC06FF56167}" activity="templates_03.swf" content="teaching_tools.xml" translate="name"/>
+		<page id="{RESOURCES}" name="Resource Center" template="{D48BE453-B95C-4D9F-87AB-70A88A63E93A}" activity="templates_03.swf" content="resource_center.xml" translate="name"/>
+		<page id="{HELP}" name="Help" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="help.xml" translate="name"/>
+	</container>
+	<container id="{C70E17F9-0FA8-45DF-8301-6FF9BBFE9A64}" name="Teaching Notes" folder="resources" template="{453B5794-BA79-471B-A090-9E456D109968}" translate="name">
+		<page id="{TEACHING-NOTES}" name="Wizard" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="wizard.xml" translate="name">
+			<subpage id="{WIZ-AUDIENCE}" name="Audience &amp; Objectives" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="audience.xml" translate="name"/>
+			<subpage id="{WIZ-ADDNOTE}" name="Add Note" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="new_note.xml" translate="name"/>
+			<subpage id="{WIZ-NOTES}" name="My Notes" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="notes.xml" translate="name"/>
+			<subpage id="{WIZ-MATERIAL01}" name="Lesson materials 1" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="lesson01.xml" translate="name"/>
+			<subpage id="{WIZ-MATERIAL02}" name="Lesson materials 2" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="lesson02.xml" translate="name"/>
+			<subpage id="{WIZ-MATERIAL03}" name="Lesson materials 3" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="lesson03.xml" translate="name"/>
+			<subpage id="{WIZ-MATERIAL04}" name="Lesson materials 4" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="lesson04.xml" translate="name"/>
+			<subpage id="{WIZ-MATERIAL05}" name="Lesson materials 5" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="lesson05.xml" translate="name"/>
+			<subpage id="{WIZ-MATERIAL06}" name="Lesson materials 6" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="lesson06.xml" translate="name"/>
+			<subpage id="{WIZ-MATERIAL07}" name="Lesson materials 7" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="lesson07.xml" translate="name"/>
+			<subpage id="{WIZ-REFERENCES}" name="Reference Citations" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="references.xml" translate="name"/>
+			<subpage id="{WIZ-HELP}" name="Wizard Help" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="wiz_help.xml" translate="name"/>
+		</page>
+	</container>
+	<module id="{B23598CE-6746-4604-BF25-B5DF71EDE2D4}" name="Overview" folder="module01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+		<page id="{7DDF8E00-2134-440B-A892-BFD6D0348BC7}" name="Introduction" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="01_00_010.xml" translate="name"/>
+		<module id="{7F370517-FD9B-43C1-8AC8-AF424E7B659C}" name="Emotions" folder="topic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{588AF68D-5E97-48CD-AD1A-204B09B281E4}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{77F714DB-EBE5-4B0D-B57C-966116AE7DB5}" name="What are Emotions?" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="01_01_01_010.xml" translate="name"/>
+				<page id="{347F2849-A74E-4C00-96A8-29CAAC3A8D0F}" name="Why Is It Important to Understand Emotion?" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="01_01_02_020.xml" translate="name"/>
+			</module>
+			<module id="{30313D58-AA39-4439-9BC5-243454A1ECC8}" name="Activities" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{58FBF11A-6418-4F8A-8059-819947EFF8CA}" name="Social-Emotional Milestones" template="{5F6C1346-E715-4C9A-9DCD-9C5510DF5098}" activity="templates_03.swf" content="01_01_03_030.xml" translate="name"/>
+				<page id="{BFC088B9-913B-42EE-8F78-FFD3816EFED1}" name="True or False" template="{2C8D68CB-CACE-1ZFD-1086-2E12135039A9}" activity="templates_03.swf" content="01_01_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{077027C1-F243-44E4-A23B-4E90C6B16DC0}" name="Emotional Development" folder="topic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{69C46383-BC4A-4AB6-8BAB-50016F06BCBA}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{C1996C09-080C-44B6-81A7-058E70E66D29}" name="Emotional Competence" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="01_02_02_010-2.xml" translate="name"/>
+				<page id="{E772CA1A-F945-469D-92F1-1E2D8A0EA07B}" name="Emotional Intelligence" template="{BDA42C29-DAEE-4351-BC28-A324F8FA77B9}" activity="templates_03.swf" content="01_02_02_012.xml" translate="name"/>
+				<page id="{EC03A6B5-DAF9-42F9-963B-8E3A43B07613}" name="Characteristics of Emotional Intelligence" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="01_02_02_010.xml" translate="name"/>
+				<page id="{6140C095-B126-4AD1-8FA7-961148D9EC6D}" name="Goal of Emotional Competence" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="01_02_02_020.xml" translate="name"/>
+			</module>
+			<module id="{17C463CE-88A7-4F5B-8A04-6C9FCCE5217D}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{1EDB8A3B-0780-4831-B3E0-7CCFEEDA1402}" name="Aspects of Emotional Competence" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="01_02_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{6D6A0E48-821F-406D-86E7-B7142A93CD3F}" name="Social Development" folder="topic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{7425C0D1-72CF-4B18-9FA5-332A54BDF6A3}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{B118A75B-E728-4A95-91B2-7AB105B8AE79}" name="How Do Emotions Affect Relationships" template="{8A1BDC0F-88C8-3333-A5E2-A811F3B51C62}" activity="templates_03.swf" content="01_03_01_010.xml" translate="name"/>
+				<page id="{417D6223-7A86-44D4-B6F9-A634661C6289}" name="Recognizing Emotion" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="01_03_02_010.xml" translate="name"/>
+			</module>
+			<module id="{1C52957D-09AD-4459-9555-8766DF6AD388}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{4ED5D174-5B15-4DF4-BB1C-990857CD49DD}" name="Name that Emotion" template="{CB17CCFB-FCF3-4F91-A598-1828EABDB2A2}" activity="templates_03.swf" content="01_03_03_011.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{12982C47-1DCE-43BC-90C3-55E46EB5DEDD}" name="What Parents Can Do" folder="topic04" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{4BA091BB-354A-4905-88AB-EE9DF3ADCD8C}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{F81625B9-D00C-459F-8E59-8126E1C0EB60}" name="What Parents Need to Know" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="01_04_02_010.xml" translate="name"/>
+				<page id="{9CC12BC1-D12E-49D6-B7F8-C3457D2C525B}" name="What Parents Can Do" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="01_04_02_020.xml" translate="name"/>
+			</module>
+			<module id="{02FE1C42-DDDB-4731-8D71-B3808C0F96A4}" name="Activities" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{E649B882-07E1-472C-8C10-A6CFBBD575FE}" name="Setting Goals" template="{532A975C-1F90-494A-A221-9385891C8452}" activity="templates_03.swf" content="01_04_03_030.xml" translate="name"/>
+				<page id="{2A528A30-2812-4990-9E46-6E73A858A7DA}" name="Understanding a Child's Emotions" template="{1F4ECFCA-1ED3-43E1-A780-8C56A5CB3A71}" activity="templates_03.swf" content="01_04_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<page id="{B7C68E96-6C0D-4C46-8F75-B60AB6C995ED}" name="Conclusion" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="01_020.xml" translate="name"/>
+	</module>
+	<module id="{6B898B20-EBA6-4651-92DD-256945E0DBBD}" name="Attachment" folder="module02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+		<page id="{84AEC62B-A1D3-4243-816A-A245531FF627}" name="Introduction" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="02_010.xml" translate="name"/>
+		<module id="{E3ED0E8F-804D-41D9-BCA5-FE7EED5CECF5}" name="What Is Attachment?" folder="topic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{217635C4-2BC9-43AD-BF5D-09353457132B}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{842586FD-0664-490F-B232-3BA46C1884BB}" name="What Is Attachment?" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="02_01_01_010.xml" translate="name"/>
+			</module>
+			<module id="{5A5BF0C4-DE74-48CD-A3B1-DDE5DB1437E6}" name="Lesson" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{3AC3580C-22C4-41A4-81B1-B5870A7534CE}" name="The Development of Attachment" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="02_01_02_010.xml" translate="name"/>
+			</module>
+			<module id="{6922549B-F854-4B66-AF3B-080C044EC2D8}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{1AD99442-B505-4C88-AB12-6744D5559B20}" name="Recognizing Attachment" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="02_01_03_010.xml" translate="name">
+					<subpage id="{EC94200A-4746-40CE-8D87-C0C4CED0D107}" name="Knowledge Check" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="04_03_03_010a.xml" translate="name"/>
+				</page>
+			</module>
+		</module>
+		<module id="{BE8CE9F9-E9F3-475E-A197-ED9D0ADF9CF7}" name="Types of Attachment" folder="topic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{2505D8DD-26A6-4A4E-825B-0B537637B44C}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{321770CF-32E6-434B-B6F7-AEC7AAE2704C}" name="Attachment Research" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="02_02_01_010.xml" translate="name"/>
+			</module>
+			<module id="{FEA84DEC-75CC-4C21-929D-EFF4714148E6}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{C0BB6FFC-2C0F-4C07-848C-7B9FCC8177CA}" name="Types of Attachment" template="{8A1BDC0F-88C8-3333-A5E2-A811F3B51C62}" activity="templates_03.swf" content="02_02_02_010.xml" translate="name"/>
+				<page id="{D101DA7D-3C55-4FF7-9324-9BF2382D5436}" name="Attachment and Culture" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="02_02_02_020-2.xml" translate="name"/>
+			</module>
+			<module id="{5F1BFA50-E0E3-4FDE-A14B-9037FEA27C04}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{A227329F-5676-40DC-B954-1E7FE192A60B}" name="Matching Types" template="{F52A9CFE-16F1-4C25-9A8D-2D2638132062}" activity="templates_03.swf" content="02_02_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{423FD8BE-F067-48B8-B9A7-5F5F8C44B89A}" name="What Parents Can Do" folder="topic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{32ACE622-63F7-4BEC-AEC9-812E03E901DF}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{C83FE1F1-CB4C-4351-AB5C-A812A42EDC00}" name="Parents and Attachment" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="02_03_01_010.xml" translate="name"/>
+			</module>
+			<module id="{DEC1E167-9FDF-413B-8347-0E5F90C8A741}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{783A949B-735F-487A-971A-47AA95D71555}" name="What Parents Can Do" template="{1237A3FE-4C59-12F9-AACC-ACB0BE2950E5}" activity="templates_03.swf" content="02_03_02_010.xml" translate="name"/>
+			</module>
+			<module id="{28CCC6AB-384F-4DAC-8ABA-2F39FB2384B2}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{F070A4C1-0562-46B2-B01A-2B00C3394857}" name="Supporting Attachment" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="02_03_03_010.xml" translate="name">
+					<subpage id="{79EA20B3-D85F-4396-8B1A-BE48143F6699}" name="Knowledge Check" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="04_03_03_010a.xml" translate="name"/>
+				</page>
+			</module>
+		</module>
+		<page id="{17786034-3274-4E86-A5D5-B973F6D59B54}" name="Conclusion" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="02_020.xml" translate="name"/>
+	</module>
+	<module id="{C6EE716D-6911-4582-88D5-50535DB5FA0E}" name="Parenting Styles" folder="module03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+		<page id="{08A16502-2F44-4729-AAE7-192996E5F52B}" name="Introduction" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="03_010.xml" translate="name"/>
+		<module id="{60B7C7D7-03D2-4AE7-8E11-52FB99ED0C87}" name="Attunement and Meta-Emotions" folder="topic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{09F74FC6-422C-4B51-A769-7432439983A2}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{9CA56198-9BCF-4C3F-9F40-4DC7371C45A1}" name="Gottman's Research" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="03_01_01_010.xml" translate="name"/>
+			</module>
+			<module id="{A6952F3B-F932-410E-ABDC-1C9C5B4E1875}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{C876ADA2-DE8F-4215-AB61-A796C1D08A8B}" name="Attunement" template="{8A1BDC0F-88C8-3333-A5E2-A811F3B51C62}" activity="templates_03.swf" content="03_01_02_010.xml" translate="name"/>
+				<page id="{8DBA2E25-CDAC-45DA-88F5-A49C58A6AA7B}" name="Meta-Emotion" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="03_01_02_030.xml" translate="name"/>
+			</module>
+			<module id="{73DB412A-8415-4FA6-99E0-7F646A9593B8}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{2495F88B-3403-4999-9635-6240C870BF56}" name="Emotions and Meta-Emotion" template="{5F6C1346-E715-4C9A-9DCD-9C5510DF5098}" activity="templates_03.swf" content="03_01_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{5ADCE6AE-CDFF-48E1-BEE6-04E9BC7DD973}" name="The Four Parenting Styles" folder="topic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{C83349AF-2DE1-4F39-B01D-EB470DC7C8C9}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{64A1E04A-3B97-4407-8944-51721C41CFDD}" name="The Four Parenting Styles" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="03_02_01_010.xml" translate="name"/>
+			</module>
+			<module id="{534DD3A9-0D1A-460C-ABE6-83EBAC2919C7}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{332E1919-5CFA-4180-9B48-CF367B20D5B2}" name="Dismissing" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="03_02_02_010.xml" translate="name"/>
+				<page id="{E7DEEBC9-2968-4CB2-A732-26FC786D756B}" name="Disapproving" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="03_02_02_020.xml" translate="name"/>
+				<page id="{D976CD72-F2EE-4266-8AA8-C9E2E21710DC}" name="Laissez-Faire" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="03_02_02_030.xml" translate="name"/>
+				<page id="{DCCFEA08-D0F0-4F50-943B-6D465AB42700}" name="Emotion Coaching" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="03_02_02_040.xml" translate="name"/>
+			</module>
+			<module id="{E9E1CCE8-5ABA-41C0-A024-F1FBCB7DD5B1}" name="Activities" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{CE6D6261-9DFD-4343-8E01-D7648516C0D8}" name="Example 1" template="{QV962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="03_02_03_010.xml" translate="name">
+					<subpage id="{89861AED-BA44-4D57-85B7-45590DC9D88B}" name="True_False" template="{518F2905-AD73-47A7-9273-4C848EDF9518}" activity="templates_03.swf" content="04_02_03_010a-2-3-3.xml" translate="name"/>
+				</page>
+				<page id="{AAED025E-22F4-4AEB-8EA0-D84B0C1E5F64}" name="Example 2" template="{QV962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="03_02_03_020.xml" translate="name">
+					<subpage id="{7F2271F6-0A32-4131-9563-530F3C07E29A}" name="True_False" template="{518F2905-AD73-47A7-9273-4C848EDF9518}" activity="templates_03.swf" content="04_02_03_010a-2-3-3-2-2.xml" translate="name"/>
+				</page>
+			</module>
+		</module>
+		<page id="{B5080F12-1B13-4C15-8484-0ACFB57F1F73}" name="Conclusion" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="03_020.xml" translate="name"/>
+	</module>
+	<module id="{AD04169C-7156-4141-879F-2B6C9885C65C}" name="Emotion Coaching" folder="module04" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+		<page id="{530166FA-A998-454A-8CE0-D693FF07C6FC}" name="Introduction" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="04_010.xml" translate="name"/>
+		<module id="{F8244775-1CE7-4E5F-A3C8-12BF90F5A5C6}" name="What Is Emotion Coaching?" folder="topic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{A46D4F59-F090-4A12-9D92-96CF68E67839}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{9A10BA01-D856-4BE1-B3CC-5272CFDE897C}" name="What Is Emotion Coaching?" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="04_01_01_010.xml" translate="name"/>
+			</module>
+			<module id="{91D407CD-6C65-42A2-BE1D-5860273F028B}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{4EAD0AC2-A71E-4184-9F30-F8646C123AE7}" name="Parents' Emotional Communication" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="04_01_02_010.xml" translate="name"/>
+				<page id="{39E86F05-E579-42D7-8F63-7F1737DEF4C8}" name="Why Emotion Coaching Matters" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="04_01_02_020.xml" translate="name"/>
+			</module>
+			<module id="{A3D782EB-93BC-472B-B244-02AAD038A2A3}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{5C093733-DF8C-4025-9082-A960FEEEB17A}" name="True or False" template="{2C8D68CB-CACE-1ZFD-1086-2E12135039A9}" activity="templates_03.swf" content="04_01_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{C126C3B4-6363-4960-AE2C-FE162F6F637E}" name="The Five Steps of Emotion Coaching" folder="topic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{A9AB9F74-3ADE-469D-9B93-DD2FD2501D14}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{410D4F3E-93BB-4A58-9C5D-59ABD2EC494C}" name="The Five Steps of Emotion Coaching" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="04_02_01_010.xml" translate="name"/>
+			</module>
+			<module id="{53FD69DD-D8A2-4AEC-B996-8953D21DE0A0}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<module id="{13FD69DD-1111-4AEC-B996-8953D21DE0A0}" name="Step 1" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+					<page id="{0B709AD5-BD12-4A65-A187-04A3F869987E}" name="Step 1 Part 1" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="04_02_02_010.xml" translate="name"/>
+					<page id="{EF9A09A0-7502-43AD-A1DF-C7284435A073}" name="Step 1 Part 2" template="{8A1BDC0F-88C8-3333-A5E2-A811F3B51C62}" activity="templates_03.swf" content="04_02_02_020.xml" translate="name"/>
+				</module>
+				<module id="{23FD69DD-2222-4AEC-B996-8953D21DE0A0}" name="Step 2" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+					<page id="{E5BE91DE-367C-41DE-9597-6CF5A7508F65}" name="Step 2 Part 1" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="04_02_02_030.xml" translate="name"/>
+					<page id="{40C67B82-FCF3-451B-8F4B-B9BC8C1BA507}" name="Step 2 Part 2" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="04_02_02_040.xml" translate="name"/>
+				</module>
+				<module id="{33FD69DD-3333-4AEC-B996-8953D21DE0A0}" name="Step 3" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+					<page id="{470B6C2E-CC09-4D42-A167-AC0727A70052}" name="Step 3 Part 1" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="04_02_02_050.xml" translate="name"/>
+					<page id="{27FBF071-9F20-4BE5-A85D-C862E71E5BB1}" name="Step 3 Part 2" template="{QV962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="04_02_02_060.xml" translate="name"/>
+				</module>
+				<module id="{43FD69DD-4444-4AEC-B996-8953D21DE0A0}" name="Step 4" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+					<page id="{A0A4E6D7-D6DA-4759-8B4C-C1C21BAED486}" name="Step 4 Part 1" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="04_02_02_070.xml" translate="name"/>
+					<page id="{F6863502-7176-4ECE-9714-408E63EA931E}" name="Step 4 Part 2" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="04_02_02_080.xml" translate="name"/>
+				</module>
+				<module id="{53FD69DD-5555-4AEC-B996-8953D21DE0A0}" name="Step 5" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+					<page id="{2703DB8A-DC32-465A-8425-ED23C6BFA699}" name="Step 5 Part 1" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="04_02_02_090.xml" translate="name"/>
+					<page id="{C57DDAB8-3BE7-4250-B7E1-50AE182E7659}" name="Step 5 Part 2" template="{CB17CCFB-FCF3-4F91-A598-1828EABDB2A2}" activity="templates_03.swf" content="04_02_02_100.xml" translate="name"/>
+				</module>
+			</module>
+			<module id="{BB329E2A-924C-4425-B88E-62E9BC437EA5}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{8C06F991-1F86-4C64-B4C0-BF6064270B83}" name="Using Emotion Coaching Techniques" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="04_02_03_010.xml" translate="name">
+					<subpage id="{D402E29E-F505-4002-AB8C-4E103FAD608E}" name="Knowledge Check" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="04_03_03_010a.xml" translate="name"/>
+				</page>
+			</module>
+		</module>
+		<module id="{4949EA26-EB92-4824-BED4-A9AEA01E1897}" name="What Parents Can Do" folder="topic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{03D252E0-D613-4F08-9823-FC4BE02FCFB3}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{59F50426-AC5A-4397-AD1A-EA2C1664A64D}" name="Parents and Emotion Coaching" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="04_03_01_010.xml" translate="name"/>
+			</module>
+			<module id="{79769C47-9B7A-40C8-A198-39178B4DACE5}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{29F30C74-AF30-4A20-B2BD-6FB3692A1978}" name="What to Say" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="04_03_02_010.xml" translate="name"/>
+				<page id="{9298389B-6F31-4278-A58A-E4EAA150A438}" name="When Emotion Coaching Is Not Recommended" template="{E922C8DE-F1FD-42F1-9DA0-929DD8A44EDA}" activity="templates_03.swf" content="04_03_02_020.xml" translate="name"/>
+			</module>
+			<module id="{C99E929E-51A7-44D0-97D4-5699F83AACC4}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{73988D6A-E88B-421C-BB7E-B3136FD8F0D7}" name="Applying Emotion Coaching" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="04_03_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<page id="{A6A5F703-59F3-4EE4-B5C6-3BD5472F7DBD}" name="Conclusion" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="04_020.xml" translate="name"/>
+	</module>
+	<module id="{18C850A3-6665-451E-8754-C8199FFF3489}" name="Praise" folder="module05" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+		<page id="{57355CC1-47F7-4F67-96D1-1DB03BB6CC63}" name="Introduction" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="05_010.xml" translate="name"/>
+		<module id="{36D99F03-F4A0-4338-88F3-AD6E3D787403}" name="What Is Praise?" folder="topic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{C4763634-BCC0-4683-A052-191700177720}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{C033AB0D-7880-4922-99B2-869B706F3AB9}" name="What Is Praise?" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="05_01_01_010.xml" translate="name"/>
+			</module>
+			<module id="{5EB664FB-8399-4787-854A-64A7A1921EBC}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{336A7C00-DBE7-435C-B819-7CCF5F9216B2}" name="Developmental Stages" template="{8A1BDC0F-88C8-3333-A5E2-A811F3B51C62}" activity="templates_03.swf" content="05_01_02_010.xml" translate="name"/>
+				<page id="{7C882FDB-A60E-4A01-B31D-000ECCBAACF6}" name="Types of Praise" template="{CB17CCFB-FCF3-4F91-A598-1828EABDB2A2}" activity="templates_03.swf" content="05_01_02_020.xml" translate="name"/>
+			</module>
+			<module id="{6DAE0845-B4AF-4E06-926B-2ECFD0BB7CD8}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{AA2DFAC2-AA63-47BF-9C21-2FF09073A893}" name="Matching Types of Praise" template="{F52A9CFE-16F1-4C25-9A8D-2D2638132062}" activity="templates_03.swf" content="05_01_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{74B8C12E-6165-4D5F-8113-3C5DEAFC0B62}" name="Why Praise Matters" folder="topic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{19C46BB0-782E-4FCF-8C44-65B8CE8D16CA}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{7DFC77FF-B1C4-42AD-9EC5-CABE13DBF39F}" name="Why Praise Matters" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="05_02_01_010.xml" translate="name"/>
+			</module>
+			<module id="{F6266860-B868-4E91-B9D5-C0C0DADC8EDA}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{49DB463B-931F-4187-9926-7A6169685944}" name="Research on Praise" template="{E922C8DE-F1FD-42F1-9DA0-929DD8A44EDA}" activity="templates_03.swf" content="05_02_02_010.xml" translate="name"/>
+			</module>
+			<module id="{4FFA0C8E-E958-4CCC-A1A2-81E7157CFADE}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{06027F48-705E-400D-AA83-A27F723F7324}" name="True or False" template="{2C8D68CB-CACE-1ZFD-1086-2E12135039A9}" activity="templates_03.swf" content="05_02_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{5BF46807-D3C2-4DAE-9FD6-B01944CDAC3F}" name="Appropriate Praise" folder="topic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{7126EAFB-CB71-4253-9E5F-42FAF7D624D8}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{5F09D8D6-0B5F-4EA5-AA6E-E5DAC7819D4C}" name="Appropriate Praise" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="05_03_01_010.xml" translate="name"/>
+			</module>
+			<module id="{4A85DF7C-4FD4-49BC-B9D2-084249926353}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{A63C9ED5-3836-46E4-888A-841C7C491A68}" name="Ineffective Praise" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="05_03_02_010.xml" translate="name"/>
+				<page id="{529B9AF3-44AB-4FC4-B210-AF0DEE5056B5}" name="Praise and Motivation" template="{1237A3FE-4C59-12F9-AACC-ACB0BE2950E5}" activity="templates_03.swf" content="05_03_02_020.xml" translate="name"/>
+				<page id="{7FB3E1BA-7D5B-4EFC-A520-394EC947C641}" name="Criticism and Feedback" template="{8A1BDC0F-88C8-3333-A5E2-A811F3B51C62}" activity="templates_03.swf" content="05_03_02_030.xml" translate="name"/>
+				<page id="{233EC010-66D7-4170-B9D5-B138F61ABC43}" name="Balancing Praise and Criticism" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="05_03_02_040.xml" translate="name"/>
+			</module>
+			<module id="{8CA6C566-A5EF-4CD9-B33F-0079801DFB5A}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{9D322D46-74F9-4C1E-9770-7A2EF1F0BA8D}" name="Effective or Ineffective Praise" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="05_03_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{285E5DA3-2631-47CC-A5C2-ED429A2762DB}" name="What Parents Can Do" folder="topic04" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{EE5AEC15-A171-4924-AF93-74C08D9248C1}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{2E23CEF6-6B18-4066-A84D-C32F9A893D85}" name="Parents and Praise" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="05_04_01_010.xml" translate="name"/>
+			</module>
+			<module id="{36C56763-D731-44FF-870B-053A5790C97B}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{23B38ADD-70F1-47E1-A187-6A4C0CF5E6CF}" name="What Parents Can Do" template="{532A975C-1F90-494A-A221-9385891C8452}" activity="templates_03.swf" content="05_04_02_010.xml" translate="name"/>
+			</module>
+			<module id="{829CFC1B-686C-4320-B244-0045DC5284A1}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{1928F742-5BC8-4F77-8205-BC172B77DC26}" name="Rating Praise" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="05_04_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<page id="{4E9BF073-B44F-46A5-8638-960F1C6127E4}" name="Conclusion" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="05_020.xml" translate="name"/>
+	</module>
+	<module id="{1E37F29F-25E3-401D-9AAD-5EA8A8F35331}" name="Discipline" folder="module06" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+		<page id="{E37829B3-16D7-417B-A9B3-58C7FA10B819}" name="Introduction" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="06_010.xml" translate="name"/>
+		<module id="{4B6329A1-7207-47C4-BE92-E77072EB4A3A}" name="What Is Discipline?" folder="topic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{6260D091-4F57-4581-B0A8-55AF6B847AD4}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{A6B54093-36E2-4500-8BE3-E9767843C510}" name="What Is Discipline?" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="06_01_01_010.xml" translate="name"/>
+			</module>
+			<module id="{BBA87CA2-FF07-49CD-8CCE-E978F8E1CE6D}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{B335AFB9-A5EB-41EF-8104-32EB00486CBE}" name="Why Discipline Matters" template="{BDA42C29-DAEE-4351-BC28-A324F8FA77B9}" activity="templates_03.swf" content="06_01_02_010.xml" translate="name"/>
+				<page id="{D578C4F9-BD05-4E8F-9227-52496A304C64}" name="Three Steps to Discipline" template="{8A1BDC0F-88C8-3333-A5E2-A811F3B51C62}" activity="templates_03.swf" content="06_01_02_020.xml" translate="name"/>
+			</module>
+			<module id="{1DC72C5E-9F09-4660-BE5E-483CC4F815E3}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{C2162709-5014-4871-B251-9CC37BDFC94A}" name="Setting Limits" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity=".\templates_03.swf" content="06_01_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{29EF13C7-A00D-4E4E-9208-360E04F20DFA}" name="Discipline Methods" folder="topic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{5791D928-276B-45D0-AD68-B44851D4518A}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{037540D6-B43F-41A9-A128-C3C2D1276497}" name="Discipline Methods" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="06_02_01_010.xml" translate="name"/>
+			</module>
+			<module id="{3BA1BE71-921A-4F7A-ADFC-320F2E387391}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{D45F96FC-3C41-49CC-9F09-BDDFEF41BD19}" name="Encouraging Good Behavior" template="{77B487C9-2B80-4E7E-8B99-5ECBF5A2B234}" activity="templates_03.swf" content="06_02_02_010.xml" translate="name"/>
+				<page id="{1B21A1B9-67BB-446C-A954-020AF6086C00}" name="Preventing Misbehavior" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="06_02_02_020.xml" translate="name"/>
+				<page id="{83941081-72F2-40C9-8776-415C0948AD1E}" name="Timeouts" template="{1C8B289A-4710-47C1-97FB-EDD71B245085}" activity="templates_03.swf" content="06_02_02_030.xml" translate="name"/>
+			</module>
+			<module id="{5C865222-9E99-4858-B605-81E7BC371F25}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{652ADE89-4563-4EEA-B7B4-AD54F8C795C2}" name="Scenario 1" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="06_02_03_010.xml" translate="name"/>
+				<page id="{CE4D61B3-91E6-4C1C-ACC9-8D91F177DC8D}" name="Scenario 2" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="06_02_03_020.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{42AB9027-F294-466B-B149-62DD29AD6AF7}" name="Ages and Stages" folder="topic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{9C8FD5C0-4193-4C50-B59B-A2507F587C64}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{F80FDC96-8642-4ED1-8761-A2ECB3BAAF92}" name="Ages and Stages" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="06_03_01_010.xml" translate="name"/>
+			</module>
+			<module id="{4B696B97-066F-4253-BFA9-E5ED9E8657BA}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{48EFDF77-3594-4F2F-8896-F9CDC2C2665A}" name="Infants, Toddlers, and Preschoolers" template="{CB17CCFB-FCF3-4F91-A598-1828EABDB2A2}" activity="templates_03.swf" content="06_03_02_010.xml" translate="name"/>
+			</module>
+			<module id="{D47BECBB-3AD9-4E38-B06A-913E885DAAD4}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{9F84D359-7809-4CB8-9CC6-2215A763BF93}" name="Applying Discipline Methods" template="{5F6C1346-E715-4C9A-9DCD-9C5510DF5098}" activity="templates_03.swf" content="06_03_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<module id="{6CE87A45-07BE-4F67-B298-A323BD3B13CB}" name="What Parents Can Do" folder="topic04" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{B2BFC065-0343-4ACA-965F-700CA152115C}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{3CC627FB-3EDE-46F2-B929-6796FB4C1FDF}" name="Parents and Discipline" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="06_04_01_010.xml" translate="name"/>
+			</module>
+			<module id="{9EED9E50-8D4B-4C15-B2B9-9DCE3CA85C22}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{D44B5949-F42A-432D-81C9-808D164669C0}" name="Tips for Parents" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="06_04_02_010-2.xml" translate="name"/>
+				<page id="{22F3E89C-DB7B-4006-A02B-9DF4021263C8}" name="Question Activity" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="06_04_02_020.xml" translate="name"/>
+			</module>
+			<module id="{A0C9E95C-C417-49E4-87B8-2D34659F1D7C}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{05C1F275-3684-44A0-AECA-6CA01C9D2BC6}" name="Discipline Card Deck" template="{2C8D68CB-CACE-1ZFD-1086-2E12135039A9}" activity="templates_03.swf" content="06_04_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<page id="{D60CFC65-D08B-4DFD-99E9-245E15F1F228}" name="Conclusion" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="06_020.xml" translate="name"/>
+	</module>
+	<module id="{D8254D19-7A63-47B9-B483-F1EF51DCC8FE}" name="Temper Tantrums" folder="module07" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+		<page id="{FE464864-6D47-4626-8FA9-7D08D8BED479}" name="Introduction" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="07_010.xml" translate="name"/>
+		<module id="{FA400DDC-D4F3-4495-93EA-900593B6AB67}" name="What Is a Temper Tantrum?" folder="topic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{E0D5E2BF-C61C-4925-A7BA-3341DC3C4A7C}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{94D70E34-6C6F-42B9-9E20-992D9B508E75}" name="What Is a Temper Tantrum?" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="07_01_01_010.xml" translate="name"/>
+			</module>
+			<module id="{F8C52B42-08CA-44A0-83AD-B246737160B4}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{3B5318AC-6FE4-4725-BD11-2002747A3E57}" name="Tantrums and Brain Development" template="{E922C8DE-F1FD-42F1-9DA0-929DD8A44EDA}" activity="templates_03.swf" content="07_01_02_020.xml" translate="name"/>
+				<page id="{F6554F39-1532-4147-A2B5-103411DF3635}" name="Why Children Have Tantrums" template="{BDA42C29-DAEE-4351-BC28-A324F8FA77B9}" activity="templates_03.swf" content="07_01_02_010.xml" translate="name"/>
+			</module>
+			<module id="{81E63343-12F6-4632-B46F-E723A90CEA5D}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{7B4CC540-8C3C-42B1-9779-CD7A10B06B8B}" name="Tantrums Happen" template="{BA3FA8EB-6086-4FA1-82ED-CEF8992D3A3E}" activity="templates_03.swf" content="07_01_03_010.xml" translate="name">
+					<subpage id="{A70C88DA-622B-437E-A001-E5F6DE795EE9}" name="Knowledge Check" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="04_03_03_010a.xml" translate="name"/>
+				</page>
+			</module>
+		</module>
+		<module id="{8FC554DB-29A1-43BD-A984-4B2AFED36EAA}" name="What Parents Can Do" folder="topic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+			<module id="{5DD13F71-977B-47FA-B080-429D1FB5FA8F}" name="Introduction" folder="subtopic01" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{241DA359-C8CB-484D-B6EB-A9DD382EABC5}" name="Why Teach Parents about Tantrums?" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="07_03_01_005.xml" translate="name"/>
+			</module>
+			<module id="{C1F92703-9B39-4CAE-B0E5-8660254CA8E1}" name="Lessons" folder="subtopic02" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{23A99330-4DE3-44A7-8CC7-D5E4FA83DBB8}" name="Preventing Tantrums" template="{532A975C-1F90-494A-A221-9385891C8452}" activity="templates_03.swf" content="07_02_02_005.xml" translate="name"/>
+				<page id="{4C042AA6-D79E-4EF3-A562-9FAB8F2BA658}" name="Managing a Tantrum" template="{E922C8DE-F1FD-42F1-9DA0-929DD8A44EDA}" activity="templates_03.swf" content="07_03_02_010.xml" translate="name"/>
+			</module>
+			<module id="{B25F286A-AB75-4A4B-9B31-2AF013E1CC9F}" name="Activity" folder="subtopic03" template="{453B5794-BA79-471a-A090-9E456D109968}" translate="name">
+				<page id="{A2DEF175-478E-4845-87B1-074E6D13F5D6}" name="Knowledge Check" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="07_03_03_020.xml" translate="name"/>
+				<page id="{80AC43F6-FD31-4E93-95AE-F43ACFA18F68}" name="Scenario" template="{E1B106C2-668F-4A64-806B-D054945FEE64}" activity="templates_03.swf" content="07_03_03_010.xml" translate="name"/>
+			</module>
+		</module>
+		<page id="{68AC19BA-1B20-4E9F-B147-E18916C91F17}" name="Conclusion" template="{BE962D09-4231-440D-908A-DBC03FF56166}" activity="templates_03.swf" content="07_04_010.xml" translate="name"/>
+	</module>
+</course>

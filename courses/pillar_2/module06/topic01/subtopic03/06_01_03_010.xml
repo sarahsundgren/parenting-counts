@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.1" class="template_listswap" view="view_listswap_graphics">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="true"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="ON_ALL_LINKS_VISITED"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="7" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Setting Limits</content>
+	</text>
+	<text id="nav_text" x="180" y="425" width="590" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">&lt;P ALIGN="RIGHT"&gt;Click a &lt;B&gt;Lesson, &lt;/B&gt;or click a&lt;B&gt; &lt;/B&gt;new&lt;B&gt; Topic&lt;/B&gt;.&lt;/P&gt;&lt;P ALIGN="RIGHT"&gt;&lt;/P&gt;</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="37" width="740" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Setting limits with children can be difficult, but it is necessary. Parents who set limits pay attention to their child's feelings, let their child know why there is a limit, and then help them succeed at following the limit.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="561" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Read each situation and possible response, then click &lt;B&gt;Yes&lt;/B&gt; or &lt;B&gt;No&lt;/B&gt;.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="570" y="104" width="196" height="306" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" bytes="85103" duration="249" startpos="1">a_06_01_03_010_01.swf</file>
+			<transcript translate="true">Setting limits with children can be difficult, but necessary. Parents who set limits pay attention to their child's feelings, let their child know why there is a limit, and then help them succeed at following the limit. Read each situation and possible response. Decide whether or not the parent chose the best response, then click Yes or No.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true"/>
+	<section id="swap_text" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<text id="swap_text01" x="575" y="110" width="198" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Correct! The parent needs to let the child know that her actions are not appropriate. The parent can then give her child another chance to change her actions.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;If the child continues to throw her food, the parent can take the food away until the child is ready to follow the rules.&lt;/P&gt;</content>
+		</text>
+		<text id="swap_text02" x="" y="" width="195" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Try again.</content>
+		</text>
+		<text id="swap_text03" x="584" y="112" width="183" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Try again.</content>
+		</text>
+		<text id="swap_text04" x="" y="" width="187" height="" autosize="H" style="REFERENCE" visible="false" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Correct! The parent knows that setting these limits keeps the child safe even if the child doesn't like the idea of sitting in his car seat.</content>
+		</text>
+	</section>
+	<section id="question01" align="" spacing="0" autospace="false" columns="0" expanded="true" controls="true">
+		<graphic id="box01" x="25" y="105" width="529" height="141" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+		</graphic>
+		<text id="q01_text" x="40" y="120" width="395" height="" autosize="H" style="REFERENCE" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Situation: &lt;/B&gt;A 2 1/2-year-old is sitting at the table and begins to throw food on the floor.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Possible Response:&lt;/B&gt; The parent laughs at her child's actions then cleans the food off of the floor.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Is this the best response?&lt;/P&gt;</content>
+		</text>
+		<graphic id="q01_answer01" x="450" y="116" width="" height="" style="TOGGLE_BTN" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file play="false" bytes="6039" startpos="1" duration="23">btn_yes.swf</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="RADIOCLICK" result="SHOW" target="swap_text03" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link01" x="450" y="184" width="" height="" style="TOGGLE_BTN" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" name="q01_answer02">
+			<file play="false" bytes="5839" startpos="1" duration="23">btn_no.swf</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="question02" align="" spacing="0" autospace="false" columns="0" expanded="true" controls="true">
+		<graphic id="box02" x="25" y="267" width="529" height="141" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+		</graphic>
+		<text id="q02_text" x="40" y="280" width="411" height="" autosize="H" style="REFERENCE" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Situation:&lt;/B&gt; A 4-year-old won't sit in his car seat in the car.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Possible Response:&lt;/B&gt; The parent validates his child's feelings, then calmly tells the child that the car seat keeps him safe and he has to use it to ride in the car. The parent then asks the child if he would like to put his own seat belt on or if he'd like some help.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Is this the best response?&lt;/P&gt;</content>
+		</text>
+		<graphic id="q02_answer01" x="450" y="276" width="" height="" style="TOGGLE_BTN" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE">
+			<file play="false" bytes="6039" startpos="1" duration="23">btn_yes.swf</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+			<eventlist>
+				<event type="RADIOCLICK" result="SHOW" target="swap_text04" result_param=""/>
+				<event type="CLICK" result="CONTENT_COMPLETE" target="" result_param=""/>
+			</eventlist>
+		</graphic>
+		<graphic id="link02" x="450" y="342" width="" height="" style="TOGGLE_BTN" visible="true" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" name="q02_answer02">
+			<file play="false" bytes="5839" startpos="1" duration="23">btn_no.swf</file>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+</template>

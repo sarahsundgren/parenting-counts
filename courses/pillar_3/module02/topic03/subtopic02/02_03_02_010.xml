@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_slider" view="view_hslider_links">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="useControls" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Tips for Parents</content>
+	</text>
+	<text id="nav_text" x="325" y="425" width="450" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Parents Can Do&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="51" width="700" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">Children watch, listen, and learn from their parents, caregivers, and environment, imitating both good and bad behavior. Parents help their children learn good behaviors by modeling good behaviors.</content>
+		</text>
+		<text id="directions" x="25" y="77" width="700" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click the &lt;B&gt;links &lt;/B&gt;in the timeline below to see ways that caregivers can help children learn through imitation.</content>
+		</text>
+	</section>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="-3" y="315" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" placeholder="true"></file>
+			<notes id="description">general timeline image with infant on left side and preschooler on right side</notes>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" bytes="85207" startpos="1" duration="249">a_02_03_02_010_00.swf</file>
+			<transcript translate="true">Children are in constant observation of their world. They watch, listen, and learn from their parents, caregivers, and environment, imitating both good and bad behavior. Parents help their children learn good behaviors by modeling good behaviors. Click the links in the timeline below to see ways that caregivers can help children learn through imitation.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="dev_assets" expanded="true">
+		<area id="panel_mask" behavior="" x="5" y="154" width="768" height="232" visible="false" fx=""/>
+	</section>
+	<section id="buttons" align="TOP" spacing="0" autospace="false" exclusive="false" expanded="true">
+		<container id="forward_button" behavior="STRICT|LOCK_SIZE" x="916" y="228" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="false">
+				<file play="false" bytes="1755" startpos="1" duration="30">mc_slider_next.swf</file>
+			</graphic>
+			<text id="text" x="0" y="0" width="1" height="1" autosize="" style="CONTROLS" visible="false">
+				<content/>
+			</text>
+		</container>
+		<container id="reverse_button" behavior="STRICT|LOCK_SIZE" x="20" y="225" visible="false" fx="CONTROLS_SHOW" hidefx="CONTROLS_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="CONTROLS" visible="false">
+				<file play="false" bytes="1810" startpos="1" duration="30">mc_slider_back.swf</file>
+			</graphic>
+			<text id="text" x="0" y="0" width="1" height="1" autosize="" style="CONTROLS" visible="false">
+				<content/>
+			</text>
+		</container>
+	</section>
+	<section id="panels" expanded="true">
+		<container id="panel01" behavior="LOCK_SIZE" x="25" y="160" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="724" height="220" style="PANEL" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="DEFAULT" visible="true" fx="">
+				<notes id="description">two sisters playing: istock 8979658</notes>
+				<file startpos="1" play="false" bytes="139567">02_03_02_010_01.jpg</file>
+			</graphic>
+			<text id="header" x="320" y="55" width="225" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content/>
+			</text>
+			<text id="text" x="320" y="80" width="270" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content/>
+			</text>
+		</container>
+		<container id="panel02" behavior="LOCK_SIZE" x="499.8" y="209.3" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="724" height="219" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="56269" startpos="1">02_03_02_010_02.jpg</file>
+				<notes id="description">BringBabyHomeDSC_6515 from Imitation folder in Learning &amp; Cognition</notes>
+			</graphic>
+			<text id="header" x="275" y="5" width="225" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Infants</content>
+			</text>
+			<text id="text" x="275" y="30" width="435" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">Imitation begins in the first few hours of life.&lt;LI&gt;Use repetitive and slow movements.&lt;/LI&gt;&lt;LI&gt;Make faces at an infant for them to mirror. Babies as young as two days old will often stick their tongue out at a parent doing the same.&lt;/LI&gt;&lt;LI&gt;Vocalize vowel sounds for 1- to 3-month-olds to give them the sounds that form the basis for learning language.&lt;/LI&gt;&lt;LI&gt;Repeat the sounds infants make at about 5 months.&lt;/LI&gt;&lt;LI&gt;Sing with hand gestures.&lt;/LI&gt;&lt;LI&gt;Read to children slowly so they can learn more sounds.&lt;/LI&gt;</content>
+			</text>
+			<graphic id="ref_icon02" x="682" y="98" width="" height="" style="LINK_SWF" visible="true" fx=""/>
+		</container>
+		<container id="panel03" behavior="LOCK_SIZE" x="472.55" y="243.2" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="724" height="219" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="90634" startpos="1">02_03_02_010_03.jpg</file>
+				<notes id="description">girl putting on shoes: istock 818919</notes>
+			</graphic>
+			<text id="header" x="275" y="5" width="300" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Toddlers</content>
+			</text>
+			<text id="text" x="275" y="30" width="425" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">Toddlers learn by doing, not just watching.&lt;LI&gt;Show children how caregivers put on their shoes and ask them to put on theirs.&lt;/LI&gt;&lt;LI&gt;Tell children how parents hold their spoon or fork and let them try.&lt;/LI&gt;&lt;LI&gt;Try physical activities, such as jumping, hopping, skipping, and crawling.&lt;/LI&gt;&lt;LI&gt;Engage children in daily household tasks, such as setting the table, folding laundry, and putting away toys. Toddlers love to imitate their parents and help.&lt;/LI&gt;</content>
+			</text>
+			<graphic id="ref_icon03" x="613" y="112" width="" height="" style="LINK_SWF" visible="true" fx=""/>
+		</container>
+		<container id="panel04" behavior="LOCK_SIZE" x="390.05" y="252.5" visible="true" fx="PANEL_SHOW" hidefx="PANEL_HIDE" style="">
+			<graphic id="background" behavior="LOCK_XY" x="0" y="0" width="724" height="219" style="PANEL_SHAPE_WHITE" visible="true" fx="">
+				<file play="false" bytes="54" startpos="1">clear.gif</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="DEFAULT" visible="true" fx="">
+				<file play="false" bytes="72532" startpos="1">02_03_02_010_04.jpg</file>
+				<notes id="description">boy climbing on playground: istock 3151811</notes>
+			</graphic>
+			<text id="header" x="275" y="5" width="225" height="" autosize="H" style="PANEL_HEADER" visible="true" fx="">
+				<content translate="true">Preschoolers</content>
+			</text>
+			<text id="text" x="275" y="30" width="425" height="" autosize="H" style="PANEL" visible="true" fx="">
+				<content translate="true">Preschoolers learn essential life and academic skills through imitation.&lt;LI&gt;Model the desired behavior, such as reading, saying please and thank you, and treating others with kindness.&lt;/LI&gt;&lt;LI&gt;Make rules match expectations. If parents eat in the living room, they cannot expect that their child won't want to do the same.&lt;/LI&gt;&lt;LI&gt;Explain that the context of what works in one scenario might not work in another and why.&lt;/LI&gt;&lt;LI&gt;Discuss why a behavior was wrong and what should have been done or said if the child observes the parent doing something they shouldn't have.&lt;/LI&gt;</content>
+			</text>
+			<graphic id="ref_icon04" x="412" y="142" width="" height="" style="LINK_SWF" visible="true" fx=""/>
+		</container>
+	</section>
+	<section id="panel_shortcuts" align="TOP" spacing="80x0" autospace="true" columns="0" expanded="true">
+		<graphic id="link01" x="312" y="124" width="" height="" style="LINK_SWF" visible="false" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link02" x="100" y="360" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link03" x="300" y="360" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+		<graphic id="link04" x="500" y="360" width="" height="" style="LINK_SWF" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<file play="false" bytes="2896" startpos="1" duration="40">button_slide_link.swf</file>
+		</graphic>
+	</section>
+	<section id="swap_audio" expanded="true"/>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="446" y="123" width="75" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Infants</content>
+		</text>
+		<text id="misc_text02" x="552" y="123" width="75" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Toddlers</content>
+		</text>
+		<text id="misc_text03" x="657" y="123" width="100" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Preschoolers</content>
+		</text>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="9" y="420" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="1" y="235" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="40" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Parents should be careful what they do and say around their children since their children may do or say the same thing. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Words that affirm children's feelings, label emotions, and are compassionate in nature help children build positive emotional connections to the situation. Words that criticize or observations of conflict, sadness, anger, and distress build negative emotional associations.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

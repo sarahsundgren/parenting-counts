@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="-50" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Conclusion</content>
+	</text>
+	<text id="nav_text" x="225" y="425" width="550" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">To continue, click another &lt;B&gt;Module &lt;/B&gt;from the top menu&lt;B&gt;.&lt;/B&gt;</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="-50" y="50" width="373" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Congratulations! You have completed the Physical and Brain Development Overview. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;In this module, you learned more about:&lt;/P&gt;&lt;LI&gt;Basic brain development&lt;/LI&gt;&lt;LI&gt;Early physical milestones&lt;/LI&gt;&lt;LI&gt;Ways to support early brain development&lt;/LI&gt;</content>
+		</text>
+		<text id="text02" x="-50" y="170" width="330" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;Teaching Tips:&lt;/P&gt;&lt;LI&gt;Parents can feel overwhelmed because brain development is a complex process that relates to every aspect of a child’s development.&lt;/LI&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;LI&gt;Parents can support brain growth through day-to-day activities they do with their child such as reading, playing, and talking.&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="-50" y="50" width="377" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">In the modules that follow, we will discuss temperament, self-regulation, and stress.</content>
+		</text>
+		<text id="text04" x="-50" y="95" width="358" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;&lt;B&gt;Temperament:&lt;/B&gt; a child's reactivity and responsiveness to the world around him&lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="-50" y="140" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;&lt;B&gt;Self-Regulation&lt;/B&gt;: a child's ability to manage emotions, desires, and impulses&lt;/LI&gt;</content>
+		</text>
+		<text id="text06" x="-50" y="180" width="371" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;LI&gt;&lt;B&gt;Stress:&lt;/B&gt; plays a part to differing degrees in every child's life&lt;/LI&gt;</content>
+		</text>
+		<text id="text07" x="-50" y="225" width="371" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">As you will see, temperament, self-regulation, and stress affect and are also affected by brain development. </content>
+		</text>
+		<text id="text08" x="-50" y="265" width="371" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Before you leave this overview module, consider reviewing the Pillar 1 Goals. These goals can be found by clicking the &lt;B&gt;Professional Icon&lt;/B&gt;. </content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="misc_graphic01" x="370" y="50" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="72256">01_020_01.jpg</file>
+			<notes id="description">Picture of the brain</notes>
+		</graphic>
+		<graphic id="graphic02" x="370" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="194392" play="false" startpos="1">01_020_02.png</file>
+			<notes id="description">Pictures of children playing</notes>
+		</graphic>
+		<graphic id="graphic03" x="370" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="138434" play="false" startpos="1">01_020_03.jpg</file>
+			<notes id="description">Picture of parent with playing with infant</notes>
+		</graphic>
+		<graphic id="graphic04" x="632" y="68" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" placeholder="true"/>
+			<notes id="description">Rectangle piece- point 3</notes>
+		</graphic>
+		<graphic id="graphic05" x="632" y="160" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" placeholder="true"/>
+			<notes id="description">Rectangle piece- Point 4</notes>
+		</graphic>
+		<graphic id="graphic06" x="632" y="252" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" startpos="1" placeholder="true"/>
+			<notes id="description">Rectangle piece- point 5</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" bytes="54707" duration="160" startpos="1">a_01_020_01.swf</file>
+			<transcript translate="true">Congratulations! You have completed the Physical and Brain Development Overview. In this module, you learned more about basic brain development, early physical milestones, and ways to support early brain development. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" bytes="103199" duration="301" startpos="1">a_01_020_06.swf</file>
+			<transcript translate="true">When teaching parents about brain development, please keep in mind that parents can feel overwhelmed as it is a complex process that relates to every aspect of a child's development. The way parents can support brain growth is through day-to-day activities they do with their child such as reading, playing, and talking. While parents may not feel like they are stimulating brain development during these experiences, remind them that they are! </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" duration="74" bytes="25179" startpos="1">a_01_020_02.swf</file>
+			<transcript translate="true">In the modules that follow, we will discuss temperament, self-regulation, and stress.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="SHOW" target="ref_icon01" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration04">
+			<file play="false" duration="159" bytes="54175" startpos="1">a_01_020_03.swf</file>
+			<transcript translate="true">Temperament refers to a child's reactivity and responsiveness to the world around him. It is influenced by both genetic and hereditary traits as well as early experiences, surroundings, and relationships.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" duration="170" bytes="58155" startpos="1">a_01_020_04.swf</file>
+			<transcript translate="true">Self-regulation discusses a child's ability to manage his emotions, desires, and impulses. Self-regulation is of particular importance because it is inextricably linked to a child's overall success in school and beyond.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration06">
+			<file play="false" duration="264" bytes="90379" startpos="1">a_01_020_05.swf</file>
+			<transcript translate="true">Finally, stress is another important component in development; it plays a part to differing degrees in every child's life. Successfully coping with stressors for a lifetime depends on early experiences of being protected, supported, and cared for. At the other end of the spectrum, extreme stress without proper support can negatively impact brain development. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration07">
+			<file play="false" duration="88" bytes="29819" startpos="1">a_01_020_07.swf</file>
+			<transcript translate="true">As you will see, temperament, self-regulation, and stress affect and are also affected by brain development.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration08">
+			<file play="false" duration="134" bytes="45867" startpos="1">a_01_020_08.swf</file>
+			<transcript translate="true">Before you leave this overview module, consider reviewing the Pillar 1 Goals. These goals can be found by clicking the Professional Icon. To continue, click another Module.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="-95" y="440" width="50" height="50" style="LINK_SWF" visible="false" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="3393" play="false" startpos="1">icon_pro.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="-95" y="245" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text01" x="20" y="40" width="390" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;Goals of Pillar 1:&lt;/P&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Understand the physical development milestones children experience.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Describe the key research findings of brain development and learning for children.&lt;/P&gt;&lt;/TEXTFORMAT&gt;&lt;TEXTFORMAT BLOCKINDENT="32"&gt;&lt;P ALIGN="LEFT"&gt;Provide parenting strategies and tips to help support healthy physical and brain development for children. &lt;/P&gt;&lt;/TEXTFORMAT&gt;</content>
+			</text>
+			<text id="misc_text02" x="35" y="55" width="425" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;1. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;2.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;3.&lt;/P&gt;</content>
+			</text>
+		</container>
+	</section>
+</template>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_multiplechoice" view="view_multiplechoice">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="showAnswerMarks" datatype="LIST" value="DEFAULT"/>
+		<settings id="markAnswers" datatype="LIST" value="DEFAULT"/>
+		<settings id="markFinalAnswers" datatype="LIST" value="DEFAULT"/>
+		<settings id="submitBtn" datatype="LIST" value="DEFAULT"/>
+		<settings id="enableSubmit" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Troy's Temperament</content>
+	</text>
+	<text id="nav_text" x="185" y="425" width="588" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity,&lt;/B&gt; or click a new &lt;B&gt;Topic&lt;/B&gt;.</content>
+	</text>
+	<section id="question_text" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<text id="question" x="25" y="50" width="730" height="" autosize="H" style="DEFAULT" visible="true" fx="QUESTION_SHOW" hidefx="QUESTION_HIDE">
+			<content translate="true">Let's review what we've learned about the characteristics of temperament.</content>
+		</text>
+		<text id="directions" x="25" y="133" width="730" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Evaluate each characteristic and click the corresponding &lt;B&gt;description&lt;/B&gt;. Then click&lt;B&gt; Submit&lt;/B&gt;. </content>
+		</text>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="25" y="167" width="734" height="245" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="82" duration="1">clear.swf</file>
+		</graphic>
+	</section>
+	<section id="question_media" expanded="true">
+		<audio id="narration">
+			<file play="true" bytes="43819" startpos="1" duration="128">a_02_02_03_010_01.swf</file>
+			<transcript translate="true">Let's review what we've learned about the characteristics of temperament. Listen to the following example then decide which characteristic description corresponds with Troy's temperament. Troy's parent says:</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="misc_audio01" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="options" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<container id="option01" behavior="STRICT|LOCK_SIZE" x="140" y="192" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="202" height="38" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="3" y="9" width="162" height="" autosize="H" style="OPTION" visible="true">
+				<content translate="true">Able to sit still</content>
+			</text>
+		</container>
+		<container id="option02" behavior="STRICT|LOCK_SIZE" x="364" y="192" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="202" height="38" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="3" y="9" width="162" height="" autosize="H" style="OPTION" visible="true">
+				<content translate="true">Always on the move</content>
+			</text>
+		</container>
+		<container id="option03" behavior="STRICT|LOCK_SIZE" x="140" y="247" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="202" height="38" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="3" y="9" width="162" height="" autosize="H" style="OPTION" visible="true">
+				<content translate="true">Predictable</content>
+			</text>
+		</container>
+		<container id="option04" behavior="STRICT|LOCK_SIZE" x="364" y="247" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="202" height="38" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="3" y="9" width="162" height="" autosize="H" style="OPTION" visible="true">
+				<content translate="true">Unpredictable</content>
+			</text>
+		</container>
+		<container id="option05" behavior="STRICT|LOCK_SIZE" x="140" y="302" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="202" height="38" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="3" y="9" width="162" height="" autosize="H" style="OPTION" visible="true">
+				<content translate="true">Dives into new situations</content>
+			</text>
+		</container>
+		<container id="option06" behavior="STRICT|LOCK_SIZE" x="364" y="302" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="202" height="38" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="3" y="9" width="162" height="" autosize="H" style="OPTION" visible="true">
+				<content translate="true">Is shy and cautious</content>
+			</text>
+		</container>
+		<container id="option07" behavior="STRICT|LOCK_SIZE" x="140" y="357" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="202" height="38" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="3" y="9" width="162" height="" autosize="H" style="OPTION" visible="true">
+				<content translate="true">Loud and dramatic</content>
+			</text>
+		</container>
+		<container id="option08" behavior="STRICT|LOCK_SIZE" x="364" y="357" visible="true" fx="OPTIONS_SHOW" hidefx="OPTIONS_HIDE" style="">
+			<graphic id="button" x="0" y="0" width="202" height="38" style="OPTION" visible="true" advscale="9">
+				<file bytes="4024" play="false" startpos="1" duration="20">placeholder_mcoption.swf</file>
+			</graphic>
+			<graphic id="graphic" x="0" y="0" width="" height="" style="OPTION_GRAPHIC" visible="true">
+				<file play="false" startpos="1"/>
+			</graphic>
+			<text id="text" x="3" y="9" width="162" height="" autosize="H" style="OPTION" visible="true">
+				<content translate="true">Quiet and subdued</content>
+			</text>
+		</container>
+	</section>
+	<section id="buttons" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<container id="submit" behavior="STRICT|LOCK_SIZE" x="608" y="366" visible="false" fx="SUBMIT_SHOW" hidefx="SUBMIT_HIDE" style="">
+			<graphic id="button" behavior="LOCK_XY" x="0" y="0" width="" height="" style="SUBMIT" visible="true">
+				<file play="false" startpos="1" bytes="2583" duration="35">std_control.swf</file>
+			</graphic>
+			<text id="text" x="8" y="8" width="101" height="18" autosize="" style="CONTROLS" visible="true">
+				<content translate="true">Submit</content>
+			</text>
+			<eventlist>
+				<event type="CLICK" result="VISUAL_FX" target="initial_graphic" result_param="HIDE"/>
+			</eventlist>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;Temperament Card Deck&lt;/P&gt;</notes>
+		</container>
+	</section>
+	<answeranalysis id="answer_analysis" type="MULTIPLE_ANSWER" max_attempts="1">
+		<answer id="correct" correct="true" attempt="ANY" comparison="option02,option04,option05,option07">
+			<feedback>
+				<text id="feedback" x="585" y="190" width="173" height="" autosize="H" style="CORRECT_FEEDBACK2" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content translate="true">&lt;P ALIGN="LEFT"&gt;Correct! Once parents understand their child's temperament, they are in a better position to understand their child.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Although this example was an extreme case, keep in mind that characteristics of temperament extend from low to high with many children falling between the two extremes.&lt;/P&gt;</content>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+					<notes id="mentor-character">Narrator:</notes>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect1" correct="false" attempt="1" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="585" y="190" width="173" height="" autosize="H" style="INCORRECT_FEEDBACK2" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content translate="true">&lt;P ALIGN="LEFT"&gt;Not quite. Once parents understand their child's temperament, they are in a better position to understand their child.&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Although this example was an extreme case, keep in mind that characteristics of temperament extend from low to high with many children falling between the two extremes.&lt;/P&gt;</content>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+					<notes id="mentor-character">Narrator:</notes>
+				</audio>
+			</feedback>
+		</answer>
+		<answer id="incorrect2" correct="false" attempt="ANY" comparison="UNEXPECTED">
+			<feedback>
+				<text id="feedback" x="25" y="376" width="550" height="" autosize="H" style="DEFAULT" visible="true" fx="FEEDBACK_SHOW" hidefx="FEEDBACK_HIDE">
+					<content/>
+				</text>
+				<audio id="feedback_audio">
+					<file play="true" startpos="1"/>
+					<transcript/>
+				</audio>
+			</feedback>
+		</answer>
+	</answeranalysis>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="423" y="160" width="34" height="" autosize="H" style="DEFAULT" visible="true" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text02" x="482" y="160" width="37" height="" autosize="H" style="DEFAULT" visible="true" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+		<text id="misc_text03" x="25" y="76" width="711" height="" autosize="H" style="DEFAULT" visible="true" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Example:&lt;/B&gt; &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Troy's Parent: "He's way too intense! Every night bedtime is a 2-hour battle. He's always so excited to go on family outings, but then he ruins them; he runs around, then has a tantrum when we try to get him to settle down."&lt;/P&gt;</content>
+		</text>
+		<text id="misc_text04" x="40" y="357" width="69" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Intensity:&lt;/B&gt; </content>
+		</text>
+		<text id="misc_text05" x="40" y="302" width="84" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Approach/Withdrawal:&lt;/B&gt; </content>
+		</text>
+		<text id="misc_text06" x="40" y="247" width="92" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Rhythmicity&lt;/B&gt;: </content>
+		</text>
+		<text id="misc_text07" x="40" y="192" width="68" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Activity:&lt;/B&gt;</content>
+		</text>
+		<text id="misc_text08" x="0" y="0" width="350" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content/>
+		</text>
+	</section>
+	<section id="miscellaneous_audio" expanded="true">
+		<audio id="misc_audio01">
+			<file play="false" startpos="1" bytes="54383" duration="159">a_02_02_03_010_02.swf</file>
+			<transcript translate="true">"He's way too intense! Every night bedtime is a 2-hour battle. He's always so excited to go on family outings but then he ruins them; he runs around, then has a tantrum when we try to get him to settle down." </transcript>
+			<notes id="mentor-character">Caregiver:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="PLAY" target="misc_audio02" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="misc_audio02">
+			<file play="false" startpos="1" bytes="29275" duration="86">a_02_02_03_010_03.swf</file>
+			<transcript translate="true">Based on Troy's temperament, evaluate each characteristic and click the corresponding description. Then click submit. </transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYBACK_COMPLETE" result="SHOW" target="nav_text" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+</template>

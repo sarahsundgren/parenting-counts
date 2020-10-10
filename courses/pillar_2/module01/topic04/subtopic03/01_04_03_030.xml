@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_expand">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="TRUE"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+		<settings id="offsetXY" datatype="STRING" value="0,-15"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Setting Goals</content>
+	</text>
+	<text id="nav_text" x="35" y="425" width="735" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Parents Can Do&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="722" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">One way professionals can help parents and caregivers is by setting goals with them. These goals need to be simple, measureable, and based on solid parenting principles. </content>
+		</text>
+		<text id="directions" x="25" y="77" width="699" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each&lt;B&gt; parenting principle&lt;/B&gt; to see some examples of possible goals you could set with the Johnson family.</content>
+		</text>
+	</section>
+	<text id="description" x="482" y="119" width="343" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+		<content/>
+	</text>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="25" y="125" width="289" height="281" style="SHADING" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			<notes id="description">Helpful Parenting TipsTalaris Play Photos file (mom and dad playing with an infant on a blanket)</notes>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" startpos="1" bytes="91235" duration="266">a_01_03_03_021_01.swf</file>
+			<transcript translate="true">One way professionals can help parents and caregivers is by setting goals with them. These goals need to be simple, measureable, and based on solid parenting principles. Let's explore a situation and identify principles for which goals can then be set. Click each parenting principle to see some examples of possible goals you could set with the Johnson family.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="expand_content" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="expand01" behavior="" x="349" y="134" visible="false" fx="EXPAND_SHOW" hidefx="EXPAND_HIDE" style="">
+			<graphic id="graphic" x="0" y="0" width="399" height="107" style="EXPAND_SHAPE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<text id="text" x="5" y="20" width="403" height="84" autosize="" style="EXPAND" visible="true" fx="">
+				<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Goal: &lt;/B&gt;Focus on enforcing one specific rule all week. For example, if the goal for the children is to watch no more than two hours of TV all week, then they should stick to that goal. Encourage Mr. and Mrs. Johnson to help their children comply with the rule and then acknowledge their children's effort. &lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+			</text>
+		</container>
+		<container id="expand02" behavior="" x="349" y="168" visible="false" fx="EXPAND_SHOW" hidefx="EXPAND_HIDE" style="">
+			<graphic id="graphic" x="0" y="0" width="399" height="78" style="EXPAND_SHAPE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<text id="text" x="5" y="20" width="389" height="" autosize="H" style="EXPAND" visible="true" fx="">
+				<content translate="true">&lt;B&gt;Goal:&lt;/B&gt; Help Mrs. Johnson find ways to interact with her children that are part of everyday tasks, such as folding laundry, taking out the garbage, or preparing meals.</content>
+			</text>
+		</container>
+		<container id="expand03" behavior="" x="349" y="202" visible="false" fx="EXPAND_SHOW" hidefx="EXPAND_HIDE" style="">
+			<graphic id="graphic" x="0" y="0" width="399" height="108" style="EXPAND_SHAPE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<text id="text" x="5" y="17" width="400" height="85" autosize="" style="EXPAND" visible="true" fx="">
+				<content translate="true">&lt;B&gt;Goal:&lt;/B&gt; Remind Mrs. Johnson that even when she is feeling stressed and uncertain, that she should try her best to comfort her children and help them with their simple problems. The children need this consistency to maintain a trusting relationship and feel that their world is still stable.</content>
+			</text>
+		</container>
+		<container id="expand04" behavior="" x="349" y="236" visible="false" fx="EXPAND_SHOW" hidefx="EXPAND_HIDE" style="">
+			<graphic id="graphic" x="0" y="0" width="399" height="130" style="EXPAND_SHAPE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<text id="text" x="5" y="20" width="390" height="106" autosize="" style="EXPAND" visible="true" fx="">
+				<content translate="true">&lt;B&gt;Goal: &lt;/B&gt;With the uncertainty of the financial situation, Mr. and Mrs. Johnson should try to keep daily routines in place. For example, as difficult as it might be to keep nap times at the same time, they can focus on keeping nap time consistent, or at least providing a quiet time. Children are often more compliant when they have predictable routines.</content>
+			</text>
+		</container>
+	</section>
+	<section id="list_items" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="link01" x="349" y="125" width="400" height="18" autosize="" style="LINK" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<content translate="true">Setting Limits</content>
+		</text>
+		<text id="link02" x="" y="" width="400" height="18" autosize="" style="LINK" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<content translate="true">Communication</content>
+		</text>
+		<text id="link03" x="" y="" width="400" height="18" autosize="" style="LINK" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<content translate="true">Consistency</content>
+		</text>
+		<text id="link04" x="" y="" width="400" height="18" autosize="" style="LINK" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<content translate="true">Predictability</content>
+		</text>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="swap_graphic01" x="20" y="140" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" disabled="true">
+			<file play="false" startpos="1"/>
+			<notes id="description">Khiry with friend_1Talaris Play Photos folder (an african american boy on a swing playing with a friend)</notes>
+		</graphic>
+		<graphic id="swap_graphic02" x="" y="" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" disabled="true">
+			<file play="false" startpos="1"/>
+			<notes id="description">Interstitials_Haiden_Dad_Boxes_1Talaris Play Photos folder(father and son playing with a box)</notes>
+		</graphic>
+		<graphic id="swap_graphic03" x="" y="" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" disabled="true">
+			<file play="false" startpos="1"/>
+			<notes id="description">#14 Language learning begins...Mateo DSC_7307Talaris Play Photos (father singing to son and playing a guitar)</notes>
+		</graphic>
+		<graphic id="swap_graphic04" x="" y="" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" disabled="true">
+			<file play="false" startpos="1"/>
+			<notes id="description">#200 3 yrs. DeJie - 56-61Talaris Play Photos folder ( a young girl drawing flowers on a paper)</notes>
+		</graphic>
+		<graphic id="swap_graphic05" x="" y="" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" disabled="true">
+			<file play="false" startpos="1" placeholder="true"/>
+		</graphic>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true">
+		<graphic id="misc_graphic01" x="306" y="2" width="480.95" height="184.55" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="1904" play="false" startpos="1" duration="1">rstar_popup_sizeable.swf</file>
+			<eventlist>
+				<event type="CLICK" result="HIDE" target="misc_graphic01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_text01" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_text02" result_param=""/>
+				<event type="CLICK" result="HIDE" target="misc_text03" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="326" y="67" width="263" height="" autosize="H" style="REFERENCE" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference: &lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Pediatrics, Jan. 2007&lt;/P&gt;</content>
+		</text>
+		<text id="misc_text02" x="768" y="8" width="15" height="" autosize="H" style="REFERENCE" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;X&lt;/B&gt;</content>
+		</text>
+		<text id="misc_text03" x="327" y="68" width="263" height="" autosize="H" style="REFERENCE" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Reference: &lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Hofferth, S.L., 199&lt;/P&gt;</content>
+		</text>
+		<text id="misc_text04" x="27" y="137" width="281" height="" autosize="H" style="DEFAULT_2" visible="true" fx="TITLE_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;B&gt;Family Situation:&lt;/B&gt;&lt;LI&gt;The Johnson family has a 2-year-old girl and a 4-year-old boy.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Mr. Johnson lost his job three weeks ago and the family is experiencing the resulting financial stress. &lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;Mrs. Johnson is worn down by the stress and is more impatient with her children and often lets them get away with breaking the family rules.&lt;/LI&gt;&lt;LI&gt;&lt;/LI&gt;&lt;LI&gt;The Johnson children watch several hours of television each day. As a result, Mrs. Johnson spends less time interacting with her children.&lt;/LI&gt;</content>
+		</text>
+	</section>
+</template>

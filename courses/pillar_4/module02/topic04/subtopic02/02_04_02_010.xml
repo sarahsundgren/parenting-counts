@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_listswap" view="view_listswap_expand">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoPlay" datatype="LIST" value="DEFAULT"/>
+		<settings id="orderIndependent" datatype="LIST" value="DEFAULT"/>
+		<settings id="persistInitGfx" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="eventRollover" datatype="LIST" value="DEFAULT"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+		<settings id="stopAudio" datatype="LIST" value="DEFAULT"/>
+		<settings id="offsetXY" datatype="STRING" value="0,-15"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">What Parents Can Do</content>
+	</text>
+	<text id="nav_text" x="35" y="425" width="735" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;Encouraging Verbal Communication&lt;/B&gt;.</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" expanded="true">
+		<text id="introduction" x="25" y="50" width="722" height="" autosize="H" style="INTRO" visible="true" fx="INTRO_SHOW" hidefx="INTRO_HIDE">
+			<content translate="true">No two children develop on the same schedule. The stages of speech development and the ages presented are guidelines and not rules. Below you will find a few helpful tips for parents regarding infant communication.</content>
+		</text>
+		<text id="directions" x="25" y="99" width="350" height="" autosize="H" style="DIRECTIONS" visible="true" fx="DIRECTIONS_SHOW" hidefx="DIRECTIONS_HIDE">
+			<content translate="true">Click each &lt;B&gt;Tip&lt;/B&gt; to learn more.</content>
+		</text>
+	</section>
+	<text id="description" x="482" y="119" width="343" height="" autosize="H" style="DEFAULT" visible="true" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+		<content/>
+	</text>
+	<section id="presentation_media" expanded="true">
+		<graphic id="initial_graphic" x="25" y="140" width="" height="" style="DEFAULT" visible="true" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file play="false" bytes="69020" startpos="1">02_04_02_010_01.jpg</file>
+			<notes id="description">Parents with playing with their baby</notes>
+		</graphic>
+		<audio id="initial_audio">
+			<file play="true" startpos="1" bytes="89303" duration="261">a_02_04_02_010.swf</file>
+			<transcript translate="true">Remember, no two children develop on the same schedule. The stages of speech development and the ages presented are guidelines and not rules. The development of sounds described here are for children learning English. Children speaking other languages may develop differently. Below you will find a few helpful tips for parents regarding infant communication. Click each tip to learn more.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+	</section>
+	<section id="expand_content" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="expand01" behavior="LOCK_SIZE|LOCK_XY" x="85" y="118" visible="false" fx="EXPAND_SHOW" hidefx="EXPAND_HIDE" style="">
+			<graphic id="graphic" x="0" y="0" width="489" height="102" style="EXPAND_SHAPE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<text id="text" x="5" y="22" width="487" height="82" autosize="" style="EXPAND" visible="true" fx="">
+				<content translate="true">Parents can:&lt;LI&gt;Talk to their child, right from birth. This helps build a connection with the parent and gets their child started on the path to learning language.&lt;/LI&gt;&lt;LI&gt;Play games with their child before he or she can talk. If he or she babbles, respond back.&lt;/LI&gt;</content>
+			</text>
+		</container>
+		<container id="expand02" behavior="LOCK_SIZE|LOCK_XY" x="85" y="118" visible="false" fx="EXPAND_SHOW" hidefx="EXPAND_HIDE" style="">
+			<graphic id="graphic" x="0" y="0" width="489" height="103" style="EXPAND_SHAPE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<text id="text" x="5" y="20" width="468" height="" autosize="H" style="EXPAND" visible="true" fx="">
+				<content translate="true">Parents can:&lt;LI&gt;Try not to expect perfect speech from their toddler. Learning how to make sounds correctly takes time.&lt;/LI&gt;&lt;LI&gt;Try not to criticize their child if he or she mispronounces a word. Parents can just say the word correctly to help their child learn.&lt;/LI&gt;</content>
+			</text>
+		</container>
+		<container id="expand03" behavior="LOCK_SIZE|LOCK_XY" x="85" y="118" visible="false" fx="EXPAND_SHOW" hidefx="EXPAND_HIDE" style="">
+			<graphic id="graphic" x="0" y="0" width="489" height="67" style="EXPAND_SHAPE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<text id="text" x="0" y="15" width="490" height="55" autosize="" style="EXPAND" visible="true" fx="">
+				<content translate="true">If a child is trying to say a real word, the parent can say it for the child, and see if he or she agrees that it's the right one. Younger children may know the word before they can say it.</content>
+			</text>
+		</container>
+		<container id="expand04" behavior="LOCK_SIZE|LOCK_XY" x="85" y="118" visible="false" fx="EXPAND_SHOW" hidefx="EXPAND_HIDE" style="">
+			<graphic id="graphic" x="0" y="0" width="489" height="102" style="EXPAND_SHAPE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<text id="text" x="5" y="20" width="485" height="84" autosize="" style="EXPAND" visible="true" fx="">
+				<content translate="true">Parents can:&lt;LI&gt;Help build their child's vocabulary by describing objects with lots of detail, but in short sentences.&lt;/LI&gt;&lt;LI&gt;Try not to add too many new words all at once. For example, if the child says, "Car car," the parent could say, "Yes that's a blue car!"&lt;/LI&gt;</content>
+			</text>
+			<graphic id="ref_icon02" x="293" y="53" width="" height="" style="" visible="true" fx="">
+				<file play="false" startpos="1"/>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+		<container id="expand05" behavior="LOCK_SIZE|LOCK_XY" x="85" y="118" visible="false" fx="EXPAND_SHOW" hidefx="EXPAND_HIDE" style="">
+			<graphic id="graphic" x="0" y="0" width="489" height="59" style="EXPAND_SHAPE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<text id="text" x="5" y="20" width="490" height="40" autosize="" style="EXPAND" visible="true" fx="">
+				<content translate="true">Reading to a child can expose him or her to a wide range of sounds and words. Parents can find books that are fun for both them and the child.</content>
+			</text>
+			<graphic id="ref_icon02" x="293" y="53" width="" height="" style="" visible="true" fx="">
+				<file play="false" startpos="1"/>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+		<container id="expand06" behavior="LOCK_SIZE|LOCK_XY" x="85" y="118" visible="false" fx="EXPAND_SHOW" hidefx="EXPAND_HIDE" style="">
+			<graphic id="graphic" x="0" y="0" width="489" height="55" style="EXPAND_SHAPE" visible="true" fx="">
+				<file play="false" bytes="82" startpos="1" duration="1">clear.swf</file>
+			</graphic>
+			<text id="text" x="5" y="20" width="490" height="38" autosize="" style="EXPAND" visible="true" fx="">
+				<content translate="true">Parents can help their child to hear and say language sounds by reading books together, singing songs, and learning playful nursery rhymes. </content>
+			</text>
+			<graphic id="ref_icon02" x="293" y="53" width="" height="" style="" visible="true" fx="">
+				<file play="false" startpos="1"/>
+				<eventlist>
+					<event type="CLICK" result="SHOW" target="reference02" result_param=""/>
+				</eventlist>
+			</graphic>
+		</container>
+	</section>
+	<section id="list_items" align="LEFT" spacing="0x10" autospace="true" columns="0" expanded="true">
+		<text id="link01" x="260" y="103" width="490" height="18" autosize="" style="LINK" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<content translate="true">Tip #1: Talk With Your Infant</content>
+		</text>
+		<text id="link02" x="" y="" width="490" height="18" autosize="" style="LINK" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<content translate="true">Tip #2: Don't Expect Perfection</content>
+		</text>
+		<text id="link03" x="" y="" width="490" height="18" autosize="" style="LINK" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<content translate="true">Tip #3: Offer Help</content>
+		</text>
+		<text id="link04" x="" y="" width="490" height="18" autosize="" style="LINK" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<content translate="true">Tip #4: Help Build Vocabulary</content>
+		</text>
+		<text id="link05" x="" y="" width="490" height="18" autosize="" style="LINK" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<content translate="true">Tip #5: Find Fun Books</content>
+		</text>
+		<text id="link06" x="" y="" width="490" height="18" autosize="" style="LINK" visible="true" fx="LINK_SHOW" hidefx="LINK_HIDE">
+			<content translate="true">Tip #6: Read, Sing, and Interact</content>
+		</text>
+	</section>
+	<section id="swap_graphics" align="TOP|LEFT" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<graphic id="swap_graphic01" x="25" y="140" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" disabled="true">
+			<file play="false" startpos="1" bytes="80250">02_04_02_010_02.jpg</file>
+			<notes id="description">parents smiling at talking to their infant</notes>
+		</graphic>
+		<graphic id="swap_graphic02" x="" y="" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" disabled="true">
+			<file play="false" startpos="1" bytes="72339">02_04_02_010_03.jpg</file>
+			<notes id="description">Parent talking to toddler</notes>
+		</graphic>
+		<graphic id="swap_graphic03" x="" y="" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" disabled="true">
+			<file play="false" startpos="1" bytes="58772">02_04_02_010_04.jpg</file>
+			<notes id="description">child pointing to something they want that is up high</notes>
+		</graphic>
+		<graphic id="swap_graphic04" x="" y="" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" disabled="true">
+			<file play="false" startpos="1" bytes="79616">02_04_02_010_05.jpg</file>
+			<notes id="description">child pointing to blue car with black wheels</notes>
+		</graphic>
+		<graphic id="swap_graphic05" x="" y="" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" disabled="true">
+			<file play="false" startpos="1" bytes="77560">02_04_02_010_06.jpg</file>
+			<notes id="description">parent and 14-month old reading</notes>
+		</graphic>
+		<graphic id="swap_graphic06" x="" y="" width="" height="" style="SWAP" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" disabled="true">
+			<file play="false" startpos="1" bytes="79040">02_04_02_010_08.jpg</file>
+			<notes id="description">12-month old singing with their parent</notes>
+		</graphic>
+	</section>
+	<section id="miscellaneous_graphics" expanded="true"/>
+	<section id="reference_links" expanded="true">
+		<graphic id="ref_icon01" x="10" y="420" width="50" height="50" style="LINK_SWF" visible="true" fx="TEXT_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="2690" play="false" startpos="1">icon_pro_gray.png</file>
+			<eventlist>
+				<event type="CLICK" result="SHOW" target="reference01" result_param=""/>
+			</eventlist>
+		</graphic>
+	</section>
+	<section id="reference_popups" align="" spacing="0" autospace="false" columns="0" exclusive="true" expanded="true">
+		<container id="reference01" behavior="STRICT|LOCK_SIZE" x="1" y="235" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE" style="">
+			<graphic id="box" x="0" y="0" behavior="LOCK_XY" width="480" height="184" style="DEFAULT" visible="true">
+				<file bytes="1958" play="false" duration="1" startpos="1">pro_popup_sizeable.swf</file>
+			</graphic>
+			<graphic id="close" x="400" y="5" behavior="" width="70" height="32" style="CONTROLS" visible="true">
+				<file bytes="4380" play="false" startpos="1" duration="23">btn_close.swf</file>
+			</graphic>
+			<text id="misc_text02" x="20" y="60" width="416" height="" autosize="H" style="REFERENCE" visible="true">
+				<content translate="true">If parents are concerned that their child has difficulty with speech, encourage them to talk to the child's healthcare provider.</content>
+			</text>
+		</container>
+	</section>
+</template>

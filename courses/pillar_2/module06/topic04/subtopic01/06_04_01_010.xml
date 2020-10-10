@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template version="3.2" class="template_presentation" view="view_presentation">
+	<section id="meta-data">
+		<notes id="page-description"/>
+		<notes id="programmed-events"/>
+		<notes id="programming-options"/>
+	</section>
+	<configuration id="general_settings">
+		<settings id="autoNav" datatype="LIST" value="DEFAULT"/>
+		<settings id="customEvents" datatype="BOOLEAN" value="false"/>
+		<settings id="setComplete" datatype="LIST" value="DEFAULT"/>
+	</configuration>
+	<text id="title" x="25" y="18" width="730" height="" autosize="H" style="TITLE" visible="true" fx="TITLE_SHOW" hidefx="TITLE_HIDE">
+		<content translate="true">Parents and Discipline</content>
+	</text>
+	<text id="nav_text" x="322" y="425" width="457" height="" autosize="H" style="PROMPT" visible="false" fx="PROMPT_SHOW" hidefx="PROMPT_HIDE">
+		<content translate="true">&lt;P ALIGN="LEFT"&gt;Click a &lt;B&gt;Lesson&lt;/B&gt; or &lt;B&gt;Activity&lt;/B&gt; to learn more about &lt;B&gt;What Parents Can Do&lt;/B&gt;.&lt;/P&gt;</content>
+	</text>
+	<section id="presentation_text" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<text id="text01" x="25" y="50" width="329" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">When disciplining a child of any age, parents should first think about how they currently discipline and how they would like to discipline.</content>
+		</text>
+		<text id="text02" x="25" y="110.8" width="365" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Have parents ask themselves the following questions: &lt;LI&gt;What method do you use to help change your child's behavior? &lt;/LI&gt;&lt;LI&gt;How does your child react to the methods you use? &lt;/LI&gt;&lt;LI&gt;Are you happy with the outcomes of the discipline methods you use? &lt;/LI&gt;&lt;LI&gt;Is your child learning appropriate behavior?&lt;/LI&gt;</content>
+		</text>
+		<text id="text03" x="25" y="234" width="353" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">When children get attention for behaviors that parents don't like, they often like the additional attention and repeat the behaviors.</content>
+		</text>
+		<text id="text04" x="25" y="294.8" width="338" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Children make more demands for a parent's attention than a parent can respond to. To ignore a behavior requires an ability to:&lt;LI&gt;Remain calm&lt;/LI&gt;&lt;LI&gt;Ensure the child's safety&lt;/LI&gt;&lt;LI&gt;Be patient while the child recognizes you will not respond&lt;/LI&gt;</content>
+		</text>
+		<text id="text05" x="25" y="50" width="371" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">Here are a few examples of behaviors that can be ignored: &lt;LI&gt;Saying silly words or potty talk&lt;/LI&gt;&lt;LI&gt;Singing loudly&lt;/LI&gt;&lt;LI&gt;Banging a spoon&lt;/LI&gt;</content>
+		</text>
+		<text id="text06" x="25" y="135.2" width="334" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;B&gt;Key Message:&lt;/B&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;Consistency and predictability are the cornerstones of discipline.&lt;/P&gt;</content>
+		</text>
+	</section>
+	<section id="presentation_graphics" align="" spacing="0" autospace="false" columns="0" exclusive="false" expanded="true">
+		<graphic id="graphic01" x="430" y="50" width="" height="" style="GRAPHIC" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file bytes="87839" startpos="1" play="false">06_04_01_010_01.jpg</file>
+			<notes id="description">parent smiling at child</notes>
+		</graphic>
+		<graphic id="graphic02" x="336" y="93" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+		<graphic id="graphic03" x="430" y="50" width="" height="" style="GRAPHIC" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="74083">06_04_01_010_02.jpg</file>
+			<notes id="description">child tugging on a parents shirt as parent talks on the phone</notes>
+		</graphic>
+		<graphic id="graphic04" x="370" y="50" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+		</graphic>
+		<graphic id="graphic05" x="430" y="50" width="" height="" style="GRAPHIC" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false" bytes="68607">06_04_01_010_03.jpg</file>
+			<notes id="description">child making funny face istock File #: 5472890</notes>
+		</graphic>
+		<graphic id="graphic06" x="370" y="49" width="" height="" style="DEFAULT" visible="false" fx="GRAPHIC_SHOW" hidefx="GRAPHIC_HIDE">
+			<file startpos="1" play="false"/>
+			<notes id="description">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</notes>
+		</graphic>
+	</section>
+	<section id="presentation_audio" expanded="true">
+		<audio id="narration01">
+			<file play="true" duration="93" bytes="31647" startpos="1">a_06_04_01_010_01.swf</file>
+			<transcript translate="true">When disciplining a child of any age, parents should first think about how they currently discipline and how they would like to discipline.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration02">
+			<file play="false" duration="206" bytes="70547" startpos="1">a_06_04_01_010_02.swf</file>
+			<transcript translate="true">Have parents ask themselves the following questions: What method do you use to help change your child's behavior? How does your child react to the methods you use? Are you happy with the outcomes of the discipline methods you use? Is your child learning appropriate behavior?</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration03">
+			<file play="false" duration="93" bytes="31543" startpos="1">a_06_04_01_010_03.swf</file>
+			<transcript translate="true">When children get attention for behaviors that parents don't like, they often like the additional attention and repeat the behaviors.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration04">
+			<file play="false" startpos="1" bytes="58155" duration="170">a_06_04_01_010_04.swf</file>
+			<transcript translate="true">Children make more demands for a parent's attention than a parent can respond to. To ignore a behavior requires an ability to remain calm, to ensure the child's safety, and to be patient while the child recognizes you will not respond.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+		</audio>
+		<audio id="narration05">
+			<file play="false" startpos="1" bytes="36599" duration="107">a_06_04_01_010_05.swf</file>
+			<transcript translate="true">Here are a few examples of behaviors that can be ignored: Saying silly words or potty talk, singing loudly, and banging a spoon.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text03" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text04" result_param=""/>
+			</eventlist>
+		</audio>
+		<audio id="narration06">
+			<file play="false" startpos="1" bytes="46307" duration="136">a_06_04_01_010_06.swf</file>
+			<transcript translate="true">Let's now go over the Key Message before we begin discussing parents and discipline. The Key Message is: Consistency and predictability are the cornerstones of discipline.</transcript>
+			<notes id="mentor-character">Narrator:</notes>
+			<eventlist>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text01" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text02" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text03" result_param=""/>
+				<event type="PLAYHEAD_CHANGE" pos="1" result="HIDE" target="text04" result_param=""/>
+			</eventlist>
+		</audio>
+	</section>
+	<section id="miscellaneous_text" expanded="true">
+		<text id="misc_text01" x="-35" y="249" width="350" height="" autosize="H" style="DEFAULT" visible="false" fx="TEXT_SHOW" hidefx="TEXT_HIDE">
+			<content translate="true">&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;&lt;P ALIGN="LEFT"&gt;&lt;/P&gt;</content>
+		</text>
+	</section>
+</template>
